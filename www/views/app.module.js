@@ -24,6 +24,8 @@
                     controller: 'AppCtrl',
                     controllerAs: 'ac'
                 })
+
+            $urlRouterProvider.otherwise('/app/home')
         })
 
         .run(function ($ionicPlatform) {
