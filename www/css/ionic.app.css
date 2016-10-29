@@ -9831,22 +9831,17 @@ body {
   width: 100%; }
   body * {
     font-family: 'Reglo-Bold';
-    background-color: transparent !important; }
+    background-color: transparent !important;
+    color: white; }
   body .main-content > .pane {
     width: 1437px;
-    margin: 0 auto;
-    background-image: url("https://airandstyle.com/wp-content/uploads/2016/09/Overview_Opel_AirStyle_Innsbruck_2016_web-51-1.jpg");
-    filter: grayscale(100%);
-    background-position-x: -216px;
-    background-size: 141%;
-    background-position-y: -297px; }
-
-.content-view > ion-content {
-  background-color: rgba(0, 0, 0, 0.8) !important; }
+    margin: 0 auto; }
 
 nav {
   padding: 4em 4em 0 0;
   background-color: rgba(0, 0, 0, 0.8) !important;
+  position: absolute;
+  width: 100%;
   text-align: right; }
   nav .as-nav * {
     font-size: 1em;
@@ -9854,3 +9849,6 @@ nav {
     margin-left: 5.14em; }
   nav .as-nav i {
     font-size: 1.3em; }
+
+.home-view * ion-slide {
+  height: 750px; }
