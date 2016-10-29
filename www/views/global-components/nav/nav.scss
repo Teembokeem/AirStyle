@@ -1,0 +1,17 @@
+nav {
+    padding: 4em 4em 0 0;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+
+    text-align: right;
+    .as-nav {
+        * {
+            font-size: 1em;
+            color: white !important;
+            margin-left: 5.14em;
+        }
+
+        i {
+            font-size: 1.3em;
+        }
+    }
+}

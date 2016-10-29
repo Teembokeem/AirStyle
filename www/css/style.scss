@@ -1,0 +1,37 @@
+/* Empty. Add your own CSS if you like */
+/* Empty. Add your own CSS if you like */
+.nopad {
+    padding: 0;
+    // color: white;
+}
+
+@font-face {
+	font-family: 'Reglo-Bold';
+	src: url('../fonts/Reglo-Bold.otf') format('opentype');
+	font-weight: 300;
+	font-style: normal;
+}
+body {
+    background-color: black;
+    width: 100%;
+    // height: 750px;
+
+    * {
+        font-family: 'Reglo-Bold';
+        background-color: transparent !important;
+    }
+
+    .main-content {
+       > .pane {
+            width: 1437px;
+            margin: 0 auto;
+            background-image: url('https://airandstyle.com/wp-content/uploads/2016/09/Overview_Opel_AirStyle_Innsbruck_2016_web-51-1.jpg');
+            filter: grayscale(100%);
+            background-position-x: -216px;
+            background-size: 141%;
+            background-position-y: -297px;
+        }
+
+    }
+
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<title>Template</title>
+
+	<link rel="manifest" href="manifest.json">
+
+	<!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+	<!--<link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">-->
+
+	<!--IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above-->
+	<link href="css/ionic.app.css" rel="stylesheet">
+
+	<!-- ionic/angularjs js -->
+	<script src="lib/ionic/js/ionic.bundle.js"></script>
+
+	<!-- ngCordova -->
+	<script src="lib/ngCordova/dist/ng-cordova.js"></script>
+
+	<!-- cordova script (this will be a 404 during development) -->
+	<!--<script src="cordova.js"></script>-->
+
+	<!-- THIRD PARTY -->
+	<script src="lib/a0-angular-storage/dist/angular-storage.min.js"></script>
+
+	<!-- CORE -->
+
+	<!--CONFIGS-->
+	<script src="core/configs/configs.module.js"></script>
+	<script src="core/configs/log.config.js"></script>
+
+
+	<!--DIRECTIVES-->
+	<script src="core/directives/directives.module.js"></script>
+
+	<!--SERVICES-->
+	<script src="core/services/services.module.js"></script>
+
+	<!-- Auth -->
+	<script src="core/services/Auth/Module.Auth.js"></script>
+	<script src="core/services/Auth/Dispatcher.Auth.js"></script>
+	<script src="core/services/Auth/Interceptor.Auth.js"></script>
+	<script src="core/services/Auth/Storage.Auth.js"></script>
+	<script src="core/services/Auth/Schema.Auth.js"></script>
+	<script src="core/services/Auth/Service.Auth.js"></script>
+
+
+	<!--API MODULES-->
+	<script src="core/api/api.base.module.js"></script>
+
+	<!--BASELINE DEPS-->
+	<script src="core/services/url.service.js"></script>
+
+	<!-- ORDERS -->
+	<!--<script src="core/api/order/Module.order.api.js"></script>
+	<script src="core/api/order/Manager.order.api.js"></script>
+	<script src="core/api/order/Dispatcher.order.api.js"></script>
+	<script src="core/api/order/Schema.order.api.js"></script>-->
+
+	<!--VIEWS-->
+
+	<!--APP -->
+	<script src="views/app.module.js"></script>
+	<script src="views/app.controller.js"></script>
+
+	<!-- GLOBAL COMPONENTS -->
+	<script src="views/global-components/nav/Component.nav.js"></script>
+	<script src="views/global-components/content/Module.content.view.js"></script>
+	<script src="views/global-components/content/Controller.content.view.js"></script>
+
+	<!--LOGIN-->
+	<!--<script src="views/login/Module.login.view.js"></script>
+	<script src="views/login/Config.login.view.js"></script>
+	<script src="views/login/Controller.login.view.js"></script>-->
+
+	<!-- HOME -->
+	<script src="views/home/Module.home.view.js"></script>
+	<script src="views/home/Controller.home.view.js"></script>
+
+
+	<!-- COMPONENTS -->
+	<!--<script src="views/home/components/order/order.component.js"></script>
+	<script src="views/home/components/home-securities-id-scan/home-securities-id-scan.directive.js"></script>
+	<script src="views/home/components/home-securities-verify-card/home-securities-verify-card.directive.js"></script>
+	<script src="views/home/components/home-securities-sign/home-securities-sign.directive.js"></script>
+	<script src="views/home/components/home-securities-success/home-securities-success.directive.js"></script>
+	<script src="views/home/components/delivery-fail/delivery-fail.component.js"></script>-->
+
+	<!--  STATE CONTROLLERS -->
+
+</head>
+
+<body ng-app="Template">
+	<ion-nav-view class="main-content"></ion-nav-view>
+</body>
+
+</html>
