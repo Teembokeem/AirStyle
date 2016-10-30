@@ -1,7 +1,89 @@
 .home-view {
-    * {
-        ion-slide {
-            height: 750px;
+    ion-content {
+        .scroll {
+            home-carousel {
+                > .container {
+                    height: 53.51em;
+                    .row .col {
+                        .slider {
+                            .slider-slides {
+                                ion-slide {
+                                    height: 53.51em;
+                                    display: flex;
+                                    flex-flow: row wrap;
+                                    justify-content: center;
+                                    align-items: center;
+
+                                    .container {
+                                        .title {
+                                            height: 69px;
+                                            .col span {
+                                                font-size: 64px;
+                                            }
+                                        }
+
+                                        .content {
+                                            height: 59px;
+                                            margin-bottom: 32px;
+                                            .col {
+                                                text-align: center;
+                                                span {
+                                                    font-family: 'Apercu';
+                                                    letter-spacing: 6px;
+                                                    font-weight: bold;
+                                                    font-size: 3.57em;
+                                                    color: #828282;
+                                                }
+
+                                            }
+                                        }
+
+                                        .buttons {
+                                            .col {
+                                                    display: flex;
+                                                    flex-flow: row wrap;
+                                                    justify-content: center;
+
+                                                button {
+                                                   width: 166px;
+                                                   height: 56px;
+                                                   font-size: 22px;
+                                                   letter-spacing: 1.8px;
+                                                }
+
+                                                button:first-child {
+                                                    border: solid 2px $as-blue;
+                                                    margin-right: 18px;
+                                                }   
+
+                                                button:last-child {
+                                                    border: none;
+                                                    background-color: $as-blue !important;
+                                                    color: black;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .slider-pager {
+                                .slider-pager-page {
+                                    min-width: 20px !important;
+                                    min-height: 20px !important;
+                                    border: 2px solid white;
+                                    margin-right: 20px;
+                                    i {
+                                        display: none;
+                                         // background-color: white !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
         }
     }
 }

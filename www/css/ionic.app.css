@@ -9826,6 +9826,12 @@ a.button {
   font-weight: 300;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Apercu';
+  src: url("../fonts/Apercu.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   background-color: black;
   width: 100%; }
@@ -9850,5 +9856,49 @@ nav {
   nav .as-nav i {
     font-size: 1.3em; }
 
-.home-view * ion-slide {
-  height: 750px; }
+.home-view ion-content .scroll home-carousel > .container {
+  height: 53.51em; }
+  .home-view ion-content .scroll home-carousel > .container .row .col .slider .slider-slides ion-slide {
+    height: 53.51em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; }
+    .home-view ion-content .scroll home-carousel > .container .row .col .slider .slider-slides ion-slide .container .title {
+      height: 69px; }
+      .home-view ion-content .scroll home-carousel > .container .row .col .slider .slider-slides ion-slide .container .title .col span {
+        font-size: 64px; }
+    .home-view ion-content .scroll home-carousel > .container .row .col .slider .slider-slides ion-slide .container .content {
+      height: 59px;
+      margin-bottom: 32px; }
+      .home-view ion-content .scroll home-carousel > .container .row .col .slider .slider-slides ion-slide .container .content .col {
+        text-align: center; }
+        .home-view ion-content .scroll home-carousel > .container .row .col .slider .slider-slides ion-slide .container .content .col span {
+          font-family: 'Apercu';
+          letter-spacing: 6px;
+          font-weight: bold;
+          font-size: 3.57em;
+          color: #828282; }
+    .home-view ion-content .scroll home-carousel > .container .row .col .slider .slider-slides ion-slide .container .buttons .col {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center; }
+      .home-view ion-content .scroll home-carousel > .container .row .col .slider .slider-slides ion-slide .container .buttons .col button {
+        width: 166px;
+        height: 56px;
+        font-size: 22px;
+        letter-spacing: 1.8px; }
+      .home-view ion-content .scroll home-carousel > .container .row .col .slider .slider-slides ion-slide .container .buttons .col button:first-child {
+        border: solid 2px #40caff;
+        margin-right: 18px; }
+      .home-view ion-content .scroll home-carousel > .container .row .col .slider .slider-slides ion-slide .container .buttons .col button:last-child {
+        border: none;
+        background-color: #40caff !important;
+        color: black; }
+  .home-view ion-content .scroll home-carousel > .container .row .col .slider .slider-pager .slider-pager-page {
+    min-width: 20px !important;
+    min-height: 20px !important;
+    border: 2px solid white;
+    margin-right: 20px; }
+    .home-view ion-content .scroll home-carousel > .container .row .col .slider .slider-pager .slider-pager-page i {
+      display: none; }
