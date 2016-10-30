@@ -1,0 +1,26 @@
+<div class="container">
+	<div class="row section-title">
+		<div class="title">
+			<span>FEATURED MERCH</span>
+		</div>
+	</div>
+	<div class="row merchandise">
+		<div ng-repeat="merch in cc.merchandiseContent" class="container merchandise-container">
+			<div class="image">
+				<img src="{{merch.image}}" alt="">
+			</div>
+			<div class="price">
+				<span>$</span>
+				<span>{{merch.price}}</span>
+			</div>
+			<div class="name">
+				<span>{{merch.name}}</span>
+			</div>
+		</div>
+	</div>
+	<div class="row more">
+		<div class="col">
+			<button>MORE MERCH</button>
+		</div>
+	</div>
+</div>
