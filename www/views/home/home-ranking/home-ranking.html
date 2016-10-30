@@ -1,0 +1,22 @@
+<div class="container nopad">
+	<div class="section-title">
+		<span>RIDERS + RANKINGS</span>
+	</div>
+	<div ng-repeat="player in cc.playerContent" class="container player-container nopad" style="background: url({{player.image}})">
+		<div class="container nopad">
+			<div class="number">
+				<span>
+                    0{{$index + 1}}
+
+                </span>
+			</div>
+			<div class="name">
+				<span>{{player.name.first}}</span>
+				<span>{{player.name.last}}</span>
+			</div>
+		</div>
+	</div>
+	<div class="more">
+		<button>MORE RIDERS + RANKINGS</button>
+	</div>
+</div>
