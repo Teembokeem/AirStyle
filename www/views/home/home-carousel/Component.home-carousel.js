@@ -32,7 +32,7 @@
                             dest: 'app.there'
                         }
                     ],
-                    image: 'img/slide1.jpeg'
+                    image: 'img/slide1.jpg'
                 },
                 {
                     title: 'AIR + STYLE LOS ANGELES FEBRUARY 18 + 19',
@@ -43,7 +43,7 @@
                             dest: 'app.another'
                         }
                     ],
-                    image: 'img/slide2.jpeg'
+                    image: 'img/slide2.jpg'
                 }
             ]
         }

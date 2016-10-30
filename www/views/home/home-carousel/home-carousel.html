@@ -1,8 +1,10 @@
-<div class="container">
-	<div class="row">
-		<div class="col">
+<div class="container nopad">
+	<div class="row nopad">
+		<div class="col nopad">
 			<ion-slide-box>
 				<ion-slide ng-repeat="slide in cc.slideContent">
+					<div class="hero-image" style="background: url({{slide.image}})"></div>
+					<div class="darken"></div>
 					<div class="container">
 						<div class="row title">
 							<div class="col">
