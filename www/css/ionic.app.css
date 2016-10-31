@@ -9854,14 +9854,20 @@ nav {
     color: white !important;
     margin-right: 72px; }
   nav .as-nav i {
-    font-size: 1.3em; }
+    font-size: 1.3em;
+    margin-right: 0; }
   nav .as-nav a:first-child {
     margin-left: 57px;
     width: 60px;
     height: 89px;
-    margin-right: 523px; }
+    margin-right: 523px;
+    position: absolute; }
     nav .as-nav a:first-child img {
-      margin-right: 0; }
+      margin-right: 0;
+      position: absolute;
+      bottom: 1.02em; }
+  nav .as-nav a:nth-child(2) {
+    margin-left: 640px; }
 
 .home-view ion-content .scroll home-carousel {
   display: block; }
@@ -10161,10 +10167,53 @@ nav {
   .home-view ion-content .scroll home-branding .container .shapes-container {
     width: 100%;
     height: 245px; }
-    .home-view ion-content .scroll home-branding .container .shapes-container .shapes span {
-      font-size: 100px; }
+    .home-view ion-content .scroll home-branding .container .shapes-container .col .triangle {
+      left: 10px;
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid #f9fe17; }
+      .home-view ion-content .scroll home-branding .container .shapes-container .col .triangle .empty {
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        border-top: 13px solid black;
+        position: relative;
+        right: 0.895em;
+        bottom: 1.2em; }
+    .home-view ion-content .scroll home-branding .container .shapes-container .col .rectangle-1 {
+      width: 15.6px;
+      height: 37.8px;
+      border: solid 4px #f9fe17; }
+    .home-view ion-content .scroll home-branding .container .shapes-container .col .rectangle-2 {
+      width: 24.4px;
+      height: 59.1px;
+      border: solid 4px #62ff00; }
+    .home-view ion-content .scroll home-branding .container .shapes-container .col .rectangle-fill {
+      width: 10.4px;
+      height: 49.4px;
+      background-color: #40caff !important; }
+    .home-view ion-content .scroll home-branding .container .shapes-container .col .a-1 span {
+      font-size: 4em;
+      color: #62ff00 !important; }
+    .home-view ion-content .scroll home-branding .container .shapes-container .col .a-2 span {
+      font-size: 2em;
+      color: #40caff !important; }
+    .home-view ion-content .scroll home-branding .container .shapes-container .col .t-1 span {
+      font-size: 2em;
+      letter-spacing: -0.2em;
+      color: #62ff00; }
+    .home-view ion-content .scroll home-branding .container .shapes-container .col .plus span {
+      font-size: 4em;
+      text-shadow: #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px,    #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px;
+      color: black !important; }
   .home-view ion-content .scroll home-branding .container .logo-container .logo span {
-    font-size: 100px; }
+    font-family: 'Apercu';
+    font-size: 100px;
+    color: black !important;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-shadow: #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px,    #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px; }
 
 .home-view ion-content .scroll home-footer > .container {
   margin-top: 61px;
