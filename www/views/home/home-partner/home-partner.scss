@@ -1,0 +1,37 @@
+home-partner {
+    > .container {
+        margin-top: 108px;
+
+        .section-title {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 60px;
+
+            .title {
+                    width: 172px;
+                height: 48px;
+                border-bottom: 8px solid $as-green;
+                padding-bottom: 10px;
+
+                span {
+                    font-size: 40px;
+                    position: relative;
+                }
+            }
+        }
+
+        .partner-container {
+            justify-content: center;
+
+            .container {
+                .row {
+                    .partner:nth-child(-n + 5) {
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

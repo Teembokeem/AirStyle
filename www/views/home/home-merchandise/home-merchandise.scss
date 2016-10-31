@@ -1,0 +1,101 @@
+ home-merchandise {
+    > .container {
+        .section-title {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 60px;
+
+            .title {
+                height: 66px;
+                width: 291px;
+                border-bottom: 8px solid $as-yellow;
+                padding-bottom: 10px;
+
+                span {
+                    font-size: 40px;
+                    position: relative;
+                    top: 15px;
+                }
+            }
+        }
+
+        .merchandise {
+            display: flex;
+            justify-content: center;
+            .merchandise-container {
+                margin-right: 30px;
+                width: 375px;
+                height: 452px;
+                background-position:center;
+                background-color: white !important;
+                justify-content: center;
+
+                .image {
+                    width: 100%;
+                    margin-top: 45px;
+                    text-align: center;
+                    img {
+                        width: 90%;
+                    }
+                }
+
+                .price {
+                    width: 107px;
+                    height: 61px;
+                    background-color: $as-yellow !important;
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    bottom: 321px;
+                    left: 268px;
+
+                    span {
+                        font-size: 26px;
+                        position: relative;
+                        color: black !important;
+                    }
+
+                    span:first-child {
+                        font-family: 'Lucida Grande';
+                    }
+
+                }
+
+                .name {
+                    position: relative;
+                    text-align: center;
+                    bottom: 60px;
+                    span {
+                        font-family: 'Apercu';
+                        font-size: 30px;
+                        font-weight: bold;
+                        color: black !important;
+                    }
+
+                }
+            }   
+        }
+
+        .more {
+            margin-top: 54px;
+            justify-content: center;
+            display: flex;
+
+            .col {
+                max-width: 135px !important;
+                max-height: 47px !important;
+                border: 3px solid white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                button {
+                    font-size: 18px;
+                    border: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+home-ranking {
+    > .container {
+        .section-title {
+            width: 330px;
+            height: 60px;
+            border-bottom: 8px solid $as-blue;
+            position: absolute;
+            right: 129px;
+
+            span {
+                position: relative;
+                top: 10px;
+                font-size: 40px;
+            }
+        }
+
+        .player-container {
+            width: 359.6px;
+            height: 474.3px;
+            border: solid 8px white;
+            background-position: center !important;
+            position: relative !important;
+            * {
+                color: black !important;
+
+            }
+
+            .container {
+                width: 221.3px;
+                height: 152.6px;
+                background-color: $as-blue !important;
+                position: relative;
+                top: 136px;
+                left: 323px;
+
+                .number {
+                    top: 17.6px;
+                    left: 15px;
+                    border-bottom: 4px solid #f9fe17;
+                    width: 25px;
+                    margin-bottom: 40px;
+                    position:relative;
+                    span {
+                        font-size: 22px;
+                        
+                    }
+                }
+
+                .name {
+                    text-align: left;
+                    padding-left:15px;
+                    
+                    display: block;
+                    span {
+                        display: block;
+                        font-family: 'Apercu';
+                        font-weight: 500;
+                        font-size: 40px;
+                    }
+
+                    span:first-child {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+
+        }
+
+        .more {
+            width: 231px;
+            height: 47px;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border: 3px solid white;
+            position: relative;
+            left: 1080px;
+            bottom: 384px;
+            button {
+                border: none;
+                font-size: 18px;
+            }
+        }
+
+        div:nth-child(2) {
+            left: 129px;
+        }
+
+        div:nth-child(3) {  
+            left: 850px;
+            top: -260px;
+        }
+
+        div:nth-child(4) {  
+            left: 245px;
+            top: -297px;
+        }
+    }
+}

@@ -1,0 +1,114 @@
+home-branding {
+    .container {
+        margin-top: 80px;
+        * {
+            justify-content: center;
+        }
+        .shapes-container {
+            width: 100%;
+            height: 245px;
+            * {
+                .triangle {
+                    left:10px;
+                    width: 0; 
+                    height: 0; 
+                    border-left: 20px solid transparent;
+                    border-right: 20px solid transparent;
+                    border-top: 20px solid $as-yellow;
+
+                    .empty {
+                        border-left: 13px solid transparent;
+                        border-right: 13px solid transparent;
+                        border-top: 13px solid black;
+                        position: relative;
+                        right: 0.895em;
+                        bottom: 1.2em;
+                    }
+                }
+
+                .rectangle-1 {
+                    width: 15.6px;
+                    height: 37.8px;
+                    border: solid 4px $as-yellow;
+                }
+
+                .rectangle-2 {
+                        width: 24.4px;
+                    height: 59.1px;
+                    border: solid 4px $as-green;
+                }
+
+                .rectangle-fill {
+                    width: 10.4px;
+                    height: 49.4px;
+                    background-color: $as-blue !important;
+                }
+
+                .a-1 {
+                    span {
+                        font-size: 4em;
+                        color: $as-green !important;
+                    }
+                }
+                .a-2 {
+                    span {
+                        font-size: 2em;
+                        color: $as-blue !important;
+
+                    }
+                }
+
+                .t-1 {
+                    span {
+                        font-size: 2em;
+                        letter-spacing: -0.2em;
+                        color: $as-green;
+                    }
+
+                }
+
+                .plus {
+                    span {
+                        font-size: 4em;
+                        text-shadow: 
+                            #fff 0px 0px 1px,   
+                            #fff 1px 1px 1px,   
+                            #fff 1px -1px 1px,
+                            #fff -1px 1px 1px,   
+                            #fff -1px -1px 1px,   
+                            #fff 0px 0px 1px,   
+                            #fff 1px 1px 1px,   
+                            #fff 1px -1px 1px,
+                            #fff -1px 1px 1px,   
+                            #fff -1px -1px 1px;
+                        color: black !important;
+
+                    }
+                }
+            }
+        }
+
+        .logo-container {
+            .logo {
+                span {
+                    font-family: 'Apercu';
+                    font-size: 100px;
+                    color: black !important;
+                    font-weight:bold;
+                    letter-spacing: 0.1em;
+                    text-shadow: 
+                            #fff 0px 0px 1px,   
+                            #fff 1px 1px 1px,   
+                            #fff 1px -1px 1px,
+                            #fff -1px 1px 1px,   
+                            #fff -1px -1px 1px,   
+                            #fff 0px 0px 1px,   
+                            #fff 1px 1px 1px,   
+                            #fff 1px -1px 1px,
+                            #fff -1px 1px 1px,   
+                            #fff -1px -1px 1px;
+                }
+            }
+        }
+    }
+}
