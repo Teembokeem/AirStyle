@@ -29,7 +29,7 @@
                         },
                         {
                             label: 'BUY NOW',
-                            dest: 'app.there'
+                            dest: 'app.content.ticket'
                         }
                     ],
                     image: 'img/slide1.jpg'
