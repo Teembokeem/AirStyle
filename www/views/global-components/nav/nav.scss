@@ -13,6 +13,7 @@ nav {
 
         i {
             font-size: 1.3em;
+            margin-right: 0;
         }
 
         a:first-child {
@@ -20,10 +21,18 @@ nav {
             width: 60px;
             height: 89px;
             margin-right: 523px;
+                position: absolute;
 
             img {
                 margin-right: 0;
+                position: absolute;
+                     bottom: 1.02em;
+                
             }    
+        }
+
+        a:nth-child(2) {
+                margin-left: 640px;
         }
     }
 }
