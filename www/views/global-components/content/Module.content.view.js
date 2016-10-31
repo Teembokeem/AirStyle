@@ -5,7 +5,8 @@
     angular.module('Content.view.module',
         [
             'Services',
-            'Home.view.module'
+            'Home.view.module',
+            'Ticket.view.module'
         ])
 
         .config(function ($stateProvider, $urlRouterProvider) {
