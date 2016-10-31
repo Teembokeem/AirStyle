@@ -1,0 +1,29 @@
+ticket-title {
+    color: red !important;
+    .container {
+        margin-top: 70px;
+
+        .row:first-child {
+            .col {
+                text-align: center;
+                span {
+                    font-size: 64px;
+                    border-bottom: 8px solid $as-yellow;
+                }
+            }
+        }
+
+        .row:nth-child(2) {
+            margin-top:15px;
+            .col {
+                text-align: center;
+                span {
+                    font-size: 26px;
+                    font-family: 'Apercu';
+                    font-weight: bold;
+                    letter-spacing: 4px;
+                }
+            }
+        }
+    }
+}
