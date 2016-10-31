@@ -1,0 +1,27 @@
+<div class="container">
+	<div ng-repeat="option in cc.itemsContent" class="item row">
+		<div class="col expand">
+			<div class="circle">
+				<span ng-if="cc.showContent != $index">+</span>
+				<span ng-if="cc.showContent == $index">-</span>
+			</div>
+		</div>
+		<div class="col description">
+			<div class="row option-name">
+				<div class="col"><span>{{option.type}}</span></div>
+			</div>
+			<div class="row">
+				<div class="col"><span ng-repeat="descriptor in option.short_description">{{descriptor}} {{$index == option.short_description.length - 1 ? '' : '|'}} </span></div>
+			</div>
+		</div>
+		<div class="col pricing">
+			<span class="price">  &#x20AC; {{option.price}}</span>
+		</div>
+		<div class="col quantity">
+			<select ng-model="cc.selectedOption.quantity" ng-change="cc.chooseOption()">
+				<option selected value="0"></option>
+				<option ng-repeat="number in 5" value="number"></option>
+			</select>
+		</div>
+	</div>
+</div>
