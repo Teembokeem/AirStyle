@@ -10,14 +10,18 @@
             controllerAs: 'cc'
         })
 
-    ticketItemsCtrl.$inject = ['$log'];
+    ticketItemsCtrl.$inject = ['$log', '$rootScope'];
 
-    function ticketItemsCtrl($log) {
+    function ticketItemsCtrl($log, $rootScope) {
         var cc = this;
 
         cc.$onInit = function() {
             $log.instantiate('Ticket Items', 'Component Controller');
 
+
+            cc.numbers = [0, 1, 2, 3, 4, 5];
+            cc.selectedOption = 0;
+            cc.cart = {};
             cc.itemsContent = [
                 {
                     type: 'EARLY BIRD',
@@ -182,6 +186,28 @@
                     }
                 },
             ]
+            cc.itemsContent.map(function(item, idx) {
+                cc.cart[idx] = '';
+            })
+
+            cc.chooseOption = chooseOption;
+
+            function chooseOption(idx, qty) {
+                console.log("dsajfdsjdsla")
+                console.log(cc.cart)
+                runCartTotal()
+                $rootScope.$broadcast('cartUpdate', cc.cart);
+            }
+
+            function runCartTotal() {
+                for (var key in cc.cart) {
+                    if (!cc.cart.total) cc.cart.total = 0;
+                    cc.cart.total += cc.itemsContent[key].price * cc.cart[key]
+                };
+
+                return cc.cart
+            };
+
         }
     }
 })();
