@@ -1,0 +1,54 @@
+ticket-footer {
+    .container {
+        margin-top: 8.07em;
+        height: 7.785em;
+        background-color: white !important;
+        .row {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            .quantity-container {
+                position:relative;
+                left: 42.14em;
+                span {
+                    color:#828282;
+                    font-size: 2.14em;
+                }
+            }
+
+            .pricing {
+                position: relative;
+                left: 39em;
+                .label {
+                    color:#828282;
+                    font-size: 2.14em;
+                }
+
+                .price {
+                    color:black;
+                    font-size: 2.14em;
+                }
+            }
+
+            .action {
+                position: relative;
+                left: 19.5em;
+                .button-container {
+                    width: 11.86em;
+                    height: 4em;
+                    background-color: $as-blue !important;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    button {
+                        text-align: center;
+                        font-size: 1.57em;
+                        border: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+}
