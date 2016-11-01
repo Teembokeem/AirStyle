@@ -50,24 +50,33 @@ body {
 
 }
 
-// @media (max-width:413px) and (min-width:321px) {
-//     body {
-//         .main-content {
-//             > .pane {
-//                 width: 100%;
+@media (max-width:413px) and (min-width:321px) {
+    body {
+        .main-content {
+            > .pane {
+                width: 100%;
 
-//                 * {
-//                     home-schedule {
-//                        > .container {
-//                            .row {
-//                                .schedule {
-//                                    display: block;
-//                                }
-//                            }
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
+                * {
+                    home-schedule {
+                       > .container {
+                           .row {
+                               .schedule {
+                                   display: block;
+                               }
+                           }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1440px) {
+    body {
+        .main-content {
+            > .pane {
+                width: 100%;
+            }
+        }
+    }
+}

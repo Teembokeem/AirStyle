@@ -9843,6 +9843,16 @@ body {
     width: 1437px;
     margin: 0 auto; }
 
+@media (max-width: 413px) and (min-width: 321px) {
+  body .main-content > .pane {
+    width: 100%; }
+    body .main-content > .pane * home-schedule > .container .row .schedule {
+      display: block; } }
+
+@media (max-width: 1440px) {
+  body .main-content > .pane {
+    width: 100%; } }
+
 nav {
   padding: 4em 4em 0 0;
   position: absolute;
