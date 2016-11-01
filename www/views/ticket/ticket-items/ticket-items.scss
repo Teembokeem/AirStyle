@@ -1,6 +1,97 @@
 ticket-items {
     .container {
         margin-top: 63px;
-        
+
+        .item {
+            margin: 0;
+            margin-bottom: 1.14em;
+            height: 5.9em;
+            background-color: #424242 !important;
+            border: none;
+            width: 70em;
+            margin-left: auto;
+            margin-right: auto;
+
+            .expand {
+                max-width: 4.07em;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                .circle {
+                    width: 1.6em;
+                    height: 1.6em;
+                    text-align: center;
+                    border: 2px solid yellow;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    span {
+                        font-size: 22px;
+                    }
+                }
+            }
+
+            .description {
+                padding-top: 2.1em;
+                align-items: center;
+                min-width:53.7em;
+
+                .row + .row {
+                    padding-top: 0.5em;
+                }
+                .option-name {
+                    .col {
+                        span {
+                            font-size: 2.14em;
+                        }
+                    }
+                }
+
+                .short-description {
+                    .col {
+                        span {
+                            color: #828282;
+                            font-size: 1.14em;
+                        }
+                    }
+                }
+            }
+
+            .pricing {
+                display: flex;
+                align-items: center;
+                font-size: 1.88em;
+                margin-right: 1em;
+                max-width: 1.9em;
+            }
+
+            .quantity {
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                select {
+                    -webkit-appearance: none;
+                    -webkit-border-radius: 0;
+                    border-radius: 0;
+                    height: 2.56em;
+                    width: 3.78em;
+                    border: 3px solid black;
+                    color: black;
+                    background-color: white !important;
+                    padding-left: 0.8em;
+                    font-size: 18px;
+                    padding-top: 0.2em;
+                }
+                i {
+                    color: black;
+                    position: relative;
+                    right: 1.7em;
+                    top: 0.18em;
+                }
+            }
+        }
+
     }
 }

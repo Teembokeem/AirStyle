@@ -1,27 +1,27 @@
 <div class="container">
-	<div ng-repeat="option in cc.itemsContent" class="item row">
-		<div class="col expand">
+	<div ng-repeat="option in cc.itemsContent" class="item row nopad">
+		<div class="col expand nopad">
 			<div class="circle">
 				<span ng-if="cc.showContent != $index">+</span>
 				<span ng-if="cc.showContent == $index">-</span>
 			</div>
 		</div>
-		<div class="col description">
-			<div class="row option-name">
-				<div class="col"><span>{{option.type}}</span></div>
+		<div class="col description nopad">
+			<div class="row option-name nopad">
+				<div class="col nopad"><span>{{option.type}}</span></div>
 			</div>
-			<div class="row">
-				<div class="col"><span ng-repeat="descriptor in option.short_description">{{descriptor}} {{$index == option.short_description.length - 1 ? '' : '|'}} </span></div>
+			<div class="row short-description nopad">
+				<div class="col nopad"><span ng-repeat="descriptor in option.short_description">{{descriptor}} {{$index == option.short_description.length - 1 ? '' : '|'}} </span></div>
 			</div>
 		</div>
-		<div class="col pricing">
+		<div class="col nopad pricing">
 			<span class="price">  &#x20AC; {{option.price}}</span>
 		</div>
-		<div class="col quantity">
-			<select ng-model="cc.selectedOption.quantity" ng-change="cc.chooseOption()">
-				<option selected value="0"></option>
-				<option ng-repeat="number in 5" value="number"></option>
+		<div class="col nopad quantity">
+			<select ng-model="cc.cart[$index]" ng-change="cc.chooseOption()">
+				<option ng-repeat="number in cc.numbers" ng-value="number">{{number}}</option>
 			</select>
+			<i class="icon ion-chevron-down"></i>
 		</div>
 	</div>
 </div>
