@@ -10268,3 +10268,105 @@ ticket-title {
 
 ticket-items .container {
   margin-top: 63px; }
+  ticket-items .container .item {
+    margin: 0;
+    margin-bottom: 1.14em;
+    height: 5.9em;
+    background-color: #424242 !important;
+    border: none;
+    width: 70em;
+    margin-left: auto;
+    margin-right: auto; }
+    ticket-items .container .item .expand {
+      max-width: 4.07em;
+      justify-content: center;
+      display: flex;
+      align-items: center; }
+      ticket-items .container .item .expand .circle {
+        width: 1.6em;
+        height: 1.6em;
+        text-align: center;
+        border: 2px solid yellow;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        ticket-items .container .item .expand .circle span {
+          font-size: 22px; }
+    ticket-items .container .item .description {
+      padding-top: 2.1em;
+      align-items: center;
+      min-width: 53.7em; }
+      ticket-items .container .item .description .row + .row {
+        padding-top: 0.5em; }
+      ticket-items .container .item .description .option-name .col span {
+        font-size: 2.14em; }
+      ticket-items .container .item .description .short-description .col span {
+        color: #828282;
+        font-size: 1.14em; }
+    ticket-items .container .item .pricing {
+      display: flex;
+      align-items: center;
+      font-size: 1.88em;
+      margin-right: 1em;
+      max-width: 1.9em; }
+    ticket-items .container .item .quantity {
+      justify-content: center;
+      display: flex;
+      align-items: center; }
+      ticket-items .container .item .quantity select {
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        height: 2.56em;
+        width: 3.78em;
+        border: 3px solid black;
+        color: black;
+        background-color: white !important;
+        padding-left: 0.8em;
+        font-size: 18px;
+        padding-top: 0.2em; }
+      ticket-items .container .item .quantity i {
+        color: black;
+        position: relative;
+        right: 1.7em;
+        top: 0.18em; }
+
+ticket-footer .container {
+  margin-top: 8.07em;
+  height: 7.785em;
+  background-color: white !important; }
+  ticket-footer .container .row {
+    display: flex;
+    align-items: center;
+    height: 100%; }
+    ticket-footer .container .row .quantity-container {
+      position: relative;
+      left: 42.14em; }
+      ticket-footer .container .row .quantity-container span {
+        color: #828282;
+        font-size: 2.14em; }
+    ticket-footer .container .row .pricing {
+      position: relative;
+      left: 39em; }
+      ticket-footer .container .row .pricing .label {
+        color: #828282;
+        font-size: 2.14em; }
+      ticket-footer .container .row .pricing .price {
+        color: black;
+        font-size: 2.14em; }
+    ticket-footer .container .row .action {
+      position: relative;
+      left: 19.5em; }
+      ticket-footer .container .row .action .button-container {
+        width: 11.86em;
+        height: 4em;
+        background-color: #40caff !important;
+        justify-content: center;
+        align-items: center;
+        display: flex; }
+        ticket-footer .container .row .action .button-container button {
+          text-align: center;
+          font-size: 1.57em;
+          border: none;
+          color: black; }
