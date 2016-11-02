@@ -16,7 +16,6 @@
         var cc = this;
 
         cc.$onInit = function () {
-            $log.instantiate('Home Partner', 'Component Controller');
 
             cc.partnerContent = [
                 'img/partner-1.png',

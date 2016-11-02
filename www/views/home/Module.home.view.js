@@ -20,6 +20,5 @@
 
 
         .run(function ($log) {
-            $log.instantiate('Home', 'View Module');
         });
 })();

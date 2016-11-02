@@ -16,7 +16,6 @@
         var cc = this;
 
         cc.$onInit = function () {
-            $log.instantiate('Home Carousel', 'Component Controller');
 
             cc.slideContent = [
                 {

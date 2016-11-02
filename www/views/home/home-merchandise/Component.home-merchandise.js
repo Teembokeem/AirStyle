@@ -16,7 +16,6 @@
         var cc = this;
 
         cc.$onInit = function () {
-            $log.instantiate('Home Merchandise', 'Component Controller');
 
             cc.merchandiseContent = [
                 {

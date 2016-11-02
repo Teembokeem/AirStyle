@@ -20,6 +20,5 @@
 
 
         .run(function ($log) {
-            $log.instantiate('Ticket', 'View Module');
         });
 })();

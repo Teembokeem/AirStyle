@@ -16,7 +16,6 @@
         var cc = this;
 
         cc.$onInit = function () {
-            $log.instantiate('Ticket Title', 'Component Controller');
 
             cc.titleContent = {
                 title: 'INNSBRUCK-TIROL',

@@ -27,6 +27,5 @@
         })
 
         .run(function ($log) {
-            $log.instantiate('Content', 'View Module');
         });
 })();

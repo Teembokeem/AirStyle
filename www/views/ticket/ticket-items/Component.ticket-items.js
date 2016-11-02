@@ -19,7 +19,6 @@ var _cart, _items;
         _cart = Cart;
         _items = itemsContent;
         cc.$onInit = function () {
-            $log.instantiate('Ticket Items', 'Component Controller');
 
             console.log('FIND BY TYPE', itemsContent.findByType('FAMILY'))
             cc.numbers = [0, 1, 2, 3, 4, 5];

@@ -7,7 +7,6 @@
     ContentCtrl.$inject = ['$log', '$state'];
 
     function ContentCtrl($log, $state) {
-        $log.instantiate('Content', 'Component Controller');
         var vc = this;
 
     }

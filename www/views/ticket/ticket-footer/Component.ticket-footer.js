@@ -15,7 +15,6 @@
         var cc = this;
 
         cc.$onInit = function () {
-            $log.instantiate('Ticket Footer', 'Component Controller');
             cc.cart = {};
             cc.itemsContent = itemsContent;
 

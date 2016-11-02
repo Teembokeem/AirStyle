@@ -8,7 +8,6 @@
     TicketCtrl.$inject = ['$log', '$state'];
 
     function TicketCtrl($log, $state) {
-        $log.instantiate('Ticket', 'Component Controller');
         var cc = this;
 
     }

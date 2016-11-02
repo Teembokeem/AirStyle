@@ -1,4 +1,4 @@
-(function() {
+(function () {
     'use strict';
     var dir = "views/global-components/content/home/"
     angular
@@ -8,7 +8,6 @@
     HomeCtrl.$inject = ['$log', '$state'];
 
     function HomeCtrl($log, $state) {
-        $log.instantiate('Home', 'Component Controller');
         var cc = this;
     }
 })();
