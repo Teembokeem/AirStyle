@@ -4,10 +4,11 @@
     angular.module('Template')
         .controller('AppCtrl', AppCtrl);
 
-    function AppCtrl($scope, $state, $rootScope, $log, st18_Auth) {
+    function AppCtrl($scope, $state, $rootScope, $log) {
         $log.instantiate('App', 'Controller');
 
         var vm = this;
+
         vm.contentTitle = $state.current.contentTitle;
         vm.poop = 'poop bindings'
 
@@ -21,10 +22,5 @@
                 $log.error("your state error", error);
             });
         });
-
-        vm.logout = function () {
-            st18_Auth.logout();
-            $state.go('login');
-        }
     }
 })();
