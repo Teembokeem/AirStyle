@@ -1,10 +1,17 @@
 ticket-items {
-    .container {
+   > .container {
         margin-top: 63px;
+        .content {
+            margin-bottom: 1.14em;
+
+        }
+
+        .content.disabled {
+            opacity: 0.5;
+        }
 
         .item {
             margin: 0;
-            margin-bottom: 1.14em;
             height: 5.9em;
             background-color: #424242 !important;
             border: none;
@@ -21,7 +28,7 @@ ticket-items {
                     width: 1.6em;
                     height: 1.6em;
                     text-align: center;
-                    border: 2px solid yellow;
+                    border: 2px solid $as-yellow;
                     border-radius: 50%;
                     display: flex;
                     align-items: center;
@@ -30,6 +37,9 @@ ticket-items {
                     span {
                         font-size: 22px;
                     }
+                }
+                .circle.details {
+                        border: 2px solid $as-blue;
                 }
             }
 
@@ -91,6 +101,118 @@ ticket-items {
                     top: 0.18em;
                 }
             }
+        }
+
+        .item.selected {
+            background-color: $as-yellow !important;
+            * {
+                color: black !important;
+            }
+        }
+
+        
+
+        .item-info {
+            background-color: #424242 !important;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80em;
+            padding-top: 2.5em;
+            padding-left: 4.07em;
+            display: block;
+
+            .swag-container {
+                .title {
+                    .col {
+                        span {
+                            font-size: 1.285em;
+                            color: #828282;
+                        }
+                    }
+                }
+
+                .swag {
+                    display: block;
+                    .col {
+                        span {
+                            font-family: 'Apercu';
+                            font-size: 1.14em;
+                            color: white;
+                        }
+
+                        span:first-child {
+                            color: #828282;
+                        }
+                    }
+                }
+            }
+
+            .access-container {
+                .title {
+                    .col {
+                        span {
+                            font-size: 1.285em;
+                            color: #828282;
+                        }
+                    }
+                }
+
+                .access {
+                    display: block;
+                    .col {
+                        span {
+                            font-family: 'Apercu';
+                            font-size: 1.14em;
+                            color: white;
+                        }
+
+                        span:first-child {
+                            color: #828282;
+                        }
+                    }
+                }
+
+            }
+
+            .logistics-container {
+                margin-bottom: 4.07em;
+                .title {
+                    .col {
+                        span {
+                            font-size: 1.285em;
+                            color: #828282;
+                        }
+                    }
+                }
+
+                .logistics {
+                    display: block;
+                    .col {
+                        span {
+                            font-family: 'Apercu';
+                            font-size: 1.14em;
+                            color: white;
+                        }
+
+                        span:first-child {
+                            color: #828282;
+                        }
+                    }
+                }
+            }
+                .notes-container {
+                    height: 5.714em;
+                    .notes {
+                        .col {
+                            span {
+                                font-style: italic;
+                                font-family: 'Apercu';
+                                font-size: 1.14em;
+                                color: #828282 !important;
+                            }
+                        }
+                    }
+                }
         }
 
     }

@@ -1,11 +1,11 @@
 <div class="container">
 	<div class="row">
 		<div class="col quantity-container">
-			<span ng-repeat="(key, value) in cc.cart" ng-if="key != 'total' && value != 0" class="quantity">{{value}} {{cc.itemsContent[value].type}}  TICKETS</span>
+			<span ng-repeat="(key, value) in cc.cart" ng-if="key != 'total' && value != 0" class="quantity">{{value}} {{cc.itemsContent[value].type}}  TICKETS {{key}} {{Object.keys(cc.cart)}}</span>
 		</div>
 		<div class="col pricing">
 			<span class="label">TOTAL</span>
-			<span class="price">&#x20AC; {{cc.cart.total}}</span>
+			<span class="price"> &#x20AC; {{cc.cart.total}}</span>
 		</div>
 		<div class="col action">
 			<div class="button-container">
@@ -14,3 +14,7 @@
 		</div>
 	</div>
 </div>
+
+
+
+<!--todo: finish this comma thing. something is happening with the type of number being input into the cart. check the bottom totals, they;'re all the same type of ticket regardless of the select box.-->
