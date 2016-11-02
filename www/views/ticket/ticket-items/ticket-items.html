@@ -1,27 +1,79 @@
 <div class="container">
-	<div ng-repeat="option in cc.itemsContent" class="item row nopad">
-		<div class="col expand nopad">
-			<div class="circle">
-				<span ng-if="cc.showContent != $index">+</span>
-				<span ng-if="cc.showContent == $index">-</span>
+	<div ng-repeat="option in cc.itemsContent" ng-class="{'disabled': option.unavailable == true}" class="content">
+		<div ng-class="{'selected' : cc.cart[$index] && cc.cart[$index] != 0}" class="item row nopad">
+			<div class="col expand nopad">
+				<div ng-click="option.unavailable ? '' : cc.showContent == $index ? cc.showContent = -1 : cc.showContent = $index" ng-class="{'details' : cc.showContent == $index}"
+					class="circle">
+					<span ng-if="cc.showContent != $index">+</span>
+					<span ng-if="cc.showContent == $index">-</span>
+				</div>
+			</div>
+			<div class="col description nopad">
+				<div class="row option-name nopad">
+					<div class="col nopad"><span>{{option.type}}</span></div>
+				</div>
+				<div class="row short-description nopad">
+					<div class="col nopad"><span ng-repeat="descriptor in option.short_description">{{descriptor}} {{$index == option.short_description.length - 1 ? '' : '|'}} </span></div>
+				</div>
+			</div>
+			<div class="col nopad pricing">
+				<span class="price">  &#x20AC; {{option.price}}</span>
+			</div>
+			<div class="col nopad quantity">
+				<select ng-disabled="option.unavailable" ng-model="cc.cart[$index]" ng-change="cc.chooseOption()">
+					<option ng-repeat="number in cc.numbers" ng-value="number">{{number}}</option>
+				</select>
+				<i class="icon ion-chevron-down"></i>
 			</div>
 		</div>
-		<div class="col description nopad">
-			<div class="row option-name nopad">
-				<div class="col nopad"><span>{{option.type}}</span></div>
+		<div ng-if="cc.showContent == $index" class="row nopad item-info">
+			<div class="container swag-container">
+				<div class="row title">
+					<div class="col">
+						<span>WHAT YOU GET</span>
+					</div>
+				</div>
+				<div class="row swag">
+					<div ng-repeat="swag in option.description.swag" class="col">
+						<span>+ </span>
+						<span>{{swag}}</span>
+					</div>
+				</div>
 			</div>
-			<div class="row short-description nopad">
-				<div class="col nopad"><span ng-repeat="descriptor in option.short_description">{{descriptor}} {{$index == option.short_description.length - 1 ? '' : '|'}} </span></div>
+			<div class="container access-container">
+				<div class="row title">
+					<div class="col">
+						<span>ACCESS TO</span>
+					</div>
+				</div>
+				<div class="row access">
+					<div ng-repeat="access in option.description.access" class="col">
+						<span>+ </span>
+						<span>{{access}}</span>
+					</div>
+				</div>
 			</div>
-		</div>
-		<div class="col nopad pricing">
-			<span class="price">  &#x20AC; {{option.price}}</span>
-		</div>
-		<div class="col nopad quantity">
-			<select ng-model="cc.cart[$index]" ng-change="cc.chooseOption()">
-				<option ng-repeat="number in cc.numbers" ng-value="number">{{number}}</option>
-			</select>
-			<i class="icon ion-chevron-down"></i>
+			<div class="container logistics-container">
+				<div class="row title">
+					<div class="col">
+						<span>ARRIVAL</span>
+					</div>
+				</div>
+				<div class="row logistics">
+					<div ng-repeat="logistic in option.description.logistics" class="col">
+						<span>+ </span>
+						<span>{{logistic}}</span>
+					</div>
+				</div>
+			</div>
+			<div class="container notes-container">
+				<div class="row notes">
+					<div class="col">
+						<span>PLEASE NOTE: </span>
+						<span ng-repeat="note in option.description.notes"> {{note}} </span>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
