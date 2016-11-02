@@ -25,6 +25,7 @@
             cc.itemsContent = [
                 {
                     type: 'EARLY BIRD',
+                    unavailable: true,
                     short_description: [
                         '2 day pass + After Party'
                     ],
@@ -191,6 +192,7 @@
             })
 
             cc.chooseOption = chooseOption;
+            cc.showItemInfo = showItemInfo;
 
             function chooseOption(idx, qty) {
                 console.log("dsajfdsjdsla")
@@ -199,10 +201,19 @@
                 $rootScope.$broadcast('cartUpdate', cc.cart);
             }
 
+            function showItemInfo(bool) {
+                return bool = !bool
+            }
+
             function runCartTotal() {
+                cc.cart.total = 0;
+                console.log("hello", cc.cart.total)
                 for (var key in cc.cart) {
-                    if (!cc.cart.total) cc.cart.total = 0;
-                    cc.cart.total += cc.itemsContent[key].price * cc.cart[key]
+                    if (key !== 'total') {
+                        console.log(cc.cart, cc.itemsContent[key].price)
+                        cc.cart.total += cc.itemsContent[key].price * cc.cart[key]
+                        console.log(cc.cart)
+                    }
                 };
 
                 return cc.cart
