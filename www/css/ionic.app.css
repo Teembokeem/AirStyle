@@ -9843,41 +9843,24 @@ body {
     width: 1437px;
     margin: 0 auto; }
 
-@media (max-width: 413px) and (min-width: 321px) {
-  body .main-content > .pane {
-    width: 100%; }
-    body .main-content > .pane * home-schedule > .container .row .schedule {
-      display: block; } }
-
 @media (max-width: 1440px) {
   body .main-content > .pane {
     width: 100%; } }
 
 nav {
-  padding: 4em 4em 0 0;
+  padding-top: 2.57em;
   position: absolute;
   width: 100%;
   text-align: left;
   z-index: 2; }
   nav .as-nav * {
     font-size: 1em;
-    color: white !important;
-    margin-right: 72px; }
+    color: white !important; }
   nav .as-nav i {
     font-size: 1.3em;
     margin-right: 0; }
-  nav .as-nav a:first-child {
-    margin-left: 57px;
-    width: 60px;
-    height: 89px;
-    margin-right: 523px;
-    position: absolute; }
-    nav .as-nav a:first-child img {
-      margin-right: 0;
-      position: absolute;
-      bottom: 1.02em; }
-  nav .as-nav a:nth-child(2) {
-    margin-left: 640px; }
+  nav .as-nav a.disabled {
+    color: grey !important; }
 
 * .ion-record {
   color: #40caff !important; }

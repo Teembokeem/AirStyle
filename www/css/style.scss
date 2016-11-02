@@ -50,23 +50,13 @@ body {
 
 }
 
-@media (max-width:413px) and (min-width:321px) {
+@media (max-width:780px) and (min-width:321px) {
     body {
         .main-content {
             > .pane {
-                width: 100%;
-
-                * {
-                    home-schedule {
-                       > .container {
-                           .row {
-                               .schedule {
-                                   display: block;
-                               }
-                           }
-                        }
-                    }
-                }
+               nav {
+                   
+               }
             }
         }
     }

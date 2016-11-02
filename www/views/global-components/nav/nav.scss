@@ -1,5 +1,5 @@
 nav {
-    padding: 4em 4em 0 0;
+    padding-top: 2.57em;
     position: absolute;
     width: 100%;
     text-align: left;
@@ -8,7 +8,7 @@ nav {
         * {
             font-size: 1em;
             color: white !important;
-            margin-right: 72px;
+            // margin-right: 72px;
         }
 
         i {
@@ -16,23 +16,10 @@ nav {
             margin-right: 0;
         }
 
-        a:first-child {
-            margin-left: 57px;
-            width: 60px;
-            height: 89px;
-            margin-right: 523px;
-                position: absolute;
+        
 
-            img {
-                margin-right: 0;
-                position: absolute;
-                     bottom: 1.02em;
-                
-            }    
-        }
-
-        a:nth-child(2) {
-                margin-left: 640px;
+        a.disabled {
+            color: grey !important;
         }
     }
 }
