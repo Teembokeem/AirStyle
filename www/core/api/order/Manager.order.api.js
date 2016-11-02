@@ -49,7 +49,6 @@ var _serv
             })
             // 
             orders.map(function (order) {
-                console.log(order, 'order doe')
                 obj[order.status].push(order);
             });
             return orders;
@@ -82,7 +81,6 @@ var _serv
             })
         }
         function transformOrders(arr) {
-            console.log(arr)
             if (!Array.isArray(arr)) {
                 return new OrderSchema(arr);
             }

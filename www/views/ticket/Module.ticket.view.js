@@ -15,7 +15,6 @@
                     }
                 })
 
-            console.log($stateProvider, "wtf")
         })
 
 

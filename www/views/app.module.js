@@ -1,7 +1,6 @@
 (function () {
     'use strict';
 
-    console.log("Application Loaded In");
     var dir = 'views/';
     angular.module('Template',
         [

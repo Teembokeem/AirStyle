@@ -114,7 +114,6 @@
         };
 
         Order.prototype.complete = function () {
-            console.log('Complete!', this);
             var status = statusEnum.indexOf(this.status);
             if (status == 3) {
                 this.status = statusEnum[status + 1];
@@ -124,7 +123,6 @@
         };
 
         Order.prototype.initialize = function () {
-            console.log('Hello', this);
             return this;
         };
 

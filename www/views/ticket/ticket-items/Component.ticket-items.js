@@ -20,7 +20,6 @@ var _cart, _items;
         _items = itemsContent;
         cc.$onInit = function () {
 
-            console.log('FIND BY TYPE', itemsContent.findByType('FAMILY'))
             cc.numbers = [0, 1, 2, 3, 4, 5];
             cc.selectedOption = 0;
             cc.cart = {};
@@ -34,8 +33,6 @@ var _cart, _items;
             cc.showItemInfo = showItemInfo;
 
             function chooseOption(idx, qty) {
-                console.log("dsajfdsjdsla");
-                console.log(cc.cart);
                 runCartTotal();
                 $rootScope.$broadcast('cartUpdate', cc.cart);
             }
@@ -46,12 +43,9 @@ var _cart, _items;
 
             function runCartTotal() {
                 cc.cart.total = 0;
-                console.log("hello", cc.cart.total);
                 for (var key in cc.cart) {
                     if (key !== 'total') {
-                        console.log(cc.cart, cc.itemsContent[key].price);
                         cc.cart.total += cc.itemsContent[key].price * cc.cart[key];
-                        console.log(cc.cart);
                     }
                 }
 

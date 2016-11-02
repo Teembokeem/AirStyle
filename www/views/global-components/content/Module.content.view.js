@@ -23,7 +23,6 @@
                     }
                 })
 
-            console.log($stateProvider, "wtf")
         })
 
         .run(function ($log) {

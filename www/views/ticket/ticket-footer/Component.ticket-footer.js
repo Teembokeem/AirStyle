@@ -19,7 +19,6 @@
             cc.itemsContent = itemsContent;
 
             $rootScope.$on('cartUpdate', function (evt, obj) {
-                console.log("received", evt, obj);
                 cc.cart = obj;
             });
 
