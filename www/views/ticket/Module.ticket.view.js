@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-    var dir = "views/ticket/"
+    var dir = 'views/ticket/';
     angular.module('Ticket.view.module', ['Services'])
         .config(function ($stateProvider, $urlRouterProvider) {
             $stateProvider
