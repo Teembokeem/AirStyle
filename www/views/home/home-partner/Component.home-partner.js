@@ -18,13 +18,32 @@
         cc.$onInit = function () {
 
             cc.partnerContent = [
-                'img/partner-1.png',
-                'img/partner-2.png',
-                'img/partner-3.png',
-                'img/partner-4.png',
-                'img/partner-5.png',
-                'img/partner-6.png',
-            ]
+                {
+                    img: 'img/go90_LOGO.jpg',
+                    dim: 120
+                },
+                // 'img/partner-2.png',
+                {
+                    img: 'img/coors-light-mountain-logo.png',
+                    dim: 100
+                },
+                {
+                    img: 'img/Stoli.jpg',
+                    dim: 120
+                },
+                {
+                    img: 'img/CLIF.JPG',
+                    dim: 100
+                },
+                {
+                    img: 'img/foro_logo-2.png',
+                    dim: 120
+                },
+                {
+                    img: 'img/FLOOD_MAGAZINE_PRESENTS.png',
+                    dim: 120
+                },
+            ];
         }
     }
 })();
