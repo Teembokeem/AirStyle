@@ -27,16 +27,16 @@
 							</div>
 						</div>
 					</div>
-					<img ng-if="cc.mobile" class="shape" src="../img/line.png" alt="">
-					<img ng-if="cc.mobile" class="shape" src="../img/rectangle.png" alt="">
-					<img ng-if="cc.mobile" class="shape" src="../img/half-plus.png" alt="">
-					<img ng-if="cc.mobile" class="shape" src="../img/s.png" alt="">
-					<img ng-if="cc.mobile" class="shape" src="../img/l.png" alt="">
-					<img ng-if="cc.mobile" class="shape" src="../img/lines.png" alt="">
-					<img ng-if="cc.mobile" class="shape" src="../img/triangle.png" alt="">
-					<img ng-if="cc.mobile" class="shape" src="../img/green-line.png" alt="">
-					<img ng-if="cc.mobile" class="shape" src="../img/other-line.png" alt="">
-					<img ng-if="cc.mobile" class="shape" src="../img/hollow-rectangle.png" alt="">
+					<img ng-if="!cc.mobile" class="shape" src="../img/line.png" alt="">
+					<img ng-if="!cc.mobile" class="shape" src="../img/rectangle.png" alt="">
+					<img ng-if="!cc.mobile" class="shape" src="../img/half-plus.png" alt="">
+					<img ng-if="!cc.mobile" class="shape" src="../img/s.png" alt="">
+					<img ng-if="!cc.mobile" class="shape" src="../img/l.png" alt="">
+					<img ng-if="!cc.mobile" class="shape" src="../img/lines.png" alt="">
+					<img ng-if="!cc.mobile" class="shape" src="../img/triangle.png" alt="">
+					<img ng-if="!cc.mobile" class="shape" src="../img/green-line.png" alt="">
+					<img ng-if="!cc.mobile" class="shape" src="../img/other-line.png" alt="">
+					<img ng-if="!cc.mobile" class="shape" src="../img/hollow-rectangle.png" alt="">
 				</ion-slide>
 				<ion-slide ng-repeat="slide in cc.slideContent">
 					<div class="hero-image" style="background: url({{slide.image}})"></div>

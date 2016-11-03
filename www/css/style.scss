@@ -103,7 +103,9 @@ body {
                    }
 
                    .as-nav.nav-menu {
-                    //    background-color: black !important;
+                       background-color: black !important;
+                        margin-top: -23px;
+                        padding-top: 23px;
                    }
 
                    mobile-menu {
@@ -138,9 +140,9 @@ body {
 
                                    button {
                                          position: absolute;
-                                        right: 34px;
+                                        right: 38px;
                                         border: none;
-                                        top: 12px;
+                                        top: 17px;
 
 
                                         i {
@@ -564,6 +566,14 @@ body {
         margin-top: -18px;
     }
 
+    body .main-content > .pane nav mobile-menu > .container > div:first-child .container:first-child button {
+        top: 19px;
+    }
+
+    body .main-content > .pane nav mobile-menu > .container .as-nav .hamburger {
+        right: -25px;
+    }
+
     home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container {
         .title:first-child .col span {
             font-size: 385%;
@@ -601,4 +611,14 @@ body {
         }
     }
 }   
+
+@media (max-width: 410px) and (min-width: 370px) {
+    body .main-content > .pane nav mobile-menu > .container > div:first-child .container:first-child button {
+        top: 17px;
+    }
+
+    body .main-content > .pane nav mobile-menu > .container .as-nav .hamburger {
+        right: -18px;
+    }
+}
 

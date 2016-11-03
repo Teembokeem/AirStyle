@@ -17,6 +17,7 @@ var y, _t;
         if ($window.innerWidth < 420) {
             cc.noNav = true;
             cc.mobile = true;
+            cc.darken = false;
         }
         $rootScope.$on('noNav', function (e, d) {
             if ($window.innerWidth < 420) {
@@ -30,6 +31,11 @@ var y, _t;
                 });
             }
         });
+
+        $rootScope.$on('darkenNav', function (evt, d) {
+            cc.darken = !cc.darken;
+            console.log("yas", cc.darken)
+        })
 
         cc.toggleNav = function () {
             cc.noNav = !cc.noNav;

@@ -7,14 +7,16 @@
             controllerAs: 'cc'
         })
 
-    MobileMenuCtrl.$inject = ['$log'];
+    MobileMenuCtrl.$inject = ['$log', '$scope'];
 
-    function MobileMenuCtrl($log) {
+    function MobileMenuCtrl($log, $scope) {
         var cc = this;
         cc.noNav = true;
         cc.toggleNav = function () {
             cc.noNav = !cc.noNav;
+            $scope.$emit('darkenNav');
         };
+
 
         cc.$onInit = function () {
             cc.events = [

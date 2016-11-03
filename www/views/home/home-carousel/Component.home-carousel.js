@@ -19,7 +19,9 @@
             window.location = link;
         };
 
-        $rootScope.$on('noNav', function (e, d) {
+        $scope.$watch(function () {
+            return $window.innerWidth;
+        }, function (a, b, c) {
             if ($window.innerWidth < 780) {
                 cc.mobile = true;
             } else {
@@ -30,7 +32,8 @@
                     }
                 });
             }
-        });
+
+        })
 
         cc.$onInit = function () {
 
