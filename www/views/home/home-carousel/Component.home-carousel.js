@@ -23,27 +23,12 @@
 
             cc.slideContent = [
                 {
-                    title: 'INNSBRUCK-TIROL TICKETS',
-                    content: 'ON SALE NOW',
-                    buttons: [
-                        {
-                            label: 'LEARN MORE',
-                            dest: 'app.here'
-                        },
-                        {
-                            label: 'BUY NOW',
-                            dest: 'https://frontoffice.paylogic.nl/flows/MTAuMTAwLjIuMyw1Niw3MTU3ZjZlNGQzNDA0YjlmOGIzZmI2NDFjMmQ4MmJjMyxlYTVhNzBiNGEzMzIyNWRkZmU3ZjZhYmI0M2Q5YmFjZg/Tickets/'
-                        }
-                    ],
-                    image: 'img/slide1.jpg'
-                },
-                {
                     title: 'AIR + STYLE LOS ANGELES FEBRUARY 18 + 19',
                     content: 'SIGN UP FOR PRESALE TICKETS',
                     buttons: [
                         {
                             label: 'LEARN MORE',
-                            dest: 'app.here'
+                            dest: 'http://www.air-style.at'
                         },
                         {
                             label: 'BUY NOW',
@@ -51,6 +36,21 @@
                         }
                     ],
                     image: 'img/slide2.jpg'
+                },
+                {
+                    title: 'INNSBRUCK-TIROL TICKETS',
+                    content: 'ON SALE NOW',
+                    buttons: [
+                        {
+                            label: 'LEARN MORE',
+                            dest: 'http://www.air-style.at'
+                        },
+                        {
+                            label: 'BUY NOW',
+                            dest: 'https://frontoffice.paylogic.nl/flows/MTAuMTAwLjIuMyw1Niw3MTU3ZjZlNGQzNDA0YjlmOGIzZmI2NDFjMmQ4MmJjMyxlYTVhNzBiNGEzMzIyNWRkZmU3ZjZhYmI0M2Q5YmFjZg/Tickets/'
+                        }
+                    ],
+                    image: 'img/slide1.jpg'
                 }
             ]
         }
