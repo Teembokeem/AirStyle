@@ -50,16 +50,126 @@ body {
 
 }
 
-@media (max-width:780px) and (min-width:321px) {
+@media (max-width:780px) and (min-width:319px) {
     body {
         .main-content {
             > .pane {
                nav {
-                   
+                   margin-top: 5.4%;
+                   .as-nav {
+                       .logo {
+                           width: 12.68%;
+                       }
+
+                       .search {
+                               padding-top: 1.97%;
+                               margin-left: 25.66%;
+                       }
+
+                       .hamburger {
+                           padding-top: 4.2%;
+                           text-align: left;
+                           margin-left: 62px;
+                           padding-left: 0;
+                       }
+
+                       .anchor-pad {
+                           display: none;
+                       }
+                   }
                }
             }
         }
+
+        * {
+            home-carousel > .container .row .col .slider .slider-slides ion-slide .hero-image {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background-size: 322% !important;
+                background-position-x: -282px !important;
+                background-position-y: -45px !important;
+            }
+
+            home-carousel {
+                > .container {
+                    max-height: 642px;
+
+                    .row .col .slider {
+                        max-height: 642px;
+
+                        .slider-pager {
+                            margin-bottom: 65px;
+                        }
+                    }
+                }
+            }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide .container {
+                padding: 0 17px;
+                width: 100%;
+                text-align: center;
+
+                .title {
+                    margin-top: -10em;
+                    height: inherit;
+
+                    .col {
+                        span {
+                            font-size: 64px;
+                            line-height: 69px;
+                        }
+                    }
+                }
+
+                .content {
+                    margin-top: 14px;
+                    .col {
+                        span {
+                            font-size: 36px;
+                            letter-spacing: 3px;
+                        }
+                    }
+                }
+
+                .buttons {
+                    margin-top: -28px;
+
+                    .col {
+                        button {
+                            margin-right: 0 !important;
+                            width: 100%;
+                        }   
+
+                        button:first-child {
+                            margin-bottom: 16px;
+
+                        }
+                    }
+                }
+            }
+
+            home-schedule {
+                > .container {
+                    .row {
+                        display: block;
+                        
+                        .schedule {
+                            height: 189px;
+
+                            .content {
+                                margin-top: 12px;
+                                .title {
+                                    font-size: 52px;
+                                    margin-bottom: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
+
 }
 @media (max-width:1440px) {
     body {
