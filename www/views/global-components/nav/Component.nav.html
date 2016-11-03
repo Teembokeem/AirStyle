@@ -1,28 +1,30 @@
-<div class="as-nav row nopad">
-    <div class="col logo nopad">
-        <a ui-sref="app.content.home">
-            <img src="../img/logo.png" alt="">
-        </a>
-    </div>
-    <div class="col anchor-pad">
-        <a ng-disabled="true" ng-class="{'disabled' : true}" ui-sref="app.home">TOUR STOPS</a>
-    </div>
-    <div class="col anchor-pad">
-        <a ng-disabled="true" ng-class="{'disabled' : true}">LINE-UP</a>
-    </div>
-    <div class="col anchor-pad">
-        <a ng-disabled="true" ng-class="{'disabled' : true}">RIDERS + RANKINGS</a>
-    </div>
-    <div class="col anchor-pad">
-        <a ui-sref="app.content.ticket">TICKETS</a>
-    </div>
-    <div class="col anchor-pad">
-        <a ng-disabled="true" ng-class="{'disabled' : true}">MERCH</a>
-    </div>
-    <div class="col search">
-        <i class="icon ion-ios-search-strong"></i>
-    </div>
-    <div class="col hamburger">
-        <img src="../img/hamburger.png" alt="">
-    </div>
+<div ng-if="!cc.noNav" class="as-nav row nopad">
+	<div class="col logo nopad">
+		<a ui-sref="app.content.home">
+			<img src="../img/logo.png" alt="">
+		</a>
+	</div>
+	<div class="col anchor-pad">
+		<a ng-disabled="true" ng-class="{'disabled' : true}" ui-sref="app.home">TOUR STOPS</a>
+	</div>
+	<div class="col anchor-pad">
+		<a ng-disabled="true" ng-class="{'disabled' : true}">LINE-UP</a>
+	</div>
+	<div class="col anchor-pad">
+		<a ng-disabled="true" ng-class="{'disabled' : true}">RIDERS + RANKINGS</a>
+	</div>
+	<div class="col anchor-pad">
+		<a ui-sref="app.content.ticket">TICKETS</a>
+	</div>
+	<div class="col anchor-pad">
+		<a ng-disabled="true" ng-class="{'disabled' : true}">MERCH</a>
+	</div>
+	<div class="col search">
+		<i class="icon ion-ios-search-strong"></i>
+	</div>
+</div>
+<div ng-if="cc.noNav" class="as-nav row nopad">
+	<div class="col hamburger">
+		<img src="../img/hamburger.png" alt="">
+	</div>
 </div>
