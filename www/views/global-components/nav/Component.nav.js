@@ -33,7 +33,6 @@
 
         $rootScope.$on('darkenNav', function (evt, d) {
             cc.darken = !cc.darken;
-            console.log("yas", cc.darken)
         })
 
         cc.toggleNav = function () {
