@@ -1,7 +1,7 @@
 <div class="container">
 	<div ng-if="!cc.noNav">
 		<div class="container">
-			<button ng-click="cc.toggleNav()">X</button>
+			<button ng-click="cc.toggleNav()"><i class="icon ion-close-round"></i></button>
 			<div class="row">
 				<div class="col">
 					Live Stream
@@ -47,8 +47,8 @@
 		</div>
 	</div>
 	<div ng-if="cc.noNav" class="as-nav row nopad">
-		<div class="col hamburger" ng-click="cc.toggleNav()">
-			<img src="../img/hamburger.png" alt="">
+		<div class="col hamburger">
+			<img ng-click="cc.toggleNav()" src="../img/hamburger.png" alt="">
 		</div>
 	</div>
 </div>

@@ -9845,12 +9845,16 @@ body {
 
 @media (max-width: 780px) and (min-width: 319px) {
   body .main-content > .pane nav {
+    height: 100%;
     margin-top: 5.4%; }
     body .main-content > .pane nav .as-nav .logo {
       width: 12.68%; }
     body .main-content > .pane nav .as-nav .search {
-      padding-top: 1.97%;
-      margin-left: 25.66%; }
+      display: inline;
+      text-align: right;
+      margin-right: 120px;
+      margin-left: 0;
+      padding-top: 3.97%; }
     body .main-content > .pane nav .as-nav .hamburger {
       padding-top: 4.2%;
       text-align: left;
@@ -9858,6 +9862,26 @@ body {
       padding-left: 0; }
     body .main-content > .pane nav .as-nav .anchor-pad {
       display: none; }
+    body .main-content > .pane nav mobile-menu > .container {
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      top: 0; }
+      body .main-content > .pane nav mobile-menu > .container .as-nav .hamburger {
+        text-align: right;
+        position: relative;
+        top: 22px;
+        right: 23px;
+        padding-top: 0; }
+        body .main-content > .pane nav mobile-menu > .container .as-nav .hamburger img {
+          padding: 13px; }
+      body .main-content > .pane nav mobile-menu > .container > div:first-child .container button {
+        position: absolute;
+        right: 34px;
+        border: none;
+        top: 27px; }
+        body .main-content > .pane nav mobile-menu > .container > div:first-child .container button i {
+          font-size: 22px; }
   body * home-carousel > .container .row .col .slider .slider-slides ion-slide .hero-image {
     width: 100%;
     height: 100%;
@@ -10157,14 +10181,14 @@ home-carousel {
         width: 100%;
         height: 100%;
         position: absolute;
-        background-size: 120% !important;
-        background-position-x: -45px !important;
-        background-position-y: -247px !important; }
+        background-size: 100% !important;
+        /* background-position-x: 0px !important; */
+        background-position-y: -23px !important; }
       home-carousel > .container .row .col .slider .slider-slides ion-slide .darken {
         width: 100%;
         height: 100%;
         position: absolute;
-        background-color: rgba(0, 0, 0, 0.8) !important; }
+        background-color: rgba(0, 0, 0, 0.75) !important; }
       home-carousel > .container .row .col .slider .slider-slides ion-slide .container * {
         z-index: 4;
         filter: grayscale(0); }
@@ -10213,7 +10237,7 @@ home-carousel {
           border: solid 2px #40caff;
           background-color: transparent !important;
           color: white; }
-    home-carousel > .container .row .col .slider .slider-slides ion-slide:first-child .hero-image {
+    home-carousel > .container .row .col .slider .slider-slides ion-slide .hero-image {
       filter: grayscale(100%); }
     home-carousel > .container .row .col .slider .slider-pager {
       margin-bottom: 179px; }
