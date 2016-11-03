@@ -9,16 +9,31 @@ var y, _t;
             controllerAs: 'cc'
         });
 
-    NavCtrl.$inject = ['$scope', '$ionicScrollDelegate', '$rootScope'];
+    NavCtrl.$inject = ['$scope', '$ionicScrollDelegate', '$rootScope', '$window'];
 
-    function NavCtrl($scope, $ionicScrollDelegate, $rootScope) {
+    function NavCtrl($scope, $ionicScrollDelegate, $rootScope, $window) {
 
         var cc = this;
+        if ($window.innerWidth < 420) {
+            cc.noNav = true;
+            cc.mobile = true;
+        }
         $rootScope.$on('noNav', function (e, d) {
-            $scope.$apply(function () {
-                cc.noNav = d;
-            });
-        })
+            if ($window.innerWidth < 420) {
+                cc.mobile = true;
+            } else {
+                cc.mobile = false;
+                $scope.$apply(function () {
+                    if (!cc.mobile) {
+                        cc.noNav = d;
+                    }
+                });
+            }
+        });
+
+        cc.toggleNav = function () {
+            cc.noNav = !cc.noNav;
+        };
         cc.showHams = false;
     }
 })();
