@@ -10,14 +10,27 @@
             controllerAs: 'cc'
         })
 
-    HomeCarouselCtrl.$inject = ['$log'];
+    HomeCarouselCtrl.$inject = ['$log', '$rootScope', '$window', '$scope'];
 
-    function HomeCarouselCtrl($log) {
+    function HomeCarouselCtrl($log, $rootScope, $window, $scope) {
         var cc = this;
 
         cc.go = function (link) {
             window.location = link;
         };
+
+        $rootScope.$on('noNav', function (e, d) {
+            if ($window.innerWidth < 780) {
+                cc.mobile = true;
+            } else {
+                cc.mobile = false;
+                $scope.$apply(function () {
+                    if (!cc.mobile) {
+                        cc.noNav = d;
+                    }
+                });
+            }
+        });
 
         cc.$onInit = function () {
 

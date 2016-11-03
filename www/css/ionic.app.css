@@ -9844,6 +9844,20 @@ body {
     margin: 0 auto; }
 
 @media (max-width: 780px) and (min-width: 319px) {
+  home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container {
+    margin-top: -25% !important;
+    text-align: center;
+    padding: 0 2px; }
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container * {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      font-size: 18px !important;
+      letter-spacing: 4px !important;
+      word-spacing: -6px !important;
+      padding: 0 2px !important; }
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title .col span {
+      font-size: 64px;
+      line-height: 16px; }
   body .main-content > .pane nav {
     margin-top: 5.4%; }
     body .main-content > .pane nav .as-nav .logo {
@@ -9926,7 +9940,7 @@ body {
     body * home-carousel > .container .row .col .slider {
       max-height: 642px; }
       body * home-carousel > .container .row .col .slider .slider-pager {
-        margin-bottom: 65px; }
+        margin-bottom: 30px; }
   body * home-carousel > .container .row .col .slider .slider-slides ion-slide .container {
     padding: 0 17px;
     width: 100%;
@@ -9950,6 +9964,8 @@ body {
         width: 100%; }
       body * home-carousel > .container .row .col .slider .slider-slides ion-slide .container .buttons .col button:first-child {
         margin-bottom: 16px; }
+  body * home-carousel > .container .row .col .slider .slider-slides ion-slides.la-lineup .container {
+    margin-top: 125% !important; }
   body * home-schedule {
     display: block;
     margin-bottom: 376px; }
@@ -10113,23 +10129,23 @@ body {
   body * home-merchandise > .container .merchandise .merchandise-container .price {
     left: 81%; }
   home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container {
-    margin-top: 13em !important; }
+    margin-top: -5em !important; }
   home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus {
     margin-top: -16px;
     margin-bottom: 67px; }
   body * home-carousel > .container .row .col .slider .slider-slides ion-slide .container .content {
     margin-top: -18px; }
   home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:first-child .col span {
-    font-size: 385% !important; }
+    font-size: 385%; }
   home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:nth-child(2) .col span {
-    font-size: 281% !important; }
+    font-size: 281%; }
   home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:nth-child(3) .col {
     word-spacing: -6px !important;
     letter-spacing: 0 !important; }
     home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:nth-child(3) .col span {
-      font-size: 281% !important; }
+      font-size: 281%; }
   home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:nth-child(4) .col span {
-    font-size: 223% !important; }
+    font-size: 223%; }
   home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:nth-child(5) .col {
     letter-spacing: -2.7px !important; } }
 
