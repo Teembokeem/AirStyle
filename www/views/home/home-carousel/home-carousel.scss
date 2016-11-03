@@ -1,6 +1,6 @@
 home-carousel {
     display: block;
-    > .container {
+    >.container {
         height: 53.51em;
         .row .col {
             .slider {
@@ -11,7 +11,6 @@ home-carousel {
                         flex-flow: row wrap;
                         justify-content: center;
                         align-items: center;
-
                         .hero-image {
                             width: 100%;
                             height: 100%;
@@ -20,15 +19,12 @@ home-carousel {
                             /* background-position-x: 0px !important; */
                             background-position-y: -23px !important;
                         }
-
                         .darken {
                             width: 100%;
                             height: 100%;
                             position: absolute;
-                            background-color: rgba(0, 0, 0, 0.75) !important; 
-                            
+                            background-color: rgba(0, 0, 0, 0.75) !important;
                         }
-
                         .container {
                             * {
                                 z-index: 4;
@@ -40,7 +36,6 @@ home-carousel {
                                     font-size: 64px;
                                 }
                             }
-
                             .content {
                                 height: 59px;
                                 margin-bottom: 32px;
@@ -51,25 +46,26 @@ home-carousel {
                                         letter-spacing: 6px;
                                         font-weight: bold;
                                         font-size: 3.57em;
-                                        color: #828282;
+                                        color: white;
+                                        line-height: 1;
                                     }
-
+                                    span.sale {
+                                        font-family: 'Reglo-Bold';
+                                    }
                                 }
                             }
-
                             .buttons {
                                 .col {
                                     display: flex;
                                     flex-flow: row wrap;
                                     justify-content: center;
-
                                     button {
+                                        font-family: 'Apercu';
                                         width: 166px;
                                         height: 56px;
                                         font-size: 22px;
                                         letter-spacing: 1.8px;
                                     }
-
                                     button:first-child {
                                         border: solid 2px $as-blue;
                                         background-color: transparent !important;
@@ -77,14 +73,12 @@ home-carousel {
                                         margin-right: 18px;
                                         transition: all 1s cubic-bezier(.23, 1.25, .375, 1.15);
                                         transition-delay: all 1s;
-                                    }   
-
+                                    }
                                     button:first-child:hover {
                                         border: none;
                                         background-color: $as-blue !important;
                                         color: black;
-                                    }   
-
+                                    }
                                     button:last-child {
                                         border: none;
                                         background-color: $as-blue !important;
@@ -92,42 +86,35 @@ home-carousel {
                                         transition: all 1s cubic-bezier(.23, 1.25, .375, 1.15);
                                         transition-delay: all 1s;
                                     }
-
                                     button:last-child:hover {
                                         border: solid 2px $as-blue;
-                                        background-color:transparent !important;
+                                        background-color: transparent !important;
                                         color: white;
                                     }
                                 }
                             }
                         }
                     }
-
                     ion-slide {
                         .hero-image {
                             filter: grayscale(100%);
-
                         }
                     }
-
                     .la-lineup {
-                       > .container {
+                        >.container {
                             margin-top: 10%;
                             text-align: center;
                             .title-container {
                                 max-width: 714px;
                                 margin: 0 auto;
                                 text-align: center;
-
-                                .row + .row {
+                                .row+.row {
                                     margin-top: -15px;
                                 }
-
                                 .title {
                                     .col {
                                         span {
                                             font-size: 40px;
-
                                             .blue-dot {
                                                 font-size: 50px !important;
                                                 color: $as-blue;
@@ -178,14 +165,11 @@ home-carousel {
                                         }
                                     }
                                 }
-                                
                             }
-
                             .plus {
                                 margin-top: -25px;
                                 margin-bottom: 25px;
                             }
-
                             .content {
                                 margin-bottom: 86px;
                                 .col {
@@ -194,10 +178,10 @@ home-carousel {
                                         font-family: 'Reglo-Bold';
                                         letter-spacing: 1.8px;
                                         color: $as-blue;
+                                        line-height: 1;
                                     }
                                 }
                             }
-
                             .date {
                                 .col {
                                     span {
@@ -209,12 +193,10 @@ home-carousel {
                                 }
                             }
                         }
-                        
                         .shape {
-                            font-size:30px;
-                            position:absolute;
+                            font-size: 30px;
+                            position: absolute;
                         }
-
                         img:nth-child(2) {
                             left: 1px;
                             top: 315px;
@@ -241,7 +223,7 @@ home-carousel {
                             top: 687px;
                         }
                         img:nth-child(7) {
-                           height: 57px;
+                            height: 57px;
                             left: 1054px;
                             top: 714px;
                         }
@@ -267,7 +249,6 @@ home-carousel {
                         }
                     }
                 }
-
                 .slider-pager {
                     margin-bottom: 97px;
                     .slider-pager-page {
@@ -279,10 +260,9 @@ home-carousel {
                         i {
                             z-index: -1;
                             opacity: 0;
-                                // background-color: white !important;
+                            // background-color: white !important;
                         }
                     }
-
                     .slider-pager-page.active {
                         i {
                             z-index: -1;

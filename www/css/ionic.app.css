@@ -9851,13 +9851,32 @@ body {
     home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container * {
       margin-top: 0 !important;
       margin-bottom: 0 !important;
-      font-size: 18px !important;
+      font-size: 28px !important;
       letter-spacing: 4px !important;
-      word-spacing: -6px !important;
+      word-spacing: -10px !important;
       padding: 0 2px !important; }
     home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title .col span {
-      font-size: 64px;
-      line-height: 16px; }
+      line-height: 16px;
+      font-size: 24px !important; }
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title:nth-child(2) .col span,
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title:nth-child(3) .col span,
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title:nth-child(4) .col span,
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title:nth-child(5) .col span,
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title:nth-child(6) .col span,
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title:nth-child(7) .col span {
+      font-size: 16px !important; }
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus {
+      margin-top: 40px !important;
+      margin-bottom: 10px !important; }
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content .col span {
+      font-size: 14px !important;
+      word-spacing: 2px !important;
+      margin: 0px 20px !important; }
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .row.date {
+      margin: 10px 0 !important; }
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .date .col span {
+      font-size: 14px !important;
+      word-spacing: 2px !important; }
   body .main-content > .pane nav {
     margin-top: 5.4%; }
     body .main-content > .pane nav .as-nav .logo {
@@ -9995,7 +10014,9 @@ body {
         font-size: 30px;
         padding-bottom: 12px;
         border-bottom: 8px solid #40caff; }
-    body * home-ranking > .container div:nth-child(2), body * home-ranking > .container div:nth-child(3), body * home-ranking > .container div:nth-child(4) {
+    body * home-ranking > .container div:nth-child(2),
+    body * home-ranking > .container div:nth-child(3),
+    body * home-ranking > .container div:nth-child(4) {
       left: 0;
       background-size: 132% !important;
       width: 100%;
@@ -10089,7 +10110,7 @@ body {
         margin-bottom: 50px; }
         body * home-partner .partner-container .container .row .partner img {
           max-width: 100%; }
-      body * home-partner .partner-container .container .row .partner:nth-child(-n + 5) {
+      body * home-partner .partner-container .container .row .partner:nth-child(-n+5) {
         margin-right: 0 !important; }
   body * home-footer > .container {
     height: 213px;
@@ -10111,7 +10132,8 @@ body {
           font-weight: bold;
           margin: 0 auto;
           margin-top: 20px; }
-        body * home-footer > .container .footer .container a:first-child, body * home-footer > .container .footer .container a:nth-child(2) {
+        body * home-footer > .container .footer .container a:first-child,
+        body * home-footer > .container .footer .container a:nth-child(2) {
           width: 50%; }
         body * home-footer > .container .footer .container a.facebook {
           margin-right: 44px !important;
@@ -10308,12 +10330,16 @@ home-carousel {
             letter-spacing: 6px;
             font-weight: bold;
             font-size: 3.57em;
-            color: #828282; }
+            color: white;
+            line-height: 1; }
+          home-carousel > .container .row .col .slider .slider-slides ion-slide .container .content .col span.sale {
+            font-family: 'Reglo-Bold'; }
       home-carousel > .container .row .col .slider .slider-slides ion-slide .container .buttons .col {
         display: flex;
         flex-flow: row wrap;
         justify-content: center; }
         home-carousel > .container .row .col .slider .slider-slides ion-slide .container .buttons .col button {
+          font-family: 'Apercu';
           width: 166px;
           height: 56px;
           font-size: 22px;
@@ -10387,7 +10413,8 @@ home-carousel {
           font-size: 20px;
           font-family: 'Reglo-Bold';
           letter-spacing: 1.8px;
-          color: #40caff; }
+          color: #40caff;
+          line-height: 1; }
       home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .date .col span {
         font-size: 18px;
         letter-spacing: 1.7px;
