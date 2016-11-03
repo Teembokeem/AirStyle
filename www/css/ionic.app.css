@@ -9868,10 +9868,10 @@ body {
     home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus {
       margin-top: 30px !important;
       margin-bottom: 30px !important; }
-    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content .col span {
-      font-size: 14px !important;
-      word-spacing: 2px !important;
-      margin: 0px 20px !important; }
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content .col p {
+      font-size: 12px !important;
+      word-spacing: 1px !important;
+      line-height: 1.5em !important; }
     home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .row.date {
       margin: 10px 0 !important; }
     home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .date .col span {
@@ -10409,7 +10409,7 @@ home-carousel {
         margin-bottom: 25px; }
       home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content {
         margin-bottom: 86px; }
-        home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content .col span {
+        home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content .col p {
           font-size: 20px;
           font-family: 'Reglo-Bold';
           letter-spacing: 1.8px;
