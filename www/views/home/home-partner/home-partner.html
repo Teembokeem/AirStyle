@@ -8,7 +8,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="partner" ng-repeat=" partner in cc.partnerContent">
-					<img ng-click="cc.open(partner.link)" style="height:{{partner.dim}}px;" src="{{partner.img}}" alt="">
+					<a href="{{partner.link}}">
+						<img ng-click="cc.open(partner.link)" style="height:{{partner.dim}}px;" src="{{partner.img}}" alt="">
+					</a>
 				</div>
 			</div>
 		</div>
