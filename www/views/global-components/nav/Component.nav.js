@@ -1,4 +1,4 @@
-var y;
+var y, _t;
 (function () {
     'use strict';
     var dir = "/views/global-components/nav/"
@@ -9,27 +9,16 @@ var y;
             controllerAs: 'cc'
         });
 
-    NavCtrl.$inject = ['$scope', '$ionicScrollDelegate'];
+    NavCtrl.$inject = ['$scope', '$ionicScrollDelegate', '$rootScope'];
 
-    function NavCtrl($scope, $ionicScrollDelegate) {
+    function NavCtrl($scope, $ionicScrollDelegate, $rootScope) {
 
-        var vm = this;
-
-        vm.showHams = false;
-        $scope.width = angular.element(document.querySelectorAll('.scroll')[0])[0].clientWidth
-
-
-        angular.element(document).ready(function () {
-            $scope.$watch('width', function (thing) {
-                console.log("Fdsafdsfassd")
-                if (thing <= 780) {
-                    vm.showHams = !vm.showHams;
-                } else {
-                    vm.showHams = !vm.showHams;
-                }
-            })
-            // console.log("fdsajfodsaofjsdaoas", $scope.width <= 780)
-            // vm.showHams = !vm.showHams;
+        var cc = this;
+        $rootScope.$on('noNav', function (e, d) {
+            $scope.$apply(function () {
+                cc.noNav = d;
+            });
         })
+        cc.showHams = false;
     }
 })();
