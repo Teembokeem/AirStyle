@@ -15,10 +15,6 @@
     function HomePartnerCtrl($log) {
         var cc = this;
 
-        cc.open = function (link) {
-            window.open(link);
-        }
-
         cc.$onInit = function () {
 
             cc.partnerContent = [
