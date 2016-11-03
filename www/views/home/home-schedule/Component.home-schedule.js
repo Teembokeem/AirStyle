@@ -30,7 +30,7 @@
                 },
                 {
                     title: 'LOS ANGELES',
-                    date: 'FEB 10 + 14',
+                    date: 'FEB 18 + 19',
                     dest: 'app.anywhere'
                 },
             ]
