@@ -9,7 +9,7 @@
 			<div class="row">
 				<div class="partner" ng-repeat=" partner in cc.partnerContent">
 					<a href="{{partner.link}}">
-						<img ng-click="cc.open(partner.link)" style="height:{{partner.dim}}px;" src="{{partner.img}}" alt="">
+						<img ng-click="cc.open(partner.link)" style="height:{{partner.dim}}px;" ng-src="{{partner.img}}" alt="">
 					</a>
 				</div>
 			</div>
