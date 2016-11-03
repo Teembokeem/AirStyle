@@ -1,4 +1,3 @@
-var y, _t;
 (function () {
     'use strict';
     var dir = "/views/global-components/nav/"
