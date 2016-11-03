@@ -299,6 +299,104 @@ body {
                             }
                         }
                     }
+                    .more {
+                        margin-top: 21px;
+                    }
+                }
+            }
+
+            home-partner {
+                margin-top: 67px;
+                .section-title {
+                    .title {
+                        text-align: center;
+                        border-bottom: none !important;
+
+                        span {
+                            font-size: 30px !important;
+                            border-bottom: 8px solid $as-green;
+                            padding-bottom:12px;
+                        }
+                    }
+                }
+
+                .partner-container {
+                    .container {
+                        .row {
+                            display: block;
+                            padding: 0 60px;
+
+                            .partner {
+                                max-width: 200px;
+                                margin: 0 auto;
+                                text-align: center;
+                                margin-bottom: 50px;
+
+                                img {
+                                    max-width: 100%;
+                                }
+                            }
+
+                            .partner:nth-child(-n + 5) {
+                                margin-right: 0 !important;
+                            }
+                        }
+                    }
+                }
+            }
+
+            home-footer {
+               > .container {
+                    height: 213px;
+                    margin-top: 27px;
+
+                    .footer {
+                        padding: 34px 41px;
+
+                        .container {
+                            display: flex;
+                            flex-flow: row wrap;
+                            justify-content: center;
+                            height: 100%;
+
+                            a {
+                                display: inline;
+                                text-align: center;
+                                margin-left: 0 !important;
+                                margin-right: 0 !important;
+                                font-weight: bold;
+                            }
+
+                            span {
+                                font-weight: bold;
+                                margin: 0 auto;
+                                margin-top: 20px;
+                            }
+                            a:first-child, a:nth-child(2) {
+                                width: 50%;
+                            }
+
+                            a.facebook {
+                                margin-right: 44px !important;
+                                margin-top: 22px;
+                            }
+
+                            a.twitter {
+                                margin-right: 46.8px !important;
+                                margin-top: 27px;
+                            }
+
+                            a.instagram {
+                                margin-right: 38px !important;
+                                margin-top: 24px;
+                            }
+
+                            a.youtube {
+                                margin-top: 29px;
+                            }
+
+                        }
+                    }
                 }
             }
         }
