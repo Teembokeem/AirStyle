@@ -55,6 +55,7 @@ body {
         .main-content {
             > .pane {
                nav {
+                   height: 100%;
                    margin-top: 5.4%;
                    .as-nav {
                        .logo {
@@ -62,8 +63,11 @@ body {
                        }
 
                        .search {
-                               padding-top: 1.97%;
-                               margin-left: 25.66%;
+                            display: inline;
+                            text-align: right;
+                            margin-right: 120px;
+                            margin-left: 0;
+                            padding-top: 3.97%;
                        }
 
                        .hamburger {
@@ -75,6 +79,44 @@ body {
 
                        .anchor-pad {
                            display: none;
+                       }
+                   }
+
+                   mobile-menu {
+                       > .container {
+                           height: 100%;
+                            width: 100%;
+                            position: fixed;
+                            top: 0;
+                           .as-nav {
+                               .hamburger {
+                                    text-align: right;
+                                    position: relative;
+                                    top: 22px;
+                                    right: 23px;
+                                    padding-top: 0;
+
+                                     img {
+                                         padding: 13px;
+                                     }
+                               }
+                           }
+
+                           > div:first-child {
+                               .container {
+                                   button {
+                                        position: absolute;
+                                        right: 34px;
+                                        border: none;
+                                        top: 27px;
+
+                                        i {
+                                            font-size: 22px;
+                                        }
+
+                                   }
+                               }
+                           }
                        }
                    }
                }
