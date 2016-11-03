@@ -16,12 +16,20 @@ var y;
         var vm = this;
 
         vm.showHams = false;
+        $scope.width = angular.element(document.querySelectorAll('.scroll')[0])[0].clientWidth
+
 
         angular.element(document).ready(function () {
-
-            if (angular.element(document.querySelectorAll('.scroll')[0])[0].clientWidth <= 780) {
-                vm.showHams = !vm.showHams;
-            }
+            $scope.$watch('width', function (thing) {
+                console.log("Fdsafdsfassd")
+                if (thing <= 780) {
+                    vm.showHams = !vm.showHams;
+                } else {
+                    vm.showHams = !vm.showHams;
+                }
+            })
+            // console.log("fdsajfodsaofjsdaoas", $scope.width <= 780)
+            // vm.showHams = !vm.showHams;
         })
     }
 })();

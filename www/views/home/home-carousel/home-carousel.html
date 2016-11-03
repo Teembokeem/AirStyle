@@ -6,8 +6,8 @@
                     <div class="hero-image" style="background: url({{slide.image}})"></div>
                     <div class="darken"></div>
                     <div class="container">
-                        <div class="row title">
-                            <div class="col">
+                        <div class="row nopad title">
+                            <div class="col nopad">
                                 <span>{{slide.title}}</span>
                             </div>
                         </div>
@@ -16,8 +16,8 @@
                                 <span>{{slide.content}}</span>
                             </div>
                         </div>
-                        <div class="row buttons">
-                            <div class="col">
+                        <div class="row buttons nopad">
+                            <div class="col nopad">
                                 <!--<button ng-repeat="button in slide.buttons" ui-sref="{{button.dest}}">{{button.label}}</button>-->
                                 <button ng-repeat="button in slide.buttons" ng-click="cc.go(button.dest)">{{button.label}}</button>
                             </div>
@@ -25,7 +25,6 @@
                     </div>
                 </ion-slide>
             </ion-slide-box>
-
         </div>
     </div>
 </div>

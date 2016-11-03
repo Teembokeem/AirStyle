@@ -16,7 +16,6 @@
         var cc = this;
 
         cc.go = function (link) {
-            console.log('GOING TO ', link)
             window.location = link;
         };
 

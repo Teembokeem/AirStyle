@@ -1,28 +1,28 @@
-<div class="as-nav row">
-    <div clss="col">
+<div class="as-nav row nopad">
+    <div class="col logo nopad">
         <a ui-sref="app.content.home">
             <img src="../img/logo.png" alt="">
         </a>
     </div>
-    <div clss="col">
-        <a ng-if="vm.showHams" ng-disabled="true" ng-class="{'disabled' : true}" ui-sref="app.home">TOUR STOPS</a>
+    <div class="col anchor-pad">
+        <a ng-disabled="true" ng-class="{'disabled' : true}" ui-sref="app.home">TOUR STOPS</a>
     </div>
-    <div clss="col">
-        <a ng-if="vm.showHams" ng-disabled="true" ng-class="{'disabled' : true}">LINE-UP</a>
+    <div class="col anchor-pad">
+        <a ng-disabled="true" ng-class="{'disabled' : true}">LINE-UP</a>
     </div>
-    <div clss="col">
-        <a ng-if="vm.showHams" ng-disabled="true" ng-class="{'disabled' : true}">RIDERS + RANKINGS</a>
+    <div class="col anchor-pad">
+        <a ng-disabled="true" ng-class="{'disabled' : true}">RIDERS + RANKINGS</a>
     </div>
-    <div clss="col">
-        <a ng-if="vm.showHams" ui-sref="app.content.ticket">TICKETS</a>
+    <div class="col anchor-pad">
+        <a ui-sref="app.content.ticket">TICKETS</a>
     </div>
-    <div clss="col">
-        <a ng-if="vm.showHams" ng-disabled="true" ng-class="{'disabled' : true}">MERCH</a>
+    <div class="col anchor-pad">
+        <a ng-disabled="true" ng-class="{'disabled' : true}">MERCH</a>
     </div>
-    <div clss="col">
+    <div class="col search">
         <i class="icon ion-ios-search-strong"></i>
     </div>
-    <div clss="col">
-        <img ng-if="!vm.showHams" src="../img/hamburger.png" alt="">
+    <div class="col hamburger">
+        <img src="../img/hamburger.png" alt="">
     </div>
 </div>
