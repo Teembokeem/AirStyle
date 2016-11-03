@@ -5,7 +5,7 @@
 		</div>
 	</div>
 	<div class="row merchandise">
-		<div ng-repeat="merch in cc.merchandiseContent" class="container merchandise-container">
+		<div ng-repeat="merch in cc.merchandiseContent" class="container merchandise-container" ng-click="cc.openMerch()">
 			<div class="image">
 				<img src="{{merch.image}}" alt="">
 			</div>
@@ -20,7 +20,7 @@
 	</div>
 	<div class="row more">
 		<div class="col">
-			<button>MORE MERCH</button>
+			<button ng-click="cc.openMerch()">MORE MERCH</button>
 		</div>
 	</div>
 </div>

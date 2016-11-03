@@ -15,6 +15,10 @@
     function HomeMerchandiseCtrl($log) {
         var cc = this;
 
+        cc.openMerch = function () {
+            window.open("http://www.air-style.clothing");
+        };
+
         cc.$onInit = function () {
 
             cc.merchandiseContent = [
