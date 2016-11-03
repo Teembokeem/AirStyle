@@ -52,22 +52,22 @@
                     ],
                     image: 'img/slide1.jpg'
                 },
-                {
-                    title: 'INNSBRUCK-TIROL TICKETS',
-                    content: 'ON SALE NOW',
-                    buttons: [
-                        {
-                            label: 'LEARN MORE',
-                            dest: 'http://www.air-style.at'
-                        },
-                        {
-                            label: 'BUY NOW',
-                            dest: 'https://frontoffice.paylogic.nl/flows/MTAuMTAwLjIuMyw1Niw3MTU3ZjZlNGQzNDA0YjlmOGIzZmI2NDFjMmQ4MmJjMyxlYTVhNzBiNGEzMzIyNWRkZmU3ZjZhYmI0M2Q5YmFjZg/Tickets/'
-                        }
-                    ],
-                    image: 'img/slide1.jpg'
-                }
             ]
+
+            cc.customSlide = {
+
+                title: [
+                    ['MAJOR LAZER', 'FLUME'],
+                    ['ZHU', 'CHROMEO', 'ATMOSPHERE', 'YG'],
+                    ['TV ON THE RADIO', 'VINCE STAPLES', 'RUSS'],
+                    ['LOUIS THE CHILD', 'VIC MENSA', 'ST. LUCIA'],
+                    ['MARIAN HILL', 'THE SHELTERS', 'XYL0', 'PHANTOMS'],
+                    ['POWERS', 'RKCB', '070 SHAKE'],
+                ],
+                plus: '../img/plus.png',
+                content: "THE WORLD’S BEST SNOWBOARDERS COMPETING ON A 16-STORY JUMP",
+                date: 'FEB 10 + 14 Expo Park DTLA'
+            }
         }
     }
 })();

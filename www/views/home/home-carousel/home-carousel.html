@@ -2,6 +2,42 @@
 	<div class="row nopad">
 		<div class="col nopad">
 			<ion-slide-box>
+				<ion-slide class="la-lineup">
+					<div class="container">
+						<div class="title-container container">
+							<div ng-repeat="titleSegment in cc.customSlide.title" class="row nopad title">
+								<div class="col nopad">
+									<span ng-repeat="title in titleSegment">{{title}} <span class="blue-dot">{{$index == titleSegment.length - 1 ? '' : '.'}} </span></span>
+								</div>
+							</div>
+						</div>
+						<div class="row plus">
+							<div class="col">
+								<img src="{{cc.customSlide.plus}}" alt="">
+							</div>
+						</div>
+						<div class="row content">
+							<div class="col">
+								<span>{{cc.customSlide.content}}</span>
+							</div>
+						</div>
+						<div class="row date">
+							<div class="col">
+								<span>{{cc.customSlide.date}}</span>
+							</div>
+						</div>
+					</div>
+					<img class="shape" src="../img/line.png" alt="">
+					<img class="shape" src="../img/rectangle.png" alt="">
+					<img class="shape" src="../img/half-plus.png" alt="">
+					<img class="shape" src="../img/s.png" alt="">
+					<img class="shape" src="../img/l.png" alt="">
+					<img class="shape" src="../img/lines.png" alt="">
+					<img class="shape" src="../img/triangle.png" alt="">
+					<img class="shape" src="../img/green-line.png" alt="">
+					<img class="shape" src="../img/other-line.png" alt="">
+					<img class="shape" src="../img/hollow-rectangle.png" alt="">
+				</ion-slide>
 				<ion-slide ng-repeat="slide in cc.slideContent">
 					<div class="hero-image" style="background: url({{slide.image}})"></div>
 					<div class="darken"></div>

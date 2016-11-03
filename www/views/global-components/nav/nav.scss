@@ -19,7 +19,8 @@ nav {
         .logo {
             margin-left: 4.18%;
             max-width: 4.13%;
-            min-width: 40.6px; 
+            min-width: 58.6px; 
+            margin-right: -0.5%;
 
             a {
                 img {
@@ -29,20 +30,44 @@ nav {
         }
 
         .anchor-pad {
-            padding-top: 1.74%
+            padding-top: 1.74%;
+            min-width: 146px;
+            text-align: center;
+        }
+
+        .anchor-pad:nth-child(2) {
+            margin-right: -0.5%;
+            margin-left: 34.5%;
+        }
+
+        .anchor-pad:nth-child(3) {
+            margin-right: 1.5%;
+        }
+
+        .anchor-pad:nth-child(4) {
+            margin-right: 1.6%;
+        }
+
+        .anchor-pad:nth-child(5) {
+            margin-right: -1.7%;
         }
 
         .search {
-            margin-left: 41.66%;
-            padding-right: 0;
-            padding-top: 1.97%;
+           padding-right: 0;
+            padding-top: 1.4%;
+            margin-right: 5%;
             text-align: right;
+
+            i {
+                font-size: 25px;
+            }
         }
 
         .hamburger {
             padding-top: 2.2%;
-            text-align: left;
-            margin-left: 54px;
+            text-align: right;
+            margin-right: 11%;
+            margin-top: -6.7%;
             padding-left: 0;
         }
 

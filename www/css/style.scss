@@ -55,7 +55,7 @@ body {
         .main-content {
             > .pane {
                nav {
-                   height: 100%;
+                //    height: 100%;
                    margin-top: 5.4%;
                    .as-nav {
                        .logo {
@@ -67,7 +67,8 @@ body {
                             text-align: right;
                             margin-right: 120px;
                             margin-left: 0;
-                            padding-top: 3.97%;
+                            top: 14px;
+                            position:relative;
                        }
 
                        .hamburger {
@@ -82,19 +83,29 @@ body {
                        }
                    }
 
+                   .as-nav.nav-menu {
+                    //    background-color: black !important;
+                   }
+
                    mobile-menu {
+                       width: 100%;
+                       height: 100%;
                        > .container {
-                           height: 100%;
-                            width: 100%;
-                            position: fixed;
-                            top: 0;
+                           padding-top: 43px;
+                           padding-left: 23px;
+                           width: 100%;
+                           top: 66px;
+                           overflow-y: auto;
+                        //    height: 568px;
                            .as-nav {
                                .hamburger {
                                     text-align: right;
-                                    position: relative;
-                                    top: 22px;
-                                    right: 23px;
                                     padding-top: 0;
+                                    position: absolute;
+                                    right: -10px;
+                                    border: none;
+                                    top: 32px;
+                                    margin-top: -20px;
 
                                      img {
                                          padding: 13px;
@@ -103,20 +114,73 @@ body {
                            }
 
                            > div:first-child {
-                               .container {
+                               .container:first-child {
+                                   margin-bottom: 68px;
+
                                    button {
-                                        position: absolute;
+                                         position: absolute;
                                         right: 34px;
                                         border: none;
-                                        top: 27px;
+                                        top: 12px;
+
 
                                         i {
                                             font-size: 22px;
                                         }
 
                                    }
+
+                                   .row {
+                                       .col {
+                                            font-size: 30px;
+                                            font-family: 'Apercu';
+                                            font-weight: bold;
+                                            margin-bottom: 40px;
+                                       }
+                                   }
+                               }
+
+                               .container:last-child {
+                                   margin-bottom: 56px;
+                                   > .row {
+                                      > .col {
+                                          > .container {
+                                              > .row:first-child {
+                                                  > .col {
+                                                    margin-bottom:22px;
+                                                      span {
+                                                        font-family: 'Reglo-Bold';
+                                                        font-size: 52px;
+                                                      }
+                                                  }
+                                              }
+                                              .row:last-child {
+                                                  .col {
+                                                      span {
+                                                        font-family: 'Reglo-Bold';
+                                                        font-size: 22px;
+                                                        border-bottom: 8px solid $as-green;
+                                                        padding-bottom: 7px;
+
+                                                      }
+                                                  }
+                                              }
+                                          }
+                                       }
+                                   }
+                                   > .row:nth-child(2) > .col > .container .row:last-child .col span {
+                                        border-bottom: 8px solid $as-yellow;
+                                   }
+                                   > .row:nth-child(3) > .col > .container .row:last-child .col span {
+                                        border-bottom: 8px solid $as-blue;
+                                   }
                                }
                            }
+                       }
+
+                       > .container.nav-menu {
+                           background-color: black !important;
+                           height: 100vh;
                        }
                    }
                }
@@ -150,6 +214,7 @@ body {
                 padding: 0 17px;
                 width: 100%;
                 text-align: center;
+                padding-top: 50px;
 
                 .title {
                     margin-top: -10em;
@@ -311,7 +376,7 @@ body {
 
                         > div {
                             width: 100% !important;
-                            height: 415px !important;
+                            height: 100% !important;
                             border: 7px solid black;
                         }
 
@@ -323,7 +388,7 @@ body {
                             .price {
                                 position: relative;
                                 bottom: 262px;
-                                left: 229px;
+                                left: 76%;
                                 width: 84px;
                                 height: 42px;
 
@@ -454,3 +519,63 @@ body {
         }
     }
 }
+
+@media (min-width:410px) and (max-width:780px) {
+     body * home-merchandise > .container .merchandise .merchandise-container .price {
+        left: 81%; 
+     }
+    body * home-carousel > .container .row .col .slider .slider-slides ion-slide .container .title {
+        // margin-top: 26em;
+    }
+
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container {
+        margin-top: 13em !important;
+    }
+
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus {
+        margin-top: -16px;
+        margin-bottom: 67px;
+    }
+
+    body * home-carousel > .container .row .col .slider .slider-slides ion-slide .container .content {
+        margin-top: -18px;
+    }
+
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container {
+        .title:first-child .col span {
+            font-size: 385% !important;
+        }
+        .title:nth-child(2) { 
+            .col {
+                span {
+                    font-size: 281% !important;
+                }
+            }
+        }
+        .title:nth-child(3) { 
+            .col {
+                word-spacing: -6px !important;
+                letter-spacing: 0 !important;
+                span {
+                    font-size: 281% !important;
+                }
+            }
+        }
+        .title:nth-child(4) { 
+            .col {
+                span {
+                    font-size: 223% !important;
+                }
+            }
+        }
+        .title:nth-child(5) { 
+            .col {
+                 letter-spacing: -2.7px !important; 
+                span {
+                    // font-size: 223% !important;
+                }
+            }
+        }
+    }
+}   
+

@@ -19,7 +19,7 @@
         cc.$onInit = function () {
             cc.events = [
                 {
-                    name: 'Beijing',
+                    name: 'BEIJING',
                     color: '#62ff00',
                     date: 'NOV 18 + 19'
                 },

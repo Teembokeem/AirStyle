@@ -109,10 +109,167 @@ home-carousel {
 
                         }
                     }
+
+                    .la-lineup {
+                       > .container {
+                            margin-top: 10%;
+                            text-align: center;
+                            .title-container {
+                                max-width: 714px;
+                                margin: 0 auto;
+                                text-align: center;
+
+                                .row + .row {
+                                    margin-top: -15px;
+                                }
+
+                                .title {
+                                    .col {
+                                        span {
+                                            font-size: 40px;
+
+                                            .blue-dot {
+                                                font-size: 50px !important;
+                                                color: $as-blue;
+                                            }
+                                        }
+                                    }
+                                }
+                                .title:first-child {
+                                    .col {
+                                        letter-spacing: 6px;
+                                        word-spacing: 2px;
+                                        span {
+                                            font-size: 64px;
+                                        }
+                                    }
+                                }
+                                .title:nth-child(2) {
+                                    .col {
+                                        word-spacing: 5px;
+                                        span {
+                                            font-size: 46px;
+                                        }
+                                    }
+                                }
+                                .title:nth-child(3) {
+                                    .col {
+                                        letter-spacing: 2px;
+                                        word-spacing: -0.5px;
+                                        span {
+                                            font-size: 36px;
+                                        }
+                                    }
+                                }
+                                .title:nth-child(4) {
+                                    .col {
+                                        letter-spacing: 2px;
+                                        word-spacing: 0px;
+                                        span {
+                                            font-size: 36px;
+                                        }
+                                    }
+                                }
+                                .title:nth-child(5) {
+                                    .col {
+                                        letter-spacing: -1px;
+                                        span {
+                                            font-size: 36px;
+                                        }
+                                    }
+                                }
+                                
+                            }
+
+                            .plus {
+                                margin-top: -25px;
+                                margin-bottom: 25px;
+                            }
+
+                            .content {
+                                margin-bottom: 86px;
+                                .col {
+                                    span {
+                                        font-size: 20px;
+                                        font-family: 'Reglo-Bold';
+                                        letter-spacing: 1.8px;
+                                        color: $as-blue;
+                                    }
+                                }
+                            }
+
+                            .date {
+                                .col {
+                                    span {
+                                        font-size: 18px;
+                                        letter-spacing: 1.7px;
+                                        font-family: 'Reglo-Bold';
+                                        color: #828282;
+                                    }
+                                }
+                            }
+                        }
+                        
+                        .shape {
+                            font-size:30px;
+                            position:absolute;
+                        }
+
+                        img:nth-child(2) {
+                            left: 1px;
+                            top: 315px;
+                            height: 193px;
+                        }
+                        img:nth-child(3) {
+                            left: 126px;
+                            top: 315px;
+                            height: 193px;
+                        }
+                        img:nth-child(4) {
+                            height: 132.6px;
+                            left: 56px;
+                            top: 656px;
+                        }
+                        img:nth-child(5) {
+                            height: 198px;
+                            left: 190px;
+                            top: 594px;
+                        }
+                        img:nth-child(6) {
+                            height: 101.2px;
+                            left: 376px;
+                            top: 687px;
+                        }
+                        img:nth-child(7) {
+                           height: 57px;
+                            left: 1054px;
+                            top: 714px;
+                        }
+                        img:nth-child(8) {
+                            height: 75.5px;
+                            left: 1215px;
+                            top: 600px;
+                        }
+                        img:nth-child(9) {
+                            height: 176px;
+                            left: 1276px;
+                            top: 333px;
+                        }
+                        img:nth-child(10) {
+                            height: 83.5px;
+                            left: 1334px;
+                            top: 425px;
+                        }
+                        img:nth-child(11) {
+                            height: 117.6px;
+                            left: 1359px;
+                            top: 638px;
+                        }
+                    }
                 }
 
                 .slider-pager {
-                    margin-bottom: 179px;
+                    margin-bottom: 97px;
                     .slider-pager-page {
                         width: 20px !important;
                         height: 20px !important;
