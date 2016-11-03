@@ -15,6 +15,11 @@
     function HomeCarouselCtrl($log) {
         var cc = this;
 
+        cc.go = function (link) {
+            console.log('GOING TO ', link)
+            window.location = link;
+        };
+
         cc.$onInit = function () {
 
             cc.slideContent = [
@@ -28,7 +33,7 @@
                         },
                         {
                             label: 'BUY NOW',
-                            dest: 'app.content.ticket'
+                            dest: 'https://frontoffice.paylogic.nl/flows/MTAuMTAwLjIuMyw1Niw3MTU3ZjZlNGQzNDA0YjlmOGIzZmI2NDFjMmQ4MmJjMyxlYTVhNzBiNGEzMzIyNWRkZmU3ZjZhYmI0M2Q5YmFjZg/Tickets/'
                         }
                     ],
                     image: 'img/slide1.jpg'
@@ -38,8 +43,12 @@
                     content: 'SIGN UP FOR PRESALE TICKETS',
                     buttons: [
                         {
-                            label: '+ SIGN UP +',
-                            dest: 'app.another'
+                            label: 'LEARN MORE',
+                            dest: 'app.here'
+                        },
+                        {
+                            label: 'BUY NOW',
+                            dest: 'https://airandstyle.frontgatetickets.com/'
                         }
                     ],
                     image: 'img/slide2.jpg'
