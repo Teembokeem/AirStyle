@@ -11,7 +11,7 @@
 
     function MobileMenuCtrl($log) {
         var cc = this;
-
+        cc.noNav = true;
         cc.toggleNav = function () {
             cc.noNav = !cc.noNav;
         };
