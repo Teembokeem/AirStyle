@@ -1,0 +1,54 @@
+<div class="container">
+	<div ng-if="!cc.noNav">
+		<div class="container">
+			<button ng-click="cc.toggleNav()">X</button>
+			<div class="row">
+				<div class="col">
+					Live Stream
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					Riders + Rankings
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					Videos
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					Shop
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<!-- ng-repeat-->
+			<div class="row" ng-repeat="event in cc.events">
+				<div class="col">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								{{event.name}}
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								{{event.date}}
+							</div>
+						</div>
+						<div class="row">
+							<div class="Rectangle" style="background-color: {{event.color}}"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div ng-if="cc.noNav" class="as-nav row nopad">
+		<div class="col hamburger" ng-click="cc.toggleNav()">
+			<img src="../img/hamburger.png" alt="">
+		</div>
+	</div>
+</div>

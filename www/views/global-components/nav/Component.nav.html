@@ -4,27 +4,30 @@
 			<img src="../img/logo.png" alt="">
 		</a>
 	</div>
-	<div ng-if="!cc.noNav" class="col anchor-pad">
+	<!--<span ng-if="!cc.mobile">-->
+	<div ng-if="!cc.mobile && !cc.noNav" class="col anchor-pad">
 		<a ng-disabled="true" ng-class="{'disabled' : true}" ui-sref="app.home">TOUR STOPS</a>
 	</div>
-	<div ng-if="!cc.noNav" class="col anchor-pad">
+	<div ng-if="!cc.mobile && !cc.noNav" class="col anchor-pad">
 		<a ng-disabled="true" ng-class="{'disabled' : true}">LINE-UP</a>
 	</div>
-	<div ng-if="!cc.noNav" class="col anchor-pad">
+	<div ng-if="!cc.mobile && !cc.noNav" class="col anchor-pad">
 		<a ng-disabled="true" ng-class="{'disabled' : true}">RIDERS + RANKINGS</a>
 	</div>
-	<div ng-if="!cc.noNav" class="col anchor-pad">
+	<div ng-if="!cc.mobile && !cc.noNav" class="col anchor-pad">
 		<a ui-sref="app.content.ticket">TICKETS</a>
 	</div>
-	<div ng-if="!cc.noNav" class="col anchor-pad">
+	<div ng-if="!cc.mobile && !cc.noNav" class="col anchor-pad">
 		<a ng-disabled="true" ng-class="{'disabled' : true}">MERCH</a>
 	</div>
+	<!--</span>-->
 	<div class="col search">
 		<i class="icon ion-ios-search-strong"></i>
 	</div>
 </div>
-<div ng-if="cc.noNav" class="as-nav row nopad">
-	<div class="col hamburger">
+<div ng-if="cc.noNav && !cc.mobile" class="as-nav row nopad">
+	<div class="col hamburger" ng-click="cc.toggleNav()">
 		<img src="../img/hamburger.png" alt="">
 	</div>
 </div>
+<mobile-menu ng-if="cc.mobile"></mobile-menu>
