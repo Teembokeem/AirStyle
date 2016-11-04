@@ -10507,8 +10507,7 @@ home-carousel {
       home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .date .col span {
         font-size: 18px;
         letter-spacing: 1.7px;
-        font-family: 'Reglo-Bold';
-        color: #828282; }
+        font-family: 'Reglo-Bold'; }
     home-carousel > .container .row .col .slider .slider-slides .la-lineup .shape {
       font-size: 30px;
       position: absolute; }
