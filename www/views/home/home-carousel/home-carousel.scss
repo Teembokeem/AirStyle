@@ -106,6 +106,7 @@ home-carousel {
                             text-align: center;
                             .title-container {
                                 max-width: 714px;
+                                margin-bottom: 25px !important;
                                 margin: 0 auto;
                                 text-align: center;
                                 .row+.row {
@@ -168,7 +169,7 @@ home-carousel {
                             }
                             .plus {
                                 margin-top: -25px;
-                                margin-bottom: 25px;
+                                margin-bottom: 25px !important;
 
                                 .col {
                                     display: flex;
