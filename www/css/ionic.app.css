@@ -9866,6 +9866,7 @@ body {
     home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title:nth-child(7) .col span {
       font-size: 16px !important; }
     home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus {
+<<<<<<< HEAD
       margin-top: 30px !important;
       margin-bottom: 30px !important; }
     home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content .col p {
@@ -9877,6 +9878,30 @@ body {
     home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .date .col span {
       font-size: 14px !important;
       word-spacing: 2px !important; }
+=======
+      margin-top: 6px !important;
+      margin-bottom: 6px !important; }
+      home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .left {
+        margin-right: 5% !important;
+        width: 37%; }
+        home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .left a {
+          text-decoration: none;
+          font-size: 14px !important; }
+      home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .right {
+        margin-left: 3% !important;
+        width: 37%; }
+        home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .right a {
+          text-decoration: none;
+          font-size: 14px !important; }
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content {
+      margin-bottom: -22px !important; }
+      home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content .col p {
+        font-size: 15px !important;
+        letter-spacing: 1.8px !important;
+        word-spacing: 5px !important; }
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .date .col span {
+      font-size: 22px !important; }
+>>>>>>> tim-designs
   body .main-content > .pane nav {
     margin-top: 5.4%; }
     body .main-content > .pane nav .as-nav .logo {
@@ -10157,8 +10182,29 @@ body {
   home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container {
     margin-top: -5em !important; }
   home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus {
+<<<<<<< HEAD
     margin-top: -16px;
     margin-bottom: 67px; }
+=======
+    margin-top: 6px !important;
+    margin-bottom: 6px !important; }
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .left {
+      margin-right: 5% !important;
+      width: 37%; }
+      home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .left a {
+        font-size: 14px !important;
+        text-decoration: none; }
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .right {
+      margin-left: 3% !important;
+      width: 37%; }
+      home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .right a {
+        font-size: 14px !important;
+        text-decoration: none; }
+  home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content .col p {
+    font-size: 15px !important;
+    letter-spacing: 1.8px !important;
+    word-spacing: 5px !important; }
+>>>>>>> tim-designs
   body * home-carousel > .container .row .col .slider .slider-slides ion-slide .container .content {
     margin-top: -18px; }
   body .main-content > .pane nav mobile-menu > .container > div:first-child .container:first-child button {
@@ -10179,11 +10225,30 @@ body {
   home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:nth-child(5) .col {
     letter-spacing: -2.7px !important; } }
 
-@media (max-width: 410px) and (min-width: 370px) {
+@media (max-width: 410px) and (min-width: 320px) {
   body .main-content > .pane nav mobile-menu > .container > div:first-child .container:first-child button {
     top: 17px; }
   body .main-content > .pane nav mobile-menu > .container .as-nav .hamburger {
-    right: -18px; } }
+    right: -18px; }
+  home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus {
+    margin-top: 6px !important;
+    margin-bottom: 6px !important; }
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .left {
+      margin-right: 5% !important;
+      width: 37%; }
+      home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .left a {
+        text-decoration: none;
+        font-size: 13px !important;
+        letter-spacing: 1px !important;
+        word-spacing: 0px !important; }
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .right {
+      margin-left: 3% !important;
+      width: 37%; }
+      home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .right a {
+        text-decoration: none;
+        font-size: 13px !important;
+        letter-spacing: 1px !important;
+        word-spacing: 0px !important; } }
 
 nav {
   margin-top: 2.57%;
