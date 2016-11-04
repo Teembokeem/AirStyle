@@ -10218,6 +10218,8 @@ body {
       margin-right: 5% !important;
       width: 37%; }
       home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .left a {
+        position: relative;
+        bottom: 2px;
         text-decoration: none;
         font-size: 13px !important;
         letter-spacing: 1px !important;
@@ -10226,6 +10228,8 @@ body {
       margin-left: 3% !important;
       width: 37%; }
       home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .right a {
+        position: relative;
+        bottom: 2px;
         text-decoration: none;
         font-size: 13px !important;
         letter-spacing: 1px !important;

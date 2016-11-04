@@ -646,6 +646,8 @@ body {
                     .left {
                         margin-right: 5% !important;
                         a {
+                            position: relative;
+                            bottom: 2px;
                             text-decoration: none;
                             font-size: 13px !important;
                             letter-spacing: 1px !important;
@@ -658,6 +660,8 @@ body {
                         margin-left: 3% !important;
                         width: 37%;
                         a {
+                            position: relative;
+                            bottom: 2px;
                             text-decoration: none;
                             font-size: 13px !important;
                             letter-spacing: 1px !important;
