@@ -82,8 +82,12 @@ body {
 
                 .col {
                     .left {
+                        border: none;
+                        border: 3px solid white;
                         margin-right: 5% !important;
                         a {
+                            position: relative;
+                            bottom: 2px;
                             text-decoration: none;
                             font-size: 14px !important;
                         }
@@ -91,9 +95,13 @@ body {
                     }
 
                     .right {
+                        border: none;
+                        border: 3px solid white;
                         margin-left: 3% !important;
                         width: 37%;
                         a {
+                            position: relative;
+                            bottom: 2px;
                             text-decoration: none;
                             font-size: 14px !important;
                         }
@@ -553,18 +561,26 @@ body {
 
             .col {
                 .left {
+                    border: none;
+                    border: 3px solid white;
                     margin-right: 5% !important;
                     width: 37%;
                     a {
+                        position: relative;
+                        bottom: 2px;
                         font-size: 14px !important;
                         text-decoration: none;
                     }
                 }
 
                 .right {
+                    border: none;
+                    border: 3px solid white;
                     margin-left: 3% !important;
                     width: 37%;
                     a {
+                        position: relative;
+                        bottom: 2px;
                         font-size: 14px !important;
                         text-decoration: none;
                     }
@@ -644,8 +660,12 @@ body {
 
                 .col {
                     .left {
+                        border: none;
+                        border: 3px solid white;
                         margin-right: 5% !important;
                         a {
+                            position: relative;
+                            bottom: 2px;
                             text-decoration: none;
                             font-size: 13px !important;
                             letter-spacing: 1px !important;
@@ -655,9 +675,13 @@ body {
                     }
 
                     .right {
+                        border: none;
+                        border: 3px solid white;
                         margin-left: 3% !important;
                         width: 37%;
                         a {
+                            position: relative;
+                            bottom: 2px;
                             text-decoration: none;
                             font-size: 13px !important;
                             letter-spacing: 1px !important;
