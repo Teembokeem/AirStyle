@@ -184,6 +184,25 @@ home-carousel {
                             .plus {
                                 margin-top: -25px;
                                 margin-bottom: 25px;
+
+                                .col {
+                                    display: flex;
+                                    justify-content: center;
+                                    button {
+                                        border: none;
+                                        border: 3px solid white;
+                                        width: 24%;
+                                        font-size: 17px;
+                                    }
+
+                                    .left {
+                                        margin-right: 20%;
+                                    }
+
+                                    .right {
+                                        margin-left: 20%;
+                                    }
+                                }
                             }
 
                             .content {
@@ -215,52 +234,52 @@ home-carousel {
                             position:absolute;
                         }
 
-                        img:nth-child(2) {
+                        .shape:nth-child(2) {
                             left: 1px;
                             top: 315px;
                             height: 193px;
                         }
-                        img:nth-child(3) {
+                        .shape:nth-child(3) {
                             left: 126px;
                             top: 315px;
                             height: 193px;
                         }
-                        img:nth-child(4) {
+                        .shape:nth-child(4) {
                             height: 132.6px;
                             left: 56px;
                             top: 656px;
                         }
-                        img:nth-child(5) {
+                        .shape:nth-child(5) {
                             height: 198px;
                             left: 190px;
                             top: 594px;
                         }
-                        img:nth-child(6) {
+                        .shape:nth-child(6) {
                             height: 101.2px;
                             left: 376px;
                             top: 687px;
                         }
-                        img:nth-child(7) {
+                        .shape:nth-child(7) {
                            height: 57px;
                             left: 1054px;
                             top: 714px;
                         }
-                        img:nth-child(8) {
+                        .shape:nth-child(8) {
                             height: 75.5px;
                             left: 1215px;
                             top: 600px;
                         }
-                        img:nth-child(9) {
+                        .shape:nth-child(9) {
                             height: 176px;
                             left: 1276px;
                             top: 333px;
                         }
-                        img:nth-child(10) {
+                        .shape:nth-child(10) {
                             height: 83.5px;
                             left: 1334px;
                             top: 425px;
                         }
-                        img:nth-child(11) {
+                        .shape:nth-child(11) {
                             height: 117.6px;
                             left: 1359px;
                             top: 638px;
