@@ -1,7 +1,6 @@
-(function() {
-  'use strict';
+(function () {
+    'use strict';
 
-  angular.module('Directives', [
-    // 'storage'
-  ]);
+    angular.module('Directives', [
+    ]);
 })();

@@ -7,7 +7,7 @@
 	<div class="row merchandise nopad">
 		<div ng-repeat="merch in cc.merchandiseContent" class="container merchandise-container" ng-click="cc.openMerch()">
 			<div class="image">
-				<img src="{{merch.image}}" alt="">
+				<img ng-src="{{merch.image}}" alt="">
 			</div>
 			<div class="price">
 				<span>$</span>

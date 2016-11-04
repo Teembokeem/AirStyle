@@ -1,5 +1,3 @@
-var _cart, _items;
-
 (function () {
     'use strict';
     angular.module('Ticket.view.module')
@@ -16,8 +14,6 @@ var _cart, _items;
 
     function ticketItemsCtrl($log, $rootScope, itemsContent, Cart) {
         var cc = this;
-        _cart = Cart;
-        _items = itemsContent;
         cc.$onInit = function () {
 
             cc.numbers = [0, 1, 2, 3, 4, 5];
