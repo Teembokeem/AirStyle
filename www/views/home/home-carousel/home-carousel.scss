@@ -106,6 +106,7 @@ home-carousel {
                             text-align: center;
                             .title-container {
                                 max-width: 714px;
+                                margin-bottom: 25px !important;
                                 margin: 0 auto;
                                 text-align: center;
                                 .row+.row {
@@ -168,7 +169,33 @@ home-carousel {
                             }
                             .plus {
                                 margin-top: -25px;
-                                margin-bottom: 25px;
+                                margin-bottom: 25px !important;
+
+                                .col {
+                                    display: flex;
+                                    justify-content: center;
+                                    button {
+                                        border: none;
+                                        border: 3px solid white;
+                                        width: 24%;
+                                        font-size: 17px;
+                                    }
+
+                                    .left {
+                                        margin-right: 20%;
+
+                                        a {
+                                            text-decoration: none;
+                                        }
+                                    }
+
+                                    .right {
+                                        margin-left: 20%;
+                                        a {
+                                            text-decoration: none;
+                                        }
+                                    }
+                                }
                             }
                             .content {
                                 margin-bottom: 86px;

@@ -78,7 +78,7 @@ body {
         }
             .plus {
             margin-top: 6px !important;
-            margin-bottom: 6px !important;
+            margin-bottom: 25px !important;
 
                 .col {
                     .left {
@@ -607,7 +607,9 @@ body {
     body .main-content>.pane nav mobile-menu >.container .as-nav .hamburger {
         right: -25px;
     }
-    home-carousel >.container .row .col .slider .slider-slides .la-lineup>.container .title-container {
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container {
+        margin-bottom: 25px !important;
+
         .title:first-child .col span {
             font-size: 385%;
         }
