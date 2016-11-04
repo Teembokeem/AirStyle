@@ -68,6 +68,30 @@ body {
                 font-size: 64px;
                 line-height: 16px;
             }
+            .plus {
+            margin-top: 6px !important;
+            margin-bottom: 6px !important;
+
+                .col {
+                    .left {
+                        margin-right: 5% !important;
+                        a {
+                            text-decoration: none;
+                            font-size: 14px !important;
+                        }
+                        width: 37%;
+                    }
+
+                    .right {
+                        margin-left: 3% !important;
+                        width: 37%;
+                        a {
+                            text-decoration: none;
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+            }
     }
 
     body {
@@ -545,7 +569,7 @@ body {
     }
 }
 
-@media (min-width:410px) and (max-width:780px) {
+@media (min-width:410px) and (max-width:750px) {
      body * home-merchandise > .container .merchandise .merchandise-container .price {
         left: 81%; 
      }
@@ -554,12 +578,34 @@ body {
     }
 
     home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container {
-        margin-top: -5em !important;
+        margin-top: -30% !important;
     }
 
-    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus {
-        margin-top: -16px;
-        margin-bottom: 67px;
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container {
+        .plus {
+        margin-top: 6px !important;
+        margin-bottom: 6px !important;
+
+            .col {
+                .left {
+                    margin-right: 5% !important;
+                    width: 37%;
+                    a {
+                        font-size: 14px !important;
+                        text-decoration: none;
+                    }
+                }
+
+                .right {
+                    margin-left: 3% !important;
+                    width: 37%;
+                    a {
+                        font-size: 14px !important;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
     }
 
     body * home-carousel > .container .row .col .slider .slider-slides ion-slide .container .content {
