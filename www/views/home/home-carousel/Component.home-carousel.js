@@ -22,15 +22,18 @@
         $scope.$watch(function () {
             return $window.innerWidth;
         }, function (a, b, c) {
-            if ($window.innerWidth < 780) {
+            console.log(a, b, c)
+            if (a < 780) {
                 cc.mobile = true;
             } else {
                 cc.mobile = false;
-                $scope.$apply(function () {
-                    if (!cc.mobile) {
-                        cc.noNav = d;
-                    }
-                });
+                // if (!$scope.$$phase) {
+                //     $scope.$apply(function () {
+                // if (!cc.mobile) {
+                // cc.noNav = ;
+                // }
+                //     });
+                // }
             }
 
         })

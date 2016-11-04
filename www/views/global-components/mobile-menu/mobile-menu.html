@@ -1,52 +1,46 @@
-<div ng-class="{'nav-menu' : !cc.noNav}" class="container">
-	<div ng-if="!cc.noNav">
-		<div class="container">
-			<button ng-click="cc.toggleNav()"><i class="icon ion-close-round"></i></button>
-			<div class="row nopad">
-				<div class="col nopad">
-					Live Stream
-				</div>
-			</div>
-			<div class="row nopad">
-				<div class="col nopad">
-					Riders + Rankings
-				</div>
-			</div>
-			<div class="row nopad">
-				<div class="col nopad">
-					Videos
-				</div>
-			</div>
-			<div class="row nopad">
-				<div class="col nopad">
-					Shop
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<!-- ng-repeat-->
-			<div class="row nopad" ng-repeat="event in cc.events">
-				<div class="col nopad">
-					<div class="container">
-						<div class="row nopad">
-							<div class="col nopad">
-								<span>{{event.name}}</span>
+<!--<div ng-class="{'nav-menu' : !cc.noNav}" class="container">-->
+Mobile
+<div class="container nav-menu">
+    <div class="container">
+        <div class="row nopad">
+            <div class="col nopad">
+                Live Stream
+            </div>
+        </div>
+        <div class="row nopad">
+            <div class="col nopad">
+                Riders + Rankings
+            </div>
+        </div>
+        <div class="row nopad">
+            <div class="col nopad">
+                Videos
+            </div>
+        </div>
+        <div class="row nopad">
+            <div class="col nopad">
+                Shop
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- ng-repeat-->
+        <div class="row nopad" ng-repeat="event in cc.events">
+            <div class="col nopad">
+                <div class="container">
+                    <div class="row nopad">
+                        <div class="col nopad">
+                            <span>{{event.name}}</span>
 
-							</div>
-						</div>
-						<div class="row nopad">
-							<div class="col nopad">
-								<span>{{event.date}}</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div ng-if="cc.noNav" class="as-nav row nopad">
-		<div class="col hamburger">
-			<img ng-click="cc.toggleNav()" src="../img/hamburger.png" alt="">
-		</div>
-	</div>
+                        </div>
+                    </div>
+                    <div class="row nopad">
+                        <div class="col nopad">
+                            <span>{{event.date}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
