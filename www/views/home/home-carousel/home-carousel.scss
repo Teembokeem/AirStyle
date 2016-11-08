@@ -1,9 +1,10 @@
 home-carousel {
     >.container {
-        overflow: hidden;
+        overflow: inherit;
         padding-top:1rem;
 
         .row .col .slider {
+            overflow: inherit;
 
             .slider-pager {
                 position:static;
@@ -35,7 +36,7 @@ home-carousel {
                     .title-container {
 
                         .title {
-                            margin-bottom: -0.1rem;
+                            margin-bottom: 0.1rem;
                         }
                         .title:first-child {
                             font-size: 10vw;
@@ -79,11 +80,11 @@ home-carousel {
                             }
 
                             .left {
-                                margin-right: 1rem;
+                                margin-right: 4vw;
                             }
 
                             .right {
-                                margin-left: 1rem;
+                                margin-left: 4vw;
                             }
                         }
                     }
@@ -104,7 +105,38 @@ home-carousel {
     }
 }
 
-@media(min-width:750px) {
+@media(min-width:500px) {
+    home-carousel {
+        .container .row .col .slider .slider-slides {
+            .la-lineup {
+                .container {
+                    .content {
+                        .col {
+                            p {
+                                font-size: 20px !important;
+                            }
+                        }
+                    }
+
+                    .plus {
+
+                        .col {
+                            .left {
+                                // margin-right: 20%;
+                            }
+
+                            .right {
+                                // margin-left: 20%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:640px) {
     home-carousel {
         .container .row .col .slider .slider-slides {
             ion-slide {
@@ -127,23 +159,39 @@ home-carousel {
                     .title-container {
 
                         .title {
-                            margin-bottom: -0.1rem;
+                            margin-bottom: 1rem;
+                            height: 6.22vw;
                         }
                         .title:first-child {
-                            font-size: 10vw;
+                            font-size: 64px;
+                            .col {
+                                letter-spacing: 0.4vw;
+                                word-spacing: 0.13rem;
+
+                            }
                         }
 
                         .title:nth-child(2) {
-                            font-size: 6vw;
+                            .col {
+                                word-spacing: 0.31rem;
+
+                            }
+                            // font-size: 46px;
                         }
 
                         .title:nth-child(n + 3) {
-                            font-size:5.5vw;
-                            letter-spacing: -0.03rem;
+                            .col {
+                                letter-spacing: 0.13rem;
+                                word-spacing: -0.031rem;
+                            }
+                            font-size:36px;
                         }
 
                         .title:nth-child(4) {
-                            letter-spacing: -0.025rem;
+                            .col {
+                                letter-spacing: -0.025rem;
+
+                            }
                         }
 
                     }
@@ -152,10 +200,64 @@ home-carousel {
     }
 }
 
+@media (min-width: 768px) {
+    home-carousel {
+        .container .row .col .slider .slider-slides {
+            ion-slide {
+                // text-align: center;
+                .title-container {
+                    .title {
+                        .col {
+                            span {
+                                span {
+                                    // color: $as-blue;
+                                    // font-size: 2rem !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .la-lineup  .container {
+                    .title-container {
+
+                        .title {
+                            // margin-bottom: 0.5rem;
+                        }
+                        .title:first-child {
+                            // letter-spacing: 0.05vw;
+                            // word-spacing: 0.13rem;
+                            // font-size: 64px;
+                        }
+
+                        .title:nth-child(2) {
+                            // word-spacing: 0.31rem;
+                            font-size: 46px;
+                        }
+
+                        .title:nth-child(n + 3) {
+                            // letter-spacing: 0.13rem;
+                            // word-spacing: -0.031rem;
+                            // font-size:36px;
+                        }
+
+                        .title:nth-child(4) {
+                            // letter-spacing: -0.025rem;
+                        }
+
+                    }
+            }
+        }
+    }
+
+}
+
 @media (min-width: 1024px) {
     home-carousel {
         display: block;
         >.container {
+            overflow: hidden;
             height: 53.51em;
             .row .col {
                 .slider {
@@ -186,7 +288,7 @@ home-carousel {
                                     filter: grayscale(0);
                                 }
                                 .title {
-                                    height: 69px;
+                                    height: 69px !important;
                                     .col span {
                                         font-size: 64px;
                                     }
@@ -265,9 +367,10 @@ home-carousel {
                                     margin: 0 auto;
                                     text-align: center;
                                     .row+.row {
-                                        margin-top: -15px;
+                                        // margin-top: -15px;
                                     }
                                     .title {
+                                        margin-bottom: 0;
                                         .col {
                                             span {
                                                 font-size: 40px;

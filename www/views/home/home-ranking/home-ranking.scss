@@ -66,17 +66,24 @@ home-ranking {
          }
         .more {
             margin: 2rem auto;
-            width: 231px;
+            width: 78%;
             height: 47px;
             align-content: center;
             justify-content: center;
             padding-top: 0.3rem;
             display: flex;
-            border: 3px solid white;
             position: relative;
-            button {
-                border: none;
-                font-size: 18px;
+            .col {
+                max-width: 250px;
+                max-height: 47px;
+                border: 3px solid white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                button {
+                    font-size: 18px;
+                    border: none;
+                }
             }
         }
     }
