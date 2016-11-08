@@ -13,7 +13,7 @@ ticket-items {
         .item {
             margin: 0;
             height: 5.9em;
-            background-color: #424242 !important;
+            background-color: #424242;
             border: none;
             width: 70em;
             margin-left: auto;
@@ -89,7 +89,7 @@ ticket-items {
                     width: 3.78em;
                     border: 3px solid black;
                     color: black;
-                    background-color: white !important;
+                    background-color: white;
                     padding-left: 0.8em;
                     font-size: 18px;
                     padding-top: 0.2em;
@@ -104,16 +104,16 @@ ticket-items {
         }
 
         .item.selected {
-            background-color: $as-yellow !important;
+            background-color: $as-yellow;
             * {
-                color: black !important;
+                color: black;
             }
         }
 
         
 
         .item-info {
-            background-color: #424242 !important;
+            background-color: #424242;
             margin-left: auto;
             margin-right: auto;
             width: 80em;
@@ -208,7 +208,7 @@ ticket-items {
                                 font-style: italic;
                                 font-family: 'Apercu';
                                 font-size: 1.14em;
-                                color: #828282 !important;
+                                color: #828282;
                             }
                         }
                     }
