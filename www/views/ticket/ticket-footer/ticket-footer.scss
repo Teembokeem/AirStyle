@@ -2,7 +2,7 @@ ticket-footer {
     .container {
         margin-top: 8.07em;
         height: 7.785em;
-        background-color: white !important;
+        background-color: white;
         .row {
             display: flex;
             justify-content:right;
@@ -39,7 +39,7 @@ ticket-footer {
                 .button-container {
                     width: 11.86em;
                     height: 4em;
-                    background-color: $as-blue !important;
+                    background-color: $as-blue;
                     justify-content: center;
                     align-items: center;
                     display: flex;
