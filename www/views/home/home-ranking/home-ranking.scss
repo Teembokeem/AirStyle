@@ -1,100 +1,183 @@
 home-ranking {
     > .container {
+        margin-bottom: 60px;
         .section-title {
             width: 330px;
             height: 60px;
-            border-bottom: 8px solid $as-blue;
-            position: absolute;
-            right: 129px;
+            text-align: center;
+            margin: 2rem auto;
 
             span {
                 position: relative;
                 top: 10px;
-                font-size: 40px;
+                font-size: 30px;
+                border-bottom: 8px solid $as-blue;
             }
         }
 
-        .player-container {
-            width: 359.6px;
-            height: 474.3px;
+         .player-container {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 360px;
+            max-height: 474.3px;
+            height: 130vw;
             border: solid 8px white;
-            background-position: center !important;
-            position: relative !important;
-            * {
-                color: black !important;
-
-            }
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
 
             .container {
-                width: 221.3px;
-                height: 152.6px;
-                background-color: $as-blue !important;
-                position: relative;
-                top: 136px;
-                left: 323px;
-
+                height: 120px;
+                width: 100%;
+                padding-top: 1rem;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                background-color: $as-blue;
                 .number {
-                    top: 17.6px;
-                    left: 15px;
-                    border-bottom: 4px solid #f9fe17;
-                    width: 25px;
-                    margin-bottom: 40px;
-                    position:relative;
+                    margin-left: 15px;
                     span {
-                        font-size: 22px;
-                        
+                        font-size: 50px;
+                        width: 100%;
+                        border-bottom: 4px solid #f9fe17;
+                        color:black;
                     }
-                }
 
+                }
                 .name {
-                    text-align: left;
-                    padding-left:15px;
-                    
-                    display: block;
+                    margin-left: 1rem;
                     span {
-                        display: block;
-                        font-family: 'Apercu';
-                        font-weight: 500;
+                        color:black;
                         font-size: 40px;
+                        font-family: 'Apercu';
+                        font-weight: 700;
+                        display: block;
                     }
 
                     span:first-child {
-                        margin-bottom: 20px;
+                        margin-bottom: 1.3rem;
+                    }
+
+                    span:last-child {
+                        margin-bottom: 1.5rem;
                     }
                 }
             }
-
-        }
-
+         }
         .more {
+            margin: 2rem auto;
             width: 231px;
             height: 47px;
-            text-align: center;
-            align-items: center;
-            display: flex;
+            align-content: center;
             justify-content: center;
+            padding-top: 0.3rem;
+            display: flex;
             border: 3px solid white;
             position: relative;
-            left: 1080px;
-            bottom: 384px;
             button {
                 border: none;
                 font-size: 18px;
             }
         }
+    }
+}
 
-        div:nth-child(2) {
-            left: 129px;
+@media(min-width: 360px) {
+    home-ranking {
+        > .container {
+            .player-container {
+                margin-bottom: 10vw;
+            }
         }
+    }
+}
 
-        div:nth-child(3) {  
-            left: 850px;
-            top: -260px;
-        }
 
-        div:nth-child(4) {  
-            left: 245px;
-            top: -297px;
+
+
+@media (min-width: 1024px) {
+    home-ranking {
+        > .container {
+            margin-top: 216px;
+            .section-title {
+                position: absolute;
+                right: 129px;
+
+                span {
+                    font-size: 40px;
+                }
+            }
+
+            .player-container {
+                width: 359.6px;
+                height: 474.3px;
+                margin: 0 0;
+                position: relative;
+                * {
+                    color: black;
+
+                }
+
+                .container {
+                    width: 221.3px;
+                    height: 152.6px;
+                    position: relative;
+                    top: -179px;
+                    left: 255px;
+                    display: block;
+                    padding-left: 1.3rem;
+
+                    .number {
+                        top: 0.5rem;
+                        width: 25px;
+                        margin-bottom: 27px;
+                        margin-left: 0;
+                        position:relative;
+                        span {
+                            font-size: 22px;
+                            
+                        }
+                    }
+
+                    .name {
+                        text-align: left;
+                        padding-left: 0;
+                        margin-left: 0;
+                        letter-spacing: -0.1rem;
+
+                        span {
+                            display: block;
+                            font-family: 'Apercu';
+                            font-weight: 500;
+                            font-size: 40px;
+                        }
+
+                        span:first-child {
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+
+            }
+
+            .more {
+                left: 33vw;
+                 bottom: 31vw;
+            }
+
+            div:nth-child(2) {
+                left: 8.4vw;
+            }
+
+            div:nth-child(3) {  
+                left: 58.7vw;
+                top: -17.2vw;
+            }
+
+            div:nth-child(4) {  
+                left: 16.8vw;
+                top: -20.4vw;
+            }
         }
     }
 }
