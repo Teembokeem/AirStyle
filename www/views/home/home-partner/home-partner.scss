@@ -80,6 +80,7 @@ home-partner {
 
                 .container {
                     .row {
+                        display: flex;
                         .partner:nth-child(-n + 5) {
                             margin-right: 30px;
                         }

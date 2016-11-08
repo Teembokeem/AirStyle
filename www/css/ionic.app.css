@@ -10507,8 +10507,10 @@ home-partner > .container {
         position: relative; }
   home-partner > .container .partner-container {
     justify-content: center; }
-    home-partner > .container .partner-container .container .row .partner:nth-child(-n + 5) {
-      margin-right: 30px; } }
+    home-partner > .container .partner-container .container .row {
+      display: flex; }
+      home-partner > .container .partner-container .container .row .partner:nth-child(-n + 5) {
+        margin-right: 30px; } }
 
 home-branding .container {
   margin-top: 80px; }
