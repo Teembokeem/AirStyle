@@ -35,7 +35,7 @@
                 {
                     name: {
                         first: 'St\xE5le',
-                        last: 'Sandebech'
+                        last: 'Sandbech'
                     },
                     image: 'img/stale.jpg'
                 },

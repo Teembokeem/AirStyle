@@ -17,7 +17,10 @@ gulp.task('default', ['watch']);
 gulp.task('sass', function (done) {
   gulp.src('./scss/ionic.app.scss')
     .pipe(sass())
-    .on('error', sass.logError)
+    .on('error', function (d) {
+      console.log('ERROR======>', d);
+      return sass.logError(d);
+    })
     .pipe(gulp.dest('./www/css/'))
     .pipe(minifyCss({
       keepSpecialComments: 0
