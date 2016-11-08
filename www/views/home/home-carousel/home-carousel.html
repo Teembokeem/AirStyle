@@ -5,8 +5,8 @@
 				<ion-slide class="la-lineup">
 					<div class="container">
 						<div class="title-container container">
-							<div ng-repeat="titleSegment in cc.customSlide.title" class="row nopad title">
-								<div class="col nopad">
+							<div ng-repeat="titleSegment in cc.customSlide.title" class="row title">
+								<div class="col">
 									<span ng-repeat="title in titleSegment">{{title}} <span class="blue-dot">{{$index == titleSegment.length - 1 ? '' : '.'}} </span></span>
 								</div>
 							</div>
