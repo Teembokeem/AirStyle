@@ -1,81 +1,104 @@
 nav {
-    margin-top: 2.57%;
-    position: absolute;
-    width: 100%;
-    text-align: left;
-    z-index: 2;
+    padding-top: 1rem;
+    padding-left: 1rem;
+
     .as-nav {
-        * {
-            font-size: 1em;
-            color: white !important;
-            // margin-right: 72px;
-        }
-
-        i {
-            font-size: 1.904em;
-            margin-right: 0;
-        }
-
         .logo {
-            margin-left: 4.18%;
-            max-width: 4.13%;
-            min-width: 58.6px; 
-            margin-right: -0.5%;
-
             a {
                 img {
-                    width: 100%;
+                    width: 15vw;
+                    max-width: 60px;
                 }
             }
         }
+    }
+    mobile-menu {
+        position:absolute;
+        top: 0;
+        right: 3rem;
+    }
+}
 
-        .anchor-pad {
-            padding-top: 1.74%;
-            min-width: 146px;
-            text-align: center;
-        }
-
-        .anchor-pad:nth-child(2) {
-            margin-right: -0.5%;
-            margin-left: 34.5%;
-        }
-
-        .anchor-pad:nth-child(3) {
-            margin-right: 1.5%;
-        }
-
-        .anchor-pad:nth-child(4) {
-            margin-right: 1.6%;
-        }
-
-        .anchor-pad:nth-child(5) {
-            margin-right: -1.7%;
-        }
-
-        .search {
-           padding-right: 0;
-            padding-top: 1.4%;
-            margin-right: 5%;
-            text-align: right;
+@media (min-width: 1024px) {
+    nav {
+        margin-top: 2.57%;
+        position: absolute;
+        width: 100%;
+        text-align: left;
+        z-index: 2;
+        .as-nav {
+            * {
+                font-size: 1em;
+                color: white;
+                // margin-right: 72px;
+            }
 
             i {
-                font-size: 25px;
+                font-size: 1.904em;
+                margin-right: 0;
             }
-        }
 
-        .hamburger {
-            padding-top: 2.2%;
-            text-align: right;
-            margin-right: 11%;
-            margin-top: -6.7%;
-            padding-left: 0;
-        }
+            .logo {
+                margin-left: 4.18%;
+                max-width: 4.13%;
+                min-width: 58.6px; 
+                margin-right: -0.5%;
+
+                a {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .anchor-pad {
+                padding-top: 1.74%;
+                min-width: 146px;
+                text-align: center;
+            }
+
+            .anchor-pad:nth-child(2) {
+                margin-right: -0.5%;
+                margin-left: 34.5%;
+            }
+
+            .anchor-pad:nth-child(3) {
+                margin-right: 1.5%;
+            }
+
+            .anchor-pad:nth-child(4) {
+                margin-right: 1.6%;
+            }
+
+            .anchor-pad:nth-child(5) {
+                margin-right: -1.7%;
+            }
+
+            .search {
+            padding-right: 0;
+                padding-top: 1.4%;
+                margin-right: 5%;
+                text-align: right;
+
+                i {
+                    font-size: 25px;
+                }
+            }
+
+            .hamburger {
+                padding-top: 2.2%;
+                text-align: right;
+                margin-right: 11%;
+                margin-top: -6.7%;
+                padding-left: 0;
+            }
 
 
-        
+            
 
-        a.disabled {
-            color: grey !important;
+            a.disabled {
+                color: grey;
+            }
         }
     }
 }
