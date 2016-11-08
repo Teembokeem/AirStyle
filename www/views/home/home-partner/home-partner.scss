@@ -1,7 +1,6 @@
 home-partner {
     > .container {
-        margin-top: 108px;
-
+        margin-bottom: 94px;
         .section-title {
             display: flex;
             flex-flow: row wrap;
@@ -10,7 +9,7 @@ home-partner {
             margin-bottom: 60px;
 
             .title {
-                    width: 172px;
+                width: 172px;
                 height: 48px;
                 border-bottom: 8px solid $as-green;
                 padding-bottom: 10px;
@@ -23,12 +22,67 @@ home-partner {
         }
 
         .partner-container {
-            justify-content: center;
-
+            width: 100%;
             .container {
+                width: 100%;
                 .row {
-                    .partner:nth-child(-n + 5) {
-                        margin-right: 30px;
+                    width: 100%;
+                    display: block;
+                    .partner {
+                        display: flex;
+                        justify-content: center;
+                        margin: 0 auto;
+
+                        a {
+                            img {
+                                max-width: 200px;
+                                height: 120px;
+                            }
+
+                            img:nth-child(-n + 5) {
+                                margin-bottom: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    home-partner {
+        > .container {
+            // margin-top: 108px;
+
+            .section-title {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 60px;
+
+                .title {
+                        width: 172px;
+                    height: 48px;
+                    border-bottom: 8px solid $as-green;
+                    padding-bottom: 10px;
+
+                    span {
+                        font-size: 40px;
+                        position: relative;
+                    }
+                }
+            }
+
+            .partner-container {
+                justify-content: center;
+
+                .container {
+                    .row {
+                        .partner:nth-child(-n + 5) {
+                            margin-right: 30px;
+                        }
                     }
                 }
             }
