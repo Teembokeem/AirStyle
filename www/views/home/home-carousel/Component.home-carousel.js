@@ -22,7 +22,7 @@
         $scope.$watch(function () {
             return $window.innerWidth;
         }, function (a, b, c) {
-            console.log(a, b, c)
+            // console.log(a, b, c)
             if (a < 1024) {
                 cc.mobile = true;
             } else {

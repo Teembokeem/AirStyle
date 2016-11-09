@@ -10,7 +10,7 @@
     DesktopMenuCtrl.$inject = ['$log', '$scope'];
 
     function DesktopMenuCtrl($log, $scope) {
-        console.log('Desktop')
+        // console.log('Desktop')
         var cc = this;
         cc.noNav = true;
         cc.toggleNav = function () {
