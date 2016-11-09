@@ -13,22 +13,23 @@
     function NavCtrl($scope, $ionicScrollDelegate, $rootScope, $window) {
 
         var cc = this;
-        if ($window.innerWidth < 420) {
+        if ($window.innerWidth <= 420) {
             cc.noNav = true;
             cc.mobile = true;
             cc.darken = false;
         }
         $rootScope.$on('noNav', function (e, d) {
-            if ($window.innerWidth < 420) {
+            console.log(e, d);
+            if ($window.innerWidth <= 420) {
                 cc.mobile = true;
             } else {
                 cc.mobile = false;
                 // if (!$scope.$$phase) {
-                //     $scope.$apply(function () {
-                if (!cc.mobile) {
+                $scope.$apply(function () {
+                    // if (!cc.mobile) {
                     cc.noNav = d;
-                }
-                // });
+                    // }
+                });
                 // }
             }
         });

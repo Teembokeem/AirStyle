@@ -1,46 +1,46 @@
 <!--<div ng-class="{'nav-menu' : !cc.noNav}" class="container">-->
-Mobile
-<div class="container nav-menu">
-    <div class="container">
-        <div class="row nopad">
-            <div class="col nopad">
-                Live Stream
-            </div>
-        </div>
-        <div class="row nopad">
-            <div class="col nopad">
-                Riders + Rankings
-            </div>
-        </div>
-        <div class="row nopad">
-            <div class="col nopad">
-                Videos
-            </div>
-        </div>
-        <div class="row nopad">
-            <div class="col nopad">
-                Shop
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <!-- ng-repeat-->
-        <div class="row nopad" ng-repeat="event in cc.events">
-            <div class="col nopad">
-                <div class="container">
-                    <div class="row nopad">
-                        <div class="col nopad">
-                            <span>{{event.name}}</span>
 
-                        </div>
-                    </div>
-                    <div class="row nopad">
-                        <div class="col nopad">
-                            <span>{{event.date}}</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="container nav-menu">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				Live Stream
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				Riders + Rankings
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				Videos
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				Shop
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<!-- ng-repeat-->
+		<div class="row" ng-repeat="event in cc.events">
+			<div class="col">
+				<div class="container">
+					<div class="row nopad">
+						<div class="col nopad">
+							<span>{{event.name}}</span>
+
+						</div>
+					</div>
+					<div class="row nopad">
+						<div class="col nopad">
+							<span>{{event.date}}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

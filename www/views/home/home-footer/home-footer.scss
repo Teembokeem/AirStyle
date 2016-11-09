@@ -88,6 +88,12 @@ home-footer {
                     display: flex;
 
                     .row {
+                        a {
+                            margin: 0 2rem;
+                        }
+                    }
+
+                    .row {
                         .about {
                             margin-left: 40px;
                             margin-right: 50px;
@@ -98,19 +104,19 @@ home-footer {
                         }
 
                         .facebook {
-                            margin-right: 92px;
+                            // margin-right: 92px;
                         }
 
                         .twitter {
-                            margin-right: 83px;
+                            // margin-right: 83px;
                         }
 
                         .instagram {
-                            margin-right: 82px;
+                            // margin-right: 82px;
                         }
 
                         .youtube {
-                            margin-right: 202px;
+                            // margin-right: 202px;
                         }
 
                     }
@@ -121,9 +127,15 @@ home-footer {
 
                     .row:nth-child(2) {
                         margin: 0 auto;
+                        position: absolute;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
                     }
 
                     .row:nth-child(3) {
+                        justify-content: flex-end;
+                        padding-right: 3rem;
                         align-items: center;
                         padding-bottom: 0;
                     }

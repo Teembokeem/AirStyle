@@ -7,16 +7,14 @@ home-carousel {
             overflow: inherit;
 
             .slider-pager {
-                position:static;
-                z-index: none;
-                height: initial;
-                margin-bottom: 1rem;
+                bottom: -511px;
 
             }
             .slider-slides {
 
 
                 ion-slide {
+                    height: 534px;
                     text-align: center;
                     .title-container {
                         .title {
@@ -31,8 +29,122 @@ home-carousel {
                         }
                     }
                 }
+
+                ion-slide:nth-child(n + 2) {
+                    position: relative;
+                    top: -14px;
+                    height: 534px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
+                    .hero-image {
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        background-size: 100%;
+                        /* background-position-x: 0px; */
+                        background-position-y: -23px;
+                        filter: grayscale(100);
+                    }
+                    .darken {
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        background-color: rgba(0, 0, 0, 0.75);
+                    }
+                    .container {
+                        padding-top:31%;
+                        height: 100%;
+                        * {
+                            z-index: 4;
+                            filter: grayscale(0);
+                        }
+                        .title {
+                            margin-bottom: 0rem;
+                            line-height: 3rem;
+                            .col span {
+                                min-height: 183px;
+                                font-size: 55px;
+                            }
+                        }
+                        .content {
+                            line-height: 3rem;
+                            // margin-bottom: 32px;
+                            .col {
+                                text-align: center;
+                                span {
+                                    font-family: 'Apercu';
+                                    letter-spacing: 6px;
+                                    font-weight: bold;
+                                    font-size: 3.57em;
+                                    color: white;
+                                    line-height: 1px;
+                                }
+                                span.sale {
+                                    font-family: 'Reglo-Bold';
+                                }
+                            }
+                        }
+                        .buttons {
+                            .col {
+                                display: flex;
+                                flex-flow: row wrap;
+                                justify-content: center;
+                                button {
+                                    font-family: 'Reglo-Bold';
+                                    width: 222px;
+                                    height: 56px;
+                                    font-size: 22px;
+                                    letter-spacing: 1.8px;
+                                }
+                                button:first-child {
+                                    border: solid 2px $as-blue;
+                                    background-color: transparent;
+                                    color: white;
+                                    // margin-right: 18px;
+                                    transition: all 1s cubic-bezier(.23, 1.25, .375, 1.15);
+                                    transition-delay: all 1s;
+                                    margin-bottom: 2rem;
+                                }
+                                button:first-child:hover {
+                                    border: none;
+                                    background-color: $as-blue;
+                                    color: black;
+                                }
+                                button:last-child {
+                                    border: none;
+                                    background-color: $as-blue;
+                                    color: black;
+                                    transition: all 1s cubic-bezier(.23, 1.25, .375, 1.15);
+                                    transition-delay: all 1s;
+                                }
+                                button:last-child:hover {
+                                    border: solid 2px $as-blue;
+                                    background-color: transparent;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                ion-slide:nth-child(3) {
+                    .container {
+                        padding-top: 31%;
+
+                        .title {
+                            .col {
+                                span {
+                                    font-size: 48px;
+                                }
+                            }
+                        }
+                    }
+                }
                 
-                .la-lineup  .container {
+                .la-lineup  > .container {
+                    margin-top: 25%;
                     .title-container {
 
                         .title {
@@ -263,7 +375,7 @@ home-carousel {
                 .slider {
                     .slider-slides {
                         ion-slide {
-                            height: 53.51em;
+                            height: 53.51em !important;
                             display: flex;
                             flex-flow: row wrap;
                             justify-content: center;
@@ -272,7 +384,7 @@ home-carousel {
                                 width: 100%;
                                 height: 100%;
                                 position: absolute;
-                                background-size: 100%;
+                                background-size: cover !important;
                                 /* background-position-x: 0px; */
                                 background-position-y: -23px;
                             }
@@ -355,6 +467,20 @@ home-carousel {
                         ion-slide {
                             .hero-image {
                                 filter: grayscale(100%);
+                            }
+                        }
+
+                        ion-slide:nth-child(n + 2) {
+                            .container {
+                                padding-top: 18%;
+
+                                .title {
+                                    .col {
+                                        span {
+                                            font-size: 64px !important;
+                                        }
+                                    }
+                                }
                             }
                         }
                         .la-lineup {
@@ -456,7 +582,7 @@ home-carousel {
                                     }
                                 }
                                 .content {
-                                    margin-bottom: 86px;
+                                    margin-bottom: 3px;
                                     .col {
                                         p {
                                             font-size: 20px;
@@ -536,7 +662,7 @@ home-carousel {
                         }
                     }
                     .slider-pager {
-                        margin-bottom: 97px;
+                        bottom: -666px;
                         .slider-pager-page {
                             width: 20px;
                             height: 20px;
