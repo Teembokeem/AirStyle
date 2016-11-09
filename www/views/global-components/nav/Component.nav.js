@@ -23,11 +23,13 @@
                 cc.mobile = true;
             } else {
                 cc.mobile = false;
-                $scope.$apply(function () {
-                    if (!cc.mobile) {
-                        cc.noNav = d;
-                    }
-                });
+                // if (!$scope.$$phase) {
+                //     $scope.$apply(function () {
+                if (!cc.mobile) {
+                    cc.noNav = d;
+                }
+                // });
+                // }
             }
         });
 

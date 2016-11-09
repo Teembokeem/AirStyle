@@ -1,35 +1,25 @@
-<div ng-class="{'nav-menu' : cc.darken}" class="as-nav row nopad">
-	<div class="col logo nopad">
-		<a ui-sref="app.content.home">
-			<img src="../img/logo.png" alt="">
-		</a>
-	</div>
-	<!--<span ng-if="!cc.mobile">-->
-	<div ng-if="!cc.mobile && !cc.noNav" class="col anchor-pad">
-		<a ng-disabled="true" ng-class="{'disabled' : true}" ui-sref="app.home">TOUR STOPS</a>
-	</div>
-	<div ng-if="!cc.mobile && !cc.noNav" class="col anchor-pad">
-		<a ng-disabled="true" ng-class="{'disabled' : true}">LINE-UP</a>
-	</div>
-	<div ng-if="!cc.mobile && !cc.noNav" class="col anchor-pad">
-		<a ng-disabled="true" ng-class="{'disabled' : true}">RIDERS + RANKINGS</a>
-	</div>
-	<div ng-if="!cc.mobile && !cc.noNav" class="col anchor-pad">
-		<a href="https://airandstyle.frontgatetickets.com/">TICKETS</a>
-		<!--<a ui-sref="app.content.ticket">TICKETS</a>-->
-	</div>
-	<div ng-if="!cc.mobile && !cc.noNav" class="col anchor-pad">
+<!--Nav Bar -->
+<div ng-class="{ 'nav-menu' : cc.darken }" class="as-nac row nopad">
+    <!-- Logo -->
+    <div class="col logo nopad">
+        <a ui-sref="app.content.home">
+            <img src="../img/logo.png" alt="">
+        </a>
+    </div>
 
-		<a ng-disabled="true" ng-class="{'disabled' : true}">MERCH</a>
-	</div>
-	<!--</span>-->
-	<div class="col search">
-		<i class="icon ion-ios-search-strong"></i>
-	</div>
+    <!-- Menu -->
+    <div ng-if="!cc.noNav">
+        <desktop-menu ng-if="!cc.mobile"></desktop-menu>
+        <mobile-menu ng-if="cc.mobile"></mobile-menu>
+    </div>
+
+    <!-- Search Icon -->
+    <div class="col search">
+        <i class="icon ion-ios-search-strong"></i>
+    </div>
+    <!-- Menu Button -->
+    <div class="col hamburger" ng-click="cc.toggleNav()">
+        <img ng-if="!cc.mobile || cc.noNav" src="../img/hamburger.png" alt="">
+        <button ng-if="cc.mobile && !cc.noNav"><i class="icon ion-close-round"></i></button>
+    </div>
 </div>
-<div ng-if="cc.noNav && !cc.mobile" class="as-nav row nopad">
-	<div class="col hamburger" ng-click="cc.toggleNav()">
-		<img src="../img/hamburger.png" alt="">
-	</div>
-</div>
-<mobile-menu ng-if="cc.mobile"></mobile-menu>
