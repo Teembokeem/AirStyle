@@ -10018,7 +10018,6 @@ home-carousel > .container {
         padding-top: 31%;
         height: 100%; }
         home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container * {
-          z-index: 4;
           filter: grayscale(0); }
         home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .title {
           margin-bottom: 0rem;
@@ -10168,7 +10167,6 @@ home-carousel > .container {
           position: absolute;
           background-color: rgba(0, 0, 0, 0.75); }
         home-carousel > .container .row .col .slider .slider-slides ion-slide .container * {
-          z-index: 4;
           filter: grayscale(0); }
         home-carousel > .container .row .col .slider .slider-slides ion-slide .container .title {
           height: 69px !important; }
