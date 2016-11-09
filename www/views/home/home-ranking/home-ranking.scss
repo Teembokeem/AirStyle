@@ -99,9 +99,6 @@ home-ranking {
     }
 }
 
-
-
-
 @media (min-width: 1024px) {
     home-ranking {
         > .container {
@@ -166,25 +163,50 @@ home-ranking {
                 }
 
             }
-
-            .more {
-                left: 33vw;
-                 bottom: 31vw;
-            }
-
             div:nth-child(2) {
-                left: 8.4vw;
+                left: 6.4vw;
+                 top: 3vw;
             }
 
             div:nth-child(3) {  
-                left: 58.7vw;
-                top: -17.2vw;
+                left: 43.7vw;
+                 top: -7.2vw;
             }
 
             div:nth-child(4) {  
-                left: 16.8vw;
-                top: -20.4vw;
+                left: 20.8vw;
+                top: -4.4vw;;
+            }
+
+            .more {
+                left: 33vw;
+                bottom: 19vw;
             }
         }
     }
+}
+
+@media(min-width: 1440px) {
+    home-ranking {
+        > .container {
+           .more {
+                left: 475.2px;
+                 bottom: 446.4px;
+            }
+
+            div:nth-child(2) {
+                left: 120.96px;
+            }
+
+            div:nth-child(3) {  
+                left: 845.28px;
+                top: -246.68px;
+            }
+
+            div:nth-child(4) {  
+                left: 241.3px;
+                top: -293.76px;
+            }
+        }
+    }   
 }

@@ -81,6 +81,10 @@ home-partner {
                 .container {
                     .row {
                         display: flex;
+                        flex-flow: row wrap;
+                        justify-content: center;
+                        margin: 0 auto;
+                        width: 86%;
                         .partner:nth-child(-n + 5) {
                             margin-right: 30px;
                         }

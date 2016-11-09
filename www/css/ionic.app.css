@@ -10510,17 +10510,31 @@ home-ranking > .container {
             font-size: 40px; }
           home-ranking > .container .player-container .container .name span:first-child {
             margin-bottom: 20px; }
+    home-ranking > .container div:nth-child(2) {
+      left: 6.4vw;
+      top: 3vw; }
+    home-ranking > .container div:nth-child(3) {
+      left: 43.7vw;
+      top: -7.2vw; }
+    home-ranking > .container div:nth-child(4) {
+      left: 20.8vw;
+      top: -4.4vw; }
     home-ranking > .container .more {
       left: 33vw;
-      bottom: 31vw; }
-    home-ranking > .container div:nth-child(2) {
-      left: 8.4vw; }
-    home-ranking > .container div:nth-child(3) {
-      left: 58.7vw;
-      top: -17.2vw; }
-    home-ranking > .container div:nth-child(4) {
-      left: 16.8vw;
-      top: -20.4vw; } }
+      bottom: 19vw; } }
+
+@media (min-width: 1440px) {
+  home-ranking > .container .more {
+    left: 475.2px;
+    bottom: 446.4px; }
+  home-ranking > .container div:nth-child(2) {
+    left: 120.96px; }
+  home-ranking > .container div:nth-child(3) {
+    left: 845.28px;
+    top: -246.68px; }
+  home-ranking > .container div:nth-child(4) {
+    left: 241.3px;
+    top: -293.76px; } }
 
 home-merchandise > .container .section-title {
   display: flex;
@@ -10601,6 +10615,11 @@ home-merchandise > .container .more {
       font-size: 18px;
       border: none; }
 
+@media (min-width: 1440px) {
+  home-merchandise > .container .merchandise .merchandise-container .price {
+    bottom: 380px !important;
+    left: 282px !important; } }
+
 @media (min-width: 1024px) {
   home-merchandise > .container .section-title {
     margin-bottom: 60px; }
@@ -10629,8 +10648,8 @@ home-merchandise > .container .more {
         home-merchandise > .container .merchandise .merchandise-container .image img {
           width: 90%; }
       home-merchandise > .container .merchandise .merchandise-container .price {
-        bottom: 321px;
-        left: 268px; }
+        bottom: 27vw;
+        left: 20vw; }
         home-merchandise > .container .merchandise .merchandise-container .price span {
           font-size: 26px; }
       home-merchandise > .container .merchandise .merchandise-container .name {
@@ -10687,7 +10706,11 @@ home-partner > .container {
   home-partner > .container .partner-container {
     justify-content: center; }
     home-partner > .container .partner-container .container .row {
-      display: flex; }
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      margin: 0 auto;
+      width: 86%; }
       home-partner > .container .partner-container .container .row .partner:nth-child(-n + 5) {
         margin-right: 30px; } }
 

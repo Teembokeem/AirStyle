@@ -18,8 +18,8 @@
 		<i class="icon ion-ios-search-strong"></i>
 	</div>
 	<!-- Menu Button -->
-	<div ng-class="" class="col hamburger" ng-click="cc.toggleNav()">
-		<img ng-if="cc.mobile && cc.noNav || cc.noNav" src="../img/hamburger.png" alt="">
-		<button ng-if="cc.mobile && !cc.noNav"><i class="icon ion-close-round"></i></button>
+	<div ng-class="" class="col hamburger">
+		<img ng-click="cc.toggleNav()" ng-if="cc.mobile && cc.noNav || cc.noNav" src="../img/hamburger.png" alt="">
+		<button ng-click="cc.toggleNav()" ng-if="cc.mobile && !cc.noNav"><i class="icon ion-close-round"></i></button>
 	</div>
 </div>

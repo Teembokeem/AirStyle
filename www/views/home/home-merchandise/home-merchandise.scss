@@ -110,7 +110,71 @@
         }
      }
  }
- 
+ @media (min-width: 1440px) {
+     home-merchandise {
+        > .container {
+            .section-title {
+                // margin-bottom: 60px;
+
+                .title {
+                    // height: 66px;
+                    // width: 291px;
+                    // padding-bottom: 10px;
+
+                    span {
+                        // font-size: 40px;
+                        // position: relative;
+                        // top: 15px;
+                    }
+                }
+            }
+
+            .merchandise {
+                // display: flex;
+                // justify-content: center;
+                .merchandise-container {
+                    // margin: 0 1rem;
+                    // width: 375px;
+                    // height: 452px;
+                    // background-position:center;
+                    // background-color: white;
+                    // justify-content: center;
+
+                    .image {
+                        // width: 100%;
+                        // margin-top: 45px;
+                        // text-align: center;
+                        img {
+                            // width: 90%;
+                        }
+                    }
+
+                    .price {
+                        bottom: 380px !important;
+                        left: 282px !important;
+
+                        span {
+                            // font-size: 26px;
+                        }
+
+                    }
+
+                    .name {
+                        // bottom: 60px;
+
+                    }
+                }   
+            }
+
+            .more {
+                .col {
+                    button {
+                    }
+                }
+            }
+        }
+    }
+ }
  @media (min-width: 1024px) {
     home-merchandise {
         > .container {
@@ -151,8 +215,8 @@
                     }
 
                     .price {
-                        bottom: 321px;
-                        left: 268px;
+                        bottom: 27vw;
+                        left: 20vw;
 
                         span {
                             font-size: 26px;
