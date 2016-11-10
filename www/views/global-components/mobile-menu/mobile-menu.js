@@ -7,9 +7,9 @@
             controllerAs: 'cc'
         })
 
-    MobileMenuCtrl.$inject = ['$log', '$scope'];
+    MobileMenuCtrl.$inject = ['$log', '$scope', '$state', '$rootScope'];
 
-    function MobileMenuCtrl($log, $scope) {
+    function MobileMenuCtrl($log, $scope, $state, $rootScope) {
         var cc = this;
         // cc.noNav = true;
         // cc.toggleNav = function () {
@@ -17,22 +17,26 @@
         //     $scope.$emit('darkenNav');
         // };
 
+        cc.stateChange = stateChange;
+
+        function stateChange(state, param, val) {
+            $state.go(state, { param: val });
+            $rootScope.$broadcast('noNav', false);
+        }
+
 
         cc.$onInit = function () {
             cc.events = [
                 {
-                    name: 'BEIJING',
-                    color: '#62ff00',
+                    name: 'beijing',
                     date: 'NOV 18 + 19'
                 },
                 {
-                    name: 'INNSBRUCK',
-                    color: '#f9fe17',
+                    name: 'innsbruck',
                     date: 'FEB 3 + 4'
                 },
                 {
-                    name: 'LOS ANGELES',
-                    color: '#40caff',
+                    name: 'los angeles',
                     date: 'FEB 10 + 14'
                 }
             ];
