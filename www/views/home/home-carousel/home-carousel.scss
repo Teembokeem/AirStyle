@@ -1,22 +1,25 @@
 home-carousel {
+    position: relative;
     >.container {
         overflow: inherit;
         padding-top:1rem;
 
         .row .col .slider {
             overflow: inherit;
+            height: 100%;
 
             .slider-pager {
-                bottom: -511px;
+                // bottom: -511px;
 
             }
             .slider-slides {
 
 
                 ion-slide {
-                    height: 534px;
+                    height: 53em;
                     text-align: center;
                     .title-container {
+                        position: relative;
                         .title {
                             .col {
                                 span {
@@ -32,8 +35,7 @@ home-carousel {
 
                 ion-slide:nth-child(n + 2) {
                     position: relative;
-                    top: -14px;
-                    height: 534px;
+                    // height: 534px;
                     display: flex;
                     flex-flow: row wrap;
                     justify-content: center;
@@ -144,7 +146,7 @@ home-carousel {
                 }
                 
                 .la-lineup  > .container {
-                    margin-top: 25%;
+                    // margin-top: 25%;
                     .title-container {
 
                         .title {
@@ -370,12 +372,11 @@ home-carousel {
         display: block;
         >.container {
             overflow: hidden;
-            height: 53.51em;
+            // height: 53.51em;
             .row .col {
                 .slider {
                     .slider-slides {
                         ion-slide {
-                            height: 53.51em !important;
                             display: flex;
                             flex-flow: row wrap;
                             justify-content: center;
@@ -394,7 +395,10 @@ home-carousel {
                                 position: absolute;
                                 background-color: rgba(0, 0, 0, 0.75);
                             }
-                            .container {
+                            > .container {
+                                position: absolute;
+                                top: 0;
+                                margin-top: 2rem;
                                 * {
                                     // z-index: 4;
                                     filter: grayscale(0);
@@ -485,7 +489,7 @@ home-carousel {
                         }
                         .la-lineup {
                             >.container {
-                                margin-top: 10%;
+                                padding-top: 10%;
                                 text-align: center;
                                 .title-container {
                                     max-width: 714px;
@@ -663,7 +667,7 @@ home-carousel {
                         }
                     }
                     .slider-pager {
-                        bottom: -710px;
+                        // bottom: -710px;
                         .slider-pager-page {
                             width: 20px;
                             height: 20px;

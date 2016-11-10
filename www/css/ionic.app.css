@@ -9849,7 +9849,7 @@ body {
 
 nav {
   position: absolute;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-left: 1rem;
   z-index: 2; }
   nav .as-nav {
@@ -9934,8 +9934,6 @@ nav {
 
 @media (min-width: 1024px) {
   nav {
-    margin-top: 2.57%;
-    position: absolute;
     width: 100%;
     text-align: left;
     z-index: 2; }
@@ -10057,101 +10055,100 @@ footer > .container {
         align-items: center;
         padding-bottom: 0; } }
 
-home-carousel > .container {
-  overflow: inherit;
-  padding-top: 1rem; }
-  home-carousel > .container .row .col .slider {
-    overflow: inherit; }
-    home-carousel > .container .row .col .slider .slider-pager {
-      bottom: -511px; }
-    home-carousel > .container .row .col .slider .slider-slides ion-slide {
-      height: 534px;
-      text-align: center; }
-      home-carousel > .container .row .col .slider .slider-slides ion-slide .title-container .title .col span span {
-        color: #40caff;
-        font-size: 2rem !important; }
-    home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) {
-      position: relative;
-      top: -14px;
-      height: 534px;
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-      align-items: center; }
-      home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .hero-image {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background-size: 100%;
-        /* background-position-x: 0px; */
-        background-position-y: -23px;
-        filter: grayscale(100); }
-      home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .darken {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.75); }
-      home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container {
-        padding-top: 31%;
-        height: 100%; }
-        home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container * {
-          filter: grayscale(0); }
-        home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .title {
-          margin-bottom: 0rem;
-          line-height: 3rem; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .title .col span {
-            min-height: 183px;
-            font-size: 55px; }
-        home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .content {
-          line-height: 3rem; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .content .col {
-            text-align: center; }
-            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .content .col span {
-              font-family: 'Apercu';
-              letter-spacing: 6px;
-              font-weight: bold;
-              font-size: 3.57em;
+home-carousel {
+  position: relative; }
+  home-carousel > .container {
+    overflow: inherit;
+    padding-top: 1rem; }
+    home-carousel > .container .row .col .slider {
+      overflow: inherit;
+      height: 100%; }
+      home-carousel > .container .row .col .slider .slider-slides ion-slide {
+        height: 53em;
+        text-align: center; }
+        home-carousel > .container .row .col .slider .slider-slides ion-slide .title-container {
+          position: relative; }
+          home-carousel > .container .row .col .slider .slider-slides ion-slide .title-container .title .col span span {
+            color: #40caff;
+            font-size: 2rem !important; }
+      home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) {
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center; }
+        home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .hero-image {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          background-size: 100%;
+          /* background-position-x: 0px; */
+          background-position-y: -23px;
+          filter: grayscale(100); }
+        home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .darken {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          background-color: rgba(0, 0, 0, 0.75); }
+        home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container {
+          padding-top: 31%;
+          height: 100%; }
+          home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container * {
+            filter: grayscale(0); }
+          home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .title {
+            margin-bottom: 0rem;
+            line-height: 3rem; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .title .col span {
+              min-height: 183px;
+              font-size: 55px; }
+          home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .content {
+            line-height: 3rem; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .content .col {
+              text-align: center; }
+              home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .content .col span {
+                font-family: 'Apercu';
+                letter-spacing: 6px;
+                font-weight: bold;
+                font-size: 3.57em;
+                color: white;
+                line-height: 1px; }
+              home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .content .col span.sale {
+                font-family: 'Reglo-Bold'; }
+          home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button {
+              font-family: 'Reglo-Bold';
+              width: 222px;
+              height: 56px;
+              font-size: 22px;
+              letter-spacing: 1.8px; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:first-child {
+              border: solid 2px #40caff;
+              background-color: transparent;
               color: white;
-              line-height: 1px; }
-            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .content .col span.sale {
-              font-family: 'Reglo-Bold'; }
-        home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col {
-          display: flex;
-          flex-flow: row wrap;
-          justify-content: center; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button {
-            font-family: 'Reglo-Bold';
-            width: 222px;
-            height: 56px;
-            font-size: 22px;
-            letter-spacing: 1.8px; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:first-child {
-            border: solid 2px #40caff;
-            background-color: transparent;
-            color: white;
-            transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
-            transition-delay: all 1s;
-            margin-bottom: 2rem; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:first-child:hover {
-            border: none;
-            background-color: #40caff;
-            color: black; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:last-child {
-            border: none;
-            background-color: #40caff;
-            color: black;
-            transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
-            transition-delay: all 1s; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:last-child:hover {
-            border: solid 2px #40caff;
-            background-color: transparent;
-            color: white; }
-    home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(3) .container {
-      padding-top: 31%; }
-      home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(3) .container .title .col span {
-        font-size: 48px; }
-    home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container {
-      margin-top: 25%; }
+              transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
+              transition-delay: all 1s;
+              margin-bottom: 2rem; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:first-child:hover {
+              border: none;
+              background-color: #40caff;
+              color: black; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:last-child {
+              border: none;
+              background-color: #40caff;
+              color: black;
+              transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
+              transition-delay: all 1s; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:last-child:hover {
+              border: solid 2px #40caff;
+              background-color: transparent;
+              color: white; }
+      home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(3) .container {
+        padding-top: 31%; }
+        home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(3) .container .title .col span {
+          font-size: 48px; }
       home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title {
         margin-bottom: 0.1rem; }
       home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:first-child {
@@ -10223,10 +10220,8 @@ home-carousel > .container {
   home-carousel {
     display: block; }
     home-carousel > .container {
-      overflow: hidden;
-      height: 53.51em; }
+      overflow: hidden; }
       home-carousel > .container .row .col .slider .slider-slides ion-slide {
-        height: 53.51em !important;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
@@ -10243,57 +10238,61 @@ home-carousel > .container {
           height: 100%;
           position: absolute;
           background-color: rgba(0, 0, 0, 0.75); }
-        home-carousel > .container .row .col .slider .slider-slides ion-slide .container * {
-          filter: grayscale(0); }
-        home-carousel > .container .row .col .slider .slider-slides ion-slide .container .title {
-          height: 69px !important; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide .container .title .col span {
-            font-size: 64px; }
-        home-carousel > .container .row .col .slider .slider-slides ion-slide .container .content {
-          height: 59px;
-          margin-bottom: 32px; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide .container .content .col {
-            text-align: center; }
-            home-carousel > .container .row .col .slider .slider-slides ion-slide .container .content .col span {
+        home-carousel > .container .row .col .slider .slider-slides ion-slide > .container {
+          position: absolute;
+          top: 0;
+          margin-top: 2rem; }
+          home-carousel > .container .row .col .slider .slider-slides ion-slide > .container * {
+            filter: grayscale(0); }
+          home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .title {
+            height: 69px !important; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .title .col span {
+              font-size: 64px; }
+          home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .content {
+            height: 59px;
+            margin-bottom: 32px; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .content .col {
+              text-align: center; }
+              home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .content .col span {
+                font-family: 'Apercu';
+                letter-spacing: 6px;
+                font-weight: bold;
+                font-size: 3.57em;
+                color: white;
+                line-height: 1; }
+              home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .content .col span.sale {
+                font-family: 'Reglo-Bold'; }
+          home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button {
               font-family: 'Apercu';
-              letter-spacing: 6px;
-              font-weight: bold;
-              font-size: 3.57em;
+              width: 166px;
+              height: 56px;
+              font-size: 22px;
+              letter-spacing: 1.8px; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button:first-child {
+              border: solid 2px #40caff;
+              background-color: transparent;
               color: white;
-              line-height: 1; }
-            home-carousel > .container .row .col .slider .slider-slides ion-slide .container .content .col span.sale {
-              font-family: 'Reglo-Bold'; }
-        home-carousel > .container .row .col .slider .slider-slides ion-slide .container .buttons .col {
-          display: flex;
-          flex-flow: row wrap;
-          justify-content: center; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide .container .buttons .col button {
-            font-family: 'Apercu';
-            width: 166px;
-            height: 56px;
-            font-size: 22px;
-            letter-spacing: 1.8px; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide .container .buttons .col button:first-child {
-            border: solid 2px #40caff;
-            background-color: transparent;
-            color: white;
-            margin-right: 18px;
-            transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
-            transition-delay: all 1s; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide .container .buttons .col button:first-child:hover {
-            border: none;
-            background-color: #40caff;
-            color: black; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide .container .buttons .col button:last-child {
-            border: none;
-            background-color: #40caff;
-            color: black;
-            transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
-            transition-delay: all 1s; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide .container .buttons .col button:last-child:hover {
-            border: solid 2px #40caff;
-            background-color: transparent;
-            color: white; }
+              margin-right: 18px;
+              transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
+              transition-delay: all 1s; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button:first-child:hover {
+              border: none;
+              background-color: #40caff;
+              color: black; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button:last-child {
+              border: none;
+              background-color: #40caff;
+              color: black;
+              transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
+              transition-delay: all 1s; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button:last-child:hover {
+              border: solid 2px #40caff;
+              background-color: transparent;
+              color: white; }
       home-carousel > .container .row .col .slider .slider-slides ion-slide .hero-image {
         filter: grayscale(100%); }
       home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container {
@@ -10301,7 +10300,7 @@ home-carousel > .container {
         home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .title .col span {
           font-size: 64px !important; }
       home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container {
-        margin-top: 10%;
+        padding-top: 10%;
         text-align: center; }
         home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container {
           max-width: 714px;
@@ -10414,28 +10413,26 @@ home-carousel > .container {
         height: 117.6px;
         left: 1359px;
         top: 638px; }
-      home-carousel > .container .row .col .slider .slider-pager {
-        bottom: -710px; }
-        home-carousel > .container .row .col .slider .slider-pager .slider-pager-page {
-          width: 20px;
-          height: 20px;
-          border: 2px solid white;
-          margin-right: 20px;
-          z-index: 1; }
-          home-carousel > .container .row .col .slider .slider-pager .slider-pager-page i {
-            z-index: -1;
-            opacity: 0; }
-        home-carousel > .container .row .col .slider .slider-pager .slider-pager-page.active i {
+      home-carousel > .container .row .col .slider .slider-pager .slider-pager-page {
+        width: 20px;
+        height: 20px;
+        border: 2px solid white;
+        margin-right: 20px;
+        z-index: 1; }
+        home-carousel > .container .row .col .slider .slider-pager .slider-pager-page i {
           z-index: -1;
-          opacity: 1;
-          width: 18.5px;
-          height: 18.5px;
-          background-color: #40caff;
-          position: relative;
-          float: left;
-          top: 3px;
-          left: 3px;
-          transition: all 350ms ease-in; } }
+          opacity: 0; }
+      home-carousel > .container .row .col .slider .slider-pager .slider-pager-page.active i {
+        z-index: -1;
+        opacity: 1;
+        width: 18.5px;
+        height: 18.5px;
+        background-color: #40caff;
+        position: relative;
+        float: left;
+        top: 3px;
+        left: 3px;
+        transition: all 350ms ease-in; } }
 
 home-schedule > .container .row {
   display: block;

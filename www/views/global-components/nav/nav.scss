@@ -1,6 +1,6 @@
 nav {
     position: absolute;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-left: 1rem;
     z-index: 2;
 
@@ -169,8 +169,7 @@ nav {
 
 @media (min-width: 1024px) {
     nav {
-        margin-top: 2.57%;
-        position: absolute;
+        // margin-top: 2.57%;
         width: 100%;
         text-align: left;
         z-index: 2;

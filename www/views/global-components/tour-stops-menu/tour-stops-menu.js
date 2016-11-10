@@ -4,7 +4,7 @@
         .component('tourStopsMenu', {
             templateUrl: 'views/global-components/tour-stops-menu/tour-stops-menu.html',
             controller: TourStopsMenuCtrl,
-            controllerAs: 'cc'
+            controllerAs: 'cc',
         })
 
     TourStopsMenuCtrl.$inject = ['$log', '$scope'];

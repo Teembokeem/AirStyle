@@ -18,6 +18,7 @@
             $scope.$emit('darkenNav');
         };
 
+        cc.showTourStops = false;
         cc.$onInit = function () {
         }
     }
