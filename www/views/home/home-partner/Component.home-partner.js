@@ -30,7 +30,7 @@
                     link: 'http://www.coors.com'
                 },
                 {
-                    img: 'img/Stoli.jpg',
+                    img: 'img/Stoli.png',
                     dim: 120,
                     link: 'http://http://stoli.com/'
                 },
@@ -48,6 +48,11 @@
                     img: 'img/FLOOD_MAGAZINE_PRESENTS.png',
                     dim: 120,
                     link: 'http://floodmagazine.com'
+                },
+                {
+                    img: 'img/Halfpops-Logo---Horizontal-Reversed.png',
+                    dim: 120,
+                    link: 'https://www.halfpops.com/'
                 },
             ];
         }

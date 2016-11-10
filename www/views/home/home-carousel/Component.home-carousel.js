@@ -66,7 +66,7 @@
                         },
                         {
                             label: 'BUY NOW',
-                            dest: 'https://frontoffice.paylogic.nl/flows/MTAuMTAwLjIuMyw1Niw3MTU3ZjZlNGQzNDA0YjlmOGIzZmI2NDFjMmQ4MmJjMyxlYTVhNzBiNGEzMzIyNWRkZmU3ZjZhYmI0M2Q5YmFjZg/Tickets/'
+                            dest: 'http://air-style.at/innsbruck2017/ticket-info-2017/innsbruck2017/ticket-info-2017/'
                         }
                     ],
                     image: 'img/slide1.jpg'
