@@ -10643,7 +10643,8 @@ home-merchandise > .container .merchandise {
     background-position: center;
     background-color: white;
     justify-content: center;
-    padding-top: 2rem; }
+    padding-top: 2rem;
+    position: relative; }
     home-merchandise > .container .merchandise .merchandise-container .image {
       text-align: center; }
       home-merchandise > .container .merchandise .merchandise-container .image img {
@@ -10656,9 +10657,9 @@ home-merchandise > .container .merchandise {
       justify-content: center;
       display: flex;
       align-items: center;
-      position: relative;
-      bottom: 72%;
-      left: 76.5%; }
+      position: absolute;
+      top: 1rem;
+      right: 1rem; }
       home-merchandise > .container .merchandise .merchandise-container .price span {
         font-size: 20px;
         position: relative;
@@ -10668,8 +10669,11 @@ home-merchandise > .container .merchandise {
       home-merchandise > .container .merchandise .merchandise-container .price span:last-child {
         padding-top: 0.3em; }
     home-merchandise > .container .merchandise .merchandise-container .name {
-      position: relative;
+      position: absolute;
+      bottom: 2rem;
       text-align: center;
+      display: flex;
+      justify-content: center;
       bottom: 35px; }
       home-merchandise > .container .merchandise .merchandise-container .name span {
         font-family: 'Apercu';
@@ -10694,11 +10698,6 @@ home-merchandise > .container .more {
       font-size: 18px;
       border: none; }
 
-@media (min-width: 1440px) {
-  home-merchandise > .container .merchandise .merchandise-container .price {
-    bottom: 380px !important;
-    left: 282px !important; } }
-
 @media (min-width: 1024px) {
   home-merchandise > .container .section-title {
     margin-bottom: 60px; }
@@ -10722,17 +10721,17 @@ home-merchandise > .container .more {
       justify-content: center; }
       home-merchandise > .container .merchandise .merchandise-container .image {
         width: 100%;
-        margin-top: 45px;
+        min-height: 280px;
         text-align: center; }
         home-merchandise > .container .merchandise .merchandise-container .image img {
           width: 90%; }
-      home-merchandise > .container .merchandise .merchandise-container .price {
-        bottom: 27vw;
-        left: 20vw; }
-        home-merchandise > .container .merchandise .merchandise-container .price span {
-          font-size: 26px; }
-      home-merchandise > .container .merchandise .merchandise-container .name {
-        bottom: 60px; } }
+      home-merchandise > .container .merchandise .merchandise-container .price span {
+        font-size: 26px; } }
+
+@media (min-width: 1440px) {
+  home-merchandise > .container .merchandise .merchandise-container .image {
+    margin-top: 4px;
+    min-height: 344px; } }
 
 home-partner > .container {
   margin-bottom: 94px; }

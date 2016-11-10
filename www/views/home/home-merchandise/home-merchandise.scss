@@ -34,6 +34,7 @@
                 background-color: white;
                 justify-content: center;
                 padding-top:2rem;
+                position: relative;
 
                 .image {
                     text-align: center;
@@ -50,9 +51,9 @@
                     justify-content: center;
                     display: flex;
                     align-items: center;
-                    position: relative;
-                    bottom: 72%;
-                    left: 76.5%;
+                    position: absolute;
+                    top: 1rem;
+                    right: 1rem;
 
                     span {
                         font-size: 20px;
@@ -71,8 +72,11 @@
                 }
 
                 .name {
-                    position: relative;
+                    position: absolute;
+                    bottom: 2rem;
                     text-align: center;
+                    display: flex;
+                    justify-content: center;
                     bottom: 35px;
                     span {
                         font-family: 'Apercu';
@@ -110,71 +114,7 @@
         }
      }
  }
- @media (min-width: 1440px) {
-     home-merchandise {
-        > .container {
-            .section-title {
-                // margin-bottom: 60px;
-
-                .title {
-                    // height: 66px;
-                    // width: 291px;
-                    // padding-bottom: 10px;
-
-                    span {
-                        // font-size: 40px;
-                        // position: relative;
-                        // top: 15px;
-                    }
-                }
-            }
-
-            .merchandise {
-                // display: flex;
-                // justify-content: center;
-                .merchandise-container {
-                    // margin: 0 1rem;
-                    // width: 375px;
-                    // height: 452px;
-                    // background-position:center;
-                    // background-color: white;
-                    // justify-content: center;
-
-                    .image {
-                        // width: 100%;
-                        // margin-top: 45px;
-                        // text-align: center;
-                        img {
-                            // width: 90%;
-                        }
-                    }
-
-                    .price {
-                        bottom: 380px !important;
-                        left: 282px !important;
-
-                        span {
-                            // font-size: 26px;
-                        }
-
-                    }
-
-                    .name {
-                        // bottom: 60px;
-
-                    }
-                }   
-            }
-
-            .more {
-                .col {
-                    button {
-                    }
-                }
-            }
-        }
-    }
- }
+ 
  @media (min-width: 1024px) {
     home-merchandise {
         > .container {
@@ -207,7 +147,8 @@
 
                     .image {
                         width: 100%;
-                        margin-top: 45px;
+                        // margin-top: 45px;
+                        min-height: 280px;
                         text-align: center;
                         img {
                             width: 90%;
@@ -215,8 +156,6 @@
                     }
 
                     .price {
-                        bottom: 27vw;
-                        left: 20vw;
 
                         span {
                             font-size: 26px;
@@ -225,7 +164,6 @@
                     }
 
                     .name {
-                        bottom: 60px;
 
                     }
                 }   
@@ -241,3 +179,66 @@
     }
  }
  
+ @media (min-width: 1440px) {
+     home-merchandise {
+        > .container {
+            .section-title {
+                // margin-bottom: 60px;
+
+                .title {
+                    // height: 66px;
+                    // width: 291px;
+                    // padding-bottom: 10px;
+
+                    span {
+                        // font-size: 40px;
+                        // position: relative;
+                        // top: 15px;
+                    }
+                }
+            }
+
+            .merchandise {
+                // display: flex;
+                // justify-content: center;
+                .merchandise-container {
+                    // margin: 0 1rem;
+                    // width: 375px;
+                    // height: 452px;
+                    // background-position:center;
+                    // background-color: white;
+                    // justify-content: center;
+
+                    .image {
+                        // width: 100%;
+                        margin-top: 4px;
+                        min-height: 344px;
+                        // text-align: center;
+                        img {
+                            // width: 90%;
+                        }
+                    }
+
+                    .price {
+
+                        span {
+                            // font-size: 26px;
+                        }
+
+                    }
+
+                    .name {
+
+                    }
+                }   
+            }
+
+            .more {
+                .col {
+                    button {
+                    }
+                }
+            }
+        }
+    }
+ }
