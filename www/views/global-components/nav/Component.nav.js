@@ -19,9 +19,11 @@
             cc.darken = false;
         }
         $rootScope.$on('noNav', function (e, d) {
-            // console.log(e, d);
+            console.log(e, d);
             if ($window.innerWidth <= 420) {
                 cc.mobile = true;
+
+                cc.toggleNav()
             } else {
                 cc.mobile = false;
                 // if (!$scope.$$phase) {
