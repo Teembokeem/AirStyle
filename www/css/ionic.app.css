@@ -10365,10 +10365,12 @@ home-carousel > .container {
             letter-spacing: 1.8px;
             color: #40caff;
             line-height: 1; }
-        home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .date .col span {
-          font-size: 18px;
-          letter-spacing: 1.7px;
-          font-family: 'Reglo-Bold'; }
+        home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .date {
+          margin-bottom: 2rem; }
+          home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .date .col span {
+            font-size: 18px;
+            letter-spacing: 1.7px;
+            font-family: 'Reglo-Bold'; }
       home-carousel > .container .row .col .slider .slider-slides .la-lineup .shape {
         font-size: 30px;
         position: absolute; }
@@ -10413,7 +10415,7 @@ home-carousel > .container {
         left: 1359px;
         top: 638px; }
       home-carousel > .container .row .col .slider .slider-pager {
-        bottom: -666px; }
+        bottom: -710px; }
         home-carousel > .container .row .col .slider .slider-pager .slider-pager-page {
           width: 20px;
           height: 20px;
