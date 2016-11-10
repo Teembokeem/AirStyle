@@ -10760,8 +10760,8 @@ home-partner > .container {
           justify-content: center;
           margin: 0 auto; }
           home-partner > .container .partner-container .container .row .partner a img {
-            max-width: 200px;
-            height: 120px; }
+            max-height: 120px !important;
+            max-width: 150px; }
           home-partner > .container .partner-container .container .row .partner a img:nth-child(-n + 5) {
             margin-bottom: 2rem; }
 
