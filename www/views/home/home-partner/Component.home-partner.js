@@ -32,7 +32,7 @@
                 {
                     img: 'img/Stoli.png',
                     // dim: 120,
-                    link: 'http://http://stoli.com/'
+                    link: 'http://stoli.com/'
                 },
                 {
                     img: 'img/CLIF.png',
@@ -49,11 +49,11 @@
                     // dim: 120,
                     link: 'http://floodmagazine.com'
                 },
-                {
-                    img: 'img/Halfpops-Logo---Horizontal-Reversed.png',
-                    // dim: 120,
-                    link: 'https://www.halfpops.com/'
-                },
+                // {
+                //     img: 'img/Halfpops-Logo---Horizontal-Reversed.png',
+                //     // dim: 120,
+                //     link: 'https://www.halfpops.com/'
+                // },
             ];
         }
     }

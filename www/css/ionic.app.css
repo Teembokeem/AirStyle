@@ -10760,6 +10760,7 @@ home-partner > .container {
         home-partner > .container .partner-container .container .row .partner {
           display: flex;
           justify-content: center;
+          align-items: center;
           margin: 0 auto; }
           home-partner > .container .partner-container .container .row .partner a img {
             max-height: 120px !important;
