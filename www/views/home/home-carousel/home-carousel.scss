@@ -610,54 +610,54 @@ home-carousel {
                             }
 
                             .shape:nth-child(2) {
-                                left: 1px;
-                                top: 315px;
                                 height: 193px;
+                                left: 0%;
+                                top: 43%;
                             }
                             img:nth-child(3) {
-                                left: 126px;
-                                top: 315px;
+                                left: 9%;
+                                top: 43%;
                                 height: 193px;
                             }
                             img:nth-child(4) {
+                                left: 4%;
+                                top: 89%;
                                 height: 132.6px;
-                                left: 56px;
-                                top: 656px;
                             }
                             img:nth-child(5) {
                                 height: 198px;
-                                left: 190px;
-                                top: 594px;
+                                left: 12%;
+                                top: 82%;
                             }
                             img:nth-child(6) {
                                 height: 101.2px;
-                                left: 376px;
-                                top: 687px;
+                                left: 26%;
+                                top: 92%;
                             }
                             .shape:nth-child(7) {
                             height: 57px;
-                                left: 1054px;
-                                top: 714px;
+                                right: 21%;
+                                top: 97%;
                             }
                             img:nth-child(8) {
                                 height: 75.5px;
-                                left: 1215px;
-                                top: 600px;
+                                right: 10%;
+                                top: 82%;
                             }
                             img:nth-child(9) {
                                 height: 176px;
-                                left: 1276px;
-                                top: 333px;
+                                right: 7%;
+                                top: 45%;
                             }
                             img:nth-child(10) {
                                 height: 83.5px;
-                                left: 1334px;
-                                top: 425px;
+                                right: 3%;
+                                top: 58%;
                             }
                             img:nth-child(11) {
                                 height: 117.6px;
-                                left: 1359px;
-                                top: 638px;
+                                right: 2%;
+                                top: 88%;
                             }
                         }
                     }
@@ -695,3 +695,54 @@ home-carousel {
         }
     }
 }
+
+@media (min-width: 1440px) {
+    home-carousel > .container .row .col .slider .slider-slides .la-lineup {
+        .shape:nth-child(2) {
+            left: 1px;
+            top: 315px;
+        }
+        img:nth-child(3) {
+            left: 126px;
+            top: 315px;
+        }
+        img:nth-child(4) {
+            left: 56px;
+            top: 656px;
+        }
+        img:nth-child(5) {
+            left: 190px;
+            top: 594px;
+        }
+        img:nth-child(6) {
+            left: 376px;
+            top: 687px;
+        }
+        .shape:nth-child(7) {
+            left: 1054px;
+            top: 714px;
+        }
+        img:nth-child(8) {
+            left: 1215px;
+            top: 600px;
+        }
+        img:nth-child(9) {
+            left: 1276px;
+            top: 333px;
+        }
+        img:nth-child(10) {
+            left: 1334px;
+            top: 425px;
+        }
+        img:nth-child(11) {
+            left: 1359px;
+            top: 638px;
+        }
+
+    }
+}
+
+
+
+
+

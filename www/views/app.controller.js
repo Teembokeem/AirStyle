@@ -30,7 +30,6 @@
                     $rootScope.$emit('noNav', false);
                 }
             }
-
         }
     }
 })();
