@@ -1,0 +1,38 @@
+<div class="container">
+	<div class="row">
+		<div ng-repeat="day in cc.tourScheduleContent.schedule" class="col">
+			<div class="container day-box">
+				<div class="row day-box-date-row">
+					<div class="col day-box-date-col">
+						<span>{{day.date}}</span>
+					</div>
+				</div>
+				<div class="row day-box-ramp-row">
+					<div class="col day-box-ramp-col">
+						<span>{{day.ramp}}</span>
+					</div>
+				</div>
+				<div class="row day-box-main-row">
+					<div class="col day-box-main-col">
+						<span>{{day.main}}</span>
+					</div>
+				</div>
+				<div class="row day-box-indoor-row">
+					<div class="col day-box-indoor-col">
+						<span>{{day.indoor}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<span>{{cc.tourScheduleContent.tag}}</span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<button>GET TICKETS</button>
+		</div>
+	</div>
+</div>

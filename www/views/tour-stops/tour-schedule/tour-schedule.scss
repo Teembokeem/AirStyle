@@ -1,0 +1,24 @@
+tour-schedule {
+    position: relative;
+    > .container {
+        > .row:first-child {
+            flex-flow: row wrap;
+            
+            > .col {
+                min-width:320px;
+                padding: 3rem;
+
+                .day-box {
+                    .day-box-date-row {
+                        margin-bottom: 2rem;
+                        .day-box-date-col {
+                            justify-content: center;
+                            display: flex;
+                            font-size: 3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
