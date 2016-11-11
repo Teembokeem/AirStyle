@@ -7,18 +7,23 @@
             controllerAs: 'cc'
         })
 
-    DesktopMenuCtrl.$inject = ['$log', '$scope'];
+    DesktopMenuCtrl.$inject = ['$log', '$scope', '$rootScope'];
 
-    function DesktopMenuCtrl($log, $scope) {
+    function DesktopMenuCtrl($log, $scope, $rootScope) {
         // console.log('Desktop')
         var cc = this;
         cc.noNav = true;
-        cc.toggleNav = function () {
+        cc.showTourStops = false;
+        cc.toggleNav = toggleNav;
+
+        $rootScope.$on('tourStopMenuClose', function (e, d) {
+            cc.showTourStops = !cc.showTourStops;
+        })
+        function toggleNav() {
             cc.noNav = !cc.noNav;
             $scope.$emit('darkenNav');
         };
 
-        cc.showTourStops = false;
         cc.$onInit = function () {
         }
     }
