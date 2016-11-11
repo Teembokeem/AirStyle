@@ -4,7 +4,7 @@
     angular.module('Template')
         .controller('AppCtrl', AppCtrl);
 
-    function AppCtrl($scope, $state, $rootScope, $log, $ionicScrollDelegate) {
+    function AppCtrl($scope, $state, $rootScope, $log, $ionicScrollDelegate, $window) {
 
         var vm = this;
 
@@ -23,10 +23,12 @@
         var t = $ionicScrollDelegate.$getByHandle('mainScroll');
         vm.getScroll = function () {
             var fromTop = t.getScrollPosition().top;
-            if (fromTop > 50) {
-                $rootScope.$emit('noNav', true);
-            } else {
-                $rootScope.$emit('noNav', false);
+            if ($window.innerWidth > 420) {
+                if (fromTop > 50) {
+                    $rootScope.$emit('noNav', true);
+                } else {
+                    $rootScope.$emit('noNav', false);
+                }
             }
 
         }
