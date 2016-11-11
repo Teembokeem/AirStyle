@@ -1,12 +1,14 @@
 nav {
     position: absolute;
-    padding-top: 2rem;
-    padding-left: 1rem;
+    width: 100vw;
+    padding: 2rem 1rem 0 1rem;
     z-index: 2;
 
     .as-nav {
+        position: relative;
         display: flex;
         align-items: center;
+        width: 100%;
         .logo {
             z-index: 1;
             a {
@@ -19,9 +21,12 @@ nav {
 
         .search {
             display: flex;
+            max-width:50px;
             align-items: center;
-            position: relative;
-            left: 48vw;
+            position: absolute;
+            right: 1rem;
+            padding-top: 0.4rem;
+
             i {
                 font-size: 25px;
             }
@@ -30,14 +35,15 @@ nav {
         .hamburger {
             display: flex;
             align-items: center;
-            position: relative;
-            left:58vw;
+            position: absolute;
+            right: 0rem;
+            max-width: 40px;
+            justify-content: flex-end;
 
             button {
-                position: relative;
-                right: 0.5rem;
+                position: absolute;
                 border: none;
-                padding-top: 0.3rem;
+                padding-top: 0.5rem 0 0 0;
                 i {
                     font-size: 1.3rem;
                 }
@@ -50,8 +56,8 @@ nav {
         right: 0;
         padding: 0;
         mobile-menu {
-            position:absolute;
-            top: 94px;
+            position: fixed;
+            top: 109px;
             width: 100vw;
             left: 0;
             height: 90vh;
@@ -143,6 +149,15 @@ nav {
 
         desktop-menu {
             display: flex;
+            > .row {
+                .tour-stop-menu {
+                    position: relative;
+                    top: 2.86rem;
+                    background-color: black;
+                    box-shadow: 0 0 38px 4px black;
+                }
+            }
+
         }
     }
 
@@ -209,7 +224,9 @@ nav {
             .anchor-pad {
                 // padding-top: 1.74%;
                 min-width: 146px;
-                text-align: center;
+                display: flex;
+                align-items:center;
+                justify-content: center;
             }
 
             .anchor-pad:nth-child(2) {
@@ -230,12 +247,9 @@ nav {
             }
 
             .search {
-                position: absolute;
                 text-align: center;
                 display: flex;
                 justify-content: flex-end;
-                right: 76px;
-                left: -76px;
 
                 i {
                     font-size: 25px;
