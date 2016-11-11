@@ -75,6 +75,10 @@ nav {
                             font-size: 30px;
                             font-family: 'Apercu';
                             font-weight: bold;
+
+                            a {
+                                text-decoration: none;
+                            }
                         }
                     }
                 }
@@ -227,6 +231,9 @@ nav {
                 display: flex;
                 align-items:center;
                 justify-content: center;
+                a {
+                    text-decoration: none;
+                }
             }
 
             .anchor-pad:nth-child(2) {

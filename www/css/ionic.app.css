@@ -9903,6 +9903,8 @@ nav {
           font-size: 30px;
           font-family: 'Apercu';
           font-weight: bold; }
+          nav .as-menu mobile-menu .nav-menu > .container:first-child .row .col a {
+            text-decoration: none; }
       nav .as-menu mobile-menu .nav-menu > .container:last-child > .row {
         margin-bottom: 3rem; }
         nav .as-menu mobile-menu .nav-menu > .container:last-child > .row .container .row:first-child {
@@ -9971,6 +9973,8 @@ nav {
       display: flex;
       align-items: center;
       justify-content: center; }
+      nav .as-nav .anchor-pad a {
+        text-decoration: none; }
     nav .as-nav .search {
       text-align: center;
       display: flex;
