@@ -10073,7 +10073,7 @@ home-carousel {
       overflow: inherit;
       height: 100%; }
       home-carousel > .container .row .col .slider .slider-slides ion-slide {
-        height: 53em;
+        height: 40em;
         text-align: center; }
         home-carousel > .container .row .col .slider .slider-slides ion-slide .title-container {
           position: relative; }
@@ -10233,6 +10233,7 @@ home-carousel {
     home-carousel > .container {
       overflow: hidden; }
       home-carousel > .container .row .col .slider .slider-slides ion-slide {
+        height: 53em;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;

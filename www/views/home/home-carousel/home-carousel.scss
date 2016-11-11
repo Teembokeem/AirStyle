@@ -16,7 +16,7 @@ home-carousel {
 
 
                 ion-slide {
-                    height: 53em;
+                    height: 40em;
                     text-align: center;
                     .title-container {
                         position: relative;
@@ -377,6 +377,7 @@ home-carousel {
                 .slider {
                     .slider-slides {
                         ion-slide {
+                            height: 53em;
                             display: flex;
                             flex-flow: row wrap;
                             justify-content: center;
