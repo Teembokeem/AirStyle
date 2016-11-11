@@ -249,8 +249,8 @@ nav {
             .search {
                 text-align: center;
                 display: flex;
-                justify-content: flex-end;
-
+                // justify-content: flex-end;
+                right: 3rem;
                 i {
                     font-size: 25px;
                 }
@@ -261,8 +261,8 @@ nav {
                 text-align: center;
                 display: flex;
                 justify-content: flex-end;
-                /* right: 42px; */
-                left: -27px;
+                right: 1rem;
+                // left: -27px;
             }
 
 
