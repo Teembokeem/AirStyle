@@ -7,19 +7,19 @@
             controllerAs: 'cc',
         })
 
-    TourStopsMenuCtrl.$inject = ['$log', '$scope', '$rootScope'];
+    TourStopsMenuCtrl.$inject = ['$log', '$scope', '$rootScope', '$state'];
 
-    function TourStopsMenuCtrl($log, $scope, $rootScope) {
+    function TourStopsMenuCtrl($log, $scope, $rootScope, $state) {
         // console.log('TourStops')
         var cc = this;
-        cc.noNav = true;
-        cc.toggleNav = function () {
-            cc.noNav = !cc.noNav;
-            $scope.$emit('darkenNav');
-        };
-
+        cc.stateChange = stateChange;
         cc.tourStopMenuClose = tourStopMenuClose;
 
+
+        function stateChange(state, param, val) {
+            $state.go(state, { param: val });
+            $rootScope.$broadcast('tourStopMenuClose');
+        }
         function tourStopMenuClose() {
             $rootScope.$broadcast('tourStopMenuClose')
         }
