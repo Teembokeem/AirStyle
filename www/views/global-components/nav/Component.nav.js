@@ -8,9 +8,9 @@
             controllerAs: 'cc'
         });
 
-    NavCtrl.$inject = ['$scope', '$ionicScrollDelegate', '$rootScope', '$window'];
+    NavCtrl.$inject = ['$scope', '$ionicScrollDelegate', '$rootScope', '$window', '$element'];
 
-    function NavCtrl($scope, $ionicScrollDelegate, $rootScope, $window) {
+    function NavCtrl($scope, $ionicScrollDelegate, $rootScope, $window, $element) {
 
         var cc = this;
         if ($window.innerWidth <= 420) {
@@ -42,6 +42,7 @@
 
         cc.toggleNav = function () {
             cc.noNav = !cc.noNav;
+            $element[0].style.backgroundColor == 'black' ? $element[0].style.backgroundColor = '' : $element[0].style.backgroundColor = 'black';
         };
         cc.showHams = false;
     }
