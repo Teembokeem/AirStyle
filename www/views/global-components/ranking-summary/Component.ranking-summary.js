@@ -1,18 +1,18 @@
 (function () {
     'use strict';
-    angular.module('Home.view.module')
-        .component('homeRanking', {
+    angular.module('Template')
+        .component('rankingSummary', {
             bindings: {
 
             },
-            templateUrl: 'views/home/home-ranking/home-ranking.html',
-            controller: homeRankingCtrl,
+            templateUrl: 'views/global-components/ranking-summary/ranking-summary.html',
+            controller: RankingSummaryCtrl,
             controllerAs: 'cc'
         })
 
-    homeRankingCtrl.$inject = ['$log'];
+    RankingSummaryCtrl.$inject = ['$log'];
 
-    function homeRankingCtrl($log) {
+    function RankingSummaryCtrl($log) {
         var cc = this;
 
         cc.$onInit = function () {

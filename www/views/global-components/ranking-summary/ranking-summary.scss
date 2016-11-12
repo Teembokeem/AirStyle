@@ -1,4 +1,4 @@
-home-ranking {
+ranking-summary {
     > .container {
         margin-bottom: 60px;
         .section-title {
@@ -90,7 +90,7 @@ home-ranking {
 }
 
 @media(min-width: 360px) {
-    home-ranking {
+    ranking-summary {
         > .container {
             .player-container {
                 margin-bottom: 10vw;
@@ -100,7 +100,7 @@ home-ranking {
 }
 
 @media (min-width: 1024px) {
-    home-ranking {
+    ranking-summary {
         > .container {
             margin-top: 216px;
             .section-title {
@@ -187,7 +187,7 @@ home-ranking {
 }
 
 @media(min-width: 1440px) {
-    home-ranking {
+    ranking-summary {
         > .container {
            .more {
                 left: 475.2px;
