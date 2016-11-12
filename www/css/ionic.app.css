@@ -10511,19 +10511,19 @@ home-schedule > .container .row {
       home-schedule > .container .row .schedule .content .title {
         margin-bottom: 40px; } }
 
-home-ranking > .container {
+ranking-summary > .container {
   margin-bottom: 60px; }
-  home-ranking > .container .section-title {
+  ranking-summary > .container .section-title {
     width: 330px;
     height: 60px;
     text-align: center;
     margin: 2rem auto; }
-    home-ranking > .container .section-title span {
+    ranking-summary > .container .section-title span {
       position: relative;
       top: 10px;
       font-size: 30px;
       border-bottom: 8px solid #40caff; }
-  home-ranking > .container .player-container {
+  ranking-summary > .container .player-container {
     margin: 0 auto;
     width: 100%;
     max-width: 360px;
@@ -10533,7 +10533,7 @@ home-ranking > .container {
     display: flex;
     justify-content: center;
     align-items: flex-end; }
-    home-ranking > .container .player-container .container {
+    ranking-summary > .container .player-container .container {
       height: 120px;
       width: 100%;
       padding-top: 1rem;
@@ -10541,26 +10541,26 @@ home-ranking > .container {
       justify-content: flex-start;
       align-items: center;
       background-color: #40caff; }
-      home-ranking > .container .player-container .container .number {
+      ranking-summary > .container .player-container .container .number {
         margin-left: 15px; }
-        home-ranking > .container .player-container .container .number span {
+        ranking-summary > .container .player-container .container .number span {
           font-size: 50px;
           width: 100%;
           border-bottom: 4px solid #f9fe17;
           color: black; }
-      home-ranking > .container .player-container .container .name {
+      ranking-summary > .container .player-container .container .name {
         margin-left: 1rem; }
-        home-ranking > .container .player-container .container .name span {
+        ranking-summary > .container .player-container .container .name span {
           color: black;
           font-size: 40px;
           font-family: 'Apercu';
           font-weight: 700;
           display: block; }
-        home-ranking > .container .player-container .container .name span:first-child {
+        ranking-summary > .container .player-container .container .name span:first-child {
           margin-bottom: 1.3rem; }
-        home-ranking > .container .player-container .container .name span:last-child {
+        ranking-summary > .container .player-container .container .name span:last-child {
           margin-bottom: 1.5rem; }
-  home-ranking > .container .more {
+  ranking-summary > .container .more {
     margin: 2rem auto;
     width: 78%;
     height: 47px;
@@ -10569,37 +10569,37 @@ home-ranking > .container {
     padding-top: 0.3rem;
     display: flex;
     position: relative; }
-    home-ranking > .container .more .col {
+    ranking-summary > .container .more .col {
       max-width: 250px;
       max-height: 47px;
       border: 3px solid white;
       display: flex;
       justify-content: center;
       align-items: center; }
-      home-ranking > .container .more .col button {
+      ranking-summary > .container .more .col button {
         font-size: 18px;
         border: none; }
 
 @media (min-width: 360px) {
-  home-ranking > .container .player-container {
+  ranking-summary > .container .player-container {
     margin-bottom: 10vw; } }
 
 @media (min-width: 1024px) {
-  home-ranking > .container {
+  ranking-summary > .container {
     margin-top: 216px; }
-    home-ranking > .container .section-title {
+    ranking-summary > .container .section-title {
       position: absolute;
       right: 129px; }
-      home-ranking > .container .section-title span {
+      ranking-summary > .container .section-title span {
         font-size: 40px; }
-    home-ranking > .container .player-container {
+    ranking-summary > .container .player-container {
       width: 359.6px;
       height: 474.3px;
       margin: 0 0;
       position: relative; }
-      home-ranking > .container .player-container * {
+      ranking-summary > .container .player-container * {
         color: black; }
-      home-ranking > .container .player-container .container {
+      ranking-summary > .container .player-container .container {
         width: 221.3px;
         height: 152.6px;
         position: relative;
@@ -10607,49 +10607,49 @@ home-ranking > .container {
         left: 255px;
         display: block;
         padding-left: 1.3rem; }
-        home-ranking > .container .player-container .container .number {
+        ranking-summary > .container .player-container .container .number {
           top: 0.5rem;
           width: 25px;
           margin-bottom: 27px;
           margin-left: 0;
           position: relative; }
-          home-ranking > .container .player-container .container .number span {
+          ranking-summary > .container .player-container .container .number span {
             font-size: 22px; }
-        home-ranking > .container .player-container .container .name {
+        ranking-summary > .container .player-container .container .name {
           text-align: left;
           padding-left: 0;
           margin-left: 0;
           letter-spacing: -0.1rem; }
-          home-ranking > .container .player-container .container .name span {
+          ranking-summary > .container .player-container .container .name span {
             display: block;
             font-family: 'Apercu';
             font-weight: 500;
             font-size: 40px; }
-          home-ranking > .container .player-container .container .name span:first-child {
+          ranking-summary > .container .player-container .container .name span:first-child {
             margin-bottom: 20px; }
-    home-ranking > .container div:nth-child(2) {
+    ranking-summary > .container div:nth-child(2) {
       left: 6.4vw;
       top: 3vw; }
-    home-ranking > .container div:nth-child(3) {
+    ranking-summary > .container div:nth-child(3) {
       left: 43.7vw;
       top: -7.2vw; }
-    home-ranking > .container div:nth-child(4) {
+    ranking-summary > .container div:nth-child(4) {
       left: 20.8vw;
       top: -4.4vw; }
-    home-ranking > .container .more {
+    ranking-summary > .container .more {
       left: 33vw;
       bottom: 19vw; } }
 
 @media (min-width: 1440px) {
-  home-ranking > .container .more {
+  ranking-summary > .container .more {
     left: 475.2px;
     bottom: 446.4px; }
-  home-ranking > .container div:nth-child(2) {
+  ranking-summary > .container div:nth-child(2) {
     left: 120.96px; }
-  home-ranking > .container div:nth-child(3) {
+  ranking-summary > .container div:nth-child(3) {
     left: 845.28px;
     top: -246.68px; }
-  home-ranking > .container div:nth-child(4) {
+  ranking-summary > .container div:nth-child(4) {
     left: 241.3px;
     top: -293.76px; } }
 
@@ -11072,6 +11072,9 @@ ticket-footer .container {
           border: none;
           color: black; }
 
+.tour-stops-view ion-content .scroll ranking-summary > .container {
+  margin-top: 100px; }
+
 tour-carousel {
   position: relative; }
   tour-carousel > .container {
@@ -11106,6 +11109,37 @@ tour-carousel {
               letter-spacing: 0.05rem; }
           tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .logistics > .row {
             font-size: 1.4rem; }
+          tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .buttons .row .col {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center; }
+            tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .buttons .row .col button {
+              font-family: 'Reglo-Bold';
+              width: 222px;
+              height: 56px;
+              font-size: 22px;
+              letter-spacing: 1.8px; }
+            tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .buttons .row .col button:first-child {
+              border: solid 2px #40caff;
+              background-color: transparent;
+              color: white;
+              transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
+              transition-delay: all 1s;
+              margin-bottom: 2rem; }
+            tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .buttons .row .col button:first-child:hover {
+              border: none;
+              background-color: #40caff;
+              color: black; }
+            tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .buttons .row .col button:last-child {
+              border: none;
+              background-color: #40caff;
+              color: black;
+              transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
+              transition-delay: all 1s; }
+            tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .buttons .row .col button:last-child:hover {
+              border: solid 2px #40caff;
+              background-color: transparent;
+              color: white; }
         tour-carousel > .container > .row > .col .slider .slider-slides ion-slide img {
           position: absolute; }
         tour-carousel > .container > .row > .col .slider .slider-pager {
@@ -11122,19 +11156,27 @@ tour-carousel {
   tour-carousel > .container > .row > .col .slider {
     padding-top: 160px; }
     tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(n + 2) {
-      margin-bottom: 6vw; } }
+      margin-bottom: 6vw; }
+    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .buttons > .row .col button {
+      width: 171px; }
+    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .buttons > .row .col button:first-child {
+      margin-right: 1vw; } }
 
 @media (min-width: 768px) {
-  tour-carousel > .container > .row > .col .slider {
-    padding-top: 180px; }
-    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:first-child {
-      font-size: 69px; }
-    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(2) {
-      font-size: 43px; }
-    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(3) {
-      font-size: 42px; }
-    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(4) {
-      font-size: 28px; } }
+  tour-carousel > .container {
+    height: 45em; }
+    tour-carousel > .container > .row > .col .slider {
+      padding-top: 180px; }
+      tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:first-child {
+        font-size: 69px; }
+      tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(2) {
+        font-size: 43px; }
+      tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(3) {
+        font-size: 42px; }
+      tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(4) {
+        font-size: 28px; }
+      tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .logistics {
+        margin-bottom: 1.3rem; } }
 
 @media (min-width: 1024px) {
   tour-carousel > .container {
