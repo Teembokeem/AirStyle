@@ -1,0 +1,23 @@
+<div class="container">
+	<div class="row floating-title">
+		<div class="col title">
+			<span>MUSIC FROM...</span>
+		</div>
+	</div>
+	<div class="row">
+		<div ng-repeat="artist in cc.tourMusicContent" class="col">
+			<div class="container">
+				<div class="row full-image">
+					<div class="col image">
+						<img src="{{artist.image}}" alt="">
+					</div>
+				</div>
+				<div class="row floating-name">
+					<div class="col name">
+						<span>{{artist.name}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

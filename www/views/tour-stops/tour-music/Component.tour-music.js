@@ -43,11 +43,11 @@
             cc.tourMusicContent = [
                 {
                     name: 'BIFFY CLYRO',
-                    img: '../img/biffy.png'
+                    img: '../img/clyro.png'
                 },
                 {
                     name: 'BEGINNER',
-                    img: '../img/beginner.png'
+                    img: '../img/beginner.jpg'
                 }
             ]
         }
