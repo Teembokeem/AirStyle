@@ -62,6 +62,49 @@ tour-carousel {
                                         font-size: 1.4rem;
                                     }
                                 }
+
+                                .buttons {
+                                    .row {
+                                        .col {
+                                            display: flex;
+                                            flex-flow: row wrap;
+                                            justify-content: center;
+                                            button {
+                                                font-family: 'Reglo-Bold';
+                                                width: 222px;
+                                                height: 56px;
+                                                font-size: 22px;
+                                                letter-spacing: 1.8px;
+                                            }
+                                            button:first-child {
+                                                border: solid 2px $as-blue;
+                                                background-color: transparent;
+                                                color: white;
+                                                // margin-right: 18px;
+                                                transition: all 1s cubic-bezier(.23, 1.25, .375, 1.15);
+                                                transition-delay: all 1s;
+                                                margin-bottom: 2rem;
+                                            }
+                                            button:first-child:hover {
+                                                border: none;
+                                                background-color: $as-blue;
+                                                color: black;
+                                            }
+                                            button:last-child {
+                                                border: none;
+                                                background-color: $as-blue;
+                                                color: black;
+                                                transition: all 1s cubic-bezier(.23, 1.25, .375, 1.15);
+                                                transition-delay: all 1s;
+                                            }
+                                            button:last-child:hover {
+                                                border: solid 2px $as-blue;
+                                                background-color: transparent;
+                                                color: white;
+                                            }
+                                        }
+                                    }
+                                }
                             }
 
                             img {
@@ -96,34 +139,60 @@ tour-carousel {
     tour-carousel > .container > .row > .col .slider {
         padding-top: 160px;
         
-        .slider-slides ion-slide > .container .lineups .lineup:nth-child(n + 2) {
-            margin-bottom: 6vw;
-        }
+        .slider-slides ion-slide > .container {
+            .lineups  .lineup:nth-child(n + 2) {
+                margin-bottom: 6vw;
+            }
+
+            .buttons {
+                > .row {
+                    .col {
+                        button {
+                            width: 171px;
+                        }
+
+                        button:first-child {
+                            margin-right:1vw;
+                        }
+                    }
+                }
+            }
+        } 
     }
 }
 
 @media (min-width: 768px) {
-    tour-carousel > .container > .row > .col .slider {
-        padding-top: 180px;
-        
-        .slider-slides ion-slide > .container .lineups {
-            .lineup:first-child {
-                font-size: 69px;
-            }
-            .lineup:nth-child(2) {
-                font-size: 43px;
-            }
+    tour-carousel > .container {
+        height: 45em;
 
-            .lineup:nth-child(3) {
-                font-size: 42px;
-            }
+        > .row > .col .slider {
+            padding-top: 180px;
+            
+            .slider-slides ion-slide > .container {
+                .lineups {
+                    .lineup:first-child {
+                        font-size: 69px;
+                    }
+                    .lineup:nth-child(2) {
+                        font-size: 43px;
+                    }
 
-            .lineup:nth-child(4) {
-                font-size: 28px;
-            }
+                    .lineup:nth-child(3) {
+                        font-size: 42px;
+                    }
 
+                    .lineup:nth-child(4) {
+                        font-size: 28px;
+                    }
+
+                }
+
+                .logistics {
+                    margin-bottom: 1.3rem;
+                }
+            }
         }
-    }
+    } 
 }
 
 @media (min-width: 1024px) {

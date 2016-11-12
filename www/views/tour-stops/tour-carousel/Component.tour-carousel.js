@@ -48,7 +48,7 @@
                         ['FUNF STERNE DELUXE', 'LUCKY CHOPS'],
                         ['FAMOUSE DECK TEAM', 'WAX WRECKAZ', 'ND MANY MORE']
                     ],
-                    logistics: 'FRI + SAT 4 FEBRUARY 2017 - OLYMPIAWORLD INNSBRUCK',
+                    logistics: 'FRI 3 + SAT 4 FEBRUARY 2017 - OLYMPIAWORLD INNSBRUCK',
                     buttons: [
                         {
                             label: 'LEARN MORE',
