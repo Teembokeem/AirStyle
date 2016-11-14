@@ -9904,9 +9904,10 @@ nav {
         margin-bottom: 1.5rem; }
         nav .as-menu mobile-menu .nav-menu > .container:first-child .row .col {
           font-size: 30px;
-          font-family: 'Apercu';
-          font-weight: bold; }
+          font-weight: bold;
+          font-family: 'Apercu'; }
           nav .as-menu mobile-menu .nav-menu > .container:first-child .row .col a {
+            font-family: 'Apercu';
             text-decoration: none; }
       nav .as-menu mobile-menu .nav-menu > .container:last-child > .row {
         margin-bottom: 3rem; }
