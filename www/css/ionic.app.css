@@ -9883,6 +9883,7 @@ nav {
         border: none;
         padding-top: 0.5rem 0 0 0; }
         nav .as-nav .hamburger button i {
+          display: flex;
           font-size: 1.3rem; }
   nav .as-menu {
     right: 0;
