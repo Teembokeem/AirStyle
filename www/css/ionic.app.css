@@ -10586,6 +10586,7 @@ ranking-summary > .container {
 
 @media (min-width: 1024px) {
   ranking-summary > .container {
+    height: 132%;
     margin-top: 216px; }
     ranking-summary > .container .section-title {
       position: absolute;
@@ -10641,17 +10642,19 @@ ranking-summary > .container {
       bottom: 19vw; } }
 
 @media (min-width: 1440px) {
-  ranking-summary > .container .more {
-    left: 475.2px;
-    bottom: 446.4px; }
-  ranking-summary > .container div:nth-child(2) {
-    left: 120.96px; }
-  ranking-summary > .container div:nth-child(3) {
-    left: 845.28px;
-    top: -246.68px; }
-  ranking-summary > .container div:nth-child(4) {
-    left: 241.3px;
-    top: -293.76px; } }
+  ranking-summary > .container {
+    height: 115%; }
+    ranking-summary > .container .more {
+      left: 475.2px;
+      bottom: 446.4px; }
+    ranking-summary > .container div:nth-child(2) {
+      left: 120.96px; }
+    ranking-summary > .container div:nth-child(3) {
+      left: 845.28px;
+      top: -246.68px; }
+    ranking-summary > .container div:nth-child(4) {
+      left: 241.3px;
+      top: -293.76px; } }
 
 home-merchandise > .container .section-title {
   display: flex;
@@ -11273,3 +11276,109 @@ tour-schedule {
           justify-content: center;
           display: flex;
           font-size: 3rem; }
+
+tour-music > .container .floating-title .title {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem; }
+  tour-music > .container .floating-title .title span {
+    border-bottom: 0.4rem solid #f9fe17;
+    padding-bottom: 0.3rem; }
+
+tour-music > .container .row:nth-child(2) {
+  display: inline-block; }
+  tour-music > .container .row:nth-child(2) > .col > .container .full-image {
+    margin-bottom: 6px; }
+    tour-music > .container .row:nth-child(2) > .col > .container .full-image .image {
+      display: flex;
+      justify-content: center; }
+      tour-music > .container .row:nth-child(2) > .col > .container .full-image .image img {
+        max-height: 500px; }
+  tour-music > .container .row:nth-child(2) > .col > .container .floating-name .name {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center; }
+    tour-music > .container .row:nth-child(2) > .col > .container .floating-name .name span {
+      color: #f9fe17; }
+
+@media (min-width: 1024px) {
+  tour-music > .container .floating-title .title {
+    justify-content: flex-start;
+    margin-left: 3rem; }
+    tour-music > .container .floating-title .title span {
+      font-size: 3rem;
+      border-bottom: 0.5rem solid #f9fe17;
+      padding-bottom: 1rem; }
+  tour-music > .container .row:nth-child(2) {
+    display: flex; }
+    tour-music > .container .row:nth-child(2) > .col:first-child {
+      position: relative;
+      top: 2rem; }
+      tour-music > .container .row:nth-child(2) > .col:first-child > .container .full-image .image img {
+        max-height: none; }
+      tour-music > .container .row:nth-child(2) > .col:first-child > .container .floating-name .name {
+        font-size: 2rem; }
+        tour-music > .container .row:nth-child(2) > .col:first-child > .container .floating-name .name span {
+          margin-right: 15%; }
+      tour-music > .container .row:nth-child(2) > .col:first-child > .container .full-image .image img {
+        width: 100%;
+        height: 100%; }
+    tour-music > .container .row:nth-child(2) > .col:nth-child(2) {
+      position: relative;
+      bottom: 3rem; }
+      tour-music > .container .row:nth-child(2) > .col:nth-child(2) > .container .full-image .image img {
+        max-height: none; }
+      tour-music > .container .row:nth-child(2) > .col:nth-child(2) > .container .floating-name {
+        position: absolute;
+        bottom: 30%; }
+        tour-music > .container .row:nth-child(2) > .col:nth-child(2) > .container .floating-name .name {
+          justify-content: flex-end;
+          font-size: 2rem; }
+          tour-music > .container .row:nth-child(2) > .col:nth-child(2) > .container .floating-name .name span {
+            margin-right: 10%; }
+      tour-music > .container .row:nth-child(2) > .col:nth-child(2) > .container .full-image .image img {
+        width: 100%;
+        height: 100%; } }
+
+@media (min-width: 1440px) {
+  tour-music > .container .floating-title .title {
+    justify-content: flex-start;
+    margin-left: 4rem; }
+    tour-music > .container .floating-title .title span {
+      font-size: 4rem;
+      border-bottom: 1rem solid #f9fe17;
+      padding-bottom: 2rem; }
+  tour-music > .container .row:nth-child(2) {
+    display: flex; }
+    tour-music > .container .row:nth-child(2) > .col:first-child {
+      position: relative;
+      top: 3rem; }
+      tour-music > .container .row:nth-child(2) > .col:first-child > .container .full-image .image img {
+        max-height: none; }
+      tour-music > .container .row:nth-child(2) > .col:first-child > .container .floating-name .name {
+        font-size: 3rem; }
+        tour-music > .container .row:nth-child(2) > .col:first-child > .container .floating-name .name span {
+          margin-right: 15%; }
+      tour-music > .container .row:nth-child(2) > .col:first-child > .container .full-image .image img {
+        width: 100%;
+        height: 100%; }
+    tour-music > .container .row:nth-child(2) > .col:nth-child(2) {
+      position: relative;
+      bottom: 4rem; }
+      tour-music > .container .row:nth-child(2) > .col:nth-child(2) > .container .full-image .image img {
+        max-height: none; }
+      tour-music > .container .row:nth-child(2) > .col:nth-child(2) > .container .floating-name {
+        position: absolute;
+        bottom: 30%; }
+        tour-music > .container .row:nth-child(2) > .col:nth-child(2) > .container .floating-name .name {
+          justify-content: flex-end;
+          font-size: 3rem; }
+          tour-music > .container .row:nth-child(2) > .col:nth-child(2) > .container .floating-name .name span {
+            margin-right: 10%; }
+      tour-music > .container .row:nth-child(2) > .col:nth-child(2) > .container .full-image .image img {
+        width: 100%;
+        height: 100%; } }
+
+tour-video .video-container .row .col {
+  display: flex;
+  justify-content: center; }
