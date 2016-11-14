@@ -20,6 +20,7 @@ nav {
         }
 
         .search {
+            height: 100%;
             display: flex;
             max-width:50px;
             align-items: center;
@@ -33,6 +34,7 @@ nav {
         }
 
         .hamburger {
+            height: 100%;
             display: flex;
             align-items: center;
             position: absolute;
@@ -41,9 +43,9 @@ nav {
             justify-content: flex-end;
 
             button {
-                position: absolute;
+                position: relative;
                 border: none;
-                padding-top: 0.5rem 0 0 0;
+                left: 1rem;
                 i {
                     display: flex;
                     font-size: 1.3rem;
@@ -158,7 +160,6 @@ nav {
                 .tour-stop-menu {
                     position: relative;
                     top: 2.86rem;
-                    background-color: black;
                     box-shadow: 0 0 38px 4px black;
                 }
             }
