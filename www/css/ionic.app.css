@@ -10077,6 +10077,190 @@ footer > .container {
         align-items: center;
         padding-bottom: 0; } }
 
+ranking-summary > .container {
+  margin-bottom: 60px; }
+  ranking-summary > .container .section-title {
+    width: 330px;
+    height: 60px;
+    text-align: center;
+    margin: 2rem auto; }
+    ranking-summary > .container .section-title span {
+      position: relative;
+      top: 10px;
+      font-size: 30px;
+      border-bottom: 8px solid #40caff; }
+  ranking-summary > .container .player-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 360px;
+    max-height: 474.3px;
+    height: 130vw;
+    border: solid 8px white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; }
+    ranking-summary > .container .player-container .container {
+      height: 120px;
+      width: 100%;
+      padding-top: 1rem;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #40caff; }
+      ranking-summary > .container .player-container .container .number {
+        margin-left: 15px; }
+        ranking-summary > .container .player-container .container .number span {
+          font-size: 50px;
+          width: 100%;
+          border-bottom: 4px solid #f9fe17;
+          color: black; }
+      ranking-summary > .container .player-container .container .name {
+        margin-left: 1rem; }
+        ranking-summary > .container .player-container .container .name span {
+          color: black;
+          font-size: 40px;
+          font-family: 'Apercu';
+          font-weight: 700;
+          display: block; }
+        ranking-summary > .container .player-container .container .name span:first-child {
+          margin-bottom: 1.3rem; }
+        ranking-summary > .container .player-container .container .name span:last-child {
+          margin-bottom: 1.5rem; }
+  ranking-summary > .container .more {
+    margin: 2rem auto;
+    width: 78%;
+    height: 47px;
+    align-content: center;
+    justify-content: center;
+    padding-top: 0.3rem;
+    display: flex;
+    position: relative; }
+    ranking-summary > .container .more .col {
+      max-width: 250px;
+      max-height: 47px;
+      border: 3px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      ranking-summary > .container .more .col button {
+        font-size: 18px;
+        border: none; }
+
+@media (min-width: 360px) {
+  ranking-summary > .container .player-container {
+    margin-bottom: 10vw; } }
+
+@media (min-width: 1024px) {
+  ranking-summary > .container {
+    height: 132%;
+    margin-top: 216px; }
+    ranking-summary > .container .section-title {
+      position: absolute;
+      right: 129px; }
+      ranking-summary > .container .section-title span {
+        font-size: 40px; }
+    ranking-summary > .container .player-container {
+      width: 359.6px;
+      height: 474.3px;
+      margin: 0 0;
+      position: relative; }
+      ranking-summary > .container .player-container * {
+        color: black; }
+      ranking-summary > .container .player-container .container {
+        width: 221.3px;
+        height: 152.6px;
+        position: relative;
+        top: -179px;
+        left: 255px;
+        display: block;
+        padding-left: 1.3rem; }
+        ranking-summary > .container .player-container .container .number {
+          top: 0.5rem;
+          width: 25px;
+          margin-bottom: 27px;
+          margin-left: 0;
+          position: relative; }
+          ranking-summary > .container .player-container .container .number span {
+            font-size: 22px; }
+        ranking-summary > .container .player-container .container .name {
+          text-align: left;
+          padding-left: 0;
+          margin-left: 0;
+          letter-spacing: -0.1rem; }
+          ranking-summary > .container .player-container .container .name span {
+            display: block;
+            font-family: 'Apercu';
+            font-weight: 500;
+            font-size: 40px; }
+          ranking-summary > .container .player-container .container .name span:first-child {
+            margin-bottom: 20px; }
+    ranking-summary > .container div:nth-child(2) {
+      left: 6.4vw;
+      top: 3vw; }
+    ranking-summary > .container div:nth-child(3) {
+      left: 43.7vw;
+      top: -7.2vw; }
+    ranking-summary > .container div:nth-child(4) {
+      left: 20.8vw;
+      top: -4.4vw; }
+    ranking-summary > .container .more {
+      left: 33vw;
+      bottom: 19vw; } }
+
+@media (min-width: 1440px) {
+  ranking-summary > .container {
+    height: 115%; }
+    ranking-summary > .container .more {
+      left: 475.2px;
+      bottom: 446.4px; }
+    ranking-summary > .container div:nth-child(2) {
+      left: 120.96px; }
+    ranking-summary > .container div:nth-child(3) {
+      left: 845.28px;
+      top: -246.68px; }
+    ranking-summary > .container div:nth-child(4) {
+      left: 241.3px;
+      top: -293.76px; } }
+
+@media (min-width: 420px) {
+  faq > .container .title-row {
+    margin-bottom: 3rem; }
+    faq > .container .title-row .title {
+      display: flex;
+      justify-content: center;
+      font-size: 40px; }
+      faq > .container .title-row .title span {
+        border-bottom: 8px solid #f9fe17;
+        padding-bottom: 15px; }
+  faq > .container .content {
+    margin-bottom: 1.14em; }
+    faq > .container .content .item {
+      width: 75%;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+      background-color: #424242;
+      border: none;
+      margin: 0 auto; }
+      faq > .container .content .item .expand {
+        max-width: 4em;
+        justify-content: center;
+        display: flex;
+        align-items: center; }
+        faq > .container .content .item .expand .circle {
+          width: 1.6em;
+          height: 1.6em;
+          text-align: center;
+          border: 2px solid #f9fe17;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          faq > .container .content .item .expand .circle span {
+            font-size: 22px; }
+      faq > .container .content .item .description .short-description .col span {
+        font-size: 1.14em; } }
+
 home-carousel {
   position: relative; }
   home-carousel > .container {
@@ -10562,151 +10746,6 @@ home-schedule > .container .row {
       height: 240px; }
       home-schedule > .container .row .schedule .content .title {
         margin-bottom: 40px; } }
-
-ranking-summary > .container {
-  margin-bottom: 60px; }
-  ranking-summary > .container .section-title {
-    width: 330px;
-    height: 60px;
-    text-align: center;
-    margin: 2rem auto; }
-    ranking-summary > .container .section-title span {
-      position: relative;
-      top: 10px;
-      font-size: 30px;
-      border-bottom: 8px solid #40caff; }
-  ranking-summary > .container .player-container {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 360px;
-    max-height: 474.3px;
-    height: 130vw;
-    border: solid 8px white;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end; }
-    ranking-summary > .container .player-container .container {
-      height: 120px;
-      width: 100%;
-      padding-top: 1rem;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      background-color: #40caff; }
-      ranking-summary > .container .player-container .container .number {
-        margin-left: 15px; }
-        ranking-summary > .container .player-container .container .number span {
-          font-size: 50px;
-          width: 100%;
-          border-bottom: 4px solid #f9fe17;
-          color: black; }
-      ranking-summary > .container .player-container .container .name {
-        margin-left: 1rem; }
-        ranking-summary > .container .player-container .container .name span {
-          color: black;
-          font-size: 40px;
-          font-family: 'Apercu';
-          font-weight: 700;
-          display: block; }
-        ranking-summary > .container .player-container .container .name span:first-child {
-          margin-bottom: 1.3rem; }
-        ranking-summary > .container .player-container .container .name span:last-child {
-          margin-bottom: 1.5rem; }
-  ranking-summary > .container .more {
-    margin: 2rem auto;
-    width: 78%;
-    height: 47px;
-    align-content: center;
-    justify-content: center;
-    padding-top: 0.3rem;
-    display: flex;
-    position: relative; }
-    ranking-summary > .container .more .col {
-      max-width: 250px;
-      max-height: 47px;
-      border: 3px solid white;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      ranking-summary > .container .more .col button {
-        font-size: 18px;
-        border: none; }
-
-@media (min-width: 360px) {
-  ranking-summary > .container .player-container {
-    margin-bottom: 10vw; } }
-
-@media (min-width: 1024px) {
-  ranking-summary > .container {
-    height: 132%;
-    margin-top: 216px; }
-    ranking-summary > .container .section-title {
-      position: absolute;
-      right: 129px; }
-      ranking-summary > .container .section-title span {
-        font-size: 40px; }
-    ranking-summary > .container .player-container {
-      width: 359.6px;
-      height: 474.3px;
-      margin: 0 0;
-      position: relative; }
-      ranking-summary > .container .player-container * {
-        color: black; }
-      ranking-summary > .container .player-container .container {
-        width: 221.3px;
-        height: 152.6px;
-        position: relative;
-        top: -179px;
-        left: 255px;
-        display: block;
-        padding-left: 1.3rem; }
-        ranking-summary > .container .player-container .container .number {
-          top: 0.5rem;
-          width: 25px;
-          margin-bottom: 27px;
-          margin-left: 0;
-          position: relative; }
-          ranking-summary > .container .player-container .container .number span {
-            font-size: 22px; }
-        ranking-summary > .container .player-container .container .name {
-          text-align: left;
-          padding-left: 0;
-          margin-left: 0;
-          letter-spacing: -0.1rem; }
-          ranking-summary > .container .player-container .container .name span {
-            display: block;
-            font-family: 'Apercu';
-            font-weight: 500;
-            font-size: 40px; }
-          ranking-summary > .container .player-container .container .name span:first-child {
-            margin-bottom: 20px; }
-    ranking-summary > .container div:nth-child(2) {
-      left: 6.4vw;
-      top: 3vw; }
-    ranking-summary > .container div:nth-child(3) {
-      left: 43.7vw;
-      top: -7.2vw; }
-    ranking-summary > .container div:nth-child(4) {
-      left: 20.8vw;
-      top: -4.4vw; }
-    ranking-summary > .container .more {
-      left: 33vw;
-      bottom: 19vw; } }
-
-@media (min-width: 1440px) {
-  ranking-summary > .container {
-    height: 115%; }
-    ranking-summary > .container .more {
-      left: 475.2px;
-      bottom: 446.4px; }
-    ranking-summary > .container div:nth-child(2) {
-      left: 120.96px; }
-    ranking-summary > .container div:nth-child(3) {
-      left: 845.28px;
-      top: -246.68px; }
-    ranking-summary > .container div:nth-child(4) {
-      left: 241.3px;
-      top: -293.76px; } }
 
 home-merchandise > .container .section-title {
   display: flex;
@@ -11229,7 +11268,7 @@ tour-carousel {
       tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(3) {
         font-size: 42px; }
       tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(4) {
-        font-size: 28px; }
+        font-size: 29px; }
       tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .logistics {
         margin-bottom: 1.3rem; } }
 
@@ -11397,9 +11436,8 @@ tour-music > .container .row:nth-child(2) {
     justify-content: flex-start;
     margin-left: 4rem; }
     tour-music > .container .floating-title .title span {
-      font-size: 4rem;
-      border-bottom: 1rem solid #f9fe17;
-      padding-bottom: 2rem; }
+      font-size: 40px;
+      border-bottom: 8px solid #f9fe17; }
   tour-music > .container .row:nth-child(2) {
     display: flex; }
     tour-music > .container .row:nth-child(2) > .col:first-child {
