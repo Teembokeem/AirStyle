@@ -13,14 +13,14 @@
     function NavCtrl($scope, $ionicScrollDelegate, $rootScope, $window, $element) {
 
         var cc = this;
-        if ($window.innerWidth <= 420) {
+        if ($window.innerWidth <= 600) {
             cc.noNav = true;
             cc.mobile = true;
             cc.darken = false;
         }
         $rootScope.$on('noNav', function (e, d) {
             // console.log(e, d);
-            if ($window.innerWidth <= 420) {
+            if ($window.innerWidth <= 600) {
                 cc.mobile = true;
 
                 cc.toggleNav()

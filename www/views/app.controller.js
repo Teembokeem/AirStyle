@@ -23,7 +23,7 @@
         var t = $ionicScrollDelegate.$getByHandle('mainScroll');
         vm.getScroll = function () {
             var fromTop = t.getScrollPosition().top;
-            if ($window.innerWidth > 420) {
+            if ($window.innerWidth > 600) {
                 if (fromTop > 50) {
                     $rootScope.$emit('noNav', true);
                 } else {
