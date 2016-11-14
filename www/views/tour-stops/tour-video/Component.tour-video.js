@@ -1,18 +1,18 @@
 (function () {
     'use strict';
     angular.module('TourStops.view.module')
-        .component('tourMusic', {
+        .component('tourVideo', {
             bindings: {
 
             },
-            templateUrl: 'views/tour-stops/tour-music/tour-music.html',
-            controller: tourMusicCtrl,
+            templateUrl: 'views/tour-stops/tour-video/tour-video.html',
+            controller: tourVideoCtrl,
             controllerAs: 'cc'
         })
 
-    tourMusicCtrl.$inject = ['$log', '$rootScope', '$window', '$scope'];
+    tourVideoCtrl.$inject = ['$log', '$rootScope', '$window', '$scope'];
 
-    function tourMusicCtrl($log, $rootScope, $window, $scope) {
+    function tourVideoCtrl($log, $rootScope, $window, $scope) {
         var cc = this;
 
         // cc.go = function (link) {
@@ -39,17 +39,6 @@
         // })
 
         cc.$onInit = function () {
-
-            cc.tourMusicContent = [
-                {
-                    name: 'BIFFY CLYRO',
-                    image: '../img/clyro.png'
-                },
-                {
-                    name: 'BEGINNER',
-                    image: '../img/beginner.png'
-                }
-            ]
         }
     }
 })();
