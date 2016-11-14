@@ -9895,7 +9895,7 @@ nav {
     padding: 0; }
     nav .as-menu mobile-menu {
       position: fixed;
-      top: 109px;
+      top: 100px;
       width: 100vw;
       left: 0;
       height: 90vh;
@@ -10222,44 +10222,67 @@ ranking-summary > .container {
       left: 241.3px;
       top: -293.76px; } }
 
-@media (min-width: 420px) {
-  faq > .container .title-row {
-    margin-bottom: 3rem; }
-    faq > .container .title-row .title {
-      display: flex;
-      justify-content: center;
-      font-size: 40px; }
-      faq > .container .title-row .title span {
-        border-bottom: 8px solid #f9fe17;
-        padding-bottom: 15px; }
-  faq > .container .content {
-    margin-bottom: 1.14em; }
-    faq > .container .content .item {
-      width: 75%;
-      height: 3rem;
+faq > .container .title-row {
+  margin-bottom: 3rem; }
+  faq > .container .title-row .title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px; }
+    faq > .container .title-row .title span {
+      border-bottom: 8px solid #f9fe17;
+      padding-bottom: 15px; }
+
+faq > .container .content {
+  margin-bottom: 1.14em; }
+  faq > .container .content .item {
+    width: 95%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    background-color: #424242;
+    border: none;
+    margin: 0 auto; }
+    faq > .container .content .item .expand {
+      max-width: 2.5rem;
+      justify-content: flex-start;
       display: flex;
       align-items: center;
-      background-color: #424242;
-      border: none;
-      margin: 0 auto; }
-      faq > .container .content .item .expand {
-        max-width: 4em;
-        justify-content: center;
+      margin-left: 1rem; }
+      faq > .container .content .item .expand .circle {
+        width: 1.6em;
+        height: 1.6em;
+        text-align: center;
+        border: 2px solid #f9fe17;
+        border-radius: 50%;
         display: flex;
-        align-items: center; }
-        faq > .container .content .item .expand .circle {
-          width: 1.6em;
-          height: 1.6em;
-          text-align: center;
-          border: 2px solid #f9fe17;
-          border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center; }
-          faq > .container .content .item .expand .circle span {
-            font-size: 22px; }
-      faq > .container .content .item .description .short-description .col span {
-        font-size: 1.14em; } }
+        align-items: center;
+        justify-content: center; }
+        faq > .container .content .item .expand .circle span {
+          font-size: 22px; }
+    faq > .container .content .item .description .short-description .col span {
+      font-size: 1rem; }
+
+faq > .container .cta .col {
+  display: flex;
+  justify-content: center; }
+  faq > .container .cta .col span {
+    font-family: 'Apercu';
+    font-size: 15px; }
+  faq > .container .cta .col span:nth-child(2) {
+    margin-left: 0.4rem;
+    color: #f9fe17; }
+
+@media (min-width: 420px) {
+  faq > .container .content .item {
+    width: 75%; }
+    faq > .container .content .item .expand {
+      max-width: 4rem;
+      justify-content: center;
+      margin-left: 0; }
+    faq > .container .content .item .description .short-description .col span {
+      font-size: 1.14em; }
+  faq > .container .cta .col span {
+    font-size: 18px; } }
 
 home-carousel {
   position: relative; }
