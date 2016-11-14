@@ -57,7 +57,7 @@
                     image: 'img/slide2.jpg'
                 },
                 {
-                    title: 'INNSBRUCK-TIROL TICKETS',
+                    title: 'INNSBRUCK -TIROL TICKETS',
                     content: 'ON SALE NOW',
                     buttons: [
                         {

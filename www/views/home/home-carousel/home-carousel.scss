@@ -68,7 +68,9 @@ home-carousel {
                             }
                         }
                         .content {
-                            line-height: 3rem;
+                            position: relative;
+                            top: 5rem;
+                            // line-height: 3rem;
                             // margin-bottom: 32px;
                             .col {
                                 text-align: center;
@@ -82,17 +84,24 @@ home-carousel {
                                 }
                                 span.sale {
                                     font-family: 'Reglo-Bold';
+                                    letter-spacing: 0;
+                                    font-size: 3.5em;
                                 }
                             }
                         }
                         .buttons {
+                            position: absolute;
+                            bottom:4rem;
+                            display: flex;
+                            justify-content: center;
+
                             .col {
                                 display: flex;
                                 flex-flow: row wrap;
                                 justify-content: center;
                                 button {
-                                    font-family: 'Reglo-Bold';
-                                    width: 222px;
+                                    font-family: 'Apercu';
+                                    width: 87%;
                                     height: 56px;
                                     font-size: 22px;
                                     letter-spacing: 1.8px;
@@ -104,7 +113,7 @@ home-carousel {
                                     // margin-right: 18px;
                                     transition: all 1s cubic-bezier(.23, 1.25, .375, 1.15);
                                     transition-delay: all 1s;
-                                    margin-bottom: 2rem;
+                                    margin-bottom: 1rem;
                                 }
                                 button:first-child:hover {
                                     border: none;
@@ -135,7 +144,15 @@ home-carousel {
                         .title {
                             .col {
                                 span {
-                                    font-size: 48px;
+                                    font-size: 62px;
+                                }
+                            }
+                        }
+
+                        .content {
+                            top: 5rem;
+                            .col {
+                                .sale {
                                 }
                             }
                         }
@@ -432,6 +449,8 @@ home-carousel {
                                     }
                                 }
                                 .content {
+                                    position: static;
+                                    top: initial !important;
                                     height: 59px;
                                     margin-bottom: 32px;
                                     .col {
@@ -450,13 +469,15 @@ home-carousel {
                                     }
                                 }
                                 .buttons {
+                                    position: relative !important;
+                                    bottom: 0 !important;
                                     .col {
                                         display: flex;
                                         flex-flow: row wrap;
                                         justify-content: center;
                                         button {
                                             font-family: 'Apercu';
-                                            width: 166px;
+                                            width: 166px !important;
                                             height: 56px;
                                             font-size: 22px;
                                             letter-spacing: 1.8px;
@@ -608,6 +629,8 @@ home-carousel {
                                     }
                                 }
                                 .content {
+                                    position: static;
+                                    top: initial;
                                     margin-bottom: 3px;
                                     .col {
                                         p {

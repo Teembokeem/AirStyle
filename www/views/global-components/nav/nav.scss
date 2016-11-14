@@ -1,7 +1,7 @@
 nav {
     position: absolute;
     width: 100vw;
-    padding: 2rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
     z-index: 2;
 
     .as-nav {
@@ -23,11 +23,11 @@ nav {
             height: 100%;
             display: flex;
             max-width:50px;
-            align-items: center;
+            align-items: flex-start;
             position: absolute;
-            right: 1rem;
-            padding-top: 0.4rem;
-
+            right: 6rem;
+            padding-top: 0;
+            top: 1rem;
             i {
                 font-size: 25px;
             }
@@ -36,16 +36,18 @@ nav {
         .hamburger {
             height: 100%;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             position: absolute;
-            right: 0rem;
+            right: 2rem;
             max-width: 40px;
             justify-content: flex-end;
+            top: 1rem;
 
             button {
                 position: relative;
                 border: none;
                 left: 1rem;
+                padding-top: 0;
                 i {
                     display: flex;
                     font-size: 1.3rem;
@@ -260,8 +262,10 @@ nav {
             .search {
                 text-align: center;
                 display: flex;
-                // justify-content: flex-end;
+                align-items: center;
+                top: 0;
                 right: 3rem;
+                padding-top: 5px;
                 i {
                     font-size: 25px;
                 }
@@ -270,8 +274,9 @@ nav {
             .hamburger {
                 position: absolute;
                 text-align: center;
+                top: 0;
                 display: flex;
-                justify-content: flex-end;
+                align-items: center;
                 right: 1rem;
                 // left: -27px;
             }

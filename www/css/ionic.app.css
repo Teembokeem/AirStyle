@@ -9850,7 +9850,7 @@ body {
 nav {
   position: absolute;
   width: 100vw;
-  padding: 2rem 1rem 0 1rem;
+  padding: 1rem 1rem 0 1rem;
   z-index: 2; }
   nav .as-nav {
     position: relative;
@@ -9866,24 +9866,27 @@ nav {
       height: 100%;
       display: flex;
       max-width: 50px;
-      align-items: center;
+      align-items: flex-start;
       position: absolute;
-      right: 1rem;
-      padding-top: 0.4rem; }
+      right: 6rem;
+      padding-top: 0;
+      top: 1rem; }
       nav .as-nav .search i {
         font-size: 25px; }
     nav .as-nav .hamburger {
       height: 100%;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       position: absolute;
-      right: 0rem;
+      right: 2rem;
       max-width: 40px;
-      justify-content: flex-end; }
+      justify-content: flex-end;
+      top: 1rem; }
       nav .as-nav .hamburger button {
         position: relative;
         border: none;
-        left: 1rem; }
+        left: 1rem;
+        padding-top: 0; }
         nav .as-nav .hamburger button i {
           display: flex;
           font-size: 1.3rem; }
@@ -9982,14 +9985,18 @@ nav {
     nav .as-nav .search {
       text-align: center;
       display: flex;
-      right: 3rem; }
+      align-items: center;
+      top: 0;
+      right: 3rem;
+      padding-top: 5px; }
       nav .as-nav .search i {
         font-size: 25px; }
     nav .as-nav .hamburger {
       position: absolute;
       text-align: center;
+      top: 0;
       display: flex;
-      justify-content: flex-end;
+      align-items: center;
       right: 1rem; }
     nav .as-nav a.disabled {
       color: grey; } }
@@ -10117,7 +10124,8 @@ home-carousel {
               min-height: 183px;
               font-size: 55px; }
           home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .content {
-            line-height: 3rem; }
+            position: relative;
+            top: 5rem; }
             home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .content .col {
               text-align: center; }
               home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .content .col span {
@@ -10128,42 +10136,51 @@ home-carousel {
                 color: white;
                 line-height: 1px; }
               home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .content .col span.sale {
-                font-family: 'Reglo-Bold'; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col {
+                font-family: 'Reglo-Bold';
+                letter-spacing: 0;
+                font-size: 3.5em; }
+          home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons {
+            position: absolute;
+            bottom: 4rem;
             display: flex;
-            flex-flow: row wrap;
             justify-content: center; }
-            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button {
-              font-family: 'Reglo-Bold';
-              width: 222px;
-              height: 56px;
-              font-size: 22px;
-              letter-spacing: 1.8px; }
-            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:first-child {
-              border: solid 2px #40caff;
-              background-color: transparent;
-              color: white;
-              transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
-              transition-delay: all 1s;
-              margin-bottom: 2rem; }
-            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:first-child:hover {
-              border: none;
-              background-color: #40caff;
-              color: black; }
-            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:last-child {
-              border: none;
-              background-color: #40caff;
-              color: black;
-              transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
-              transition-delay: all 1s; }
-            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:last-child:hover {
-              border: solid 2px #40caff;
-              background-color: transparent;
-              color: white; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col {
+              display: flex;
+              flex-flow: row wrap;
+              justify-content: center; }
+              home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button {
+                font-family: 'Apercu';
+                width: 87%;
+                height: 56px;
+                font-size: 22px;
+                letter-spacing: 1.8px; }
+              home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:first-child {
+                border: solid 2px #40caff;
+                background-color: transparent;
+                color: white;
+                transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
+                transition-delay: all 1s;
+                margin-bottom: 1rem; }
+              home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:first-child:hover {
+                border: none;
+                background-color: #40caff;
+                color: black; }
+              home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:last-child {
+                border: none;
+                background-color: #40caff;
+                color: black;
+                transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
+                transition-delay: all 1s; }
+              home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .buttons .col button:last-child:hover {
+                border: solid 2px #40caff;
+                background-color: transparent;
+                color: white; }
       home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(3) .container {
         padding-top: 31%; }
         home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(3) .container .title .col span {
-          font-size: 48px; }
+          font-size: 62px; }
+        home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(3) .container .content {
+          top: 5rem; }
       home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container {
         padding-top: 30%; }
         home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title {
@@ -10284,6 +10301,8 @@ home-carousel {
             home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .title .col span {
               font-size: 64px; }
           home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .content {
+            position: static;
+            top: initial !important;
             height: 59px;
             margin-bottom: 32px; }
             home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .content .col {
@@ -10297,37 +10316,40 @@ home-carousel {
                 line-height: 1; }
               home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .content .col span.sale {
                 font-family: 'Reglo-Bold'; }
-          home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col {
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: center; }
-            home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button {
-              font-family: 'Apercu';
-              width: 166px;
-              height: 56px;
-              font-size: 22px;
-              letter-spacing: 1.8px; }
-            home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button:first-child {
-              border: solid 2px #40caff;
-              background-color: transparent;
-              color: white;
-              margin-right: 18px;
-              transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
-              transition-delay: all 1s; }
-            home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button:first-child:hover {
-              border: none;
-              background-color: #40caff;
-              color: black; }
-            home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button:last-child {
-              border: none;
-              background-color: #40caff;
-              color: black;
-              transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
-              transition-delay: all 1s; }
-            home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button:last-child:hover {
-              border: solid 2px #40caff;
-              background-color: transparent;
-              color: white; }
+          home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons {
+            position: relative !important;
+            bottom: 0 !important; }
+            home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col {
+              display: flex;
+              flex-flow: row wrap;
+              justify-content: center; }
+              home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button {
+                font-family: 'Apercu';
+                width: 166px !important;
+                height: 56px;
+                font-size: 22px;
+                letter-spacing: 1.8px; }
+              home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button:first-child {
+                border: solid 2px #40caff;
+                background-color: transparent;
+                color: white;
+                margin-right: 18px;
+                transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
+                transition-delay: all 1s; }
+              home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button:first-child:hover {
+                border: none;
+                background-color: #40caff;
+                color: black; }
+              home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button:last-child {
+                border: none;
+                background-color: #40caff;
+                color: black;
+                transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
+                transition-delay: all 1s; }
+              home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .buttons .col button:last-child:hover {
+                border: solid 2px #40caff;
+                background-color: transparent;
+                color: white; }
       home-carousel > .container .row .col .slider .slider-slides ion-slide .hero-image {
         filter: grayscale(100%); }
       home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container {
@@ -10392,6 +10414,8 @@ home-carousel {
               home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .right a {
                 text-decoration: none; }
         home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content {
+          position: static;
+          top: initial;
           margin-bottom: 3px; }
           home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content .col p {
             font-size: 20px;
