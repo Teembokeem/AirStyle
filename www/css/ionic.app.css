@@ -10323,6 +10323,33 @@ faq > .container .cta .col {
   faq > .container .cta .col span {
     font-size: 18px; } }
 
+download-app {
+  position: relative; }
+  download-app .container {
+    margin-top: 5rem;
+    padding: 3rem 1rem 1rem 1rem;
+    background-color: #161616; }
+    download-app .container > .row:first-child .col {
+      display: flex;
+      justify-content: center; }
+      download-app .container > .row:first-child .col span {
+        font-family: 'Apercu';
+        font-size: 15px; }
+    download-app .container > .row:nth-child(2) {
+      min-height: 5rem; }
+      download-app .container > .row:nth-child(2) .col {
+        display: block;
+        text-align: center; }
+        download-app .container > .row:nth-child(2) .col img {
+          max-height: 9rem;
+          margin: 0 auto; }
+        download-app .container > .row:nth-child(2) .col img:first-child {
+          margin-right: 5vw; }
+
+@media (min-width: 420px) {
+  download-app .container > .row:first-child .col span {
+    font-size: 18px; } }
+
 home-carousel {
   position: relative; }
   home-carousel > .container {
