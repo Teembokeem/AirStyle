@@ -58,6 +58,13 @@ faq {
                     }
                 }
             }
+
+            .item-info {
+                width:95%;
+                display: block;
+                margin: 0 auto;
+                background-color: #424242;
+            }
         }
 
         .cta {
@@ -101,6 +108,10 @@ faq {
                             }
                         }
                     }
+                }
+
+                .item-info {
+                    width:75%;
                 }
             }
 
