@@ -9937,11 +9937,37 @@ nav {
         border-bottom: 7px solid #40caff; }
     nav .as-menu desktop-menu {
       display: flex; }
-      nav .as-menu desktop-menu > .row .tour-stop-menu {
-        position: relative;
-        top: 2.86rem;
+      nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu {
+        position: absolute;
+        top: 0;
         box-shadow: 0 0 38px 4px black;
-        background-color: rgba(0, 0, 0, 0.9); }
+        background-color: rgba(0, 0, 0, 0.9);
+        /*background-color: blue;*/ }
+        nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu > .container {
+          width: 9rem; }
+          nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu > .container .title .col span {
+            font-size: 14px !important; }
+          nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu > .container > .row .col {
+            margin-bottom: 1rem; }
+            nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu > .container > .row .col span {
+              font-size: 21px;
+              padding-bottom: 0.2rem; }
+          nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu > .container .bj .col span {
+            border-bottom: 3px solid #62ff00; }
+          nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu > .container .ib .col span {
+            border-bottom: 3px solid #f9fe17; }
+          nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu > .container .la .col span {
+            border-bottom: 3px solid #40caff; }
+      nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu.ng-enter, nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu.ng-leave {
+        transition: all 450ms cubic-bezier(0.32, 1, 0.375, 1); }
+      nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu.ng-enter,
+      nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu.ng-leave.ng-leave-active {
+        opacity: 0;
+        /*top: initial;*/ }
+      nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu.ng-leave,
+      nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu.ng-enter.ng-enter-active {
+        opacity: 1;
+        /*top: 0;*/ }
   nav .as-menu.ng-enter, nav .as-menu.ng-leave {
     transition: all 450ms cubic-bezier(0.32, 1, 0.375, 1); }
   nav .as-menu.ng-enter,
@@ -9963,10 +9989,10 @@ nav {
       font-size: 1.904em;
       margin-right: 0; }
     nav .as-nav .logo {
-      margin-left: 4.18%;
+      margin-left: 1rem;
       max-width: 4.13%;
       min-width: 58.6px;
-      margin-right: -0.5%; }
+      margin-top: 1rem; }
       nav .as-nav .logo a img {
         width: 100%; }
     nav .as-nav .as-menu {
@@ -9976,10 +10002,11 @@ nav {
       justify-content: flex-end;
       margin-right: 7vw; }
     nav .as-nav .anchor-pad {
-      min-width: 146px;
+      min-width: 127px;
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      margin-right: 2rem; }
       nav .as-nav .anchor-pad a {
         text-decoration: none; }
     nav .as-nav .search {
@@ -10000,6 +10027,11 @@ nav {
       right: 1rem; }
     nav .as-nav a.disabled {
       color: grey; } }
+
+@media (min-width: 1440px) {
+  nav .as-nav .logo {
+    margin-left: 2rem;
+    margin-top: 2rem; } }
 
 footer > .container {
   height: 213px;
@@ -10261,6 +10293,11 @@ faq > .container .content {
           font-size: 22px; }
     faq > .container .content .item .description .short-description .col span {
       font-size: 1rem; }
+  faq > .container .content .item-info {
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    background-color: #424242; }
 
 faq > .container .cta .col {
   display: flex;
@@ -10281,6 +10318,8 @@ faq > .container .cta .col {
       margin-left: 0; }
     faq > .container .content .item .description .short-description .col span {
       font-size: 1.14em; }
+  faq > .container .content .item-info {
+    width: 75%; }
   faq > .container .cta .col span {
     font-size: 18px; } }
 
@@ -10586,12 +10625,12 @@ home-carousel {
           home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:nth-child(2) .col {
             word-spacing: 5px; }
             home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:nth-child(2) .col span {
-              font-size: 46px; }
+              font-size: 47px; }
           home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:nth-child(3) .col {
             letter-spacing: 2px;
             word-spacing: -0.5px; }
             home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:nth-child(3) .col span {
-              font-size: 36px; }
+              font-size: 36.5px; }
           home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:nth-child(4) .col {
             letter-spacing: 2px;
             word-spacing: 0px; }
@@ -10600,7 +10639,7 @@ home-carousel {
           home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:nth-child(5) .col {
             letter-spacing: -1px; }
             home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .title-container .title:nth-child(5) .col span {
-              font-size: 36px; }
+              font-size: 36.8px; }
         home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus {
           margin-top: -25px;
           margin-bottom: 25px; }
@@ -11226,6 +11265,8 @@ tour-carousel {
               letter-spacing: 0.05rem; }
           tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .logistics > .row {
             font-size: 1.4rem; }
+            tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .logistics > .row .col span {
+              color: #40caff; }
           tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .buttons .row .col {
             display: flex;
             flex-flow: row wrap;
@@ -11299,7 +11340,21 @@ tour-carousel {
   tour-carousel > .container {
     height: 53em; }
     tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup {
-      margin-bottom: 62px !important; }
+      margin-bottom: 45px !important; }
+    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:first-child {
+      font-size: 69px;
+      letter-spacing: 6px;
+      word-spacing: -1px; }
+    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(2) {
+      font-size: 47px;
+      letter-spacing: 1.8px; }
+    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(3) {
+      font-size: 45px;
+      letter-spacing: 3.8px;
+      margin-bottom: 2.5rem !important; }
+    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(4) {
+      font-size: 30px;
+      letter-spacing: 2.9px; }
     tour-carousel > .container > .row > .col .slider .slider-slides ion-slide img {
       position: absolute; }
     tour-carousel > .container > .row > .col .slider .slider-slides ion-slide .shape:nth-child(2) {
