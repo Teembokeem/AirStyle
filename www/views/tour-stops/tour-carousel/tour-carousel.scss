@@ -60,6 +60,12 @@ tour-carousel {
                                 .logistics {
                                     > .row {
                                         font-size: 1.4rem;
+
+                                        .col {
+                                            span {
+                                                color: $as-blue;
+                                            }
+                                        }
                                     }
                                 }
 
@@ -201,8 +207,31 @@ tour-carousel {
 
         > .row > .col .slider {
             .slider-slides ion-slide {
-                > .container .lineups .lineup {
-                    margin-bottom: 62px !important; 
+                > .container .lineups {
+                    .lineup {
+                        margin-bottom: 45px !important; 
+                    }
+                    .lineup:first-child {
+                        font-size: 69px;
+                        letter-spacing: 6px;
+                        word-spacing: -1px;
+                    }
+                    .lineup:nth-child(2) {
+                        font-size: 47px;
+                        letter-spacing: 1.8px;
+                    }
+
+                    .lineup:nth-child(3) {
+                        font-size: 45px;
+                        letter-spacing: 3.8px;
+                        margin-bottom: 2.5rem !important;
+                    }
+
+                    .lineup:nth-child(4) {
+                        font-size: 30px;
+                        letter-spacing: 2.9px;
+                    }
+
                 }
 
                 img {
