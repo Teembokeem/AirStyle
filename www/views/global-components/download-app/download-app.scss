@@ -1,0 +1,53 @@
+download-app {
+    position: relative;
+    .container { 
+        margin-top: 5rem;
+        padding: 3rem 1rem 1rem 1rem;
+        background-color: rgb(22, 22, 22);
+
+        > .row:first-child {
+            .col {
+                display: flex;
+                justify-content: center;
+                
+                span {
+                    font-family: 'Apercu';
+                    font-size: 15px;
+                }
+            }
+        }
+
+        > .row:nth-child(2) {
+            min-height: 5rem;
+
+            .col {
+                display: block;
+                text-align: center;
+
+                img {
+                    max-height: 9rem;
+                    margin: 0 auto;
+                } 
+
+                img:first-child {
+                    margin-right: 5vw;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 420px) {
+    download-app {
+        .container {
+            > .row:first-child {
+                .col {
+
+                    span {
+                        font-size: 18px;
+                    }
+                }
+                }
+        }
+    }
+}
