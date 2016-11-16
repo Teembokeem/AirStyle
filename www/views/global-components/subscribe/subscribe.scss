@@ -1,0 +1,61 @@
+subscribe {
+    .subscribe-container {
+        .subscribe-1 {
+            .subscribe-1-1 {
+                display: flex;
+                justify-content: center;
+                .email-container {
+                    width: 90vw;
+                    .email-1 {
+                        .email-1-1 {
+                            display: flex;
+                            flex-flow: row wrap;
+                            justify-content: center;
+                            .input {
+                                min-width: 280px;
+                                font-family: 'Apercu';
+                                border: 2px solid white;
+                                padding: 1.5rem;
+                                min-height: 4rem;
+                                width: 30rem;
+                                margin-bottom: 1rem;
+                            }
+
+                            .submit {
+                                border: none;
+                                background-color: $as-blue;
+                                color: black;
+                                font-family: 'Apercu';
+                                max-width: 150px;
+                                min-width: 140px;
+                                font-size: 20px;
+                                min-height: 3rem;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:420px) {
+    subscribe {
+        .subscribe-container {
+            .subscribe-1 {
+                .subscribe-1-1 {
+                    .email-container {
+                        .email-1 {
+                            .email-1-1 {
+                                .submit {
+                                    height: 4rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
