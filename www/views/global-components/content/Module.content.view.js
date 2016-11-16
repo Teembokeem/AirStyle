@@ -7,7 +7,8 @@
             'Services',
             'Home.view.module',
             'TourStops.view.module',
-            'Lineup.view.module'
+            'Lineup.view.module',
+            'Artist.view.module'
         ])
 
         .config(function ($stateProvider, $urlRouterProvider) {
