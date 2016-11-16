@@ -9,12 +9,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <span>{{tweet.message}}</span>
+                        <span>{{tweet.message | uppercase}}</span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <span>{{tweet.date | date:'longDate'}}</span>
+                        <span>{{tweet.date | date:'longDate' | uppercase}}</span>
                     </div>
                 </div>
             </div>
