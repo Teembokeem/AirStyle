@@ -1,18 +1,18 @@
 (function () {
     'use strict';
-    angular.module('Home.view.module')
-        .component('homePartner', {
+    angular.module('Template')
+        .component('partners', {
             bindings: {
 
             },
-            templateUrl: 'views/home/home-partner/home-partner.html',
-            controller: HomePartnerCtrl,
+            templateUrl: 'views/global-components/partners/partners.html',
+            controller: partnersCtrl,
             controllerAs: 'cc'
         })
 
-    HomePartnerCtrl.$inject = ['$log'];
+    partnersCtrl.$inject = ['$log'];
 
-    function HomePartnerCtrl($log) {
+    function partnersCtrl($log) {
         var cc = this;
 
         cc.$onInit = function () {
