@@ -1,12 +1,18 @@
-home-branding {
-    .container {
-        margin-top: 80px;
+branding {
+    > .container {
+        margin: 5rem 0;
         * {
             justify-content: center;
         }
         .shapes-container {
             width: 100%;
-            height: 245px;
+            /*height: 245px;*/
+
+            > .col {
+                max-width: 7rem;
+                display: flex;
+                justify-content: center;
+            }
             * {
                 .triangle {
                     left:10px;
@@ -89,6 +95,7 @@ home-branding {
         }
 
         .logo-container {
+            margin-top: 3rem;
             .logo {
                 span {
                     font-family: 'Apercu';
