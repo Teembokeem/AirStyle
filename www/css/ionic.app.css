@@ -10184,8 +10184,8 @@ ranking-summary > .container {
 
 @media (min-width: 1024px) {
   ranking-summary > .container {
-    height: 132%;
-    margin-top: 216px; }
+    /*height: 132%;*/
+    margin-top: 5rem; }
     ranking-summary > .container .section-title {
       position: absolute;
       right: 129px; }
@@ -10501,6 +10501,67 @@ subscribe .subscribe-container .subscribe-1 .subscribe-1-1 {
 @media (min-width: 420px) {
   subscribe .subscribe-container .subscribe-1 .subscribe-1-1 .email-container .email-1 .email-1-1 .submit {
     height: 4rem; } }
+
+branding > .container {
+  margin: 5rem 0; }
+  branding > .container * {
+    justify-content: center; }
+  branding > .container .shapes-container {
+    width: 100%;
+    /*height: 245px;*/ }
+    branding > .container .shapes-container > .col {
+      max-width: 7rem;
+      display: flex;
+      justify-content: center; }
+    branding > .container .shapes-container * .triangle {
+      left: 10px;
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid #f9fe17; }
+      branding > .container .shapes-container * .triangle .empty {
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        border-top: 13px solid black;
+        position: relative;
+        right: 0.895em;
+        bottom: 1.2em; }
+    branding > .container .shapes-container * .rectangle-1 {
+      width: 15.6px;
+      height: 37.8px;
+      border: solid 4px #f9fe17; }
+    branding > .container .shapes-container * .rectangle-2 {
+      width: 24.4px;
+      height: 59.1px;
+      border: solid 4px #62ff00; }
+    branding > .container .shapes-container * .rectangle-fill {
+      width: 10.4px;
+      height: 49.4px;
+      background-color: #40caff !important; }
+    branding > .container .shapes-container * .a-1 span {
+      font-size: 4em;
+      color: #62ff00 !important; }
+    branding > .container .shapes-container * .a-2 span {
+      font-size: 2em;
+      color: #40caff !important; }
+    branding > .container .shapes-container * .t-1 span {
+      font-size: 2em;
+      letter-spacing: -0.2em;
+      color: #62ff00; }
+    branding > .container .shapes-container * .plus span {
+      font-size: 4em;
+      text-shadow: #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px,    #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px;
+      color: black !important; }
+  branding > .container .logo-container {
+    margin-top: 3rem; }
+    branding > .container .logo-container .logo span {
+      font-family: 'Apercu';
+      font-size: 100px;
+      color: black !important;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      text-shadow: #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px,    #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px; }
 
 home-carousel {
   position: relative; }
@@ -11105,61 +11166,6 @@ home-merchandise > .container .more {
   home-merchandise > .container .merchandise .merchandise-container .image {
     margin-top: 4px;
     min-height: 344px; } }
-
-home-branding .container {
-  margin-top: 80px; }
-  home-branding .container * {
-    justify-content: center; }
-  home-branding .container .shapes-container {
-    width: 100%;
-    height: 245px; }
-    home-branding .container .shapes-container * .triangle {
-      left: 10px;
-      width: 0;
-      height: 0;
-      border-left: 20px solid transparent;
-      border-right: 20px solid transparent;
-      border-top: 20px solid #f9fe17; }
-      home-branding .container .shapes-container * .triangle .empty {
-        border-left: 13px solid transparent;
-        border-right: 13px solid transparent;
-        border-top: 13px solid black;
-        position: relative;
-        right: 0.895em;
-        bottom: 1.2em; }
-    home-branding .container .shapes-container * .rectangle-1 {
-      width: 15.6px;
-      height: 37.8px;
-      border: solid 4px #f9fe17; }
-    home-branding .container .shapes-container * .rectangle-2 {
-      width: 24.4px;
-      height: 59.1px;
-      border: solid 4px #62ff00; }
-    home-branding .container .shapes-container * .rectangle-fill {
-      width: 10.4px;
-      height: 49.4px;
-      background-color: #40caff !important; }
-    home-branding .container .shapes-container * .a-1 span {
-      font-size: 4em;
-      color: #62ff00 !important; }
-    home-branding .container .shapes-container * .a-2 span {
-      font-size: 2em;
-      color: #40caff !important; }
-    home-branding .container .shapes-container * .t-1 span {
-      font-size: 2em;
-      letter-spacing: -0.2em;
-      color: #62ff00; }
-    home-branding .container .shapes-container * .plus span {
-      font-size: 4em;
-      text-shadow: #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px,    #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px;
-      color: black !important; }
-  home-branding .container .logo-container .logo span {
-    font-family: 'Apercu';
-    font-size: 100px;
-    color: black !important;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    text-shadow: #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px,    #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px; }
 
 ticket-title {
   color: red !important; }
