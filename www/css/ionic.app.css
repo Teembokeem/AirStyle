@@ -10471,6 +10471,37 @@ partners > .container {
       partners > .container .partner-container .container .row .partner:nth-child(-n + 5) {
         margin-right: 30px; } }
 
+subscribe .subscribe-container .subscribe-1 .subscribe-1-1 {
+  display: flex;
+  justify-content: center; }
+  subscribe .subscribe-container .subscribe-1 .subscribe-1-1 .email-container {
+    width: 90vw; }
+    subscribe .subscribe-container .subscribe-1 .subscribe-1-1 .email-container .email-1 .email-1-1 {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center; }
+      subscribe .subscribe-container .subscribe-1 .subscribe-1-1 .email-container .email-1 .email-1-1 .input {
+        min-width: 280px;
+        font-family: 'Apercu';
+        border: 2px solid white;
+        padding: 1.5rem;
+        min-height: 4rem;
+        width: 30rem;
+        margin-bottom: 1rem; }
+      subscribe .subscribe-container .subscribe-1 .subscribe-1-1 .email-container .email-1 .email-1-1 .submit {
+        border: none;
+        background-color: #40caff;
+        color: black;
+        font-family: 'Apercu';
+        max-width: 150px;
+        min-width: 140px;
+        font-size: 20px;
+        min-height: 3rem; }
+
+@media (min-width: 420px) {
+  subscribe .subscribe-container .subscribe-1 .subscribe-1-1 .email-container .email-1 .email-1-1 .submit {
+    height: 4rem; } }
+
 home-carousel {
   position: relative; }
   home-carousel > .container {
