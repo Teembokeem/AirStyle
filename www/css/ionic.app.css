@@ -10350,52 +10350,52 @@ download-app {
   download-app .container > .row:first-child .col span {
     font-size: 18px; } }
 
-twitter-feed > .container * {
-  font-family: 'Reglo-Bold'; }
-
-twitter-feed > .container .title-row {
-  margin-bottom: 3rem; }
-  twitter-feed > .container .title-row .col {
+twitter-feed > .container {
+  margin: 5rem 0; }
+  twitter-feed > .container * {
+    font-family: 'Reglo-Bold'; }
+  twitter-feed > .container .title-row {
+    margin-bottom: 3rem; }
+    twitter-feed > .container .title-row .col {
+      display: flex;
+      justify-content: center; }
+      twitter-feed > .container .title-row .col span {
+        font-size: 22px;
+        border-bottom: 8px solid #f9fe17;
+        padding-bottom: 1rem; }
+  twitter-feed > .container > .row:nth-child(2) {
     display: flex;
-    justify-content: center; }
-    twitter-feed > .container .title-row .col span {
-      font-size: 22px;
-      border-bottom: 8px solid #f9fe17;
-      padding-bottom: 1rem; }
-
-twitter-feed > .container > .row:nth-child(2) {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap; }
-  twitter-feed > .container > .row:nth-child(2) > .col {
-    background-color: #f9fe17;
-    position: relative;
-    max-width: 225px;
-    min-width: 225px;
-    min-height: 235px;
-    padding: 1rem 0.5rem 0.5rem 0.5rem;
-    margin: 0 auto; }
-    twitter-feed > .container > .row:nth-child(2) > .col .container .row:first-child {
-      padding-left: 1rem;
-      padding-top: 1rem; }
-      twitter-feed > .container > .row:nth-child(2) > .col .container .row:first-child .col {
-        text-align: left; }
-        twitter-feed > .container > .row:nth-child(2) > .col .container .row:first-child .col span {
-          font-size: 18px;
+    justify-content: center;
+    flex-flow: row wrap; }
+    twitter-feed > .container > .row:nth-child(2) > .col {
+      background-color: #f9fe17;
+      position: relative;
+      max-width: 225px;
+      min-width: 225px;
+      min-height: 235px;
+      padding: 1rem 0.5rem 0.5rem 0.5rem;
+      margin: 0 auto; }
+      twitter-feed > .container > .row:nth-child(2) > .col .container .row:first-child {
+        padding-left: 1rem;
+        padding-top: 1rem; }
+        twitter-feed > .container > .row:nth-child(2) > .col .container .row:first-child .col {
+          text-align: left; }
+          twitter-feed > .container > .row:nth-child(2) > .col .container .row:first-child .col span {
+            font-size: 18px;
+            color: black; }
+      twitter-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) {
+        position: absolute;
+        left: 1rem;
+        bottom: 1.5rem; }
+        twitter-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) .col span {
+          letter-spacing: 2.1px;
+          padding-bottom: 6px;
+          border-bottom: 5px solid #40caff;
+          font-family: 'Apercu';
+          font-weight: bold;
           color: black; }
-    twitter-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) {
-      position: absolute;
-      left: 1rem;
-      bottom: 1.5rem; }
-      twitter-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) .col span {
-        letter-spacing: 2.1px;
-        padding-bottom: 6px;
-        border-bottom: 5px solid #40caff;
-        font-family: 'Apercu';
-        font-weight: bold;
-        color: black; }
-  twitter-feed > .container > .row:nth-child(2) > .col:nth-child(n + 1) {
-    margin-bottom: 1.5rem; }
+    twitter-feed > .container > .row:nth-child(2) > .col:nth-child(n + 1) {
+      margin-bottom: 1.5rem; }
 
 @media (min-width: 420px) {
   twitter-feed > .container {
@@ -10410,6 +10410,66 @@ twitter-feed > .container > .row:nth-child(2) {
           font-size: 21px; }
     twitter-feed > .container > .row:nth-child(2) > .col:nth-child(n + 1) {
       margin: 1rem; } }
+
+partners > .container {
+  margin-bottom: 94px; }
+  partners > .container .section-title {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px; }
+    partners > .container .section-title .title {
+      width: 172px;
+      height: 48px;
+      border-bottom: 8px solid #62ff00;
+      padding-bottom: 10px; }
+      partners > .container .section-title .title span {
+        font-size: 40px;
+        position: relative; }
+  partners > .container .partner-container {
+    width: 100%; }
+    partners > .container .partner-container .container {
+      width: 100%; }
+      partners > .container .partner-container .container .row {
+        width: 100%;
+        display: block; }
+        partners > .container .partner-container .container .row .partner {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto; }
+          partners > .container .partner-container .container .row .partner a img {
+            max-height: 120px !important;
+            max-width: 150px; }
+          partners > .container .partner-container .container .row .partner a img:nth-child(-n + 5) {
+            margin-bottom: 2rem; }
+
+@media (min-width: 1024px) {
+  partners > .container .section-title {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px; }
+    partners > .container .section-title .title {
+      width: 172px;
+      height: 48px;
+      border-bottom: 8px solid #62ff00;
+      padding-bottom: 10px; }
+      partners > .container .section-title .title span {
+        font-size: 40px;
+        position: relative; }
+  partners > .container .partner-container {
+    justify-content: center; }
+    partners > .container .partner-container .container .row {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      margin: 0 auto;
+      width: 86%; }
+      partners > .container .partner-container .container .row .partner:nth-child(-n + 5) {
+        margin-right: 30px; } }
 
 home-carousel {
   position: relative; }
@@ -11014,66 +11074,6 @@ home-merchandise > .container .more {
   home-merchandise > .container .merchandise .merchandise-container .image {
     margin-top: 4px;
     min-height: 344px; } }
-
-home-partner > .container {
-  margin-bottom: 94px; }
-  home-partner > .container .section-title {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 60px; }
-    home-partner > .container .section-title .title {
-      width: 172px;
-      height: 48px;
-      border-bottom: 8px solid #62ff00;
-      padding-bottom: 10px; }
-      home-partner > .container .section-title .title span {
-        font-size: 40px;
-        position: relative; }
-  home-partner > .container .partner-container {
-    width: 100%; }
-    home-partner > .container .partner-container .container {
-      width: 100%; }
-      home-partner > .container .partner-container .container .row {
-        width: 100%;
-        display: block; }
-        home-partner > .container .partner-container .container .row .partner {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin: 0 auto; }
-          home-partner > .container .partner-container .container .row .partner a img {
-            max-height: 120px !important;
-            max-width: 150px; }
-          home-partner > .container .partner-container .container .row .partner a img:nth-child(-n + 5) {
-            margin-bottom: 2rem; }
-
-@media (min-width: 1024px) {
-  home-partner > .container .section-title {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 60px; }
-    home-partner > .container .section-title .title {
-      width: 172px;
-      height: 48px;
-      border-bottom: 8px solid #62ff00;
-      padding-bottom: 10px; }
-      home-partner > .container .section-title .title span {
-        font-size: 40px;
-        position: relative; }
-  home-partner > .container .partner-container {
-    justify-content: center; }
-    home-partner > .container .partner-container .container .row {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-      margin: 0 auto;
-      width: 86%; }
-      home-partner > .container .partner-container .container .row .partner:nth-child(-n + 5) {
-        margin-right: 30px; } }
 
 home-branding .container {
   margin-top: 80px; }
