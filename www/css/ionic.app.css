@@ -10326,7 +10326,7 @@ faq > .container .cta .col {
 download-app {
   position: relative; }
   download-app .container {
-    margin-top: 5rem;
+    margin: 5rem 0;
     padding: 3rem 1rem 1rem 1rem;
     background-color: #161616; }
     download-app .container > .row:first-child .col {
@@ -10349,6 +10349,63 @@ download-app {
 @media (min-width: 420px) {
   download-app .container > .row:first-child .col span {
     font-size: 18px; } }
+
+twitter-feed > .container * {
+  font-family: 'Reglo-Bold'; }
+
+twitter-feed > .container .title-row {
+  margin-bottom: 3rem; }
+  twitter-feed > .container .title-row .col {
+    display: flex;
+    justify-content: center; }
+    twitter-feed > .container .title-row .col span {
+      font-size: 22px;
+      border-bottom: 8px solid #f9fe17;
+      padding-bottom: 1rem; }
+
+twitter-feed > .container > .row:nth-child(2) {
+  display: flex;
+  justify-content: center; }
+  twitter-feed > .container > .row:nth-child(2) > .col {
+    background-color: #f9fe17;
+    position: relative;
+    width: 95%;
+    max-width: 225px;
+    min-height: 235px;
+    padding: 1rem 0.5rem 0.5rem 0.5rem; }
+    twitter-feed > .container > .row:nth-child(2) > .col .container .row:first-child {
+      padding-left: 1rem;
+      padding-top: 1rem; }
+      twitter-feed > .container > .row:nth-child(2) > .col .container .row:first-child .col {
+        text-align: left; }
+        twitter-feed > .container > .row:nth-child(2) > .col .container .row:first-child .col span {
+          font-size: 18px;
+          color: black; }
+    twitter-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) {
+      position: absolute;
+      left: 1rem;
+      bottom: 1.5rem; }
+      twitter-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) .col span {
+        letter-spacing: 2.1px;
+        padding-bottom: 6px;
+        border-bottom: 5px solid #40caff;
+        font-family: 'Apercu';
+        font-weight: bold;
+        color: black; }
+  twitter-feed > .container > .row:nth-child(2) > .col:nth-child(n + 1) {
+    margin-right: 1rem; }
+
+@media (min-width: 420px) {
+  twitter-feed > .container {
+    padding: 2rem; }
+    twitter-feed > .container .title-row .col span {
+      font-size: 40px; }
+    twitter-feed > .container > .row:nth-child(2) .col .container .row:first-child {
+      /*margin-bottom: 2rem;*/ }
+      twitter-feed > .container > .row:nth-child(2) .col .container .row:first-child .col {
+        text-align: left; }
+        twitter-feed > .container > .row:nth-child(2) .col .container .row:first-child .col span {
+          font-size: 21px; } }
 
 home-carousel {
   position: relative; }
