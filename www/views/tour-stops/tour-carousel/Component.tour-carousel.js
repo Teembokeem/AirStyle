@@ -51,12 +51,12 @@
                     logistics: 'FRI 3 + SAT 4 FEBRUARY 2017 - OLYMPIAWORLD INNSBRUCK',
                     buttons: [
                         {
-                            label: 'LEARN MORE',
-                            dest: 'http://www.air-style.at'
-                        },
-                        {
                             label: 'BUY NOW',
                             dest: 'http://air-style.at/innsbruck2017/ticket-info-2017/innsbruck2017/ticket-info-2017/'
+                        },
+                        {
+                            label: 'SCHEDULE',
+                            dest: ''
                         }
                     ]
                 }
