@@ -10365,14 +10365,16 @@ twitter-feed > .container .title-row {
 
 twitter-feed > .container > .row:nth-child(2) {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  flex-flow: row wrap; }
   twitter-feed > .container > .row:nth-child(2) > .col {
     background-color: #f9fe17;
     position: relative;
-    width: 95%;
     max-width: 225px;
+    min-width: 225px;
     min-height: 235px;
-    padding: 1rem 0.5rem 0.5rem 0.5rem; }
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    margin: 0 auto; }
     twitter-feed > .container > .row:nth-child(2) > .col .container .row:first-child {
       padding-left: 1rem;
       padding-top: 1rem; }
@@ -10393,7 +10395,7 @@ twitter-feed > .container > .row:nth-child(2) {
         font-weight: bold;
         color: black; }
   twitter-feed > .container > .row:nth-child(2) > .col:nth-child(n + 1) {
-    margin-right: 1rem; }
+    margin-bottom: 1.5rem; }
 
 @media (min-width: 420px) {
   twitter-feed > .container {
@@ -10405,7 +10407,9 @@ twitter-feed > .container > .row:nth-child(2) {
       twitter-feed > .container > .row:nth-child(2) .col .container .row:first-child .col {
         text-align: left; }
         twitter-feed > .container > .row:nth-child(2) .col .container .row:first-child .col span {
-          font-size: 21px; } }
+          font-size: 21px; }
+    twitter-feed > .container > .row:nth-child(2) > .col:nth-child(n + 1) {
+      margin: 1rem; } }
 
 home-carousel {
   position: relative; }
