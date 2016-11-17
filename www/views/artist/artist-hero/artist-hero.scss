@@ -65,7 +65,10 @@ artist-hero {
                 }
             }
         }
+    }
 
+    > .container {
+        transition: all 450ms cubic-bezier(.32,1,.375,1);
     }
 }
 
