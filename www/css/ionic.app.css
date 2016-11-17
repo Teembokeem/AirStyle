@@ -11903,3 +11903,70 @@ lineup-carousel {
 @media (min-width: 768px) {
   .line-up-view * tour-carousel > .container > .row > .col .slider {
     /*padding-top: 144px;*/ } }
+
+artist-hero {
+  position: relative; }
+  artist-hero > .container {
+    height: 125vw; }
+    artist-hero > .container .hero {
+      background-size: 223% !important;
+      filter: grayscale(100%);
+      width: 100vw;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      max-height: 740px;
+      background-position-x: -20rem !important; }
+    artist-hero > .container > .row {
+      padding-top: 45vw; }
+      artist-hero > .container > .row * {
+        filter: grayscale(0) !important; }
+      artist-hero > .container > .row > .col {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 8vw; }
+        artist-hero > .container > .row > .col > .container {
+          min-width: 300px;
+          text-align: left; }
+          artist-hero > .container > .row > .col > .container .artist-name {
+            margin-bottom: 3rem; }
+            artist-hero > .container > .row > .col > .container .artist-name .col {
+              font-size: 64px; }
+              artist-hero > .container > .row > .col > .container .artist-name .col span {
+                border-bottom: 8px solid #f9fe17; }
+          artist-hero > .container > .row > .col > .container .artist-time {
+            display: block;
+            margin-bottom: 1rem; }
+            artist-hero > .container > .row > .col > .container .artist-time .col {
+              font-size: 30px;
+              color: #424242; }
+          artist-hero > .container > .row > .col > .container .cta .col button {
+            border: none;
+            width: 80%;
+            height: 3rem;
+            background-color: #40caff;
+            font-size: 1.3rem;
+            font-family: 'Apercu';
+            color: black; }
+
+@media (min-width: 420px) {
+  artist-hero > .container {
+    height: 80vw; }
+    artist-hero > .container .hero {
+      background-position-x: -82vw !important;
+      background-size: 185% !important;
+      background-position-y: -27vw !important; } }
+
+@media (min-width: 1024px) {
+  artist-hero > .container {
+    height: 56vw; }
+    artist-hero > .container > .row {
+      padding-top: 320px; } }
+
+@media (min-width: 1440px) {
+  artist-hero > .container .hero {
+    background-position-x: -75rem !important;
+    background-position-y: 65rem !important;
+    background-size: 185% !important; }
+  artist-hero > .container > .row {
+    padding-top: 351px; } }
