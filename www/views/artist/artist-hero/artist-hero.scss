@@ -1,0 +1,115 @@
+artist-hero {
+    position: relative;
+
+    > .container {
+        height: 125vw;
+        .hero {
+            background-size: 223% !important;;
+            filter: grayscale(100%);
+            width: 100vw;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            max-height: 740px;
+            background-position-x: -20rem !important;
+
+        }
+        > .row {
+            * {
+                filter: grayscale(0) !important;
+            }
+            padding-top: 45vw;
+            > .col {
+                display: flex;
+                justify-content: flex-end;
+                padding-right: 8vw;
+                > .container {
+                    min-width: 300px;
+                    text-align: left;
+
+                    .artist-name {
+                        margin-bottom: 3rem;
+
+                        .col {
+                            font-size: 64px;
+
+                            span {
+                                border-bottom: 8px solid $as-yellow
+                            }
+                        }
+                    }
+
+                    .artist-time {
+                        display: block;
+                        margin-bottom: 1rem;
+
+                        .col {
+                            font-size: 30px;
+                            color:#424242
+                        }
+                    }
+
+                    .cta {
+                        .col {
+                            button {
+                                border: none;
+                                width: 80%;
+                                height: 3rem;
+                                background-color: $as-blue;
+                                font-size: 1.3rem;
+                                font-family: 'Apercu';
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media(min-width:420px) {
+    artist-hero {
+        > .container {
+            height: 80vw;
+            .hero {
+                background-position-x: -82vw !important;
+                background-size: 185% !important;
+                background-position-y: -27vw !important;
+            }
+        }
+    }
+}
+
+@media(min-width:1024px) {
+    artist-hero {
+        > .container {
+            height: 56vw;
+            .hero {
+
+            }
+
+            > .row {
+                padding-top: 320px;
+            }
+        }
+    }
+}
+
+@media(min-width:1440px) {
+    artist-hero {
+        > .container {
+            .hero {
+                background-position-x: -75rem !important;
+                background-position-y: 65rem !important;
+                background-size: 185% !important;
+            }
+
+            > .row {
+                padding-top: 351px;
+            }
+        }
+    }
+}
+
