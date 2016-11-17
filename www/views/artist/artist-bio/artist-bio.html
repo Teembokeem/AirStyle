@@ -1,7 +1,29 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1>artist bio</h1>
+            <div class="row info-container">
+                <div class="col">
+                    <div class="container info-box">
+                        <div ng-repeat="paragraph in cc.artistBioContent.info" class="row paragraph">
+                            <div class="col">
+                                <span>{{paragraph}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row button-container">
+                <div class="col">
+                    <button ng-click="cc.go(cc.artistBioContent.website)">Website</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row spotify-container">
+                <div class="col">
+                    <div>SPOTIFY PLAYLIST</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

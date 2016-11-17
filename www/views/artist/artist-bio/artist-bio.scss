@@ -1,0 +1,116 @@
+artist-bio {
+    > .container {
+        > .row {
+            flex-flow: row wrap;
+            > .col {
+                .info-container {
+                    justify-content: center;
+                    > .col {
+                    margin-bottom: 2rem;
+                    max-width: 550px;
+                    min-width: 300px;
+                        .info-box {
+                            .paragraph {
+                                > .col {
+                                    span {
+                                        line-height: 1.5;
+                                        font-size:18px;
+                                        font-family: 'Apercu';
+                                    }
+                                }
+                            }
+
+                            .paragraph:first-child {
+                                margin-bottom: 2rem;
+                            }
+                        }
+                    }
+                }
+
+                .button-container {
+                    justify-content: center;
+                    .col {
+                        padding-left: 1rem;
+                        button {
+                            border: none;
+                            font-family: 'Apercu';
+                            font-size: 18px;
+                            border: 2px solid $as-blue;
+                            min-width: 150px;
+                            height: 3rem;
+                            background-color: transparent;
+                        }
+                    }
+                }
+
+                .spotify-container {
+                    .col {
+                        justify-content: center;
+                        div {
+                            margin: 0 auto;
+                            min-height: 500px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-family: 'Apercu';
+                            font-size: 22px;
+                            min-width: 260px;
+                            max-width: 500px;
+                            width: 5rem;
+                            background-color: #151515;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 420px) {
+    artist-bio {
+        > .container {
+            padding: 0 3rem;
+            > .row {
+                > .col {
+                    .info-container {
+                        > .col {
+                            .info-box {
+                                .paragraph {
+                                    > .col {
+                                        span {
+
+                                        }
+                                    }
+                                }
+
+                                .paragraph:first-child {
+                                }
+                            }
+                        }
+                    }
+
+                    .button-container {
+                        .col {
+                            padding-left: 3.75rem;
+                            button {
+                            }
+                        }
+                    }
+
+                    .spotify-container {
+                        .col {
+                            div {
+                                width: 500px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media(min-width: 1024px) {
+    
+}
