@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="row title-row">
+        <div class="col title">
+            <span>WHAT CAN I BRING INTO THE FESTIVAL?</span>
+        </div>
+    </div>
+    <div class="row yes-list">
+        <div class="col">
+            <div ng-repeat="yesItem in cc.faqBanlistContent.yesList" ng-if="$index < 12" class="row">
+                <div class="col">
+                    <i class="icon ion-checkmark-round"></i> <span>{{yesItem}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div ng-repeat="yesItem in cc.faqBanlistContent.yesList" ng-if="$index >= 12" class="row">
+                <div class="col">
+                    <i class="icon ion-checkmark-round"></i> <span>{{yesItem}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row no-list">
+        <div class="col">
+            <div ng-repeat="noItem in cc.faqBanlistContent.noList" ng-if="$index < 20" class="row">
+                <div class="col">
+                    <i class="icon ion-close-round"></i> <span>{{noItem}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div ng-repeat="noItem in cc.faqBanlistContent.noList" ng-if="$index >= 20" class="row">
+                <div class="col">
+                    <i class="icon ion-close-round"></i> <span>{{noItem}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

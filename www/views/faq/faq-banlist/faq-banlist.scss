@@ -1,0 +1,66 @@
+faq-banlist {
+    > .container {
+        .title-row {
+            margin-bottom: 3rem;
+
+            .title {
+                display: flex;
+                justify-content: center;
+                font-size: 60px;
+
+                span {
+                    /*font-family: 'Apercu';*/
+                    width: 75%;
+                    color: #5f5f5f;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+
+        .yes-list {
+            margin-left: 11rem;
+            margin-bottom: 5rem;
+            > .col {
+                max-width: 34rem;
+
+                > .row {
+                    > .col {
+                        i {
+                            font-size: 20px;
+                            margin-right: 1rem;
+                        }
+                        
+                        span {
+                            font-family: 'Apercu';
+                            font-size: 20px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+
+        .no-list {
+            margin-left: 11rem;
+            > .col {
+                max-width: 34rem;
+
+                > .row {
+                    > .col {
+                        i {
+                            font-size: 20px;
+                            margin-right: 1rem;
+                        }
+                        
+                        span {
+                            font-family: 'Apercu';
+                            font-size: 20px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
