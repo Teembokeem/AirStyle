@@ -1,0 +1,34 @@
+<div ng-class="{'hide-details': cc.showContent !=cc.index}" class="item row nopad">
+	<div class="col expand nopad">
+		<div ng-class="{'details' : cc.showContent == cc.index}" class="circle" ng-click="cc.showContent == cc.index ? cc.showContent = -1 : cc.showContent = cc.index">
+			<span ng-if="cc.showContent != cc.index">+</span>
+			<span ng-if="cc.showContent == cc.index">-</span>
+		</div>
+	</div>
+	<div class="col description nopad">
+		<div class="row short-description nopad">
+			<div class="col nopad"><span> {{cc.question.question}} </span></div>
+		</div>
+	</div>
+</div>
+<div ng-if="cc.showContent == cc.index" class="row nopad item-info">
+	<div class="container answer-container">
+		<div class="row title">
+			<div class="col">
+				<span>ANSWER</span>
+			</div>
+		</div>
+		<div class="row answer">
+			<div class="col">
+				<span>{{cc.question.answer}}</span>
+			</div>
+		</div>
+	</div>
+	<div class="container notes-container">
+		<div class="row notes">
+			<div class="col">
+				<span>PLEASE NOTE: </span>
+			</div>
+		</div>
+	</div>
+</div>
