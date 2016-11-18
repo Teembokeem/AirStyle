@@ -1,0 +1,61 @@
+tour-faq {
+    > .container {
+        .title-row {
+            margin-bottom: 3rem;
+
+            .title {
+                display: flex;
+                justify-content: center;
+                font-size: 40px;
+
+                span {
+                    border-bottom: 8px solid $as-yellow;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+
+
+        .cta {
+            .col {
+                display: flex;
+                justify-content: center;
+                span {
+                    font-family: 'Apercu';
+                    font-size: 15px;
+
+                }
+
+                span:nth-child(2) {
+                    margin-left: 0.4rem;
+                    color: $as-yellow;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 420px) {
+    tour-faq {
+        > .container {
+
+            .cta {
+                .col {
+                    span {
+                        font-size: 18px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 768px) {
+    tour-faq {
+        > .container {
+            .content {
+                            }
+        }
+    }
+}
