@@ -2,10 +2,10 @@
     ion-content {
         .scroll {
             > .container {
-                height: 25rem;
+                height: 19rem;
                 padding-top: 13rem;
                 .title-row {
-                    margin-bottom: 3rem;
+                    margin-bottom: 1rem;
 
                     .title {
                         display: flex;
@@ -15,6 +15,7 @@
                         span {
                             border-bottom: 8px solid $as-yellow;
                             padding-bottom: 15px;
+                            font-size: 64px;
                         }
                     }
                 }
