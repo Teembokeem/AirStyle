@@ -63,8 +63,6 @@
 	<!-- GLOBAL COMPONENTS -->
 	<script src="views/global-components/nav/Component.nav.js"></script>
 	<script src="views/global-components/footer/Component.footer.js"></script>
-	<script src="views/global-components/content/Module.content.view.js"></script>
-	<script src="views/global-components/content/Controller.content.view.js"></script>
 	<script src="views/global-components/desktop-menu/Component.desktop-menu.js"></script>
 	<script src="views/global-components/mobile-menu/Component.mobile-menu.js"></script>
 	<script src="views/global-components/tour-stops-menu/Component.tour-stops-menu.js"></script>
@@ -118,6 +116,12 @@
 	<script src="views/faq/faq-banlist/Component.faq-banlist.js"></script>
 	<script src="views/faq/faq-footer/Component.faq-footer.js"></script>
 
+	<!-- RIDER -->
+	<script src="views/rider/Module.rider.view.js"></script>
+	<script src="views/rider/Controller.rider.view.js"></script>
+	<script src="views/rider/index/Controller.rider-index.view.js"></script>
+	<script src="views/rider/details/Controller.rider-details.view.js"></script>
+
 
 	<!--  STATE CONTROLLERS -->
 
@@ -134,7 +138,8 @@
 </head>
 
 <body ng-app="Template">
-	<ion-nav-view class="main-content"></ion-nav-view>
+	<!--<ion-nav-view class="main-content"></ion-nav-view>-->
+	<ui-view class="main-content"></ui-view>
 </body>
 
 </html>

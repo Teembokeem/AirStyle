@@ -9840,14 +9840,29 @@ body {
     color: white; }
     body * .pane {
       background-color: transparent; }
-  body .main-content > .pane {
-    max-width: 1437px;
-    margin: 0 auto; }
+  body .main-content {
+    /*> .pane {
+            max-width: 1437px;
+            margin: 0 auto;
+            // background-image: url('https://airandstyle.com/wp-content/uploads/2016/09/Overview_Opel_AirStyle_Innsbruck_2016_web-51-1.jpg');
+            // filter: grayscale(100%);
+            // background-position-x: -216px;
+            // background-size: 141%;
+            // background-position-y: -297px;
+
+            .content-container {*/ }
+    body .main-content ion-view {
+      /*}
+            }*/ }
+      body .main-content ion-view ion-content .scroll {
+        max-width: 1440px;
+        margin: 0 auto; }
 
 * .ion-record {
   color: #40caff; }
 
 nav {
+  z-index: 5;
   position: absolute;
   width: 100vw;
   padding: 1rem 1rem 0 1rem;
@@ -12121,3 +12136,19 @@ faq-footer .container {
     faq-footer .container .row:nth-child(2) > .col a {
       font-size: 18px;
       font-family: 'Apercu'; }
+
+.rider-index-view .container {
+  text-align: center;
+  padding: 0 0.7rem;
+  height: 100%; }
+  .rider-index-view .container .title-row {
+    margin-bottom: 2rem; }
+    .rider-index-view .container .title-row .col span {
+      font-size: 30px;
+      border-bottom: 8px solid #40caff; }
+
+@media (min-width: 1024px) {
+  .rider-index-view .container {
+    padding-top: 10rem; }
+    .rider-index-view .container .title-row .col span {
+      font-size: 64px; } }

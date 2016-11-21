@@ -21,7 +21,6 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 @import "www/css/style";
-@import "www/views/global-components/content/content";
 @import "www/views/global-components/nav/nav";
 @import "www/views/global-components/footer/footer";
 @import "www/views/global-components/ranking-summary/ranking-summary";
@@ -54,3 +53,6 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 @import "www/views/faq/faq-general/faq-general";
 @import "www/views/faq/faq-banlist/faq-banlist";
 @import "www/views/faq/faq-footer/faq-footer";
+@import "www/views/rider/rider";
+@import "www/views/rider/index/rider-index";
+@import "www/views/rider/details/rider-details";
