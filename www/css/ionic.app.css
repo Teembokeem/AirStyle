@@ -10184,7 +10184,7 @@ ranking-summary > .container {
 
 @media (min-width: 1024px) {
   ranking-summary > .container {
-    /*height: 132%;*/
+    height: 88rem;
     margin-top: 5rem; }
     ranking-summary > .container .section-title {
       position: absolute;
@@ -10241,7 +10241,7 @@ ranking-summary > .container {
 
 @media (min-width: 1440px) {
   ranking-summary > .container {
-    height: 115%; }
+    height: 73rem; }
     ranking-summary > .container .more {
       left: 475.2px;
       bottom: 446.4px; }
