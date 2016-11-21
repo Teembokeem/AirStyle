@@ -1,0 +1,81 @@
+rider-panels {
+    > .container {
+        color:red;
+        > .row {
+            flex-flow: row wrap;
+            justify-content: center;
+            > .col {
+                min-width: 300px;
+                margin: 0 3rem;
+                > .container {
+                    width: 100%;
+                    position: relative;
+
+                    .row {
+                        .col {
+                            img {
+                                width: 100%;
+                                border: 8px solid white;
+                            }
+                        }
+                    }
+
+                    .blue-container {
+                        position: absolute;
+                        bottom: 5rem;
+                        right: -5rem;
+                        width: 12rem;
+                        height: 6rem;
+                        padding-left: 1rem;
+                        background-color: $as-blue ;
+                        display: flex;
+                        align-items: center;
+
+                        span {
+                            color: black;
+                            font-family: 'Apercu';
+                            font-size: 33px;
+                            font-weight: bold;
+                            line-height: 1.1;
+                            letter-spacing: 0.15rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1024px) {
+    rider-panels {
+        > .container {
+            > .row {
+                > .col {
+                    min-width: 380px;
+                    max-width: 430px;
+                    > .container {
+                        .blue-container {
+                            right: -2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1440px) {
+    rider-panels {
+        > .container {
+            > .row {
+                > .col {
+                    > .container {
+                        .blue-container {
+                            right: -5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
