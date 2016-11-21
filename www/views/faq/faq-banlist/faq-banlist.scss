@@ -6,13 +6,32 @@ faq-banlist {
             .title {
                 display: flex;
                 justify-content: center;
-                font-size: 60px;
+                font-size: 25px;
 
                 span {
-                    /*font-family: 'Apercu';*/
+                    text-align: center;
+                    font-family: 'Apercu';
+                    font-weight: bold;
                     width: 75%;
                     color: #5f5f5f;
                     padding-bottom: 15px;
+                                        letter-spacing: 0.2rem;
+                }
+            }
+        }
+
+        .no-list-title, .yes-list-title {
+            position: relative;
+            width: 100%;
+            margin-bottom: 1rem;
+
+            .col {
+                display: flex;
+                justify-content: center;
+
+                span {
+                    width: 75%;
+                    font-size: 33px;
                 }
             }
         }
@@ -28,6 +47,7 @@ faq-banlist {
                         i {
                             font-size: 20px;
                             margin-right: 1rem;
+                            text-shadow: 1px 4px 0px $as-green;
                         }
                         
                         span {
@@ -50,6 +70,7 @@ faq-banlist {
                         i {
                             font-size: 20px;
                             margin-right: 1rem;
+                            text-shadow: 1px 4px 0px red;
                         }
                         
                         span {

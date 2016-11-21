@@ -10,9 +10,6 @@ faq-footer {
 
                 span {
                     font-size: 60px;
-                    font-weight: bold;
-                    color: #5f5f5f;
-                    font-family: 'Apercu';
 
                 }
             }
@@ -30,6 +27,8 @@ faq-footer {
                 a {
                     font-size: 18px;
                     font-family: 'Apercu';
+                    color: $as-yellow;
+                    text-decoration: none;
                 }
             }
         }
