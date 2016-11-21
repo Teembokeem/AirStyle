@@ -23,21 +23,21 @@
                         first: 'Sven',
                         last: 'Thorgren'
                     },
-                    image: 'img/sven.jpg'
+                    image: 'img/Sven-Thorgren.jpg'
                 },
                 {
                     name: {
                         first: 'Max',
                         last: 'Parrot'
                     },
-                    image: 'img/max.jpg'
+                    image: 'img/Max-Parrot.jpg'
                 },
                 {
                     name: {
                         first: 'St\xE5le',
                         last: 'Sandbech'
                     },
-                    image: 'img/stale.jpg'
+                    image: 'img/Stale-Sandbech.jpg'
                 },
             ]
         }
