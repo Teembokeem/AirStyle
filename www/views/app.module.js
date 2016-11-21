@@ -10,7 +10,12 @@
             'Services',
             'Api.base.module',
             'Directives',
-            'Content.view.module',
+            'Home.view.module',
+            'TourStops.view.module',
+            'Lineup.view.module',
+            'Artist.view.module',
+            'Faq.view.module',
+            'Rider.view.module'
         ])
 
 
@@ -27,20 +32,12 @@
             $urlRouterProvider.otherwise('/app/home')
         })
 
-        .run(function ($ionicPlatform) {
-            // $ionicPlatform.ready(function () {
-            //     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-            //     // for form inputs)
-            //     if (window.cordova && window.cordova.plugins.Keyboard) {
-            //         cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-            //         cordova.plugins.Keyboard.disableScroll(true);
+        .run(function ($rootScope) {
 
-            //     }
-            //     if (window.StatusBar) {
-            //         // org.apache.cordova.statusbar required
-            //         StatusBar.styleDefault();
-            //     }
-            // });
+            $rootScope.$on('$stateChangeError', function (event, toState, toParams, fromState, fromParams, error) {
+                console.log('$stateChangeError - fired when an error occurs during transition.');
+                console.log(arguments);
+            });
             console.log(`.------..------..------..------..------..------..------.\n|H.--. ||I.--. || .--. ||G.--. ||R.--. ||E.--. ||G.--. |\n| :/\\: || (\\/) || :/\\: || :/\\: || :/\\: || (\\/) || (\\/) |\n| :\\/: || :\\/: || (__) || (__) || (__) || :\\/: || :\\/: |\n| '--'H|| '--'I|| '--' || '--'G|| '--'R|| '--'E|| '--'G|\n'------'\`------'\`------'\`------'\`------'\`------'\`------'`)
         });
 
