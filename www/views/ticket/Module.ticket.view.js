@@ -4,10 +4,10 @@
     angular.module('Ticket.view.module', ['Services'])
         .config(function ($stateProvider, $urlRouterProvider) {
             $stateProvider
-                .state('app.content.ticket', {
+                .state('app.ticket', {
                     url: '/ticket',
                     views: {
-                        'source': {
+                        'content': {
                             templateUrl: dir + 'ticket.view.html',
                             controller: 'TicketCtrl',
                             controllerAs: 'cc'

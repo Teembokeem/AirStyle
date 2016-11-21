@@ -4,10 +4,10 @@
     angular.module('Home.view.module', ['Services'])
         .config(function ($stateProvider, $urlRouterProvider) {
             $stateProvider
-                .state('app.content.home', {
+                .state('app.home', {
                     url: '/home',
                     views: {
-                        'source': {
+                        'content': {
                             templateUrl: dir + 'home.view.html',
                             controller: 'HomeCtrl',
                             controllerAs: 'cc'

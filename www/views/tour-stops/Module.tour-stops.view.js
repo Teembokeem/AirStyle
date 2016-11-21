@@ -4,10 +4,10 @@
     angular.module('TourStops.view.module', ['Services'])
         .config(function ($stateProvider, $urlRouterProvider) {
             $stateProvider
-                .state('app.content.tour-stops', {
+                .state('app.tour-stops', {
                     url: '/tour-stops/:tour',
                     views: {
-                        'source': {
+                        'content': {
                             templateUrl: dir + 'tour-stops.view.html',
                             controller: 'TourStopsCtrl',
                             controllerAs: 'cc'

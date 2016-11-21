@@ -4,10 +4,10 @@
     angular.module('Faq.view.module', ['Services'])
         .config(function ($stateProvider, $urlRouterProvider) {
             $stateProvider
-                .state('app.content.faq', {
+                .state('app.faq', {
                     url: '/faq',
                     views: {
-                        'source': {
+                        'content': {
                             templateUrl: dir + 'faq.view.html',
                             controller: 'FaqCtrl',
                             controllerAs: 'cc'

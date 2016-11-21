@@ -1,13 +1,13 @@
-(function () {
+(function() {
     'use strict';
     var dir = "views/artist/"
     angular.module('Artist.view.module', ['Services'])
-        .config(function ($stateProvider, $urlRouterProvider) {
+        .config(function($stateProvider, $urlRouterProvider) {
             $stateProvider
-                .state('app.content.artist', {
-                    url: '/:artist/',
+                .state('app.artist', {
+                    url: '/artist/:artist/',
                     views: {
-                        'source': {
+                        'content': {
                             templateUrl: dir + 'artist.view.html',
                             controller: 'ArtistCtrl',
                             controllerAs: 'cc'
@@ -21,6 +21,6 @@
         })
 
 
-        .run(function ($log) {
+        .run(function($log) {
         });
 })();
