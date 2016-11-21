@@ -38,7 +38,7 @@ body {
         }
     }
     .main-content {
-        >.pane {
+        /*> .pane {
             max-width: 1437px;
             margin: 0 auto;
             // background-image: url('https://airandstyle.com/wp-content/uploads/2016/09/Overview_Opel_AirStyle_Innsbruck_2016_web-51-1.jpg');
@@ -47,9 +47,19 @@ body {
             // background-size: 141%;
             // background-position-y: -297px;
 
-            .content-container {
+            .content-container {*/
                 // margin-top: 7rem;
-            }
+                ion-view {
+                    ion-content {
+                        .scroll {
+                            max-width: 1440px;
+                            margin: 0 auto;
+                        }
+                    }
+
+                /*}
+            }*/
+
         }
     }
 }
