@@ -34,6 +34,9 @@
                             controllerAs: 'cc'
                         }
                     },
+                    params: {
+                        rider: { value: null }
+                    }
                 })
 
         })
