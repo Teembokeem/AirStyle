@@ -12212,3 +12212,19 @@ rider-panels > .container {
 @media (min-width: 1440px) {
   rider-panels > .container > .row > .col > .container .blue-container {
     right: -1rem; } }
+
+.rankings-view ion-content .scroll > .container {
+  text-align: center;
+  padding: 0 0.7rem;
+  /*height: 100%;*/ }
+  .rankings-view ion-content .scroll > .container .title-row {
+    margin-bottom: 2rem; }
+    .rankings-view ion-content .scroll > .container .title-row .col span {
+      font-size: 30px;
+      border-bottom: 8px solid #40caff; }
+
+@media (min-width: 1024px) {
+  .rankings-view ion-content .scroll > .container {
+    padding-top: 10rem; }
+    .rankings-view ion-content .scroll > .container .title-row .col span {
+      font-size: 64px; } }
