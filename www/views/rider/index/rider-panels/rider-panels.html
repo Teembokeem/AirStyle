@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div ng-repeat="rider in cc.riderPanelsContent" class="col">
+        <div ng-repeat="rider in cc.riderPanelsContent" ng-click="cc.stateChange('app.rider.details', 'rider', rider.ref)" class="col">
             <div class="container">
                 <div class="row">
                     <div class="col">
