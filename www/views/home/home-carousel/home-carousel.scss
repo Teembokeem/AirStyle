@@ -151,10 +151,6 @@ home-carousel {
 
                         .content {
                             top: 5rem;
-                            .col {
-                                .sale {
-                                }
-                            }
                         }
                     }
                 }
@@ -275,19 +271,6 @@ home-carousel {
                             }
                         }
                     }
-
-                    .plus {
-
-                        .col {
-                            .left {
-                                // margin-right: 20%;
-                            }
-
-                            .right {
-                                // margin-left: 20%;
-                            }
-                        }
-                    }
                 }
             }
         }
@@ -361,50 +344,15 @@ home-carousel {
 @media (min-width: 768px) {
     home-carousel {
         .container .row .col .slider .slider-slides {
-            ion-slide {
-                // text-align: center;
-                .title-container {
-                    .title {
-                        .col {
-                            span {
-                                span {
-                                    // color: $as-blue;
-                                    // font-size: 2rem !important;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
             
             .la-lineup  .container {
-                    .title-container {
+                .title-container {
 
-                        .title {
-                            // margin-bottom: 0.5rem;
-                        }
-                        .title:first-child {
-                            // letter-spacing: 0.05vw;
-                            // word-spacing: 0.13rem;
-                            // font-size: 64px;
-                        }
-
-                        .title:nth-child(2) {
-                            // word-spacing: 0.31rem;
-                            font-size: 46px;
-                        }
-
-                        .title:nth-child(n + 3) {
-                            // letter-spacing: 0.13rem;
-                            // word-spacing: -0.031rem;
-                            // font-size:36px;
-                        }
-
-                        .title:nth-child(4) {
-                            // letter-spacing: -0.025rem;
-                        }
-
+                    .title:nth-child(2) {
+                        // word-spacing: 0.31rem;
+                        font-size: 46px;
                     }
+                }
             }
         }
     }
@@ -537,9 +485,7 @@ home-carousel {
                                     margin-bottom: 25px;
                                     margin: 0 auto;
                                     text-align: center;
-                                    .row+.row {
-                                        // margin-top: -15px;
-                                    }
+
                                     .title {
                                         margin-bottom: 0;
                                         .col {

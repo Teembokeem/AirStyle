@@ -6,7 +6,6 @@
         [
             'Configs',
             'ionic',
-            'ngCordova',
             'Services',
             'Api.base.module',
             'Directives',
