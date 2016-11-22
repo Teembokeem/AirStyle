@@ -10785,8 +10785,6 @@ home-carousel {
           /* background-position-x: 0px; */
           background-position-y: -23px; }
         home-carousel > .container .row .col .slider .slider-slides ion-slide > .container {
-          position: absolute;
-          top: 0;
           margin-top: 2rem; }
           home-carousel > .container .row .col .slider .slider-slides ion-slide > .container * {
             filter: grayscale(0); }
@@ -11092,7 +11090,7 @@ home-merchandise > .container .merchandise {
       home-merchandise > .container .merchandise .merchandise-container .image img {
         width: 90%; }
     home-merchandise > .container .merchandise .merchandise-container .price {
-      width: 84px;
+      width: 100px;
       max-width: 107px;
       height: 42px;
       background-color: #f9fe17;
