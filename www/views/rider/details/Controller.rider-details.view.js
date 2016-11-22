@@ -3,11 +3,11 @@
     var dir = "views/global-components/content/home/"
     angular
         .module('Rider.view.module')
-        .controller('RiderSingleCtrl', RiderSingleCtrl);
+        .controller('RiderDetailsCtrl', RiderDetailsCtrl);
 
-    RiderSingleCtrl.$inject = ['$log', '$state', '$rootScope'];
+    RiderDetailsCtrl.$inject = ['$log', '$state', '$rootScope'];
 
-    function RiderSingleCtrl($log, $state, $rootScope) {
+    function RiderDetailsCtrl($log, $state, $rootScope) {
         var cc = this;
     }
 })();
