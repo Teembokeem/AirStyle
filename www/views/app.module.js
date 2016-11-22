@@ -14,7 +14,8 @@
             'Lineup.view.module',
             'Artist.view.module',
             'Faq.view.module',
-            'Rider.view.module'
+            'Rider.view.module',
+            'Rankings.view.module'
         ])
 
 
@@ -34,7 +35,7 @@
         .run(function ($rootScope) {
 
             $rootScope.$on('$stateChangeError', function (event, toState, toParams, fromState, fromParams, error) {
-                console.log('$stateChangeError - fired when an error occurs during transition.');
+                console.log('$stateChangeError:');
                 console.log(arguments);
             });
             console.log(`.------..------..------..------..------..------..------.\n|H.--. ||I.--. || .--. ||G.--. ||R.--. ||E.--. ||G.--. |\n| :/\\: || (\\/) || :/\\: || :/\\: || :/\\: || (\\/) || (\\/) |\n| :\\/: || :\\/: || (__) || (__) || (__) || :\\/: || :\\/: |\n| '--'H|| '--'I|| '--' || '--'G|| '--'R|| '--'E|| '--'G|\n'------'\`------'\`------'\`------'\`------'\`------'\`------'`)

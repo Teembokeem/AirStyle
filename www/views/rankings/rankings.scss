@@ -1,0 +1,40 @@
+.rankings-view {
+    ion-content {
+        .scroll {
+        > .container {
+                text-align: center;
+                padding: 0 0.7rem;
+                /*height: 100%;*/
+
+                    .title-row {
+                    margin-bottom: 2rem;
+                    .col {
+                        span {
+                            font-size: 30px;
+                            border-bottom: 8px solid $as-blue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1024px) {
+    .rankings-view {
+        ion-content {
+            .scroll {
+                > .container {
+                    padding-top: 10rem;
+                    .title-row {
+                        .col {
+                            span {
+                                font-size: 64px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
