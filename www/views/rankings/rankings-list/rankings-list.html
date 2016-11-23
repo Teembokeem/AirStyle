@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row selectors-row">
+        <div class="col">
+            <div class="container selectors-container">
+                <div class="row">
+                    <div class="col">
+                        <span>YEAR</span>
+                        <select>
+                            <option value="2016">2016</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <span ng-click="cc.filterAthletes('overall')">ALL STOPS</span>
+                        <span ng-click="cc.filterAthletes('beijing')">BEIJING</span>
+                        <span ng-click="cc.filterAthletes('innsbruck')">INNSBRUCK</span>
+                        <span ng-click="cc.filterAthletes('los angeles')">LOS ANGELES</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <rankings-athlete ng-repeat="athlete in cc.filterList" athlete="athlete" index="$index"></rankings-athlete>
+        </div>
+    </div>
+</div>
