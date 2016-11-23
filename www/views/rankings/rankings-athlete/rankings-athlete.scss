@@ -1,0 +1,161 @@
+rankings-athlete {
+    > .container {
+        margin-bottom: 1rem;
+        padding: 0 3rem;
+        > .row {
+            > .col:first-child {
+                border: 5px solid;
+                height: 14rem;
+                max-width: 10rem;
+                min-width: 10rem;
+                overflow: hidden;
+                position: relative;
+
+                img {
+                    min-width: 11rem;
+                    max-width: 13rem;
+                    position: absolute;
+                    left: -15%;
+                    top: 1px;
+                }
+            }
+            > .col:nth-child(2) {
+                background-color: #131313;
+                > .container {
+                    height: 100%;
+                    padding: 0.8rem;
+
+                    > .row:first-child {
+                        margin-bottom: 1rem;
+                        > .col {
+                            span {
+                                font-size: 22px;
+                                border-bottom: 3px solid $as-yellow;
+                            }
+                        }
+                    }
+                    > .row:nth-child(2) {
+                        margin-bottom: 1rem;
+                        > .col {
+                            span {
+                                font-size: 40px;
+                                font-weight: bold;
+                                line-height: 1.01;
+                                letter-spacing: 0.1rem;
+                                color: #5f5f5f;
+                                font-family: 'Apercu';
+                            }
+                        }
+                    }
+
+                    > .row:nth-child(3) {
+                        > .col {
+                            span {
+                                font-family: 'Apercu';
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            > .col:nth-child(3) {
+                background-color: #131313;
+               > .container {
+                   margin: 0 1rem;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    > .row {
+                        > .col {
+                            text-align: center;
+
+                            > .row:first-child {
+                                .col {
+                            min-width: 99px;
+                                    span {
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                            
+                            > .row:nth-child(2) {
+                                .col {
+                                    span {
+                                        font-size: 22px;
+                                    }
+                                }
+                            }
+                        }
+
+                        > .col:first-child {
+                            > .row:nth-child(2) .col span {
+                                color: $as-green;
+                            }
+                        }
+                        > .col:nth-child(2) {
+                            > .row:nth-child(2) .col span {
+                                color: $as-yellow;
+                            }
+                        }
+                        > .col:nth-child(3) {
+                            > .row:nth-child(2) .col span {
+                                color: $as-blue;
+                            }
+                        }
+                    }
+               } 
+            }
+
+            > .col:nth-child(4) {
+                background-color: #1f1f1f;
+                min-width: 10rem;
+                max-width: 10rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                > .container {
+                    > .row:first-child {
+                        .col {
+                            span {
+                                font-size: 39px;
+                            }
+                        }
+                    }
+
+                    > .row:nth-child(2) {
+                        .col {
+                            text-align: center;
+
+                            span {
+                                font-family: 'Apercu';
+                                font-size: 35px;
+                                font-weight: bold;
+                                letter-spacing: 0.1rem;
+                                color: #5f5f5f;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:1440px) {
+    rankings-athlete {
+        > .container {
+            padding: 0 10rem;
+
+            > .row {
+                > .col:nth-child(2) {
+                    max-width: 14rem;
+                }
+                > .col:nth-child(4) {
+                    min-width: 14rem;
+                }
+            }
+        }
+    }
+}

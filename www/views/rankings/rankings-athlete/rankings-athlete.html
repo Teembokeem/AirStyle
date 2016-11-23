@@ -1,0 +1,58 @@
+<div class="container">
+    <div class="row nopad">
+        <div class="col">
+            <img ng-src="{{cc.athlete.image}}" alt="">
+        </div>
+        <div class="col">
+            <div class="container">
+                <div class="row nopad">
+                    <div class="col">
+                        <span>0{{cc.index + 1}}</span>
+                    </div>
+                </div>
+                <div class="row nopad">
+                    <div class="col">
+                        <span>{{cc.athlete.name}}</span>
+                    </div>
+                </div>
+                <div class="row nopad">
+                    <div class="col">
+                        <span>{{cc.athlete.origin}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="container">
+                <div class="row nopad">
+                    <div ng-repeat="placing in cc.athlete.scores" class="col">
+                        <div class="row nopad">
+                            <div class="col">
+                                <span>{{placing.event | uppercase}}</span>
+                            </div>
+                        </div>
+                        <div class="row nopad">
+                            <div class="col">
+                                <span>{{placing.score}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="container">
+                <div class="row nopad">
+                    <div class="col">
+                        <span>{{cc.athlete.overall}}</span>
+                    </div>
+                </div>
+                <div class="row nopad">
+                    <div class="col">
+                        <span>TOTAL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
