@@ -25,15 +25,15 @@
         <div class="col">
             <div class="container">
                 <div class="row nopad">
-                    <div ng-repeat="placing in cc.athlete.scores" class="col">
+                    <div ng-repeat="(key, val) in cc.athlete.scores[cc.year]" ng-if="key != 'overall'" class="col">
                         <div class="row nopad">
                             <div class="col">
-                                <span>{{placing.event | uppercase}}</span>
+                                <span>{{val.eventName | uppercase}}</span>
                             </div>
                         </div>
                         <div class="row nopad">
                             <div class="col">
-                                <span>{{placing.score}}</span>
+                                <span>{{val.score}}</span>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
             <div class="container">
                 <div class="row nopad">
                     <div class="col">
-                        <span>{{cc.athlete.overall}}</span>
+                        <span>{{cc.athlete.scores[cc.year].overall}}</span>
                     </div>
                 </div>
                 <div class="row nopad">
