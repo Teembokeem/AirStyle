@@ -11,14 +11,24 @@ rankings-list {
                                 margin-right: 1rem;
                             }
                             select {
-                                border: none;
-                                background-color: white;
-                                color: black;
-                                width: 64px;
+                                -webkit-appearance: none;
+                                -webkit-border-radius: 0;
                                 border-radius: 0;
-                                height: 2rem;
-                                padding-left: 0.2rem;
+                                height: 2.56em;
+                                width: 4.78em;
+                                border: 3px solid black;
+                                color: black;
+                                background-color: white;
+                                padding-left: 0.8em;
+                                font-size: 18px;
+                                padding-top: 0.2em;
                             }
+                            i {
+                                color: black;
+                                position: relative;
+                                right: 1.8rem;
+                            }
+
 
                         }
 
@@ -39,6 +49,23 @@ rankings-list {
                             }
                             span:nth-child(4) {
                                 color: $as-blue;
+                            }
+
+                            span.overall-selected {
+                                border-bottom: 4px solid;
+                                padding-bottom: 0.3rem;
+                            }
+                            span.beijing-selected {
+                                border-bottom: 4px solid $as-green;
+                                padding-bottom: 0.3rem;
+                            }
+                            span.innsbruck-selected {
+                                border-bottom: 4px solid $as-yellow;
+                                padding-bottom: 0.3rem;
+                            }
+                            span.los-angeles-selected {
+                                border-bottom: 4px solid $as-blue;
+                                padding-bottom: 0.3rem;
                             }
 
 
