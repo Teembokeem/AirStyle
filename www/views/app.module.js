@@ -10,6 +10,7 @@
             'Api.base.module',
             'Directives',
             'Home.view.module',
+            'Ticket.view.module',
             'TourStops.view.module',
             'Lineup.view.module',
             'Artist.view.module',

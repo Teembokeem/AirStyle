@@ -12236,13 +12236,21 @@ rankings-list > .container .selectors-row {
     rankings-list > .container .selectors-row > .col .selectors-container > .row .col:first-child span {
       margin-right: 1rem; }
     rankings-list > .container .selectors-row > .col .selectors-container > .row .col:first-child select {
-      border: none;
-      background-color: white;
-      color: black;
-      width: 64px;
+      -webkit-appearance: none;
+      -webkit-border-radius: 0;
       border-radius: 0;
-      height: 2rem;
-      padding-left: 0.2rem; }
+      height: 2.56em;
+      width: 4.78em;
+      border: 3px solid black;
+      color: black;
+      background-color: white;
+      padding-left: 0.8em;
+      font-size: 18px;
+      padding-top: 0.2em; }
+    rankings-list > .container .selectors-row > .col .selectors-container > .row .col:first-child i {
+      color: black;
+      position: relative;
+      right: 1.8rem; }
     rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) {
       min-width: 21rem;
       padding-right: 0;
@@ -12255,6 +12263,18 @@ rankings-list > .container .selectors-row {
         color: #f9fe17; }
       rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span:nth-child(4) {
         color: #40caff; }
+      rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span.overall-selected {
+        border-bottom: 4px solid;
+        padding-bottom: 0.3rem; }
+      rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span.beijing-selected {
+        border-bottom: 4px solid #62ff00;
+        padding-bottom: 0.3rem; }
+      rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span.innsbruck-selected {
+        border-bottom: 4px solid #f9fe17;
+        padding-bottom: 0.3rem; }
+      rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span.los-angeles-selected {
+        border-bottom: 4px solid #40caff;
+        padding-bottom: 0.3rem; }
 
 @media (min-width: 1440px) {
   rankings-list > .container .selectors-row > .col .selectors-container {
