@@ -22,6 +22,7 @@ gulp.task('sass', function (done) {
       return sass.logError(d);
     })
     .pipe(gulp.dest('./www/css/'))
+    .pipe(browserSync.stream())
     .pipe(minifyCss({
       keepSpecialComments: 0
     }))
@@ -40,6 +41,7 @@ gulp.task('watch', ['sass'], function () {
   })
   gulp.watch(paths.sass, ['sass'])
     .on('change', function (event) {
+      // browserSync.stream();
       browserSync.reload();
       console.log('File LOG' + event.path + ' was ' + event.type + ', running tasks...');
     });
