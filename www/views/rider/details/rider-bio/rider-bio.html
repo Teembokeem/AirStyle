@@ -28,23 +28,23 @@
             <div class="container social-container">
                 <div class="row">
                     <div class="col">
-                        <img src="../img/facebook-inverse.png" alt="">
+                        <img src="../img/facebook-inverse.png" alt="" ng-click="cc.go(cc.rider.fb)">
                     </div>
                     <div class="col">
-                        <img src="../img/twitter-inverse.png" alt="">
+                        <img src="../img/twitter-inverse.png" alt="" ng-click="cc.go(cc.rider.tweet)">
                     </div>
                     <div class="col">
-                        <img src="../img/instagram-inverse.png" alt="">
+                        <img src="../img/instagram-inverse.png" alt="" ng-click="cc.go(cc.rider.inst)">
                     </div>
                     <div class="col">
-                        <img src="../img/youtube-inverse.png" alt="">
+                        <img src="../img/youtube-inverse.png" alt="" ng-click="cc.go(cc.rider.youtube)">
                     </div>
                 </div>
             </div>
             <div class="container years-container">
                 <div class="row">
                     <div class="col">
-                        <span>A+S:</span><span ng-repeat="year in cc.rider.asYears">{{year}}</span>
+                        <span>A+S: </span><span ng-repeat="year in cc.rider.asYears">{{year}} </span>
                     </div>
                 </div>
             </div>
@@ -58,20 +58,54 @@
             <div class="container video-container">
                 <div class="row">
                     <div class="col">
-                        VIDEO COMPONENT
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ORPV1K30pOc" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
             <div class="container sponsors-container">
                 <div class="row">
                     <div class="col">
-                        <span>SPONSORS:</span><span ng-repeat="sponsor in cc.rider.sponsors">{{sponsor}}</span>
+                        <span>Sponsors: </span><span ng-repeat="sponsor in cc.rider.sponsors">{{sponsor | uppercase}} </span>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col">
-
+            <div class="container image-container">
+                <div class="row">
+                    <div class="col">
+                        <img ng-src="{{cc.rider.image}}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container score-container">
+                <div ng-repeat="(key, val) in cc.rider.scores" class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <span>{{key}}</span>
+                            </div>
+                            <div class="col">
+                                <span>{{val.overall}}</span>
+                            </div>
+                        </div>
+                        <div ng-repeat="(inner, innerVal) in val" ng-if="key != 'overall'" class="row">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col">
+                                        <span>{{inner}}</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <span>{{innerVal.score}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

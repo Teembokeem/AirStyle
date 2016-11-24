@@ -2,13 +2,14 @@ rider-bio {
     > .container {
         padding: 10rem 6rem 0 6rem;
         > .row {
-            > .col {
+            > .col:first-child {
+                min-width: 55vw;
                 .name-container {
                     margin-bottom: 2rem;
                     .row {
                         .col {
                             span {
-                                font-size: 44px;
+                                font-size: 50px;
                                 border-bottom: 5px solid $as-blue;
                             }
                         }
@@ -16,6 +17,7 @@ rider-bio {
                 }
 
                 .snippet-container {
+                    margin-bottom: 2rem;
                     .row {
                         .col {
                             span {
@@ -25,12 +27,136 @@ rider-bio {
                                 letter-spacing: 0.1rem;
                             }
                             span:first-child {
-                                color: #5f5f5f;
+                                color: #848484;
                             }
 
                             span:nth-child(2) {
                             }
                         }
+                    }
+                }
+
+                .social-container {
+                    margin-bottom: 1.5rem;
+
+                    .row {
+                        .col {
+                            max-width: 100px;
+                            display: flex;
+                            align-items: center;
+                        }
+                    }
+                }
+
+                .years-container {
+                    margin-bottom: 1.5rem;
+                    .row {
+                        .col {
+                            span {
+                                font-size: 22px;
+                                margin-right: 1rem;
+                            }
+
+                            span:first-child {
+                                font-family: 'Apercu';
+                                color: #848484;
+                            }
+
+                            span:nth-child(n + 2) {
+                                color: $as-blue;
+                            }
+                        }
+                    }
+                }
+
+                .bio-container {
+                    margin-bottom: 2rem;
+                    .row {
+                        .col {
+                            span {
+                                font-family: 'Apercu';
+                                line-height: 2;
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+                }
+
+                .video-container {
+                    margin-bottom: 2rem;
+                }
+
+                .sponsors-container {
+                    .row {
+                        .col {
+                            span {
+                                font-size: 22px;
+                                margin-right: 1rem;
+                            }
+
+                            span:first-child {
+                                font-family: 'Apercu';
+                                color: #848484;
+                            }
+
+                            span:nth-child(n + 2) {
+                                color: $as-blue;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            > .col:nth-child(2) {
+                .image-container {
+                    .row {
+                        .col {
+                            border: 7px solid;
+                            height: 24rem;
+                            display: flex;
+                            justify-content: center;
+                            overflow: hidden;
+                            min-width: 28vw;
+                            position: relative;
+                            bottom: 1rem;
+
+                            img {
+                                max-width: 150%;
+                            }
+                        }
+                    }
+                }
+
+                .score-container {
+                    > .row {
+                       > .col {
+                           > .row:first-child {
+                               background-color: #1f1f1f;
+                               height: 3rem;
+                               .col:first-child {
+                                   display: flex;
+                                   align-items: center;
+                                   padding-top: 0.7rem;
+
+                                   span {
+                                       color: #404040;
+                                       font-size: 31px;
+                                   }
+                               }
+
+                               .col:nth-child(2) {
+                                   display: flex;
+                                   align-items: center;
+                                   padding-top: 0.7rem;
+                                   justify-content: flex-end;
+
+                                   span {
+                                       font-size: 20px;
+                                   }
+                               }
+                           }
+                       }
                     }
                 }
             }
