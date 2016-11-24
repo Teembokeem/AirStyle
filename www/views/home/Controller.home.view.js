@@ -5,9 +5,9 @@
         .module('Home.view.module')
         .controller('HomeCtrl', HomeCtrl);
 
-    HomeCtrl.$inject = ['$log', '$state', '$rootScope', '$ionicScrollDelegate', '$window'];
+    HomeCtrl.$inject = ['$log', '$state', '$rootScope', '$window'];
 
-    function HomeCtrl($log, $state, $rootScope, $ionicScrollDelegate, $window) {
+    function HomeCtrl($log, $state, $rootScope, $window) {
         var cc = this;
     }
 })();
