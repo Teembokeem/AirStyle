@@ -10444,6 +10444,7 @@ partners > .container {
           align-items: center;
           margin: 0 auto; }
           partners > .container .partner-container .container .row .partner a img {
+            filter: grayscale(100%);
             max-height: 120px !important;
             max-width: 150px; }
           partners > .container .partner-container .container .row .partner a img:nth-child(-n + 5) {
@@ -12212,6 +12213,21 @@ rider-panels > .container {
 @media (min-width: 1440px) {
   rider-panels > .container > .row > .col > .container .blue-container {
     right: -1rem; } }
+
+rider-bio > .container {
+  padding: 10rem 6rem 0 6rem; }
+  rider-bio > .container > .row > .col .name-container {
+    margin-bottom: 2rem; }
+    rider-bio > .container > .row > .col .name-container .row .col span {
+      font-size: 44px;
+      border-bottom: 5px solid #40caff; }
+  rider-bio > .container > .row > .col .snippet-container .row .col span {
+    font-family: 'Apercu';
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.1rem; }
+  rider-bio > .container > .row > .col .snippet-container .row .col span:first-child {
+    color: #5f5f5f; }
 
 .rankings-view ion-content .scroll > .container {
   text-align: center;
