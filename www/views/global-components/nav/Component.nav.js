@@ -8,9 +8,9 @@
             controllerAs: 'cc'
         });
 
-    NavCtrl.$inject = ['$scope', '$ionicScrollDelegate', '$rootScope', '$window', '$element'];
+    NavCtrl.$inject = ['$scope', '$rootScope', '$window', '$element'];
 
-    function NavCtrl($scope, $ionicScrollDelegate, $rootScope, $window, $element) {
+    function NavCtrl($scope, $rootScope, $window, $element) {
 
         var cc = this;
         if ($window.innerWidth <= 600) {

@@ -35,10 +35,18 @@
 
         .run(function ($rootScope) {
 
-            $rootScope.$on('$stateChangeError', function (event, toState, toParams, fromState, fromParams, error) {
-                console.log('$stateChangeError:');
-                console.log(arguments);
-            });
+            // $rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState, fromParams, error) {
+            //     console.log('$stateChangeStart:');
+            //     console.log(arguments);
+            // });
+            // $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams, error) {
+            //     console.log('$stateChangeSuccess:');
+            //     console.log(arguments);
+            // });
+            // $rootScope.$on('$stateChangeError', function (event, toState, toParams, fromState, fromParams, error) {
+            //     console.log('$stateChangeError:');
+            //     console.log(arguments);
+            // });
             console.log(`.------..------..------..------..------..------..------.\n|H.--. ||I.--. || .--. ||G.--. ||R.--. ||E.--. ||G.--. |\n| :/\\: || (\\/) || :/\\: || :/\\: || :/\\: || (\\/) || (\\/) |\n| :\\/: || :\\/: || (__) || (__) || (__) || :\\/: || :\\/: |\n| '--'H|| '--'I|| '--' || '--'G|| '--'R|| '--'E|| '--'G|\n'------'\`------'\`------'\`------'\`------'\`------'\`------'`)
         });
 
