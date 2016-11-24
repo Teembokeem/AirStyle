@@ -17,8 +17,8 @@
 
         cc.stateChange = stateChange;
 
-        function stateChange(state, param, val) {
-            $state.go(state, { param: val });
+        function stateChange(state, val) {
+            $state.go(state, { rider: val });
         }
 
         cc.$onInit = function () {
