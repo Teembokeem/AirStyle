@@ -5,7 +5,7 @@
         .config(function ($stateProvider, $urlRouterProvider) {
             $stateProvider
                 .state('app.rider', {
-                    url: '/rider',
+                    url: '',
                     abstract: true,
                     views: {
                         'content': {
@@ -16,7 +16,7 @@
                     },
                 })
                 .state('app.rider.all', {
-                    url: '/',
+                    url: '/riders',
                     views: {
                         'rider': {
                             templateUrl: dir + 'index/rider-index.view.html',
@@ -26,16 +26,16 @@
                     },
                 })
                 .state('app.rider.details', {
-                    url: '/:rider',
+                    url: '/rider/:rider',
                     views: {
                         'rider': {
                             templateUrl: dir + 'details/rider-details.view.html',
                             controller: 'RiderDetailsCtrl',
-                            controllerAs: 'cc'
+                            controllerAs: 'cc',
                         }
                     },
                     params: {
-                        rider: { value: null }
+                        rider: { value: 'hahllo' }
                     }
                 })
 
