@@ -16,8 +16,8 @@
         cc.tourStopMenuClose = tourStopMenuClose;
 
 
-        function stateChange(state, param, val) {
-            $state.go(state, { param: val });
+        function stateChange(state, val) {
+            $state.go(state, { tour: val });
             $rootScope.$broadcast('tourStopMenuClose');
         }
         function tourStopMenuClose() {
