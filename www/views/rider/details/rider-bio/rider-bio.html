@@ -1,0 +1,77 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="container name-container">
+                <div class="row">
+                    <div class="col">
+                        <span>{{cc.rider.name | uppercase}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container snippet-container">
+                <div class="row">
+                    <div class="col">
+                        <span>DOB:</span><span> {{cc.rider.dob | date:'MMMM d, y'}}</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <span>Nation:</span><span> {{cc.rider.nation}}</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <span>Stance:</span><span> {{cc.rider.stance}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container social-container">
+                <div class="row">
+                    <div class="col">
+                        <img src="../img/facebook-inverse.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="../img/twitter-inverse.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="../img/instagram-inverse.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="../img/youtube-inverse.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container years-container">
+                <div class="row">
+                    <div class="col">
+                        <span>A+S:</span><span ng-repeat="year in cc.rider.asYears">{{year}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container bio-container">
+                <div ng-repeat="paragraph in cc.rider.bio" class="row">
+                    <div class="col">
+                        <span>{{paragraph}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container video-container">
+                <div class="row">
+                    <div class="col">
+                        VIDEO COMPONENT
+                    </div>
+                </div>
+            </div>
+            <div class="container sponsors-container">
+                <div class="row">
+                    <div class="col">
+                        <span>SPONSORS:</span><span ng-repeat="sponsor in cc.rider.sponsors">{{sponsor}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+
+        </div>
+    </div>
+</div>
