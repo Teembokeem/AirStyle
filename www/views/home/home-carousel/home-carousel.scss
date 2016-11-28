@@ -233,16 +233,16 @@ home-carousel {
                     height: 20px;
                     border: 2px solid white;
                     margin-right: 20px;
-                    z-index: 1;
+                    // z-index: 1;
                     i {
-                        z-index: -1;
+                        // z-index: -1;
                         opacity: 0;
                         // background-color: white;
                     }
                 }
                 .slider-pager-page.active {
                     i {
-                        z-index: -1;
+                        // z-index: -1;
                         opacity: 1;
                         width: 18.5px;
                         height: 18.5px;
@@ -621,7 +621,7 @@ home-carousel {
                             img:nth-child(5) {
                                 height: 198px;
                                 left: 12%;
-                                top: 82%;
+                                top: 85%;
                             }
                             img:nth-child(6) {
                                 height: 101.2px;
@@ -636,7 +636,7 @@ home-carousel {
                             img:nth-child(8) {
                                 height: 75.5px;
                                 right: 10%;
-                                top: 82%;
+                                top: 85%;
                             }
                             img:nth-child(9) {
                                 height: 176px;
@@ -662,16 +662,16 @@ home-carousel {
                             height: 20px;
                             border: 2px solid white;
                             margin-right: 20px;
-                            z-index: 1;
+                            // z-index: 1;
                             i {
-                                z-index: -1;
+                                // z-index: -1;
                                 opacity: 0;
                                 // background-color: white;
                             }
                         }
                         .slider-pager-page.active {
                             i {
-                                z-index: -1;
+                                // z-index: -1;
                                 opacity: 1;
                                 width: 18.5px;
                                 height: 18.5px;

@@ -10761,13 +10761,10 @@ home-carousel {
           width: 20px;
           height: 20px;
           border: 2px solid white;
-          margin-right: 20px;
-          z-index: 1; }
+          margin-right: 20px; }
           home-carousel > .container .row .col .slider .slider-pager .slider-pager-page i {
-            z-index: -1;
             opacity: 0; }
         home-carousel > .container .row .col .slider .slider-pager .slider-pager-page.active i {
-          z-index: -1;
           opacity: 1;
           width: 18.5px;
           height: 18.5px;
@@ -10983,7 +10980,7 @@ home-carousel {
       home-carousel > .container .row .col .slider .slider-slides .la-lineup img:nth-child(5) {
         height: 198px;
         left: 12%;
-        top: 82%; }
+        top: 85%; }
       home-carousel > .container .row .col .slider .slider-slides .la-lineup img:nth-child(6) {
         height: 101.2px;
         left: 26%;
@@ -10995,7 +10992,7 @@ home-carousel {
       home-carousel > .container .row .col .slider .slider-slides .la-lineup img:nth-child(8) {
         height: 75.5px;
         right: 10%;
-        top: 82%; }
+        top: 85%; }
       home-carousel > .container .row .col .slider .slider-slides .la-lineup img:nth-child(9) {
         height: 176px;
         right: 7%;
@@ -11014,13 +11011,10 @@ home-carousel {
           width: 20px;
           height: 20px;
           border: 2px solid white;
-          margin-right: 20px;
-          z-index: 1; }
+          margin-right: 20px; }
           home-carousel > .container .row .col .slider .slider-pager .slider-pager-page i {
-            z-index: -1;
             opacity: 0; }
         home-carousel > .container .row .col .slider .slider-pager .slider-pager-page.active i {
-          z-index: -1;
           opacity: 1;
           width: 18.5px;
           height: 18.5px;
@@ -11836,8 +11830,7 @@ lineup-carousel {
               background-color: transparent;
               color: white; }
         lineup-carousel > .container > .row > .col .slider .slider-slides ion-slide img {
-          position: absolute;
-          z-index: -1; }
+          position: absolute; }
         lineup-carousel > .container > .row > .col .slider .slider-pager {
           bottom: 1rem; }
           lineup-carousel > .container > .row > .col .slider .slider-pager span {
@@ -11981,9 +11974,6 @@ lineup-carousel {
   home-carousel > .container .row .col .slider .slider-slides .la-lineup img:nth-child(11) {
     left: 1359px;
     top: 638px; } }
-
-.line-up-view tour-carousel > .container > .row > .col .slider .slider-slides ion-slide img {
-  z-index: -1; }
 
 @media (min-width: 768px) {
   .line-up-view * tour-carousel > .container > .row > .col .slider {

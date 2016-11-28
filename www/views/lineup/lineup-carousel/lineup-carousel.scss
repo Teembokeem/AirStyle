@@ -125,7 +125,7 @@ lineup-carousel {
 
                             img {
                                 position: absolute;
-                                z-index: -1;
+                                // z-index: -1;
                             }
                         }
                     }
@@ -389,7 +389,7 @@ lineup-carousel {
                         .slider-slides {
                             ion-slide {
                                 img {
-                                    z-index: -1;
+                                    // z-index: -1;
                                 }
                             }
                         }    
