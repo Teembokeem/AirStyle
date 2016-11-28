@@ -89,16 +89,16 @@
                                 <span>{{val.overall}}</span>
                             </div>
                         </div>
-                        <div ng-repeat="(inner, innerVal) in val" ng-if="key != 'overall'" class="row">
-                            <div class="col">
+                        <div class="row">
+                            <div ng-repeat="(inner, innerVal) in val" ng-if="inner != 'overall'" class="col">
                                 <div class="row">
                                     <div class="col">
-                                        <span>{{inner}}</span>
+                                        <span>{{inner | uppercase}}</span>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <span>{{innerVal.score}}</span>
+                                        <span class="{{inner}}">{{innerVal.score}}</span>
                                     </div>
                                 </div>
                             </div>

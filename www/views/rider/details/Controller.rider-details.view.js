@@ -10,6 +10,6 @@
     function RiderDetailsCtrl($log, $state, $rootScope, $stateParams) {
         var cc = this;
 
-        console.log('params', $stateParams)
+        console.log('params', $stateParams);
     }
 })();

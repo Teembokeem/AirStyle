@@ -12264,34 +12264,59 @@ rider-bio > .container {
       color: #848484; }
     rider-bio > .container > .row > .col:first-child .sponsors-container .row .col span:nth-child(n + 2) {
       color: #40caff; }
+  rider-bio > .container > .row > .col:nth-child(2) {
+    max-width: 23rem; }
+    rider-bio > .container > .row > .col:nth-child(2) .image-container .row .col {
+      border: 7px solid;
+      height: 24rem;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      min-width: 28vw;
+      position: relative;
+      bottom: 1rem; }
+      rider-bio > .container > .row > .col:nth-child(2) .image-container .row .col img {
+        max-width: 150%;
+        height: 100%; }
+    rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:first-child {
+      background-color: #1f1f1f;
+      height: 3rem; }
+      rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:first-child .col:first-child {
+        display: flex;
+        align-items: center;
+        padding-top: 0.7rem; }
+        rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:first-child .col:first-child span {
+          color: #404040;
+          font-size: 31px; }
+      rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:first-child .col:nth-child(2) {
+        display: flex;
+        align-items: center;
+        padding-top: 0.7rem;
+        justify-content: flex-end; }
+        rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:first-child .col:nth-child(2) span {
+          font-size: 20px; }
+    rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:nth-child(2) {
+      padding-top: 1rem;
+      background-color: #151515; }
+      rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:nth-child(2) > .col {
+        max-width: 110px; }
+        rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:nth-child(2) > .col .row:first-child .col {
+          text-align: center; }
+          rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:nth-child(2) > .col .row:first-child .col span {
+            font-size: 1rem; }
+        rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:nth-child(2) > .col .row:nth-child(2) .col {
+          text-align: center;
+          font-size: 1.3rem; }
+          rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:nth-child(2) > .col .row:nth-child(2) .col span.beijing {
+            color: #62ff00; }
+          rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:nth-child(2) > .col .row:nth-child(2) .col span.la {
+            color: #40caff; }
+          rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:nth-child(2) > .col .row:nth-child(2) .col span.innsbruck {
+            color: #f9fe17; }
+
+@media (min-width: 1024px) {
   rider-bio > .container > .row > .col:nth-child(2) .image-container .row .col {
-    border: 7px solid;
-    height: 24rem;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    min-width: 28vw;
-    position: relative;
-    bottom: 1rem; }
-    rider-bio > .container > .row > .col:nth-child(2) .image-container .row .col img {
-      max-width: 150%; }
-  rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:first-child {
-    background-color: #1f1f1f;
-    height: 3rem; }
-    rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:first-child .col:first-child {
-      display: flex;
-      align-items: center;
-      padding-top: 0.7rem; }
-      rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:first-child .col:first-child span {
-        color: #404040;
-        font-size: 31px; }
-    rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:first-child .col:nth-child(2) {
-      display: flex;
-      align-items: center;
-      padding-top: 0.7rem;
-      justify-content: flex-end; }
-      rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:first-child .col:nth-child(2) span {
-        font-size: 20px; }
+    min-width: 5rem; } }
 
 .rankings-view ion-content .scroll > .container {
   text-align: center;
