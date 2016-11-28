@@ -1,8 +1,11 @@
 ticket-footer {
     .container {
-        margin-top: 8.07em;
         height: 7.785em;
         background-color: white;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
         .row {
             display: flex;
             justify-content:right;
