@@ -26,7 +26,7 @@
                     },
                 })
                 .state('app.rider.details', {
-                    url: '/rider/:rider',
+                    url: '/rider/:avatar',
                     views: {
                         'rider': {
                             templateUrl: dir + 'details/rider-details.view.html',
@@ -35,7 +35,7 @@
                         }
                     },
                     params: {
-                        rider: { value: 'hahllo' }
+                        avatar: { value: 'hahllo' }
                     }
                 })
 

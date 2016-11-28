@@ -1,14 +1,14 @@
 <div class="container">
     <div class="row">
-        <div ng-repeat="rider in cc.riderPanelsContent" ng-click="cc.stateChange('app.rider.details', rider.ref)" class="col">
+        <div ng-repeat="avatar in cc.avatars" ng-click="cc.stateChange(cc.ref, avatar.ref)" class="col">
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <img ng-src="{{rider.image}}" alt="">
+                        <img ng-src="{{avatar.image}}" alt="">
                     </div>
                 </div>
                 <div class="blue-container">
-                    <span>{{rider.name}}</span>
+                    <span>{{avatar.name}}</span>
                 </div>
             </div>
         </div>

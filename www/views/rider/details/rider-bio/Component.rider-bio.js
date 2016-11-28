@@ -318,7 +318,7 @@
             ]
 
             cc.rider = cc.riderBioContent.filter(function (rider) {
-                return rider.ref == $stateParams.rider
+                return rider.ref == $stateParams.avatar
             })[0];
             console.log(cc.rider)
         }

@@ -1,4 +1,4 @@
-rider-panels {
+avatar-panels {
     > .container {
         color:red;
         > .row {
@@ -47,7 +47,7 @@ rider-panels {
 }
 
 @media(min-width: 1024px) {
-    rider-panels {
+    avatar-panels {
         > .container {
             > .row {
                 > .col {
@@ -65,7 +65,7 @@ rider-panels {
 }
 
 @media(min-width: 1440px) {
-    rider-panels {
+    avatar-panels {
         > .container {
             > .row {
                 > .col {
