@@ -1,5 +1,5 @@
 <ion-view class="ticket-view">
-	<ion-content>
+	<ion-content delegate-handle="mainScroll" on-scroll="ac.getScroll()" overflow-scroll="true">
 		<ticket-title></ticket-title>
 		<ticket-items></ticket-items>
 		<ticket-footer></ticket-footer>
