@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="container">
+                <div class="row title-row">
+                    <div class="col title">
+                        <span>SCHEDULE</span>
+                    </div>
+                </div>
+            </div>
+            <div ng-repeat="day in cc.lineupScheduleContent" class="container">
+                <div class="row">
+                    <div class="col">
+                        <span>{{day.date | uppercase}}</span>
+                    </div>
+                    <div ng-repeat="stage in day.stages" class="col">
+                        <div class="row">
+                            <div class="col">
+                                <span>{{stage.name | uppercase}}</span>
+                            </div>
+                        </div>
+                        <div ng-repeat="artist in stage.lineup" class="row" style="top: {{artist.time_mult * 15 + 30}}px; height: {{artist.time_dur * 15}}px">
+                            <div class="col">
+                                <span>{{artist.name}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div ng-repeat="time in cc.timeSlots" class="row">
+                    <div class="col">
+                        <span class="header-footer" ng-if="$index == 0 || $last">{{$index == 0 ? 'Doors Open' : $last ? 'Doors Close' : ''}}</span>
+                        <span>{{time | uppercase}}</span>
+                    </div>
+                    <div class="col">
+                        <div ng-class="{'bounds': $index == 0 || $last}" class="line-div"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
