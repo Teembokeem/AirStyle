@@ -51,3 +51,19 @@ download-app {
         }
     }
 }
+
+@media(min-width: 1440px) {
+    download-app {
+        .container {
+            margin: 13rem 0;
+            > .row:first-child {
+                .col {
+
+                    span {
+                        font-size: 18px;
+                    }
+                }
+                }
+        }
+    }
+}

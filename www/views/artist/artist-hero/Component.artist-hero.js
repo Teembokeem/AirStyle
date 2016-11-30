@@ -25,7 +25,7 @@
                     time: 'fri 3 9pm',
                     hero: '../img/beginner-hero.jpg'
                 },
-                clyro: {
+                'biffy-clyro': {
                     name: 'BIFFY CLYRO',
                     ref: 'clyro',
                     location: 'main stage',
@@ -36,7 +36,7 @@
             }
 
             var artistKey = Object.keys(cc.artistList).filter(function (key) {
-                return cc.artistList[key]['ref'] == $stateParams.artist
+                return cc.artistList[key]['ref'] == $stateParams.avatar
             })[0];
 
             cc.artist = cc.artistList[artistKey];
