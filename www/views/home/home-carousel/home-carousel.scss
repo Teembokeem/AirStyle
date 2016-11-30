@@ -2,7 +2,6 @@ home-carousel {
     position: relative;
     >.container {
         overflow: inherit;
-        padding-top:1rem;
 
         .row .col .slider {
             overflow: inherit;
@@ -13,7 +12,8 @@ home-carousel {
 
 
                 ion-slide {
-                    height: 40em;
+                    height: 45em;
+                    max-height: 53em;
                     text-align: center;
                     .title-container {
                         position: relative;
@@ -53,7 +53,7 @@ home-carousel {
                         background-color: rgba(0, 0, 0, 0.8);
                     }
                     .container {
-                        padding-top:31%;
+                        padding-top:47%;
                         height: 100%;
                         * {
                             // z-index: 4;
@@ -69,7 +69,7 @@ home-carousel {
                         }
                         .content {
                             position: relative;
-                            top: 5rem;
+                            top: 6rem;
                             // line-height: 3rem;
                             // margin-bottom: 32px;
                             .col {
@@ -91,7 +91,7 @@ home-carousel {
                         }
                         .buttons {
                             position: absolute;
-                            bottom:4rem;
+                            bottom:7rem;
                             display: flex;
                             justify-content: center;
 
@@ -139,31 +139,40 @@ home-carousel {
 
                 ion-slide:nth-child(3) {
                     .container {
-                        padding-top: 31%;
+                        padding-top: 50%;
 
                         .title {
                             .col {
                                 span {
-                                    font-size: 62px;
+                                    line-height: 0.5;
+                                    // font-size: 62px;
                                 }
                             }
                         }
 
                         .content {
-                            top: 5rem;
+                            top: 3.6rem;
                         }
+                        
                     }
                 }
                 
                 .la-lineup  > .container {
-                    padding-top: 30%;
+                    height: 100%;
+                    padding-top: 144px;
                     .title-container {
 
                         .title {
-                            margin-bottom: 0.1rem;
+                            // margin-bottom: 1%;
+                            padding: 3px 0;
+
+                            > .col {
+                                padding: 3px 0;
+                            }
                         }
                         .title:first-child {
-                            font-size: 10vw;
+                            font-size: 9vw;
+                            letter-spacing: 0.11rem;
                         }
 
                         .title:nth-child(2) {
@@ -180,14 +189,18 @@ home-carousel {
                         }
 
                         .title:nth-child(5) {
-                            letter-spacing: -0.13rem;
+                            letter-spacing: 0.018rem;
+                            word-spacing: 0.1rem;
+                        }
+                        .title:nth-child(6) {
+                            word-spacing: -0.1rem;
                         }
 
                     }
 
                     .plus {
                         margin-top: 1rem;
-                        margin-bottom: 1rem;
+                        margin-bottom: 0.4rem;
 
                         .col {
                             display: flex;
@@ -217,9 +230,21 @@ home-carousel {
                         .col {
                             p {
                                 color: $as-blue;
-                                font-size: 4vw;
+                                font-size: 15px;
                                 padding: 0 2rem;
-                                letter-spacing: 0.05rem
+                                letter-spacing: 0.03rem
+                            }
+                        }
+                    }
+
+                    .date {
+                        margin-top: 0.3rem;
+                        .col {
+                            span {
+                                font-size: 18px;
+                                letter-spacing: 1.7px;
+                                font-family: 'Reglo-Bold';
+                                color: #828282;
                             }
                         }
                     }
@@ -227,7 +252,7 @@ home-carousel {
             }
 
             .slider-pager {
-                bottom: -525px;
+                bottom: 5rem;
                 .slider-pager-page {
                     width: 20px;
                     height: 20px;
@@ -235,15 +260,8 @@ home-carousel {
                     margin-right: 20px;
                     // z-index: 1;
                     i {
-                        // z-index: -1;
+                        z-index: -1;
                         opacity: 0;
-                        // background-color: white;
-                    }
-                }
-                .slider-pager-page.active {
-                    i {
-                        // z-index: -1;
-                        opacity: 1;
                         width: 18.5px;
                         height: 18.5px;
                         background-color: #40caff;
@@ -252,12 +270,67 @@ home-carousel {
                         top: 3px;
                         left: 3px;
                         transition: all 350ms ease-in;
+                        // background-color: white;
+                    }
+                }
+                .slider-pager-page.active {
+                    i {
+                        // z-index: -1;
+                        opacity: 1;
                     }
                 }
             }
         }
     }
 }
+
+@media(min-width:375px) {
+    home-carousel {
+        > .container .row .col .slider .slider-slides .la-lineup > .container {
+            .title-container {
+
+                .title {
+                    margin-bottom: 0.5rem;
+                }
+                .title:nth-child(2) {
+                    letter-spacing: 0.005rem;
+                }
+
+                .title:nth-child(5) {
+                    letter-spacing: 0.03rem;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:420px) {
+    home-carousel {
+        > .container .row .col .slider .slider-slides .la-lineup > .container {
+
+            .title-container {
+
+                .title:first-child {
+                    font-size: 9.2vw;
+                }
+
+                .title:nth-child(2) {
+                    letter-spacing: 0.018rem;
+                }
+
+                .title:nth-child(5) {
+                    letter-spacing: 0.04rem;
+                }
+            }
+
+            .plus {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+
 
 @media(min-width:500px) {
     home-carousel {
@@ -288,7 +361,7 @@ home-carousel {
                             span {
                                 span {
                                     color: $as-blue;
-                                    font-size: 2rem !important;
+                                    // font-size: 2rem !important;
                                 }
                             }
                         }
@@ -300,7 +373,7 @@ home-carousel {
                     .title-container {
 
                         .title {
-                            margin-bottom: 1rem;
+                            // margin-bottom: 1rem;
                             height: 6.22vw;
                         }
                         .title:first-child {
@@ -478,7 +551,7 @@ home-carousel {
                         }
                         .la-lineup {
                             >.container {
-                                padding-top: 10%;
+                                // padding-top: 10  %;
                                 text-align: center;
                                 .title-container {
                                     max-width: 714px;
@@ -583,17 +656,6 @@ home-carousel {
                                             letter-spacing: 1.8px;
                                             color: $as-blue;
                                             line-height: 1;
-                                        }
-                                    }
-                                }
-                                .date {
-                                    margin-bottom: 2rem;
-                                    .col {
-                                        span {
-                                            font-size: 18px;
-                                            letter-spacing: 1.7px;
-                                            font-family: 'Reglo-Bold';
-                                            // color: white;
                                         }
                                     }
                                 }

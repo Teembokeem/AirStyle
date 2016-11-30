@@ -5,7 +5,7 @@
             flex-flow: row wrap;
             justify-content: center;
             align-items: center;
-            margin-bottom: 70px;
+            margin-bottom: 58px;
             padding: 0 37px;
              .title {
                 margin: 0 auto;
@@ -22,13 +22,16 @@
 
          .merchandise {
             display: block;
-            border: 8px solid black;
 
             .merchandise-container {
+            border-bottom: 8px solid black;
+            border-left: 8px solid black;
+            border-right: 8px solid black;
+            border-top: none;
                 margin: 0 auto;
                 width: 100%;
                 max-width: 375px;
-                height: 129vw;
+                height: 126vw;
                 max-height: 452px;
                 background-position:center;
                 background-color: white;
@@ -52,8 +55,8 @@
                     display: flex;
                     align-items: center;
                     position: absolute;
-                    top: 1rem;
-                    right: 1rem;
+                    top: 2.5rem;
+                    right: -1rem;
 
                     span {
                         font-size: 20px;
@@ -73,29 +76,30 @@
 
                 .name {
                     position: absolute;
-                    bottom: 2rem;
+
                     text-align: center;
                     display: flex;
                     justify-content: center;
-                    bottom: 35px;
+                    bottom: 51px;
                     span {
                         font-family: 'Apercu';
                         font-size: 30px;
                         font-weight: bold;
                         color: black;
+                        line-height: 1;
                     }
 
                 }
             }   
 
             .merchandise-container:nth-child(-n + 2) {
-                margin-bottom: 1rem;
+                // margin-bottom: 1rem;
 
             }
         }
 
         .more {
-            margin: 2rem auto 5rem auto;
+            margin: 1.5rem auto 3.5rem auto;
             justify-content: center;
             display: flex;
 
@@ -138,6 +142,7 @@
                 display: flex;
                 justify-content: center;
                 .merchandise-container {
+                border: 8px solid black;
                     margin: 0 1rem;
                     width: 375px;
                     height: 452px;

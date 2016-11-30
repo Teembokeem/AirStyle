@@ -11,12 +11,14 @@ partners {
             .title {
                 width: 172px;
                 height: 48px;
-                border-bottom: 8px solid $as-green;
                 padding-bottom: 10px;
+                text-align: center;
 
                 span {
-                    font-size: 40px;
+                    font-size: 30px;
                     position: relative;
+                    border-bottom: 8px solid #62ff00;
+                    padding-bottom: 0.75rem;
                 }
             }
         }
@@ -36,7 +38,7 @@ partners {
 
                         a {
                             img {
-                                filter: grayscale(100%);
+                                // filter: grayscale(100%);
                                 max-height: 120px !important;
                                 max-width: 150px;
                             }

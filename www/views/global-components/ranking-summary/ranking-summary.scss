@@ -1,11 +1,11 @@
 ranking-summary {
     > .container {
-        margin-bottom: 60px;
+        margin-bottom: 4.75rem;
         .section-title {
             width: 330px;
             height: 60px;
             text-align: center;
-            margin: 2rem auto;
+            margin: 2rem 0 3rem 0;
 
             span {
                 position: relative;
@@ -19,8 +19,8 @@ ranking-summary {
             margin: 0 auto;
             width: 100%;
             max-width: 360px;
-            max-height: 474.3px;
-            height: 130vw;
+            max-height: 500px;
+            height: 151vw;
             border: solid 8px white;
             display: flex;
             justify-content: center;
@@ -34,6 +34,7 @@ ranking-summary {
                 justify-content: flex-start;
                 align-items: center;
                 background-color: $as-blue;
+                position: absolute;
                 .number {
                     margin-left: 15px;
                     span {
@@ -76,13 +77,20 @@ ranking-summary {
             .col {
                 max-width: 250px;
                 max-height: 47px;
+                height: 47px;
                 border: 3px solid white;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 button {
-                    font-size: 18px;
+                    height: 100%;
                     border: none;
+                    display: flex;
+                    align-items: center;
+                    span {
+                        font-size: 18px;
+
+                    }
                 }
             }
         }
