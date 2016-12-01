@@ -10,15 +10,10 @@
             controllerAs: 'cc'
         })
 
-    HomeCarouselCtrl.$inject = ['$log', '$rootScope', '$window', '$scope'];
+    HomeCarouselCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', '$ionicSlideBoxDelegate'];
 
-    function HomeCarouselCtrl($log, $rootScope, $window, $scope) {
+    function HomeCarouselCtrl($log, $rootScope, $window, $scope, $ionicSlideBoxDelegate) {
         var cc = this;
-
-        cc.go = function(link) {
-            window.location = link;
-        };
-
         $scope.$watch(function() {
             return $window.innerWidth;
         }, function(a, b, c) {
@@ -35,8 +30,28 @@
                 //     });
                 // }
             }
-
         })
+
+        cc.go = go;
+        cc.moveSlide = moveSlide;
+
+        function go(link) {
+            window.location = link;
+        };
+
+        function moveSlide(index) {
+            $ionicSlideBoxDelegate.$getByHandle('carousel').slide(index, 500);
+            setTimeout(function() {
+                $ionicSlideBoxDelegate.$getByHandle('carousel').stop();
+                setTimeout(function() {
+
+                    $ionicSlideBoxDelegate.$getByHandle('carousel').start();
+                }, 4000);
+            }, 600);
+
+        }
+
+
 
         cc.$onInit = function() {
 
@@ -46,11 +61,11 @@
                     content: 'ON SALE NOW',
                     buttons: [
                         {
-                            label: 'LEARN MORE',
+                            label: 'Learn More',
                             dest: 'http://www.air-style.at'
                         },
                         {
-                            label: 'BUY NOW',
+                            label: 'Buy Now',
                             dest: 'https://airandstyle.frontgatetickets.com/'
                         }
                     ],
@@ -61,11 +76,11 @@
                     content: 'ON SALE NOW',
                     buttons: [
                         {
-                            label: 'LEARN MORE',
+                            label: 'Learn More',
                             dest: 'http://www.air-style.at'
                         },
                         {
-                            label: 'BUY NOW',
+                            label: 'Buy Now',
                             dest: 'http://air-style.at/innsbruck2017/ticket-info-2017/'
                         }
                     ],

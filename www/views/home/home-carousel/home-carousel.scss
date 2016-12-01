@@ -107,7 +107,7 @@ home-carousel {
                                     width: 87%;
                                     height: 56px;
                                     font-size: 22px;
-                                    letter-spacing: 1.8px;
+                                    // letter-spacing: 1.8px;
                                 }
                                 button:first-child {
                                     border: solid 2px $as-blue;
@@ -381,6 +381,23 @@ home-carousel {
 @media(min-width:500px) {
     home-carousel {
         .container .row .col .slider .slider-slides {
+            ion-slide:nth-child(n + 2) {
+                > .container {
+                    .title {
+                        margin-bottom: 0;
+                        padding: 1rem 0;
+                        // line-height: 2;
+                    }
+
+                    .content {
+                        .col {
+                            .sale {
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
             .la-lineup {
                 .container {
 
@@ -589,6 +606,16 @@ home-carousel {
                                 padding-top: 18%;
 
                                 .title {
+                                    margin-bottom: 2rem;
+                                    .col {
+                                        span {
+                                            // line-height: 2;
+                                            font-size: 64px !important;
+                                        }
+                                    }
+                                }
+
+                                .content {
                                     .col {
                                         span {
                                             font-size: 64px !important;
@@ -663,6 +690,7 @@ home-carousel {
                                             border: 3px solid white;
                                             width: 24%;
                                             font-size: 17px;
+                                            padding-top: 5px;
                                         }
 
                                         .left {
