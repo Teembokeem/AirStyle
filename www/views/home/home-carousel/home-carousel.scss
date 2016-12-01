@@ -12,17 +12,22 @@ home-carousel {
 
 
                 ion-slide {
-                    height: 45em;
+                    min-height: 630px;
                     max-height: 53em;
+                    height: 160vw;
                     text-align: center;
-                    .title-container {
-                        position: relative;
-                        .title {
-                            .col {
-                                span {
+                    > .container {
+                        margin: 0 auto;
+                        max-width: 768px;
+                        .title-container {
+                            position: relative;
+                            .title {
+                                .col {
                                     span {
-                                        color: $as-blue;
-                                        font-size: 2rem !important;
+                                        span {
+                                            color: $as-blue;
+                                            font-size: 2rem !important;
+                                        }
                                     }
                                 }
                             }
@@ -53,14 +58,14 @@ home-carousel {
                         background-color: rgba(0, 0, 0, 0.8);
                     }
                     .container {
-                        padding-top:47%;
+                        padding-top: 144px;
                         height: 100%;
                         * {
                             // z-index: 4;
                             filter: grayscale(0);
                         }
                         .title {
-                            margin-bottom: 0rem;
+                            margin-bottom: 3rem;
                             line-height: 3rem;
                             .col span {
                                 min-height: 183px;
@@ -69,9 +74,7 @@ home-carousel {
                         }
                         .content {
                             position: relative;
-                            top: 6rem;
-                            // line-height: 3rem;
-                            // margin-bottom: 32px;
+                            margin-bottom: 3rem;
                             .col {
                                 text-align: center;
                                 span {
@@ -90,8 +93,8 @@ home-carousel {
                             }
                         }
                         .buttons {
-                            position: absolute;
-                            bottom:7rem;
+                            position: relative;
+
                             display: flex;
                             justify-content: center;
 
@@ -139,21 +142,13 @@ home-carousel {
 
                 ion-slide:nth-child(3) {
                     .container {
-                        padding-top: 50%;
-
                         .title {
                             .col {
                                 span {
-                                    line-height: 0.5;
-                                    // font-size: 62px;
+                                    font-size: 53px;
                                 }
                             }
                         }
-
-                        .content {
-                            top: 3.6rem;
-                        }
-                        
                     }
                 }
                 
@@ -171,8 +166,8 @@ home-carousel {
                             }
                         }
                         .title:first-child {
-                            font-size: 9vw;
-                            letter-spacing: 0.11rem;
+                            font-size: 8.9vw;
+                            letter-spacing: 0.11rem
                         }
 
                         .title:nth-child(2) {
@@ -189,8 +184,8 @@ home-carousel {
                         }
 
                         .title:nth-child(5) {
-                            letter-spacing: 0.018rem;
-                            word-spacing: 0.1rem;
+                            letter-spacing: 0.037rem;
+                            // word-spacing: 0.1rem;
                         }
                         .title:nth-child(6) {
                             word-spacing: -0.1rem;
@@ -286,19 +281,30 @@ home-carousel {
 
 @media(min-width:375px) {
     home-carousel {
-        > .container .row .col .slider .slider-slides .la-lineup > .container {
-            .title-container {
+        > .container .row .col .slider {
+            .slider-slides .la-lineup > .container {
+                .title-container {
 
-                .title {
-                    margin-bottom: 0.5rem;
-                }
-                .title:nth-child(2) {
-                    letter-spacing: 0.005rem;
-                }
+                    .title {
+                        margin-bottom: 0.5rem;
+                    }
 
-                .title:nth-child(5) {
-                    letter-spacing: 0.03rem;
+                    .title:first-child {
+                        letter-spacing: 0.14rem;
+
+                    }
+                    .title:nth-child(2) {
+                        letter-spacing: 0.018rem;
+                    }
+
+                    .title:nth-child(5) {
+                        letter-spacing: 0.05rem;
+                    }
                 }
+            }
+
+            .slider-pager {
+                bottom: 3rem;
             }
         }
     }
@@ -306,25 +312,65 @@ home-carousel {
 
 @media(min-width:420px) {
     home-carousel {
-        > .container .row .col .slider .slider-slides .la-lineup > .container {
+        > .container .row .col .slider .slider-slides {
+            ion-slide {
+                .container {
+                    .buttons {
 
-            .title-container {
+                        .col {
+                            button {
+                                width: 166px !important;
+                                height: 56px;
+                            }
 
-                .title:first-child {
-                    font-size: 9.2vw;
-                }
-
-                .title:nth-child(2) {
-                    letter-spacing: 0.018rem;
-                }
-
-                .title:nth-child(5) {
-                    letter-spacing: 0.04rem;
+                            button:first-child {
+                                margin-right: 18px;
+                            }
+                        }
+                    }
                 }
             }
+            .la-lineup > .container {
 
-            .plus {
-                margin-bottom: 1rem;
+                .title-container {
+
+                    .title {
+                        margin-bottom: 3vw;
+                    }
+
+                    .title:first-child {
+                        font-size: 8.36vw;
+                        letter-spacing: 0.21rem;
+                    }
+
+                    .title:nth-child(2) {
+                        letter-spacing: -0.015rem;
+                        font-size: 6.3vw;
+                    }
+
+                    .title:nth-child(n + 3) {
+                    }
+                    .title:nth-child(3) {
+                        // letter-spacing: -0.02rem;
+                    }
+
+                    .title:nth-child(4) {
+                        // letter-spacing: -0.02rem;
+                    }
+
+                    .title:nth-child(5) {
+                        letter-spacing: 0.06rem;
+                    }
+
+                    .title:nth-child(6) {
+                        // letter-spacing: -0.02rem;
+                    }
+                }
+
+                .plus {
+                    margin-bottom: 1rem;
+
+                }
             }
         }
     }
@@ -337,6 +383,25 @@ home-carousel {
         .container .row .col .slider .slider-slides {
             .la-lineup {
                 .container {
+
+                    .title-container {
+
+                        .title:first-child {
+                            letter-spacing: 0.27rem;
+                        }
+
+                        .title:nth-child(2) {
+                            letter-spacing: 0.01rem;
+                        }
+
+                        .title:nth-child(n + 3) {
+                            letter-spacing: -0.02rem;
+                        }
+                        .title:nth-child(5) {
+                            letter-spacing: 0.09rem;
+                        }
+                    }
+
                     .content {
                         .col {
                             p {
@@ -350,64 +415,75 @@ home-carousel {
     }
 }
 
-@media(min-width:640px) {
+@media(min-width:600px) {
     home-carousel {
         .container .row .col .slider .slider-slides {
-            ion-slide {
-                text-align: center;
-                .title-container {
-                    .title {
-                        .col {
-                            span {
-                                span {
-                                    color: $as-blue;
-                                    // font-size: 2rem !important;
-                                }
-                            }
+            .la-lineup {
+                .container {
+
+                    .title-container {
+                        .title:first-child {
+                            letter-spacing: 0.33rem;
+                        }
+
+                        .title:nth-child(2) {
+                            letter-spacing: 0.03rem;
+                        }
+
+                        .title:nth-child(n + 3) {
+                            letter-spacing: -0.01rem;
+                        }
+                        .title:nth-child(5) {
+                            letter-spacing: 0.12rem;
                         }
                     }
                 }
             }
+        }
+    }
+}
+
+@media(min-width: 650px) {
+    home-carousel {
+        .container .row .col .slider .slider-slides {
+            ion-slide {
+            }
+            
+            .la-lineup  .container {
+                .title-container {
+
+                    .title:nth-child(n + 3) {
+                        font-size: 36px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 700px) {
+    home-carousel {
+        .container .row .col .slider .slider-slides {
+            ion-slide {
+            }
             
             .la-lineup  .container {
                     .title-container {
-
-                        .title {
-                            // margin-bottom: 1rem;
-                            height: 6.22vw;
-                        }
                         .title:first-child {
-                            font-size: 64px;
-                            .col {
-                                letter-spacing: 0.4vw;
-                                word-spacing: 0.13rem;
-
-                            }
+                            // letter-spacing: 0.29rem;
                         }
 
-                        .title:nth-child(2) {
-                            .col {
-                                word-spacing: 0.31rem;
+                       .title:nth-child(2) {
+                           letter-spacing: 0.01rem;
+                       }
 
-                            }
-                            // font-size: 46px;
-                        }
+                       .title:nth-child(n + 3) {
+                           letter-spacing: 0.04rem;
+                       }
 
-                        .title:nth-child(n + 3) {
-                            .col {
-                                letter-spacing: 0.13rem;
-                                word-spacing: -0.031rem;
-                            }
-                            font-size:36px;
-                        }
-
-                        .title:nth-child(4) {
-                            .col {
-                                letter-spacing: -0.025rem;
-
-                            }
-                        }
-
+                       .title:nth-child(5) {
+                           letter-spacing: 0.18rem;
+                       }
                     }
             }
         }
@@ -421,9 +497,39 @@ home-carousel {
             .la-lineup  .container {
                 .title-container {
 
+                    .title:first-child {
+                        .col {
+                            span {
+                                font-size: 64px;
+
+                            }
+                        }
+                    }
                     .title:nth-child(2) {
-                        // word-spacing: 0.31rem;
-                        font-size: 46px;
+                        .col {
+                            span {
+                                font-size: 48px;
+
+                            }
+                        }
+                    }
+
+                    .title:nth-child(n + 3) {
+                        .col {
+                            span {
+                                font-size: 36px;
+
+                            }
+                        }
+                        letter-spacing: 0.105rem;
+                    }
+
+                    .title:nth-child(5) {
+                        letter-spacing: 0.26rem;
+                    }
+
+                    .title:nth-child(6) {
+                        letter-spacing: 0.12rem;
                     }
                 }
             }
@@ -456,7 +562,6 @@ home-carousel {
                                 background-position-y: -23px;
                             }
                             > .container {
-                                margin-top: 2rem;
                                 * {
                                     // z-index: 4;
                                     filter: grayscale(0);
@@ -468,65 +573,8 @@ home-carousel {
                                     }
                                 }
                                 .content {
-                                    position: static;
-                                    top: initial !important;
-                                    height: 59px;
                                     margin-bottom: 32px;
-                                    .col {
-                                        text-align: center;
-                                        span {
-                                            font-family: 'Apercu';
-                                            letter-spacing: 6px;
-                                            font-weight: bold;
-                                            font-size: 3.57em;
-                                            color: white;
-                                            line-height: 1;
-                                        }
-                                        span.sale {
-                                            font-family: 'Reglo-Bold';
-                                        }
-                                    }
-                                }
-                                .buttons {
-                                    position: relative !important;
-                                    bottom: 0 !important;
-                                    .col {
-                                        display: flex;
-                                        flex-flow: row wrap;
-                                        justify-content: center;
-                                        button {
-                                            font-family: 'Apercu';
-                                            width: 166px !important;
-                                            height: 56px;
-                                            font-size: 22px;
-                                            letter-spacing: 1.8px;
-                                        }
-                                        button:first-child {
-                                            border: solid 2px $as-blue;
-                                            background-color: transparent;
-                                            color: white;
-                                            margin-right: 18px;
-                                            transition: all 1s cubic-bezier(.23, 1.25, .375, 1.15);
-                                            transition-delay: all 1s;
-                                        }
-                                        button:first-child:hover {
-                                            border: none;
-                                            background-color: $as-blue;
-                                            color: black;
-                                        }
-                                        button:last-child {
-                                            border: none;
-                                            background-color: $as-blue;
-                                            color: black;
-                                            transition: all 1s cubic-bezier(.23, 1.25, .375, 1.15);
-                                            transition-delay: all 1s;
-                                        }
-                                        button:last-child:hover {
-                                            border: solid 2px $as-blue;
-                                            background-color: transparent;
-                                            color: white;
-                                        }
-                                    }
+
                                 }
                             }
                         }
@@ -572,46 +620,34 @@ home-carousel {
                                         }
                                     }
                                     .title:first-child {
-                                        .col {
-                                            letter-spacing: 6px;
-                                            word-spacing: 2px;
-                                            span {
-                                                font-size: 64px;
-                                            }
-                                        }
+                                            letter-spacing: 5.28px;
                                     }
                                     .title:nth-child(2) {
+                                            letter-spacing: 0.16px;
+                                    }
+
+                                    .title:nth-child(n + 3) {
                                         .col {
-                                            word-spacing: 5px;
                                             span {
-                                                font-size: 47px;
+                                                // font-size: 36px;
                                             }
                                         }
                                     }
                                     .title:nth-child(3) {
                                         .col {
-                                            letter-spacing: 2px;
-                                            word-spacing: -0.5px;
-                                            span {
-                                                font-size: 36.5px;
-                                            }
+                                            // letter-spacing: 2px;
+                                            // word-spacing: -0.5px;
                                         }
                                     }
                                     .title:nth-child(4) {
                                         .col {
-                                            letter-spacing: 2px;
-                                            word-spacing: 0px;
-                                            span {
-                                                font-size: 36px;
-                                            }
+                                            // letter-spacing: 2px;
+                                            // word-spacing: 0px;
                                         }
                                     }
                                     .title:nth-child(5) {
                                         .col {
-                                            letter-spacing: -1px;
-                                            span {
-                                                font-size: 36.8px;
-                                            }
+                                            // letter-spacing: -1px;
                                         }
                                     }
                                 }
