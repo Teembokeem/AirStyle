@@ -15,6 +15,12 @@
     function SubscribeCtrl($log) {
         var cc = this;
 
+        cc.focused = focused;
+        cc.newUserEmail = '';
+
+        function focused() {
+            cc.newUserEmail = '';
+        }
         cc.$onInit = function () {
 
             cc.subscribeContent = [
