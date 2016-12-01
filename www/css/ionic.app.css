@@ -10517,6 +10517,8 @@ subscribe .subscribe-container .subscribe-1 .subscribe-1-1 {
         font-size: 18px;
         color: white;
         text-align: center; }
+      subscribe .subscribe-container .subscribe-1 .subscribe-1-1 .email-container .email-1 .email-1-1 input[placeholder] {
+        font-size: 14px; }
       subscribe .subscribe-container .subscribe-1 .subscribe-1-1 .email-container .email-1 .email-1-1 .submit {
         border: none;
         background-color: #40caff;

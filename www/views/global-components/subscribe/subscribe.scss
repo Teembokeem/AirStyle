@@ -26,6 +26,10 @@ subscribe {
                                 text-align: center;
                             }
 
+                            input[placeholder] {
+                                font-size: 14px;
+                            }
+
                             .submit {
                                 border: none;
                                 background-color: $as-blue;
