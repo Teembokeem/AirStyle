@@ -29,12 +29,16 @@ partners {
                 width: 100%;
                 .row {
                     width: 100%;
-                    display: block;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
                     .partner {
                         display: flex;
                         justify-content: center;
                         align-items: center;
                         margin: 0 auto;
+                        min-width: 300px;
 
                         a {
                             img {
@@ -88,9 +92,13 @@ partners {
                         flex-flow: row wrap;
                         justify-content: center;
                         margin: 0 auto;
-                        width: 86%;
+                        width: 90%;
+
+                        .partner {
+                            min-width: 125px;
+                        }
                         .partner:nth-child(-n + 5) {
-                            margin-right: 30px;
+                            // margin-right: 30px;
                         }
                     }
                 }
