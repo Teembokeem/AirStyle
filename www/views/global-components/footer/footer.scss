@@ -69,7 +69,8 @@ footer {
                 }
 
                 .row:nth-child(2) {
-                    margin-bottom: 40px;
+                    max-width: 500px;
+                    margin:0 auto 40px auto;
                 }
             }
         }
@@ -126,11 +127,15 @@ footer {
                     }
 
                     .row:nth-child(2) {
-                        margin: 0 auto;
+                        margin: auto;
                         position: absolute;
                         width: 100%;
                         display: flex;
                         justify-content: center;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
                     }
 
                     .row:nth-child(3) {
