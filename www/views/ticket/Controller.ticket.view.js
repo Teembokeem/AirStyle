@@ -9,6 +9,5 @@
 
     function TicketCtrl($log, $state) {
         var cc = this;
-
     }
 })();

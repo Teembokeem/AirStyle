@@ -3,7 +3,8 @@ tour-carousel {
 
     > .container {
         width: 100%;
-        height: 40em;
+        min-height: 40em;
+        max-height: 53em;
 
         > .row {
             height: 100%;
@@ -19,6 +20,7 @@ tour-carousel {
                                 text-align: center;
                                 padding: 0 0.7rem;
                                 height: 100%;
+                                margin: 0 auto;
                                 
                                 .lineups {
                                     width: 100%;
@@ -55,6 +57,8 @@ tour-carousel {
 
                                     .lineup:nth-child(4) {
                                         letter-spacing: 0.056rem;
+                                        max-width: 89vw;
+                                         margin: 0 auto;
                                     }
                                 }
 
@@ -159,42 +163,45 @@ tour-carousel {
     }
 }
 @media (min-width: 420px) {
-    tour-carousel > .container > .row > .col .slider {
-        padding-top: 160px;
-        
-        .slider-slides ion-slide > .container {
-            .lineups {
+    tour-carousel > .container {
+        height: 126vw;
+        > .row > .col .slider {
+            padding-top: 160px;
+            
+            .slider-slides ion-slide > .container {
+                .lineups {
 
-                .lineup:nth-child(3) {
-                    letter-spacing: 0.1rem;
+                    .lineup:nth-child(3) {
+                        letter-spacing: 0.1rem;
+                    }
+
+                    .lineup:nth-child(4) {
+                        letter-spacing: 0.07rem;
+                        line-height: 1;
+                    }
+
+                    .lineup:nth-child(n + 2) {
+                        margin-bottom: 6vw;
+                    }
+
+                    
                 }
 
-                .lineup:nth-child(4) {
-                    letter-spacing: 0.07rem;
-                    line-height: 1;
-                }
+                .buttons {
+                    > .row {
+                        .col {
+                            button {
+                                width: 171px;
+                            }
 
-                .lineup:nth-child(n + 2) {
-                    margin-bottom: 6vw;
-                }
-
-                
-            }
-
-            .buttons {
-                > .row {
-                    .col {
-                        button {
-                            width: 171px;
-                        }
-
-                        button:first-child {
-                            margin-right:1vw;
+                            button:first-child {
+                                margin-right:1vw;
+                            }
                         }
                     }
                 }
-            }
-        } 
+            } 
+        }
     }
 }
 
@@ -204,7 +211,7 @@ tour-carousel {
         .slider-slides ion-slide > .container {
             .lineups {
                 .lineup:nth-child(3) {
-                    letter-spacing: 0.12rem;
+                    letter-spacing: 0.13rem;
                 }
 
                 .lineup:nth-child(4) {
@@ -250,7 +257,28 @@ tour-carousel {
                 }
 
                 .lineup:nth-child(4) {
-                    letter-spacing: 0.315rem;
+                    letter-spacing: 0.35rem;
+                }  
+            }
+        } 
+    }
+}
+
+@media (min-width: 768px) {
+    tour-carousel > .container > .row > .col .slider {
+        
+        .slider-slides ion-slide > .container {
+            .lineups {
+                .lineup:nth-child(2) {
+
+                }
+                .lineup:nth-child(3) {
+                    letter-spacing: 0.19rem;
+                    margin-bottom: 4vw;
+                }
+
+                .lineup:nth-child(4) {
+                    letter-spacing: 0.42rem;
                 }  
             }
         } 
@@ -275,6 +303,12 @@ tour-carousel {
 
                     .lineup:nth-child(3) {
                         font-size: 42px;
+                        letter-spacing: 0.21rem;
+                    }
+                    
+                    .lineup:nth-child(4) {
+                        max-width: 93vw;
+                        letter-spacing: 0.115rem;
                     }
 
                 }
@@ -294,6 +328,7 @@ tour-carousel {
             .slider-slides ion-slide > .container {
                 .lineups {
                     .lineup {
+                        margin-bottom: 45px !important; 
                     }
                     .lineup:first-child {
                         font-size: 69px;
@@ -310,6 +345,12 @@ tour-carousel {
                         font-size: 45px;
                         margin-bottom: 2rem !important;
                     }
+
+                    .lineup:nth-child(4) {
+                        max-width: 94vw;
+                        letter-spacing: 0.19rem;
+
+                    }
                 }
             }
         }
@@ -318,7 +359,6 @@ tour-carousel {
 
 @media (min-width: 1024px) {
     tour-carousel > .container {
-        height: 53em;
 
         > .row > .col .slider {
             .slider-slides ion-slide {
@@ -338,7 +378,7 @@ tour-carousel {
 
                     .lineup:nth-child(4) {
                         font-size: 30px;
-                        letter-spacing: 2.9px;
+                        letter-spacing: 2.5px;
                     }
 
                 }
@@ -406,7 +446,7 @@ tour-carousel {
 }
 
 @media (min-width: 1440px) {
-    home-carousel > .container .row .col .slider .slider-slides .la-lineup {
+    tour-carousel > .container .row .col .slider .slider-slides .la-lineup {
         .shape:nth-child(2) {
             left: 1px;
             top: 315px;
