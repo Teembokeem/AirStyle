@@ -10,30 +10,18 @@
             controllerAs: 'cc'
         })
 
-    homeScheduleCtrl.$inject = ['$log'];
+    homeScheduleCtrl.$inject = ['$log', 'Tours'];
 
-    function homeScheduleCtrl($log) {
+    function homeScheduleCtrl($log, Tours) {
         var cc = this;
 
         cc.$onInit = function () {
+            var tours = Tours();
+            cc.scheduleContent = [];
 
-            cc.scheduleContent = [
-                {
-                    title: 'BEIJING',
-                    date: 'NOV 18 + 19',
-                    dest: 'app.here'
-                },
-                {
-                    title: 'INNSBRUCK',
-                    date: 'FEB 3 + 4',
-                    dest: 'app.there'
-                },
-                {
-                    title: 'LOS ANGELES',
-                    date: 'FEB 18 + 19',
-                    dest: 'app.anywhere'
-                },
-            ]
+            Object.keys(tours).forEach(function(tourKey) {
+                cc.scheduleContent.push(tours[tourKey]);
+            })
         }
     }
 })();
