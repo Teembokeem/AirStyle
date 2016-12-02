@@ -7,6 +7,7 @@
             'Configs',
             'ionic',
             'Services',
+            'Statics',
             'Api.base.module',
             'Directives',
             'Home.view.module',
