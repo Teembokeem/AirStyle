@@ -46,7 +46,7 @@
                         ['BEGINNER', 'BIFFY CLYRO'],
                         ['BILDERBUCH', 'THE NAKED AND FAMOUS'],
                         ['FUNF STERNE DELUXE', 'LUCKY CHOPS'],
-                        ['FAMOUSE DECK TEAM', 'WAX WRECKAZ', 'ND MANY MORE']
+                        ['FAMOUSE DECK TEAM', 'WAX WRECKAZ', 'AND MANY MORE']
                     ],
                     logistics: 'FRI 3 + SAT 4 FEBRUARY 2017 - OLYMPIAWORLD INNSBRUCK',
                     buttons: [
