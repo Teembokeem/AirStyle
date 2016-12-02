@@ -10,10 +10,10 @@
             controllerAs: 'cc'
         })
 
-    HomeCarouselCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', '$ionicSlideBoxDelegate', 'CarouselContent'];
+    HomeCarouselCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', '$ionicSlideBoxDelegate', 'Carousel'];
 
-    function HomeCarouselCtrl($log, $rootScope, $window, $scope, $ionicSlideBoxDelegate, CarouselContent) {
-        var cc = this;
+    function HomeCarouselCtrl($log, $rootScope, $window, $scope, $ionicSlideBoxDelegate, Carousel) {
+        var cc = this
 
         $scope.$watch(function() {
             return $window.innerWidth;
@@ -54,7 +54,7 @@
 
 
         cc.$onInit = function() {
-            var carousel = CarouselContent('home');
+            var carousel = Carousel('home');
             cc.slideContent = carousel.slides;
             cc.customSlide = carousel.customSlide;
         }

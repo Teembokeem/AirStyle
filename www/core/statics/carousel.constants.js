@@ -3,7 +3,7 @@
 
     angular
         .module('Statics')
-        .constant('CarouselContent', function(viewArg) {
+        .constant('Carousel', function(viewArg) {
             var slides = {
                 'home': {
                     slides: [
