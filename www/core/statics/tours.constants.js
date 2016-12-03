@@ -3,7 +3,7 @@
 
     angular
         .module('Statics')
-        .constant('Tours', function(toursArg) {
+        .constant('Tours', function(inputArg) {
             var tours = {
                 'beijing': {
                     title: 'BEIJING',
@@ -24,30 +24,30 @@
                     dest: 'app.tour-stops'
                 }
             },
-                toursKeys = Object.keys(tours),
+                Keys = Object.keys(tours),
                 constantIdentifier = 'tours';
 
  
-            return locate(toursArg, successHandler, errorHandler);
+            return locate(inputArg);
 
-            function locate(arg, success, error) {
+            function locate(arg) {
                 var key = arg != undefined ? returnOne(arg) : 'all';
 
                 switch (key) {
                     case 'all': 
-                        return success(tours);
+                        return successHandler(tours);
                         break;
                     case null || undefined:
-                        return error(arg);                        
+                        return errorHandler(arg);                        
                         break;
                     default: 
-                        return success(tours[key]);
+                        return successHandler(tours[key], false);
                         break;
                 };
             };
 
             function returnOne(queryKey) {
-                return toursKeys.filter(function(key) {
+                return Keys.filter(function(key) {
                     return queryKey == key;
                 })[0];
             }
@@ -55,15 +55,23 @@
             function errorHandler(failedArg) {
                 console.info('could not find matching key for ' + constantIdentifier + ': ');
                 console.log('Argument: ', failedArg);
-                console.log('Available Tours: ')
-                toursKeys.forEach(function(tour, index) {
-                    console.log(index + 1 + '. ' + tour)
+                console.log('Available ' + constantIdentifier + ': ')
+                Keys.forEach(function(key, index) {
+                    console.log(index + 1 + '. ' + key)
                 });
                 return new Error();
             }
 
-            function successHandler(asset) {
-                return asset;
+            function successHandler(asset, flag) {
+                if (flag === false) {
+                    return asset;
+                } else {
+                    var arr = [];
+                    for (var key in asset) {
+                        arr.push(asset[key]);   
+                    };
+                    return arr;
+                }
             }
         });
 })();
