@@ -10,36 +10,15 @@
             controllerAs: 'cc'
         })
 
-    RankingSummaryCtrl.$inject = ['$log'];
+    RankingSummaryCtrl.$inject = ['$log', 'Riders'];
 
-    function RankingSummaryCtrl($log) {
+    function RankingSummaryCtrl($log, Riders) {
         var cc = this;
 
         cc.$onInit = function () {
+            var riders = Riders();
 
-            cc.playerContent = [
-                {
-                    name: {
-                        first: 'Sven',
-                        last: 'Thorgren'
-                    },
-                    image: 'img/Sven-Thorgren.jpg'
-                },
-                {
-                    name: {
-                        first: 'Max',
-                        last: 'Parrot'
-                    },
-                    image: 'img/Max-Parrot.jpg'
-                },
-                {
-                    name: {
-                        first: 'St\xE5le',
-                        last: 'Sandbech'
-                    },
-                    image: 'img/Stale-Sandbech.jpg'
-                },
-            ]
+            cc.riders = riders;
         }
     }
 })();
