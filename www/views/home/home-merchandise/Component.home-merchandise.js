@@ -10,9 +10,9 @@
             controllerAs: 'cc'
         })
 
-    HomeMerchandiseCtrl.$inject = ['$log'];
+    HomeMerchandiseCtrl.$inject = ['$log', 'Merchandise'];
 
-    function HomeMerchandiseCtrl($log) {
+    function HomeMerchandiseCtrl($log, Merchandise) {
         var cc = this;
 
         cc.openMerch = function () {
@@ -21,23 +21,7 @@
 
         cc.$onInit = function () {
 
-            cc.merchandiseContent = [
-                {
-                    name: 'La Curved',
-                    price: parseFloat(Math.round(40.00 * 100) / 100).toFixed(2),
-                    image: 'img/shirt1.jpg'
-                },
-                {
-                    name: 'Chill or Be Chilled',
-                    price: parseFloat(Math.round(20.00 * 100) / 100).toFixed(2),
-                    image: 'img/shirt2.jpg'
-                },
-                {
-                    name: 'Amerrickan / Air + Style Collaboration',
-                    price: parseFloat(Math.round(35.00 * 100) / 100).toFixed(2),
-                    image: 'img/shirt3.jpg'
-                },
-            ]
+            cc.merchandiseContent = Merchandise();
         }
     }
 })();
