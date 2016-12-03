@@ -48,12 +48,7 @@
                     img: 'img/FLOOD_MAGAZINE_PRESENTS.png',
                     // dim: 120,
                     link: 'http://floodmagazine.com'
-                },
-                // {
-                //     img: 'img/Halfpops-Logo---Horizontal-Reversed.png',
-                //     // dim: 120,
-                //     link: 'https://www.halfpops.com/'
-                // },
+                }
             ];
         }
     }
