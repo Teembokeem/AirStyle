@@ -16,12 +16,7 @@
         var cc = this;
 
         cc.$onInit = function () {
-            var tours = Tours();
-            cc.scheduleContent = [];
-
-            Object.keys(tours).forEach(function(tourKey) {
-                cc.scheduleContent.push(tours[tourKey]);
-            })
+            cc.scheduleContent = Tours();
         }
     }
 })();
