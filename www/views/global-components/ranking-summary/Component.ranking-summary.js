@@ -10,10 +10,19 @@
             controllerAs: 'cc'
         })
 
-    RankingSummaryCtrl.$inject = ['$log', 'Riders'];
+    RankingSummaryCtrl.$inject = ['$log', 'Riders', '$state'];
 
-    function RankingSummaryCtrl($log, Riders) {
+    function RankingSummaryCtrl($log, Riders, $state) {
         var cc = this;
+
+
+        cc.stateChange = stateChange;
+
+        function stateChange(state, val) {
+            val ? $state.go(state, {avatar: val}) : $state.go(state);
+        }
+
+
 
         cc.$onInit = function () {
             var riders = Riders();
