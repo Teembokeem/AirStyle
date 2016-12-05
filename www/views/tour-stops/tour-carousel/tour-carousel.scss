@@ -11,7 +11,7 @@ tour-carousel {
             > .col {
                 .slider {
                     width: 100%;
-                    padding-top: 38vw;
+                    padding-top: 40vw;
                     height: 100%;
 
                     .slider-slides {
@@ -166,7 +166,7 @@ tour-carousel {
     tour-carousel > .container {
         height: 126vw;
         > .row > .col .slider {
-            padding-top: 160px;
+            // padding-top: 160px;
             
             .slider-slides ion-slide > .container {
                 .lineups {
@@ -224,6 +224,7 @@ tour-carousel {
 
 @media (min-width: 600px) {
     tour-carousel > .container > .row > .col .slider {
+        padding-top: 240px;
         
         .slider-slides ion-slide > .container {
             .lineups {

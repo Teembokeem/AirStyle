@@ -10,9 +10,9 @@
             controllerAs: 'cc'
         })
 
-    tourMusicCtrl.$inject = ['$log', '$rootScope', '$window', '$scope'];
+    tourMusicCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', 'Artists', '$stateParams', '$state'];
 
-    function tourMusicCtrl($log, $rootScope, $window, $scope) {
+    function tourMusicCtrl($log, $rootScope, $window, $scope, Artists, $stateParams, $state) {
         var cc = this;
 
         // cc.go = function (link) {
@@ -38,20 +38,23 @@
 
         // })
 
-        cc.$onInit = function () {
+        cc.stateChange = stateChange;
 
-            cc.tourMusicContent = [
-                {
-                    name: 'BIFFY CLYRO',
-                    image: '../img/clyro-yellow.png',
-                    dest: 'clyro'
-                },
-                {
-                    name: 'BEGINNER',
-                    image: '../img/beginner-yellow.png',
-                    dest: 'beginner'
+        function stateChange(state, val) {
+            val ? $state.go(state, {avatar: val}) : $state.go(state);
+        }
+
+        cc.$onInit = function () {
+            var artists = Artists($stateParams.tour);
+            cc.artists = [];
+            for (var artist in artists) {
+                var query = artists[artist]
+                if (query.img_yellow) {
+                    cc.artists.push(query);
                 }
-            ]
+            }
+
+            console.log(cc.artists)
         }
     }
 })();
