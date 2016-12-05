@@ -5,7 +5,7 @@
         .module('Statics')
         .constant('Carousel', function(viewArg) {
             var slides = {
-                'home': {
+                'la': {
                     slides: [
                         {
                             title: 'LOS ANGELES TICKETS',
@@ -38,8 +38,8 @@
                             image: 'img/slide1.jpg'
                         },
                     ],
-                    customSlide: {
-                        title: [
+                    hero: {
+                        lineup: [
                             ['MAJOR LAZER', 'FLUME'],
                             ['ZHU', 'CHROMEO', 'ATMOSPHERE', 'YG'],
                             ['TV ON THE RADIO', 'VINCE STAPLES', 'RUSS'],
@@ -50,6 +50,27 @@
                         plus: '../img/plus.png',
                         content: "THE WORLD’S BEST SNOWBOARDERS COMPETING ON A 16-STORY JUMP",
                         date: 'Feb 10 + 14 Expo Park DTLA'
+                    }
+                },
+                'innsbruck': {
+                    hero: {
+                        lineup: [
+                            ['BEGINNER', 'BIFFY CLYRO'],
+                            ['BILDERBUCH', 'THE NAKED AND FAMOUS'],
+                            ['FUNF STERNE DELUXE', 'LUCKY CHOPS'],
+                            ['FAMOUSE DECK TEAM', 'WAX WRECKAZ', 'AND MANY MORE']
+                        ],
+                        date: 'FRI 3 + SAT 4 FEBRUARY 2017 - OLYMPIAWORLD INNSBRUCK',
+                        buttons: [
+                            {
+                                label: 'BUY NOW',
+                                dest: 'http://air-style.at/innsbruck2017/ticket-info-2017/innsbruck2017/ticket-info-2017/'
+                            },
+                            {
+                                label: 'SCHEDULE',
+                                dest: ''
+                            }
+                        ]
                     }
                 }
             }
