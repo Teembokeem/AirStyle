@@ -2,7 +2,7 @@
 	<div ng-class="{'tour-stop-menu' : cc.showTourStops}" class="col anchor-pad">
 		<a ng-if="!cc.showTourStops" ng-class="{'disabled' : false}" ng-click="cc.showTourStops = !cc.showTourStops">TOUR STOPS</a>
 		<!--<a ng-if="!cc.showTourStops" ng-class="{'disabled' : false}">TOUR STOPS</a>-->
-		<tour-stops-menu ng-if="cc.showTourStops"></tour-stops-menu>
+		<tour-stops-menu ng-if="cc.showTourStops" class="slideInDown"></tour-stops-menu>
 	</div>
 	<div class="col anchor-pad">
 		<a ng-disabled="false" ng-class="{'disabled' : false}" ui-sref="app.lineup">LINEUP</a>

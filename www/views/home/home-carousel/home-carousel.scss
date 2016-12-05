@@ -57,12 +57,12 @@ home-carousel {
                         position: absolute;
                         background-color: rgba(0, 0, 0, 0.8);
                     }
-                    .container {
+                    > .container {
                         padding-top: 144px;
                         height: 100%;
                         * {
                             // z-index: 4;
-                            filter: grayscale(0);
+                            // filter: grayscale(0);
                         }
                         .title {
                             margin-bottom: 3rem;
@@ -581,7 +581,7 @@ home-carousel {
                             > .container {
                                 * {
                                     // z-index: 4;
-                                    filter: grayscale(0);
+                                    // filter: grayscale(0);
                                 }
                                 .title {
                                     height: 69px !important;
@@ -597,7 +597,7 @@ home-carousel {
                         }
                         ion-slide {
                             .hero-image {
-                                filter: grayscale(100%);
+                                // filter: grayscale(100%);
                             }
                         }
 

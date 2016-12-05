@@ -25,7 +25,7 @@
             $stateProvider
                 .state('app', {
                     abstract: true,
-                    url: '/app',
+                    url: '^',
                     templateUrl: dir + 'app.foundation.html',
                     controller: 'AppCtrl',
                     controllerAs: 'ac'
