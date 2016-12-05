@@ -10,9 +10,9 @@
             controllerAs: 'cc'
         })
 
-    TourCarouselCtrl.$inject = ['$log', '$rootScope', '$window', '$scope'];
+    TourCarouselCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', 'Carousel', '$stateParams'];
 
-    function TourCarouselCtrl($log, $rootScope, $window, $scope) {
+    function TourCarouselCtrl($log, $rootScope, $window, $scope, Carousel, $stateParams) {
         var cc = this;
 
         cc.go = function (link) {
@@ -38,29 +38,11 @@
 
         })
 
+        console.log($stateParams)
         cc.$onInit = function () {
+            var carousel = Carousel($stateParams.tour);
+            cc.slideContent = carousel.hero;
 
-            cc.slideContent = [
-                {
-                    lineup: [
-                        ['BEGINNER', 'BIFFY CLYRO'],
-                        ['BILDERBUCH', 'THE NAKED AND FAMOUS'],
-                        ['FUNF STERNE DELUXE', 'LUCKY CHOPS'],
-                        ['FAMOUSE DECK TEAM', 'WAX WRECKAZ', 'AND MANY MORE']
-                    ],
-                    logistics: 'FRI 3 + SAT 4 FEBRUARY 2017 - OLYMPIAWORLD INNSBRUCK',
-                    buttons: [
-                        {
-                            label: 'BUY NOW',
-                            dest: 'http://air-style.at/innsbruck2017/ticket-info-2017/innsbruck2017/ticket-info-2017/'
-                        },
-                        {
-                            label: 'SCHEDULE',
-                            dest: ''
-                        }
-                    ]
-                }
-            ]
         }
     }
 })();
