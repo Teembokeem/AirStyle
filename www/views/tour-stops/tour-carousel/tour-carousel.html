@@ -2,12 +2,10 @@
 	<div class="row nopad">
 		<div class="col nopad">
 			<ion-slide-box>
-				<ion-slide ng-repeat="slide in cc.slideContent">
-					<!--<div class="hero-image" style="background: url({{slide.image}})"></div>
-					<div class="darken"></div>-->
+				<ion-slide>
 					<div class="container">
 						<div class="container lineups">
-							<div ng-repeat="line in slide.lineup" class="row nopad lineup">
+							<div ng-repeat="line in cc.slideContent.lineup" class="row nopad lineup">
 								<div class="col nopad">
 									<span ng-repeat="word in line">{{word}}<span class="blue-dot"> {{$index == line.length - 1 ? '' : '.'}} </span></span>
 								</div>
@@ -16,15 +14,15 @@
 						<div class="container logistics">
 							<div class="row">
 								<div class="col">
-									<span class="sale">{{slide.logistics}}</span>
+									<span class="sale">{{cc.slideContent.date}}</span>
 								</div>
 							</div>
 						</div>
 						<div class="container buttons">
 							<div class="row">
 								<div class="col">
-									<!--<button ng-repeat="button in slide.buttons" ui-sref="{{button.dest}}">{{button.label}}</button>-->
-									<button ng-repeat="button in slide.buttons" ng-click="cc.go(button.dest)">{{button.label}}</button>
+									<!--<button ng-repeat="button in cc.slideContent.buttons" ui-sref="{{button.dest}}">{{button.label}}</button>-->
+									<button ng-repeat="button in cc.slideContent.buttons" ng-click="cc.go(button.dest)">{{button.label}}</button>
 								</div>
 							</div>
 						</div>
