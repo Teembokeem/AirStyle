@@ -10680,6 +10680,8 @@ home-carousel {
         home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) > .container {
           padding-top: 144px;
           height: 100%; }
+          home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) > .container * {
+            filter: grayscale(0); }
           home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) > .container .title {
             margin-bottom: 3rem;
             line-height: 3rem; }
@@ -10910,12 +10912,16 @@ home-carousel {
           background-size: cover !important;
           /* background-position-x: 0px; */
           background-position-y: -23px; }
+        home-carousel > .container .row .col .slider .slider-slides ion-slide > .container * {
+          filter: grayscale(0); }
         home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .title {
           height: 69px !important; }
           home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .title .col span {
             font-size: 64px; }
         home-carousel > .container .row .col .slider .slider-slides ion-slide > .container .content {
           margin-bottom: 32px; }
+      home-carousel > .container .row .col .slider .slider-slides ion-slide .hero-image {
+        filter: grayscale(100%); }
       home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container {
         padding-top: 18%; }
         home-carousel > .container .row .col .slider .slider-slides ion-slide:nth-child(n + 2) .container .title {
@@ -11424,7 +11430,7 @@ tour-carousel {
       height: 100%; }
       tour-carousel > .container > .row > .col .slider {
         width: 100%;
-        padding-top: 38vw;
+        padding-top: 40vw;
         height: 100%; }
         tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container {
           text-align: center;
@@ -11507,19 +11513,17 @@ tour-carousel {
 @media (min-width: 420px) {
   tour-carousel > .container {
     height: 126vw; }
-    tour-carousel > .container > .row > .col .slider {
-      padding-top: 160px; }
-      tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(3) {
-        letter-spacing: 0.1rem; }
-      tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(4) {
-        letter-spacing: 0.07rem;
-        line-height: 1; }
-      tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(n + 2) {
-        margin-bottom: 6vw; }
-      tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .buttons > .row .col button {
-        width: 171px; }
-      tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .buttons > .row .col button:first-child {
-        margin-right: 1vw; } }
+    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(3) {
+      letter-spacing: 0.1rem; }
+    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(4) {
+      letter-spacing: 0.07rem;
+      line-height: 1; }
+    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(n + 2) {
+      margin-bottom: 6vw; }
+    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .buttons > .row .col button {
+      width: 171px; }
+    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .buttons > .row .col button:first-child {
+      margin-right: 1vw; } }
 
 @media (min-width: 500px) {
   tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(3) {
@@ -11528,14 +11532,16 @@ tour-carousel {
     letter-spacing: 0.09rem; } }
 
 @media (min-width: 600px) {
-  tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(2) {
-    letter-spacing: 0.014rem; }
-  tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(3) {
-    letter-spacing: 0.15rem; }
-  tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(4) {
-    letter-spacing: 0.15rem;
-    line-height: 1;
-    font-size: 29px; } }
+  tour-carousel > .container > .row > .col .slider {
+    padding-top: 240px; }
+    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(2) {
+      letter-spacing: 0.014rem; }
+    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(3) {
+      letter-spacing: 0.15rem; }
+    tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(4) {
+      letter-spacing: 0.15rem;
+      line-height: 1;
+      font-size: 29px; } }
 
 @media (min-width: 700px) {
   tour-carousel > .container > .row > .col .slider .slider-slides ion-slide > .container .lineups .lineup:nth-child(2) {
