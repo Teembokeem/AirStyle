@@ -5,16 +5,16 @@
 		</div>
 	</div>
 	<div class="row">
-		<div ng-repeat="artist in cc.tourMusicContent" ui-sref="app.artist({artist: artist.dest})" class="col">
+		<div ng-repeat="artist in cc.artists" ng-click="cc.stateChange('app.artist', artist.ref)" class="col">
 			<div class="container">
 				<div class="row full-image">
 					<div class="col image">
-						<img ng-src="{{artist.image}}" alt="">
+						<img ng-src="{{artist.img_yellow}}" alt="">
 					</div>
 				</div>
 				<div class="row floating-name">
 					<div class="col name">
-						<span>{{artist.name}}</span>
+						<span>{{artist.name | uppercase}}</span>
 					</div>
 				</div>
 			</div>
