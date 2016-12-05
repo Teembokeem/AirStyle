@@ -54,9 +54,9 @@
 
 
         cc.$onInit = function() {
-            var carousel = Carousel('home');
-            cc.slideContent = carousel.slides;
-            cc.customSlide = carousel.customSlide;
+            var carousel = Carousel('la');
+            cc.slideContent = [Carousel('la').slide, Carousel('innsbruck').slide];
+            cc.customSlide = carousel.hero;
         }
     }
 })();

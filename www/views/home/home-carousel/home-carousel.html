@@ -1,14 +1,13 @@
 <div class="container nopad">
 	<div class="row nopad">
 		<div class="col nopad">
-			<!--<ion-slide-box auto-play="true" slide-interval="3000" does-continue="true">-->
 			<ion-slide-box delegate-handle="carousel" pager-click="cc.moveSlide(index)" auto-play="true" slide-interval="3000" does-continue="true">
 				<ion-slide class="la-lineup">
 					<div class="container">
 						<div class="title-container container">
-							<div ng-repeat="titleSegment in cc.customSlide.title" class="row title">
+							<div ng-repeat="lineupSegment in cc.customSlide.lineup" class="row title">
 								<div class="col">
-									<span ng-repeat="title in titleSegment">{{title}} <span class="blue-dot">{{$index == titleSegment.length - 1 ? '' : '.'}} </span></span>
+									<span ng-repeat="artist in lineupSegment">{{artist}} <span class="blue-dot">{{$index == lineupSegment.length - 1 ? '' : '.'}} </span></span>
 								</div>
 							</div>
 						</div>
