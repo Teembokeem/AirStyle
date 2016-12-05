@@ -6,38 +6,21 @@
         .constant('Carousel', function(viewArg) {
             var slides = {
                 'la': {
-                    slides: [
-                        {
-                            title: 'LOS ANGELES TICKETS',
-                            content: 'ON SALE NOW',
-                            buttons: [
-                                {
-                                    label: 'Learn More',
-                                    dest: 'http://www.air-style.at'
-                                },
-                                {
-                                    label: 'Buy Now',
-                                    dest: 'https://airandstyle.frontgatetickets.com/'
-                                }
-                            ],
-                            image: 'img/slide2.jpg'
-                        },
-                        {
-                            title: 'INNSBRUCK -TIROL TICKETS',
-                            content: 'ON SALE NOW',
-                            buttons: [
-                                {
-                                    label: 'Learn More',
-                                    dest: 'http://www.air-style.at'
-                                },
-                                {
-                                    label: 'Buy Now',
-                                    dest: 'http://air-style.at/innsbruck2017/ticket-info-2017/'
-                                }
-                            ],
-                            image: 'img/slide1.jpg'
-                        },
-                    ],
+                    slide: {
+                        title: 'LOS ANGELES TICKETS',
+                        content: 'ON SALE NOW',
+                        buttons: [
+                            {
+                                label: 'Learn More',
+                                dest: 'http://www.air-style.at'
+                            },
+                            {
+                                label: 'Buy Now',
+                                dest: 'https://airandstyle.frontgatetickets.com/'
+                            }
+                        ],
+                        image: 'img/slide2.jpg'
+                    },
                     hero: {
                         lineup: [
                             ['MAJOR LAZER', 'FLUME'],
@@ -53,6 +36,21 @@
                     }
                 },
                 'innsbruck': {
+                    slide: {
+                        title: 'INNSBRUCK -TIROL TICKETS',
+                        content: 'ON SALE NOW',
+                        buttons: [
+                            {
+                                label: 'Learn More',
+                                dest: 'http://www.air-style.at'
+                            },
+                            {
+                                label: 'Buy Now',
+                                dest: 'http://air-style.at/innsbruck2017/ticket-info-2017/'
+                            }
+                        ],
+                        image: 'img/slide1.jpg'
+                    },
                     hero: {
                         lineup: [
                             ['BEGINNER', 'BIFFY CLYRO'],
