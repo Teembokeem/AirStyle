@@ -10604,8 +10604,9 @@ avatar-panels > .container {
       avatar-panels > .container > .row > .col > .container {
         width: 100%;
         position: relative; }
-        avatar-panels > .container > .row > .col > .container .row .col img {
-          width: 100%;
+        avatar-panels > .container > .row > .col > .container .row .col .panel-image {
+          height: 400px;
+          width: 400px;
           border: 8px solid white; }
         avatar-panels > .container > .row > .col > .container .blue-container {
           position: absolute;
@@ -12548,9 +12549,9 @@ rider-bio > .container {
       min-width: 28vw;
       position: relative;
       bottom: 1rem; }
-      rider-bio > .container > .row > .col:nth-child(2) .image-container .row .col img {
-        max-width: 150%;
-        height: 100%; }
+      rider-bio > .container > .row > .col:nth-child(2) .image-container .row .col .rider-image {
+        height: 100%;
+        width: 100%; }
     rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:first-child {
       background-color: #1f1f1f;
       height: 3rem; }

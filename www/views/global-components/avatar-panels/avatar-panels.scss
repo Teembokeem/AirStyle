@@ -1,26 +1,24 @@
 avatar-panels {
-    > .container {
+    >.container {
         padding-top: 5rem;
-
-        > .row {
+        >.row {
             flex-flow: row wrap;
             justify-content: center;
-            > .col {    
+            >.col {
                 min-width: 300px;
                 margin: 0 3rem;
-                > .container {
+                >.container {
                     width: 100%;
                     position: relative;
-
                     .row {
                         .col {
-                            img {
-                                width: 100%;
+                            .panel-image {
+                                height: 400px;
+                                width: 400px;
                                 border: 8px solid white;
                             }
                         }
                     }
-
                     .blue-container {
                         position: absolute;
                         bottom: 5rem;
@@ -28,10 +26,9 @@ avatar-panels {
                         width: 12rem;
                         height: 6rem;
                         padding-left: 1rem;
-                        background-color: $as-blue ;
+                        background-color: $as-blue;
                         display: flex;
                         align-items: center;
-
                         span {
                             color: black;
                             font-family: 'Apercu';
@@ -43,7 +40,7 @@ avatar-panels {
                     }
                 }
             }
-            > .col:nth-child(-n + 3) {
+            >.col:nth-child(-n + 3) {
                 margin-bottom: 5rem;
             }
         }
@@ -52,12 +49,12 @@ avatar-panels {
 
 @media(min-width: 1024px) {
     avatar-panels {
-        > .container {
-            > .row {
-                > .col {
+        >.container {
+            >.row {
+                >.col {
                     min-width: 380px;
                     max-width: 430px;
-                    > .container {
+                    >.container {
                         .blue-container {
                             right: -2rem;
                         }
@@ -70,10 +67,10 @@ avatar-panels {
 
 @media(min-width: 1440px) {
     avatar-panels {
-        > .container {
-            > .row {
-                > .col {
-                    > .container {
+        >.container {
+            >.row {
+                >.col {
+                    >.container {
                         .blue-container {
                             right: -1rem;
                         }

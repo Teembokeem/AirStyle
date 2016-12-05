@@ -1,59 +1,59 @@
-(function() {
+(function () {
     'use strict';
 
     angular
         .module('Statics')
-        .constant('Riders', function(inputArg) {
+        .constant('Riders', function (inputArg) {
             var riders = {
-                'sthorgren': {
-                    name: {
-                        first: 'Sven',
-                        last: 'Thorgren'
+                    'sthorgren': {
+                        name: {
+                            first: 'Sven',
+                            last: 'Thorgren'
+                        },
+                        ref: 'sthorgren',
+                        image: 'img/loRiders/Sven-Thorgren.jpg',
                     },
-                    ref:'sthorgren',
-                    image: 'img/Sven-Thorgren.jpg',
-                },
-                'mparrot': {
-                    name: {
-                        first: 'Max',
-                        last: 'Parrot'
+                    'mparrot': {
+                        name: {
+                            first: 'Max',
+                            last: 'Parrot'
+                        },
+                        ref: 'mparrot',
+                        image: 'img/loRiders/Max-Parrot.jpg',
                     },
-                    ref: 'mparrot',
-                    image: 'img/Max-Parrot.jpg',
-                },
-                'sSandbech': {
-                    name: {
-                        first: 'St\xE5le',
-                        last: 'Sandbech'
+                    'sSandbech': {
+                        name: {
+                            first: 'St\xE5le',
+                            last: 'Sandbech'
+                        },
+                        ref: 'sSandbech',
+                        image: 'img/loRiders/Stale-Sandbech.jpg',
                     },
-                    ref: 'sSandbech',
-                    image: 'img/Stale-Sandbech.jpg',
                 },
-            },
                 Keys = Object.keys(riders),
                 constantIdentifier = 'riders';
 
- 
+
             return locate(inputArg);
 
             function locate(arg) {
                 var key = arg != undefined ? returnOne(arg) : 'all';
 
                 switch (key) {
-                    case 'all': 
+                    case 'all':
                         return successHandler(riders);
                         break;
                     case null || undefined:
-                        return errorHandler(arg);                        
+                        return errorHandler(arg);
                         break;
-                    default: 
+                    default:
                         return successHandler(riders[key], false);
                         break;
                 };
             };
 
             function returnOne(queryKey) {
-                return Keys.filter(function(key) {
+                return Keys.filter(function (key) {
                     return queryKey == key;
                 })[0];
             }
@@ -62,7 +62,7 @@
                 console.info('could not find matching key for ' + constantIdentifier + ': ');
                 console.log('Argument: ', failedArg);
                 console.log('Available ' + constantIdentifier + ': ')
-                Keys.forEach(function(key, index) {
+                Keys.forEach(function (key, index) {
                     console.log(index + 1 + '. ' + key)
                 });
                 return new Error();
@@ -74,7 +74,7 @@
                 } else {
                     var arr = [];
                     for (var key in asset) {
-                        arr.push(asset[key]);   
+                        arr.push(asset[key]);
                     };
                     return arr;
                 }

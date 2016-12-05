@@ -1,8 +1,8 @@
 rider-bio {
-    > .container {
+    >.container {
         padding: 10rem 6rem 0 6rem;
-        > .row {
-            > .col:first-child {
+        >.row {
+            >.col:first-child {
                 max-width: 50vw;
                 .name-container {
                     margin-bottom: 2rem;
@@ -15,7 +15,6 @@ rider-bio {
                         }
                     }
                 }
-
                 .snippet-container {
                     margin-bottom: 2rem;
                     .row {
@@ -29,16 +28,12 @@ rider-bio {
                             span:first-child {
                                 color: #848484;
                             }
-
-                            span:nth-child(2) {
-                            }
+                            span:nth-child(2) {}
                         }
                     }
                 }
-
                 .social-container {
                     margin-bottom: 1.5rem;
-
                     .row {
                         .col {
                             max-width: 100px;
@@ -47,7 +42,6 @@ rider-bio {
                         }
                     }
                 }
-
                 .years-container {
                     margin-bottom: 1.5rem;
                     .row {
@@ -56,19 +50,16 @@ rider-bio {
                                 font-size: 22px;
                                 margin-right: 1rem;
                             }
-
                             span:first-child {
                                 font-family: 'Apercu';
                                 color: #848484;
                             }
-
                             span:nth-child(n + 2) {
                                 color: $as-blue;
                             }
                         }
                     }
                 }
-
                 .bio-container {
                     margin-bottom: 2rem;
                     .row {
@@ -81,11 +72,9 @@ rider-bio {
                         }
                     }
                 }
-
                 .video-container {
                     margin-bottom: 2rem;
                 }
-
                 .sponsors-container {
                     .row {
                         .col {
@@ -93,22 +82,18 @@ rider-bio {
                                 font-size: 22px;
                                 margin-right: 1rem;
                             }
-
                             span:first-child {
                                 font-family: 'Apercu';
                                 color: #848484;
                             }
-
                             span:nth-child(n + 2) {
                                 color: $as-blue;
                             }
                         }
                     }
                 }
-
             }
-
-            > .col:nth-child(2) {
+            >.col:nth-child(2) {
                 max-width: 23rem;
                 .image-container {
                     .row {
@@ -121,82 +106,69 @@ rider-bio {
                             min-width: 28vw;
                             position: relative;
                             bottom: 1rem;
-
-                            img {
-                                max-width: 150%;
+                            .rider-image {
                                 height: 100%;
+                                width: 100%;
                             }
                         }
                     }
                 }
-
                 .score-container {
-                    > .row {
-                       > .col {
-                           > .row:first-child {
-                               background-color: #1f1f1f;
-                               height: 3rem;
-
-                               .col:first-child {
-                                   display: flex;
-                                   align-items: center;
-                                   padding-top: 0.7rem;
-
-                                   span {
-                                       color: #404040;
-                                       font-size: 31px;
-                                   }
-                               }
-
-                               .col:nth-child(2) {
-                                   display: flex;
-                                   align-items: center;
-                                   padding-top: 0.7rem;
-                                   justify-content: flex-end;
-
-                                   span {
-                                       font-size: 20px;
-                                   }
-                               }
-                           }
-
-                           > .row:nth-child(2) {
-                               padding-top: 1rem;
-                               background-color: #151515;
-                               > .col {
-                                   max-width: 110px;
-
-                                   .row:first-child {
-                                       .col {
-                                           text-align: center;
-                                           
-                                           span {
-                                               font-size: 1rem;
-                                           }
-                                       }
-                                   }
-
-                                   .row:nth-child(2) {
-                                       .col {
-                                           text-align: center;
-                                           font-size: 1.3rem;
-
-                                           span.beijing {
-                                               color: $as-green;
-                                           }
-
-                                           span.la {
-                                               color: $as-blue;
-                                           }
-                                           
-                                           span.innsbruck {
-                                               color: $as-yellow;
-                                           }
-                                       }
-                                   }
-                               }
-                           }
-                       }
+                    >.row {
+                        >.col {
+                            >.row:first-child {
+                                background-color: #1f1f1f;
+                                height: 3rem;
+                                .col:first-child {
+                                    display: flex;
+                                    align-items: center;
+                                    padding-top: 0.7rem;
+                                    span {
+                                        color: #404040;
+                                        font-size: 31px;
+                                    }
+                                }
+                                .col:nth-child(2) {
+                                    display: flex;
+                                    align-items: center;
+                                    padding-top: 0.7rem;
+                                    justify-content: flex-end;
+                                    span {
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+                            >.row:nth-child(2) {
+                                padding-top: 1rem;
+                                background-color: #151515;
+                                >.col {
+                                    max-width: 110px;
+                                    .row:first-child {
+                                        .col {
+                                            text-align: center;
+                                            span {
+                                                font-size: 1rem;
+                                            }
+                                        }
+                                    }
+                                    .row:nth-child(2) {
+                                        .col {
+                                            text-align: center;
+                                            font-size: 1.3rem;
+                                            span.beijing {
+                                                color: $as-green;
+                                            }
+                                            span.la {
+                                                color: $as-blue;
+                                            }
+                                            span.innsbruck {
+                                                color: $as-yellow;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -206,9 +178,9 @@ rider-bio {
 
 @media(min-width:1024px) {
     rider-bio {
-        > .container {
-            > .row {
-                > .col:nth-child(2) {
+        >.container {
+            >.row {
+                >.col:nth-child(2) {
                     .image-container {
                         .row {
                             .col {
