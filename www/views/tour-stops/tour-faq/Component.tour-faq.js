@@ -10,11 +10,16 @@
             controllerAs: 'cc'
         })
 
-    TourFaqCtrl.$inject = ['$log'];
+    TourFaqCtrl.$inject = ['$log', '$state'];
 
-    function TourFaqCtrl($log) {
+    function TourFaqCtrl($log, $state) {
         var cc = this;
         cc.showContent = -1;
+        cc.stateChange = stateChange;
+
+        function stateChange(state, val) {
+            val ? $state.go(state, {avatar: val}) : $state.go(state);
+        }
 
         cc.$onInit = function () {
 
