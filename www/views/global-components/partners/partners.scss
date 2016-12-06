@@ -34,6 +34,8 @@ partners {
                     justify-content: center;
                     align-items: center;
                     .partner {
+                        transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+                        filter: grayscale(100%);
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -51,6 +53,10 @@ partners {
                                 margin-bottom: 2rem;
                             }
                         }
+                    }
+
+                    .partner:hover {
+                        filter: grayscale(0);
                     }
                 }
             }

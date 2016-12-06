@@ -12,11 +12,11 @@ subscribe {
                             flex-flow: row wrap;
                             justify-content: center;
                             .input {
-                                min-width: 280px;
+                                min-width: 300px;
                                 font-family: 'Apercu';
-                                border: 2px solid white;
+                                border: 1.5px solid grey;
                                 padding: 1.5rem;
-                                min-height: 4rem;
+                                min-height: 3.5rem;
                                 width: 30rem;
                                 margin-bottom: 1rem;
                             }
@@ -32,14 +32,14 @@ subscribe {
 
                             .submit {
                                 border: none;
-                                background-color: $as-blue;
+                                background-color: #40caff;
                                 color: black;
                                 font-family: 'Apercu';
-                                max-width: 150px;
-                                min-width: 140px;
+                                max-width: 170px;
+                                min-width: 160px;
                                 font-size: 20px;
-                                min-height: 3rem;
-
+                                min-height: 3.5rem;
+                                max-height: 3.5rem;
                             }
                         }
                     }

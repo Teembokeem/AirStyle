@@ -49,14 +49,14 @@
                 .price {
                     width: 100px;
                     max-width: 107px;
-                    height: 42px;
+                    height: 60px;
                     background-color: $as-yellow;
                     justify-content: center;
                     display: flex;
                     align-items: center;
                     position: absolute;
                     top: 2.5rem;
-                    right: -1rem;
+                    right: 0rem;
 
                     span {
                         font-size: 20px;
@@ -111,6 +111,7 @@
                 justify-content: center;
                 align-items: center;
                 button {
+                    font-family: 'Apercu';
                     font-size: 18px;
                     border: none;
                 }
@@ -162,13 +163,14 @@
 
                     .price {
 
+
                         span {
                             font-size: 26px;
                         }
                     }
 
                     .name {
-                            bottom: 17.5px;
+                            top: 83%;
                     }
                 }   
             }
