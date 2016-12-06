@@ -9876,7 +9876,7 @@ nav {
   width: 100vw;
   padding: 1rem 1rem 0 1rem;
   z-index: 2;
-  background-color: transparent !important; }
+  background-color: transparent; }
   nav .as-nav {
     position: relative;
     display: flex;
@@ -9910,8 +9910,9 @@ nav {
       nav .as-nav .hamburger button {
         position: relative;
         border: none;
-        left: 0.5rem;
-        padding-top: 0; }
+        left: 0.75rem;
+        padding-top: 0;
+        bottom: 0.2rem; }
         nav .as-nav .hamburger button i {
           display: flex;
           font-size: 1.3rem; }
@@ -10797,7 +10798,8 @@ home-carousel {
             font-family: 'Reglo-Bold';
             color: #828282; }
       home-carousel > .container .row .col .slider .slider-pager {
-        bottom: 5rem; }
+        bottom: 5rem !important;
+        position: relative !important; }
         home-carousel > .container .row .col .slider .slider-pager .slider-pager-page {
           width: 20px;
           height: 20px;

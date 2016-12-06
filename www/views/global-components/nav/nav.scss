@@ -3,7 +3,7 @@ nav {
     width: 100vw;
     padding: 1rem 1rem 0 1rem;
     z-index: 2;
-    background-color: transparent !important;
+    background-color: transparent;
 
     .as-nav {
         position: relative;
@@ -47,8 +47,9 @@ nav {
             button {
                 position: relative;
                 border: none;
-                left: 0.5rem;
+                left: 0.75rem;
                 padding-top: 0;
+                bottom: 0.2rem;
                 i {
                     display: flex;
                     font-size: 1.3rem;

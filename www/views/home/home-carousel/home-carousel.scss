@@ -247,7 +247,8 @@ home-carousel {
             }
 
             .slider-pager {
-                bottom: 5rem;
+                bottom: 5rem !important;
+                position: relative !important;
                 .slider-pager-page {
                     width: 20px;
                     height: 20px;
