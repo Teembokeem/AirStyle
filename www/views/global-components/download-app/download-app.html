@@ -6,8 +6,7 @@
     </div>
     <div class="row cta">
         <div class="col">
-            <img src="../img/android-cta.png" alt="">
-            <img src="../img/ios-cta.png" alt="">
+            <img ng-repeat="cta in cc.ctas" ng-click="cc.go(cta.link)" ng-src="{{cta.image}}" alt="">
         </div>
     </div>
 </div>
