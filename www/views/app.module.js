@@ -31,7 +31,7 @@
                     controllerAs: 'ac'
                 })
 
-            $urlRouterProvider.otherwise('/app/home')
+            $urlRouterProvider.otherwise('/home')
         })
 
         .run(function ($rootScope) {
