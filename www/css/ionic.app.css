@@ -10196,7 +10196,8 @@ ranking-summary > .container {
         display: flex;
         align-items: center; }
         ranking-summary > .container .more .col button span {
-          font-size: 18px; }
+          font-size: 18px;
+          font-family: 'Apercu'; }
 
 @media (min-width: 360px) {
   ranking-summary > .container .player-container {
@@ -10454,6 +10455,8 @@ partners > .container {
         justify-content: center;
         align-items: center; }
         partners > .container .partner-container .container .row .partner {
+          transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+          filter: grayscale(100%);
           display: flex;
           justify-content: center;
           align-items: center;
@@ -10464,6 +10467,8 @@ partners > .container {
             max-width: 150px; }
           partners > .container .partner-container .container .row .partner a img:nth-child(-n + 5) {
             margin-bottom: 2rem; }
+        partners > .container .partner-container .container .row .partner:hover {
+          filter: grayscale(0); }
 
 @media (min-width: 1024px) {
   partners > .container .section-title {
@@ -10501,11 +10506,11 @@ subscribe .subscribe-container .subscribe-1 .subscribe-1-1 {
       flex-flow: row wrap;
       justify-content: center; }
       subscribe .subscribe-container .subscribe-1 .subscribe-1-1 .email-container .email-1 .email-1-1 .input {
-        min-width: 280px;
+        min-width: 300px;
         font-family: 'Apercu';
-        border: 2px solid white;
+        border: 1.5px solid grey;
         padding: 1.5rem;
-        min-height: 4rem;
+        min-height: 3.5rem;
         width: 30rem;
         margin-bottom: 1rem; }
       subscribe .subscribe-container .subscribe-1 .subscribe-1-1 .email-container .email-1 .email-1-1 input[type="text"] {
@@ -10519,10 +10524,11 @@ subscribe .subscribe-container .subscribe-1 .subscribe-1-1 {
         background-color: #40caff;
         color: black;
         font-family: 'Apercu';
-        max-width: 150px;
-        min-width: 140px;
+        max-width: 170px;
+        min-width: 160px;
         font-size: 20px;
-        min-height: 3rem; }
+        min-height: 3.5rem;
+        max-height: 3.5rem; }
 
 @media (min-width: 420px) {
   subscribe .subscribe-container .subscribe-1 .subscribe-1-1 .email-container .email-1 .email-1-1 .submit {
@@ -11150,14 +11156,14 @@ home-merchandise > .container .merchandise {
     home-merchandise > .container .merchandise .merchandise-container .price {
       width: 100px;
       max-width: 107px;
-      height: 42px;
+      height: 60px;
       background-color: #f9fe17;
       justify-content: center;
       display: flex;
       align-items: center;
       position: absolute;
       top: 2.5rem;
-      right: -1rem; }
+      right: 0rem; }
       home-merchandise > .container .merchandise .merchandise-container .price span {
         font-size: 20px;
         position: relative;
@@ -11191,6 +11197,7 @@ home-merchandise > .container .more {
     justify-content: center;
     align-items: center; }
     home-merchandise > .container .more .col button {
+      font-family: 'Apercu';
       font-size: 18px;
       border: none; }
 
@@ -11225,7 +11232,7 @@ home-merchandise > .container .more {
       home-merchandise > .container .merchandise .merchandise-container .price span {
         font-size: 26px; }
       home-merchandise > .container .merchandise .merchandise-container .name {
-        bottom: 17.5px; } }
+        top: 83%; } }
 
 @media (min-width: 1440px) {
   home-merchandise > .container .merchandise .merchandise-container .image {
