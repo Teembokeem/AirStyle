@@ -97,6 +97,7 @@ rider-bio {
                 max-width: 23rem;
                 .image-container {
                     .row {
+                        justify-content: center;
                         .col {
                             border: 7px solid;
                             height: 24rem;
@@ -106,9 +107,13 @@ rider-bio {
                             min-width: 28vw;
                             position: relative;
                             bottom: 1rem;
+                            max-width: 300px;
+                            max-height: 400px;
                             .rider-image {
-                                height: 100%;
+                                height: 100% !important;
                                 width: 100%;
+                                background-repeat: no-repeat !important;
+                                background-position: center !important;
                             }
                         }
                     }

@@ -10140,13 +10140,15 @@ ranking-summary > .container {
   ranking-summary > .container .player-container {
     margin: 0 auto;
     width: 100%;
-    max-width: 360px;
-    max-height: 500px;
+    max-width: 300px;
+    max-height: 400px;
     height: 151vw;
     border: solid 8px white;
     display: flex;
     justify-content: center;
-    align-items: flex-end; }
+    align-items: flex-end;
+    background-repeat: no-repeat !important;
+    background-position: center !important; }
     ranking-summary > .container .player-container .container {
       height: 120px;
       width: 100%;
@@ -12555,18 +12557,24 @@ rider-bio > .container {
       color: #40caff; }
   rider-bio > .container > .row > .col:nth-child(2) {
     max-width: 23rem; }
-    rider-bio > .container > .row > .col:nth-child(2) .image-container .row .col {
-      border: 7px solid;
-      height: 24rem;
-      display: flex;
-      justify-content: center;
-      overflow: hidden;
-      min-width: 28vw;
-      position: relative;
-      bottom: 1rem; }
-      rider-bio > .container > .row > .col:nth-child(2) .image-container .row .col .rider-image {
-        height: 100%;
-        width: 100%; }
+    rider-bio > .container > .row > .col:nth-child(2) .image-container .row {
+      justify-content: center; }
+      rider-bio > .container > .row > .col:nth-child(2) .image-container .row .col {
+        border: 7px solid;
+        height: 24rem;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        min-width: 28vw;
+        position: relative;
+        bottom: 1rem;
+        max-width: 300px;
+        max-height: 400px; }
+        rider-bio > .container > .row > .col:nth-child(2) .image-container .row .col .rider-image {
+          height: 100% !important;
+          width: 100%;
+          background-repeat: no-repeat !important;
+          background-position: center !important; }
     rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:first-child {
       background-color: #1f1f1f;
       height: 3rem; }

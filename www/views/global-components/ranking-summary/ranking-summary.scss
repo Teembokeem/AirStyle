@@ -18,13 +18,16 @@ ranking-summary {
          .player-container {
             margin: 0 auto;
             width: 100%;
-            max-width: 360px;
-            max-height: 500px;
+            max-width: 300px;
+            max-height: 400px;
             height: 151vw;
             border: solid 8px white;
             display: flex;
             justify-content: center;
             align-items: flex-end;
+            background-repeat: no-repeat !important;
+            background-position: center !important;
+            //  background-size: contain !important;
 
             .container {
                 height: 120px;
