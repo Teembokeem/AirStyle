@@ -23,7 +23,7 @@
         $scope.$watch(function() {
             return $window.innerWidth;
         }, function(a, b, c) {
-            cc.width = 0.90 * $window.innerWidth;
+            cc.width = 0.80 * $window.innerWidth;
             cc.length = 315 / 560 * cc.width;
             //     // console.log(a, b, c)
             //     if (a < 1024) {
