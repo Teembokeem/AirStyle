@@ -11260,24 +11260,37 @@ ticket-title .container {
         font-weight: bold;
         letter-spacing: 4px; }
 
+@media (min-width: 375px) and (max-width: 650px) {
+  ticket-title > .container .row:first-child .col span {
+    font-size: 3em; }
+  ticket-title > .container .row:nth-child(2) .col span {
+    font-size: 1.4em;
+    font-family: 'Apercu';
+    font-weight: bold;
+    letter-spacing: 2.1px;
+    color: #828282; } }
+
 ticket-items > .container {
-  margin-top: 63px; }
+  margin-top: 3em; }
   ticket-items > .container .content {
     margin-bottom: 1.14em; }
   ticket-items > .container .content.disabled {
     opacity: 0.5; }
   ticket-items > .container .item {
     margin: 0;
-    height: 5.9em;
+    height: 100%;
+    min-height: 5.9em;
     background-color: #424242;
     border: none;
-    width: 70em;
+    width: 95%;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    padding-bottom: 10px; }
     ticket-items > .container .item .expand {
       max-width: 4.07em;
       justify-content: center;
       display: flex;
+      margin: 0 10px;
       align-items: center; }
       ticket-items > .container .item .expand .circle {
         width: 1.6em;
@@ -11294,25 +11307,26 @@ ticket-items > .container {
         border: 2px solid #40caff; }
     ticket-items > .container .item .description {
       padding-top: 2.1em;
-      align-items: center;
-      min-width: 53.7em; }
+      align-items: center; }
       ticket-items > .container .item .description .row + .row {
         padding-top: 0.5em; }
       ticket-items > .container .item .description .option-name .col span {
         font-size: 2.14em; }
-      ticket-items > .container .item .description .short-description .col span {
-        color: #828282;
-        font-size: 1.14em; }
+      ticket-items > .container .item .description .short-description .col {
+        display: flex;
+        flex-wrap: wrap; }
+        ticket-items > .container .item .description .short-description .col span {
+          color: #828282;
+          font-size: 1.14em; }
     ticket-items > .container .item .pricing {
-      display: flex;
-      align-items: center;
-      font-size: 1.88em;
-      margin-right: 1em;
-      max-width: 1.9em; }
+      float: right;
+      padding-right: 10px; }
     ticket-items > .container .item .quantity {
       justify-content: center;
       display: flex;
-      align-items: center; }
+      align-items: center;
+      align-self: flex-start;
+      padding-top: 1.1em; }
       ticket-items > .container .item .quantity select {
         -webkit-appearance: none;
         -webkit-border-radius: 0;
@@ -11338,7 +11352,7 @@ ticket-items > .container {
     background-color: #424242;
     margin-left: auto;
     margin-right: auto;
-    width: 80em;
+    width: 95%;
     padding-top: 2.5em;
     padding-left: 4.07em;
     display: block; }
@@ -11385,11 +11399,37 @@ ticket-items > .container {
         font-size: 1.14em;
         color: #828282; }
 
+@media (min-width: 375px) and (max-width: 550px) {
+  ticket-items > .container .item .col-33 {
+    max-width: 50%;
+    flex: 0 0 50%; }
+  ticket-items > .container .item .description {
+    padding-top: 1.1em; }
+    ticket-items > .container .item .description .short-description .col span {
+      font-size: 0.83em; }
+    ticket-items > .container .item .description .option-name .col span {
+      font-size: 1.2em; }
+  ticket-items > .container .item .pricing {
+    font-size: 0.5em; } }
+
+@media (min-width: 550px) {
+  ticket-items > .container .row:first-child .col span {
+    font-size: 1em; }
+  ticket-items > .container .item .col-33 {
+    max-width: 70%;
+    flex: 0 0 70%; }
+  ticket-items > .container .item .description .short-description .col span {
+    font-size: 1em; } }
+
+@media (min-width: 1124px) {
+  ticket-items > .container .item .col-33 {
+    max-width: 80%;
+    flex: 0 0 80%; } }
+
 ticket-footer .container {
-  height: 7.785em;
+  height: auto;
   background-color: white;
   margin: 0 auto;
-  bottom: 0;
   width: 100%; }
   ticket-footer .container .row {
     display: flex;
@@ -11399,14 +11439,13 @@ ticket-footer .container {
     ticket-footer .container .row .quantity-container {
       position: relative;
       text-align: right;
-      left: 38em; }
+      padding: 10px 0; }
       ticket-footer .container .row .quantity-container span {
         color: #828282;
         font-size: 1.14em;
         margin-right: 0.5em; }
     ticket-footer .container .row .pricing {
-      position: relative;
-      left: 39em; }
+      position: relative; }
       ticket-footer .container .row .pricing .label {
         color: #828282;
         font-size: 2.14em; }
@@ -11414,10 +11453,9 @@ ticket-footer .container {
         color: black;
         font-size: 2.14em; }
     ticket-footer .container .row .action {
-      position: relative;
-      left: 19.5em; }
+      position: relative; }
       ticket-footer .container .row .action .button-container {
-        width: 11.86em;
+        width: 100%;
         height: 4em;
         background-color: #40caff;
         justify-content: center;
@@ -11428,6 +11466,12 @@ ticket-footer .container {
           font-size: 1.57em;
           border: none;
           color: black; }
+
+@media (min-width: 375px) and (max-width: 550px) {
+  ticket-footer .container .row .quantity-container {
+    text-align: center; }
+  ticket-footer .container .row .pricing {
+    text-align: center; } }
 
 .tour-stops-view ion-content .scroll ranking-summary > .container {
   margin-top: 100px; }

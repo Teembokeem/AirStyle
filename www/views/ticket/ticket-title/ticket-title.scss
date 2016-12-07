@@ -1,7 +1,6 @@
 ticket-title {
     .container {
         padding-top: 7rem;
-
         .row:first-child {
             .col {
                 text-align: center;
@@ -11,9 +10,8 @@ ticket-title {
                 }
             }
         }
-
         .row:nth-child(2) {
-            margin-top:15px;
+            margin-top: 15px;
             .col {
                 text-align: center;
                 span {
@@ -21,6 +19,31 @@ ticket-title {
                     font-family: 'Apercu';
                     font-weight: bold;
                     letter-spacing: 4px;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:375px) and (max-width: 650px) {
+    ticket-title {
+        >.container {
+            .row:first-child {
+                .col {
+                    span {
+                        font-size: 3em;
+                    }
+                }
+            }
+            .row:nth-child(2) {
+                .col {
+                    span {
+                        font-size: 1.4em;
+                        font-family: 'Apercu';
+                        font-weight: bold;
+                        letter-spacing: 2.1px;
+                        color: #828282;
+                    }
                 }
             }
         }

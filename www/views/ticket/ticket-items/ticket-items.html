@@ -3,21 +3,20 @@
 		<div ng-class="{'selected' : cc.cart[$index] && cc.cart[$index] != 0}" class="item row nopad">
 			<div class="col expand nopad">
 				<div ng-click="option.unavailable ? '' : cc.showContent == $index ? cc.showContent = -1 : cc.showContent = $index" ng-class="{'details' : cc.showContent == $index}"
-					class="circle">
+						class="circle">
 					<span ng-if="cc.showContent != $index">+</span>
 					<span ng-if="cc.showContent == $index">-</span>
 				</div>
 			</div>
-			<div class="col description nopad">
+			<div class="col col-33 description nopad">
 				<div class="row option-name nopad">
-					<div class="col nopad"><span>{{option.type}}</span></div>
+					<div class="col nopad"><span>{{option.type}}</span><span class="pricing">  &#x20AC; {{option.price}}</span></div>
 				</div>
 				<div class="row short-description nopad">
-					<div class="col nopad"><span ng-repeat="descriptor in option.short_description">{{descriptor}} {{$index == option.short_description.length - 1 ? '' : '|'}} </span></div>
+					<div class="col nopad">
+						<span ng-repeat="descriptor in option.short_description">{{descriptor}} {{$index == option.short_description.length - 1 ? '' : '|'}} </span>
+					</div>
 				</div>
-			</div>
-			<div class="col nopad pricing">
-				<span class="price">  &#x20AC; {{option.price}}</span>
 			</div>
 			<div class="col nopad quantity">
 				<select ng-disabled="option.unavailable" ng-model="cc.cart[$index]" ng-change="cc.chooseOption()">
