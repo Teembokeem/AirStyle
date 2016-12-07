@@ -1,7 +1,7 @@
 avatar-panels {
     >.container {
         padding-top: 5rem;
-        >.row {
+        >.row:first-child {
             flex-flow: row wrap;
             justify-content: center;
             >.col {
@@ -12,18 +12,25 @@ avatar-panels {
                     position: relative;
                     .row {
                         .col {
+                            min-height: 400px;
+                            min-width: 300px;
+                            max-width: 300px;
+                            border: 8px solid white;
+                            overflow: hidden;
+                            padding: 0;
                             .panel-image {
-                                height: 400px;
-                                width: 400px;
-                                border: 8px solid white;
+                                margin: 0 auto;
+                                height: 100%;
+                                background-repeat: no-repeat !important;
+                                background-position: center !important;
                             }
                         }
                     }
                     .blue-container {
                         position: absolute;
-                        bottom: 5rem;
-                        right: -5rem;
-                        width: 12rem;
+                        bottom: 3rem;
+                        right: -2rem;
+                        width: 14rem;
                         height: 6rem;
                         padding-left: 1rem;
                         background-color: $as-blue;
@@ -42,6 +49,42 @@ avatar-panels {
             }
             >.col:nth-child(-n + 3) {
                 margin-bottom: 5rem;
+            }
+        }
+
+        .more {
+            margin: 2rem auto;
+            width: 78%;
+            height: 47px;
+            align-content: center;
+            justify-content: center;
+            padding-top: 0.3rem;
+            display: flex;
+            position: relative;
+            flex-flow: row wrap;
+            .col {
+                max-width: 250px;
+                max-height: 47px;
+                height: 47px;
+                border: 3px solid white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                button {
+                    height: 100%;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    span {
+                        font-size: 18px;
+                        font-family: 'Apercu';
+
+                    }
+                }
+            }
+
+            .col:first-child {
+                margin-right: 2rem;
             }
         }
     }

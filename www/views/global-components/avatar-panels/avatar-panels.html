@@ -1,16 +1,24 @@
 <div class="container">
     <div class="row">
-        <div ng-repeat="avatar in cc.avatars" ng-click="cc.stateChange(cc.ref, avatar.ref)" class="col">
+        <div ng-repeat="avatar in cc.avatars" class="col">
             <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <div class="panel-image" style="background: url({{avatar.image}}) 50% 0 / 100%" />
+                    <div class="col" ng-click="cc.stateChange(cc.ref, avatar.ref)">
+                        <div class="panel-image" style="background: url({{avatar.image ? avatar.image : avatar.img_general}}) 50% 0 / 110%" />
                     </div>
                 </div>
-                <div class="blue-container">
+                <div class="blue-container" ng-click="cc.stateChange(cc.ref, avatar.ref)">
                     <span>{{avatar.name}}</span>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="row more">
+        <div class="col" ng-if="cc.schedule">
+            <button><span>Schedule</span></button>
+        </div>
+        <div class="col" ng-if="cc.view">
+            <button><span>View All</span></button>
         </div>
     </div>
 </div>
