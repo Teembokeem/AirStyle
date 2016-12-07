@@ -1,10 +1,12 @@
-(function () {
+(function() {
     'use strict';
     angular.module('Template')
         .component('avatarPanels', {
             bindings: {
                 avatars: '=',
-                ref: '@'
+                ref: '@',
+                schedule: '=',
+                view: '='
             },
             templateUrl: 'views/global-components/avatar-panels/avatar-panels.html',
             controller: avatarPanelsCtrl,
@@ -22,7 +24,9 @@
             $state.go(state, { avatar: val });
         }
 
-        cc.$onInit = function () {
+        cc.$onInit = function() {
+
+            console.log(cc)
         }
     }
 })();
