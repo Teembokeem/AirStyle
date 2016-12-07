@@ -1,13 +1,12 @@
 <ion-view class="tour-stops-view">
 	<ion-content delegate-handle="mainScroll" on-scroll="ac.getScroll()" overflow-scroll="true">
 		<tour-carousel></tour-carousel>
-		<!--<tour-schedule></tour-schedule>-->
+		<avatar-panels avatars="cc.avatars" ref="app.artist" schedule="cc.showSchedule" view="cc.showViewAll"></avatar-panels>
+		<twitter-feed></twitter-feed>
 		<ranking-summary></ranking-summary>
-		<tour-music></tour-music>
 		<video-comp></video-comp>
 		<tour-faq></tour-faq>
 		<download-app></download-app>
-		<twitter-feed></twitter-feed>
 		<partners></partners>
 		<branding></branding>
 		<subscribe></subscribe>
