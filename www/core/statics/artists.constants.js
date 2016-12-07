@@ -5,20 +5,6 @@
         .module('Statics')
         .constant('Artists', function(inputArg) {
             var artists = {
-                'innsbruck': {
-                    'clyro': {
-                        name: 'Biffy Clyro',
-                        img_general: '../img/clyro.png',
-                        img_yellow: '../img/clyro-yellow.png',
-                        ref: 'clyro',
-                    },
-                    'beginner': {
-                        name: 'Beginner',
-                        img_general: '../img/beginner.png',
-                        img_yellow: '../img/beginner-yellow.png',
-                        ref: 'beginner',
-                    },
-                },
                 'la': {
                     'clyro': {
                         name: 'Biffy Clyro',
@@ -32,6 +18,40 @@
                         img_yellow: '../img/beginner-yellow.png',
                         ref: 'beginner',
                     },
+                },
+                'innsbruck': {
+                    'clyro': {
+                        name: 'Biffy Clyro',
+                        img_general: '../img/clyro.png',
+                        img_yellow: '../img/clyro-yellow.png',
+                        ref: 'clyro',
+                    },
+                    'beginner': {
+                        name: 'Beginner',
+                        img_general: '../img/beginner.png',
+                        img_yellow: '../img/beginner-yellow.png',
+                        ref: 'beginner',
+                    },
+                    'bilderbuch': {
+                        name: 'Bilderbuch',
+                        ref: 'bilderbuch',
+                        img_general: '../img/bilderbuch.jpg'
+                    },
+                    'the-naked-and-famous': {
+                        name: 'The Naked & Famous',
+                        ref: 'the-naked-and-famous',
+                        img_general: '../img/the-naked-and-famous.jpg'
+                    },
+                    'funf-sterne-deluxe': {
+                        name: 'Funf Sterne Deluxe',
+                        ref: 'funf-sterne-deluxe',
+                        img_general: '../img/funf-sterne-deluxe.jpg'
+                    },
+                    'lucky-chops': {
+                        name: 'Lucky Chops',
+                        ref: 'lucky-chops',
+                        img_general: '../img/lucky-chops.jpg'
+                    }
                 }
             },
                 Keys = Object.keys(artists),
