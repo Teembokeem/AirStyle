@@ -327,11 +327,9 @@ nav {
             //     }
             // }
 
-            // .search {
-            //     i {
-            //         font-size: 25px;
-            //     }
-            // }
+            .search, .hamburger {
+                top: 2.4rem;
+            }
 
             // .hamburger {
             //     position: absolute;
@@ -359,6 +357,10 @@ nav {
             .logo {
                 margin-left: 2rem;
                 margin-top: 2rem;
+            }
+
+            .search, .hamburger {
+                top: 2.8rem;
             }
         }
     }

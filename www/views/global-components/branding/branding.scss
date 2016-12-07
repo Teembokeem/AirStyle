@@ -95,25 +95,15 @@ branding {
         }
 
         .logo-container {
+            display: flex;
+            justify-content: center;
             margin-top: 3rem;
             .logo {
-                span {
-                    font-family: 'Apercu';
-                    font-size: 100px;
-                    color: black !important;
-                    font-weight:bold;
-                    letter-spacing: 0.1em;
-                    text-shadow: 
-                            #fff 0px 0px 1px,   
-                            #fff 1px 1px 1px,   
-                            #fff 1px -1px 1px,
-                            #fff -1px 1px 1px,   
-                            #fff -1px -1px 1px,   
-                            #fff 0px 0px 1px,   
-                            #fff 1px 1px 1px,   
-                            #fff 1px -1px 1px,
-                            #fff -1px 1px 1px,   
-                            #fff -1px -1px 1px;
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 50%;
+                    height: 100%;
                 }
             }
         }
