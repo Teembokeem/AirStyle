@@ -10036,13 +10036,17 @@ nav {
       margin-top: 1rem; }
       nav .as-nav .logo a img {
         width: 100%; }
+    nav .as-nav .search, nav .as-nav .hamburger {
+      top: 2.4rem; }
     nav .as-nav a.disabled {
       color: grey; } }
 
 @media (min-width: 1440px) {
   nav .as-nav .logo {
     margin-left: 2rem;
-    margin-top: 2rem; } }
+    margin-top: 2rem; }
+  nav .as-nav .search, nav .as-nav .hamburger {
+    top: 2.8rem; } }
 
 footer > .container {
   height: 213px;
@@ -10216,8 +10220,6 @@ ranking-summary > .container {
       ranking-summary > .container .section-title span {
         font-size: 40px; }
     ranking-summary > .container .player-container {
-      width: 359.6px;
-      height: 474.3px;
       margin: 0 0;
       position: relative; }
       ranking-summary > .container .player-container * {
@@ -10226,8 +10228,8 @@ ranking-summary > .container {
         width: 221.3px;
         height: 152.6px;
         position: relative;
-        top: -179px;
-        left: 255px;
+        top: -141px;
+        left: 221px;
         display: block;
         padding-left: 1.3rem; }
         ranking-summary > .container .player-container .container .number {
@@ -10275,8 +10277,8 @@ ranking-summary > .container {
       left: 845.28px;
       top: -246.68px; }
     ranking-summary > .container div:nth-child(4) {
-      left: 241.3px;
-      top: -293.76px; } }
+      left: 387.3px;
+      top: -300.76px; } }
 
 .item.hide-details {
   margin-bottom: 1.14em; }
@@ -10368,65 +10370,91 @@ download-app {
     download-app .container > .row:first-child .col span {
       font-size: 18px; } }
 
-twitter-feed > .container {
+tumblr-feed > .container {
   margin: 5rem 0; }
-  twitter-feed > .container * {
+  tumblr-feed > .container * {
     font-family: 'Reglo-Bold'; }
-  twitter-feed > .container .title-row {
+  tumblr-feed > .container .title-row {
     margin-bottom: 3rem; }
-    twitter-feed > .container .title-row .col {
+    tumblr-feed > .container .title-row .col {
       display: flex;
       justify-content: center; }
-      twitter-feed > .container .title-row .col span {
+      tumblr-feed > .container .title-row .col span {
         font-size: 22px;
         border-bottom: 8px solid #f9fe17;
         padding-bottom: 1rem; }
-  twitter-feed > .container > .row:nth-child(2) {
+  tumblr-feed > .container > .row:nth-child(2) {
     display: flex;
     justify-content: center;
     flex-flow: row wrap; }
-    twitter-feed > .container > .row:nth-child(2) > .col {
+    tumblr-feed > .container > .row:nth-child(2) > .col {
       background-color: #f9fe17;
       position: relative;
-      max-width: 225px;
-      min-width: 225px;
+      max-width: 400px;
+      min-width: 300px;
       min-height: 235px;
       padding: 1rem 0.5rem 0.5rem 0.5rem;
       margin: 0 auto; }
-      twitter-feed > .container > .row:nth-child(2) > .col .container .row:first-child {
+      tumblr-feed > .container > .row:nth-child(2) > .col .container .row:first-child {
         padding-left: 1rem;
         padding-top: 1rem; }
-        twitter-feed > .container > .row:nth-child(2) > .col .container .row:first-child .col {
+        tumblr-feed > .container > .row:nth-child(2) > .col .container .row:first-child .col {
           text-align: left; }
-          twitter-feed > .container > .row:nth-child(2) > .col .container .row:first-child .col span {
+          tumblr-feed > .container > .row:nth-child(2) > .col .container .row:first-child .col span {
             font-size: 18px;
             color: black; }
-      twitter-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) {
+      tumblr-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) {
         position: absolute;
         left: 1rem;
         bottom: 1.5rem; }
-        twitter-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) .col span {
+        tumblr-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) .col span {
           letter-spacing: 2.1px;
           padding-bottom: 6px;
           border-bottom: 5px solid #40caff;
           font-family: 'Apercu';
           font-weight: bold;
           color: black; }
-    twitter-feed > .container > .row:nth-child(2) > .col:nth-child(n + 1) {
+    tumblr-feed > .container > .row:nth-child(2) > .col:nth-child(n + 1) {
       margin-bottom: 1.5rem; }
+  tumblr-feed > .container .more {
+    margin: 2rem auto;
+    width: 78%;
+    height: 47px;
+    align-content: center;
+    justify-content: center;
+    padding-top: 0.3rem;
+    display: flex;
+    position: relative;
+    flex-flow: row wrap; }
+    tumblr-feed > .container .more .col {
+      max-width: 250px;
+      max-height: 47px;
+      height: 47px;
+      border: 3px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      tumblr-feed > .container .more .col button {
+        height: 100%;
+        border: none;
+        display: flex;
+        align-items: center; }
+        tumblr-feed > .container .more .col button span {
+          font-size: 18px;
+          font-family: 'Apercu'; }
 
 @media (min-width: 420px) {
-  twitter-feed > .container {
+  tumblr-feed > .container {
     padding: 2rem; }
-    twitter-feed > .container .title-row .col span {
+    tumblr-feed > .container .title-row .col span {
       font-size: 40px; }
-    twitter-feed > .container > .row:nth-child(2) .col .container .row:first-child {
+    tumblr-feed > .container > .row:nth-child(2) .col .container .row:first-child {
       /*margin-bottom: 2rem;*/ }
-      twitter-feed > .container > .row:nth-child(2) .col .container .row:first-child .col {
+      tumblr-feed > .container > .row:nth-child(2) .col .container .row:first-child .col {
         text-align: left; }
-        twitter-feed > .container > .row:nth-child(2) .col .container .row:first-child .col span {
+        tumblr-feed > .container > .row:nth-child(2) .col .container .row:first-child .col span {
           font-size: 21px; }
-    twitter-feed > .container > .row:nth-child(2) > .col:nth-child(n + 1) {
+    tumblr-feed > .container > .row:nth-child(2) > .col:nth-child(n + 1) {
       margin: 1rem; } }
 
 partners > .container {
@@ -10589,14 +10617,15 @@ branding > .container {
       text-shadow: #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px,    #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px;
       color: black !important; }
   branding > .container .logo-container {
+    display: flex;
+    justify-content: center;
     margin-top: 3rem; }
-    branding > .container .logo-container .logo span {
-      font-family: 'Apercu';
-      font-size: 100px;
-      color: black !important;
-      font-weight: bold;
-      letter-spacing: 0.1em;
-      text-shadow: #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px,    #fff 0px 0px 1px,    #fff 1px 1px 1px,    #fff 1px -1px 1px, #fff -1px 1px 1px,    #fff -1px -1px 1px; }
+    branding > .container .logo-container .logo {
+      display: flex;
+      justify-content: center; }
+      branding > .container .logo-container .logo img {
+        width: 50%;
+        height: 100%; }
 
 video-comp .video-container .row .col {
   display: flex;
@@ -10604,49 +10633,83 @@ video-comp .video-container .row .col {
 
 avatar-panels > .container {
   padding-top: 5rem; }
-  avatar-panels > .container > .row {
+  avatar-panels > .container > .row:first-child {
     flex-flow: row wrap;
     justify-content: center; }
-    avatar-panels > .container > .row > .col {
+    avatar-panels > .container > .row:first-child > .col {
       min-width: 300px;
       margin: 0 3rem; }
-      avatar-panels > .container > .row > .col > .container {
+      avatar-panels > .container > .row:first-child > .col > .container {
         width: 100%;
         position: relative; }
-        avatar-panels > .container > .row > .col > .container .row .col .panel-image {
-          height: 400px;
-          width: 400px;
-          border: 8px solid white; }
-        avatar-panels > .container > .row > .col > .container .blue-container {
-          position: absolute;
-          bottom: 5rem;
-          right: -5rem;
-          width: 12rem;
-          height: 6rem;
-          padding-left: 1rem;
-          background-color: #40caff;
-          display: flex;
-          align-items: center; }
-          avatar-panels > .container > .row > .col > .container .blue-container span {
-            color: black;
-            font-family: 'Apercu';
-            font-size: 33px;
-            font-weight: bold;
-            line-height: 1.1;
-            letter-spacing: 0.15rem; }
-    avatar-panels > .container > .row > .col:nth-child(-n + 3) {
+        avatar-panels > .container > .row:first-child > .col > .container .row {
+          max-width: 300px;
+          position: relative;
+          justify-content: center; }
+          avatar-panels > .container > .row:first-child > .col > .container .row .col {
+            min-height: 400px;
+            min-width: 300px;
+            max-width: 300px;
+            border: 8px solid white;
+            overflow: hidden;
+            padding: 0; }
+            avatar-panels > .container > .row:first-child > .col > .container .row .col .panel-image {
+              margin: 0 auto;
+              height: 100%;
+              background-repeat: no-repeat !important;
+              background-position: center !important; }
+          avatar-panels > .container > .row:first-child > .col > .container .row .blue-container {
+            position: absolute;
+            bottom: 3rem;
+            right: -2rem;
+            width: 14rem;
+            height: 6rem;
+            padding-left: 1rem;
+            background-color: #40caff;
+            display: flex;
+            align-items: center; }
+            avatar-panels > .container > .row:first-child > .col > .container .row .blue-container span {
+              color: black;
+              font-family: 'Apercu';
+              font-size: 33px;
+              font-weight: bold;
+              line-height: 1.1;
+              letter-spacing: 0.15rem; }
+    avatar-panels > .container > .row:first-child > .col:nth-child(-n + 3) {
       margin-bottom: 5rem; }
+  avatar-panels > .container .more {
+    margin: 2rem auto;
+    width: 78%;
+    height: 47px;
+    align-content: center;
+    justify-content: center;
+    padding-top: 0.3rem;
+    display: flex;
+    position: relative;
+    flex-flow: row wrap; }
+    avatar-panels > .container .more .col {
+      max-width: 250px;
+      max-height: 47px;
+      height: 47px;
+      border: 3px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      avatar-panels > .container .more .col button {
+        height: 100%;
+        border: none;
+        display: flex;
+        align-items: center; }
+        avatar-panels > .container .more .col button span {
+          font-size: 18px;
+          font-family: 'Apercu'; }
+    avatar-panels > .container .more .col:first-child {
+      margin-right: 2rem; }
 
 @media (min-width: 1024px) {
   avatar-panels > .container > .row > .col {
     min-width: 380px;
-    max-width: 430px; }
-    avatar-panels > .container > .row > .col > .container .blue-container {
-      right: -2rem; } }
-
-@media (min-width: 1440px) {
-  avatar-panels > .container > .row > .col > .container .blue-container {
-    right: -1rem; } }
+    max-width: 430px; } }
 
 home-carousel {
   position: relative; }
@@ -11878,8 +11941,7 @@ tour-faq > .container .cta .col {
 
 .line-up-view ion-content .scroll avatar-panels > .container > .row > .col > .container > .row > .col {
   max-height: 400px;
-  border: 8px solid;
-  overflow-y: hidden;
+  overflow: hidden;
   padding: 0; }
   .line-up-view ion-content .scroll avatar-panels > .container > .row > .col > .container > .row > .col img {
     border: none;
@@ -11889,6 +11951,35 @@ tour-faq > .container .cta .col {
 .line-up-view ion-content .scroll avatar-panels > .container > .row > .col > .container .blue-container {
   width: 14rem;
   bottom: 3.5rem; }
+
+.line-up-view ion-content .scroll .container .more {
+  margin: 2rem auto;
+  width: 78%;
+  height: 47px;
+  align-content: center;
+  justify-content: center;
+  padding-top: 0.3rem;
+  display: flex;
+  position: relative;
+  flex-flow: row wrap; }
+  .line-up-view ion-content .scroll .container .more .col {
+    max-width: 250px;
+    max-height: 47px;
+    height: 47px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .line-up-view ion-content .scroll .container .more .col button {
+      height: 100%;
+      border: none;
+      display: flex;
+      align-items: center; }
+      .line-up-view ion-content .scroll .container .more .col button span {
+        font-size: 18px;
+        font-family: 'Apercu'; }
+  .line-up-view ion-content .scroll .container .more .col:first-child {
+    margin-right: 2rem; }
 
 lineup-carousel {
   position: relative; }
