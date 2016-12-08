@@ -1,15 +1,15 @@
-(function() {
+(function () {
     'use strict';
 
     angular
         .module('Statics')
-        .constant('Tours', function(inputArg) {
+        .constant('Tours', function (inputArg) {
             var tours = {
                 'beijing': {
                     title: 'BEIJING',
                     ref: 'beijing',
                     date_semantic: 'NOV 18 + 19',
-                    dest: 'app.tour-stops'
+                    dest: 'app.tour-stops',
                 },
                 'innsbruck': {
                     title: 'INNSBRUCK',
@@ -27,27 +27,27 @@
                 Keys = Object.keys(tours),
                 constantIdentifier = 'tours';
 
- 
+
             return locate(inputArg);
 
             function locate(arg) {
                 var key = arg != undefined ? returnOne(arg) : 'all';
 
                 switch (key) {
-                    case 'all': 
+                    case 'all':
                         return successHandler(tours);
                         break;
                     case null || undefined:
-                        return errorHandler(arg);                        
+                        return errorHandler(arg);
                         break;
-                    default: 
+                    default:
                         return successHandler(tours[key], false);
                         break;
                 };
             };
 
             function returnOne(queryKey) {
-                return Keys.filter(function(key) {
+                return Keys.filter(function (key) {
                     return queryKey == key;
                 })[0];
             }
@@ -56,7 +56,7 @@
                 console.info('could not find matching key for ' + constantIdentifier + ': ');
                 console.log('Argument: ', failedArg);
                 console.log('Available ' + constantIdentifier + ': ')
-                Keys.forEach(function(key, index) {
+                Keys.forEach(function (key, index) {
                     console.log(index + 1 + '. ' + key)
                 });
                 return new Error();
@@ -68,7 +68,7 @@
                 } else {
                     var arr = [];
                     for (var key in asset) {
-                        arr.push(asset[key]);   
+                        arr.push(asset[key]);
                     };
                     return arr;
                 }
