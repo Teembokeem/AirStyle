@@ -55,7 +55,7 @@
 
         cc.$onInit = function() {
             var carousel = Carousel('la');
-            cc.slideContent = [Carousel('la').slide, Carousel('innsbruck').slide];
+            cc.slideContent = [Carousel('innsbruck').slide, Carousel('la').slide];
             cc.customSlide = carousel.hero;
         }
     }
