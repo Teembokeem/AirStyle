@@ -6,19 +6,19 @@
                     <div class="col" ng-click="cc.stateChange(cc.ref, avatar.ref)">
                         <div class="panel-image" style="background: url({{avatar.image ? avatar.image : avatar.img_general}}) 50% 0 / 110%" />
                     </div>
-                </div>
-                <div class="blue-container" ng-click="cc.stateChange(cc.ref, avatar.ref)">
-                    <span>{{avatar.name}}</span>
+                    <div class="blue-container" ng-click="cc.stateChange(cc.ref, avatar.ref)">
+                        <span>{{avatar.name}}</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row more">
         <div class="col" ng-if="cc.schedule">
-            <button><span>Schedule</span></button>
+            <button ng-click="cc.pageChange('app.lineup')"><span>Schedule</span></button>
         </div>
         <div class="col" ng-if="cc.view">
-            <button><span>View All</span></button>
+            <button ng-click="cc.pageChange('app.lineup', cc.state)"><span>View All</span></button>
         </div>
     </div>
 </div>

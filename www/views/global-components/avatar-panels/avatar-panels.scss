@@ -11,6 +11,9 @@ avatar-panels {
                     width: 100%;
                     position: relative;
                     .row {
+                        max-width: 300px;
+                        position: relative;
+                        justify-content: center;
                         .col {
                             min-height: 400px;
                             min-width: 300px;
@@ -25,24 +28,24 @@ avatar-panels {
                                 background-position: center !important;
                             }
                         }
-                    }
-                    .blue-container {
-                        position: absolute;
-                        bottom: 3rem;
-                        right: -2rem;
-                        width: 14rem;
-                        height: 6rem;
-                        padding-left: 1rem;
-                        background-color: $as-blue;
-                        display: flex;
-                        align-items: center;
-                        span {
-                            color: black;
-                            font-family: 'Apercu';
-                            font-size: 33px;
-                            font-weight: bold;
-                            line-height: 1.1;
-                            letter-spacing: 0.15rem;
+                        .blue-container {
+                            position: absolute;
+                            bottom: 3rem;
+                            right: -2rem;
+                            width: 14rem;
+                            height: 6rem;
+                            padding-left: 1rem;
+                            background-color: $as-blue;
+                            display: flex;
+                            align-items: center;
+                            span {
+                                color: black;
+                                font-family: 'Apercu';
+                                font-size: 33px;
+                                font-weight: bold;
+                                line-height: 1.1;
+                                letter-spacing: 0.15rem;
+                            }
                         }
                     }
                 }
@@ -99,7 +102,7 @@ avatar-panels {
                     max-width: 430px;
                     >.container {
                         .blue-container {
-                            right: -2rem;
+                            // right: -2rem;
                         }
                     }
                 }
@@ -115,7 +118,7 @@ avatar-panels {
                 >.col {
                     >.container {
                         .blue-container {
-                            right: -1rem;
+                            // right: -1rem;
                         }
                     }
                 }
