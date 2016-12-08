@@ -10,10 +10,16 @@
             controllerAs: 'cc'
         })
 
-    homeScheduleCtrl.$inject = ['$log', 'Tours'];
+    homeScheduleCtrl.$inject = ['$log', '$state', 'Tours'];
 
-    function homeScheduleCtrl($log, Tours) {
+    function homeScheduleCtrl($log, $state,  Tours) {
         var cc = this;
+
+        cc.stateChange = stateChange;
+
+        function stateChange(state, val) {
+            $state.go(state, { tour: val });
+        }
 
         cc.$onInit = function () {
             cc.scheduleContent = Tours();
