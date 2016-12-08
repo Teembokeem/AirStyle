@@ -32,6 +32,44 @@
                     }
                 }
             }
+
+            .container {
+                .more {
+                    margin: 2rem auto;
+                    width: 78%;
+                    height: 47px;
+                    align-content: center;
+                    justify-content: center;
+                    padding-top: 0.3rem;
+                    display: flex;
+                    position: relative;
+                    flex-flow: row wrap;
+                    .col {
+                        max-width: 250px;
+                        max-height: 47px;
+                        height: 47px;
+                        border: 3px solid white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        button {
+                            height: 100%;
+                            border: none;
+                            display: flex;
+                            align-items: center;
+                            span {
+                                font-size: 18px;
+                                font-family: 'Apercu';
+
+                            }
+                        }
+                    }
+
+                    .col:first-child {
+                        margin-right: 2rem;
+                    }
+                }
+            }
         }
     }
 }
