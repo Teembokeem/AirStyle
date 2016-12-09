@@ -1,18 +1,18 @@
 (function () {
     'use strict';
     angular.module('Schedule.view.module')
-        .component('ScheduleDesktop', {
+        .component('scheduleDesktop', {
             bindings: {
 
             },
             templateUrl: 'views/schedule/schedule-desktop/schedule-desktop.html',
-            controller: ScheduleDesktopCtrl,
+            controller: scheduleDesktopCtrl,
             controllerAs: 'cc'
         })
 
-    ScheduleDesktopCtrl.$inject = ['$log', '$rootScope', '$window', '$scope'];
+    scheduleDesktopCtrl.$inject = ['$log', '$rootScope', '$window', '$scope'];
 
-    function ScheduleDesktopCtrl($log, $rootScope, $window, $scope) {
+    function scheduleDesktopCtrl($log, $rootScope, $window, $scope) {
         var cc = this;
 
         cc.timeSlots = ['1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm']

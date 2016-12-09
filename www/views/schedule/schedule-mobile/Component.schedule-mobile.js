@@ -1,18 +1,18 @@
 (function () {
     'use strict';
     angular.module('Schedule.view.module')
-        .component('ScheduleMobile', {
+        .component('scheduleMobile', {
             bindings: {
 
             },
             templateUrl: 'views/schedule/schedule-mobile/schedule-mobile.html',
-            controller: ScheduleMobileCtrl,
+            controller: scheduleMobileCtrl,
             controllerAs: 'cc'
         })
 
-    ScheduleMobileCtrl.$inject = ['$log', '$rootScope', '$window', '$scope'];
+    scheduleMobileCtrl.$inject = ['$log', '$rootScope', '$window', '$scope'];
 
-    function ScheduleMobileCtrl($log, $rootScope, $window, $scope) {
+    function scheduleMobileCtrl($log, $rootScope, $window, $scope) {
         var cc = this;
 
         cc.timeSlots = ['1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm']
@@ -278,7 +278,7 @@
                     },]
                 }]
             }]
-            cc.activeDay = cc.lineupScheduleContent[0]
+            cc.activeDay = cc.ScheduleContent[0]
         }
     }
 })();

@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-    var dir = "views/lineup/"
+    var dir = "views/schedule/"
     angular.module('Schedule.view.module', ['Services'])
         .config(function ($stateProvider, $urlRouterProvider) {
             $stateProvider

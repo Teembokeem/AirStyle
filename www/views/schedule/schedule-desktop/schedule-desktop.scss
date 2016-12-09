@@ -130,6 +130,27 @@ schedule-desktop {
 }
 
 
+@media (min-width: 420px) {
+    schedule-desktop {
+        > .container {
+            > .row {
+                > .col {
+
+                    > .container:first-child {
+                        .title-row {
+                            .col {
+                                span {
+                                    font-size: 64px;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 @media (min-width: 1024px) {
     schedule-desktop {
         > .container {
