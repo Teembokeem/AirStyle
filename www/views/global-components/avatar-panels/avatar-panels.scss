@@ -10,6 +10,9 @@ avatar-panels {
                 >.container {
                     width: 100%;
                     position: relative;
+                    display: flex;
+                    justify-content: center;
+                    margin: 0 auto;
                     .row {
                         max-width: 300px;
                         position: relative;

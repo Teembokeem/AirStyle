@@ -10641,7 +10641,10 @@ avatar-panels > .container {
       margin: 0 3rem; }
       avatar-panels > .container > .row:first-child > .col > .container {
         width: 100%;
-        position: relative; }
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto; }
         avatar-panels > .container > .row:first-child > .col > .container .row {
           max-width: 300px;
           position: relative;
