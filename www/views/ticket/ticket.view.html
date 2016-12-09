@@ -1,7 +1,12 @@
 <ion-view class="ticket-view">
 	<ion-content delegate-handle="mainScroll" on-scroll="ac.getScroll()" overflow-scroll="true">
-		<ticket-title></ticket-title>
+		<!--<ticket-title></ticket-title>
 		<ticket-items></ticket-items>
-		<ticket-footer></ticket-footer>
+		<ticket-footer></ticket-footer>-->
+		<div class="paylogic-container">
+			<iframe frameborder="0" height="5000" width="600" src='https://frontoffice.paylogic.nl/?event_id=113594&point_of_sale_id=14403&setoptin=1&FacebookPixelID=516517678502187&FacebookPixelRemID=516517678502187'
+				scrolling="auto" marginheight="0" marginwidth="0" name="paymentMenu">
+			</iframe>
+		</div>
 	</ion-content>
 </ion-view>
