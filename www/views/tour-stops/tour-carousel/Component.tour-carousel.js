@@ -37,8 +37,6 @@
             }
 
         })
-
-        console.log($stateParams)
         cc.$onInit = function () {
             var carousel = Carousel($stateParams.tour);
             cc.slideContent = carousel.hero;

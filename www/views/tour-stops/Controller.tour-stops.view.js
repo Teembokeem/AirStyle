@@ -14,8 +14,5 @@
         cc.showSchedule = true;
         cc.showViewAll = true;
 
-            console.log($stateParams.tour);
-            console.log(Artists(), 'hello');
-
     }
 })();
