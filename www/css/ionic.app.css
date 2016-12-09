@@ -12293,6 +12293,10 @@ schedule-desktop > .container {
         background-image: linear-gradient(to right, #969696 25%, rgba(255, 255, 255, 0) 0%);
         background-size: 12px 3px; }
 
+@media (min-width: 420px) {
+  schedule-desktop > .container > .row > .col > .container:first-child .title-row .col span {
+    font-size: 64px; } }
+
 @media (min-width: 1024px) {
   schedule-desktop > .container > .row > .col > .container:first-child .title-row .col span {
     font-size: 64px; } }
