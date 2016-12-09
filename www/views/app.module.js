@@ -1,7 +1,3 @@
-            function jesseStarsAndGalaxy() {
-            var code = prompt('The tesseract needs priming....');
-            code == 'boga' ? console.info('OK BAE') : console.error('Sending information to NASA you apache helicopter');
-            }
 (function () {
     'use strict';
 
@@ -21,7 +17,8 @@
             'Artist.view.module',
             'Faq.view.module',
             'Rider.view.module',
-            'Rankings.view.module'
+            'Rankings.view.module',
+            'Schedule.view.module'
         ])
 
 
