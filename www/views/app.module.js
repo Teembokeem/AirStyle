@@ -1,3 +1,7 @@
+            function jesseStarsAndGalaxy() {
+            var code = prompt('The tesseract needs priming....');
+            code == 'boga' ? console.info('OK BAE') : console.error('Sending information to NASA you apache helicopter');
+            }
 (function () {
     'use strict';
 
@@ -49,6 +53,7 @@
             //     console.log(arguments);
             // });
             console.log(`.------..------..------..------..------..------..------.\n|H.--. ||I.--. || .--. ||G.--. ||R.--. ||E.--. ||G.--. |\n| :/\\: || (\\/) || :/\\: || :/\\: || :/\\: || (\\/) || (\\/) |\n| :\\/: || :\\/: || (__) || (__) || (__) || :\\/: || :\\/: |\n| '--'H|| '--'I|| '--' || '--'G|| '--'R|| '--'E|| '--'G|\n'------'\`------'\`------'\`------'\`------'\`------'\`------'`)
+        
         });
 
 })();

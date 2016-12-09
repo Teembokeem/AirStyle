@@ -25,8 +25,22 @@
             return service.Posts;
         }
 
-        function transformResponse(Posts) {
-            return Posts.posts;
+        function transformResponse(response) {
+            var _posts = {
+                    'innsbruck': [],
+                    'la': [],
+                    'beijing': []
+                },
+                Posts = response.posts;
+            for (var tour in _posts) {
+                for (var i; i < Posts.length; i++) {
+                    if (Posts[i].tags.indexOf(tour) != -1) {
+                        _posts[tour].push(Posts[i]);
+                    }
+                }
+            }
+
+            return _posts;
         }
 
         function writePosts(Posts) {
@@ -35,23 +49,7 @@
 
 
         function getPosts() {
-            // service.Posts = TumblrDispatcher.get().then(transformResponse).then(setPosts);
-            // return service.Posts;
-            service.Posts = [
-                {
-                    message: 'story time with eddie wall: best snowboarding destinations in the us',
-                    date: new Date('June 3, 2016')
-                },
-                {
-                    message: 'story time with eddie wall: best snowboarding destinations in the us',
-                    date: new Date('June 3, 2016')
-                },
-                {
-                    message: 'sven thorgren 2016 air+style tour champion',
-                    date: new Date('June 3, 2016')
-                }
-            ]
-            setPosts(service.Posts);
+            service.Posts = TumblrDispatcher.getDummy().then(transformResponse).then(setPosts);
             return service.Posts;
         }
 
