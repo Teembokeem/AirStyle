@@ -5,9 +5,9 @@
         .module('Tumblr.module')
         .factory('TumblrDispatcher', TumblrDispatcher);
 
-    TumblrDispatcher.$inject = ['urlService', '$http'];
+    TumblrDispatcher.$inject = ['urlService', '$http', '$q'];
 
-    function TumblrDispatcher(urlService, $http) {
+    function TumblrDispatcher(urlService, $http, $q) {
         var api = urlService + '/tumblr',
             // Default to allow admin as user without token
             options = {
@@ -25,16 +25,19 @@
                 blog: 'teembokeem',
                 posts: [
                 {
-                    message: 'story time with eddie wall: best snowboarding destinations in the us',
-                    date: new Date('June 3, 2016')
+                    message: 'INNSBRUCK TAGGED POST',
+                    date: new Date('June 3, 2016'),
+                    tags: ['innsbruck']
                 },
                 {
-                    message: 'story time with eddie wall: best snowboarding destinations in the us',
-                    date: new Date('June 3, 2016')
+                    message: 'LA TAGGED POST',
+                    date: new Date('June 3, 2016'),
+                    tags: ['la']
                 },
                 {
-                    message: 'sven thorgren 2016 air+style tour champion',
-                    date: new Date('June 3, 2016')
+                    message: 'BEIJING TAGGED POST',
+                    date: new Date('June 3, 2016'),
+                    tags: ['beijing']
                 }
             ]
             }

@@ -12,6 +12,7 @@
         var service = {
             Posts: Posts,
             getPosts: getPosts,
+            filterPosts: filterPosts
         };
 
 
@@ -25,6 +26,10 @@
             return service.Posts;
         }
 
+        function writePosts(Posts) {
+            service.store.setItem('', Posts);
+        }
+
         function transformResponse(response) {
             var _posts = {
                     'innsbruck': [],
@@ -33,7 +38,7 @@
                 },
                 Posts = response.posts;
             for (var tour in _posts) {
-                for (var i; i < Posts.length; i++) {
+                for (var i = 0; i < Posts.length; i++) {
                     if (Posts[i].tags.indexOf(tour) != -1) {
                         _posts[tour].push(Posts[i]);
                     }
@@ -43,8 +48,21 @@
             return _posts;
         }
 
-        function writePosts(Posts) {
-            service.store.setItem('', Posts);
+
+        function filterPosts(param) {
+            if (param) {
+                return service.Posts[param];
+            } else {
+                var arr = [];
+                for (var tour in service.Posts) {
+                    arr.push(service.Posts[tour]);
+                };
+                // return arr;
+                var transformArr = arr.reduce(function(a, b) {
+                    return a.concat(b);
+                })
+                return transformArr;
+            }
         }
 
 
