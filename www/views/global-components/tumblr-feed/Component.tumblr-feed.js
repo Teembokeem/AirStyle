@@ -10,15 +10,15 @@
             controllerAs: 'cc'
         })
 
-    TumblrFeedCtrl.$inject = ['$log', 'TumblrManager'];
+    TumblrFeedCtrl.$inject = ['$log', 'TumblrManager', '$stateParams'];
 
-    function TumblrFeedCtrl($log, TumblrManager) {
+    function TumblrFeedCtrl($log, TumblrManager, $stateParams) {
         var cc = this;
 
         cc.$onInit = function() {
-            console.log(TumblrManager.Posts);
+            console.log(TumblrManager.filterPosts($stateParams.tour));
 
-            cc.tumblrFeedContent = TumblrManager.Posts;
+            cc.tumblrFeedContent = TumblrManager.filterPosts($stateParams.tour);
         }
     }
 })();
