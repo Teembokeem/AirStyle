@@ -4,7 +4,6 @@ nav {
     padding: 1rem 1rem 0 1rem;
     z-index: 2;
     background-color: transparent;
-
     .as-nav {
         position: relative;
         display: flex;
@@ -19,11 +18,10 @@ nav {
                 }
             }
         }
-
         .search {
             height: 100%;
             display: flex;
-            max-width:50px;
+            max-width: 50px;
             align-items: flex-start;
             position: absolute;
             top: 2rem;
@@ -32,7 +30,6 @@ nav {
                 font-size: 25px;
             }
         }
-
         .hamburger {
             height: 100%;
             display: flex;
@@ -43,7 +40,6 @@ nav {
             top: 2rem;
             right: 1rem;
             padding-top: 10px;
-
             button {
                 position: relative;
                 border: none;
@@ -56,8 +52,6 @@ nav {
                 }
             }
         }
-
-
     }
     .as-menu {
         right: 0;
@@ -76,16 +70,14 @@ nav {
             padding-left: 23px;
             overflow-y: scroll;
             // z-index: 2;
-
             .nav-menu {
-                > .container:first-child {
+                >.container:first-child {
                     .row {
                         margin-bottom: 1.5rem;
                         .col {
                             font-size: 30px;
                             font-weight: bold;
                             font-family: 'Apercu';
-
                             a {
                                 font-family: 'Apercu';
                                 text-decoration: none;
@@ -93,10 +85,9 @@ nav {
                         }
                     }
                 }
-
-                > .container:last-child {
-                   > .row {
-                    margin-bottom: 3rem;
+                >.container:last-child {
+                    >.row {
+                        margin-bottom: 3rem;
                         .container {
                             .row:first-child {
                                 margin-bottom: 2rem;
@@ -106,7 +97,6 @@ nav {
                                     font-weight: bold;
                                 }
                             }
-
                             .row:last-child {
                                 .col {
                                     font-size: 22px;
@@ -116,8 +106,7 @@ nav {
                             }
                         }
                     }
-
-                    > .row:first-child {
+                    >.row:first-child {
                         .container {
                             .row:last-child {
                                 .col {
@@ -128,8 +117,8 @@ nav {
                                 }
                             }
                         }
-                    } 
-                    > .row:nth-child(2) {
+                    }
+                    >.row:nth-child(2) {
                         .container {
                             .row:last-child {
                                 .col {
@@ -140,8 +129,8 @@ nav {
                                 }
                             }
                         }
-                    } 
-                    > .row:nth-child(3) {
+                    }
+                    >.row:nth-child(3) {
                         .container {
                             .row:first-child {
                                 .col {
@@ -157,29 +146,25 @@ nav {
                                 }
                             }
                         }
-                    } 
+                    }
                 }
             }
         }
-
         desktop-menu {
             display: flex;
             justify-content: flex-end;
             width: 80%;
-            > .row {
+            >.row {
                 justify-content: flex-end;
                 .anchor-pad:first-child {
-
                     tour-stops-menu {
                         position: absolute;
-                        top: 0;
+                        top: 1.9em;
                         box-shadow: 0 0 38px 4px black;
                         background-color: rgba(0, 0, 0, 0.9);
                         /*background-color: blue;*/
-
-                        > .container {
+                        >.container {
                             width: 9rem;
-
                             .title {
                                 .col {
                                     span {
@@ -187,36 +172,31 @@ nav {
                                     }
                                 }
                             }
-
-                            > .row {
+                            >.row {
                                 .col {
                                     margin-bottom: 1rem;
-
                                     span {
                                         font-size: 21px;
                                         padding-bottom: 0.2rem;
                                     }
                                 }
                             }
-
                             .bj {
-                                .col{
+                                .col {
                                     span {
                                         border-bottom: 3px solid $as-green;
                                     }
                                 }
                             }
-
                             .ib {
-                                .col{
+                                .col {
                                     span {
                                         border-bottom: 3px solid $as-yellow;
                                     }
                                 }
                             }
-
                             .la {
-                                .col{
+                                .col {
                                     span {
                                         border-bottom: 3px solid $as-blue;
                                     }
@@ -224,61 +204,56 @@ nav {
                             }
                         }
                     }
-
-                    tour-stops-menu.ng-enter, tour-stops-menu.ng-leave {
-                        transition:all 450ms cubic-bezier(.32,1,.375,1);
+                    tour-stops-menu.ng-enter,
+                    tour-stops-menu.ng-leave {
+                        transition: all 450ms cubic-bezier(.32, 1, .375, 1);
                     }
-
                     tour-stops-menu.ng-enter,
                     tour-stops-menu.ng-leave.ng-leave-active {
-                        opacity:0;
+                        opacity: 0;
                         /*top: initial;*/
                         // left: -76px;
                     }
-
                     tour-stops-menu.ng-leave,
                     tour-stops-menu.ng-enter.ng-enter-active {
-                        opacity:1;
+                        opacity: 1;
                         /*top: 0;*/
                         // left: -76px;
                     }
-                    
                 }
-
                 .anchor-pad {
-                    display: flex; 
-                    align-items:center;
+                    display: flex;
+                    align-items: center;
                     justify-content: center;
                     min-width: 60px;
                     max-width: 130px;
+                    text-align: center;
+                    z-index: 999;
                     a {
                         text-align: center;
+                        text-decoration: none;
                     }
                 }
             }
-
         }
     }
-
-    .as-menu.ng-enter, .as-menu.ng-leave {
-        transition:all 450ms cubic-bezier(.32,1,.375,1);
+    .as-menu.ng-enter,
+    .as-menu.ng-leave {
+        transition: all 450ms cubic-bezier(.32, 1, .375, 1);
     }
-
     .as-menu.ng-enter,
     .as-menu.ng-leave.ng-leave-active {
-        opacity:0;
+        opacity: 0;
         // position: relative;
         // bottom: 1000px;
         // left: -76px;
     }
-
     .as-menu.ng-leave,
     .as-menu.ng-enter.ng-enter-active {
-        opacity:1;
+        opacity: 1;
         // bottom: 17px;
         // left: -76px;
     }
-
 }
 
 @media (min-width: 1024px) {
@@ -293,25 +268,34 @@ nav {
                 color: white;
                 // margin-right: 72px;
             }
-
             i {
                 font-size: 1.904em;
                 margin-right: 0;
             }
-
             .logo {
                 margin-left: 1rem;
                 max-width: 4.13%;
-                min-width: 58.6px; 
+                min-width: 58.6px;
                 margin-top: 1rem;
-
                 a {
                     img {
                         width: 100%;
                     }
                 }
             }
-
+            desktop-menu {
+                display: flex;
+                justify-content: flex-end;
+                width: 80%;
+                >.row {
+                    justify-content: flex-end;
+                    .anchor-pad:first-child {
+                        tour-stops-menu {
+                            top: 2.1rem;
+                        }
+                    }
+                }
+            }
             // .as-menu {
             //     // position: absolute;
             //     text-align: center;
@@ -319,18 +303,15 @@ nav {
             //     justify-content: flex-end;
             //     // margin-right: 7vw;
             // }
-
             // .anchor-pad {
-
             //     a {
             //         text-decoration: none;
             //     }
             // }
-
-            .search, .hamburger {
+            .search,
+            .hamburger {
                 top: 2.4rem;
             }
-
             // .hamburger {
             //     position: absolute;
             //     text-align: center;
@@ -340,10 +321,6 @@ nav {
             //     right: 1rem;
             //     // left: -27px;
             // }
-
-
-            
-
             a.disabled {
                 color: grey;
             }
@@ -358,9 +335,18 @@ nav {
                 margin-left: 2rem;
                 margin-top: 2rem;
             }
-
-            .search, .hamburger {
+            .search,
+            .hamburger {
                 top: 2.8rem;
+            }
+            desktop-menu {
+                >.row {
+                    .anchor-pad:first-child {
+                        tour-stops-menu {
+                            top: 45px;
+                        }
+                    }
+                }
             }
         }
     }

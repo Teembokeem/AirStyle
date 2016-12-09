@@ -9972,7 +9972,7 @@ nav {
         justify-content: flex-end; }
         nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu {
           position: absolute;
-          top: 0;
+          top: 1.9em;
           box-shadow: 0 0 38px 4px black;
           background-color: rgba(0, 0, 0, 0.9);
           /*background-color: blue;*/ }
@@ -9991,7 +9991,8 @@ nav {
               border-bottom: 3px solid #f9fe17; }
             nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu > .container .la .col span {
               border-bottom: 3px solid #40caff; }
-        nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu.ng-enter, nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu.ng-leave {
+        nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu.ng-enter,
+        nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu.ng-leave {
           transition: all 450ms cubic-bezier(0.32, 1, 0.375, 1); }
         nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu.ng-enter,
         nav .as-menu desktop-menu > .row .anchor-pad:first-child tour-stops-menu.ng-leave.ng-leave-active {
@@ -10006,10 +10007,14 @@ nav {
           align-items: center;
           justify-content: center;
           min-width: 60px;
-          max-width: 130px; }
+          max-width: 130px;
+          text-align: center;
+          z-index: 999; }
           nav .as-menu desktop-menu > .row .anchor-pad a {
-            text-align: center; }
-  nav .as-menu.ng-enter, nav .as-menu.ng-leave {
+            text-align: center;
+            text-decoration: none; }
+  nav .as-menu.ng-enter,
+  nav .as-menu.ng-leave {
     transition: all 450ms cubic-bezier(0.32, 1, 0.375, 1); }
   nav .as-menu.ng-enter,
   nav .as-menu.ng-leave.ng-leave-active {
@@ -10036,7 +10041,16 @@ nav {
       margin-top: 1rem; }
       nav .as-nav .logo a img {
         width: 100%; }
-    nav .as-nav .search, nav .as-nav .hamburger {
+    nav .as-nav desktop-menu {
+      display: flex;
+      justify-content: flex-end;
+      width: 80%; }
+      nav .as-nav desktop-menu > .row {
+        justify-content: flex-end; }
+        nav .as-nav desktop-menu > .row .anchor-pad:first-child tour-stops-menu {
+          top: 2.1rem; }
+    nav .as-nav .search,
+    nav .as-nav .hamburger {
       top: 2.4rem; }
     nav .as-nav a.disabled {
       color: grey; } }
@@ -10045,8 +10059,11 @@ nav {
   nav .as-nav .logo {
     margin-left: 2rem;
     margin-top: 2rem; }
-  nav .as-nav .search, nav .as-nav .hamburger {
-    top: 2.8rem; } }
+  nav .as-nav .search,
+  nav .as-nav .hamburger {
+    top: 2.8rem; }
+  nav .as-nav desktop-menu > .row .anchor-pad:first-child tour-stops-menu {
+    top: 45px; } }
 
 footer > .container {
   height: 213px;
