@@ -1,7 +1,5 @@
 (function () {
     'use strict';
 
-    angular.module('Services', [
-        'urlService'
-    ]);
+    angular.module('Services', []);
 })();
