@@ -9,7 +9,8 @@
 
     function urlService($log) {
         var base = '',
-            api = base + 'api/';
+            api = base + 'api/',
+            url;
 
         var service = {
             base: base,

@@ -1,4 +1,4 @@
-(function () {
+(function() {
     'use strict';
     angular.module('Template')
         .component('tumblrFeed', {
@@ -10,27 +10,15 @@
             controllerAs: 'cc'
         })
 
-   TumblrFeedCtrl.$inject = ['$log'];
+    TumblrFeedCtrl.$inject = ['$log', 'TumblrManager'];
 
-    function TumblrFeedCtrl($log) {
+    function TumblrFeedCtrl($log, TumblrManager) {
         var cc = this;
 
-        cc.$onInit = function () {
+        cc.$onInit = function() {
+            console.log(TumblrManager.Posts);
 
-            cc.tumblrFeedContent = [
-                {
-                    message: 'story time with eddie wall: best snowboarding destinations in the us',
-                    date: new Date('June 3, 2016')
-                },
-                {
-                    message: 'story time with eddie wall: best snowboarding destinations in the us',
-                    date: new Date('June 3, 2016')
-                },
-                {
-                    message: 'sven thorgren 2016 air+style tour champion',
-                    date: new Date('June 3, 2016')
-                }
-            ]
+            cc.tumblrFeedContent = TumblrManager.Posts;
         }
     }
 })();

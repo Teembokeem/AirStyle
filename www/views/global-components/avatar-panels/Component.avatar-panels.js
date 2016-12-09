@@ -1,4 +1,4 @@
-(function () {
+(function() {
     'use strict';
     angular.module('Template')
         .component('avatarPanels', {
@@ -29,9 +29,8 @@
             val ? $state.go(state, { avatar: val }) : $state.go(state);
         }
 
-        cc.$onInit = function () {
+        cc.$onInit = function() {
 
-            console.log(cc)
         }
     }
 })();
