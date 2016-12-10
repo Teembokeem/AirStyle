@@ -11,7 +11,7 @@
                             last: 'Thorgren'
                         },
                         ref: 'sthorgren',
-                        image: 'img/loRiders/Sven-Thorgren.jpg',
+                        img_portrait: 'img/loRiders/Sven-Thorgren.jpg',
                     },
                     'mparrot': {
                         name: {
@@ -19,7 +19,7 @@
                             last: 'Parrot'
                         },
                         ref: 'mparrot',
-                        image: 'img/loRiders/Max-Parrot.jpg',
+                        img_portrait: 'img/loRiders/Max-Parrot.jpg',
                     },
                     'sSandbech': {
                         name: {
@@ -27,7 +27,7 @@
                             last: 'Sandbech'
                         },
                         ref: 'sSandbech',
-                        image: 'img/loRiders/Stale-Sandbech.jpg',
+                        img_portrait: 'img/loRiders/Stale-Sandbech.jpg',
                     },
                 },
                 Keys = Object.keys(riders),
@@ -37,9 +37,7 @@
             return locate(inputArg);
 
             function locate(arg) {
-                var key = arg != undefined ? returnOne(arg) : 'all';
-
-                switch (key) {
+                switch (arg) {
                     case 'all':
                         return successHandler(riders);
                         break;
@@ -47,7 +45,7 @@
                         return errorHandler(arg);
                         break;
                     default:
-                        return successHandler(riders[key], false);
+                        return successHandler(riders[arg], false);
                         break;
                 };
             };

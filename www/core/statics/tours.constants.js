@@ -10,18 +10,21 @@
                     ref: 'beijing',
                     date_semantic: 'NOV 18 + 19',
                     dest: 'app.tour-stops',
+                    video: 'https://www.youtube.com/embed/PhBNiSlcbRk'
                 },
                 'innsbruck': {
                     title: 'INNSBRUCK',
                     ref: 'innsbruck',
                     date_semantic: 'FEB 3 + 4',
-                    dest: 'app.tour-stops'
+                    dest: 'app.tour-stops',
+                    video: 'https://www.youtube.com/embed/PhBNiSlcbRk'
                 },
                 'la': {
                     title: 'LOS ANGELES',
                     ref: 'la',
                     date_semantic: 'FEB 18 + 19',
-                    dest: 'app.tour-stops'
+                    dest: 'app.tour-stops',
+                    video: 'https://www.youtube.com/embed/PhBNiSlcbRk'
                 }
             },
                 Keys = Object.keys(tours),
@@ -31,9 +34,8 @@
             return locate(inputArg);
 
             function locate(arg) {
-                var key = arg != undefined ? returnOne(arg) : 'all';
 
-                switch (key) {
+                switch (arg) {
                     case 'all':
                         return successHandler(tours);
                         break;
@@ -41,7 +43,7 @@
                         return errorHandler(arg);
                         break;
                     default:
-                        return successHandler(tours[key], false);
+                        return successHandler(tours[arg], false);
                         break;
                 };
             };
