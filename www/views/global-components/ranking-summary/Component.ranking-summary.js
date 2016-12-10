@@ -25,7 +25,7 @@
 
 
         cc.$onInit = function () {
-            var riders = Riders();
+            var riders = Riders('all');
 
             cc.riders = riders;
         }
