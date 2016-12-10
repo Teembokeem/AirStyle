@@ -10,36 +10,14 @@
             controllerAs: 'cc'
         })
 
-    artistHeroCtrl.$inject = ['$log', '$stateParams'];
+    artistHeroCtrl.$inject = ['$log', '$stateParams', 'Artists'];
 
-    function artistHeroCtrl($log, $stateParams) {
+    function artistHeroCtrl($log, $stateParams, Artists) {
         var cc = this;
 
         cc.$onInit = function () {
-
-            cc.artistList = {
-                beginner: {
-                    name: 'BEGINNER',
-                    ref: 'beginner',
-                    location: 'main stage',
-                    time: 'fri 3 9pm',
-                    hero: '../img/beginner-hero.jpg'
-                },
-                'biffy-clyro': {
-                    name: 'BIFFY CLYRO',
-                    ref: 'clyro',
-                    location: 'main stage',
-                    time: 'fri 3 6pm',
-                    hero: '../img/clyro-hero.jpg'
-
-                }
-            }
-
-            var artistKey = Object.keys(cc.artistList).filter(function (key) {
-                return cc.artistList[key]['ref'] == $stateParams.avatar
-            })[0];
-
-            cc.artist = cc.artistList[artistKey];
+            cc.artist = Artists($stateParams.avatar);
+            console.log(cc.artist)
         }
     }
 })();
