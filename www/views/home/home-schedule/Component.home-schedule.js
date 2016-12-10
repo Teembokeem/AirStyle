@@ -22,7 +22,7 @@
         }
 
         cc.$onInit = function () {
-            cc.scheduleContent = Tours();
+            cc.scheduleContent = Tours('all');
         }
     }
 })();

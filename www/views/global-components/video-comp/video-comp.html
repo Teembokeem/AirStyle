@@ -1,9 +1,9 @@
 <div class="video-container container">
 	<div class="row">
 		<div class="col">
-			<iframe ng-if="cc.link == 0" width="{{cc.width}}" height="{{cc.length}}" src="https://www.youtube.com/embed/PFk4ITZDSCg"
-				frameborder="0" allowfullscreen></iframe>
-			<iframe ng-if="cc.link != 0" width="{{cc.width}}" height="{{cc.length}}" src="{{cc.link}}" frameborder="0" allowfullscreen></iframe>
+			<!--<iframe ng-if="cc.link == 0" width="{{cc.width}}" height="{{cc.length}}" src="https://www.youtube.com/embed/PFk4ITZDSCg"
+				frameborder="0" allowfullscreen></iframe>-->
+			<iframe width="{{cc.width}}" height="{{cc.length}}" src="{{cc.video}}" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 </div>

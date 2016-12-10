@@ -3,6 +3,7 @@
     angular.module('Template')
         .component('videoComp', {
             bindings: {
+                video:'='
             },
             templateUrl: 'views/global-components/video-comp/video-comp.html',
             controller: videoCompCtrl,
@@ -15,7 +16,6 @@
         var cc = this;
 
         cc.link = 0;
-
         // cc.go = function (link) {
         //     window.location = link;
         // };
@@ -41,16 +41,8 @@
 
         })
 
-        var videos = {
-            beginner: 'https://www.youtube.com/embed/isMx-EISg3E',
-            clyro: 'https://www.youtube.com/embed/bpJvP4b5fX8'
-        }
-
         cc.$onInit = function() {
-            if ($stateParams.artist) {
-                cc.link = $sce.trustAsResourceUrl(videos[$stateParams.artist])
-                console.log($stateParams.artist, videos[$stateParams.artist], videos, cc.link)
-            }
+            cc.video = $sce.trustAsResourceUrl(cc.video);
 
         }
     }
