@@ -12418,24 +12418,24 @@ schedule-mobile > .container {
 artist-hero {
   position: relative; }
   artist-hero > .container {
-    height: 125vw; }
+    height: 125vw;
+    position: relative;
+    max-height: 800px; }
     artist-hero > .container .hero {
-      background-size: 223% !important;
+      background-size: cover !important;
       filter: grayscale(100%);
       width: 100vw;
       height: 100%;
-      position: absolute;
       top: 0;
-      max-height: 740px;
       background-position-x: -20rem !important; }
     artist-hero > .container > .row {
-      padding-top: 45vw; }
+      position: absolute;
+      top: 50vw; }
       artist-hero > .container > .row * {
         filter: grayscale(0) !important; }
       artist-hero > .container > .row > .col {
         display: flex;
-        justify-content: flex-end;
-        padding-right: 8vw; }
+        justify-content: flex-end; }
         artist-hero > .container > .row > .col > .container {
           min-width: 300px;
           text-align: left; }
@@ -12463,26 +12463,20 @@ artist-hero {
     transition: all 450ms cubic-bezier(0.32, 1, 0.375, 1); }
 
 @media (min-width: 420px) {
-  artist-hero > .container {
-    height: 80vw; }
-    artist-hero > .container .hero {
-      background-position-x: -82vw !important;
-      background-size: 185% !important;
-      background-position-y: -27vw !important; } }
+  artist-hero > .container .hero {
+    background-position: center !important; } }
 
-@media (min-width: 1024px) {
-  artist-hero > .container {
-    height: 56vw; }
-    artist-hero > .container > .row {
-      padding-top: 320px; } }
+@media (min-width: 768px) {
+  artist-hero > .container > .row {
+    top: 320px; } }
 
 @media (min-width: 1440px) {
   artist-hero > .container .hero {
-    background-position-x: -75rem !important;
-    background-position-y: 65rem !important;
-    background-size: 185% !important; }
+    background-size: 100% !important;
+    max-width: 1440px;
+    background-position: center !important; }
   artist-hero > .container > .row {
-    padding-top: 351px; } }
+    top: 351px; } }
 
 artist-bio > .container > .row {
   flex-flow: row wrap; }
