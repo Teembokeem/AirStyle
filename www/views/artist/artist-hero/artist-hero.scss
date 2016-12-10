@@ -3,26 +3,27 @@ artist-hero {
 
     > .container {
         height: 125vw;
+        position: relative;
+            max-height: 800px;
         .hero {
-            background-size: 223% !important;;
+            background-size: cover !important;;
             filter: grayscale(100%);
             width: 100vw;
             height: 100%;
-            position: absolute;
             top: 0;
-            max-height: 740px;
             background-position-x: -20rem !important;
 
         }
         > .row {
+            position: absolute;
+            top:50vw;
             * {
                 filter: grayscale(0) !important;
             }
-            padding-top: 45vw;
             > .col {
                 display: flex;
                 justify-content: flex-end;
-                padding-right: 8vw;
+                // padding-right: 8vw;
                 > .container {
                     min-width: 300px;
                     text-align: left;
@@ -75,11 +76,19 @@ artist-hero {
 @media(min-width:420px) {
     artist-hero {
         > .container {
-            height: 80vw;
+            // height: 80vw;
             .hero {
-                background-position-x: -82vw !important;
-                background-size: 185% !important;
-                background-position-y: -27vw !important;
+                background-position: center !important;
+            }
+        }
+    }
+}
+@media(min-width:768px) {
+    artist-hero {
+        > .container {
+            
+            > .row {
+                top: 320px;
             }
         }
     }
@@ -88,14 +97,7 @@ artist-hero {
 @media(min-width:1024px) {
     artist-hero {
         > .container {
-            height: 56vw;
-            .hero {
-
-            }
-
-            > .row {
-                padding-top: 320px;
-            }
+            // height: 
         }
     }
 }
@@ -104,13 +106,13 @@ artist-hero {
     artist-hero {
         > .container {
             .hero {
-                background-position-x: -75rem !important;
-                background-position-y: 65rem !important;
-                background-size: 185% !important;
+                background-size: 100% !important;
+                max-width: 1440px;
+                background-position: center !important;
             }
 
             > .row {
-                padding-top: 351px;
+                top: 351px;
             }
         }
     }
