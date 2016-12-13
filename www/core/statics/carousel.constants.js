@@ -12,10 +12,12 @@
                         buttons: [
                             {
                                 label: 'Learn More',
+                                outbound: true,
                                 dest: 'http://www.air-style.at'
                             },
                             {
                                 label: 'Buy Now',
+                                outbound: true,
                                 dest: 'https://airandstyle.frontgatetickets.com/'
                             }
                         ],
@@ -42,10 +44,12 @@
                         buttons: [
                             {
                                 label: 'Learn More',
+                                outbound: true,
                                 dest: 'http://www.air-style.at'
                             },
                             {
                                 label: 'Buy Now',
+                                outbound: true,
                                 dest: 'http://air-style.at/innsbruck2017/ticket-info-2017/'
                             }
                         ],
@@ -62,11 +66,13 @@
                         buttons: [
                             {
                                 label: 'BUY NOW',
+                                outbound: true,
                                 dest: 'http://air-style.at/innsbruck2017/ticket-info-2017/innsbruck2017/ticket-info-2017/'
                             },
                             {
                                 label: 'SCHEDULE',
-                                dest: ''
+                                outbound: false,
+                                dest: 'app.schedule'
                             }
                         ]
                     }

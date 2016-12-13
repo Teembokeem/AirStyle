@@ -201,43 +201,42 @@
                         location: 'main stage',
                         time: 'fri 3 6pm',
                         info: [
-                            'American electronic music band composed of record producer Diplo, Jillionaire, and Walshy fire. It was founded by Diplo and Switch, but Switch left in 2011. Its music spans numerous genres, mixing reggae with dancehall, raggaeton, house, and moombhaton.',
-                            'Major Lazer has released three full-length albums: Guns Don\'t Kill People... Lazers Do 2009, Free the Universe 2013,  and Peace Is the Mission in 2015. It also released an EP entitled Apocalypse Soon in March 2014, which featured vocal contribution from Pharrell Williams and Sean Paul. In addition, Major Lazer has also produced Reincarnated, the debut reggae album by Snoop Dogg under his \'Snoop Lion \' persona'
+                            'Redefining what it means to be a brass band, Lucky Chops stormed onto the scene in 2015 with the help of millions of viewers around the globe. Together this group of six talented individuals has created a unique sound and energy which has resonated worldwide with viral success, launching a career that is now headed toward untold heights. From the streets and subway stations of NYC to the Air + Style Festival stage!'
                         ],
                         website: 'http://www.beginner.de/',
                         spotify: 'https://embed.spotify.com/?uri=spotify%3Aartist%3A4XkhEirR2JZT4fncyOxxtf',
                         video: 'https://www.youtube.com/embed/isMx-EISg3E'
                     },
-                    'wax-wreckaz': {
-                        name: 'Wax Wreckaz',
-                        ref: 'wax-wreckaz',
-                        img_portrait: '../img/WaxWreckaz.jpg',
-                        img_landscape: '../img/artists/landscape/POWERS_Landscape.jpg',
-                        location: 'main stage',
-                        time: 'fri 3 2pm',
-                        info: [
-                            'American electronic music band composed of record producer Diplo, Jillionaire, and Walshy fire. It was founded by Diplo and Switch, but Switch left in 2011. Its music spans numerous genres, mixing reggae with dancehall, raggaeton, house, and moombhaton.',
-                            'Major Lazer has released three full-length albums: Guns Don\'t Kill People... Lazers Do 2009, Free the Universe 2013,  and Peace Is the Mission in 2015. It also released an EP entitled Apocalypse Soon in March 2014, which featured vocal contribution from Pharrell Williams and Sean Paul. In addition, Major Lazer has also produced Reincarnated, the debut reggae album by Snoop Dogg under his \'Snoop Lion \' persona'
-                        ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://embed.spotify.com/?uri=spotify%3Aartist%3A4XkhEirR2JZT4fncyOxxtf',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
-                    },
-                    'famouse-deck-team': {
-                        name: 'Famouse Deck Team',
-                        ref: 'famouse-deck-team',
-                        img_portrait: '../img/FamouseDeckTeam.jpg',
-                        img_landscape: '../img/artists/landscape/POWERS_Landscape.jpg',
-                        location: 'main stage',
-                        time: 'fri 3 4pm',
-                        info: [
-                            'American electronic music band composed of record producer Diplo, Jillionaire, and Walshy fire. It was founded by Diplo and Switch, but Switch left in 2011. Its music spans numerous genres, mixing reggae with dancehall, raggaeton, house, and moombhaton.',
-                            'Major Lazer has released three full-length albums: Guns Don\'t Kill People... Lazers Do 2009, Free the Universe 2013,  and Peace Is the Mission in 2015. It also released an EP entitled Apocalypse Soon in March 2014, which featured vocal contribution from Pharrell Williams and Sean Paul. In addition, Major Lazer has also produced Reincarnated, the debut reggae album by Snoop Dogg under his \'Snoop Lion \' persona'
-                        ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://embed.spotify.com/?uri=spotify%3Aartist%3A4XkhEirR2JZT4fncyOxxtf',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
-                    },
+                    // 'wax-wreckaz': {
+                    //     name: 'Wax Wreckaz',
+                    //     ref: 'wax-wreckaz',
+                    //     img_portrait: '../img/WaxWreckaz.jpg',
+                    //     img_landscape: '../img/artists/landscape/POWERS_Landscape.jpg',
+                    //     location: 'main stage',
+                    //     time: 'fri 3 2pm',
+                    //     info: [
+                    //         'American electronic music band composed of record producer Diplo, Jillionaire, and Walshy fire. It was founded by Diplo and Switch, but Switch left in 2011. Its music spans numerous genres, mixing reggae with dancehall, raggaeton, house, and moombhaton.',
+                    //         'Major Lazer has released three full-length albums: Guns Don\'t Kill People... Lazers Do 2009, Free the Universe 2013,  and Peace Is the Mission in 2015. It also released an EP entitled Apocalypse Soon in March 2014, which featured vocal contribution from Pharrell Williams and Sean Paul. In addition, Major Lazer has also produced Reincarnated, the debut reggae album by Snoop Dogg under his \'Snoop Lion \' persona'
+                    //     ],
+                    //     website: 'http://www.beginner.de/',
+                    //     spotify: 'https://embed.spotify.com/?uri=spotify%3Aartist%3A4XkhEirR2JZT4fncyOxxtf',
+                    //     video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                    // },
+                    // 'famouse-deck-team': {
+                    //     name: 'Famouse Deck Team',
+                    //     ref: 'famouse-deck-team',
+                    //     img_portrait: '../img/FamouseDeckTeam.jpg',
+                    //     img_landscape: '../img/artists/landscape/POWERS_Landscape.jpg',
+                    //     location: 'main stage',
+                    //     time: 'fri 3 4pm',
+                    //     info: [
+                    //         'American electronic music band composed of record producer Diplo, Jillionaire, and Walshy fire. It was founded by Diplo and Switch, but Switch left in 2011. Its music spans numerous genres, mixing reggae with dancehall, raggaeton, house, and moombhaton.',
+                    //         'Major Lazer has released three full-length albums: Guns Don\'t Kill People... Lazers Do 2009, Free the Universe 2013,  and Peace Is the Mission in 2015. It also released an EP entitled Apocalypse Soon in March 2014, which featured vocal contribution from Pharrell Williams and Sean Paul. In addition, Major Lazer has also produced Reincarnated, the debut reggae album by Snoop Dogg under his \'Snoop Lion \' persona'
+                    //     ],
+                    //     website: 'http://www.beginner.de/',
+                    //     spotify: 'https://embed.spotify.com/?uri=spotify%3Aartist%3A4XkhEirR2JZT4fncyOxxtf',
+                    //     video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                    // },
                 }
             },
                 Keys = Object.keys(artists),
