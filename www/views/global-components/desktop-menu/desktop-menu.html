@@ -1,19 +1,24 @@
 <div class="row">
-    <div ng-class="{'tour-stop-menu' : cc.showTourStops}" class="col anchor-pad">
-        <a ng-class="{'disabled' : false}" ng-mouseover="cc.showTourStops = true">TOUR STOPS</a>
-        <tour-stops-menu ng-if="cc.showTourStops" class="slideInDown" ng-mouseleave="cc.showTourStops = false"></tour-stops-menu>
+    <div class="col anchor-pad">
+        <a ng-mouseover="cc.menus.tours = true">TOUR STOPS</a>
+        <dropdown-menu ng-if="cc.menus.tours" class="slideInDown" ng-mouseleave="cc.menus.tours = false" menu="tours"></dropdown-menu>
+        <span ng-if="cc.activePage()">{{cc.activePageRef}}</span>
     </div>
     <div class="col anchor-pad">
-        <a ng-disabled="false" ng-class="{'disabled' : false}" ui-sref="app.lineup">LINEUP</a>
+        <a ng-mouseover="cc.menus.lineup = true" ui-sref="app.lineup">LINEUP</a>
+        <dropdown-menu ng-if="cc.menus.lineup" class="slideInDown" ng-mouseleave="cc.menus.lineup = false" menu="lineup"></dropdown-menu>
     </div>
     <div class="col anchor-pad">
-        <a ng-disabled="true" ng-class="{'disabled' : true}">RIDERS + RANKINGS</a>
+        <a ng-mouseover="cc.menus.riders = true">RIDERS + RANKINGS</a>
+        <dropdown-menu ng-if="cc.menus.riders" class="slideInDown" ng-mouseleave="cc.menus.riders = false" menu="riders"></dropdown-menu>
     </div>
     <div class="col anchor-pad">
         <!--<a href="https://airandstyle.frontgatetickets.com/">TICKETS</a>-->
-        <a ui-sref="app.ticket">TICKETS</a>
+        <a ng-mouseover="cc.menus.tickets = true" ui-sref="app.ticket">TICKETS</a>
+        <dropdown-menu ng-if="cc.menus.tickets" class="slideInDown" ng-mouseleave="cc.menus.tickets = false" menshowTickets="tickets"></dropdown-menu>
     </div>
     <div class="col anchor-pad">
-        <a ng-disabled="true" ng-class="{'disabled' : true}">MERCH</a>
+        <a ng-mouseover="cc.menus.merch = true">MERCH</a>
+        <dropdown-menu ng-if="cc.menus.merch" class="slideInDown" ng-mouseleave="cc.menus.merch = false" menu="merch"></dropdown-menu>
     </div>
 </div>

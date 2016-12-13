@@ -156,8 +156,8 @@ nav {
             width: 80%;
             >.row {
                 justify-content: flex-end;
-                .anchor-pad:first-child {
-                    tour-stops-menu {
+                .anchor-pad {
+                    dropdown-menu {
                         position: absolute;
                         top: 1.9em;
                         box-shadow: 0 0 38px 4px black;
@@ -204,18 +204,18 @@ nav {
                             }
                         }
                     }
-                    tour-stops-menu.ng-enter,
-                    tour-stops-menu.ng-leave {
+                    dropdown-menu.ng-enter,
+                    dropdown-menu.ng-leave {
                         transition: all 450ms cubic-bezier(.32, 1, .375, 1);
                     }
-                    tour-stops-menu.ng-enter,
-                    tour-stops-menu.ng-leave.ng-leave-active {
+                    dropdown-menu.ng-enter,
+                    dropdown-menu.ng-leave.ng-leave-active {
                         opacity: 0;
                         /*top: initial;*/
                         // left: -76px;
                     }
-                    tour-stops-menu.ng-leave,
-                    tour-stops-menu.ng-enter.ng-enter-active {
+                    dropdown-menu.ng-leave,
+                    dropdown-menu.ng-enter.ng-enter-active {
                         opacity: 1;
                         /*top: 0;*/
                         // left: -76px;
@@ -229,6 +229,7 @@ nav {
                     max-width: 130px;
                     text-align: center;
                     z-index: 999;
+                    
                     a {
                         text-align: center;
                         text-decoration: none;
@@ -289,8 +290,8 @@ nav {
                 width: 80%;
                 >.row {
                     justify-content: flex-end;
-                    .anchor-pad:first-child {
-                        tour-stops-menu {
+                    .anchor-pad {
+                        dropdown-menu {
                             top: 2.1rem;
                         }
                     }
@@ -341,8 +342,8 @@ nav {
             }
             desktop-menu {
                 >.row {
-                    .anchor-pad:first-child {
-                        tour-stops-menu {
+                    .anchor-pad {
+                        dropdown-menu {
                             top: 45px;
                         }
                     }
