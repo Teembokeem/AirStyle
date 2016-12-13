@@ -48,7 +48,6 @@
             return _posts;
         }
 
-
         function filterPosts(param) {
             if (param) {
                 return service.Posts[param];
