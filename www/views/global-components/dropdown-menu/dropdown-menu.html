@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row title">
+        <div class="col">
+            <span>{{cc.contextMenu.name | uppercase}}</span>
+        </div>
+    </div>
+    <div ng-repeat="menuItem in cc.contextMenu.items" ng-click="cc.stateChange(menuItem.route, menuItem.ref, cc.contextMenu.ref)"
+        class="row {{menuItem.class ? menuItem.class : ''}}">
+        <div class="col">
+            <span>{{menuItem.name | uppercase}}</span>
+        </div>
+    </div>
+</div>
