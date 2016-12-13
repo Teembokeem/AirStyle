@@ -4,6 +4,7 @@
         .component('avatarPanels', {
             bindings: {
                 avatars: '=',
+                max: '=',
                 ref: '@',
                 schedule: '=',
                 view: '='
@@ -21,6 +22,8 @@
         cc.stateChange = stateChange;
         cc.pageChange = pageChange;
         cc.state = $stateParams[Object.keys($stateParams)[0]];
+
+        console.log(cc.max, typeof cc.max)
 
         function pageChange(state, val) {
             val ? $state.go(state, { tour: val }) : $state.go(state);

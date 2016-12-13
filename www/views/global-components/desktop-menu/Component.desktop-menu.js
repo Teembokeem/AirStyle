@@ -13,11 +13,17 @@
         // console.log('Desktop')
         var cc = this;
         cc.noNav = true;
-        cc.showTourStops = false;
+        cc.menus = {
+            tours: false,
+            lineup: false,
+            riders: false,
+            tickets: false,
+            merch: false
+        }
         cc.toggleNav = toggleNav;
 
         $rootScope.$on('tourStopMenuClose', function (e, d) {
-            cc.showTourStops = !cc.showTourStops;
+            cc.menus[d.menu] = !cc.menus[d.menu];
         })
         function toggleNav() {
             cc.noNav = !cc.noNav;
