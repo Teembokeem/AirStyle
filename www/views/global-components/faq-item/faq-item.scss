@@ -1,15 +1,15 @@
 .item.hide-details {
     margin-bottom: 1.14em;
 }
+
 .item {
     width: 95%;
-    height: 3rem;
     display: flex;
     align-items: center;
     background-color: #424242;
     border: none;
     margin: 0 auto;
-
+    padding: 10px 20px 20px 0px;
     .expand {
         max-width: 2.5rem;
         justify-content: flex-start;
@@ -25,20 +25,24 @@
             display: flex;
             align-items: center;
             justify-content: center;
-
-            span {
+            p {
                 font-size: 22px;
             }
         }
     }
-
     .description {
         .short-description {
             .col {
-                span {
+                p {
                     // font-family: 'Apercu';
-                    font-size: 1rem;
+                    padding-top: 5px;
+                    font-size: 1.5rem;
                     font-weight: bold;
+                    word-wrap: break-word;
+                    white-space: normal;
+                    color: white;
+                    text-transform: uppercase;
+                    line-height: 1.2em;
                 }
             }
         }
@@ -46,26 +50,32 @@
 }
 
 .item-info {
-    width:95%;
+    width: 95%;
     display: block;
     margin: 0 auto;
     margin-bottom: 1.14em;
     background-color: #424242;
 }
-  
+
+.item:hover,
+.item-info:hover {
+    cursor: pointer;
+}
+
+.item.activated {
+    border: none;
+    background-color: #424242;
+}
 
 @media(min-width: 420px) {
-
     .item {
         width: 75%;
-
         .expand {
             max-width: 4rem;
             justify-content: center;
             margin-left: 0;
         }
-
-            .description {
+        .description {
             .short-description {
                 .col {
                     span {
@@ -75,12 +85,11 @@
             }
         }
     }
-
     .item-info {
-        width:75%;
+        width: 75%;
     }
 }
-            
+
 @media(min-width: 768px) {
     .item {
         .description {

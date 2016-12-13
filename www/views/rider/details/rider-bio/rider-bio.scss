@@ -2,8 +2,11 @@ rider-bio {
     >.container {
         padding: 10rem 6rem 0 6rem;
         >.row {
+            flex-flow: row wrap;
             >.col:first-child {
-                max-width: 50vw;
+                overflow-y: scroll;
+                min-width: 370px;
+                max-height: 75vh;
                 .name-container {
                     margin-bottom: 2rem;
                     .row {

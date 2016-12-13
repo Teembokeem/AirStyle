@@ -1,25 +1,21 @@
 faq-footer {
     .container {
-        height:11rem;
+        height: 11rem;
         padding: 5rem 0;
         .title-row {
             margin-bottom: 2rem;
             .title {
                 display: flex;
                 justify-content: center;
-
                 span {
-                    font-size: 60px;
-
+                    font-size: 1.5rem;
                 }
             }
         }
-
         .row:nth-child(2) {
-            > .col {
+            >.col {
                 display: flex;
                 justify-content: center;
-
                 span {
                     font-size: 18px;
                     font-family: 'Apercu';
@@ -29,6 +25,20 @@ faq-footer {
                     font-family: 'Apercu';
                     color: $as-yellow;
                     text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:800px) {
+    faq-footer {
+        >.container {
+            .title-row {
+                .title {
+                    span {
+                        font-size: 3.5rem;
+                    }
                 }
             }
         }
