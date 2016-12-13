@@ -10,14 +10,21 @@
             controllerAs: 'cc'
         })
 
-    TourCarouselCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', 'Carousel', '$stateParams'];
+    TourCarouselCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', 'Carousel', '$stateParams', '$state'];
 
-    function TourCarouselCtrl($log, $rootScope, $window, $scope, Carousel, $stateParams) {
+    function TourCarouselCtrl($log, $rootScope, $window, $scope, Carousel, $stateParams, $state) {
         var cc = this;
 
-        cc.go = function (link) {
+        cc.go = go;
+        cc.stateChange = stateChange;
+
+        function go(link) {
             window.location = link;
         };
+
+        function stateChange(dest) {
+            $state.go(dest, $stateParams.tour)
+        }
 
         $scope.$watch(function () {
             return $window.innerWidth;
