@@ -1,4 +1,9 @@
 <div class="container">
+    <div class="row title-row">
+        <div class="col title">
+            <span>{{ cc.tag | uppercase}}</span>
+        </div>
+    </div>
     <div class="row">
         <div ng-repeat="(key, avatar) in cc.avatars track by $index" ng-if="cc.max ? $index < cc.max : true" class="col">
             <div class="container">

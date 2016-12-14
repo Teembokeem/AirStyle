@@ -1,7 +1,24 @@
 avatar-panels {
     >.container {
         padding-top: 5rem;
-        >.row:first-child {
+
+        .title-row {
+            margin-bottom: 3rem;
+            display: flex;
+            justify-content: center;
+
+            .col {
+                display: flex;
+                justify-content: center;
+
+                span {
+                    font-size: 40px;
+                    border-bottom: 8px solid $as-yellow;
+                    padding-bottom: 1rem;
+                }
+            }
+        }
+        >.row:nth-child(2) {
             flex-flow: row wrap;
             justify-content: center;
             >.col {
@@ -86,8 +103,22 @@ avatar-panels {
                 }
             }
 
-            .col:first-child {
-                margin-right: 2rem;
+            .col:nth-child(2) {
+                margin-left: 2rem;
+            }
+        }
+    }
+}
+
+@media(min-width: 420px) {
+    avatar-panels {
+        > .container {
+            .title-row {
+                .col {
+                    span {
+                        font-size: 40px;
+                    }
+                }
             }
         }
     }

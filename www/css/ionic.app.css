@@ -10670,7 +10670,7 @@ avatar-panels > .container {
       display: flex;
       justify-content: center; }
       avatar-panels > .container .title-row .col span {
-        font-size: 22px;
+        font-size: 40px;
         border-bottom: 8px solid #f9fe17;
         padding-bottom: 1rem; }
   avatar-panels > .container > .row:nth-child(2) {
@@ -10745,7 +10745,7 @@ avatar-panels > .container {
           font-size: 18px;
           font-family: 'Apercu'; }
     avatar-panels > .container .more .col:nth-child(2) {
-      margin-right: 2rem; }
+      margin-left: 2rem; }
 
 @media (min-width: 420px) {
   avatar-panels > .container .title-row .col span {
@@ -10908,7 +10908,7 @@ home-carousel {
             font-family: 'Reglo-Bold';
             color: #828282; }
       home-carousel > .container .row .col .slider .slider-pager {
-        bottom: 5rem !important;
+        bottom: 4rem !important;
         position: relative !important; }
         home-carousel > .container .row .col .slider .slider-pager .slider-pager-page {
           width: 20px;
