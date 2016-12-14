@@ -6,14 +6,14 @@
 
     function AppCtrl($scope, $state, $rootScope, $log, $ionicScrollDelegate, $window) {
 
-        var vm = this;
+        var ac = this;
 
-        vm.contentTitle = $state.current.contentTitle;
-        vm.poop = 'poop bindings'
+        ac.contentTitle = $state.current.contentTitle;
+        ac.poop = 'poop bindings'
 
         $rootScope.$on('$stateChangeStart', function (evt, toState, toParams, fromState, fromParams, $state) {
             // $rootScope.contentTitle = ;
-            vm.contentTitle = toState.contentTitle;
+            ac.contentTitle = toState.contentTitle;
 
             $rootScope.$on('$stateChangeError', function (event, toState, toParams, fromState, fromParams, error) {
                 event.preventDefault();
@@ -21,7 +21,7 @@
         });
 
         var t = $ionicScrollDelegate.$getByHandle('mainScroll');
-        vm.getScroll = function () {
+        ac.getScroll = function () {
             var fromTop = t.getScrollPosition().top;
             if ($window.innerWidth > 600) {
                 if (fromTop > 50) {
