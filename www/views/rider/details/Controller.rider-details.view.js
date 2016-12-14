@@ -5,11 +5,10 @@
         .module('Rider.view.module')
         .controller('RiderDetailsCtrl', RiderDetailsCtrl);
 
-    RiderDetailsCtrl.$inject = ['$log', '$state', '$rootScope', '$stateParams'];
+    RiderDetailsCtrl.$inject = ['$log', '$state', '$rootScope', '$stateParams', '$scope'];
 
-    function RiderDetailsCtrl($log, $state, $rootScope, $stateParams) {
+    function RiderDetailsCtrl($log, $state, $rootScope, $stateParams, $scope) {
         var cc = this;
-
-        console.log('params', $stateParams);
+        console.log($scope)
     }
 })();
