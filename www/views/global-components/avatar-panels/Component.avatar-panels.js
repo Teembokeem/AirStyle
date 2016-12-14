@@ -7,7 +7,8 @@
                 max: '=',
                 ref: '@',
                 schedule: '=',
-                view: '='
+                view: '=',
+                tag: '@'
             },
             templateUrl: 'views/global-components/avatar-panels/avatar-panels.html',
             controller: avatarPanelsCtrl,
@@ -23,7 +24,7 @@
         cc.pageChange = pageChange;
         cc.state = $stateParams[Object.keys($stateParams)[0]];
 
-        console.log(cc.max, typeof cc.max)
+        console.log(cc.tag)
 
         function pageChange(state, val) {
             val ? $state.go(state, { tour: val }) : $state.go(state);
