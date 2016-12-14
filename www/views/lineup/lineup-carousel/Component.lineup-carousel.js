@@ -15,9 +15,17 @@
     function lineupCarouselCtrl($log, $rootScope, $window, $scope, Carousel, $stateParams) {
         var cc = this;
 
-        cc.go = function (link) {
+        cc.go = go;
+        cc.stateChange = stateChange;
+
+        function go(link) {
             window.location = link;
         };
+
+        function stateChange(state, val) {
+            val ? $state.go(state, { tour: val }) : $state.go(state);
+        };
+        
 
         $scope.$watch(function () {
             return $window.innerWidth;
