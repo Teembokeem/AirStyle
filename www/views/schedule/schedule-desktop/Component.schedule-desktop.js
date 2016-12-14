@@ -13,9 +13,15 @@
     scheduleDesktopCtrl.$inject = ['$log', '$rootScope', '$window', '$scope'];
 
     function scheduleDesktopCtrl($log, $rootScope, $window, $scope) {
-        var cc = this;
+        var cc = this,
+            shifter = 38;
+        cc.timeSlots = ['1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm'];
+        cc.topMult = topMult;
 
-        cc.timeSlots = ['1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm']
+
+        function topMult(val) {
+            return val * 15 + shifter;
+        }
 
         cc.go = function (link) {
             window.location = link;
@@ -24,18 +30,9 @@
         $scope.$watch(function () {
             return $window.innerWidth;
         }, function (a, b, c) {
-            // console.log(a, b, c)
-            if (a < 1024) {
-                cc.mobile = true;
-            } else {
-                cc.mobile = false;
-                // if (!$scope.$$phase) {
-                //     $scope.$apply(function () {
-                // if (!cc.mobile) {
-                // cc.noNav = ;
-                // }
-                //     });
-                // }
+            if (800 < a < 850) {
+                // shifter = 70;
+            } else if (850 < a < 900) {
             }
 
         })
