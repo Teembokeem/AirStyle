@@ -10405,32 +10405,44 @@ tumblr-feed > .container {
     justify-content: center;
     flex-flow: row wrap; }
     tumblr-feed > .container > .row:nth-child(2) > .col {
-      background-color: #f9fe17;
+      background-color: #141414;
+      box-shadow: 0 2px 4px 0 #000000;
       position: relative;
-      max-width: 400px;
-      min-width: 300px;
-      min-height: 235px;
+      max-width: 316px;
+      min-width: 250px;
+      min-height: 375px;
+      max-height: 415px;
+      height: 120vw;
       padding: 1rem 0.5rem 0.5rem 0.5rem;
       margin: 0 auto; }
       tumblr-feed > .container > .row:nth-child(2) > .col .container .row:first-child {
+        padding: 0 1rem; }
+        tumblr-feed > .container > .row:nth-child(2) > .col .container .row:first-child .col {
+          display: flex;
+          justify-content: center; }
+          tumblr-feed > .container > .row:nth-child(2) > .col .container .row:first-child .col img {
+            max-height: 234px;
+            width: 100%;
+            border: 6px solid; }
+      tumblr-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) {
         padding-left: 1rem;
         padding-top: 1rem; }
-        tumblr-feed > .container > .row:nth-child(2) > .col .container .row:first-child .col {
+        tumblr-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) .col {
           text-align: left; }
-          tumblr-feed > .container > .row:nth-child(2) > .col .container .row:first-child .col span {
-            font-size: 18px;
-            color: black; }
-      tumblr-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) {
+          tumblr-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) .col span {
+            font-size: 22px;
+            font-weight: bold;
+            color: #828282; }
+      tumblr-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(3) {
         position: absolute;
         left: 1rem;
         bottom: 1.5rem; }
-        tumblr-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(2) .col span {
+        tumblr-feed > .container > .row:nth-child(2) > .col .container .row:nth-child(3) .col span {
           letter-spacing: 2.1px;
           padding-bottom: 6px;
-          border-bottom: 5px solid #40caff;
+          border-bottom: 5px solid #f9fe17;
           font-family: 'Apercu';
-          font-weight: bold;
-          color: black; }
+          font-weight: bold; }
     tumblr-feed > .container > .row:nth-child(2) > .col:nth-child(n + 1) {
       margin-bottom: 1.5rem; }
   tumblr-feed > .container .more {
@@ -10650,35 +10662,46 @@ video-comp .video-container .row .col {
 
 avatar-panels > .container {
   padding-top: 5rem; }
-  avatar-panels > .container > .row:first-child {
+  avatar-panels > .container .title-row {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center; }
+    avatar-panels > .container .title-row .col {
+      display: flex;
+      justify-content: center; }
+      avatar-panels > .container .title-row .col span {
+        font-size: 22px;
+        border-bottom: 8px solid #f9fe17;
+        padding-bottom: 1rem; }
+  avatar-panels > .container > .row:nth-child(2) {
     flex-flow: row wrap;
     justify-content: center; }
-    avatar-panels > .container > .row:first-child > .col {
+    avatar-panels > .container > .row:nth-child(2) > .col {
       min-width: 300px;
       margin: 0 3rem 5rem 3rem; }
-      avatar-panels > .container > .row:first-child > .col > .container {
+      avatar-panels > .container > .row:nth-child(2) > .col > .container {
         width: 100%;
         position: relative;
         display: flex;
         justify-content: center;
         margin: 0 auto; }
-        avatar-panels > .container > .row:first-child > .col > .container .row {
+        avatar-panels > .container > .row:nth-child(2) > .col > .container .row {
           max-width: 300px;
           position: relative;
           justify-content: center; }
-          avatar-panels > .container > .row:first-child > .col > .container .row .col {
+          avatar-panels > .container > .row:nth-child(2) > .col > .container .row .col {
             min-height: 400px;
             min-width: 300px;
             max-width: 300px;
             border: 8px solid white;
             overflow: hidden;
             padding: 0; }
-            avatar-panels > .container > .row:first-child > .col > .container .row .col .panel-image {
+            avatar-panels > .container > .row:nth-child(2) > .col > .container .row .col .panel-image {
               margin: 0 auto;
               height: 100%;
               background-repeat: no-repeat !important;
               background-position: center !important; }
-          avatar-panels > .container > .row:first-child > .col > .container .row .blue-container {
+          avatar-panels > .container > .row:nth-child(2) > .col > .container .row .blue-container {
             position: absolute;
             bottom: 3rem;
             right: -2rem;
@@ -10688,7 +10711,7 @@ avatar-panels > .container {
             background-color: #40caff;
             display: flex;
             align-items: center; }
-            avatar-panels > .container > .row:first-child > .col > .container .row .blue-container span {
+            avatar-panels > .container > .row:nth-child(2) > .col > .container .row .blue-container span {
               color: black;
               font-family: 'Apercu';
               font-size: 33px;
@@ -10721,8 +10744,12 @@ avatar-panels > .container {
         avatar-panels > .container .more .col button span {
           font-size: 18px;
           font-family: 'Apercu'; }
-    avatar-panels > .container .more .col:first-child {
+    avatar-panels > .container .more .col:nth-child(2) {
       margin-right: 2rem; }
+
+@media (min-width: 420px) {
+  avatar-panels > .container .title-row .col span {
+    font-size: 40px; } }
 
 @media (min-width: 1024px) {
   avatar-panels > .container > .row > .col {
@@ -12238,12 +12265,12 @@ schedule-desktop > .container {
     schedule-desktop > .container > .row > .col > .container:first-child .title-row {
       margin-bottom: 2rem; }
       schedule-desktop > .container > .row > .col > .container:first-child .title-row .col span {
-        font-size: 30px;
+        font-size: 64px;
         border-bottom: 8px solid #f9fe17; }
   schedule-desktop > .container > .row > .col > .container:nth-child(n + 2) > .row:first-child > .col:first-child {
-    padding-right: 5rem;
+    padding-right: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     max-width: 400px;
     font-size: 30px; }
@@ -12252,8 +12279,10 @@ schedule-desktop > .container {
   schedule-desktop > .container > .row > .col > .container:nth-child(n + 2) > .row:first-child > .col:nth-child(n + 2) {
     display: flex;
     justify-content: center;
+    align-items: center;
     max-width: 300px;
-    position: relative; }
+    position: relative;
+    padding: 0 0; }
     schedule-desktop > .container > .row > .col > .container:nth-child(n + 2) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col {
       text-align: center; }
       schedule-desktop > .container > .row > .col > .container:nth-child(n + 2) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col span {
@@ -12284,6 +12313,9 @@ schedule-desktop > .container {
     margin-bottom: 1.9rem; }
     schedule-desktop > .container > .row > .col > .container:nth-child(n + 2) > .row:nth-child(n + 2) > .col:first-child {
       padding-right: 2rem;
+      padding-left: 95px;
+      width: 170px;
+      text-align: right;
       display: flex;
       justify-content: flex-end;
       align-items: center; }
@@ -12292,17 +12324,19 @@ schedule-desktop > .container {
         color: #828282;
         font-family: 'Apercu';
         font-weight: bold;
-        letter-spacing: 0.2rem; }
+        letter-spacing: 0.2rem;
+        width: 85px;
+        text-align: right; }
       schedule-desktop > .container > .row > .col > .container:nth-child(n + 2) > .row:nth-child(n + 2) > .col:first-child span.header-footer {
         font-size: 18px;
         color: white;
-        padding-right: 3rem;
+        padding-right: 2rem;
         letter-spacing: 0; }
     schedule-desktop > .container > .row > .col > .container:nth-child(n + 2) > .row:nth-child(n + 2) > .col:nth-child(2) {
-      min-width: 66rem; }
+      min-width: 80%; }
       schedule-desktop > .container > .row > .col > .container:nth-child(n + 2) > .row:nth-child(n + 2) > .col:nth-child(2) .line-div {
         height: 50%;
-        width: 88%;
+        width: 100%;
         background-image: linear-gradient(to right, #5a5a5a 25%, rgba(255, 255, 255, 0) 0%);
         background-position: bottom;
         background-size: 12px 2px;
@@ -12310,10 +12344,6 @@ schedule-desktop > .container {
       schedule-desktop > .container > .row > .col > .container:nth-child(n + 2) > .row:nth-child(n + 2) > .col:nth-child(2) .bounds {
         background-image: linear-gradient(to right, #969696 25%, rgba(255, 255, 255, 0) 0%);
         background-size: 12px 3px; }
-
-@media (min-width: 420px) {
-  schedule-desktop > .container > .row > .col > .container:first-child .title-row .col span {
-    font-size: 64px; } }
 
 @media (min-width: 1024px) {
   schedule-desktop > .container > .row > .col > .container:first-child .title-row .col span {

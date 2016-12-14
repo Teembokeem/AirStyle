@@ -25,7 +25,7 @@
                 blog: 'teembokeem',
                 posts: [
                 {
-                    message: 'INNSBRUCK TAGGED POST',
+                    message: 'Story Time with Eddie Wall: Best Snowboarding Locations in the U.S.',
                     date: new Date('June 3, 2016'),
                     tags: ['innsbruck']
                 },
