@@ -96,7 +96,47 @@
                 name: 'Tickets',
                 ref: 'tickets',
                 route: 'app.ticket',
-                items: ['beijing', 'innsbruck', 'la']
+                items: [
+                    {
+                        name: 'Los Angeles',
+                        ref: 'la',
+                        route: 'app.lineup',
+                        outbound: false,
+                        href: '',
+                        class: 'la'
+                    },
+                    {
+                        name: 'Innsbruck',
+                        ref: 'innsbruck',
+                        route: 'app.lineup',
+                        outbound: false,
+                        href: '',
+                        class: 'ib'
+                    },
+                ]
+            },
+            merch: {
+                name: 'Merch',
+                ref: 'merchandise',
+                route: 'app.merchandise',
+                items: [
+                    {
+                        name: 'Los Angeles',
+                        ref: 'la',
+                        route: 'app.lineup',
+                        outbound: false,
+                        href: '',
+                        class: 'la'
+                    },
+                    {
+                        name: 'Innsbruck',
+                        ref: 'innsbruck',
+                        route: 'app.lineup',
+                        outbound: false,
+                        href: '',
+                        class: 'ib'
+                    },
+                ]
             }
 
         }
