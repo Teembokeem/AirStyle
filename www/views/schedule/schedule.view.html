@@ -1,7 +1,7 @@
 <ion-view class="schedule-view">
     <ion-content delegate-handle="mainScroll" on-scroll="ac.getScroll()" overflow-scroll="true">
-        <schedule-desktop></schedule-desktop>
-        <schedule-mobile></schedule-mobile>
+        <schedule-desktop ng-if="!cc.mobile"></schedule-desktop>
+        <schedule-mobile ng-if="cc.mobile"></schedule-mobile>
         <download-app></download-app>
         <branding></branding>
         <subscribe></subscribe>
