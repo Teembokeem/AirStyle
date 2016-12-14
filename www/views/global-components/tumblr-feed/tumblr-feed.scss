@@ -24,28 +24,44 @@ tumblr-feed {
             justify-content: center;
             flex-flow: row wrap;
             > .col {
-                background-color: $as-yellow;
+                background-color: #141414;
+                box-shadow: 0 2px 4px 0 #000000;
                 position: relative;
-                max-width: 400px;
-                min-width: 300px;
-                min-height: 235px;
+                max-width: 316px;
+                min-width: 250px;
+                min-height: 375px;
+                max-height: 415px;
+                height: 120vw;
                 padding: 1rem 0.5rem 0.5rem 0.5rem;
                 margin: 0 auto;
                 .container {
                     .row:first-child {
+                        padding: 0 1rem;
+                        .col {
+                            display: flex;
+                            justify-content: center;
+                            img {
+                                max-height: 234px;
+                                width: 100%;
+                                border: 6px solid;
+                            }
+                        }
+                    }
+                    .row:nth-child(2) {
                         padding-left: 1rem;
                         padding-top: 1rem;
                         .col {
                             text-align: left;
 
                             span {
-                                font-size: 18px;
-                                color: black;
+                                font-size: 22px;
+                                font-weight: bold;
+                                color: #828282;
                             }
                         }
                     }
 
-                    .row:nth-child(2) {
+                    .row:nth-child(3) {
                         position: absolute;
                         left: 1rem;
                         bottom: 1.5rem;
@@ -53,10 +69,9 @@ tumblr-feed {
                             span {
                                 letter-spacing: 2.1px;
                                 padding-bottom: 6px;
-                                border-bottom: 5px solid $as-blue;
+                                border-bottom: 5px solid $as-yellow;
                                 font-family: 'Apercu';
                                 font-weight: bold;
-                                color: black;
                             }
                         }
                     }
