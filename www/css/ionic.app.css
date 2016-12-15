@@ -9993,7 +9993,7 @@ nav {
               border-bottom: 3px solid #40caff; }
         nav .as-menu desktop-menu > .row .anchor-pad dropdown-menu.ng-enter,
         nav .as-menu desktop-menu > .row .anchor-pad dropdown-menu.ng-leave {
-          transition: all 450ms cubic-bezier(0.32, 1, 0.375, 1); }
+          transition: all 500ms cubic-bezier(0.32, 1, 0.375, 1); }
         nav .as-menu desktop-menu > .row .anchor-pad dropdown-menu.ng-enter,
         nav .as-menu desktop-menu > .row .anchor-pad dropdown-menu.ng-leave.ng-leave-active {
           opacity: 0;
@@ -12536,8 +12536,9 @@ artist-hero {
 @media (min-width: 1440px) {
   artist-hero > .container .hero {
     background-size: 100% !important;
-    max-width: 1440px;
-    background-position: center !important; }
+    max-width: 100%;
+    background-position: center !important;
+    background-repeat: no-repeat !important; }
   artist-hero > .container > .row {
     top: 351px; } }
 
@@ -12929,12 +12930,12 @@ rider-bio > .container {
 
 .rankings-view ion-content .scroll > .container {
   text-align: center;
-  padding: 0 0.7rem;
+  padding: 10rem 0.7rem 0 0.7rem;
   /*height: 100%;*/ }
   .rankings-view ion-content .scroll > .container .title-row {
     margin-bottom: 2rem; }
     .rankings-view ion-content .scroll > .container .title-row .col span {
-      font-size: 30px;
+      font-size: 60px;
       border-bottom: 8px solid #40caff; }
 
 @media (min-width: 1024px) {
@@ -12945,30 +12946,40 @@ rider-bio > .container {
 
 rankings-list > .container .selectors-row {
   margin-bottom: 1rem; }
-  rankings-list > .container .selectors-row > .col .selectors-container {
-    padding: 0 2.7rem; }
-    rankings-list > .container .selectors-row > .col .selectors-container > .row .col:first-child span {
-      margin-right: 1rem; }
-    rankings-list > .container .selectors-row > .col .selectors-container > .row .col:first-child select {
-      -webkit-appearance: none;
-      -webkit-border-radius: 0;
-      border-radius: 0;
-      height: 2.56em;
-      width: 4.78em;
-      border: 3px solid black;
-      color: black;
-      background-color: white;
-      padding-left: 0.8em;
-      font-size: 18px;
-      padding-top: 0.2em; }
-    rankings-list > .container .selectors-row > .col .selectors-container > .row .col:first-child i {
-      color: black;
-      position: relative;
-      right: 1.8rem; }
+  rankings-list > .container .selectors-row > .col .selectors-container > .row {
+    flex-flow: row wrap; }
+    rankings-list > .container .selectors-row > .col .selectors-container > .row .col:first-child {
+      min-width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem; }
+      rankings-list > .container .selectors-row > .col .selectors-container > .row .col:first-child span {
+        margin-right: 1rem; }
+      rankings-list > .container .selectors-row > .col .selectors-container > .row .col:first-child select {
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        height: 2.56em;
+        width: 100%;
+        border: 3px solid black;
+        color: black;
+        background-color: white;
+        padding-left: 0.8em;
+        font-size: 18px;
+        padding-top: 0.2em;
+        max-width: 290px; }
+      rankings-list > .container .selectors-row > .col .selectors-container > .row .col:first-child i {
+        color: black;
+        position: relative;
+        right: 1.8rem; }
     rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) {
       min-width: 21rem;
-      padding-right: 0;
-      text-align: right; }
+      width: 100%;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
       rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span:nth-child(-n + 3) {
         margin-right: 1rem; }
       rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span:nth-child(2) {
@@ -12990,86 +13001,185 @@ rankings-list > .container .selectors-row {
         border-bottom: 4px solid #40caff;
         padding-bottom: 0.3rem; }
 
+rankings-list > .container > .row:nth-child(2) .col {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+  rankings-list > .container > .row:nth-child(2) .col rankings-athlete {
+    padding: 1rem; }
+
+@media (min-width: 950px) {
+  rankings-list > .container .selectors-row {
+    margin-bottom: 0; }
+    rankings-list > .container .selectors-row > .col .selectors-container > .row > .col {
+      min-width: initial !important; }
+    rankings-list > .container .selectors-row > .col .selectors-container > .row > .col:first-child {
+      justify-content: flex-start;
+      margin-bottom: 0; }
+      rankings-list > .container .selectors-row > .col .selectors-container > .row > .col:first-child select {
+        width: 5em; }
+    rankings-list > .container .selectors-row > .col .selectors-container > .row > .col:nth-child(2) {
+      justify-content: flex-end; } }
+
 @media (min-width: 1440px) {
   rankings-list > .container .selectors-row > .col .selectors-container {
     padding: 0 9.7rem; } }
 
 rankings-athlete > .container {
   margin-bottom: 1rem;
-  padding: 0 3rem; }
-  rankings-athlete > .container > .row > .col:first-child {
-    border: 5px solid;
-    height: 14rem;
-    max-width: 10rem;
-    min-width: 10rem;
-    overflow: hidden;
-    position: relative; }
-    rankings-athlete > .container > .row > .col:first-child img {
-      min-width: 11rem;
-      max-width: 13rem;
-      position: absolute;
-      left: -15%;
-      top: 1px; }
-  rankings-athlete > .container > .row > .col:nth-child(2) {
-    background-color: #131313; }
-    rankings-athlete > .container > .row > .col:nth-child(2) > .container {
-      height: 100%;
-      padding: 0.8rem; }
-      rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:first-child {
-        margin-bottom: 1rem; }
-        rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:first-child > .col span {
-          font-size: 22px;
-          border-bottom: 3px solid #f9fe17; }
-      rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) {
-        margin-bottom: 1rem; }
-        rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) > .col span {
-          font-size: 40px;
-          font-weight: bold;
-          line-height: 1.01;
-          letter-spacing: 0.1rem;
-          color: #5f5f5f;
-          font-family: 'Apercu'; }
-      rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col span {
-        font-family: 'Apercu';
-        font-size: 20px; }
-  rankings-athlete > .container > .row > .col:nth-child(3) {
-    background-color: #131313; }
-    rankings-athlete > .container > .row > .col:nth-child(3) > .container {
-      margin: 0 1rem;
-      height: 100%;
+  max-width: 300px;
+  flex-flow: row wrap;
+  display: flex; }
+  rankings-athlete > .container > .row {
+    flex-flow: row wrap; }
+    rankings-athlete > .container > .row > .col:first-child {
+      border: 5px solid;
+      height: 120px;
+      width: 90px;
+      padding: 0;
+      overflow: hidden;
+      position: relative; }
+      rankings-athlete > .container > .row > .col:first-child img {
+        width: 100%;
+        height: 100%; }
+    rankings-athlete > .container > .row > .col:nth-child(2) {
+      background-color: #131313;
+      height: 121px; }
+      rankings-athlete > .container > .row > .col:nth-child(2) > .container {
+        height: 100%;
+        width: 200px; }
+        rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:first-child {
+          padding-top: 1rem;
+          margin-bottom: 1rem; }
+          rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:first-child > .col {
+            padding: 0;
+            justify-content: flex-start;
+            margin-left: 0.5rem; }
+            rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:first-child > .col span {
+              font-size: 22px;
+              border-bottom: 3px solid #f9fe17; }
+        rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) {
+          margin-bottom: 1rem; }
+          rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) > .col {
+            padding: 0;
+            justify-content: flex-start;
+            margin-left: 0.5rem; }
+            rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) > .col span {
+              font-size: 22px;
+              font-weight: bold;
+              line-height: 1.01;
+              letter-spacing: 0.1rem;
+              color: #5f5f5f;
+              font-family: 'Apercu'; }
+        rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col {
+          padding: 0;
+          justify-content: flex-start;
+          margin-left: 0.5rem; }
+          rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col span {
+            font-family: 'Apercu';
+            font-size: 18px; }
+    rankings-athlete > .container > .row > .col:nth-child(3) {
+      background-color: #131313;
+      padding-right: 0;
+      padding-left: 0; }
+      rankings-athlete > .container > .row > .col:nth-child(3) > .container {
+        height: 100%;
+        display: flex;
+        align-items: center; }
+        rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row {
+          justify-content: center;
+          padding-right: 1.5rem; }
+          rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col {
+            text-align: center;
+            padding-left: 0;
+            padding-right: 0; }
+            rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col > .row:first-child .col {
+              min-width: 99px; }
+              rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col > .row:first-child .col span {
+                font-size: 16px; }
+            rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col > .row:nth-child(2) .col span {
+              font-size: 22px; }
+          rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col:first-child > .row:nth-child(2) .col span {
+            color: #62ff00; }
+          rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col:nth-child(2) > .row:nth-child(2) .col span {
+            color: #f9fe17; }
+          rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col:nth-child(3) > .row:nth-child(2) .col span {
+            color: #40caff; }
+    rankings-athlete > .container > .row > .col:nth-child(4) {
+      padding-top: 0.7rem;
+      background-color: #1f1f1f;
+      min-width: 10rem;
       display: flex;
-      align-items: center; }
-      rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col {
-        text-align: center; }
-        rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col > .row:first-child .col {
-          min-width: 99px; }
-          rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col > .row:first-child .col span {
-            font-size: 16px; }
-        rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col > .row:nth-child(2) .col span {
-          font-size: 22px; }
-      rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col:first-child > .row:nth-child(2) .col span {
-        color: #62ff00; }
-      rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col:nth-child(2) > .row:nth-child(2) .col span {
-        color: #f9fe17; }
-      rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col:nth-child(3) > .row:nth-child(2) .col span {
-        color: #40caff; }
-  rankings-athlete > .container > .row > .col:nth-child(4) {
-    background-color: #1f1f1f;
-    min-width: 10rem;
-    max-width: 10rem;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:first-child .col span {
-      font-size: 39px; }
-    rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:nth-child(2) .col {
-      text-align: center; }
-      rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:nth-child(2) .col span {
-        font-family: 'Apercu';
-        font-size: 35px;
-        font-weight: bold;
-        letter-spacing: 0.1rem;
-        color: #5f5f5f; }
+      align-items: center;
+      justify-content: center; }
+      rankings-athlete > .container > .row > .col:nth-child(4) > .container {
+        display: flex;
+        flex-direction: row-reverse; }
+        rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:first-child {
+          height: 30px;
+          align-items: center; }
+          rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:first-child .col span {
+            font-size: 20px; }
+        rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:nth-child(2) {
+          height: 30px;
+          margin-top: 0;
+          align-items: center;
+          margin-right: 1.3rem; }
+          rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:nth-child(2) .col {
+            text-align: center; }
+            rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:nth-child(2) .col span {
+              font-family: 'Apercu';
+              font-size: 20px;
+              font-weight: bold;
+              letter-spacing: 0.1rem;
+              color: #5f5f5f; }
+
+@media (min-width: 950px) {
+  rankings-athlete > .container {
+    max-width: none; }
+    rankings-athlete > .container > .row {
+      min-width: 10rem;
+      height: 14rem; }
+      rankings-athlete > .container > .row > .col {
+        height: 100% !important; }
+      rankings-athlete > .container > .row > .col:first-child {
+        max-width: 200px; }
+      rankings-athlete > .container > .row > .col:nth-child(2) {
+        max-width: 14rem; }
+        rankings-athlete > .container > .row > .col:nth-child(2) > .container {
+          padding: 0.8rem; }
+          rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:first-child {
+            margin-bottom: 1rem; }
+          rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) {
+            margin-bottom: 1rem; }
+            rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) > .col span {
+              font-size: 40px; }
+          rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col span {
+            font-size: 20px; }
+      rankings-athlete > .container > .row > .col:nth-child(3) {
+        padding: 5px; }
+        rankings-athlete > .container > .row > .col:nth-child(3) > .container {
+          margin: 0 1rem; }
+          rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row {
+            padding-right: 0; }
+            rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col {
+              padding: 5px; }
+      rankings-athlete > .container > .row > .col:nth-child(4) {
+        padding-top: 0;
+        max-width: 10rem;
+        flex-direction: row; }
+        rankings-athlete > .container > .row > .col:nth-child(4) > .container {
+          display: block; }
+          rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:first-child {
+            height: inherit;
+            margin-bottom: 1rem; }
+            rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:first-child > .col span {
+              font-size: 35px; }
+          rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:nth-child(2) {
+            height: inherit;
+            margin-right: 0; }
+            rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:nth-child(2) > .col span {
+              font-size: 39px; } }
 
 @media (min-width: 1440px) {
   rankings-athlete > .container {

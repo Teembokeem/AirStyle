@@ -1,33 +1,41 @@
 rankings-athlete {
     > .container {
         margin-bottom: 1rem;
-        padding: 0 3rem;
+        // padding: 0 3rem;
+        max-width: 300px;
+        flex-flow: row wrap;
+        display: flex;
+        
         > .row {
+            flex-flow: row wrap;
+
             > .col:first-child {
                 border: 5px solid;
-                height: 14rem;
-                max-width: 10rem;
-                min-width: 10rem;
+                height: 120px;
+                width: 90px;
+                padding: 0;
                 overflow: hidden;
                 position: relative;
 
                 img {
-                    min-width: 11rem;
-                    max-width: 13rem;
-                    position: absolute;
-                    left: -15%;
-                    top: 1px;
+                    width: 100%;
+                    height: 100%;
                 }
             }
             > .col:nth-child(2) {
                 background-color: #131313;
+                height: 121px;
                 > .container {
                     height: 100%;
-                    padding: 0.8rem;
+                   width: 200px;
 
                     > .row:first-child {
+                        padding-top: 1rem;
                         margin-bottom: 1rem;
                         > .col {
+                            padding: 0;
+                            justify-content: flex-start;
+                            margin-left: 0.5rem;
                             span {
                                 font-size: 22px;
                                 border-bottom: 3px solid $as-yellow;
@@ -37,8 +45,11 @@ rankings-athlete {
                     > .row:nth-child(2) {
                         margin-bottom: 1rem;
                         > .col {
+                            padding: 0;
+                            justify-content: flex-start;
+                            margin-left: 0.5rem;
                             span {
-                                font-size: 40px;
+                                font-size: 22px;
                                 font-weight: bold;
                                 line-height: 1.01;
                                 letter-spacing: 0.1rem;
@@ -50,9 +61,12 @@ rankings-athlete {
 
                     > .row:nth-child(3) {
                         > .col {
+                            padding: 0;
+                            justify-content: flex-start;
+                            margin-left: 0.5rem;
                             span {
                                 font-family: 'Apercu';
-                                font-size: 20px;
+                                font-size: 18px;
                             }
                         }
                     }
@@ -61,19 +75,25 @@ rankings-athlete {
 
             > .col:nth-child(3) {
                 background-color: #131313;
+                padding-right: 0;
+                padding-left: 0;
+
                > .container {
-                   margin: 0 1rem;
                     height: 100%;
                     display: flex;
                     align-items: center;
 
                     > .row {
+                        justify-content: center;
+                        padding-right: 1.5rem;
                         > .col {
                             text-align: center;
+                            padding-left: 0;
+                            padding-right: 0;
 
                             > .row:first-child {
                                 .col {
-                            min-width: 99px;
+                                     min-width: 99px;
                                     span {
                                         font-size: 16px;
                                     }
@@ -109,31 +129,137 @@ rankings-athlete {
             }
 
             > .col:nth-child(4) {
+                padding-top: 0.7rem;
                 background-color: #1f1f1f;
                 min-width: 10rem;
-                max-width: 10rem;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 > .container {
+                    display: flex;
+                    flex-direction: row-reverse;
                     > .row:first-child {
+                        height: 30px;
+                        align-items: center;
                         .col {
                             span {
-                                font-size: 39px;
+                                font-size: 20px;
                             }
                         }
                     }
 
                     > .row:nth-child(2) {
+                        height: 30px;
+                        margin-top: 0;
+                        align-items: center;
+                        margin-right: 1.3rem;
                         .col {
                             text-align: center;
 
                             span {
                                 font-family: 'Apercu';
-                                font-size: 35px;
+                                font-size: 20px;
                                 font-weight: bold;
                                 letter-spacing: 0.1rem;
                                 color: #5f5f5f;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 950px) {
+    rankings-athlete {
+        >.container {
+            max-width: none;
+            >.row {
+                min-width: 10rem;
+                height: 14rem;
+                >.col {
+                    height: 100% !important;
+                }
+
+                >.col:first-child {
+                        max-width: 200px;
+                    img {
+                    }
+                }
+
+                >.col:nth-child(2) {
+                    max-width: 14rem;
+                    >.container {
+                        padding: 0.8rem;
+
+                        >.row:first-child {
+                            margin-bottom: 1rem;
+                        }
+
+                        >.row:nth-child(2) {
+                            margin-bottom: 1rem;
+
+                            >.col {
+                                span {
+                                    font-size: 40px;
+                                }
+                            }
+                        }
+
+                        >.row:nth-child(3) {
+                            >.col {
+                                span {
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                >.col:nth-child(3) {
+                    padding: 5px;
+
+                    >.container {
+                        margin: 0 1rem;
+
+                        >.row {
+                            padding-right: 0;
+
+                            >.col {
+                                padding: 5px;
+                            }
+                        }
+                    }
+                }
+
+                >.col:nth-child(4) {
+                    padding-top: 0;
+                    max-width: 10rem;
+                    flex-direction: row;
+                    >.container {
+                        display: block;
+
+                        >.row:first-child {
+                            height: inherit;
+                            margin-bottom: 1rem;
+
+                            >.col {
+                                span {
+                                    font-size: 35px;
+                                }
+                            }
+
+                        }
+
+                        >.row:nth-child(2) {
+                            height: inherit;
+                            margin-right: 0;
+
+                            >.col {
+                                span {
+                                    font-size: 39px;
+                                }
                             }
                         }
                     }

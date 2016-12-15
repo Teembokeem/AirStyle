@@ -206,7 +206,7 @@ nav {
                     }
                     dropdown-menu.ng-enter,
                     dropdown-menu.ng-leave {
-                        transition: all 450ms cubic-bezier(.32, 1, .375, 1);
+                        transition: all 500ms cubic-bezier(.32, 1, .375, 1);
                     }
                     dropdown-menu.ng-enter,
                     dropdown-menu.ng-leave.ng-leave-active {
