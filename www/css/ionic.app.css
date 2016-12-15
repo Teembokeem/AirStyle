@@ -12479,7 +12479,7 @@ artist-hero {
   artist-hero > .container {
     height: 125vw;
     position: relative;
-    max-height: 800px; }
+    max-height: 89%; }
     artist-hero > .container .hero {
       background-size: cover !important;
       filter: grayscale(100%);
@@ -12741,13 +12741,13 @@ faq-footer .container {
       font-size: 64px; } }
 
 rider-bio > .container {
-  padding: 10rem 6rem 0 6rem; }
+  padding: 10rem 6vw 0 6vw; }
   rider-bio > .container > .row {
-    flex-flow: row wrap; }
+    flex-flow: row wrap;
+    flex-direction: column-reverse; }
     rider-bio > .container > .row > .col:first-child {
-      overflow-y: scroll;
-      min-width: 370px;
-      max-height: 75vh; }
+      overflow-y: none;
+      min-width: 300px; }
       rider-bio > .container > .row > .col:first-child .name-container {
         margin-bottom: 2rem; }
         rider-bio > .container > .row > .col:first-child .name-container .row .col span {
@@ -12775,7 +12775,9 @@ rider-bio > .container {
           margin-right: 1rem; }
         rider-bio > .container > .row > .col:first-child .years-container .row .col span:first-child {
           font-family: 'Apercu';
-          color: #848484; }
+          color: #848484;
+          display: block;
+          margin-bottom: 1rem; }
         rider-bio > .container > .row > .col:first-child .years-container .row .col span:nth-child(n + 2) {
           color: #40caff; }
       rider-bio > .container > .row > .col:first-child .bio-container {
@@ -12786,6 +12788,12 @@ rider-bio > .container {
           font-size: 1rem; }
       rider-bio > .container > .row > .col:first-child .video-container {
         margin-bottom: 2rem; }
+        rider-bio > .container > .row > .col:first-child .video-container .row .col {
+          display: flex;
+          justify-content: center; }
+          rider-bio > .container > .row > .col:first-child .video-container .row .col iframe {
+            width: 90%;
+            height: 50vw; }
       rider-bio > .container > .row > .col:first-child .sponsors-container .row .col span {
         font-size: 22px;
         margin-right: 1rem; }
@@ -12795,7 +12803,20 @@ rider-bio > .container {
       rider-bio > .container > .row > .col:first-child .sponsors-container .row .col span:nth-child(n + 2) {
         color: #40caff; }
     rider-bio > .container > .row > .col:nth-child(2) {
-      max-width: 23rem; }
+      max-width: 23rem;
+      margin: 0 auto; }
+      rider-bio > .container > .row > .col:nth-child(2) .name-container {
+        margin-bottom: 2rem; }
+        rider-bio > .container > .row > .col:nth-child(2) .name-container .row .col {
+          display: flex;
+          justify-content: center; }
+          rider-bio > .container > .row > .col:nth-child(2) .name-container .row .col span {
+            padding-bottom: 0.5rem;
+            width: 80%;
+            line-height: 1;
+            text-align: center;
+            font-size: 50px;
+            border-bottom: 5px solid #40caff; }
       rider-bio > .container > .row > .col:nth-child(2) .image-container .row {
         justify-content: center; }
         rider-bio > .container > .row > .col:nth-child(2) .image-container .row .col {
@@ -12850,7 +12871,23 @@ rider-bio > .container {
             rider-bio > .container > .row > .col:nth-child(2) .score-container > .row > .col > .row:nth-child(2) > .col .row:nth-child(2) .col span.innsbruck {
               color: #f9fe17; }
 
+@media (min-width: 400px) {
+  rider-bio > .container > .row > .col:first-child .years-container > .row > .col span:first-child {
+    display: inline; } }
+
+@media (min-width: 875px) {
+  rider-bio > .container > .row {
+    flex-direction: row; }
+    rider-bio > .container > .row > .col:first-child {
+      overflow-y: scroll;
+      min-width: 370px; }
+      rider-bio > .container > .row > .col:first-child .snippet-container .row .col {
+        justify-content: none;
+        display: block; } }
+
 @media (min-width: 1024px) {
+  rider-bio > .container > .row > .col:first-child {
+    max-height: 80vh; }
   rider-bio > .container > .row > .col:nth-child(2) .image-container .row .col {
     min-width: 5rem; } }
 
