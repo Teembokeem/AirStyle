@@ -10,13 +10,15 @@
             controllerAs: 'cc'
         })
 
-    riderBioCtrl.$inject = ['$log', '$state', '$stateParams'];
+    riderBioCtrl.$inject = ['$log', '$state', '$stateParams', '$window'];
 
-    function riderBioCtrl($log, $state, $stateParams) {
+    function riderBioCtrl($log, $state, $stateParams, $window) {
         var cc = this;
 
         cc.stateChange = stateChange;
         cc.go = go;
+
+        $window.innerWidth < 870 ? cc.mobile = true : cc.mobile = false;
 
         function stateChange(state, param, val) {
             $state.go(state, {
@@ -310,7 +312,7 @@
                     }
                 },
 
-            }, ]
+            },]
 
             cc.rider = cc.riderBioContent.filter(function (rider) {
                 return rider.ref == $stateParams.avatar

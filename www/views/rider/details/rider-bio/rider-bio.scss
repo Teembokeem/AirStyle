@@ -1,12 +1,13 @@
 rider-bio {
     >.container {
-        padding: 10rem 6rem 0 6rem;
+        padding: 10rem 6vw 0 6vw;
         >.row {
             flex-flow: row wrap;
+            flex-direction: column-reverse;
             >.col:first-child {
-                overflow-y: scroll;
-                min-width: 370px;
-                max-height: 75vh;
+                overflow-y: none;
+                min-width: 300px;
+                // max-height: 75vh;
                 .name-container {
                     margin-bottom: 2rem;
                     .row {
@@ -56,6 +57,8 @@ rider-bio {
                             span:first-child {
                                 font-family: 'Apercu';
                                 color: #848484;
+                                display: block;
+                                margin-bottom: 1rem;
                             }
                             span:nth-child(n + 2) {
                                 color: $as-blue;
@@ -76,6 +79,17 @@ rider-bio {
                     }
                 }
                 .video-container {
+                    .row {
+                        .col {
+                            display: flex;
+                            justify-content: center;
+
+                            iframe {
+                                width: 90%;
+                                height: 50vw;
+                            }
+                        }
+                    }
                     margin-bottom: 2rem;
                 }
                 .sponsors-container {
@@ -98,6 +112,26 @@ rider-bio {
             }
             >.col:nth-child(2) {
                 max-width: 23rem;
+                margin: 0 auto;
+
+                .name-container {
+                    margin-bottom: 2rem;
+                    .row {
+                        .col {
+                            display: flex;
+                            justify-content: center;
+                            span {
+                                padding-bottom: 0.5rem;
+                                width: 80%;
+                                line-height: 1;
+                                text-align: center;
+                                font-size: 50px;
+                                border-bottom: 5px solid $as-blue;
+                            }
+                        }
+                    }
+                }
+
                 .image-container {
                     .row {
                         justify-content: center;
@@ -184,10 +218,62 @@ rider-bio {
     }
 }
 
+@media(min-width:400px) {
+    rider-bio {
+        >.container {
+            >.row {
+                >.col:first-child {
+                    .years-container {
+                        >.row {
+                            >.col {
+                                span:first-child {
+                                    display: inline;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 875px) {
+    rider-bio {
+        >.container {
+            >.row {
+                flex-direction: row;
+                >.col:first-child {
+                    overflow-y: scroll;
+                    min-width: 370px;
+                    
+                    .snippet-container {
+                        .row {
+                            .col {
+                                justify-content: none;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+
+                >.col:nth-child(2) {
+                }
+            }
+        }
+    }
+}
+
+
 @media(min-width:1024px) {
     rider-bio {
         >.container {
             >.row {
+                // flex-direction: row;
+
+                >.col:first-child {
+                    max-height: 80vh;
+                }
                 >.col:nth-child(2) {
                     .image-container {
                         .row {

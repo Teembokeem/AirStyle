@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <div class="container name-container">
+            <div ng-if="!cc.mobile" class="container name-container">
                 <div class="row">
                     <div class="col">
                         <span>{{cc.rider.name | uppercase}}</span>
@@ -71,41 +71,48 @@
             </div>
         </div>
         <div class="col">
+            <div ng-if="cc.mobile" class="container name-container">
+                <div class="row">
+                    <div class="col">
+                        <span>{{cc.rider.name | uppercase}}</span>
+                    </div>
+                </div>
+            </div>
             <div class="container image-container">
                 <div class="row">
                     <div class="col">
                         <div class="rider-image" style="background: url({{cc.rider.image}}) 50% 0 / 100%"></div>
-                    </div>
+</div>
+</div>
+</div>
+<div class="container score-container">
+    <div ng-repeat="(key, val) in cc.rider.scores" class="row">
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    <span>{{key}}</span>
+                </div>
+                <div class="col">
+                    <span>{{val.overall}}</span>
                 </div>
             </div>
-            <div class="container score-container">
-                <div ng-repeat="(key, val) in cc.rider.scores" class="row">
-                    <div class="col">
-                        <div class="row">
-                            <div class="col">
-                                <span>{{key}}</span>
-                            </div>
-                            <div class="col">
-                                <span>{{val.overall}}</span>
-                            </div>
+            <div class="row">
+                <div ng-repeat="(inner, innerVal) in val" ng-if="inner != 'overall'" class="col">
+                    <div class="row">
+                        <div class="col">
+                            <span>{{inner | uppercase}}</span>
                         </div>
-                        <div class="row">
-                            <div ng-repeat="(inner, innerVal) in val" ng-if="inner != 'overall'" class="col">
-                                <div class="row">
-                                    <div class="col">
-                                        <span>{{inner | uppercase}}</span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <span class="{{inner}}">{{innerVal.score}}</span>
-                                    </div>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <span class="{{inner}}">{{innerVal.score}}</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+</div>
+</div>
 </div>
