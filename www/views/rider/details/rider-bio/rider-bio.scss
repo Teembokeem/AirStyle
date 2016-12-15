@@ -2,6 +2,7 @@ rider-bio {
     >.container {
         padding: 10rem 6vw 0 6vw;
         >.row {
+            padding: 5px 0 5px 0;
             flex-flow: row wrap;
             flex-direction: column-reverse;
             >.col:first-child {
@@ -22,7 +23,11 @@ rider-bio {
                 .snippet-container {
                     margin-bottom: 2rem;
                     .row {
+                        justify-content: center;
                         .col {
+                            display: flex;
+                            justify-content: center;
+                            max-width: 300px;
                             span {
                                 font-family: 'Apercu';
                                 font-weight: bold;
@@ -39,10 +44,12 @@ rider-bio {
                 .social-container {
                     margin-bottom: 1.5rem;
                     .row {
+                        justify-content: center;
                         .col {
                             max-width: 100px;
                             display: flex;
                             align-items: center;
+                            justify-content: center;
                         }
                     }
                 }
@@ -50,6 +57,9 @@ rider-bio {
                     margin-bottom: 1.5rem;
                     .row {
                         .col {
+                            display: flex;
+                            justify-content: center;
+                            flex-flow: row wrap;
                             span {
                                 font-size: 22px;
                                 margin-right: 1rem;
@@ -102,6 +112,8 @@ rider-bio {
                             span:first-child {
                                 font-family: 'Apercu';
                                 color: #848484;
+                                display: block;
+                                margin-bottom: 1rem;
                             }
                             span:nth-child(n + 2) {
                                 color: $as-blue;
@@ -113,6 +125,7 @@ rider-bio {
             >.col:nth-child(2) {
                 max-width: 23rem;
                 margin: 0 auto;
+                padding: 5px 0 5px 0;
 
                 .name-container {
                     margin-bottom: 2rem;
@@ -125,7 +138,7 @@ rider-bio {
                                 width: 80%;
                                 line-height: 1;
                                 text-align: center;
-                                font-size: 50px;
+                                font-size: 41px;
                                 border-bottom: 5px solid $as-blue;
                             }
                         }
@@ -238,6 +251,26 @@ rider-bio {
     }
 }
 
+@media(min-width:600px) {
+    rider-bio {
+        >.container {
+            >.row {
+                >.col:first-child {
+                    .sponsors-container {
+                        >.row {
+                            >.col {
+                                span:first-child {
+                                    display: inline;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media(min-width: 875px) {
     rider-bio {
         >.container {
@@ -249,9 +282,38 @@ rider-bio {
                     
                     .snippet-container {
                         .row {
+                            justify-content: flex-start;
                             .col {
                                 justify-content: none;
                                 display: block;
+                            }
+                        }
+                    }
+
+                    .social-container {
+                        .row {
+                            justify-content: flex-start;
+                            .col {
+                                justify-content: flex-start;
+                            }
+                        }
+                    }
+
+                    .years-container {
+                        .row {
+                            .col {
+                                justify-content: flex-start;
+                            }
+                        }
+                    }
+
+                    .video-container {
+                        .row {
+                            .col {
+                                iframe {
+                                    height: 23vw;
+                                    max-height: 430px;
+                                }
                             }
                         }
                     }

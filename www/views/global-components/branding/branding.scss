@@ -102,8 +102,22 @@ branding {
                 display: flex;
                 justify-content: center;
                 img {
-                    width: 50%;
+                    width: 84%;
                     height: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 800px) {
+    branding {
+        >.container {
+            .logo-container {
+                .logo {
+                    img {
+                        width: 663px;
+                    }
                 }
             }
         }
