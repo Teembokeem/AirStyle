@@ -25,128 +25,117 @@
             tours: {
                 name: 'Tour Stops',
                 ref: 'tours',
-                items: [
-                    {
-                        name: 'Beijing',
-                        ref: 'beijing',
-                        route: 'app.tour-stops',
-                        outbound: false,
-                        href: '',
-                        class: 'bj'
-                    },
-                    {
-                        name: 'Los Angeles',
-                        ref: 'la',
-                        route: 'app.tour-stops',
-                        outbound: false,
-                        href: '',
-                        class: 'la'
-                    },
-                    {
-                        name: 'Innsbruck',
-                        ref: 'innsbruck',
-                        route: 'app.tour-stops',
-                        outbound: false,
-                        href: '',
-                        class: 'ib'
-                    },
-                ]
+                items: [{
+                    name: 'Beijing',
+                    ref: 'beijing',
+                    route: 'app.tour-stops',
+                    outbound: false,
+                    href: '',
+                    class: 'bj'
+                }, {
+                    name: 'Los Angeles',
+                    ref: 'la',
+                    route: 'app.tour-stops',
+                    outbound: false,
+                    href: '',
+                    class: 'la'
+                }, {
+                    name: 'Innsbruck',
+                    ref: 'innsbruck',
+                    route: 'app.tour-stops',
+                    outbound: false,
+                    href: '',
+                    class: 'ib'
+                }, ]
             },
             lineup: {
                 name: 'Lineup',
                 ref: 'lineup',
-                items: [
-                    {
-                        name: 'Los Angeles',
-                        ref: 'la',
-                        route: 'app.lineup',
-                        outbound: false,
-                        href: '',
-                        class: 'la'
-                    },
-                    {
-                        name: 'Innsbruck',
-                        ref: 'innsbruck',
-                        route: 'app.lineup',
-                        outbound: false,
-                        href: '',
-                        class: 'ib'
-                    },
-                ]
+                items: [{
+                    name: 'Los Angeles',
+                    ref: 'la',
+                    route: 'app.lineup',
+                    outbound: false,
+                    href: '',
+                    class: 'la'
+                }, {
+                    name: 'Innsbruck',
+                    ref: 'innsbruck',
+                    route: 'app.lineup',
+                    outbound: false,
+                    href: '',
+                    class: 'ib'
+                }, ]
             },
             riders: {
                 name: 'Riders + Rankings',
                 ref: 'riders',
-                items: [
-                    {
-                        name: 'Riders',
-                        route: 'app.rider.all',
-                        outbound: false,
-                        class: 'la'
-                    },
-                    {
-                        name: 'Rankings',
-                        route: 'app.rankings',
-                        outbound: false,
-                        class: 'ib'
-                    }
-                ]
+                items: [{
+                    name: 'Riders',
+                    route: 'app.rider.all',
+                    outbound: false,
+                    class: 'la'
+                }, {
+                    name: 'Rankings',
+                    route: 'app.rankings',
+                    outbound: false,
+                    class: 'ib'
+                }]
             },
             tickets: {
                 name: 'Tickets',
                 ref: 'tickets',
                 route: 'app.ticket',
-                items: [
-                    {
-                        name: 'Los Angeles',
-                        ref: 'la',
-                        route: 'app.lineup',
-                        outbound: false,
-                        href: '',
-                        class: 'la'
-                    },
-                    {
-                        name: 'Innsbruck',
-                        ref: 'innsbruck',
-                        route: 'app.lineup',
-                        outbound: false,
-                        href: '',
-                        class: 'ib'
-                    },
-                ]
+                items: [{
+                    name: 'Los Angeles',
+                    ref: 'la',
+                    route: 'app.lineup',
+                    outbound: false,
+                    href: '',
+                    class: 'la'
+                }, {
+                    name: 'Innsbruck',
+                    ref: 'innsbruck',
+                    route: 'app.lineup',
+                    outbound: false,
+                    href: '',
+                    class: 'ib'
+                }, ]
             },
             merch: {
                 name: 'Merch',
                 ref: 'merchandise',
                 route: 'app.merchandise',
-                items: [
-                    {
-                        name: 'Los Angeles',
-                        ref: 'la',
-                        route: 'app.lineup',
-                        outbound: false,
-                        href: '',
-                        class: 'la'
-                    },
-                    {
-                        name: 'Innsbruck',
-                        ref: 'innsbruck',
-                        route: 'app.lineup',
-                        outbound: false,
-                        href: '',
-                        class: 'ib'
-                    },
-                ]
+                items: [{
+                    name: 'Los Angeles',
+                    ref: 'la',
+                    route: 'app.lineup',
+                    outbound: false,
+                    href: '',
+                    class: 'la'
+                }, {
+                    name: 'Innsbruck',
+                    ref: 'innsbruck',
+                    route: 'app.lineup',
+                    outbound: false,
+                    href: '',
+                    class: 'ib'
+                }, ]
             }
 
         }
 
         function stateChange(state, val, ref) {
-            $state.go(state, { tour: val });
-            $rootScope.$broadcast('tourStopMenuClose', {menu: ref});
+            $state.go(state, {
+                tour: val
+            });
+            $rootScope.$broadcast('tourStopMenuClose', {
+                menu: ref,
+                tour: val
+            });
         }
 
-       function go(link) {
+        function go(link) {
             $window.location = link;
         };
         // function tourStopMenuClose() {
@@ -155,7 +144,7 @@
 
         cc.$onInit = function () {
             cc.contextMenu = cc.codex[Object.keys(cc.codex)[Object.keys(cc.codex).indexOf(cc.menu)]]
-console.log(cc.menu, cc.codex)
+            console.log(cc.menu, cc.codex)
         }
     }
 })();

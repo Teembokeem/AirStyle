@@ -1,25 +1,27 @@
 <!--Nav Bar -->
 <div ng-class="{ 'nav-menu' : cc.darken }" class="as-nav row nopad">
-	<!-- Logo -->
-	<div class="logo nopad">
-		<a ui-sref="app.home">
-			<img src="../img/logo.png" alt="">
-		</a>
-	</div>
-
-	<!-- Menu -->
-	<div ng-if="!cc.noNav" class="col as-menu">
-		<desktop-menu ng-if="!cc.mobile" class="container"></desktop-menu>
-		<mobile-menu ng-if="cc.mobile" class="container"></mobile-menu>
-	</div>
-
-	<!-- Search Icon -->
-	<div class="col search">
-		<i class="icon ion-ios-search-strong"></i>
-	</div>
-	<!-- Menu Button -->
-	<div ng-class="" class="col hamburger">
-		<img ng-click="cc.toggleNav()" ng-if="cc.mobile && cc.noNav || cc.noNav" src="../img/hamburger.png" alt="">
-		<button ng-click="cc.toggleNav()" ng-if="cc.mobile && !cc.noNav"><i class="icon ion-close-round"></i></button>
-	</div>
+    <!-- Logo -->
+    <div class="logo nopad">
+        <a ui-sref="app.home">
+            <img src="../img/logo.png" alt="">
+        </a>
+    </div>
+    <div class="logo-text">
+        {{cc.venue.title}} </br>
+        {{cc.venue.date_semantic}}
+    </div>
+    <!-- Menu -->
+    <div ng-if="!cc.noNav" class="col as-menu">
+        <desktop-menu ng-if="!cc.mobile" class="container"></desktop-menu>
+        <mobile-menu ng-if="cc.mobile" class="container"></mobile-menu>
+    </div>
+    <!-- Search Icon -->
+    <div class="col search">
+        <i class="icon ion-ios-search-strong"></i>
+    </div>
+    <!-- Menu Button -->
+    <div ng-class="" class="col hamburger">
+        <img ng-click="cc.toggleNav()" ng-if="cc.mobile && cc.noNav || cc.noNav" src="../img/hamburger.png" alt="">
+        <button ng-click="cc.toggleNav()" ng-if="cc.mobile && !cc.noNav"><i class="icon ion-close-round"></i></button>
+    </div>
 </div>

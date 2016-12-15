@@ -8,11 +8,14 @@
             controllerAs: 'cc'
         });
 
-    NavCtrl.$inject = ['$scope', '$rootScope', '$window', '$element'];
+    NavCtrl.$inject = ['$scope', '$rootScope', '$window', '$element', '$stateParams', 'Tours'];
 
-    function NavCtrl($scope, $rootScope, $window, $element) {
+    function NavCtrl($scope, $rootScope, $window, $element, $stateParams, Tours) {
 
         var cc = this;
+
+        cc.venue = $stateParams.tour ? Tours($stateParams.tour) : null
+        console.log(cc.venue, 'here')
         if ($window.innerWidth <= 600) {
             cc.noNav = true;
             cc.mobile = true;
@@ -38,6 +41,10 @@
 
         $rootScope.$on('darkenNav', function (evt, d) {
             cc.darken = !cc.darken;
+        })
+
+        $rootScope.$on('tourStopMenuClose', function (e, d) {
+            cc.venue = d.tour ? Tours(d.tour) : null
         })
 
         cc.toggleNav = function () {

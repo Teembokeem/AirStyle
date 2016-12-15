@@ -7,9 +7,9 @@
             controllerAs: 'cc'
         })
 
-    DesktopMenuCtrl.$inject = ['$log', '$scope', '$rootScope'];
+    DesktopMenuCtrl.$inject = ['$log', '$scope', '$rootScope', '$state', '$stateParams', 'Tours'];
 
-    function DesktopMenuCtrl($log, $scope, $rootScope) {
+    function DesktopMenuCtrl($log, $scope, $rootScope, $state, $stateParams, Tours) {
         // console.log('Desktop')
         var cc = this;
         cc.noNav = true;
@@ -20,17 +20,22 @@
             tickets: false,
             merch: false
         }
+
+        cc.currentState = $state.current.name
+        cc.venue = $stateParams.tour ? Tours($stateParams.tour) : null
         cc.toggleNav = toggleNav;
 
         $rootScope.$on('tourStopMenuClose', function (e, d) {
+            cc.venue = d.tour ? Tours(d.tour) : null
+            cc.currentState = $state.current.name
             cc.menus[d.menu] = !cc.menus[d.menu];
         })
+
         function toggleNav() {
             cc.noNav = !cc.noNav;
             $scope.$emit('darkenNav');
         };
 
-        cc.$onInit = function () {
-        }
+        cc.$onInit = function () {}
     }
 })();
