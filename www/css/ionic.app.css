@@ -13010,7 +13010,9 @@ rankings-list > .container > .row:nth-child(2) .col {
 
 @media (min-width: 950px) {
   rankings-list > .container .selectors-row {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    max-width: 1022px;
+    margin: 0 auto; }
     rankings-list > .container .selectors-row > .col .selectors-container > .row > .col {
       min-width: initial !important; }
     rankings-list > .container .selectors-row > .col .selectors-container > .row > .col:first-child {
@@ -13020,10 +13022,6 @@ rankings-list > .container > .row:nth-child(2) .col {
         width: 5em; }
     rankings-list > .container .selectors-row > .col .selectors-container > .row > .col:nth-child(2) {
       justify-content: flex-end; } }
-
-@media (min-width: 1440px) {
-  rankings-list > .container .selectors-row > .col .selectors-container {
-    padding: 0 9.7rem; } }
 
 rankings-athlete > .container {
   margin-bottom: 1rem;

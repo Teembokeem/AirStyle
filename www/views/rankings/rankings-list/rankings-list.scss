@@ -104,6 +104,8 @@ rankings-list {
         > .container {
             .selectors-row {
                 margin-bottom: 0;
+                max-width: 1022px;
+                margin: 0 auto;
                 > .col {
                     .selectors-container {
                         // padding: 0 9.7rem;
@@ -138,7 +140,7 @@ rankings-list {
             .selectors-row {
                 > .col {
                     .selectors-container {
-                        padding: 0 9.7rem;
+                        // padding: 0 9.7rem;
                     }
                 }
             }
