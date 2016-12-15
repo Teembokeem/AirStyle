@@ -22,8 +22,6 @@
 $as-blue: #40caff;
 $as-yellow: #f9fe17;
 $as-green: #62ff00;
-
-
 body {
     background-color: black;
     width: 100%;
@@ -32,7 +30,6 @@ body {
         font-family: 'Reglo-Bold';
         background-color: transparent;
         color: white;
-
         .pane {
             background-color: transparent;
         }
@@ -48,18 +45,16 @@ body {
             // background-position-y: -297px;
 
             .content-container {*/
-                // margin-top: 7rem;
-                ion-view {
-                    ion-content {
-                        .scroll {
-                            max-width: 1440px;
-                            margin: 0 auto;
-                        }
-                    }
-
-                /*}
+        // margin-top: 7rem;
+        ion-view {
+            ion-content {
+                .scroll {
+                    max-width: 1440px;
+                    margin: 0 auto;
+                }
+            }
+            /*}
             }*/
-
         }
     }
 }
@@ -68,21 +63,22 @@ body {
     .ion-record {
         color: $as-blue;
     }
-    
 }
 
-
 @keyframes slideInDown {
-  from {
-    transform: translate3d(0, -100%, 0);
-    visibility: visible;
-  }
-
-  to {
-    transform: translate3d(0, 0, 0);
-  }
+    from {
+        transform: translate3d(0, -100%, 0);
+        visibility: visible;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 .slideInDown {
-  animation-name: slideInDown;
+    animation-name: slideInDown;
+}
+
+.hover:hover {
+    cursor: pointer;
 }

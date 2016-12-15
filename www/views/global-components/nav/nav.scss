@@ -18,6 +18,9 @@ nav {
                 }
             }
         }
+        .logo-text {
+            margin-left: 10px;
+        }
         .search {
             height: 100%;
             display: flex;
@@ -164,7 +167,7 @@ nav {
                         background-color: rgba(0, 0, 0, 0.9);
                         /*background-color: blue;*/
                         >.container {
-                            width: 9rem;
+                            max-width: 170px;
                             .title {
                                 .col {
                                     span {
@@ -226,13 +229,23 @@ nav {
                     align-items: center;
                     justify-content: center;
                     min-width: 60px;
-                    max-width: 130px;
+                    max-width: 170px;
                     text-align: center;
                     z-index: 999;
-                    
                     a {
                         text-align: center;
                         text-decoration: none;
+                        >span {
+                            .la {
+                                color: $as-blue;
+                            }
+                            .beijing {
+                                color: $as-green;
+                            }
+                            .innsbruck {
+                                color: $as-yellow;
+                            }
+                        }
                     }
                 }
             }
