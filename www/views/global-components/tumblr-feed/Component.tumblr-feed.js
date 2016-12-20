@@ -1,4 +1,4 @@
-(function() {
+(function () {
     'use strict';
     angular.module('Template')
         .component('tumblrFeed', {
@@ -15,7 +15,13 @@
     function TumblrFeedCtrl($log, TumblrManager, $stateParams) {
         var cc = this;
 
-        cc.$onInit = function() {
+        cc.go = go;
+
+        function go(link) {
+            window.location = link;
+        };
+
+        cc.$onInit = function () {
             console.log(TumblrManager.filterPosts($stateParams.tour));
 
             cc.tumblrFeedContent = TumblrManager.filterPosts($stateParams.tour);
