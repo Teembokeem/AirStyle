@@ -55,6 +55,9 @@
 	<script src="core/api/tumblr/Module.tumblr.js"></script>
 	<script src="core/api/tumblr/Dispatcher.tumblr.js"></script>
 	<script src="core/api/tumblr/Manager.tumblr.js"></script>
+	<script src="core/api/mailchimp/Module.mailchimp.js"></script>
+	<script src="core/api/mailchimp/Dispatcher.mailchimp.js"></script>
+	<script src="core/api/mailchimp/Manager.mailchimp.js"></script>
 
 	<!--BASELINE DEPS-->
 	<script src="core/services/url.service.js"></script>
@@ -146,14 +149,16 @@
 	<!--  STATE CONTROLLERS -->
 
 	<script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-87116793-1', 'auto');
-        ga('send', 'pageview');
-    </script>
+		ga('create', 'UA-87116793-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 
 </head>
 
