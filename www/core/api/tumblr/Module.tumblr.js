@@ -12,6 +12,7 @@
                 console.warn("STORED IN LOCAL, make sure to call server");
                 TumblrManager.Posts = TumblrManager.store.getItem();
             } else {
+                console.log('this')
                 TumblrManager.getPosts().then(function (d) {
                     console.log('BACK', d);
                 });

@@ -31,15 +31,17 @@
         }
 
         function transformResponse(response) {
+            console.log("these posts", response)
             var _posts = {
-                    'innsbruck': [],
-                    'la': [],
-                    'beijing': []
-                },
+                'innsbruck': [],
+                'la': [],
+                'beijing': []
+            },
                 Posts = response.posts;
             for (var tour in _posts) {
                 for (var i = 0; i < Posts.length; i++) {
                     if (Posts[i].tags.indexOf(tour) != -1) {
+                        Posts[i].date = Date.parse(Posts[i].date)
                         _posts[tour].push(Posts[i]);
                     }
                 }
@@ -57,7 +59,7 @@
                     arr.push(service.Posts[tour]);
                 };
                 // return arr;
-                var transformArr = arr.reduce(function(a, b) {
+                var transformArr = arr.reduce(function (a, b) {
                     return a.concat(b);
                 })
                 return transformArr;
@@ -66,7 +68,8 @@
 
 
         function getPosts() {
-            service.Posts = TumblrDispatcher.getDummy().then(transformResponse).then(setPosts);
+            console.log("lets go")
+            service.Posts = TumblrDispatcher.get().then(transformResponse).then(setPosts);
             return service.Posts;
         }
 

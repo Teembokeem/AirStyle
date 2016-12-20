@@ -8,7 +8,7 @@
     TumblrDispatcher.$inject = ['urlService', '$http', '$q'];
 
     function TumblrDispatcher(urlService, $http, $q) {
-        var api = urlService + '/tumblr',
+        var api = urlService.api + '/tumblr',
             // Default to allow admin as user without token
             options = {
             },
@@ -16,42 +16,42 @@
                 get: get,
                 getDummy: getDummy
             },
-            dummy =  {
-            meta: {
-                what: 200,
-                ok: 'bae'
-            },
-            response: {
-                blog: 'teembokeem',
-                posts: [
-                {
-                    message: 'Story Time with Eddie Wall: Best Snowboarding Locations in the U.S.',
-                    date: new Date('June 3, 2016'),
-                    tags: ['innsbruck']
+            dummy = {
+                meta: {
+                    what: 200,
+                    ok: 'bae'
                 },
-                {
-                    message: 'LA TAGGED POST',
-                    date: new Date('June 3, 2016'),
-                    tags: ['la']
-                },
-                {
-                    message: 'BEIJING TAGGED POST',
-                    date: new Date('June 3, 2016'),
-                    tags: ['beijing']
+                response: {
+                    blog: 'teembokeem',
+                    posts: [
+                        {
+                            message: 'Story Time with Eddie Wall: Best Snowboarding Locations in the U.S.',
+                            date: new Date('June 3, 2016'),
+                            tags: ['innsbruck']
+                        },
+                        {
+                            message: 'LA TAGGED POST',
+                            date: new Date('June 3, 2016'),
+                            tags: ['la']
+                        },
+                        {
+                            message: 'BEIJING TAGGED POST',
+                            date: new Date('June 3, 2016'),
+                            tags: ['beijing']
+                        }
+                    ]
                 }
-            ]
             }
-        }
 
         return service;
 
         ////////////////
         function format(response) {
-            return response.response;
+            return response.data.response;
         }
 
         function get() {
-            return $http.get(api + '/' + params, options).then(format);
+            return $http.get(api, options).then(format);
         }
 
         function getDummy() {
