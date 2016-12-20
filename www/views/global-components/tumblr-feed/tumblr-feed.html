@@ -5,28 +5,28 @@
         </div>
     </div>
     <div class="row">
-        <div ng-repeat="tweet in cc.tumblrFeedContent" class="col">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <img src="../img/test.png" alt="">
+        <div ng-repeat="tweet in cc.tumblrFeedContent" ng-click="cc.go(tweet[ 'short_url'])" class="col ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col ">
+                        <img src="../img/test.png " alt=" ">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <span>{{tweet.message | uppercase}}</span>
+                <div class="row ">
+                    <div class="col ">
+                        <span>{{tweet.summary | uppercase}}</span>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
+                <div class="row ">
+                    <div class="col ">
                         <span>{{tweet.date | date:'longDate' | uppercase}}</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row more">
-        <div class="col">
+    <div class="row more ">
+        <div class="col " ng-click="cc.go('https://teembotesting.tumblr.com/')">
             <button><span>View All</span></button>
         </div>
     </div>
