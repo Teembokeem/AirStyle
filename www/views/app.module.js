@@ -8,6 +8,7 @@
             'ionic',
             'Services',
             'Statics',
+            'Mailchimp.module',
             'Api.base.module',
             'Directives',
             'Home.view.module',
@@ -18,7 +19,7 @@
             'Faq.view.module',
             'Rider.view.module',
             'Rankings.view.module',
-            'Schedule.view.module'
+            'Schedule.view.module',
         ])
 
 
@@ -50,7 +51,7 @@
             //     console.log(arguments);
             // });
             console.log(`.------..------..------..------..------..------..------.\n|H.--. ||I.--. || .--. ||G.--. ||R.--. ||E.--. ||G.--. |\n| :/\\: || (\\/) || :/\\: || :/\\: || :/\\: || (\\/) || (\\/) |\n| :\\/: || :\\/: || (__) || (__) || (__) || :\\/: || :\\/: |\n| '--'H|| '--'I|| '--' || '--'G|| '--'R|| '--'E|| '--'G|\n'------'\`------'\`------'\`------'\`------'\`------'\`------'`)
-        
+
         });
 
 })();

@@ -21,12 +21,15 @@
             merch: false
         }
 
+
+
         cc.currentState = $state.current.name
         cc.venue = $stateParams.tour ? Tours($stateParams.tour) : null
         cc.toggleNav = toggleNav;
 
         $rootScope.$on('tourStopMenuClose', function (e, d) {
             cc.venue = d.tour ? Tours(d.tour) : null
+            console.log($state)
             cc.currentState = $state.current.name
             cc.menus[d.menu] = !cc.menus[d.menu];
         })
@@ -36,6 +39,14 @@
             $scope.$emit('darkenNav');
         };
 
-        cc.$onInit = function () {}
+        cc.$onInit = function () {
+            $scope.$watch(function () {
+                return $state.current
+            }, function (a, b, c) {
+                console.log(a, b, c)
+                cc.currentState = $state.current.name
+            });
+
+        }
     }
 })();

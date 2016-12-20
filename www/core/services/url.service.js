@@ -8,9 +8,8 @@
     urlService.$inject = ['$log'];
 
     function urlService($log) {
-        var base = '',
-            api = base + 'api/',
-            url;
+        var base = 'http://localhost:3000',
+            api = base + '/api';
 
         var service = {
             base: base,
