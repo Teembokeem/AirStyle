@@ -17,9 +17,11 @@
 
 
         cc.stateChange = stateChange;
+        cc.darkenRider = -1;
+        cc.borderButtonHover = false;
 
         function stateChange(state, val) {
-            val ? $state.go(state, {avatar: val}) : $state.go(state);
+            val ? $state.go(state, { avatar: val }) : $state.go(state);
         }
 
 
