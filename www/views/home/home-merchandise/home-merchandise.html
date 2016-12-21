@@ -20,7 +20,8 @@
 	</div>
 	<div class="row more">
 		<div class="col">
-			<button ng-click="cc.openMerch()">More Merch</button>
+			<button ng-mouseover="cc.borderButtonHover = !cc.borderButtonHover" ng-mouseleave="cc.borderButtonHover  = !cc.borderButtonHover"
+				ng-class="{'border-button': cc.borderButtonHover}" ng-click="cc.openMerch()">More Merch</button>
 		</div>
 	</div>
 </div>

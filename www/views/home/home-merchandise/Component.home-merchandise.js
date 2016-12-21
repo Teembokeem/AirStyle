@@ -18,6 +18,7 @@
         cc.openMerch = function () {
             window.open("http://www.air-style.clothing");
         };
+        cc.borderButtonHover = false;
 
         cc.$onInit = function () {
 

@@ -105,15 +105,23 @@
 
             .col {
                 max-width: 160px;
-                max-height: 47px;
-                border: 3px solid white;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 button {
+                    border: 3px solid white;
                     font-family: 'Apercu';
                     font-size: 18px;
-                    border: none;
+                    transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+                    height: 50px;
+                    width: 150%;
+                }
+
+                button.border-button {
+                    background-color: white;
+                    border: none; 
+                    color: black;
+                    transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
                 }
             }
         }
