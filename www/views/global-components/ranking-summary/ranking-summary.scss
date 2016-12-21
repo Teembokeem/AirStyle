@@ -27,6 +27,8 @@ ranking-summary {
             align-items: flex-end;
             background-repeat: no-repeat !important;
             background-position: center !important;
+            background-blend-mode: normal;
+            transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
             //  background-size: contain !important;
 
             .container {
@@ -68,33 +70,41 @@ ranking-summary {
                 }
             }
          }
+
+         .player-container.darken {
+             background-color: rgba(0, 0, 0, 0.5) !important;
+             background-blend-mode: color-dodge;
+             transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+         }
         .more {
             margin: 2rem auto;
-            width: 78%;
-            height: 47px;
             align-content: center;
             justify-content: center;
             padding-top: 0.3rem;
             display: flex;
+            max-width: 220px;
             position: relative;
             .col {
-                max-width: 250px;
-                max-height: 47px;
-                height: 47px;
-                border: 3px solid white;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 button {
-                    height: 100%;
-                    border: none;
+                    border: 3px solid;
+                    height: 50px;
+                    width: 150%;
+                    justify-content: center;
                     display: flex;
                     align-items: center;
-                    span {
-                        font-size: 18px;
-                        font-family: 'Apercu';
+                    font-size: 18px;
+                    font-family: 'Apercu';
+                    transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+                }
 
-                    }
+                button.border-button {
+                    background-color: white;
+                    border: none; 
+                    color: black;
+                    transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
                 }
             }
         }

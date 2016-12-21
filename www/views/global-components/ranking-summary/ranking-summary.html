@@ -2,23 +2,26 @@
 	<div class="section-title">
 		<span>RIDERS + RANKINGS</span>
 	</div>
-	<div ng-repeat="rider in cc.riders" class="container player-container nopad" ng-click="cc.stateChange('app.rider.all')" style="background: url({{rider.img_portrait}}) 50% -0.5rem / 100%;">
-		<div class="container nopad">
-			<div class="number">
-				<span>
+	<div ng-repeat="rider in cc.riders" ng-mouseover="cc.darkenRider = $index" ng-class="{'darken': cc.darkenRider === $index}"
+		ng-mouseleave="cc.darkenRider = -1" class="container player-container nopad" ng-click="cc.stateChange('app.rider.all')"
+		style="background: url({{rider.img_portrait}}) 50% -0.5rem / 100%;">
+<div class="container nopad">
+	<div class="number">
+		<span>
                     0{{$index + 1}}
 
                 </span>
-			</div>
-			<div class="name">
-				<span>{{rider.name.first}}</span>
-				<span>{{rider.name.last}}</span>
-			</div>
-		</div>
 	</div>
-	<div class="more">
-		<div class="col">
-			<button ng-click="cc.stateChange('app.rider.all')"><span>More Riders + Rankings</span></button>
-		</div>
+	<div class="name">
+		<span>{{rider.name.first}}</span>
+		<span>{{rider.name.last}}</span>
 	</div>
+</div>
+</div>
+<div class="more">
+	<div class="col">
+		<button ng-mouseover="cc.borderButtonHover = !cc.borderButtonHover" ng-mouseleave="cc.borderButtonHover  = !cc.borderButtonHover"
+			ng-class="{'border-button': cc.borderButtonHover}" ng-click="cc.stateChange('app.rider.all')">More Riders + Rankings</button>
+	</div>
+</div>
 </div>
