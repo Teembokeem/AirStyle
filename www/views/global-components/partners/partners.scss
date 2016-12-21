@@ -58,6 +58,10 @@ partners {
                     .partner:hover {
                         filter: grayscale(0);
                     }
+
+                    .partner.override-grayscale {
+                        filter: grayscale(0) !important;
+                    }
                 }
             }
         }
