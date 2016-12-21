@@ -1,4 +1,4 @@
-(function() {
+(function () {
     'use strict';
     angular.module('Home.view.module')
         .component('homeCarousel', {
@@ -13,11 +13,11 @@
     HomeCarouselCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', '$ionicSlideBoxDelegate', 'Carousel'];
 
     function HomeCarouselCtrl($log, $rootScope, $window, $scope, $ionicSlideBoxDelegate, Carousel) {
-        var cc = this
+        var cc = this;
 
-        $scope.$watch(function() {
+        $scope.$watch(function () {
             return $window.innerWidth;
-        }, function(a, b, c) {
+        }, function (a, b, c) {
             // console.log(a, b, c)
             if (a < 1024) {
                 cc.mobile = true;
@@ -35,6 +35,8 @@
 
         cc.go = go;
         cc.moveSlide = moveSlide;
+        cc.borderButtonHover = 'null';
+
 
         function go(link) {
             window.location = link;
@@ -42,9 +44,9 @@
 
         function moveSlide(index) {
             $ionicSlideBoxDelegate.$getByHandle('carousel').slide(index, 500);
-            setTimeout(function() {
+            setTimeout(function () {
                 $ionicSlideBoxDelegate.$getByHandle('carousel').stop();
-                setTimeout(function() {
+                setTimeout(function () {
 
                     $ionicSlideBoxDelegate.$getByHandle('carousel').start();
                 }, 4000);
@@ -53,7 +55,7 @@
         }
 
 
-        cc.$onInit = function() {
+        cc.$onInit = function () {
             var carousel = Carousel('la');
             cc.slideContent = [Carousel('innsbruck').slide, Carousel('la').slide];
             cc.customSlide = carousel.hero;
