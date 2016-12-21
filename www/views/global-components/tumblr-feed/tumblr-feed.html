@@ -27,7 +27,8 @@
     </div>
     <div class="row more ">
         <div class="col " ng-click="cc.go('https://teembotesting.tumblr.com/')">
-            <button><span>View All</span></button>
+            <button ng-mouseover="cc.borderButtonHover = !cc.borderButtonHover" ng-mouseleave="cc.borderButtonHover  = !cc.borderButtonHover"
+                ng-class="{'border-button': cc.borderButtonHover}">View All</button>
         </div>
     </div>
 </div>

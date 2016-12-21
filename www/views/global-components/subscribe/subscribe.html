@@ -4,8 +4,8 @@
             <div class="container email-container">
                 <div class="row email-1">
                     <div class="col email-1-1">
-                        <input class="input" type="text" onfocus="this.placeholder=''" onblur="this.placeholder='Don\'t miss a thing! Stay up to date by subscribing to our newsletter'"
-                            placeholder="Don't miss a thing! Stay up to date by subscribing to our newsletter" ng-model="cc.newUserEmail">
+                        <input class="input" type="text" ng-focus="cc.placeholder = ''" ng-blur="cc.grabText()" placeholder="{{cc.placeholder}}"
+                            ng-model="cc.newUserEmail">
                         <button class="submit ">Submit</button> {{cc.focus}}
                     </div>
                 </div>

@@ -93,23 +93,24 @@ tumblr-feed {
             position: relative;
             flex-flow: row wrap;
             .col {
-                max-width: 250px;
-                max-height: 47px;
-                height: 47px;
-                border: 3px solid white;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                max-width: 200px;
                 button {
-                    height: 100%;
-                    border: none;
-                    display: flex;
-                    align-items: center;
-                    span {
-                        font-size: 18px;
-                        font-family: 'Apercu';
+                    border: 3px solid white;
+                    font-family: 'Apercu';
+                    font-size: 18px;
+                    transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+                    height: 50px;
+                    width: 150%;
+                }
 
-                    }
+                button.border-button {
+                    background-color: white;
+                    border: none; 
+                    color: black;
+                    transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
                 }
             }
         }
