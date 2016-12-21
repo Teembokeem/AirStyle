@@ -10,13 +10,14 @@
             controllerAs: 'cc'
         })
 
-    partnersCtrl.$inject = ['$log'];
+    partnersCtrl.$inject = ['$log', '$window'];
 
-    function partnersCtrl($log) {
+    function partnersCtrl($log, $window) {
         var cc = this;
+        cc.touchScreen;
 
         cc.$onInit = function () {
-
+            $window.innerWidth < 1024 ? cc.touchScreen = true : cc.touchScreen = false;
             cc.partnerContent = [
                 {
                     img: 'img/go90_LOGO.png',
