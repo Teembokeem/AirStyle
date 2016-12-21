@@ -205,11 +205,24 @@ home-carousel {
                                 width: 7rem;
                                 border: none;
                                 border: 2px solid white;
+                                transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+                                // transform: translateX(30px);
 
                                 a {
                                     text-decoration: none;
                                 }
                             }
+
+                            button.border-button {
+                                border: none;
+                                background-color: white;
+                                transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+                                // transform: translateX(30px);
+                                a {
+                                    color: black;
+                                }
+                            }
+
 
                             .left {
                                 margin-right: 4vw;

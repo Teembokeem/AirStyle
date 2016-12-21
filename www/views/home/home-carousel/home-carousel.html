@@ -13,9 +13,11 @@
 						</div>
 						<div class="row plus">
 							<div class="col">
-								<button class="left"><a href="http://www.air-style.at">LEARN MORE</a></button>
+								<button ng-mouseover="cc.borderButtonHover = 'left'" ng-mouseleave="cc.borderButtonHover = 'null'" ng-class="{'border-button': cc.borderButtonHover === 'left'}"
+									class="left"><a href="http://www.air-style.at">LEARN MORE</a></button>
 								<img ng-src="{{cc.customSlide.plus}}" alt="">
-								<button class="right"><a href="https://airandstyle.frontgatetickets.com/">BUY NOW</a></button>
+								<button ng-mouseover="cc.borderButtonHover = 'right'" ng-mouseleave="cc.borderButtonHover = 'null'" ng-class="{'border-button': cc.borderButtonHover === 'right'}"
+									class="right"><a href="https://airandstyle.frontgatetickets.com/">BUY NOW</a></button>
 							</div>
 						</div>
 						<div class="row content">
@@ -42,27 +44,27 @@
 				</ion-slide>
 				<ion-slide ng-repeat="slide in cc.slideContent">
 					<div class="hero-image" style="background: url({{slide.image}})"></div>
-					<div class="darken"></div>
-					<div class="container">
-						<div class="row nopad title">
-							<div class="col nopad">
-								<span>{{slide.title}}</span>
-							</div>
-						</div>
-						<div class="row content">
-							<div class="col">
-								<span class="sale">{{slide.content}}</span>
-							</div>
-						</div>
-						<div class="row buttons nopad">
-							<div class="col nopad">
-								<!--<button ng-repeat="button in slide.buttons" ui-sref="{{button.dest}}">{{button.label}}</button>-->
-								<button ng-repeat="button in slide.buttons" ng-click="cc.go(button.dest)">{{button.label}}</button>
-							</div>
-						</div>
-					</div>
-				</ion-slide>
-			</ion-slide-box>
+<div class="darken"></div>
+<div class="container">
+	<div class="row nopad title">
+		<div class="col nopad">
+			<span>{{slide.title}}</span>
 		</div>
 	</div>
+	<div class="row content">
+		<div class="col">
+			<span class="sale">{{slide.content}}</span>
+		</div>
+	</div>
+	<div class="row buttons nopad">
+		<div class="col nopad">
+			<!--<button ng-repeat="button in slide.buttons" ui-sref="{{button.dest}}">{{button.label}}</button>-->
+			<button ng-repeat="button in slide.buttons" ng-click="cc.go(button.dest)">{{button.label}}</button>
+		</div>
+	</div>
+</div>
+</ion-slide>
+</ion-slide-box>
+</div>
+</div>
 </div>
