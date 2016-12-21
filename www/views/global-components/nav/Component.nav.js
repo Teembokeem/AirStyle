@@ -3,7 +3,7 @@
     var dir = "/views/global-components/nav/"
     angular.module('Template')
         .component('nav', {
-            templateUrl: dir + 'Component.nav.html',
+            templateUrl: dir + 'nav.html',
             controller: NavCtrl,
             controllerAs: 'cc'
         });
@@ -14,7 +14,7 @@
 
         var cc = this;
 
-        cc.venue = $stateParams.tour ? Tours($stateParams.tour) : null
+        cc.venue = $stateParams.tour ? Tours($stateParams.tour) : null;
         console.log(cc.venue, 'here')
         if ($window.innerWidth <= 600) {
             cc.noNav = true;

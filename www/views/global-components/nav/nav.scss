@@ -1,3 +1,6 @@
+
+
+
 nav {
     position: absolute;
     width: 100vw;
@@ -15,6 +18,25 @@ nav {
                 img {
                     width: 15vw;
                     max-width: 60px;
+                }
+
+                .line {
+                    height: 0.15rem;
+                    position: absolute;
+                    width: 2.6rem;
+                    bottom: 1.95rem;
+                    left: 0.5rem;
+                }
+                .line.beijing {
+                    background-color: $as-green;
+                }
+
+                .line.innsbruck {
+                    background-color: $as-yellow;
+                }
+
+                .line.la {
+                    background-color: $as-blue;
                 }
             }
         }
@@ -295,6 +317,11 @@ nav {
                     img {
                         width: 100%;
                     }
+
+                    .line {
+                        bottom: 1.9rem;
+                        left: 1.5rem;
+                    }
                 }
             }
             desktop-menu {
@@ -348,7 +375,14 @@ nav {
             .logo {
                 margin-left: 2rem;
                 margin-top: 2rem;
+
+                a {
+                    .line {
+                        left: 2.54rem;
+                    }
+                }
             }
+
             .search,
             .hamburger {
                 top: 2.8rem;
