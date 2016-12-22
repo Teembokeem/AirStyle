@@ -31,8 +31,10 @@
         }
 
 
-        function subscribeUser() {
-            return MailchimpDispatcher.post().then(transformResponse);
+        function subscribeUser(user) {
+            return MailchimpDispatcher.post(user).then(transformResponse).catch(function (err) {
+                return err;
+            });
         }
 
     }

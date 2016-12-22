@@ -20,11 +20,18 @@
 
         ////////////////
         function format(response) {
-            return response.data.response;
+            return response.data;
         }
 
-        function post() {
-            return $http.post(api, options).then(format);
+        function post(data) {
+            return $http({
+                method: 'POST',
+                url: api,
+                data: {
+                    email_address: data,
+                    status: 'subscribed'
+                }
+            }).then(format);
         }
     }
 })();

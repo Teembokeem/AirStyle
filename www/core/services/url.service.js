@@ -9,6 +9,7 @@
 
     function urlService($log) {
         var base = 'http://localhost:3000',
+            // var base = 'http://localhost:3000',
             api = base + '/api';
 
         var service = {
