@@ -9,6 +9,7 @@
             'Services',
             'Statics',
             'Mailchimp.module',
+            'Tumblr.module',
             'Api.base.module',
             'Directives',
             'Home.view.module',
