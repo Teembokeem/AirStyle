@@ -1,9 +1,9 @@
-(function() {
+(function () {
     'use strict';
 
     angular
         .module('Statics')
-        .constant('Carousel', function(viewArg) {
+        .constant('Carousel', function (viewArg) {
             var slides = {
                 'la': {
                     slide: {
@@ -34,7 +34,19 @@
                         ],
                         plus: '../img/plus.png',
                         content: "THE WORLD’S BEST SNOWBOARDERS COMPETING ON A 16-STORY JUMP",
-                        date: 'Feb 10 + 14 Expo Park DTLA'
+                        date: 'FRI 10 +  TUE 14 FEBRUARY 2017 - EXPOSITION PARK DTLA',
+                        buttons: [
+                            {
+                                label: 'BUY NOW',
+                                outbound: true,
+                                dest: 'https://airandstyle.frontgatetickets.com/'
+                            },
+                            {
+                                label: 'SCHEDULE',
+                                outbound: false,
+                                dest: 'app.schedule'
+                            }
+                        ]
                     }
                 },
                 'innsbruck': {
@@ -67,7 +79,7 @@
                             {
                                 label: 'BUY NOW',
                                 outbound: true,
-                                dest: 'http://air-style.at/innsbruck2017/ticket-info-2017/innsbruck2017/ticket-info-2017/'
+                                dest: 'http://air-style.at/innsbruck2017/ticket-info-2017/'
                             },
                             {
                                 label: 'SCHEDULE',
@@ -79,19 +91,19 @@
                 }
             }
 
-            var targetView = Object.keys(slides).filter(function(view) {
+            var targetView = Object.keys(slides).filter(function (view) {
                 return viewArg == view
             })[0];
 
-            if(!targetView) {
+            if (!targetView) {
                 console.info('could not find matching key for slides: ');
                 console.log('Argument: ', viewArg);
                 console.log('Available Views: ')
-                Object.keys(slides).forEach(function(view, index) {
+                Object.keys(slides).forEach(function (view, index) {
                     console.log(index + 1 + '. ' + view)
                 });
                 throw new Error;
-                
+
             } else {
                 return slides[targetView];
             }
