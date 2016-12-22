@@ -662,12 +662,14 @@ home-carousel {
                                     }
                                     .title:first-child {
                                             letter-spacing: 5.28px;
+                                            margin-bottom: 8px;
                                     }
                                     .title:nth-child(2) {
                                             letter-spacing: 0.16px;
                                     }
 
                                     .title:nth-child(n + 3) {
+                                        letter-spacing: 1.68px;
                                         .col {
                                             span {
                                                 // font-size: 36px;
@@ -687,9 +689,7 @@ home-carousel {
                                         }
                                     }
                                     .title:nth-child(5) {
-                                        .col {
-                                            // letter-spacing: -1px;
-                                        }
+                                        letter-spacing: 4.16px;
                                     }
                                 }
                                 .plus {
@@ -708,7 +708,7 @@ home-carousel {
                                         }
 
                                         .left {
-                                            margin-right: 20%;
+                                            margin-right: 16%;
 
                                             a {
                                                 text-decoration: none;
@@ -716,7 +716,7 @@ home-carousel {
                                         }
 
                                         .right {
-                                            margin-left: 20%;
+                                            margin-left: 16%;
                                             a {
                                                 text-decoration: none;
                                             }

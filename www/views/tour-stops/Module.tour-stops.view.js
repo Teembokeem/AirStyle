@@ -1,7 +1,7 @@
 (function () {
     'use strict';
     var dir = "views/tour-stops/"
-    angular.module('TourStops.view.module', ['Services', 'Tumblr.module'])
+    angular.module('TourStops.view.module', ['Services'])
         .config(function ($stateProvider, $urlRouterProvider) {
             $stateProvider
                 .state('app.tour-stops', {

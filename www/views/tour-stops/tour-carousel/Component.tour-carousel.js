@@ -17,13 +17,15 @@
 
         cc.go = go;
         cc.stateChange = stateChange;
+        cc.tourRef = $stateParams.tour;
 
         function go(link) {
             window.location = link;
         };
 
         function stateChange(dest) {
-            $state.go(dest, $stateParams.tour)
+            console.log(dest, $stateParams)
+            $state.go(dest, { tour: $stateParams.tour })
         }
 
         $scope.$watch(function () {

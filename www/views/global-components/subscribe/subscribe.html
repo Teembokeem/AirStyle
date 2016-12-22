@@ -4,9 +4,9 @@
             <div class="container email-container">
                 <div class="row email-1">
                     <div class="col email-1-1">
-                        <input class="input" type="text" ng-focus="cc.placeholder = ''" ng-blur="cc.grabText()" placeholder="{{cc.placeholder}}"
+                        <input class="input" id="email" type="text" ng-focus="cc.placeholder = ''" ng-blur="cc.grabText()" placeholder="{{cc.placeholder}}"
                             ng-model="cc.newUserEmail">
-                        <button class="submit ">Submit</button> {{cc.focus}}
+                        <button class="submit" ng-click="cc.subscribeUser()">Submit</button>
                     </div>
                 </div>
             </div>
