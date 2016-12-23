@@ -39,6 +39,21 @@ nav {
                     background-color: $as-blue;
                 }
             }
+
+            > img {
+                width: 11vw;
+                position: absolute;
+                top: 3rem;
+                transition: 0.4s all cubic-bezier(0.165, 0.84, 0.5, 1);
+                left: 39px;
+                opacity: 0;
+            }
+
+            > img.hover {
+                transform: translateX(50px);
+                opacity: 1;
+
+            }
         }
         .logo-text {
             margin-left: 10px;
