@@ -1,4 +1,4 @@
-(function() {
+(function () {
     'use strict';
     angular.module('Template')
         .component('avatarPanels', {
@@ -23,6 +23,8 @@
         cc.stateChange = stateChange;
         cc.pageChange = pageChange;
         cc.state = $stateParams[Object.keys($stateParams)[0]];
+        cc.tour = $stateParams.tour;
+        cc.overlay = null;
 
         console.log(cc.tag)
 
@@ -33,7 +35,7 @@
             val ? $state.go(state, { avatar: val }) : $state.go(state);
         }
 
-        cc.$onInit = function() {
+        cc.$onInit = function () {
 
         }
     }
