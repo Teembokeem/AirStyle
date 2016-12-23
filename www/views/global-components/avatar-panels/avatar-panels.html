@@ -5,25 +5,27 @@
         </div>
     </div>
     <div class="row">
-        <div ng-repeat="(key, avatar) in cc.avatars track by $index" ng-if="cc.max ? $index < cc.max : true" class="col">
+        <div ng-class="{'overlay': cc.overlay != null, 'la': cc.overlay === 'la', 'innsbruck': cc.overlay === 'innsbruck'}" ng-mouseenter="cc.overlay = cc.tour"
+            ng-mouseleave="cc.overlay = null" ng-repeat="(key, avatar) in cc.avatars track by $index" ng-if="cc.max ? $index < cc.max : true"
+            class="col">
             <div class="container">
                 <div class="row">
                     <div class="col" ng-click="cc.stateChange(cc.ref, avatar.ref)">
                         <div class="panel-image" style="background: url({{avatar.img_portrait}}) 50% 0 / 110%" />
-                    </div>
-                    <div class="blue-container" ng-click="cc.stateChange(cc.ref, avatar.ref)">
-                        <span>{{avatar.name.first ? avatar.name.first + ' ' + avatar.name.last : avatar.name}}</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+</div>
+<div class="blue-container" ng-click="cc.stateChange(cc.ref, avatar.ref)">
+    <span>{{avatar.name.first ? avatar.name.first + ' ' + avatar.name.last : avatar.name}}</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row more">
+    <div class="col" ng-if="cc.schedule">
+        <button ng-click="cc.pageChange('app.schedule', cc.state)"><span>Schedule</span></button>
     </div>
-    <div class="row more">
-        <div class="col" ng-if="cc.schedule">
-            <button ng-click="cc.pageChange('app.schedule', cc.state)"><span>Schedule</span></button>
-        </div>
-        <div class="col" ng-if="cc.view">
-            <button ng-click="cc.pageChange('app.lineup', cc.state)"><span>View All</span></button>
-        </div>
+    <div class="col" ng-if="cc.view">
+        <button ng-click="cc.pageChange('app.lineup', cc.state)"><span>View All</span></button>
     </div>
+</div>
 </div>

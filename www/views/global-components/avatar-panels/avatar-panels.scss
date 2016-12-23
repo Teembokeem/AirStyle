@@ -70,6 +70,18 @@ avatar-panels {
                     }
                 }
             }
+
+            > .col.overlay.la {
+                background-color: $as-blue !important;
+                 background-blend-mode: color-dodge;
+                transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+            }
+
+            > .col.overlay.innsbruck {
+                background-color: $as-yellow !important;
+                background-blend-mode: color-dodge;
+                transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+            }
         }
 
         .more {
