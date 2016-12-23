@@ -31,6 +31,8 @@ artist-bio {
                     justify-content: center;
                     .col {
                         padding-left: 1rem;
+                        display: flex;
+                        justify-content: center;
                         button {
                             border: none;
                             font-family: 'Apercu';
