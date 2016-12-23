@@ -15,7 +15,9 @@
         var cc = this;
 
         cc.venue = $stateParams.tour ? Tours($stateParams.tour) : null;
-        console.log(cc.venue, 'here')
+        cc.logoHover = false;
+
+
         if ($window.innerWidth <= 600) {
             cc.noNav = true;
             cc.mobile = true;
