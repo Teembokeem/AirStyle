@@ -32,38 +32,40 @@ tumblr-feed {
                 min-height: 375px;
                 max-height: 415px;
                 height: 120vw;
-                padding: 1rem 0.5rem 0.5rem 0.5rem;
+                padding: 0.5rem;
                 margin: 0 auto;
                 .container {
                     .row:first-child {
-                        padding: 0 1rem;
+                        // padding: 0 1rem;
                         .col {
                             display: flex;
                             justify-content: center;
                             img {
                                 max-height: 234px;
                                 width: 100%;
-                                border: 6px solid;
+                                border: 4px solid;
                             }
                         }
                     }
                     .row:nth-child(2) {
-                        padding-left: 1rem;
-                        padding-top: 1rem;
+                        padding-left: 0.5rem;
+                        padding-top: 0.5rem;
                         .col {
                             text-align: left;
+                            padding-top: 0;
 
                             span {
                                 font-size: 22px;
                                 font-weight: bold;
                                 color: #828282;
+                                line-height: 1.2;
                             }
                         }
                     }
 
                     .row:nth-child(3) {
                         position: absolute;
-                        left: 1rem;
+                        left: 0.7rem;
                         bottom: 1.5rem;
                         .col {
                             span {
