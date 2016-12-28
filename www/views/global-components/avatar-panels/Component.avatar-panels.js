@@ -25,6 +25,7 @@
         cc.state = $stateParams[Object.keys($stateParams)[0]];
         cc.tour = $stateParams.tour;
         cc.overlay = null;
+        cc.indexTracker = null;
 
         console.log(cc.tag)
 

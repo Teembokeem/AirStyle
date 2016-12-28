@@ -41,16 +41,17 @@ nav {
             }
 
             > img {
-                width: 11vw;
+                width: 6vw;
+                min-width: 120px;
                 position: absolute;
-                top: 3rem;
+                top: 6rem;
                 transition: 0.4s all cubic-bezier(0.165, 0.84, 0.5, 1);
-                left: 39px;
+                left: 5%;
                 opacity: 0;
             }
 
             > img.hover {
-                transform: translateX(50px);
+                transform: translateX(25%);
                 opacity: 1;
 
             }
