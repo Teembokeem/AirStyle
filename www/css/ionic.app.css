@@ -9919,14 +9919,15 @@ nav {
       nav .as-nav .logo a .line.la {
         background-color: #40caff; }
       nav .as-nav .logo > img {
-        width: 11vw;
+        width: 6vw;
+        min-width: 120px;
         position: absolute;
-        top: 3rem;
+        top: 6rem;
         transition: 0.4s all cubic-bezier(0.165, 0.84, 0.5, 1);
-        left: 39px;
+        left: 5%;
         opacity: 0; }
       nav .as-nav .logo > img.hover {
-        transform: translateX(50px);
+        transform: translateX(25%);
         opacity: 1; }
     nav .as-nav .logo-text {
       margin-left: 10px; }
@@ -10816,13 +10817,13 @@ avatar-panels > .container {
               font-weight: bold;
               line-height: 1.1;
               letter-spacing: 0.15rem; }
-    avatar-panels > .container > .row:nth-child(2) > .col.overlay.la {
+    avatar-panels > .container > .row:nth-child(2) > .col.overlay.la .container .row .col .panel-image {
       background-color: #40caff !important;
-      background-blend-mode: color-dodge;
+      background-blend-mode: darken;
       transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
-    avatar-panels > .container > .row:nth-child(2) > .col.overlay.innsbruck {
+    avatar-panels > .container > .row:nth-child(2) > .col.overlay.innsbruck .container .row .col .panel-image {
       background-color: #f9fe17 !important;
-      background-blend-mode: color-dodge;
+      background-blend-mode: darken;
       transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
   avatar-panels > .container .more {
     margin: 2rem auto;
@@ -12681,7 +12682,9 @@ artist-hero {
   artist-hero > .container {
     height: 120vw;
     position: relative;
-    max-height: 60%; }
+    max-height: 60%;
+    display: flex;
+    justify-content: center; }
     artist-hero > .container .hero {
       margin: 0 auto;
       background-size: contain !important;
