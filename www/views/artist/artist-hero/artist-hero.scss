@@ -5,6 +5,8 @@ artist-hero {
             height: 120vw;
             position: relative;
             max-height: 60%;
+            display: flex;
+            justify-content: center;
         .hero {
             margin: 0 auto;
             background-size: contain !important;

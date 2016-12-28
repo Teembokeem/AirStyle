@@ -5,9 +5,9 @@
         </div>
     </div>
     <div class="row">
-        <div ng-class="{'overlay': cc.overlay != null, 'la': cc.overlay === 'la', 'innsbruck': cc.overlay === 'innsbruck'}" ng-mouseenter="cc.overlay = cc.tour"
-            ng-mouseleave="cc.overlay = null" ng-repeat="(key, avatar) in cc.avatars track by $index" ng-if="cc.max ? $index < cc.max : true"
-            class="col">
+        <div ng-class="{'overlay': cc.overlay != null && cc.indexTracker == $index, 'la': cc.overlay === 'la' && cc.indexTracker == $index, 'innsbruck': cc.overlay === 'innsbruck' && cc.indexTracker == $index}"
+            ng-mouseenter="cc.overlay = cc.tour; cc.indexTracker = $index" ng-mouseleave="cc.overlay = null; cc.indexTracker = null"
+            ng-repeat="(key, avatar) in cc.avatars track by $index" ng-if="cc.max ? $index < cc.max : true" class="col">
             <div class="container">
                 <div class="row">
                     <div class="col" ng-click="cc.stateChange(cc.ref, avatar.ref)">
