@@ -35,7 +35,6 @@
         };
 
         function chooseOption() {
-            console.log('sup')
         }
 
         cc.$onInit = function () {

@@ -9,6 +9,5 @@
 
     function RiderDetailsCtrl($log, $state, $rootScope, $stateParams, $scope) {
         var cc = this;
-        console.log($scope)
     }
 })();
