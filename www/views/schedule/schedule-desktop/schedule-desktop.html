@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row title-row">
                     <div class="col title">
-                        <span>SCHEDULE</span>
+                        <span>{{cc.tour.title | uppercase}} SCHEDULE</span>
                     </div>
                 </div>
             </div>
@@ -20,22 +20,22 @@
                             </div>
                         </div>
                         <div ng-repeat="artist in stage.lineup" class="row" style="top: {{cc.topMult(artist.time_mult)}}px; height: {{artist.time_dur * 15}}px">
-                            <div class="col">
-                                <span>{{artist.name}}</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div ng-repeat="time in cc.timeSlots" class="row">
-                    <div class="col">
-                        <span class="header-footer" ng-if="$index == 0 || $last">{{$index == 0 ? 'Doors Open' : $last ? 'Doors Close' : ''}}</span>
-                        <span ng-class="{'time': $index != 0 && !$last }">{{time | uppercase}}</span>
-                    </div>
-                    <div class="col">
-                        <div ng-class="{'bounds': $index == 0 || $last}" class="line-div"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div class="col">
+    <span>{{artist.name}}</span>
+</div>
+</div>
+</div>
+</div>
+<div ng-repeat="time in cc.timeSlots" class="row">
+    <div class="col">
+        <span class="header-footer" ng-if="$index == 0 || $last">{{$index == 0 ? 'Doors Open' : $last ? 'Doors Close' : ''}}</span>
+        <span ng-class="{'time': $index != 0 && !$last }">{{time | uppercase}}</span>
     </div>
+    <div class="col">
+        <div ng-class="{'bounds': $index == 0 || $last}" class="line-div"></div>
+    </div>
+</div>
+</div>
+</div>
+</div>
 </div>

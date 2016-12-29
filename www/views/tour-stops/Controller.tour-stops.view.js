@@ -13,7 +13,6 @@
         cc.avatars = Artists($stateParams.tour);
         cc.tour = Tours($stateParams.tour);
 
-        console.log(cc.tour)
 
         cc.showSchedule = true;
         cc.showViewAll = true;

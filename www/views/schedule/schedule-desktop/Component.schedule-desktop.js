@@ -10,9 +10,9 @@
             controllerAs: 'cc'
         })
 
-    scheduleDesktopCtrl.$inject = ['$log', '$rootScope', '$window', '$scope'];
+    scheduleDesktopCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', 'Tours', '$stateParams'];
 
-    function scheduleDesktopCtrl($log, $rootScope, $window, $scope) {
+    function scheduleDesktopCtrl($log, $rootScope, $window, $scope, Tours, $stateParams) {
         var cc = this,
             shifter = 38;
         cc.timeSlots = ['1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm'];
@@ -38,7 +38,8 @@
         })
 
         cc.$onInit = function () {
-            console.log('schedule desktop')
+
+            cc.tour = Tours($stateParams.tour);
 
             cc.ScheduleContent = [
                 {
