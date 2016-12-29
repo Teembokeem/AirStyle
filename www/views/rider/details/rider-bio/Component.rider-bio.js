@@ -10,9 +10,9 @@
             controllerAs: 'cc'
         })
 
-    riderBioCtrl.$inject = ['$log', '$state', '$stateParams', '$window'];
+    riderBioCtrl.$inject = ['$log', '$state', '$stateParams', '$window', 'Riders'];
 
-    function riderBioCtrl($log, $state, $stateParams, $window) {
+    function riderBioCtrl($log, $state, $stateParams, $window, Riders) {
         var cc = this;
 
         cc.stateChange = stateChange;
@@ -314,10 +314,8 @@
 
             },]
 
-            cc.rider = cc.riderBioContent.filter(function (rider) {
-                return rider.ref == $stateParams.avatar
-            })[0];
-            console.log(cc.rider)
-        }
+            cc.rider = Riders($stateParams.avatar)
+        };
+
     }
 })();

@@ -4,7 +4,7 @@
             <div ng-if="!cc.mobile" class="container name-container">
                 <div class="row">
                     <div class="col">
-                        <span>{{cc.rider.name | uppercase}}</span>
+                        <span>{{cc.rider.name.first + " " + cc.rider.name.last | uppercase}}</span>
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@
             <div class="container image-container">
                 <div class="row">
                     <div class="col">
-                        <div class="rider-image" style="background: url({{cc.rider.image}}) 50% 0 / 100%"></div>
+                        <div class="rider-image" style="background: url({{cc.rider.img_portrait}}) 50% 0 / 100%"></div>
 </div>
 </div>
 </div>
