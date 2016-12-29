@@ -26,6 +26,7 @@ var _scroll;
                 viewHeight;
             $document.ready(function () {
                 scroller = $ionicScrollDelegate.$getByHandle('mainScroll');
+                _scroll = scroller;
                 maxScroll = scroller._instances[0].scrollView.__maxScrollTop;
                 viewHeight = scroller._instances[0].scrollView.__clientHeight;
                 $scope.$watch(function () {
