@@ -24,13 +24,30 @@ avatar-panels {
             >.col {
                 min-width: 300px;
                 margin: 0 3rem 5rem 3rem;
+                position: relative;
+                
                 >.container {
                     width: 100%;
                     position: relative;
                     display: flex;
                     justify-content: center;
                     margin: 0 auto;
+
                     .row {
+                        > .hover-bar {
+                            display: none;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            background: rgba(255,255,255,0.5);
+                            content: '';
+                            -webkit-transition: -webkit-transform 0.6s;
+                            transition: transform 0.6s;
+                            /* -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0); */
+                            transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+                        }
                         max-width: 300px;
                         position: relative;
                         justify-content: center;
@@ -46,26 +63,65 @@ avatar-panels {
                                 height: 100%;
                                 background-repeat: no-repeat !important;
                                 background-position: center !important;
+                                transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
                             }
                         }
-                        .blue-container {
-                            position: absolute;
-                            bottom: 3rem;
-                            right: -2rem;
-                            width: 14rem;
-                            height: 6rem;
-                            padding-left: 1rem;
-                            background-color: $as-blue;
-                            display: flex;
-                            align-items: center;
-                            span {
-                                color: black;
-                                font-family: 'Apercu';
-                                font-size: 33px;
-                                font-weight: bold;
-                                line-height: 1.1;
-                                letter-spacing: 0.15rem;
-                            }
+                    }
+                    .blue-container {
+                        position: absolute;
+                        bottom: 2.5rem;
+                        right: 1rem;
+                        width: 14rem;
+                        height: 6rem;
+                        background-color: $as-blue;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding-left: 1rem;
+                        transition: all 2s cubic-bezier(0.075, 0.82, 0.365, 1);
+                        transition: background-color 1s none;
+                        span {
+                            color: black;
+                            font-family: 'Apercu';
+                            font-size: 33px;
+                            font-weight: bold;
+                            line-height: 1.1;
+                            letter-spacing: 0.15rem;
+                        }
+                    }
+                }
+                .rider-page {
+                    > .row {
+                        padding-top: 0;
+                        padding-bottom: 0;
+                        overflow: hidden;
+
+                        .hover-bar {
+                            display: inherit;
+                        }
+                    }
+
+                    .blue-container {
+                        position: absolute;
+                        bottom: -3rem;
+                        left: -4rem;
+                        display: flex;
+                        background-color: transparent;
+                        align-items: center;
+                        transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+                        transition: background-color 1s none;
+                        width: inherit;
+                        height: inherit;
+                        
+                        span {
+                            color: white;
+                            font-family: 'Reglo-Bold';
+                            font-size: 25px;
+                            font-weight: bold;
+                        }
+
+                        span:first-child {
+                            color: $as-blue;
                         }
                     }
                 }
@@ -95,6 +151,51 @@ avatar-panels {
                                 transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
                             }
                         }
+                    }
+                }
+            }
+
+            > .col.overlay.rider-hover {
+                .container {
+                    .row {
+                        .hover-bar {
+                            transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+                        }
+                        .col {
+                            .panel-image {
+                                transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+                                background-size: 100% !important;
+                                background-color: rgba(64,202,255, 0.6) !important;
+                                background-blend-mode: darken;
+                            }
+                        }
+
+                    }
+                }
+                .blue-container {
+                    position: absolute;
+                    bottom: 3rem;
+                    left: 17.5%;
+                    width: 65%;
+                    height: 7rem;
+                    background-color: $as-blue;
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-flow: row wrap;
+                    align-items: center;
+
+                    span {
+                        display: block;
+                        width: 100%;
+                        color: black;
+                        font-family: 'Apercu';
+                        font-size: 30px;
+                        font-weight: bold;
+                    }
+
+                    span:first-child {
+                        margin-bottom: -1rem;
+                        margin-top: 1rem;
                     }
                 }
             }

@@ -17,7 +17,6 @@
 
         cc.$onInit = function () {
             cc.artist = Artists($stateParams.avatar);
-            console.log(cc.artist)
         }
     }
 })();
