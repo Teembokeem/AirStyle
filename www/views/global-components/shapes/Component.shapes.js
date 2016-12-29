@@ -31,10 +31,10 @@ var _scroll;
                 $scope.$watch(function () {
                     return scroller.getScrollPosition().top;
                 }, function (a, b, c) {
-                    console.log("reference: a = before, b = after, c = scope");
+                    // console.log("reference: a = before, b = after, c = scope");
                     cc.currScroll = (b * viewHeight) / maxScroll;
                     cc.prevScroll = a;
-                    console.log(cc.currScroll);
+                    console.log(cc.currScroll, viewHeight, maxScroll);
 
                 });
             });
