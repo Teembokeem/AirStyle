@@ -31,7 +31,6 @@
         }
 
         function transformResponse(response) {
-            console.log("these posts", response)
             var _posts = {
                 'innsbruck': [],
                 'la': [],
@@ -68,7 +67,6 @@
 
 
         function getPosts() {
-            console.log("lets go")
             service.Posts = TumblrDispatcher.get().then(transformResponse).then(setPosts);
             return service.Posts;
         }

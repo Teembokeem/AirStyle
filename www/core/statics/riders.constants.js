@@ -458,12 +458,6 @@
                 };
             };
 
-            function returnOne(queryKey) {
-                return Keys.filter(function (key) {
-                    return queryKey == key;
-                })[0];
-            }
-
             function errorHandler(failedArg) {
                 console.bio('could not find matching key for ' + constantIdentifier + ': ');
                 console.log('Argument: ', failedArg);
