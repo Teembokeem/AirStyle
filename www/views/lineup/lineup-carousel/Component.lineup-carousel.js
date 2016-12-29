@@ -17,6 +17,7 @@
 
         cc.go = go;
         cc.stateChange = stateChange;
+        cc.tourRef = $stateParams.tour;
 
         function go(link) {
             window.location = link;
@@ -25,7 +26,7 @@
         function stateChange(state, val) {
             val ? $state.go(state, { tour: val }) : $state.go(state);
         };
-        
+
 
         $scope.$watch(function () {
             return $window.innerWidth;
@@ -48,10 +49,9 @@
 
         cc.$onInit = function () {
 
-           var carousel = Carousel($stateParams.tour);
+            var carousel = Carousel($stateParams.tour);
             cc.slideContent = carousel.hero;
 
-            console.log(cc.slideContent)
         }
     }
 })();

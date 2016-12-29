@@ -5,9 +5,30 @@ lineup-carousel {
         width: 100%;
         min-height: 40em;
         max-height: 53em;
+        overflow-y: hidden;
+        background-color: transparent;
+        
 
+        .hero-image {
+            width: 100%;
+            height: 100%;
+            min-height: 40em;
+            max-height: 53em;
+            width: 1440px;
+            top: 0;
+            left: 0;
+            position: absolute;
+            filter: grayscale(100%);
+            z-index: 0;
+            opacity: 0.14;
+            background-size: 100%;
+        }
         > .row {
             height: 100%;
+            z-index: 1;
+            * {
+                background-color: transparent;
+            }
             > .col {
                 .slider {
                     width: 100%;
@@ -21,6 +42,7 @@ lineup-carousel {
                                 padding: 0 0.7rem;
                                 height: 100%;
                                 margin: 0 auto;
+
                                 
                                 .lineups {
                                     width: 100%;
@@ -36,10 +58,13 @@ lineup-carousel {
                                             }
                                         }
                                     }
+                                }
+
+                                .lineups.innsbruck {
                                     
                                     .lineup:first-child {
                                         font-size: 9vw;
-                                        margin-bottom: 6vw;
+                                        margin-bottom: 5.5vw;
                                     }
 
                                     .lineup:nth-child(2) {
@@ -59,6 +84,26 @@ lineup-carousel {
                                         letter-spacing: 0.056rem;
                                         max-width: 89vw;
                                          margin: 0 auto;
+                                    }
+                                }
+
+                                .lineups.la {
+                                    
+                                    .lineup:first-child {
+                                        font-size: 10vw;
+                                        margin-bottom: 6vw;
+                                    }
+
+                                    .lineup:nth-child(2) {
+                                        font-size: 6.4vw;
+                                    }
+
+                                    .lineup:nth-child(n + 3) {
+                                        font-size: 5.45vw;
+                                    }
+
+                                    .lineup:nth-child(5) {
+                                        letter-spacing: 0.07rem;
                                     }
                                 }
 
@@ -150,13 +195,19 @@ lineup-carousel {
     lineup-carousel > .container > .row > .col .slider {
         
         .slider-slides ion-slide > .container {
-            .lineups   {
+            .lineups.innsbruck   {
                 .lineup:nth-child(3) {
                     letter-spacing: 0.09rem;
                 }
 
                 .lineup:nth-child(4) {
                     letter-spacing: 0.061rem;
+                }
+            }
+
+            .lineups.la {
+                .lineup:nth-child(5) {
+                    letter-spacing: 0.08rem;
                 }
             }
         } 
@@ -169,7 +220,11 @@ lineup-carousel {
             // padding-top: 160px;
             
             .slider-slides ion-slide > .container {
-                .lineups {
+                .lineups.innsbruck {
+
+                    .lineup:first-child {
+                        margin-bottom: 6.5vw;
+                    }
 
                     .lineup:nth-child(3) {
                         letter-spacing: 0.1rem;
@@ -183,8 +238,15 @@ lineup-carousel {
                     .lineup:nth-child(n + 2) {
                         margin-bottom: 6vw;
                     }
+                }
 
-                    
+                .lineups.la {
+                    .lineup:nth-child(n + 2) {
+                        margin-bottom: 6vw;
+                    }
+                    .lineup:nth-child(5) {
+                        letter-spacing: 0.09rem;
+                    }
                 }
 
                 .buttons {
@@ -209,7 +271,7 @@ lineup-carousel {
     lineup-carousel > .container > .row > .col .slider {
         
         .slider-slides ion-slide > .container {
-            .lineups {
+            .lineups.innsbruck {
                 .lineup:nth-child(3) {
                     letter-spacing: 0.13rem;
                 }
@@ -218,16 +280,26 @@ lineup-carousel {
                     letter-spacing: 0.09rem;
                 }  
             }
+
+            .lineups.la {
+
+                .lineup:first-child {
+                    margin-bottom: 6.7vw;
+                }
+                .lineup:nth-child(5) {
+                    letter-spacing: 0.12rem;
+                }
+            }
         } 
     }
 }
 
 @media (min-width: 600px) {
     lineup-carousel > .container > .row > .col .slider {
-        padding-top: 240px;
+        padding-top: 190px;
         
         .slider-slides ion-slide > .container {
-            .lineups {
+            .lineups.innsbruck {
                 .lineup:nth-child(2) {
                     letter-spacing: 0.014rem;
                 }
@@ -241,6 +313,16 @@ lineup-carousel {
                     font-size: 29px;
                 }  
             }
+
+            .lineups.la {
+
+                .lineup:first-child {
+                    margin-bottom: 7.4vw;
+                }
+                .lineup:nth-child(5) {
+                    letter-spacing: 0.13rem;
+                }
+            }
         } 
     }
 }
@@ -249,7 +331,7 @@ lineup-carousel {
     lineup-carousel > .container > .row > .col .slider {
         
         .slider-slides ion-slide > .container {
-            .lineups {
+            .lineups.innsbruck {
                 .lineup:nth-child(2) {
                     letter-spacing: 0.014rem;
                 }
@@ -261,6 +343,34 @@ lineup-carousel {
                     letter-spacing: 0.35rem;
                 }  
             }
+
+            .lineups.la {
+
+                .lineup:first-child {
+                    font-size: 69px;
+                    letter-spacing: 1.6px;
+                    margin-bottom: 51.8px;
+                }
+
+                .lineup:nth-child(n + 2) {
+                    margin-bottom: 42px;
+
+                }
+
+                .lineup:nth-child(2) {
+                    font-size: 45px;
+                    letter-spacing: 0.48px;
+
+                }
+
+                .lineup:nth-child(n + 3) {
+                    font-size: 39px;
+                }
+
+                .lineup:nth-child(5) {
+                    letter-spacing: 2.56px;
+                }
+            }
         } 
     }
 }
@@ -269,7 +379,7 @@ lineup-carousel {
     lineup-carousel > .container > .row > .col .slider {
         
         .slider-slides ion-slide > .container {
-            .lineups {
+            .lineups.innsbruck {
                 .lineup:nth-child(2) {
 
                 }
@@ -292,7 +402,7 @@ lineup-carousel {
         > .row > .col .slider {
             
             .slider-slides ion-slide > .container {
-                .lineups {
+                .lineups.innsbruck {
                     .lineup:first-child {
                         letter-spacing: 0.1rem;
                         word-spacing: -1px;
@@ -327,18 +437,21 @@ lineup-carousel {
         > .row > .col .slider {
             
             .slider-slides ion-slide > .container {
-                .lineups {
+                .lineups.innsbruck {
                     .lineup {
-                        margin-bottom: 45px !important; 
                     }
                     .lineup:first-child {
                         font-size: 69px;
                         letter-spacing: 6px;
+                        margin-bottom: 55px ;
                     }
 
                     .lineup:nth-child(2) {
                         letter-spacing: 1.8px;
                         font-size: 47px;
+                    }
+                    .lineup:nth-child(n + 2) {
+                        margin-bottom: 45px;
                     }
 
                     .lineup:nth-child(3) {
@@ -363,9 +476,8 @@ lineup-carousel {
 
         > .row > .col .slider {
             .slider-slides ion-slide {
-                > .container .lineups {
+                > .container .lineups.innsbruck {
                     .lineup {
-                        margin-bottom: 45px !important; 
                     }
                     .lineup:first-child {
                         font-size: 69px;

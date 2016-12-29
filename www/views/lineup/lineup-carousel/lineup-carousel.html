@@ -1,10 +1,11 @@
 <div class="container nopad">
+    <img class="hero-image" src="../img/slide1.jpg" alt="">
     <div class="row nopad">
         <div class="col nopad">
             <ion-slide-box>
                 <ion-slide>
                     <div class="container">
-                        <div class="container lineups">
+                        <div class="container lineups {{cc.tourRef}}">
                             <div ng-repeat="line in cc.slideContent.lineup" class="row nopad lineup">
                                 <div class="col nopad">
                                     <span ng-repeat="word in line">{{word}}<span class="blue-dot"> {{$index == line.length - 1 ? '' : '.'}} </span></span>
