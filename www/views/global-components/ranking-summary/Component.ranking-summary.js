@@ -29,7 +29,7 @@
         cc.$onInit = function () {
             var riders = Riders('all');
 
-            cc.riders = riders;
+            cc.riders = [riders[0], riders[1], riders[2]];
         }
     }
 })();

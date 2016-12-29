@@ -24,7 +24,6 @@
             cc.darken = false;
         }
         $rootScope.$on('noNav', function (e, d) {
-            // console.log(e, d);
             if ($window.innerWidth <= 600) {
                 cc.mobile = true;
 
@@ -51,9 +50,7 @@
 
         cc.toggleNav = function () {
             cc.noNav = !cc.noNav;
-            console.log("before", $element[0].style.backgroundColor)
             $element[0].style.backgroundColor == 'black' ? $element[0].style.backgroundColor = '' : $element[0].style.backgroundColor = 'black';
-            console.log("after", $element[0].style.backgroundColor)
         };
         cc.showHams = false;
     }

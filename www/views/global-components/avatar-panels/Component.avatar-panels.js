@@ -23,11 +23,11 @@
         cc.stateChange = stateChange;
         cc.pageChange = pageChange;
         cc.state = $stateParams[Object.keys($stateParams)[0]];
-        cc.tour = $stateParams.tour;
+        $stateParams.tour ? cc.tour = $stateParams.tour : cc.tour = $state.current.name;
+
         cc.overlay = null;
         cc.indexTracker = null;
 
-        console.log(cc.tag)
 
         function pageChange(state, val) {
             val ? $state.go(state, { tour: val }) : $state.go(state);

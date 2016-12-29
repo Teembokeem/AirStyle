@@ -22,7 +22,6 @@
         };
 
         cc.$onInit = function () {
-            console.log(TumblrManager.filterPosts($stateParams.tour));
 
             cc.tumblrFeedContent = TumblrManager.filterPosts($stateParams.tour);
         }
