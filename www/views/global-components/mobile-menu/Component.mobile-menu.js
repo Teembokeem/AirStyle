@@ -20,7 +20,11 @@
         cc.stateChange = stateChange;
 
         function stateChange(state, param, val) {
-            $state.go(state, { param: val });
+            if (val == 'beijing') {
+                $rootScope.$broadcast('noNav', false);
+                return $state.go('app.beijing-content');
+            }
+            $state.go(state, { tour: val });
             $rootScope.$broadcast('noNav', false);
         }
 
@@ -29,15 +33,18 @@
             cc.events = [
                 {
                     name: 'beijing',
-                    date: 'NOV 18 + 19'
+                    date: 'NOV 18 + 19',
+                    ref: 'beijing'
                 },
                 {
                     name: 'innsbruck',
-                    date: 'FEB 3 + 4'
+                    date: 'FEB 3 + 4',
+                    ref: 'innsbruck'
                 },
                 {
                     name: 'los angeles',
-                    date: 'FEB 10 + 14'
+                    date: 'FEB 10 + 14',
+                    ref: 'la'
                 }
             ];
         }

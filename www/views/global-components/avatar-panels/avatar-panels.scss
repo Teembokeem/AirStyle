@@ -20,6 +20,7 @@ avatar-panels {
         }
         >.row:nth-child(2) {
             flex-flow: row wrap;
+            display: -webkit-flex;
             justify-content: center;
             >.col {
                 min-width: 300px;
