@@ -1,52 +1,54 @@
 <!--<div ng-class="{'nav-menu' : !cc.noNav}" class="container">-->
+<ion-content>
 
-<div class="container nav-menu">
-	<div class="container">
-		<div href="https://airandstyle.frontgatetickets.com/" class="row">
-			<div class="col">
-				<a href="https://airandstyle.frontgatetickets.com/">Tickets</a>
+	<div class="container nav-menu">
+		<div class="container">
+			<div href="https://airandstyle.frontgatetickets.com/" class="row">
+				<div class="col">
+					<a href="https://airandstyle.frontgatetickets.com/">Tickets</a>
+				</div>
+			</div>
+			<!--<div class="row">
+				<div class="col">
+					Live Stream
+				</div>
+			</div>-->
+			<div class="row">
+				<div class="col">
+					Riders + Rankings
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					Videos
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					Shop
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col">
-				Live Stream
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				Riders + Rankings
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				Videos
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				Shop
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<!-- ng-repeat-->
-		<!--<div class="row" ng-repeat="event in cc.events">-->
-		<div class="row" ng-repeat="event in cc.events" ng-click="cc.stateChange('app.tour-stops', 'tour', event.ref)">
-			<div class="col">
-				<div class="container">
-					<div class="row nopad">
-						<div class="col nopad">
-							<span>{{event.name | uppercase}}</span>
+		<div class="container">
+			<!-- ng-repeat-->
+			<!--<div class="row" ng-repeat="event in cc.events">-->
+			<div class="row" ng-repeat="event in cc.events" ng-click="cc.stateChange('app.tour-stops', 'tour', event.ref)">
+				<div class="col">
+					<div class="container">
+						<div class="row nopad">
+							<div class="col nopad">
+								<span>{{event.name | uppercase}}</span>
 
+							</div>
 						</div>
-					</div>
-					<div class="row nopad">
-						<div class="col nopad">
-							<span>{{event.date}}</span>
+						<div class="row nopad">
+							<div class="col nopad">
+								<span>{{event.date}}</span>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+	</ion-scroll>
