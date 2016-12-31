@@ -16,6 +16,7 @@ ranking-summary {
         }
 
          .player-container {
+            transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
             margin: 0 auto;
             width: 100%;
             max-width: 300px;
@@ -25,10 +26,10 @@ ranking-summary {
             display: flex;
             justify-content: center;
             align-items: flex-end;
+            background-color: transparent !important;
             background-repeat: no-repeat !important;
             background-position: center !important;
             background-blend-mode: normal;
-            transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
             //  background-size: contain !important;
 
             .container {
@@ -74,7 +75,7 @@ ranking-summary {
          .player-container.darken {
              background-color: rgba(0, 0, 0, 0.5) !important;
              background-blend-mode: color-dodge;
-             transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+            //  transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
          }
         .more {
             margin: 2rem auto;
