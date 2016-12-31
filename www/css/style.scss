@@ -125,6 +125,7 @@ body {
 body {
     * {
         ::-webkit-scrollbar {
+            width: 0;
             color: black;
             background-color: black;
         }

@@ -9897,6 +9897,7 @@ body {
   user-select: text !important; }
 
 body * ::-webkit-scrollbar {
+  width: 0;
   color: black;
   background-color: black; }
 
@@ -10347,6 +10348,7 @@ ranking-summary > .container {
       ranking-summary > .container .more .col button.border-button {
         background-color: white;
         border: none;
+        padding-left: 3px;
         color: black;
         transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
 
@@ -13152,6 +13154,8 @@ artist-bio > .container > .row {
       max-width: 500px;
       width: 5rem;
       background-color: #151515; }
+      artist-bio > .container > .row > .col .spotify-container .col div iframe {
+        max-width: 100%; }
 
 @media (min-width: 420px) {
   artist-bio > .container {
