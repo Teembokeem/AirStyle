@@ -60,6 +60,10 @@ artist-bio {
                             max-width: 500px;
                             width: 5rem;
                             background-color: #151515;
+
+                            iframe {
+                                max-width: 100%;
+                            }
                         }
                     }
                 }
