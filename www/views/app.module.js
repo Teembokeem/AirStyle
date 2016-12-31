@@ -20,6 +20,7 @@
             'Faq.view.module',
             'Rider.view.module',
             'Rankings.view.module',
+            'BeijingContent.view.module',
             'Schedule.view.module',
         ])
 
