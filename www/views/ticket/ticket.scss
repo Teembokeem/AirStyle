@@ -2,6 +2,10 @@
     padding-top: 10rem;
     display: flex;
     justify-content: center;
+
+    iframe {
+        max-height: 65vh;
+    }
 }
 
 * #content-wrapper {
