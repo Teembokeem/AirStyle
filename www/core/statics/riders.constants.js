@@ -24,7 +24,15 @@
                     fb: 'https://www.facebook.com/sven.thorgren',
                     inst: 'https://www.instagram.com/sventhorgren/',
                     youtube: 'https://www.youtube.com/channel/UCABshgGP243EXCx3oDP251w',
-                    video: 'https://www.youtube.com/embed/caxzNEeSzUQ'
+                    video: 'https://www.youtube.com/embed/caxzNEeSzUQ',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: 'N/A',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'mParrot': {
                     name: {
@@ -45,7 +53,15 @@
                     fb: 'https://www.facebook.com/MaxenceParrot/',
                     inst: 'https://www.instagram.com/maxparrot/',
                     youtube: 'https://www.youtube.com/channel/UC4vR3xW7XtQp-nnKbmG8oLg/feed',
-                    video: 'https://www.youtube.com/watch?v=z096RCS2IgM'
+                    video: 'https://www.youtube.com/embed/z096RCS2IgM',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '13.45',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'sSandbech': {
                     name: {
@@ -66,7 +82,15 @@
                     fb: 'https://www.facebook.com/stalesandbech/',
                     inst: 'https://www.instagram.com/stalesandbech/',
                     youtube: 'https://www.youtube.com/channel/UCO8tCaCIbmveFmeKL2DO0hw',
-                    video: 'https://www.youtube.com/embed/e4tEOuDXA7Y'
+                    video: 'https://www.youtube.com/embed/e4tEOuDXA7Y',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: 'N/A',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'aTruchon': {
                     name: {
@@ -87,7 +111,15 @@
                     fb: 'https://www.facebook.com/TruchonAntoine/',
                     inst: 'https://www.instagram.com/antoine_truchon/',
                     youtube: 'https://www.youtube.com/embed/qLs0sfklQcs',
-                    video: 'https://www.youtube.com/embed/A6uokUtjZHM'
+                    video: 'https://www.youtube.com/embed/A6uokUtjZHM',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '64.83',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'bDavis': {
                     name: {
@@ -108,7 +140,15 @@
                     fb: 'https://www.facebook.com/brandon.davis.5494?fref=ts',
                     inst: 'https://www.instagram.com/brandonjdavis/?hl=en',
                     youtube: '',
-                    video: 'https://www.youtube.com/embed/Sgu00dLNVS8'
+                    video: 'https://www.youtube.com/embed/Sgu00dLNVS8',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '22.76',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'bMorgan': {
                     name: {
@@ -129,7 +169,15 @@
                     fb: 'https://www.facebook.com/billymorgansnowboarder',
                     inst: 'https://www.instagram.com/billymorgan89/',
                     youtube: 'https://www.youtube.com/user/billymorganvideos/featured',
-                    video: 'https://www.youtube.com/embed/_MFNYVPESzA'
+                    video: 'https://www.youtube.com/embed/_MFNYVPESzA',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: 'N/A',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'bMouton': {
                     name: {
@@ -150,7 +198,15 @@
                     fb: 'https://www.facebook.com/BorisMouton/',
                     inst: 'https://www.instagram.com/borismouton/',
                     youtube: 'https://www.youtube.com/channel/UCJLzCFVIOzYVjWhfWuNn_eQ',
-                    video: 'https://www.youtube.com/embed/ypcpdIT994g'
+                    video: 'https://www.youtube.com/embed/ypcpdIT994g',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: 'N/A',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'cGuldemond': {
                     name: {
@@ -171,7 +227,15 @@
                     fb: 'https://www.facebook.com/ChuckG.tv/',
                     inst: 'https://www.instagram.com/chasguldemond/',
                     youtube: 'https://www.youtube.com/user/USSANetwork/about',
-                    video: 'https://www.youtube.com/embed/K9NdQxzEQ4M'
+                    video: 'https://www.youtube.com/embed/K9NdQxzEQ4M',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: 'N/A',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'cMillauer': {
                     name: {
@@ -192,7 +256,15 @@
                     fb: 'https://www.facebook.com/clemensmillauer/',
                     inst: 'https://www.instagram.com/clemensmillauer/',
                     youtube: 'https://www.youtube.com/user/Clemensgopro',
-                    video: 'https://www.youtube.com/embed/JDVl_QOXcfc'
+                    video: 'https://www.youtube.com/embed/JDVl_QOXcfc',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '56.83',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'dSharpe': {
                     name: {
@@ -213,7 +285,15 @@
                     fb: 'https://www.facebook.com/darcysharpegetsit/',
                     inst: 'https://www.instagram.com/darcysharpe/?hl=en',
                     youtube: 'https://www.youtube.com/user/ShredbotsOFFICIAL/featured',
-                    video: 'https://www.youtube.com/watch?v=fbaMT0906ls'
+                    video: 'https://www.youtube.com/watch?v=fbaMT0906ls',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '85.73',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'eBeauchemin': {
                     name: {
@@ -234,7 +314,15 @@
                     fb: 'https://www.facebook.com/eric.beauchemin',
                     inst: 'https://www.instagram.com/eric_beauchemin/',
                     youtube: 'https://www.youtube.com/embed/pSjILoz9mJA',
-                    video: 'https://www.youtube.com/embed/HO3I2k-hD2U'
+                    video: 'https://www.youtube.com/embed/HO3I2k-hD2U',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '15.74',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'eWillett': {
                     name: {
@@ -255,7 +343,15 @@
                     fb: 'https://www.facebook.com/ericwillettofficial/',
                     inst: 'https://www.instagram.com/eric_willett/?hl=en',
                     youtube: 'https://www.youtube.com/embed/tZ1cL6eSOhs',
-                    video: 'https://www.youtube.com/embed/a-mX7esr1i4'
+                    video: 'https://www.youtube.com/embed/a-mX7esr1i4',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: 'N/A',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'hWei': {
                     name: {
@@ -275,7 +371,15 @@
                     fb: '',
                     inst: '',
                     youtube: 'https://www.youtube.com/user/xiaohu800426',
-                    video: 'https://www.youtube.com/embed/4PWqxDoNYy8'
+                    video: 'https://www.youtube.com/embed/4PWqxDoNYy8',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '6.88',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'jB\xF6siger': {
                     name: {
@@ -296,7 +400,15 @@
                     fb: 'https://www.facebook.com/jonasboesiger',
                     inst: 'https://www.instagram.com/jonasboesiger/',
                     youtube: 'https://www.youtube.com/channel/UCnCphtM477DFoabIUeCJLuQ',
-                    video: 'https://www.youtube.com/embed/YdiqXB-r1mc'
+                    video: 'https://www.youtube.com/embed/YdiqXB-r1mc',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '43.64',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'jYin': {
                     name: {
@@ -316,7 +428,15 @@
                     fb: 'https://www.facebook.com/junzeyin?ref=br_rs',
                     inst: 'https://www.instagram.com/junzeyin/?hl=en',
                     youtube: '',
-                    video: ''
+                    video: '',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '2.22',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'jhZhang': {
                     name: {
@@ -336,7 +456,15 @@
                     fb: '',
                     inst: '',
                     youtube: '',
-                    video: ''
+                    video: '',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '20.39',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'kJ\xE4rvilehto': {
                     name: {
@@ -357,7 +485,15 @@
                     fb: 'https://www.facebook.com/kallejarvilehtofficial/',
                     inst: 'https://www.instagram.com/kallejarvilehto/',
                     youtube: 'https://www.youtube.com/user/Skubbeli/videos',
-                    video: 'https://www.youtube.com/embed/TWE_xTXg12Y'
+                    video: 'https://www.youtube.com/embed/TWE_xTXg12Y',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '53.24',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'kInamura': {
                     name: {
@@ -378,7 +514,15 @@
                     fb: 'https://www.facebook.com/keita.inamura.5',
                     inst: 'https://www.instagram.com/keitainamura/?hl=en',
                     youtube: 'https://www.youtube.com/embed/ri4UDdEElMY',
-                    video: 'https://www.youtube.com/embed/LB4S1RE6Hjg'
+                    video: 'https://www.youtube.com/embed/LB4S1RE6Hjg',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: 'N/A',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'kMack': {
                     name: {
@@ -399,7 +543,15 @@
                     fb: 'https://www.facebook.com/KyleMackSnowboarding',
                     inst: 'https://www.instagram.com/_kylemack/',
                     youtube: 'https://www.youtube.com/channel/UCHITW5rdn2Xu0CZf0tVUzEg/about',
-                    video: 'https://www.youtube.com/embed/iAVziG6GNTg'
+                    video: 'https://www.youtube.com/embed/iAVziG6GNTg',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '30.09',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'lKoch': {
                     name: {
@@ -420,70 +572,15 @@
                     fb: 'https://www.facebook.com/Lucien-Koch-161059404044433/',
                     inst: 'https://www.instagram.com/lucienkoch/?hl=en',
                     youtube: 'https://www.youtube.com/user/stickydude96/feed',
-                    video: 'https://www.youtube.com/results?search_query=Lucien+Koch'
-                },
-                'mKleveland': {
-                    name: {
-                        first: 'Marcus',
-                        last: 'Kleveland'
-                    },
-                    nation: 'Norway',
-                    sponsors: ['Nitro', "Volcom", 'Red Bull'],
-                    homeBase: 'Dombas',
-                    dob: new Date('04/25/1999'),
-                    stance: 'Goofy',
-                    bio: [
-                        'Marcus Kleveland is one of the young guns to watch. Dude started pulling 1260s at 12 years old and has kept right on ruling it. A year later he landed a Backside Triple Cork 1440 Mute. Marcus is still far from a finished product, with the potential to push the limits of snowboarding. He rode away from a Quad Cork 1800. He won the whole enchilada at Air+Style Beijing with jaw dropping tricks such as a Cab Triple 1620. Pure insanity!'
-                    ],
-                    ref: 'mKleveland',
-                    img_portrait: 'img/loRiders/Marcus-Kleveland.jpg',
-                    tweet: 'https://twitter.com/MarcusKleveland',
-                    fb: 'https://www.facebook.com/MarcusKleveland/',
-                    inst: 'https://www.instagram.com/marcuskleveland/?hl=en',
-                    youtube: 'https://www.youtube.com/user/goodwintertimes',
-                    video: 'https://www.youtube.com/embed/uBzKCKMHaEw'
-                },
-                'mHedberg': {
-                    name: {
-                        first: 'Måns',
-                        last: 'Hedberg'
-                    },
-                    nation: 'Norway',
-                    sponsors: [],
-                    homeBase: 'Dombas',
-                    dob: new Date('04/25/1999'),
-                    stance: 'Goofy',
-                    bio: [
-                        'Marcus Kleveland is one of the young guns to watch. Dude started pulling 1260s at 12 years old and has kept right on ruling it. A year later he landed a Backside Triple Cork 1440 Mute. Marcus is still far from a finished product, with the potential to push the limits of snowboarding. He rode away from a Quad Cork 1800. He won the whole enchilada at Air+Style Beijing with jaw dropping tricks such as a Cab Triple 1620. Pure insanity!'
-                    ],
-                    ref: 'mHedberg',
-                    img_portrait: 'img/loRiders/Måns-Hedberg.jpg',
-                    tweet: '',
-                    fb: 'https://www.facebook.com/mans.hedberg2/',
-                    inst: 'https://www.instagram.com/hedbergmans/',
-                    youtube: 'https://www.youtube.com/user/manshedbergg',
-                    video: 'https://www.youtube.com/embed/S1357vJiNK0'
-                },
-                'mMcMorris': {
-                    name: {
-                        first: 'Mark',
-                        last: 'McMorris'
-                    },
-                    nation: 'Norway',
-                    sponsors: ['Oakley', "Burton", 'Red Bull'],
-                    homeBase: 'Dombas',
-                    dob: new Date('04/25/1999'),
-                    stance: 'Goofy',
-                    bio: [
-                        'Marcus Kleveland is one of the young guns to watch. Dude started pulling 1260s at 12 years old and has kept right on ruling it. A year later he landed a Backside Triple Cork 1440 Mute. Marcus is still far from a finished product, with the potential to push the limits of snowboarding. He rode away from a Quad Cork 1800. He won the whole enchilada at Air+Style Beijing with jaw dropping tricks such as a Cab Triple 1620. Pure insanity!'
-                    ],
-                    ref: 'mMcMorris',
-                    img_portrait: 'img/loRiders/Mark-McMorris.jpg',
-                    tweet: 'https://twitter.com/markmcmorris',
-                    fb: 'https://www.facebook.com/markleemcmorris/',
-                    inst: 'https://www.instagram.com/maximumgames/',
-                    youtube: 'https://www.youtube.com/user/MaximumFamilyGames/about',
-                    video: 'https://www.youtube.com/embed/lhFxx_CJ9h4'
+                    video: 'https://www.youtube.com/results?search_query=Lucien+Koch',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: 'N/A',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'mCiccarelli': {
                     name: {
@@ -504,7 +601,102 @@
                     fb: 'https://www.facebook.com/MikeyJCiccarelli/',
                     inst: 'https://www.instagram.com/mikeyciccarelli/',
                     youtube: 'https://www.youtube.com/channel/UCOIY95WW3gJw3qGAhrNGtQA',
-                    video: 'https://www.youtube.com/embed/MNAjd23f24Y'
+                    video: 'https://www.youtube.com/embed/MNAjd23f24Y',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '60.68',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
+                },
+                'mKleveland': {
+                    name: {
+                        first: 'Markus',
+                        last: 'Kleveland'
+                    },
+                    nation: 'Norway',
+                    sponsors: ['Nitro', "Volcom", 'Red Bull'],
+                    homeBase: 'Dombas',
+                    dob: new Date('04/25/1999'),
+                    stance: 'Goofy',
+                    bio: [
+                        'Marcus Kleveland is one of the young guns to watch. Dude started pulling 1260s at 12 years old and has kept right on ruling it. A year later he landed a Backside Triple Cork 1440 Mute. Marcus is still far from a finished product, with the potential to push the limits of snowboarding. He rode away from a Quad Cork 1800. He won the whole enchilada at Air+Style Beijing with jaw dropping tricks such as a Cab Triple 1620. Pure insanity!'
+                    ],
+                    ref: 'mKleveland',
+                    img_portrait: 'img/loRiders/Markus-Kleveland.jpg',
+                    tweet: 'https://twitter.com/MarcusKleveland',
+                    fb: 'https://www.facebook.com/MarcusKleveland/',
+                    inst: 'https://www.instagram.com/marcuskleveland/?hl=en',
+                    youtube: 'https://www.youtube.com/user/goodwintertimes',
+                    video: 'https://www.youtube.com/embed/uBzKCKMHaEw',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '100',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
+                },
+                'mHedberg': {
+                    name: {
+                        first: 'Måns',
+                        last: 'Hedberg'
+                    },
+                    nation: 'Norway',
+                    sponsors: [],
+                    homeBase: 'Dombas',
+                    dob: new Date('04/25/1999'),
+                    stance: 'Goofy',
+                    bio: [
+                        'Marcus Kleveland is one of the young guns to watch. Dude started pulling 1260s at 12 years old and has kept right on ruling it. A year later he landed a Backside Triple Cork 1440 Mute. Marcus is still far from a finished product, with the potential to push the limits of snowboarding. He rode away from a Quad Cork 1800. He won the whole enchilada at Air+Style Beijing with jaw dropping tricks such as a Cab Triple 1620. Pure insanity!'
+                    ],
+                    ref: 'mHedberg',
+                    img_portrait: 'img/loRiders/Måns-Hedberg.jpg',
+                    tweet: '',
+                    fb: 'https://www.facebook.com/mans.hedberg2/',
+                    inst: 'https://www.instagram.com/hedbergmans/',
+                    youtube: 'https://www.youtube.com/user/manshedbergg',
+                    video: 'https://www.youtube.com/embed/S1357vJiNK0',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '37.95',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
+                },
+                'mMcMorris': {
+                    name: {
+                        first: 'Mark',
+                        last: 'McMorris'
+                    },
+                    nation: 'Norway',
+                    sponsors: ['Oakley', "Burton", 'Red Bull'],
+                    homeBase: 'Dombas',
+                    dob: new Date('04/25/1999'),
+                    stance: 'Goofy',
+                    bio: [
+                        'Marcus Kleveland is one of the young guns to watch. Dude started pulling 1260s at 12 years old and has kept right on ruling it. A year later he landed a Backside Triple Cork 1440 Mute. Marcus is still far from a finished product, with the potential to push the limits of snowboarding. He rode away from a Quad Cork 1800. He won the whole enchilada at Air+Style Beijing with jaw dropping tricks such as a Cab Triple 1620. Pure insanity!'
+                    ],
+                    ref: 'mMcMorris',
+                    img_portrait: 'img/loRiders/Mark-McMorris.jpg',
+                    tweet: 'https://twitter.com/markmcmorris',
+                    fb: 'https://www.facebook.com/markleemcmorris/',
+                    inst: 'https://www.instagram.com/maximumgames/',
+                    youtube: 'https://www.youtube.com/user/MaximumFamilyGames/about',
+                    video: 'https://www.youtube.com/embed/lhFxx_CJ9h4',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '74.27',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'mPreissinger': {
                     name: {
@@ -525,7 +717,15 @@
                     fb: 'https://www.facebook.com/maximilian.preissinger',
                     inst: 'https://www.instagram.com/maximilianpreissinger/?hl=en',
                     youtube: 'https://www.youtube.com/user/Itsmaxilp',
-                    video: 'https://youtube.com/embed/UBtAdDhwaC0'
+                    video: 'https://youtube.com/embed/UBtAdDhwaC0',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '32.64',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'mRøisland': {
                     name: {
@@ -546,7 +746,15 @@
                     fb: 'https://www.facebook.com/mons.roisland',
                     inst: 'https://www.instagram.com/monsroisland/?hl=en',
                     youtube: 'https://www.youtube.com/channel/UCkpTd7h2Mn2P_QpjZHj8A6w',
-                    video: 'https://www.youtube.com/embed/hhJQ_uq2NFU'
+                    video: 'https://www.youtube.com/embed/hhJQ_uq2NFU',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '69.34',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'mSch\xE4rer': {
                     name: {
@@ -567,7 +775,15 @@
                     fb: 'https://www.facebook.com/michael.scharer.58',
                     inst: 'https://www.instagram.com/michael_schaerer17/',
                     youtube: 'https://www.youtube.com/embed/V7uQyml9oic',
-                    video: ''
+                    video: '',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '4.44',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'mThoenen': {
                     name: {
@@ -588,7 +804,15 @@
                     fb: 'https://www.facebook.com/moritzthoenen/',
                     inst: 'https://www.instagram.com/moritzthoenen/',
                     youtube: 'https://www.youtube.com/user/Preiselbersauce',
-                    video: 'https://www.youtube.com/embed/cKaMYH17fqA'
+                    video: 'https://www.youtube.com/embed/cKaMYH17fqA',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '46.68',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'nBaden': {
                     name: {
@@ -609,7 +833,15 @@
                     fb: 'https://www.facebook.com/nik.baden',
                     inst: 'https://www.instagram.com/nikbaden/',
                     youtube: 'https://www.youtube.com/user/nickbaden1',
-                    video: 'https://youtube.com/embed/Y2jgFlbIST8'
+                    video: 'https://youtube.com/embed/Y2jgFlbIST8',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '11.18',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'nDioli': {
                     name: {
@@ -630,7 +862,15 @@
                     fb: 'https://www.facebook.com/nicola.dioli',
                     inst: 'https://www.instagram.com/nicolinoo93/',
                     youtube: 'https://www.youtube.com/channel/UCj7a7DokEyQgiJ8gOEXDoOg',
-                    video: 'https://www.youtube.com/embed/Bqqj9jvttxk'
+                    video: 'https://www.youtube.com/embed/Bqqj9jvttxk',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '18.06',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'pKundratitz': {
                     name: {
@@ -646,12 +886,20 @@
                         'It’s been a minute since we’ve had a rider straight out of our backyard. Hailing from Innsbruck, Philipp Kundratitz is one of our favorite up and comers at Air+Style. Gifted beyond his years, Philipp is blessed with enormous pop, immaculate technique and good style. A complete A to Z ripper!'
                     ],
                     ref: 'pKundratitz',
-                    img_portrait: 'img/loRiders/Phillip-Kundratitz.jpg',
+                    img_portrait: 'img/loRiders/Philipp-Kundratitz.jpg',
                     tweet: 'https://twitter.com/pkundratitz',
                     fb: 'https://www.facebook.com/pkundratitz/',
                     inst: 'https://www.instagram.com/philippkundratitz/?hl=en',
                     youtube: 'https://www.youtube.com/user/phkundi/featured',
-                    video: 'https://www.youtube.com/embed/eaubnFoblUE'
+                    video: 'https://www.youtube.com/embed/eaubnFoblUE',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '35.26',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'rTonteri': {
                     name: {
@@ -672,7 +920,15 @@
                     fb: 'https://www.facebook.com/roopetonteri',
                     inst: 'https://www.instagram.com/roopetonteri/?hl=en',
                     youtube: 'https://www.youtube.com/user/MRoope1/featured',
-                    video: 'https://www.youtube.com/embed/ADtHfgj0qqM'
+                    video: 'https://www.youtube.com/embed/ADtHfgj0qqM',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '79.70',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'rStassel': {
                     name: {
@@ -688,12 +944,20 @@
                         'Ryan Stassel is a young Alaskan ripper with some big tricks and a handful of impressive results under his belt. When he’s not at his adopted home of Tahoe, California, he is traveling the world with his snowboard, laying waste to whatever terrain he comes across. In 2014, Ryan won the Slopestyle event at the USSA Grand Prix in Mammoth, beating top dawgs like Sage Kotsenburg and Shaun White. Ryan, all the best for your Air+Style debut!'
                     ],
                     ref: 'rStassel',
-                    img_portrait: 'img/loRiders/Roope-Stassel.jpg',
+                    img_portrait: 'img/loRiders/Ryan-Stassel.jpg',
                     tweet: 'https://twitter.com/ryanstassel',
                     fb: 'https://www.facebook.com/RyanStassel',
                     inst: 'https://www.instagram.com/ryanstassel/',
                     youtube: 'https://www.youtube.com/channel/UCVwfOQ-VEPBIs3lFbT_SVYA',
-                    video: 'https://www.youtube.com/embed/8d20BDGTP4o'
+                    video: 'https://www.youtube.com/embed/8d20BDGTP4o',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: 'N/A',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'sKonijnenberg': {
                     name: {
@@ -714,7 +978,15 @@
                     fb: 'https://www.facebook.com/seb.konijn',
                     inst: 'https://www.instagram.com/sebkonijnenberg/',
                     youtube: 'https://www.youtube.com/channel/UCZRJLAArf5Ox7d7FlY8NG0g',
-                    video: 'https://www.youtube.com/embed/C6rQC9m3NgE'
+                    video: 'https://www.youtube.com/embed/C6rQC9m3NgE',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '8.92',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'sDeBuck': {
                     name: {
@@ -735,7 +1007,15 @@
                     fb: 'https://www.facebook.com/sebbedebuckfanpage/',
                     inst: 'https://www.instagram.com/sebbedebuck/?hl=en',
                     youtube: 'https://www.youtube.com/user/SBESmag',
-                    video: 'https://www.youtube.com/embed/1w3Yctj9cpQ'
+                    video: 'https://www.youtube.com/embed/1w3Yctj9cpQ',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '49.87',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'sToutant': {
                     name: {
@@ -756,7 +1036,15 @@
                     fb: 'https://www.facebook.com/SebToutant',
                     inst: 'https://www.instagram.com/sebtoots/',
                     youtube: 'https://www.youtube.com/user/sebtoutant/about',
-                    video: 'https://www.youtube.com/embed/iC50vqQVB4Q'
+                    video: 'https://www.youtube.com/embed/iC50vqQVB4Q',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '92.45',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'sSmits': {
                     name: {
@@ -777,7 +1065,15 @@
                     fb: 'https://www.facebook.com/seppesmits',
                     inst: 'https://www.instagram.com/seppe.smits/',
                     youtube: 'https://www.youtube.com/channel/UCsB-UA97KRwpF-tdC2Vr6LA',
-                    video: 'https://www.youtube.com/embed/tES39s-LJsQ'
+                    video: 'https://www.youtube.com/embed/tES39s-LJsQ',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '27.60',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'tBergrem': {
                     name: {
@@ -798,7 +1094,15 @@
                     fb: 'https://www.facebook.com/Torgeirbergrem/',
                     inst: 'https://www.instagram.com/torgeirbergrem/?hl=en',
                     youtube: 'https://www.youtube.com/results?sp=EgIQAQ%253D%253D&q=Torgeir+Bergrem',
-                    video: 'https://www.youtube.com/embed/Xufl_l142dU'
+                    video: 'https://www.youtube.com/embed/Xufl_l142dU',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '25.16',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'tLundstrom': {
                     name: {
@@ -819,7 +1123,15 @@
                     fb: 'https://www.facebook.com/tor.lundstrom/?fref=ts',
                     inst: 'https://www.instagram.com/torlundstrom/?hl=en',
                     youtube: '',
-                    video: 'https://www.youtube.com/embed/5FMDigc3Uho'
+                    video: 'https://www.youtube.com/embed/5FMDigc3Uho',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '40.74',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
                 'yKadono': {
                     name: {
@@ -840,7 +1152,15 @@
                     fb: 'https://www.facebook.com/Yuki-Kadono-508672239221517/',
                     inst: 'https://www.instagram.com/yukikadono/?hl=ja',
                     youtube: 'https://www.youtube.com/channel/UCiHTsIAZiZwcB1kZxHqhgDA/feed',
-                    video: 'https://www.youtube.com/embed/aGFh3s-pHlE'
+                    video: 'https://www.youtube.com/embed/aGFh3s-pHlE',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: 'N/A',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
                 },
             },
                 Keys = Object.keys(riders),
