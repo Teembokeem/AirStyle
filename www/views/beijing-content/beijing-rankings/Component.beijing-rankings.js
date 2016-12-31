@@ -11,19 +11,30 @@ var _riders;
             controllerAs: 'cc'
         })
 
-    beijingRankingsCtrl.$inject = ['$log', '$stateParams', 'Riders'];
+    beijingRankingsCtrl.$inject = ['$log', '$state', '$stateParams', 'Riders'];
 
-    function beijingRankingsCtrl($log, $stateParams, Riders) {
+    function beijingRankingsCtrl($log, $state, $stateParams, Riders) {
         var cc = this;
+
+        cc.borderButtonHover = false;
+        cc.stateChange = stateChange;
+
+        function stateChange(state, val) {
+            val ? $state.go(state, { avatar: val }) : $state.go(state);
+        }
 
         cc.$onInit = function () {
             var riders = Riders('all');
-            var sortedRiders = riders.sort(function (a, b) {
+            var sortedRiders = riders.filter(function (rider) {
+                return rider.scores['2016'].beijing.score != 'N/A'
+            });
+            sortedRiders = sortedRiders.sort(function (a, b) {
                 return b.scores['2016'].beijing.score - a.scores['2016'].beijing.score
             });
 
+
             _riders = cc.riders;
-            cc.beijingRankingsList = sortedRiders[0, 2];
+            cc.beijingRankingsList = [sortedRiders[0], sortedRiders[1], sortedRiders[2]];
         }
     }
 })();
