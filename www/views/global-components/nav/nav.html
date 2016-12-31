@@ -2,13 +2,13 @@
 <div ng-class="{ 'nav-menu' : cc.darken }" class="as-nav row nopad">
     <!-- Logo -->
     <div ng-mouseenter="cc.logoHover = !cc.logoHover" ng-mouseleave="cc.logoHover = !cc.logoHover" class="logo nopad">
-        <a ui-sref="app.home">
+        <a ng-click="cc.stateChange('app.home')">
             <img src="../img/logo.png" alt="">
             <div ng-class="cc.venue.ref" class="line"></div>
         </a>
         <img ng-class="{'hover': cc.logoHover}" src="../img/back-hover.png" alt="">
     </div>
-    <div class="logo-text">
+    <div ng-if="cc.venue.ref" class="logo-text">
         {{cc.venue.title}} </br>
         {{cc.venue.date_semantic}}
     </div>
