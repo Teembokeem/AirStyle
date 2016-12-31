@@ -10,9 +10,9 @@
             controllerAs: 'cc'
         })
 
-    lineupCarouselCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', 'Carousel', '$stateParams'];
+    lineupCarouselCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', 'Carousel', '$stateParams', '$state'];
 
-    function lineupCarouselCtrl($log, $rootScope, $window, $scope, Carousel, $stateParams) {
+    function lineupCarouselCtrl($log, $rootScope, $window, $scope, Carousel, $stateParams, $state) {
         var cc = this;
 
         cc.go = go;
