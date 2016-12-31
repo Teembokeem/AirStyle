@@ -54,6 +54,7 @@ lineup-carousel {
                                             > span {
                                                 .blue-dot {
                                                     color: $as-blue;
+                                                    font-size: 2rem !important;
                                                 }
                                             }
                                         }
@@ -157,6 +158,10 @@ lineup-carousel {
                                                 border: solid 2px $as-blue;
                                                 background-color: transparent;
                                                 color: white;
+                                            }
+
+                                            button.disabled {
+                                                font-size: 14px;
                                             }
                                         }
                                     }
