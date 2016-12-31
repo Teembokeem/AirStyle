@@ -1,12 +1,53 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <rankings-athlete ng-repeat="athlete in cc.beijingRankingsList" athlete="athlete" index="$index" year="cc.currentYear"></rankings-athlete>
+            <div ng-repeat="athlete in cc.beijingRankingsList" class="container">
+                <div class="row nopad">
+                    <div class="col">
+                        <img ng-src="{{athlete.img_portrait}}" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="container">
+                            <div class="row nopad">
+                                <div class="col">
+                                    <span>0{{cc.index + 1}}</span>
+                                </div>
+                            </div>
+                            <div class="row nopad">
+                                <div class="col">
+                                    <span>{{athlete.name.first}}</span>
+                                    <span>{{athlete.name.last}}</span>
+                                </div>
+                            </div>
+                            <div class="row nopad">
+                                <div class="col">
+                                    <span>{{athlete.origin}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="container">
+                            <div class="row nopad">
+                                <div class="col">
+                                    <span>{{athlete.scores['2016'].beijing.score}}</span>
+                                </div>
+                            </div>
+                            <div class="row nopad">
+                                <div class="col">
+                                    <span>TOTAL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row more">
         <div class="col">
-            <button><span>Link Out</span></button>
+            <button ng-mouseover="cc.borderButtonHover = !cc.borderButtonHover" ng-mouseleave="cc.borderButtonHover  = !cc.borderButtonHover"
+                ng-class="{'border-button': cc.borderButtonHover}" ng-click="cc.stateChange('app.rider.all')">More Riders + Rankings</button>
         </div>
     </div>
 </div>
