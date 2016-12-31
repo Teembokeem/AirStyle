@@ -1,6 +1,6 @@
 <div class="container">
 	<div class="row">
-		<div class="col container schedule" ng-repeat="schedule in cc.scheduleContent" ng-click="cc.stateChange('app.tour-stops', cc.ref)">
+		<div class="col container schedule" ng-repeat="schedule in cc.scheduleContent" ng-click="cc.stateChange('app.tour-stops', schedule.ref)">
 			<div class="content">
 				<div class="title">
 					<span>{{schedule.title}}</span>

@@ -12,12 +12,13 @@
 
     homeScheduleCtrl.$inject = ['$log', '$state', 'Tours'];
 
-    function homeScheduleCtrl($log, $state,  Tours) {
+    function homeScheduleCtrl($log, $state, Tours) {
         var cc = this;
 
         cc.stateChange = stateChange;
 
         function stateChange(state, val) {
+            console.log("your val", val)
             $state.go(state, { tour: val });
         }
 
