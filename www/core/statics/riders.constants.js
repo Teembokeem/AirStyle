@@ -20,6 +20,11 @@
                     ],
                     ref: 'sThorgren',
                     img_portrait: 'img/loRiders/Sven-Thorgren.jpg',
+                    tweet: 'https://twitter.com/sventhorgren?lang=sv',
+                    fb: 'https://www.facebook.com/sven.thorgren',
+                    inst: 'https://www.instagram.com/sventhorgren/',
+                    youtube: 'https://www.youtube.com/channel/UCABshgGP243EXCx3oDP251w',
+                    video: 'https://www.youtube.com/embed/caxzNEeSzUQ'
                 },
                 'mParrot': {
                     name: {
@@ -27,7 +32,7 @@
                         last: 'Parrot'
                     },
                     nation: 'Canada',
-                    sponsors: [],
+                    sponsors: ['Nobaday Snowboards'],
                     homeBase: 'Bromont',
                     dob: new Date('06/06/1994'),
                     stance: 'Goofy',
@@ -36,6 +41,11 @@
                     ],
                     ref: 'mParrot',
                     img_portrait: 'img/loRiders/Max-Parrot.jpg',
+                    tweet: 'https://twitter.com/maxparrot',
+                    fb: 'https://www.facebook.com/MaxenceParrot/',
+                    inst: 'https://www.instagram.com/maxparrot/',
+                    youtube: 'https://www.youtube.com/channel/UC4vR3xW7XtQp-nnKbmG8oLg/feed',
+                    video: 'https://www.youtube.com/watch?v=z096RCS2IgM'
                 },
                 'sSandbech': {
                     name: {
@@ -52,6 +62,74 @@
                     ],
                     ref: 'sSandbech',
                     img_portrait: 'img/loRiders/Stale-Sandbech.jpg',
+                    tweet: 'https://twitter.com/stalesandbech',
+                    fb: 'https://www.facebook.com/stalesandbech/',
+                    inst: 'https://www.instagram.com/stalesandbech/',
+                    youtube: 'https://www.youtube.com/channel/UCO8tCaCIbmveFmeKL2DO0hw',
+                    video: 'https://www.youtube.com/embed/e4tEOuDXA7Y'
+                },
+                'aTruchon': {
+                    name: {
+                        first: 'Antoine',
+                        last: 'Truchon'
+                    },
+                    nation: 'Sweden',
+                    sponsors: ['YONEX', 'Absolut Park', 'Giro', 'Pop Headwear'],
+                    homeBase: 'Malung',
+                    dob: new Date('04/10/1994'),
+                    stance: 'Regular',
+                    bio: [
+                        'This young Swede is on the warpath, sporting a sick bag of tricks with bangers like cab 1440s and a bunch of Triple Corks. Sven has one of the smoothest styles out there and he stomps the biggest tricks like it ain’t no thang. Sven took home top honors at the Los Angeles Air+Style 2016 and snagged himself the Ring of Glory. Make some noise for the champ!'
+                    ],
+                    ref: 'aTruchon',
+                    img_portrait: 'img/loRiders/Antoine-Truchon.jpg',
+                    tweet: 'https://twitter.com/antoine_truchon',
+                    fb: 'https://www.facebook.com/TruchonAntoine/',
+                    inst: 'https://www.instagram.com/antoine_truchon/',
+                    youtube: 'https://www.youtube.com/embed/qLs0sfklQcs',
+                    video: 'https://www.youtube.com/embed/A6uokUtjZHM'
+                },
+                'bDavis': {
+                    name: {
+                        first: 'Brandon',
+                        last: 'Davis'
+                    },
+                    nation: 'Sweden',
+                    sponsors: [],
+                    homeBase: 'Malung',
+                    dob: new Date('04/10/1994'),
+                    stance: 'Regular',
+                    bio: [
+                        'This young Swede is on the warpath, sporting a sick bag of tricks with bangers like cab 1440s and a bunch of Triple Corks. Sven has one of the smoothest styles out there and he stomps the biggest tricks like it ain’t no thang. Sven took home top honors at the Los Angeles Air+Style 2016 and snagged himself the Ring of Glory. Make some noise for the champ!'
+                    ],
+                    ref: 'bDavis',
+                    img_portrait: 'img/loRiders/Brandon-Davis.jpg',
+                    tweet: '',
+                    fb: 'https://www.facebook.com/brandon.davis.5494?fref=ts',
+                    inst: 'https://www.instagram.com/brandonjdavis/?hl=en',
+                    youtube: '',
+                    video: 'https://www.youtube.com/embed/Sgu00dLNVS8'
+                },
+                'bMorgan': {
+                    name: {
+                        first: 'Billy',
+                        last: 'Morgan'
+                    },
+                    nation: 'Sweden',
+                    sponsors: ['Red Bull', 'No Fear'],
+                    homeBase: 'Malung',
+                    dob: new Date('04/10/1994'),
+                    stance: 'Regular',
+                    bio: [
+                        'This young Swede is on the warpath, sporting a sick bag of tricks with bangers like cab 1440s and a bunch of Triple Corks. Sven has one of the smoothest styles out there and he stomps the biggest tricks like it ain’t no thang. Sven took home top honors at the Los Angeles Air+Style 2016 and snagged himself the Ring of Glory. Make some noise for the champ!'
+                    ],
+                    ref: 'bMorgan',
+                    img_portrait: 'img/loRiders/Billy-Morgan.jpg',
+                    tweet: 'https://twitter.com/billymorgan89',
+                    fb: 'https://www.facebook.com/billymorgansnowboarder',
+                    inst: 'https://www.instagram.com/billymorgan89/',
+                    youtube: 'https://www.youtube.com/user/billymorganvideos/featured',
+                    video: 'https://www.youtube.com/embed/_MFNYVPESzA'
                 },
                 'bMouton': {
                     name: {
@@ -68,6 +146,11 @@
                     ],
                     ref: 'bMouton',
                     img_portrait: 'img/loRiders/Boris-Mouton.jpg',
+                    tweet: 'https://twitter.com/borismouton',
+                    fb: 'https://www.facebook.com/BorisMouton/',
+                    inst: 'https://www.instagram.com/borismouton/',
+                    youtube: 'https://www.youtube.com/channel/UCJLzCFVIOzYVjWhfWuNn_eQ',
+                    video: 'https://www.youtube.com/embed/ypcpdIT994g'
                 },
                 'cGuldemond': {
                     name: {
@@ -75,7 +158,7 @@
                         last: 'Guldemond'
                     },
                     nation: 'USA',
-                    sponsors: ['BAGA Outerwear', 'Rockstar', 'Paul Mitchell'],
+                    sponsors: ['BAGA Outerwear', 'Under Armour', 'Electric', 'Rockstar', 'Paul Mitchell'],
                     homeBase: 'Reno',
                     dob: new Date('04/22/1987'),
                     stance: 'Goofy',
@@ -84,6 +167,11 @@
                     ],
                     ref: 'cGuldemond',
                     img_portrait: 'img/loRiders/Chas-Guldemond.jpg',
+                    tweet: 'https://twitter.com/chasguldemond',
+                    fb: 'https://www.facebook.com/ChuckG.tv/',
+                    inst: 'https://www.instagram.com/chasguldemond/',
+                    youtube: 'https://www.youtube.com/user/USSANetwork/about',
+                    video: 'https://www.youtube.com/embed/K9NdQxzEQ4M'
                 },
                 'cMillauer': {
                     name: {
@@ -100,6 +188,11 @@
                     ],
                     ref: 'cMillauer',
                     img_portrait: 'img/loRiders/Clemens-Millauer.jpg',
+                    tweet: 'https://twitter.com/hashtag/clemensmillauer?src=hash',
+                    fb: 'https://www.facebook.com/clemensmillauer/',
+                    inst: 'https://www.instagram.com/clemensmillauer/',
+                    youtube: 'https://www.youtube.com/user/Clemensgopro',
+                    video: 'https://www.youtube.com/embed/JDVl_QOXcfc'
                 },
                 'dSharpe': {
                     name: {
@@ -116,6 +209,11 @@
                     ],
                     ref: 'dSharpe',
                     img_portrait: 'img/loRiders/Darcy-Sharpe.jpg',
+                    tweet: 'https://twitter.com/darcy_sharpe',
+                    fb: 'https://www.facebook.com/darcysharpegetsit/',
+                    inst: 'https://www.instagram.com/darcysharpe/?hl=en',
+                    youtube: 'https://www.youtube.com/user/ShredbotsOFFICIAL/featured',
+                    video: 'https://www.youtube.com/watch?v=fbaMT0906ls'
                 },
                 'eBeauchemin': {
                     name: {
@@ -123,7 +221,7 @@
                         last: 'Beauchemin'
                     },
                     nation: 'USA',
-                    sponsors: [],
+                    sponsors: ['Omatic'],
                     homeBase: 'Lake Winola, PA',
                     dob: new Date('01/14/1991'),
                     stance: 'Goofy',
@@ -132,6 +230,52 @@
                     ],
                     ref: 'eBeauchemin',
                     img_portrait: 'img/loRiders/Eric-Beauchemin.jpg',
+                    tweet: 'https://twitter.com/eric_beauchemin',
+                    fb: 'https://www.facebook.com/eric.beauchemin',
+                    inst: 'https://www.instagram.com/eric_beauchemin/',
+                    youtube: 'https://www.youtube.com/embed/pSjILoz9mJA',
+                    video: 'https://www.youtube.com/embed/HO3I2k-hD2U'
+                },
+                'eWillett': {
+                    name: {
+                        first: 'Eric',
+                        last: 'Willett'
+                    },
+                    nation: 'USA',
+                    sponsors: ['GoPro', 'Giro', 'Vans'],
+                    homeBase: 'Lake Winola, PA',
+                    dob: new Date('01/14/1991'),
+                    stance: 'Goofy',
+                    bio: [
+                        'Eric what? Eric who? Eric Bauchemin. There’s no other way to say it—Eric is a genuine American ripper hailing from Michigan. A graduate of the Stratton Mountain School—the best and most prestigious snowboard school in America—Eric loves competitions, kills kickers and rocks rails. He’s one to keep your eye on at Air+Style.'
+                    ],
+                    ref: 'eWillett',
+                    img_portrait: 'img/loRiders/Eric-Willett.jpg',
+                    tweet: 'https://twitter.com/ericwillett1',
+                    fb: 'https://www.facebook.com/ericwillettofficial/',
+                    inst: 'https://www.instagram.com/eric_willett/?hl=en',
+                    youtube: 'https://www.youtube.com/embed/tZ1cL6eSOhs',
+                    video: 'https://www.youtube.com/embed/a-mX7esr1i4'
+                },
+                'hWei': {
+                    name: {
+                        first: 'He',
+                        last: 'Wei'
+                    },
+                    nation: '',
+                    sponsors: ['Burton', 'Red Bull'],
+                    homeBase: '',
+                    dob: new Date('04/05/1995'),
+                    stance: '',
+                    bio: [
+                    ],
+                    ref: 'hWei',
+                    img_portrait: 'img/loRiders/He-Wei.jpg',
+                    tweet: '',
+                    fb: '',
+                    inst: '',
+                    youtube: 'https://www.youtube.com/user/xiaohu800426',
+                    video: 'https://www.youtube.com/embed/4PWqxDoNYy8'
                 },
                 'jB\xF6siger': {
                     name: {
@@ -139,7 +283,7 @@
                         last: 'B\xF6siger'
                     },
                     nation: 'Switzerland',
-                    sponsors: ['DC', 'Smith', 'Union'],
+                    sponsors: ['DC', 'Level', 'Smith', 'Union'],
                     homeBase: 'Rickenbach, Switzerland',
                     dob: new Date('04/05/1995'),
                     stance: 'Regular',
@@ -147,7 +291,52 @@
                         'Jonas B\xF6siger is a super-talented young snowboarder from Switzerland. He’s been working hard and stomping it hard, while making it look easy for the past few seasons. Keep your eyes peeled for some dizzying Triple Cork variations and other massive spins. We are looking forward to have him back at Air+Style. It’s gonna be a good show guaranteed!'
                     ],
                     ref: 'jB\xF6siger',
-                    img_portrait: 'img/loRiders/Jonas-Bosiger.jpg',
+                    img_portrait: 'img/loRiders/Jonas-Boesiger.jpg',
+                    tweet: 'https://twitter.com/search?f=tweets&vertical=default&q=%23jonasboesiger&src=typd',
+                    fb: 'https://www.facebook.com/jonasboesiger',
+                    inst: 'https://www.instagram.com/jonasboesiger/',
+                    youtube: 'https://www.youtube.com/channel/UCnCphtM477DFoabIUeCJLuQ',
+                    video: 'https://www.youtube.com/embed/YdiqXB-r1mc'
+                },
+                'jYin': {
+                    name: {
+                        first: 'Junze',
+                        last: 'Yin'
+                    },
+                    nation: '',
+                    sponsors: [],
+                    homeBase: '',
+                    dob: new Date('04/05/1995'),
+                    stance: '',
+                    bio: [
+                    ],
+                    ref: 'jYin',
+                    img_portrait: 'img/loRiders/Junze-Yin.jpg',
+                    tweet: 'https://twitter.com/JunzeYin',
+                    fb: 'https://www.facebook.com/junzeyin?ref=br_rs',
+                    inst: 'https://www.instagram.com/junzeyin/?hl=en',
+                    youtube: '',
+                    video: ''
+                },
+                'jhZhang': {
+                    name: {
+                        first: 'Jia Hao',
+                        last: 'Zhang'
+                    },
+                    nation: '',
+                    sponsors: [],
+                    homeBase: '',
+                    dob: new Date('04/05/1995'),
+                    stance: '',
+                    bio: [
+                    ],
+                    ref: 'jhZhang',
+                    img_portrait: 'img/loRiders/Jia-Hao-Zhang.jpg',
+                    tweet: '',
+                    fb: '',
+                    inst: '',
+                    youtube: '',
+                    video: ''
                 },
                 'kJ\xE4rvilehto': {
                     name: {
@@ -155,7 +344,7 @@
                         last: 'J\xE4rvilehto'
                     },
                     nation: 'Switzerland',
-                    sponsors: ['Iso-sy\xF6te', 'Snowpark'],
+                    sponsors: ['Iso-sy\xF6te Snowpark'],
                     homeBase: 'Rickenbach, Switzerland',
                     dob: new Date('07/21/1995'),
                     stance: 'Regular',
@@ -163,7 +352,12 @@
                         'Kalle J\xE4rvilehto is the full package: highly technical and steezy as hell. Kalle is known for flawless execution of tough tricks and effortless landings. Hold your breath, Kalle is going to put on a show!'
                     ],
                     ref: 'kJ\xE4rvilehto',
-                    img_portrait: 'img/loRiders/Kalle-Jarvilehto.jpg',
+                    img_portrait: 'img/loRiders/Kalle-Jaervilehto.jpg',
+                    tweet: 'http://webgram.co/kallejarvilehto',
+                    fb: 'https://www.facebook.com/kallejarvilehtofficial/',
+                    inst: 'https://www.instagram.com/kallejarvilehto/',
+                    youtube: 'https://www.youtube.com/user/Skubbeli/videos',
+                    video: 'https://www.youtube.com/embed/TWE_xTXg12Y'
                 },
                 'kInamura': {
                     name: {
@@ -180,6 +374,11 @@
                     ],
                     ref: 'kInamura',
                     img_portrait: 'img/loRiders/Keita-Inamura.jpg',
+                    tweet: 'https://twitter.com/keita_imamura',
+                    fb: 'https://www.facebook.com/keita.inamura.5',
+                    inst: 'https://www.instagram.com/keitainamura/?hl=en',
+                    youtube: 'https://www.youtube.com/embed/ri4UDdEElMY',
+                    video: 'https://www.youtube.com/embed/LB4S1RE6Hjg'
                 },
                 'kMack': {
                     name: {
@@ -196,6 +395,11 @@
                     ],
                     ref: 'kMack',
                     img_portrait: 'img/loRiders/Kyle-Mack.jpg',
+                    tweet: 'https://twitter.com/_kylemack',
+                    fb: 'https://www.facebook.com/KyleMackSnowboarding',
+                    inst: 'https://www.instagram.com/_kylemack/',
+                    youtube: 'https://www.youtube.com/channel/UCHITW5rdn2Xu0CZf0tVUzEg/about',
+                    video: 'https://www.youtube.com/embed/iAVziG6GNTg'
                 },
                 'lKoch': {
                     name: {
@@ -212,6 +416,11 @@
                     ],
                     ref: 'lKoch',
                     img_portrait: 'img/loRiders/Lucien-Koch.jpg',
+                    tweet: 'https://twitter.com/pzwsak',
+                    fb: 'https://www.facebook.com/Lucien-Koch-161059404044433/',
+                    inst: 'https://www.instagram.com/lucienkoch/?hl=en',
+                    youtube: 'https://www.youtube.com/user/stickydude96/feed',
+                    video: 'https://www.youtube.com/results?search_query=Lucien+Koch'
                 },
                 'mKleveland': {
                     name: {
@@ -228,6 +437,53 @@
                     ],
                     ref: 'mKleveland',
                     img_portrait: 'img/loRiders/Marcus-Kleveland.jpg',
+                    tweet: 'https://twitter.com/MarcusKleveland',
+                    fb: 'https://www.facebook.com/MarcusKleveland/',
+                    inst: 'https://www.instagram.com/marcuskleveland/?hl=en',
+                    youtube: 'https://www.youtube.com/user/goodwintertimes',
+                    video: 'https://www.youtube.com/embed/uBzKCKMHaEw'
+                },
+                'mHedberg': {
+                    name: {
+                        first: 'Måns',
+                        last: 'Hedberg'
+                    },
+                    nation: 'Norway',
+                    sponsors: [],
+                    homeBase: 'Dombas',
+                    dob: new Date('04/25/1999'),
+                    stance: 'Goofy',
+                    bio: [
+                        'Marcus Kleveland is one of the young guns to watch. Dude started pulling 1260s at 12 years old and has kept right on ruling it. A year later he landed a Backside Triple Cork 1440 Mute. Marcus is still far from a finished product, with the potential to push the limits of snowboarding. He rode away from a Quad Cork 1800. He won the whole enchilada at Air+Style Beijing with jaw dropping tricks such as a Cab Triple 1620. Pure insanity!'
+                    ],
+                    ref: 'mHedberg',
+                    img_portrait: 'img/loRiders/Måns-Hedberg.jpg',
+                    tweet: '',
+                    fb: 'https://www.facebook.com/mans.hedberg2/',
+                    inst: 'https://www.instagram.com/hedbergmans/',
+                    youtube: 'https://www.youtube.com/user/manshedbergg',
+                    video: 'https://www.youtube.com/embed/S1357vJiNK0'
+                },
+                'mMcMorris': {
+                    name: {
+                        first: 'Mark',
+                        last: 'McMorris'
+                    },
+                    nation: 'Norway',
+                    sponsors: ['Oakley', "Burton", 'Red Bull'],
+                    homeBase: 'Dombas',
+                    dob: new Date('04/25/1999'),
+                    stance: 'Goofy',
+                    bio: [
+                        'Marcus Kleveland is one of the young guns to watch. Dude started pulling 1260s at 12 years old and has kept right on ruling it. A year later he landed a Backside Triple Cork 1440 Mute. Marcus is still far from a finished product, with the potential to push the limits of snowboarding. He rode away from a Quad Cork 1800. He won the whole enchilada at Air+Style Beijing with jaw dropping tricks such as a Cab Triple 1620. Pure insanity!'
+                    ],
+                    ref: 'mMcMorris',
+                    img_portrait: 'img/loRiders/Mark-McMorris.jpg',
+                    tweet: 'https://twitter.com/markmcmorris',
+                    fb: 'https://www.facebook.com/markleemcmorris/',
+                    inst: 'https://www.instagram.com/maximumgames/',
+                    youtube: 'https://www.youtube.com/user/MaximumFamilyGames/about',
+                    video: 'https://www.youtube.com/embed/lhFxx_CJ9h4'
                 },
                 'mCiccarelli': {
                     name: {
@@ -235,7 +491,7 @@
                         last: 'Ciccarelli'
                     },
                     nation: 'Canada',
-                    sponsors: ['Burton', "Anon"],
+                    sponsors: ['Burton', "Anon", 'Monster'],
                     homeBase: 'Ontario',
                     dob: new Date('09/04/1996'),
                     stance: 'Goofy',
@@ -244,6 +500,53 @@
                     ],
                     ref: 'mCiccarelli',
                     img_portrait: 'img/loRiders/Michael-Ciccarelli.jpg',
+                    tweet: 'https://twitter.com/mikeyciccarelli',
+                    fb: 'https://www.facebook.com/MikeyJCiccarelli/',
+                    inst: 'https://www.instagram.com/mikeyciccarelli/',
+                    youtube: 'https://www.youtube.com/channel/UCOIY95WW3gJw3qGAhrNGtQA',
+                    video: 'https://www.youtube.com/embed/MNAjd23f24Y'
+                },
+                'mPreissinger': {
+                    name: {
+                        first: 'Maximilian',
+                        last: 'Preissinger'
+                    },
+                    nation: 'Canada',
+                    sponsors: ['Vans', "Absolut Park", 'Electric', 'Planet Sports', 'Ride Snowboards'],
+                    homeBase: 'Ontario',
+                    dob: new Date('09/04/1996'),
+                    stance: 'Goofy',
+                    bio: [
+                        'Notorious for his extremely smooth style and technical bangers, Mikey Ciccarelli is a strong talent coming up from Ontario, Canada, doing the hard stuff and making it look too easy. Keep your eyes on him.'
+                    ],
+                    ref: 'mPreissinger',
+                    img_portrait: 'img/loRiders/Maximilian-Preissinger.jpg',
+                    tweet: 'https://twitter.com/hashtag/MaximilianPreissinger?src=hash',
+                    fb: 'https://www.facebook.com/maximilian.preissinger',
+                    inst: 'https://www.instagram.com/maximilianpreissinger/?hl=en',
+                    youtube: 'https://www.youtube.com/user/Itsmaxilp',
+                    video: 'https://youtube.com/embed/UBtAdDhwaC0'
+                },
+                'mRøisland': {
+                    name: {
+                        first: 'Mons',
+                        last: 'Røisland'
+                    },
+                    nation: 'Canada',
+                    sponsors: ['DC', "Sweet Protection"],
+                    homeBase: 'Ontario',
+                    dob: new Date('09/04/1996'),
+                    stance: 'Goofy',
+                    bio: [
+                        'Notorious for his extremely smooth style and technical bangers, Mikey Ciccarelli is a strong talent coming up from Ontario, Canada, doing the hard stuff and making it look too easy. Keep your eyes on him.'
+                    ],
+                    ref: 'mRøisland',
+                    img_portrait: 'img/loRiders/Mons-Røisland.jpg',
+                    tweet: 'https://twitter.com/monsroisland',
+                    fb: 'https://www.facebook.com/mons.roisland',
+                    inst: 'https://www.instagram.com/monsroisland/?hl=en',
+                    youtube: 'https://www.youtube.com/channel/UCkpTd7h2Mn2P_QpjZHj8A6w',
+                    video: 'https://www.youtube.com/embed/hhJQ_uq2NFU'
                 },
                 'mSch\xE4rer': {
                     name: {
@@ -258,8 +561,55 @@
                     bio: [
                         'Forget chocolate and heirloom timepieces, Switzerland’s new big export is exceptional snowboard talent. Michael is a masterpiece of the Swiss Snowboard Federation. He’s got some major heavy artillery in his repertoire, like the Switch Backside 1620 and other bangers. Michael is going to celebrate his Air+Style debut this season. Good luck, buddy!  '
                     ],
-                    ref: 'mSh\xE4rer',
-                    img_portrait: 'img/loRiders/Michael-Scharer.jpg',
+                    ref: 'mSch\xE4rer',
+                    img_portrait: 'img/loRiders/Michael-Schaerer.jpg',
+                    tweet: 'https://twitter.com/michaelscherer',
+                    fb: 'https://www.facebook.com/michael.scharer.58',
+                    inst: 'https://www.instagram.com/michael_schaerer17/',
+                    youtube: 'https://www.youtube.com/embed/V7uQyml9oic',
+                    video: ''
+                },
+                'mThoenen': {
+                    name: {
+                        first: 'Moritz',
+                        last: 'Thoenen'
+                    },
+                    nation: 'Switzerland',
+                    sponsors: [],
+                    homeBase: 'Spiez',
+                    dob: new Date('12/23/1996'),
+                    stance: 'Regular',
+                    bio: [
+                        'Forget chocolate and heirloom timepieces, Switzerland’s new big export is exceptional snowboard talent. Michael is a masterpiece of the Swiss Snowboard Federation. He’s got some major heavy artillery in his repertoire, like the Switch Backside 1620 and other bangers. Michael is going to celebrate his Air+Style debut this season. Good luck, buddy!  '
+                    ],
+                    ref: 'mThoenen',
+                    img_portrait: 'img/loRiders/Moritz-Thoenen.jpg',
+                    tweet: 'https://twitter.com/hashtag/MoritzThoenen?src=hash',
+                    fb: 'https://www.facebook.com/moritzthoenen/',
+                    inst: 'https://www.instagram.com/moritzthoenen/',
+                    youtube: 'https://www.youtube.com/user/Preiselbersauce',
+                    video: 'https://www.youtube.com/embed/cKaMYH17fqA'
+                },
+                'nBaden': {
+                    name: {
+                        first: 'Nikolas',
+                        last: 'Baden'
+                    },
+                    nation: 'Italia',
+                    sponsors: ['Adidas Eyewear', 'Steamboat Ski Resort'],
+                    homeBase: 'Caspoggio',
+                    dob: new Date('11/23/1993'),
+                    stance: 'Goofy',
+                    bio: [
+                        'Nicola Diola is an Italian ripper coming out of the province of Lombardy, an area renowned more often for its simple and delicious dishes than for producing killer snowboard talents. Nonetheless, Nicola is an incredibly good rider and has forever changed the snowboard landscape in Italy. He’s the first Italian snowboarder to land a Triple Cork—a trick he seems to know well enough to pull one off in his sleep. Nicola, welcome to Air+Style!'
+                    ],
+                    ref: 'nBaden',
+                    img_portrait: 'img/loRiders/Nikolas-Baden.jpg',
+                    tweet: 'https://twitter.com/nikbaden',
+                    fb: 'https://www.facebook.com/nik.baden',
+                    inst: 'https://www.instagram.com/nikbaden/',
+                    youtube: 'https://www.youtube.com/user/nickbaden1',
+                    video: 'https://youtube.com/embed/Y2jgFlbIST8'
                 },
                 'nDioli': {
                     name: {
@@ -267,7 +617,7 @@
                         last: 'Dioli'
                     },
                     nation: 'Italia',
-                    sponsors: ['Union', 'Dragon', 'Seiser Alm'],
+                    sponsors: ['Union', 'Dragon', 'Seiser Alm', 'Funky'],
                     homeBase: 'Caspoggio',
                     dob: new Date('11/23/1993'),
                     stance: 'Goofy',
@@ -276,6 +626,11 @@
                     ],
                     ref: 'nDioli',
                     img_portrait: 'img/loRiders/Nicola-Dioli.jpg',
+                    tweet: 'https://twitter.com/niqoo_dioli',
+                    fb: 'https://www.facebook.com/nicola.dioli',
+                    inst: 'https://www.instagram.com/nicolinoo93/',
+                    youtube: 'https://www.youtube.com/channel/UCj7a7DokEyQgiJ8gOEXDoOg',
+                    video: 'https://www.youtube.com/embed/Bqqj9jvttxk'
                 },
                 'pKundratitz': {
                     name: {
@@ -292,6 +647,11 @@
                     ],
                     ref: 'pKundratitz',
                     img_portrait: 'img/loRiders/Phillip-Kundratitz.jpg',
+                    tweet: 'https://twitter.com/pkundratitz',
+                    fb: 'https://www.facebook.com/pkundratitz/',
+                    inst: 'https://www.instagram.com/philippkundratitz/?hl=en',
+                    youtube: 'https://www.youtube.com/user/phkundi/featured',
+                    video: 'https://www.youtube.com/embed/eaubnFoblUE'
                 },
                 'rTonteri': {
                     name: {
@@ -308,6 +668,11 @@
                     ],
                     ref: 'rTonteri',
                     img_portrait: 'img/loRiders/Roope-Tonteri.jpg',
+                    tweet: 'https://twitter.com/roopetonteri',
+                    fb: 'https://www.facebook.com/roopetonteri',
+                    inst: 'https://www.instagram.com/roopetonteri/?hl=en',
+                    youtube: 'https://www.youtube.com/user/MRoope1/featured',
+                    video: 'https://www.youtube.com/embed/ADtHfgj0qqM'
                 },
                 'rStassel': {
                     name: {
@@ -324,6 +689,11 @@
                     ],
                     ref: 'rStassel',
                     img_portrait: 'img/loRiders/Roope-Stassel.jpg',
+                    tweet: 'https://twitter.com/ryanstassel',
+                    fb: 'https://www.facebook.com/RyanStassel',
+                    inst: 'https://www.instagram.com/ryanstassel/',
+                    youtube: 'https://www.youtube.com/channel/UCVwfOQ-VEPBIs3lFbT_SVYA',
+                    video: 'https://www.youtube.com/embed/8d20BDGTP4o'
                 },
                 'sKonijnenberg': {
                     name: {
@@ -340,6 +710,11 @@
                     ],
                     ref: 'sKonijnenberg',
                     img_portrait: 'img/loRiders/Sebastien-Konijnenberg.jpg',
+                    tweet: 'https://twitter.com/search?q=Sebastien%20Konijnenberg&src=typd',
+                    fb: 'https://www.facebook.com/seb.konijn',
+                    inst: 'https://www.instagram.com/sebkonijnenberg/',
+                    youtube: 'https://www.youtube.com/channel/UCZRJLAArf5Ox7d7FlY8NG0g',
+                    video: 'https://www.youtube.com/embed/C6rQC9m3NgE'
                 },
                 'sDeBuck': {
                     name: {
@@ -356,6 +731,11 @@
                     ],
                     ref: 'sDeBuck',
                     img_portrait: 'img/loRiders/Sebbe-DeBuck.jpg',
+                    tweet: 'https://twitter.com/sebbedebuck',
+                    fb: 'https://www.facebook.com/sebbedebuckfanpage/',
+                    inst: 'https://www.instagram.com/sebbedebuck/?hl=en',
+                    youtube: 'https://www.youtube.com/user/SBESmag',
+                    video: 'https://www.youtube.com/embed/1w3Yctj9cpQ'
                 },
                 'sToutant': {
                     name: {
@@ -363,7 +743,7 @@
                         last: 'Toutant'
                     },
                     nation: 'Canada',
-                    sponsors: ["O'Neill", 'Red Bull', 'Oakley'],
+                    sponsors: ["O'Neill", 'Red Bull', 'Oakley', 'Giro'],
                     homeBase: 'Montreal',
                     dob: new Date('11/09/1992'),
                     stance: 'Goofy',
@@ -372,6 +752,11 @@
                     ],
                     ref: 'sToutant',
                     img_portrait: 'img/loRiders/Sebastien-Toutant.jpg',
+                    tweet: 'https://twitter.com/sebtoots',
+                    fb: 'https://www.facebook.com/SebToutant',
+                    inst: 'https://www.instagram.com/sebtoots/',
+                    youtube: 'https://www.youtube.com/user/sebtoutant/about',
+                    video: 'https://www.youtube.com/embed/iC50vqQVB4Q'
                 },
                 'sSmits': {
                     name: {
@@ -388,22 +773,11 @@
                     ],
                     ref: 'sSmits',
                     img_portrait: 'img/loRiders/Seppe-Smits.jpg',
-                },
-                'sSmits': {
-                    name: {
-                        first: 'Seppe',
-                        last: 'Smits'
-                    },
-                    nation: 'Belgium',
-                    sponsors: ['Red Bull', 'Absolut Park'],
-                    homeBase: 'Westmalle',
-                    dob: new Date('07/13/1991'),
-                    stance: 'Goofy',
-                    bio: [
-                        'Seppe is constantly killing it, no wonder he has been crowned WST Big Air champion in 2012. Seppe has been on the podium at Air+Style a bunch of times, but he has not yet managed to take the top spot. Seppe has what it takes to change that this time out. This friendly Belgian has one of the cleanest styles, he’s super consistent, and he is throwing down the most difficult tricks like it’s nothin’ at all. Always good to see Seppe at Air+Style!'
-                    ],
-                    ref: 'sSmits',
-                    img_portrait: 'img/loRiders/Seppe-Smits.jpg',
+                    tweet: 'https://twitter.com/seppesmits',
+                    fb: 'https://www.facebook.com/seppesmits',
+                    inst: 'https://www.instagram.com/seppe.smits/',
+                    youtube: 'https://www.youtube.com/channel/UCsB-UA97KRwpF-tdC2Vr6LA',
+                    video: 'https://www.youtube.com/embed/tES39s-LJsQ'
                 },
                 'tBergrem': {
                     name: {
@@ -420,6 +794,32 @@
                     ],
                     ref: 'tBergrem',
                     img_portrait: 'img/loRiders/Torgeir-Bergrem.jpg',
+                    tweet: 'https://twitter.com/search?q=Torgeir%20Bergrem&src=typd',
+                    fb: 'https://www.facebook.com/Torgeirbergrem/',
+                    inst: 'https://www.instagram.com/torgeirbergrem/?hl=en',
+                    youtube: 'https://www.youtube.com/results?sp=EgIQAQ%253D%253D&q=Torgeir+Bergrem',
+                    video: 'https://www.youtube.com/embed/Xufl_l142dU'
+                },
+                'tLundstrom': {
+                    name: {
+                        first: 'Tor',
+                        last: 'Lundstrom'
+                    },
+                    nation: 'Norway',
+                    sponsors: ['Bataleon', 'Von Zipper', '686', 'Monster'],
+                    homeBase: 'Kl\xE6bu, Trondheim',
+                    dob: new Date('09/20/1991'),
+                    stance: 'Goofy',
+                    bio: [
+                        'Mr. Bergrem is an absolute all-round talent. Whether it’s a kinked rail or a massive powder jump, he slays everything. You gotta love a dude that is down for anything and has the skills to kill it. This 25 year old Norwegian has already ridden several times at Air+Style. He not only shines with highly technical tricks but also with a rad style. Triple 1620s, how sick is that?!'
+                    ],
+                    ref: 'tLundstrom',
+                    img_portrait: 'img/loRiders/Tor-Lundstrom.jpg',
+                    tweet: '',
+                    fb: 'https://www.facebook.com/tor.lundstrom/?fref=ts',
+                    inst: 'https://www.instagram.com/torlundstrom/?hl=en',
+                    youtube: '',
+                    video: 'https://www.youtube.com/embed/5FMDigc3Uho'
                 },
                 'yKadono': {
                     name: {
@@ -427,7 +827,7 @@
                         last: 'Kadono'
                     },
                     nation: 'Japan',
-                    sponsors: ['Oakley', 'Ride'],
+                    sponsors: ['Oakley', 'Ride', 'Red Bull'],
                     homeBase: 'Kyougo',
                     dob: new Date('05/18/1996'),
                     stance: 'Regular',
@@ -436,6 +836,11 @@
                     ],
                     ref: 'yKadono',
                     img_portrait: 'img/loRiders/Yuki-Kadono.jpg',
+                    tweet: 'https://twitter.com/yukikadono',
+                    fb: 'https://www.facebook.com/Yuki-Kadono-508672239221517/',
+                    inst: 'https://www.instagram.com/yukikadono/?hl=ja',
+                    youtube: 'https://www.youtube.com/channel/UCiHTsIAZiZwcB1kZxHqhgDA/feed',
+                    video: 'https://www.youtube.com/embed/aGFh3s-pHlE'
                 },
             },
                 Keys = Object.keys(riders),

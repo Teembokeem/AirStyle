@@ -1,9 +1,9 @@
-(function() {
+(function () {
     'use strict';
 
     angular
         .module('Statics')
-        .constant('Artists', function(inputArg) {
+        .constant('Artists', function (inputArg) {
             var artists = {
                 'la': {
                     'major-lazer': {
@@ -11,255 +11,365 @@
                         img_portrait: '../img/artists/portrait/MajorLazer_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/MajorLazer_Landscape.jpg',
                         ref: 'major-lazer',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/MAJORLAZER/',
+                        fb: 'https://www.facebook.com/majorlazer/',
+                        inst: 'https://www.instagram.com/majorlazer/',
+                        youtube: 'https://www.youtube.com/user/majorlazer/',
+                        website: 'http://majorlazer.com/',
+                        spotify: 'https://open.spotify.com/artist/738wLrAtLtCtFOLvQBXOXp/',
+                        video: 'https://www.youtube.com/embed/YqeW9_5kURI'
+                    },
+                    'flume': {
+                        name: 'Flume',
+                        img_portrait: '../img/artists/portrait/Flume_Portrait.jpg',
+                        img_landscape: '../img/artists/landscape/Flume_Landscape.jpg',
+                        ref: 'flume',
+                        location: 'indoor stage',
+                        time: 'fri 3 1:30pm',
+                        info: [
+                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                        ],
+                        tweet: 'https://twitter.com/flumemusic',
+                        fb: 'https://www.facebook.com/flumemusic',
+                        inst: 'https://www.instagram.com/flumemusic',
+                        youtube: 'https://www.youtube.com/user/FlumeAUS',
+                        website: 'https://flumemusic.com/',
+                        spotify: 'https://open.spotify.com/artist/6nxWCVXbOlEVRexSbLsTer',
+                        video: 'https://www.youtube.com/embed/-KPnyf8vwXI'
                     },
                     'zhu': {
                         name: 'ZHU',
                         img_portrait: '../img/artists/portrait/ZHU_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/ZHU_Landscape.jpg',
                         ref: 'zhu',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/ZHUmusic',
+                        fb: 'https://www.facebook.com/zhu/',
+                        inst: 'https://www.instagram.com/zhu/',
+                        youtube: 'https://www.youtube.com/user/ZHUVEVO',
+                        website: 'https://soundcloud.com/zhu',
+                        spotify: 'https://open.spotify.com/artist/28j8lBWDdDSHSSt5oPlsX2',
+                        video: 'https://www.youtube.com/embed/5_ARibfCMhw'
                     },
                     'chromeo': {
                         name: 'Chromeo',
                         img_portrait: '../img/artists/portrait/Chromeo_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Chromeo_Landscape.jpg',
                         ref: 'chromeo',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/chromeo',
+                        fb: 'https://www.facebook.com/chromeo',
+                        inst: 'https://www.instagram.com/chromeo',
+                        youtube: 'https://www.youtube.com/user/chromeo',
+                        website: 'http://chromeo.net/',
+                        spotify: 'https://open.spotify.com/artist/2mV8aJphiSHYJf43DxL7Gt',
+                        video: 'https://www.youtube.com/embed/RhmUnk454MA'
                     },
                     'atmosphere': {
                         name: 'Atmosphere',
                         img_portrait: '../img/artists/portrait/Atmosphere_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Atmosphere_Landscape.jpg',
                         ref: 'atmosphere',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/atmosphere',
+                        fb: 'https://www.facebook.com/Atmosphere/',
+                        inst: 'https://www.instagram.com/atmosphere/',
+                        youtube: 'https://www.youtube.com/user/TheRealRhymesayers/playlists',
+                        website: 'http://rhymesayers.com/atmosphere/',
+                        spotify: 'https://open.spotify.com/artist/1GAS0rb4L8VTPvizAx2O9J',
+                        video: 'https://www.youtube.com/embed/AckhnLpwceM'
                     },
                     'yg': {
                         name: 'YG',
                         img_portrait: '../img/artists/portrait/YG_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/YG_Landscape.jpg',
                         ref: 'yg',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/YG',
+                        fb: 'https://www.facebook.com/YG400',
+                        inst: 'https://www.instagram.com/YG',
+                        youtube: 'https://www.youtube.com/user/YGVEVO',
+                        website: 'http://4hunnid.com/',
+                        spotify: 'https://open.spotify.com/artist/0A0FS04o6zMoto8OKPsDwY',
+                        video: 'https://youtube.com/embed/zsFV-R1ypwA'
                     },
                     'tv-on-the-radio': {
                         name: 'TV On The Radio',
                         img_portrait: '../img/artists/portrait/TVOnTheRadio_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/TVOnTheRadio_Landscape.jpg',
                         ref: 'tv-on-the-radio',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/tvontheradio',
+                        fb: 'https://www.facebook.com/TvOnTheRadio',
+                        inst: 'https://www.instagram.com/tvontheradio/',
+                        youtube: 'https://www.youtube.com/user/TVOnTheRadioVEVO',
+                        website: 'http://www.tvontheradio.com/',
+                        spotify: 'https://open.spotify.com/artist/3HJIB8sYPyxrFGuwvKXSLR',
+                        video: 'https://youtube.com/embed/OaKVy-FlaUA'
                     },
                     'vince-staples': {
                         name: 'Vince Staples',
                         img_portrait: '../img/artists/portrait/VinceStaples_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/VinceStaples_Landscape.jpg',
                         ref: 'vince-staples',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/vincestaples',
+                        fb: 'https://www.facebook.com/vincestaples/',
+                        inst: 'https://www.instagram.com/vincestaples/',
+                        youtube: 'https://www.youtube.com/user/VinceStaplesVEVO',
+                        website: 'http://www.vincestaples.com/',
+                        spotify: 'https://open.spotify.com/artist/68kEuyFKyqrdQQLLsmiatm',
+                        video: 'https://www.youtube.com/embed/mb6Jc4juSF8'
                     },
                     'russ': {
                         name: 'Russ',
                         img_portrait: '../img/artists/portrait/Russ_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Russ_Landscape.jpg',
                         ref: 'russ',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/russdiemon',
+                        fb: 'https://www.facebook.com/russtheone',
+                        inst: 'https://www.instagram.com/russdiemon',
+                        youtube: 'https://www.youtube.com/channel/UCMC0rHAZ0KnayeGkSfRbVtg',
+                        website: 'http://www.diemon.com/',
+                        spotify: 'https://open.spotify.com/artist/1z7b1Pr1rSlvWRzsW3HOrS',
+                        video: 'https://www.youtube.com/embed/oorK4RPgZ8Q'
                     },
                     'louis-the-child': {
                         name: 'Louis The Child',
                         img_portrait: '../img/artists/portrait/LouisTheChild_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/LouisTheChild_Landscape.jpg',
                         ref: 'louis-the-child',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/LouisTheChild',
+                        fb: 'https://www.facebook.com/LouisTheChild/',
+                        inst: 'https://www.instagram.com/louisthechild/',
+                        youtube: 'https://www.youtube.com/channel/UCWerwF0q4QKlKL37Yod4aSw',
+                        website: 'http://rhymesayers.com/atmosphere/',
+                        spotify: 'https://open.spotify.com/artist/7wg1qvie3KqDNQbAkTdbX0',
+                        video: 'https://www.youtube.com/embed/AckhnLpwceM'
                     },
                     'vic-mensa': {
                         name: 'Vic Mensa',
                         img_portrait: '../img/artists/portrait/VicMensa_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/VicMensa_Landscape.jpg',
                         ref: 'vic-mensa',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/VicMensa',
+                        fb: 'https://www.facebook.com/VicMensa1/',
+                        inst: 'https://www.instagram.com/vicmensa/',
+                        youtube: 'https://www.youtube.com/user/VicMensaVEVO',
+                        website: 'http://vicmensa.com/',
+                        spotify: 'https://open.spotify.com/artist/27w1NoOLMX7tJMYqcetPyG',
+                        video: 'https://www.youtube.com/embed/KPWXOAYlgOc'
                     },
                     'st-lucia': {
                         name: 'St Lucia',
                         img_portrait: '../img/artists/portrait/StLucia_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/StLucia_Landscape.jpg',
                         ref: 'st-lucia',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/stlucia',
+                        fb: 'https://www.facebook.com/stlucia/',
+                        inst: 'https://www.instagram.com/stlucia',
+                        youtube: 'https://www.youtube.com/user/StLuciaVEVO',
+                        website: 'http://www.stlucianewyork.com/',
+                        spotify: 'https://open.spotify.com/artist/5WId4o5jdGVhptNU0uqKxu',
+                        video: 'https://www.youtube.com/embed/lDKJ29357FU'
                     },
                     'marian-hill': {
                         name: 'Marian Hill',
                         img_portrait: '../img/artists/portrait/MarianHill_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/MarianHill_Landscape.jpg',
                         ref: 'marian-hill',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/MarianHillMusic',
+                        fb: 'https://www.facebook.com/MarianHillMusic',
+                        inst: 'https://www.instagram.com/marianhillmusic/',
+                        youtube: 'https://www.youtube.com/channel/UC8spUGlhjiJYONayCbomUYA',
+                        website: 'http://www.marianhillmusic.com/',
+                        spotify: 'https://open.spotify.com/artist/1xHQO9GJIW9OXHxGBISYc5',
+                        video: 'https://www.youtube.com/embed/upEX2JMp3c0'
                     },
                     'the-shelters': {
                         name: 'The Shelters',
                         img_portrait: '../img/artists/portrait/Shelters_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Shelters_Landscape.jpg',
                         ref: 'the-shelters',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/theshelters',
+                        fb: 'https://www.facebook.com/sheltersmusic',
+                        inst: 'https://www.instagram.com/theshelters',
+                        youtube: 'https://www.youtube.com/TheShelters',
+                        website: 'http://www.thesheltersmusic.com/',
+                        spotify: 'https://open.spotify.com/artist/7LrFQFaZaxfa9deqkjvc89',
+                        video: 'https://www.youtube.com/embed/w1G_5cDlWeM'
                     },
                     'xylo': {
                         name: 'XYLO',
                         img_portrait: '../img/artists/portrait/XYLO_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/XYLO_Landscape.jpg',
                         ref: 'xylo',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/wearexylo',
+                        fb: 'https://www.facebook.com/wearexylo',
+                        inst: 'https://www.instagram.com/wearexylo',
+                        youtube: 'https://www.youtube.com/channel/UCjGluI_WgtTXBTQDDtNcCVw',
+                        website: 'http://www.xylo-music.com/',
+                        spotify: 'https://open.spotify.com/artist/6ioOEWNNGK40H8xrGj6XPW',
+                        video: 'https://youtube.com/embed/P6xmfUt2yCU'
                     },
                     'phantoms': {
                         name: 'Phantoms',
                         img_portrait: '../img/artists/portrait/Phantoms_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Phantoms_Landscape.jpg',
                         ref: 'phantoms',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/phantoms',
+                        fb: 'https://www.facebook.com/PHVNTOMS',
+                        inst: 'https://www.instagram.com/phantoms',
+                        youtube: 'https://www.youtube.com/channel/UCvzi1dLgDIPe0TZdACfEP_g',
+                        website: 'http://phanto.ms/',
+                        spotify: 'https://open.spotify.com/artist/1bJJlRHoc1UVeqzxcrPLIw',
+                        video: 'https://www.youtube.com/embed/A9noIXSPM3s'
                     },
                     'powers': {
                         name: 'POWERS',
                         img_portrait: '../img/artists/portrait/POWERS_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/POWERS_Landscape.jpg',
                         ref: 'powers',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/givemepowers',
+                        fb: 'https://www.facebook.com/givemepowers',
+                        inst: 'https://www.instagram.com/givemepowers',
+                        youtube: 'https://www.youtube.com/user/POWERSVEVO',
+                        website: 'http://www.givemepowers.com/',
+                        spotify: 'https://open.spotify.com/artist/0PGB0xsAyDqHHlvNQcgq5S',
+                        video: 'https://youtube.com/embed/mEBJYXtxveI'
                     },
                     'rkcb': {
                         name: 'RKCB',
                         img_portrait: '../img/artists/portrait/RKCB_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/RKCB_Landscape.jpg',
                         ref: 'rkcb',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/rkcbmusic',
+                        fb: 'https://www.facebook.com/rkcbmusic',
+                        inst: 'https://www.instagram.com/rkcbmusic',
+                        youtube: 'https://www.youtube.com/channel/UCISOYbfB2jyR5U904sQXgUA',
+                        website: 'https://rkcbmusic.com/',
+                        spotify: 'https://open.spotify.com/artist/4QDvXnbmw1znkqkK1119Fc',
+                        video: 'https://www.youtube.com/embed/tAOQ7UZ1T4A'
                     },
                     '070-shake': {
                         name: '070 shake',
                         img_portrait: '../img/artists/portrait/070Shake_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/070Shake_Landscape.jpg',
                         ref: '070-shake',
-                         location: 'indoor stage',
+                        location: 'indoor stage',
                         time: 'fri 3 1:30pm',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/070shake',
+                        fb: 'https://www.facebook.com/070shake',
+                        inst: 'https://www.instagram.com/070shake',
+                        youtube: 'https://www.youtube.com/user/070ShakeVEVO',
+                        website: 'https://070shake.com',
+                        spotify: 'https://open.spotify.com/artist/12Zk1DFhCbHY6v3xep2ZjI',
+                        video: 'https://www.youtube.com/embed/FirPqCMIekA'
                     },
                 },
                 'innsbruck': {
+                    'beginner': {
+                        name: 'Beginner',
+                        img_portrait: 'img/artists/portrait/Beginner_Portrait.jpg',
+                        img_landscape: '../img/artists/landscape/Beginner_Landscape.jpg',
+                        img_yellow: '../img/beginner-yellow.png',
+                        ref: 'beginner',
+                        location: 'main stage',
+                        time: 'fri 3 9pm',
+                        info: [
+                            'Beginner are back! No one in the industry shaped the German Hip-Hop scene more than DJMAD, Denyo und Eizi Eiz aka Guido, Denis und Jan Delay aka “Die Beginner!” After 13 long years(!) of silence they released their new album Advanced Chemistry, and what a crazy comeback!',
+                            'The album went straight to the top of the German album charts and almost all of the tour stops were sold out after a few hours. That proves they still have the old school chemistry, but this time it’s advanced!'
+                        ],
+                        tweet: 'https://twitter.com/diebeginner?lang=en',
+                        fb: 'https://www.facebook.com/diebeginner/',
+                        inst: 'https://www.instagram.com/diebeginner/?hl=en',
+                        youtube: 'https://www.youtube.com/channel/UCxVO9SO2bu0AaOGZKxr0f3g',
+                        website: 'http://www.beginner.de/',
+                        spotify: 'https://open.spotify.com/artist/4XkhEirR2JZT4fncyOxxtf',
+                        video: 'https://www.youtube.com/embed/YqeW9_5kURI'
+                    },
                     'clyro': {
                         name: 'Biffy Clyro',
                         img_portrait: '../img/artists/portrait/BiffyClyro_Portrait.jpg',
@@ -271,25 +381,13 @@
                         info: [
                             'United by a love of underground, experimental rock, and post-hardcore bands such as Braid and Karate, along with the starrier likes of Guns N’ Roses and Metallica, the Scottish band Biffy Clyro quickly honed their own unique sound, a mind boggling mix of off-kilter tempos, itchy, unpredictable guitars, soulful choruses and feral screams, sewn together into a strange tapestry of sound.'
                         ],
-                        website: 'http://www.beginner.de/',
+                        tweet: 'https://twitter.com/biffyclyro',
+                        fb: 'https://www.facebook.com/biffyclyro/',
+                        inst: 'https://www.instagram.com/biffy_clyro/',
+                        youtube: 'https://www.youtube.com/user/biffyclyro',
+                        website: 'http://ellipsis.biffyclyro.com/',
                         spotify: 'https://open.spotify.com/artist/1km0R7wy712AzLkA1WjKET',
-                        video: 'https://www.youtube.com/embed/bpJvP4b5fX8'
-                    },
-                    'beginner': {
-                        name: 'Beginner',
-                        img_portrait: '../img/artists/portrait/Beginner_Portrait.jpg',
-                        img_landscape: '../img/artists/landscape/Beginner_Landscape.jpg',
-                        img_yellow: '../img/beginner-yellow.png',
-                        ref: 'beginner',
-                        location: 'main stage',
-                        time: 'fri 3 9pm',
-                        info: [
-                            'Beginner are back! No one in the industry shaped the German Hip-Hop scene more than DJMAD, Denyo und Eizi Eiz aka Guido, Denis und Jan Delay aka “Die Beginner!” After 13 long years(!) of silence they released their new album Advanced Chemistry, and what a crazy comeback!',
-                            'The album went straight to the top of the German album charts and almost all of the tour stops were sold out after a few hours. That proves they still have the old school chemistry, but this time it’s advanced!'
-                        ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://embed.spotify.com/?uri=spotify%3Aartist%3A4XkhEirR2JZT4fncyOxxtf',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        video: 'https://youtube.com/embed/_DTmvMsEbE4'
                     },
                     'bilderbuch': {
                         name: 'Bilderbuch',
@@ -301,9 +399,13 @@
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
-                        website: 'http://www.beginner.de/',
+                        tweet: 'https://twitter.com/bilderbuchmusik',
+                        fb: 'https://www.facebook.com/bilderbuch',
+                        inst: 'https://www.instagram.com/bilderbuchmusik/',
+                        youtube: 'https://www.youtube.com/user/BILDERBUCHMUSIK',
+                        website: 'http://www.bilderbuch-musik.at/',
                         spotify: 'https://open.spotify.com/artist/2ErWLckuGFl84nGmg5fwyG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        video: 'https://youtube.com/embed/JMqylEQvmKc'
                     },
                     'the-naked-and-famous': {
                         name: 'The Naked & Famous',
@@ -316,23 +418,13 @@
                             'In 2010, Auckland, New Zealand’s Thom Powers, Alisa Xayalith, Aaron Short, David Beadle, and Jesse Wood arrived at the forefront of the international indie pop scene with the sweltering The Naked and Famous debut, “Passive Me, Aggressive You”.',
                             'Riding on the feverish heights reached by singles like “Young Blood”, “Punching In A Dream” and “Girls Like You” the album thrust the band into the limelight and onto the airwaves. Let’s see if they can take us “Higher” at the Air + Style Festival in Innsbruck-Tirol this coming year!'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://embed.spotify.com/?uri=spotify%3Aartist%3A4XkhEirR2JZT4fncyOxxtf',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
-                    },
-                    'tommy-cash': {
-                        name: 'Tomm\xA5 \u20aca$h',
-                        ref: 'tommy-cash',
-                        img_portrait: '../img/artists/portrait/TommyCash_Portrait.jpg',
-                        img_landscape: '../img/artists/landscape/TommyCash_Landscape.jpg',
-                        location: 'indoor stage',
-                        time: 'fri 3 6pm',
-                        info: [
-                            'The Baltic states are not the first countries that pop up in our minds when we think about good Hip-Hop… but that’s history! Let us introduce TOMM¥ €A$H! The rapper from the capital of Estonia grew up listing to Kanye West and other US Rappers, dreaming about becoming a first class rapper. Now he is, but he found his own, very controversial style.'
-                        ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/44XzG6GoJZNtkIGW19hsUK',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/tnaf',
+                        fb: 'https://www.facebook.com/tnafofficial',
+                        inst: 'https://www.instagram.com/tnaf/',
+                        youtube: 'https://www.youtube.com/user/NakedFamousVEVO',
+                        website: 'https://thenakedandfamous.com/',
+                        spotify: 'https://open.spotify.com/artist/0oeUpvxWsC8bWS6SnpU8b9',
+                        video: 'https://youtube.com/embed/GCsyXSr7u-Q'
                     },
                     'funf-sterne-deluxe': {
                         name: 'F\xFCnf Sterne Deluxe',
@@ -344,9 +436,13 @@
                         info: [
                             'The Band that wrote German Hip-Hop history with tracks like “Willst du mit mir geh’n,” “Dein Herz schägt schneller,” “Die Leude,” or “Ja,ja ... Deine Mudder!” is back on festival stages. In 2004 they decided to take a break to concentrate on solo projects like Tobi Tobsen and his electronic music team Moonbootica. Now they are back and after their first appearance in 2013 at the “Beats auf der Bahn” and the huge success, they want more!'
                         ],
-                        website: 'http://www.beginner.de/',
+                        tweet: 'https://twitter.com/5sternedeluxeHH',
+                        fb: 'https://www.facebook.com/FuenfSternedeluxe',
+                        inst: 'https://www.instagram.com/fuenfsternedeluxe/',
+                        youtube: 'https://www.youtube.com/channel/UCe6GltCxiizB7F03LlrVHCg',
+                        website: 'http://www.forceofthenorth.com/',
                         spotify: 'https://open.spotify.com/artist/7i6FNvFrVU61bNKBmWwX4X',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        video: 'https://www.youtube.com/embed/DHYdOGffVek?list=PLTuoiSBvq3USF26VMIOnXV9mLdVTq2PIp'
                     },
                     'lucky-chops': {
                         name: 'Lucky Chops',
@@ -358,25 +454,32 @@
                         info: [
                             'Redefining what it means to be a brass band, Lucky Chops stormed onto the scene in 2015 with the help of millions of viewers around the globe. Together this group of six talented individuals has created a unique sound and energy which has resonated worldwide with viral success, launching a career that is now headed toward untold heights. From the streets and subway stations of NYC to the Air + Style Festival stage!'
                         ],
-                        website: 'http://www.beginner.de/',
+                        tweet: 'https://twitter.com/theluckychops',
+                        fb: 'https://www.facebook.com/TheLuckyChops',
+                        inst: 'https://www.instagram.com/theluckychops/',
+                        youtube: 'https://www.youtube.com/channel/UCYfFuHmTC6-i43qoYmXckbQ',
+                        website: 'http://www.luckychops.com/',
                         spotify: 'https://open.spotify.com/artist/2b6gc4EVpO6OTlDvKrK852',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        video: 'https://www.youtube.com/embed/9mOMmP_aKso'
                     },
-                    // 'wax-wreckaz': {
-                    //     name: 'Wax Wreckaz',
-                    //     ref: 'wax-wreckaz',
-                    //     img_portrait: '../img/WaxWreckaz.jpg',
-                    //     img_landscape: '../img/artists/landscape/POWERS_Landscape.jpg',
-                    //     location: 'main stage',
-                    //     time: 'fri 3 2pm',
-                    //     info: [
-                    //         'American electronic music band composed of record producer Diplo, Jillionaire, and Walshy fire. It was founded by Diplo and Switch, but Switch left in 2011. Its music spans numerous genres, mixing reggae with dancehall, raggaeton, house, and moombhaton.',
-                    //         'Major Lazer has released three full-length albums: Guns Don\'t Kill People... Lazers Do 2009, Free the Universe 2013,  and Peace Is the Mission in 2015. It also released an EP entitled Apocalypse Soon in March 2014, which featured vocal contribution from Pharrell Williams and Sean Paul. In addition, Major Lazer has also produced Reincarnated, the debut reggae album by Snoop Dogg under his \'Snoop Lion \' persona'
-                    //     ],
-                    //     website: 'http://www.beginner.de/',
-                    //     spotify: 'https://embed.spotify.com/?uri=spotify%3Aartist%3A4XkhEirR2JZT4fncyOxxtf',
-                    //     video: 'https://www.youtube.com/embed/isMx-EISg3E'
-                    // },
+                    'tommy-cash': {
+                        name: 'Tomm\xA5 \u20aca$h',
+                        ref: 'tommy-cash',
+                        img_portrait: '../img/artists/portrait/TommyCash_Portrait.jpg',
+                        img_landscape: '../img/artists/landscape/TommyCash_Landscape.jpg',
+                        location: 'indoor stage',
+                        time: 'fri 3 6pm',
+                        info: [
+                            'The Baltic states are not the first countries that pop up in our minds when we think about good Hip-Hop… but that’s history! Let us introduce TOMM¥ €A$H! The rapper from the capital of Estonia grew up listing to Kanye West and other US Rappers, dreaming about becoming a first class rapper. Now he is, but he found his own, very controversial style.'
+                        ],
+                        tweet: 'https://twitter.com/tommycashworld',
+                        fb: 'https://www.facebook.com/cashmoneytommy',
+                        inst: 'https://www.instagram.com/tommycashworld/',
+                        youtube: 'https://www.youtube.com/channel/UCr92AKSfMI-quMa2UGcvWvg',
+                        website: 'https://www.facebook.com/cashmoneytommy/',
+                        spotify: 'https://open.spotify.com/artist/44XzG6GoJZNtkIGW19hsUK',
+                        video: 'https://www.youtube.com/embed/3OGMrZKIjKU'
+                    },
                     '257ers': {
                         name: '257ers',
                         ref: '257ers',
@@ -388,9 +491,13 @@
                             '257ers are two rappers, Shneezin and Mike, and are named after the zip code of their hometown, Essen Kupferdreh (Germany). The duo came together in 1997 as a graffiti crew, and later on Mike and Shneezin started making music and releasing mixtapes and songs.',
                             'And this was only the beginning. Up until now the guys have played over 600 headline shows and festivals across Germany, Austria and Switzerland. Their last album Boomshakkalakka was number 1 in the German charts, and they have recently released a new album called Mikrokosmos.'
                         ],
-                        website: 'http://www.beginner.de/',
+                        tweet: 'https://twitter.com/257ers',
+                        fb: 'https://www.facebook.com/257ers',
+                        inst: 'https://www.instagram.com/257ers/',
+                        youtube: 'https://www.youtube.com/channel/UCoMradiChryBgljtr05IsDA',
+                        website: 'http://www.257ers.de/',
                         spotify: 'https://open.spotify.com/artist/6ihLfpY3cmdGyWEnItn30w',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        video: 'https://www.youtube.com/embed/QZ33uIdlu0Q'
                     },
                     'ssio': {
                         name: 'SSIO',
@@ -402,9 +509,13 @@
                         info: [
                             'Tall, big and hairy: that’s SSIO. These four letters stand for a combination of unique flow and intelligent street humor. He’s nothing like you have ever heard in German rap. No one else can let the worst obscenities sound charming. No one can rhyme in such a unique way as the Rocco Siffredi of german rap and no one looks as good in an old Mercedes as he does! Btw, he was also the man who brought back the fanny pack! Let’s see what he will do next!'
                         ],
-                        website: 'http://www.beginner.de/',
+                        tweet: 'https://twitter.com/ssioffiziell',
+                        fb: 'https://www.facebook.com/SSIO.allesodernixrecords',
+                        inst: 'https://www.instagram.com/ssio1/',
+                        youtube: 'https://www.youtube.com/user/allesodernixrecords',
+                        website: 'https://www.facebook.com/SSIO.allesodernixrecords/',
                         spotify: 'https://open.spotify.com/artist/3IrUyDPQlQFcB5lMWhPml2',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        video: 'https://www.youtube.com/embed/UdcYjlESrow'
                     },
                     'the-hunna': {
                         name: 'The Hunna',
@@ -416,9 +527,13 @@
                         info: [
                             'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
                         ],
-                        website: 'http://www.beginner.de/',
+                        tweet: 'https://twitter.com/thehunnaband',
+                        fb: 'https://www.facebook.com/thehunnaband/',
+                        inst: 'https://www.instagram.com/thehunnaband/',
+                        youtube: 'https://www.youtube.com/channel/UC3U1k6n2HLZ2BlMoAXhNsEA',
+                        website: 'https://musicglue.com/thehunna/100-album/',
                         spotify: 'https://open.spotify.com/artist/7jZycSvTyx0W9poD4PjEIG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        video: 'https://youtube.com/embed/lOsuWnfqMFA'
                     },
                     'wax-wreckaz': {
                         name: 'Wax Wreckaz',
@@ -430,40 +545,152 @@
                         info: [
                             'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
                         ],
-                        website: 'http://www.beginner.de/',
-                        spotify: 'https://open.spotify.com/artist/7jZycSvTyx0W9poD4PjEIG',
-                        video: 'https://www.youtube.com/embed/isMx-EISg3E'
+                        tweet: 'https://twitter.com/waxwreckaz',
+                        fb: 'https://www.facebook.com/waxwreckaz',
+                        inst: 'https://www.instagram.com/waxwreckaz/',
+                        youtube: 'https://www.youtube.com/user/waxwreckazofficial',
+                        website: 'http://www.waxwreckaz.com/ww/',
+                        spotify: 'https://open.spotify.com/artist/71yUdzd6D5RGp3R2V7VlHY',
+                        video: 'https://youtube.com/embed/mp3I-srdJ5s?list=PL98F3582B087B668E'
+                    },
+                    'milky-chance': {
+                        name: 'Milky Chance',
+                        ref: 'milky-chance',
+                        img_portrait: '../img/artists/portrait/MilkyChance_Portrait.jpg',
+                        img_landscape: '../img/artists/landscape/MilkyChance_Landscape.jpg',
+                        location: 'main stage',
+                        time: 'fri 3 2pm',
+                        info: [
+                            'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
+                        ],
+                        tweet: 'https://twitter.com/milkychance',
+                        fb: 'https://www.facebook.com/milkychancemusic',
+                        inst: 'https://www.instagram.com/milkychance_official/',
+                        youtube: 'https://www.youtube.com/user/MilkysMusic',
+                        website: 'https://www.milkychance.net/',
+                        spotify: 'https://open.spotify.com/artist/1hzfo8twXdOegF3xireCYs',
+                        video: 'https://youtub.com/embed/ernVvrYH9vg'
+                    },
+                    'counterfeit': {
+                        name: 'Counterfeit',
+                        ref: 'counterfeit',
+                        img_portrait: '../img/artists/portrait/Counterfeit_Portrait.jpg',
+                        img_landscape: '../img/artists/landscape/Counterfeit_Landscape.jpg',
+                        location: 'main stage',
+                        time: 'fri 3 2pm',
+                        info: [
+                            'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
+                        ],
+                        tweet: 'https://twitter.com/counterfeitrock',
+                        fb: 'https://www.facebook.com/therealcounterfeit',
+                        inst: 'https://www.instagram.com/counterfeitrock/',
+                        youtube: 'https://www.youtube.com/user/CounterfeitVEVO',
+                        website: 'http://therealcounterfeit.com/',
+                        spotify: 'https://open.spotify.com/artist/6HxNJuxe4WHa1XQMLryIjG',
+                        video: 'https://www.youtube.com/embed/VA1kx-cIDBE'
+                    },
+                    'famous-deck-team': {
+                        name: 'Famous Deck Team',
+                        ref: 'famous-deck-team',
+                        img_portrait: '../img/artists/portrait/FamousDeckTeam_Portrait.jpg',
+                        img_landscape: '../img/artists/landscape/FamousDeckTeam_Landscape.jpg',
+                        location: 'main stage',
+                        time: 'fri 3 2pm',
+                        info: [
+                            'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
+                        ],
+                        tweet: 'https://twitter.com/TommyCrypt',
+                        fb: 'https://www.facebook.com/famousdeckteam/',
+                        inst: 'https://www.instagram.com/explore/tags/famousdeckteam/',
+                        youtube: 'https://www.youtube.com/user/Cryptadelic/videos',
+                        website: 'http://www.famousdeckteam.com/',
+                        spotify: '',
+                        video: 'https://youtube.com/embed/on1CLL1qoU8'
+                    },
+                    'pendulum': {
+                        name: 'Pendulum',
+                        ref: 'pendulum',
+                        img_portrait: '../img/artists/portrait/Pendulum_Portrait.jpg',
+                        img_landscape: '../img/artists/landscape/Pendulum_Landscape.jpg',
+                        location: 'main stage',
+                        time: 'fri 3 2pm',
+                        info: [
+                            'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
+                        ],
+                        tweet: 'https://twitter.com/pendulum',
+                        fb: 'https://www.facebook.com/pendulum',
+                        inst: 'https://www.instagram.com/pendulummusic/',
+                        youtube: 'https://www.youtube.com/user/pendulumlive',
+                        website: 'http://pendulum.com/',
+                        spotify: 'https://open.spotify.com/artist/7MqnCTCAX6SsIYYdJCQj9B',
+                        video: 'https://youtube.com/embed/ogMNV33AhCY'
+                    },
+                    'red-bull': {
+                        name: 'Red Bull WHO ROCKS THE CROWD',
+                        ref: 'red-bull',
+                        img_portrait: '../img/artists/portrait/Red-Bull-WHO-ROCKZ-THE-CROWD_Portrait.jpg',
+                        img_landscape: '../img/artists/landscape/Red-Bull-WHO-ROCKZ-THE-CROWD_Landscape.jpg',
+                        location: 'main stage',
+                        time: 'fri 3 2pm',
+                        info: [
+                            'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
+                        ],
+                        tweet: 'https://twitter.com/redbullrecords',
+                        fb: 'https://www.facebook.com/RedBullRecords/',
+                        inst: 'https://www.instagram.com/redbullrecords/',
+                        youtube: 'https://www.youtube.com/user/redbullrecords',
+                        website: 'http://redbullrecords.com/',
+                        spotify: '',
+                        video: ''
+                    },
+                    'violett-shock': {
+                        name: 'Violett Shock',
+                        ref: 'violett-shock',
+                        img_portrait: '../img/artists/portrait/ViolettShock_Portrait.jpg',
+                        img_landscape: '../img/artists/landscape/ViolettShock_Landscape.jpg',
+                        location: 'main stage',
+                        time: 'fri 3 2pm',
+                        info: [
+                            'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
+                        ],
+                        tweet: 'https://twitter.com/violettshock',
+                        fb: 'https://www.facebook.com/djaneviolett.shock/',
+                        inst: 'https://www.instagram.com/djaneviolettshock/',
+                        youtube: 'https://www.youtube.com/user/DjaneViolettShock',
+                        website: 'https://soundcloud.com/djane-violett-shock/',
+                        spotify: '',
+                        video: 'https://youtube.com/embed/Cwu8Q01zm_0'
                     },
                 }
             },
                 Keys = Object.keys(artists),
                 constantIdentifier = 'artists';
 
- 
+
             return locate(inputArg);
 
             function locate(arg) {
 
                 switch (arg) {
-                    case 'all': 
+                    case 'all':
                         return successHandler(artists);
                         break;
                     case 'la':
                     case 'innsbruck':
                         return successHandler(artists[arg], false);
                         break;
-                    default: 
+                    default:
                         console.log("dfs")
                         return dfs(arg, artists);
                         break;
                     case null || undefined:
-                        return errorHandler(arg);                        
+                        return errorHandler(arg);
                         break;
                 };
             };
 
             function returnOne(queryKey) {
-                return Keys.filter(function(key) {
+                return Keys.filter(function (key) {
                     return queryKey == key;
                 })[0];
             }
@@ -472,7 +699,7 @@
                 console.error('could not find matching key for ' + constantIdentifier + ': ');
                 console.log('Argument: ', failedArg);
                 console.log('Available ' + constantIdentifier + ': ')
-                Keys.forEach(function(key, index) {
+                Keys.forEach(function (key, index) {
                     console.log(index + 1 + '. ' + key)
                 });
                 return new Error();
@@ -484,7 +711,7 @@
                 } else {
                     var arr = [];
                     for (var key in asset) {
-                        arr.push(asset[key]);   
+                        arr.push(asset[key]);
                     };
                     return arr;
                 }
