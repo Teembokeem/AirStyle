@@ -25,28 +25,32 @@
             tours: {
                 name: 'Tour Stops',
                 ref: 'tours',
-                items: [{
-                    name: 'Beijing',
-                    ref: 'beijing',
-                    route: 'app.beijing-content',
-                    outbound: false,
-                    href: '',
-                    class: 'bj'
-                }, {
-                    name: 'Los Angeles',
-                    ref: 'la',
-                    route: 'app.tour-stops',
-                    outbound: false,
-                    href: '',
-                    class: 'la'
-                }, {
-                    name: 'Innsbruck',
-                    ref: 'innsbruck',
-                    route: 'app.tour-stops',
-                    outbound: false,
-                    href: '',
-                    class: 'ib'
-                },]
+                items: [
+                    {
+                        name: 'Los Angeles',
+                        ref: 'la',
+                        route: 'app.tour-stops',
+                        outbound: false,
+                        href: '',
+                        class: 'la'
+                    },
+                    {
+                        name: 'Innsbruck',
+                        ref: 'innsbruck',
+                        route: 'app.tour-stops',
+                        outbound: false,
+                        href: '',
+                        class: 'ib'
+                    },
+                    {
+                        name: 'Beijing',
+                        ref: 'beijing',
+                        route: 'app.beijing-content',
+                        outbound: false,
+                        href: '',
+                        class: 'bj'
+                    },
+                ]
             },
             lineup: {
                 name: 'Lineup',

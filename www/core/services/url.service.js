@@ -8,8 +8,8 @@
     urlService.$inject = ['$log'];
 
     function urlService($log) {
-        var base = 'http://localhost:3000',
-            // var base = 'http://localhost:3000',
+        // var base = 'http://localhost:3000',
+        var base = 'http://35.161.212.142:3000',
             api = base + '/api';
 
         var service = {
