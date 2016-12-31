@@ -18,6 +18,18 @@
             }
         }
     }
+
+     .hero-image {
+        background: url('../img/slide1.jpg');
+        background-color: rgba(10, 10, 10, 1) !important;
+        background-blend-mode: overlay;
+        filter: grayscale(100%);
+        width: 100vw;
+        height: 100vh;
+        margin: 0 auto;
+        z-index: -1;
+        position: absolute;
+    }
 }
 
 @media(min-width: 1024px) {

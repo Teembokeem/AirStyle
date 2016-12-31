@@ -57,7 +57,10 @@
 
         cc.toggleNav = function () {
             cc.noNav = !cc.noNav;
-            $element[0].style.backgroundColor == 'black' ? $element[0].style.backgroundColor = '' : $element[0].style.backgroundColor = 'black';
+            if (cc.mobile) {
+                $element[0].style.backgroundColor == 'black' ? $element[0].style.backgroundColor = '' : $element[0].style.backgroundColor = 'black';
+
+            }
         };
         cc.showHams = false;
     }

@@ -237,7 +237,7 @@ home-carousel {
                     .content {
                         .col {
                             p {
-                                color: $as-blue;
+                                color: white;
                                 font-size: 15px;
                                 padding: 0 2rem;
                                 letter-spacing: 0.03rem
@@ -252,7 +252,7 @@ home-carousel {
                                 font-size: 18px;
                                 letter-spacing: 1.7px;
                                 font-family: 'Reglo-Bold';
-                                color: #828282;
+                                color: white;
                             }
                         }
                     }
@@ -732,7 +732,6 @@ home-carousel {
                                             font-size: 20px;
                                             font-family: 'Reglo-Bold';
                                             letter-spacing: 1.8px;
-                                            color: $as-blue;
                                             line-height: 1;
                                         }
                                     }

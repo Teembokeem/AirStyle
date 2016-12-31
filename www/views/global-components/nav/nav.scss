@@ -111,78 +111,85 @@ nav {
             padding-left: 23px;
             overflow-y: scroll;
             // z-index: 2;
-            .nav-menu {
-                >.container:first-child {
-                    .row {
-                        margin-bottom: 1.5rem;
-                        .col {
-                            font-size: 30px;
-                            font-weight: bold;
-                            font-family: 'Apercu';
-                            a {
+            ion-content {
+
+                .nav-menu {
+                    >.container:first-child {
+                        .row {
+                            margin-bottom: 1rem;
+                            .col {
+                                font-size: 30px;
+                                font-weight: bold;
                                 font-family: 'Apercu';
-                                text-decoration: none;
-                            }
-                        }
-                    }
-                }
-                >.container:last-child {
-                    >.row {
-                        margin-bottom: 3rem;
-                        .container {
-                            .row:first-child {
-                                margin-bottom: 2rem;
-                                .col {
-                                    font-size: 52px;
-                                    font-family: 'Reglo-Bold';
-                                    font-weight: bold;
-                                }
-                            }
-                            .row:last-child {
-                                .col {
-                                    font-size: 22px;
-                                    font-family: 'Reglo-Bold';
-                                    font-weight: bold;
+                                a {
+                                    font-family: 'Apercu';
+                                    text-decoration: none;
                                 }
                             }
                         }
+
+                        .row:first-child {
+                            margin-top: 1rem;
+                        }
                     }
-                    >.row:first-child {
-                        .container {
-                            .row:last-child {
-                                .col {
-                                    span {
-                                        padding-bottom: 2px;
-                                        border-bottom: 7px solid $as-green;
+                    >.container:last-child {
+                        >.row {
+                            margin-bottom: 3rem;
+                            .container {
+                                .row:first-child {
+                                    margin-bottom: 1rem;
+                                    .col {
+                                        font-size: 52px;
+                                        font-family: 'Reglo-Bold';
+                                        font-weight: bold;
+                                    }
+                                }
+                                .row:last-child {
+                                    .col {
+                                        font-size: 22px;
+                                        font-family: 'Reglo-Bold';
+                                        font-weight: bold;
                                     }
                                 }
                             }
                         }
-                    }
-                    >.row:nth-child(2) {
-                        .container {
-                            .row:last-child {
-                                .col {
-                                    span {
-                                        padding-bottom: 2px;
-                                        border-bottom: 7px solid $as-yellow;
+                        >.row:first-child {
+                            .container {
+                                .row:last-child {
+                                    .col {
+                                        span {
+                                            padding-bottom: 2px;
+                                            border-bottom: 7px solid $as-green;
+                                        }
                                     }
                                 }
                             }
                         }
-                    }
-                    >.row:nth-child(3) {
-                        .container {
-                            .row:first-child {
-                                .col {
-                                    font-size: 49px;
+                        >.row:nth-child(2) {
+                            .container {
+                                .row:last-child {
+                                    .col {
+                                        span {
+                                            padding-bottom: 2px;
+                                            border-bottom: 7px solid $as-yellow;
+                                        }
+                                    }
                                 }
                             }
-                            .row:last-child {
-                                .col {
-                                    span {
-                                        padding-bottom: 2px;
-                                        border-bottom: 7px solid $as-blue;
+                        }
+                        >.row:nth-child(3) {
+                            .container {
+                                .row:first-child {
+                                    .col {
+                                        font-size: 49px;
+                                    }
+                                }
+                                .row:last-child {
+                                    .col {
+                                        span {
+                                            padding-bottom: 2px;
+                                            border-bottom: 7px solid $as-blue;
+                                        }
                                     }
                                 }
                             }
@@ -318,7 +325,7 @@ nav {
 @media(min-width: 420px) {
     nav .as-nav .logo a .line {
         width: 2.6rem;
-        bottom: 2.09rem;
+        bottom: 1.96rem;
     }
 }
 
