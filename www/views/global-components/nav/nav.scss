@@ -44,7 +44,7 @@ nav {
                 width: 6vw;
                 min-width: 120px;
                 position: absolute;
-                top: 4rem;
+                top: 4.3rem;
                 transition: 0.4s all cubic-bezier(0.165, 0.84, 0.5, 1);
                 left: 5%;
                 opacity: 0;
@@ -318,6 +318,12 @@ nav {
 @media(min-width: 420px) {
     nav .as-nav .logo a .line {
         width: 2.6rem;
+        bottom: 2.09rem;
+    }
+}
+
+@media(min-width: 800px) {
+    nav .as-nav .logo a .line {
         bottom: 1.96rem;
     }
 }
@@ -352,6 +358,10 @@ nav {
                         bottom: 1.9rem;
                         left: 1.5rem;
                     }
+                }
+
+                > img {
+                    top: 4.8rem;
                 }
             }
 
@@ -419,6 +429,9 @@ nav {
                         left: 2.54rem;
                         bottom: 1.95rem;
                     }
+                }
+                > img {
+                    top: 5.3rem;
                 }
             }
 
