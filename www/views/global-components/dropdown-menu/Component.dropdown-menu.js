@@ -89,14 +89,14 @@
                 items: [{
                     name: 'Los Angeles',
                     ref: 'la',
-                    route: 'app.lineup',
-                    outbound: false,
+                    route: 'https://airandstyle.frontgatetickets.com/?_ga=1.217666902.1911985544.1477700762',
+                    outbound: true,
                     href: '',
                     class: 'la'
                 }, {
                     name: 'Innsbruck',
                     ref: 'innsbruck',
-                    route: 'app.lineup',
+                    route: 'app.ticket',
                     outbound: false,
                     href: '',
                     class: 'ib'
@@ -125,7 +125,10 @@
 
         }
 
-        function stateChange(state, val, ref) {
+        function stateChange(state, val, ref, outbound) {
+            if (outbound) {
+                go(state);
+            }
             $state.go(state, {
                 tour: val
             });
@@ -136,7 +139,7 @@
         }
 
         function go(link) {
-            $window.location = link;
+            $window.open(link);
         };
         // function tourStopMenuClose() {
         //     $rootScope.$broadcast('tourStopMenuClose')

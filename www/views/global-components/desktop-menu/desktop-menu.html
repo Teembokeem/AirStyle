@@ -26,9 +26,7 @@
         <dropdown-menu ng-if="cc.menus.tickets" class="slideInDown" ng-mouseleave="cc.menus.tickets = false" menu="tickets"></dropdown-menu>
     </div>
     <div class="col anchor-pad">
-        <a ng-mouseover="cc.menus.merch = true">MERCH
-            <span ng-if="cc.venue.title && cc.currentState == 'app.merch'">:<span ng-class="cc.venue.ref"> {{cc.venue.title}}</span></span>
+        <a ng-click="cc.go('merch')">MERCH
         </a>
-        <dropdown-menu ng-if="cc.menus.merch" class="slideInDown" ng-mouseleave="cc.menus.merch = false" menu="merch"></dropdown-menu>
     </div>
 </div>
