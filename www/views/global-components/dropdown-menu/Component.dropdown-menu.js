@@ -28,7 +28,7 @@
                 items: [{
                     name: 'Beijing',
                     ref: 'beijing',
-                    route: 'app.tour-stops',
+                    route: 'app.beijing-content',
                     outbound: false,
                     href: '',
                     class: 'bj'
@@ -46,7 +46,7 @@
                     outbound: false,
                     href: '',
                     class: 'ib'
-                }, ]
+                },]
             },
             lineup: {
                 name: 'Lineup',
@@ -65,7 +65,7 @@
                     outbound: false,
                     href: '',
                     class: 'ib'
-                }, ]
+                },]
             },
             riders: {
                 name: 'Riders + Rankings',
@@ -100,7 +100,7 @@
                     outbound: false,
                     href: '',
                     class: 'ib'
-                }, ]
+                },]
             },
             merch: {
                 name: 'Merch',
@@ -120,7 +120,7 @@
                     outbound: false,
                     href: '',
                     class: 'ib'
-                }, ]
+                },]
             }
 
         }

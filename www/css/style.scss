@@ -121,3 +121,17 @@ body {
   -ms-user-select: text !important;
   user-select: text !important;
 }
+
+body {
+    * {
+        ::-webkit-scrollbar {
+            color: black;
+            background-color: black;
+        }
+        ::-webkit-scrollbar-thumb {
+            color: grey;
+            background-color: rgba(40, 40, 40, 0.3);
+            border-radius: 1rem;
+        }
+    }
+}

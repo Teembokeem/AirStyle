@@ -9896,6 +9896,15 @@ body {
   -ms-user-select: text !important;
   user-select: text !important; }
 
+body * ::-webkit-scrollbar {
+  color: black;
+  background-color: black; }
+
+body * ::-webkit-scrollbar-thumb {
+  color: grey;
+  background-color: rgba(40, 40, 40, 0.3);
+  border-radius: 1rem; }
+
 nav {
   position: absolute;
   width: 100vw;
@@ -10889,7 +10898,8 @@ avatar-panels > .container {
       avatar-panels > .container > .row:nth-child(2) > .col .rider-page .blue-container {
         position: absolute;
         bottom: -3rem;
-        left: -4rem;
+        right: auto;
+        padding-left: 0;
         display: flex;
         background-color: transparent;
         align-items: center;
@@ -10916,8 +10926,8 @@ avatar-panels > .container {
       transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0); }
     avatar-panels > .container > .row:nth-child(2) > .col.overlay.rider-hover .container .row .col .panel-image {
       transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-      background-size: 100% !important;
-      background-color: rgba(64, 202, 255, 0.6) !important;
+      background-size: 108% !important;
+      background-color: rgba(40, 40, 40, 0.6) !important;
       background-blend-mode: darken; }
     avatar-panels > .container > .row:nth-child(2) > .col.overlay.rider-hover .blue-container {
       position: absolute;
@@ -12302,6 +12312,172 @@ beijing-text .container {
       beijing-text .container .row .col span {
         font-family: 'Apercu';
         font-size: 20px; }
+
+beijing-rankings > .container > .row {
+  justify-content: center; }
+  beijing-rankings > .container > .row > .col {
+    display: block;
+    flex-flow: row wrap;
+    justify-content: center; }
+    beijing-rankings > .container > .row > .col > .container {
+      margin-bottom: 1rem;
+      max-width: 300px;
+      flex-flow: row wrap;
+      display: flex; }
+      beijing-rankings > .container > .row > .col > .container > .row {
+        flex-flow: row wrap;
+        justify-content: center; }
+        beijing-rankings > .container > .row > .col > .container > .row > .col:first-child {
+          border: 5px solid;
+          height: 100%;
+          min-width: 90px;
+          padding: 0;
+          overflow: hidden;
+          position: relative; }
+          beijing-rankings > .container > .row > .col > .container > .row > .col:first-child img {
+            width: 100%;
+            height: 100%; }
+        beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) {
+          background-color: #131313;
+          height: 121px; }
+          beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container {
+            height: 100%;
+            width: 200px; }
+            beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:first-child {
+              padding-top: 1rem;
+              margin-bottom: 1rem; }
+              beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:first-child > .col {
+                padding: 0;
+                justify-content: flex-start;
+                margin-left: 0.5rem; }
+                beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:first-child > .col span {
+                  font-size: 22px;
+                  border-bottom: 3px solid #62ff00; }
+            beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) {
+              margin-bottom: 1rem; }
+              beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) > .col {
+                padding: 0;
+                justify-content: flex-start;
+                margin-left: 0.5rem; }
+                beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) > .col span {
+                  font-size: 22px;
+                  font-weight: bold;
+                  line-height: 1.01;
+                  letter-spacing: 0.1rem;
+                  color: #5f5f5f;
+                  font-family: 'Apercu'; }
+            beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col {
+              padding: 0;
+              justify-content: flex-start;
+              margin-left: 0.5rem; }
+              beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col span {
+                font-family: 'Apercu';
+                font-size: 18px; }
+        beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) {
+          padding-top: 0.7rem;
+          background-color: #1f1f1f;
+          min-width: 10rem;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container {
+            display: flex;
+            flex-direction: row-reverse; }
+            beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:first-child {
+              height: 30px;
+              align-items: center; }
+              beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:first-child .col {
+                display: flex;
+                justify-content: center; }
+                beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:first-child .col span {
+                  font-size: 20px; }
+            beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:nth-child(2) {
+              height: 30px;
+              margin-top: 0;
+              align-items: center;
+              margin-right: 1.3rem; }
+              beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:nth-child(2) .col {
+                text-align: center; }
+                beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:nth-child(2) .col span {
+                  font-family: 'Apercu';
+                  font-size: 20px;
+                  font-weight: bold;
+                  letter-spacing: 0.1rem;
+                  color: #5f5f5f; }
+
+beijing-rankings > .container .more {
+  margin: 2rem auto;
+  align-content: center;
+  justify-content: center;
+  padding-top: 0.3rem;
+  display: flex;
+  max-width: 260px;
+  position: relative; }
+  beijing-rankings > .container .more .col {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    beijing-rankings > .container .more .col button {
+      border: 3px solid;
+      height: 50px;
+      width: 150%;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-family: 'Apercu';
+      transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
+    beijing-rankings > .container .more .col button.border-button {
+      background-color: white;
+      border: none;
+      color: black;
+      transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
+
+@media (min-width: 950px) {
+  beijing-rankings > .container > .row > .col > .container {
+    max-width: none; }
+    beijing-rankings > .container > .row > .col > .container > .row {
+      min-width: 10rem;
+      height: 14rem; }
+      beijing-rankings > .container > .row > .col > .container > .row > .col {
+        height: 100% !important; }
+      beijing-rankings > .container > .row > .col > .container > .row > .col:first-child {
+        max-width: 171px;
+        width: initial; }
+      beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) {
+        max-width: 14rem; }
+        beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:first-child {
+          margin-bottom: 1rem; }
+        beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) {
+          margin-bottom: 1rem; }
+          beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) > .col span {
+            font-size: 40px; }
+        beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col span {
+          font-size: 20px; }
+      beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) {
+        padding-top: 0;
+        max-width: 10rem;
+        flex-direction: row; }
+        beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container {
+          display: block; }
+          beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:first-child {
+            height: inherit;
+            margin-bottom: 1rem; }
+            beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:first-child > .col span {
+              font-size: 35px; }
+          beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:nth-child(2) {
+            height: inherit;
+            margin-right: 0; }
+            beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:nth-child(2) > .col span {
+              font-size: 39px; } }
+
+@media (min-width: 1440px) {
+  beijing-rankings > .container > .row > .col > .container {
+    padding: 0 10rem; }
+    beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) {
+      max-width: 14rem; }
+    beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) {
+      min-width: 14rem; } }
 
 .line-up-view ion-content .scroll avatar-panels > .container > .row > .col > .container > .row > .col {
   max-height: 400px;

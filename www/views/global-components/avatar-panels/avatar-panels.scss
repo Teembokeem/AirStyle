@@ -104,7 +104,9 @@ avatar-panels {
                     .blue-container {
                         position: absolute;
                         bottom: -3rem;
-                        left: -4rem;
+                        // left: -4rem;
+                        right: auto;
+                        padding-left: 0;
                         display: flex;
                         background-color: transparent;
                         align-items: center;
@@ -164,8 +166,8 @@ avatar-panels {
                         .col {
                             .panel-image {
                                 transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-                                background-size: 100% !important;
-                                background-color: rgba(64,202,255, 0.6) !important;
+                                background-size: 108% !important;
+                                background-color: rgba(40, 40, 40, 0.6) !important;
                                 background-blend-mode: darken;
                             }
                         }
