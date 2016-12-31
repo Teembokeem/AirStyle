@@ -8,14 +8,20 @@
             controllerAs: 'cc'
         });
 
-    NavCtrl.$inject = ['$scope', '$rootScope', '$window', '$element', '$stateParams', 'Tours'];
+    NavCtrl.$inject = ['$scope', '$rootScope', '$state', '$window', '$element', '$stateParams', 'Tours'];
 
-    function NavCtrl($scope, $rootScope, $window, $element, $stateParams, Tours) {
+    function NavCtrl($scope, $rootScope, $state, $window, $element, $stateParams, Tours) {
 
         var cc = this;
 
         cc.venue = $stateParams.tour ? Tours($stateParams.tour) : null;
         cc.logoHover = false;
+        cc.stateChange = stateChange;
+
+        function stateChange(state) {
+            $state.go(state);
+            cc.venue.ref = null;
+        }
 
 
         if ($window.innerWidth <= 600) {
