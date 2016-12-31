@@ -3,7 +3,7 @@ beijing-rankings {
         > .row {
             justify-content: center;
             > .col {
-                display: block;
+                display: flex;
                 flex-flow: row wrap;
                 justify-content: center;
 
@@ -21,7 +21,7 @@ beijing-rankings {
 
                         > .col:first-child {
                             border: 5px solid;
-                            height: 100%;
+                            height: 121px;
                             min-width: 90px;
                             padding: 0;
                             overflow: hidden;
@@ -158,6 +158,20 @@ beijing-rankings {
                     border: none; 
                     color: black;
                     transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 600px) {
+    beijing-rankings {
+        > .container {
+            > .row {
+                > .col {
+                    > .container {
+                        margin:1rem;
+                    }
                 }
             }
         }
