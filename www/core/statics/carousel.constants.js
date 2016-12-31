@@ -34,7 +34,7 @@
                         ],
                         plus: '../img/plus.png',
                         content: "THE WORLD’S BEST SNOWBOARDERS COMPETING ON A 16-STORY JUMP",
-                        date: 'FRI 10 +  TUE 14 FEBRUARY 2017 - EXPOSITION PARK DTLA',
+                        date: 'FEBRUARY 18 + 19 2017 - EXPOSITION PARK DTLA',
                         buttons: [
                             {
                                 label: 'BUY NOW',
