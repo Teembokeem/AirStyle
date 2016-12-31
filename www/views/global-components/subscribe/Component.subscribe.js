@@ -29,12 +29,12 @@ var _el;
                         swal({ title: '', text: res.title + '. Try a different email.', type: 'error', timer: 2500 });
                     } else {
                         swal({ title: '', text: "Dope. You're subscribed at " + res.email_address, type: 'success', timer: 2500 });
-                    }
+                    };
                 });
 
             } else {
                 swal({ title: '', text: 'Something went wrong validating your email. Check on it for us.', type: 'error', timer: 2500 });
-            }
+            };
         };
 
         function focused() {

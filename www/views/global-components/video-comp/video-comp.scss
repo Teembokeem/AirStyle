@@ -1,6 +1,9 @@
 video-comp {
     .video-container {
+        margin: 0 auto;
         .row {
+            display: flex;
+            justify-content: center;
             .col {
                 display: flex;
                 justify-content: center;
