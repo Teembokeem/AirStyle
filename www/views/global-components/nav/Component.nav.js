@@ -20,7 +20,7 @@
 
         function stateChange(state) {
             $state.go(state);
-            cc.venue.ref = null;
+            cc.venue = null;
         }
 
 
@@ -51,6 +51,7 @@
         })
 
         $rootScope.$on('tourStopMenuClose', function (e, d) {
+            console.log(e, d)
             cc.venue = d.tour ? Tours(d.tour) : null
         })
 

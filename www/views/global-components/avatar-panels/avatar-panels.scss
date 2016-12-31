@@ -23,7 +23,7 @@ avatar-panels {
             justify-content: center;
             >.col {
                 min-width: 300px;
-                margin: 0 3rem 5rem 3rem;
+                margin: 0 1rem 8rem 1rem;
                 position: relative;
                 
                 >.container {
@@ -106,7 +106,7 @@ avatar-panels {
                         bottom: -3rem;
                         // left: -4rem;
                         right: auto;
-                        padding-left: 0;
+                        padding-left: 0.5rem;
                         display: flex;
                         background-color: transparent;
                         align-items: center;
