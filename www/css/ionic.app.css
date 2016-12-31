@@ -9965,7 +9965,7 @@ nav {
       justify-content: flex-end;
       position: absolute;
       top: 2rem;
-      right: 1rem;
+      right: 0.6rem;
       padding-top: 10px; }
       nav .as-nav .hamburger button {
         position: relative;
@@ -9984,7 +9984,7 @@ nav {
     padding-right: 7rem; }
     nav .as-menu mobile-menu {
       position: fixed;
-      top: 100px;
+      top: 93px;
       width: 100vw;
       left: 0;
       height: 90vh;
@@ -10830,6 +10830,7 @@ avatar-panels > .container {
         padding-bottom: 1rem; }
   avatar-panels > .container > .row:nth-child(2) {
     flex-flow: row wrap;
+    display: -webkit-flex;
     justify-content: center; }
     avatar-panels > .container > .row:nth-child(2) > .col {
       min-width: 300px;
@@ -12318,7 +12319,7 @@ beijing-text .container {
 beijing-rankings > .container > .row {
   justify-content: center; }
   beijing-rankings > .container > .row > .col {
-    display: block;
+    display: flex;
     flex-flow: row wrap;
     justify-content: center; }
     beijing-rankings > .container > .row > .col > .container {
@@ -12331,7 +12332,7 @@ beijing-rankings > .container > .row {
         justify-content: center; }
         beijing-rankings > .container > .row > .col > .container > .row > .col:first-child {
           border: 5px solid;
-          height: 100%;
+          height: 121px;
           min-width: 90px;
           padding: 0;
           overflow: hidden;
@@ -12434,6 +12435,10 @@ beijing-rankings > .container .more {
       border: none;
       color: black;
       transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
+
+@media (min-width: 600px) {
+  beijing-rankings > .container > .row > .col > .container {
+    margin: 1rem; } }
 
 @media (min-width: 950px) {
   beijing-rankings > .container > .row > .col > .container {
