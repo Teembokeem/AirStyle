@@ -15,8 +15,8 @@
     function HomeMerchandiseCtrl($log, Merchandise) {
         var cc = this;
 
-        cc.openMerch = function () {
-            window.open("http://www.air-style.clothing");
+        cc.openMerch = function (merch) {
+            window.open("http://www.air-style.clothing/collections/2017-merch/products/" + merch);
         };
         cc.borderButtonHover = false;
 
