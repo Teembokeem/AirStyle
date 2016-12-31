@@ -4,11 +4,11 @@ avatar-panels {
 
         .title-row {
             margin-bottom: 3rem;
-            // display: flex;
+            display: flex;
             justify-content: center;
 
             .col {
-                // display: flex;
+                display: flex;
                 justify-content: center;
 
                 span {
@@ -20,7 +20,7 @@ avatar-panels {
         }
         >.row:nth-child(2) {
             flex-flow: row wrap;
-            // display: -webkit-flex;
+            display: -webkit-flex;
             justify-content: center;
             >.col {
                 min-width: 300px;
@@ -30,13 +30,13 @@ avatar-panels {
                 >.container {
                     width: 100%;
                     position: relative;
-                    // display: flex;
+                    display: flex;
                     justify-content: center;
                     margin: 0 auto;
 
                     .row {
                         > .hover-bar {
-                            // display: none;
+                            display: none;
                             position: absolute;
                             top: 0;
                             left: 0;
@@ -75,11 +75,11 @@ avatar-panels {
                         width: 14rem;
                         height: 6rem;
                         background-color: $as-blue;
-                        // display: flex;
+                        display: flex;
                         align-items: center;
                         justify-content: center;
                         padding-left: 1rem;
-                        transition: all 0.4s cubic-bezier(0.075, 0.82, 0.365, 1);
+                        transition: all 2s cubic-bezier(0.075, 0.82, 0.365, 1);
                         transition: background-color 1s none;
                         span {
                             color: black;
@@ -98,7 +98,7 @@ avatar-panels {
                         overflow: hidden;
 
                         .hover-bar {
-                            // display: inherit;
+                            display: inherit;
                         }
                     }
 
@@ -108,10 +108,10 @@ avatar-panels {
                         // left: -4rem;
                         right: auto;
                         padding-left: 0.5rem;
-                        // display: flex;
+                        display: flex;
                         background-color: transparent;
                         align-items: center;
-                        transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+                        transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
                         transition: background-color 1s none;
                         width: inherit;
                         height: inherit;
@@ -182,13 +182,13 @@ avatar-panels {
                     width: 65%;
                     height: 7rem;
                     background-color: $as-blue;
-                    // display: flex;
+                    display: flex;
                     justify-content: flex-start;
                     flex-flow: row wrap;
                     align-items: center;
 
                     span {
-                        // display: block;
+                        display: block;
                         width: 100%;
                         color: black;
                         font-family: 'Apercu';
@@ -211,7 +211,7 @@ avatar-panels {
             align-content: center;
             justify-content: center;
             padding-top: 0.3rem;
-            // display: flex;
+            display: flex;
             position: relative;
             flex-flow: row wrap;
             .col {
@@ -219,13 +219,13 @@ avatar-panels {
                 max-height: 47px;
                 height: 47px;
                 border: 3px solid white;
-                // display: flex;
+                display: flex;
                 justify-content: center;
                 align-items: center;
                 button {
                     height: 100%;
                     border: none;
-                    // display: flex;
+                    display: flex;
                     align-items: center;
                     span {
                         font-size: 18px;
