@@ -1,7 +1,47 @@
 shapes {
-    img {
+    .shape {
         position: absolute;
-        left: 300px;
         transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    .line {
+        left: 300px;
+    }
+
+    .rectangle {
+        right: 300px;
+    }
+
+    .half-plus {
+        left: 450px;
+    }
+    
+    .s {
+        left: 120px;
+    }
+    
+    .l {
+        right: 600px;
+    }
+
+    .lines {
+        right: 443px;
+    }
+
+
+    .triangle {
+        left: 612px;
+    }
+
+    .green-line {
+        left: 930px;
+    }
+
+    .other-line {
+        right: 510px;
+    }
+
+    .hollow-rectangle {
+        left: 756px;
     }
 }
