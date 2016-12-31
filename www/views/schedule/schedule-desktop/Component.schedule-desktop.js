@@ -24,7 +24,7 @@
         }
 
         cc.go = function (link) {
-            window.location = link;
+            window.open(link);
         };
 
         $scope.$watch(function () {

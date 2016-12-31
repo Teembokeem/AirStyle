@@ -27,7 +27,7 @@
         }
 
         function go(link) {
-            window.location = link;
+            window.open(link);
         };
 
         cc.$onInit = function () {

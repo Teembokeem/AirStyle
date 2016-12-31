@@ -20,7 +20,7 @@
         cc.tourRef = $stateParams.tour;
 
         function go(link) {
-            window.location = link;
+            window.open(link);
         };
 
         function stateChange(dest) {

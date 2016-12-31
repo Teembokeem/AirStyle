@@ -42,7 +42,8 @@
                                 dest: 'https://airandstyle.frontgatetickets.com/'
                             },
                             {
-                                label: 'SCHEDULE',
+                                label: 'SCHEDULE COMING SOON',
+                                disabled: true,
                                 outbound: false,
                                 dest: 'app.schedule'
                             }

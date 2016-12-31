@@ -1,9 +1,9 @@
-(function() {
+(function () {
     'use strict';
     angular.module('Template')
         .component('videoComp', {
             bindings: {
-                video:'='
+                video: '='
             },
             templateUrl: 'views/global-components/video-comp/video-comp.html',
             controller: videoCompCtrl,
@@ -17,12 +17,12 @@
 
         cc.link = 0;
         // cc.go = function (link) {
-        //     window.location = link;
+        //     window.open(link;
         // };
 
-        $scope.$watch(function() {
+        $scope.$watch(function () {
             return $window.innerWidth;
-        }, function(a, b, c) {
+        }, function (a, b, c) {
             cc.width = 0.80 * $window.innerWidth;
             cc.length = 315 / 560 * cc.width;
             //     // console.log(a, b, c)
@@ -41,7 +41,7 @@
 
         })
 
-        cc.$onInit = function() {
+        cc.$onInit = function () {
             cc.video = $sce.trustAsResourceUrl(cc.video);
 
         }

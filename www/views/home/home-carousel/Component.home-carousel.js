@@ -39,7 +39,7 @@
 
 
         function go(link) {
-            window.location = link;
+            window.open(link);
         };
 
         function moveSlide(index) {

@@ -16,7 +16,7 @@
         var cc = this;
 
         // cc.go = function (link) {
-        //     window.location = link;
+        //     window.open(link;
         // };
 
         // $scope.$watch(function () {
@@ -41,7 +41,7 @@
         cc.stateChange = stateChange;
 
         function stateChange(state, val) {
-            val ? $state.go(state, {avatar: val}) : $state.go(state);
+            val ? $state.go(state, { avatar: val }) : $state.go(state);
         }
 
         cc.$onInit = function () {

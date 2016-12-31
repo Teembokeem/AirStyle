@@ -18,7 +18,7 @@
         cc.timeSlots = ['1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm']
 
         cc.go = function (link) {
-            window.location = link;
+            window.open(link);
         };
 
         $scope.$watch(function () {

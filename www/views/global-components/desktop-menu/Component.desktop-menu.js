@@ -18,13 +18,15 @@
             riders: false,
             tickets: false,
             merch: false
-        }
+        };
 
 
 
         cc.currentState = $state.current.name
         cc.venue = $stateParams.tour ? Tours($stateParams.tour) : null
         cc.toggleNav = toggleNav;
+        cc.go = go;
+
 
         $rootScope.$on('tourStopMenuClose', function (e, d) {
             console.log(e, d)
@@ -37,6 +39,12 @@
             cc.noNav = !cc.noNav;
             $scope.$emit('darkenNav');
         };
+
+        function go(id) {
+            if (id == 'merch') {
+                window.open('https://www.air-style.clothing/collections/2017-merch/products/')
+            }
+        }
 
         cc.$onInit = function () {
             $scope.$watch(function () {

@@ -1,4 +1,4 @@
-(function() {
+(function () {
     'use strict';
     angular.module('Artist.view.module')
         .component('artistBio', {
@@ -14,11 +14,11 @@
 
     function artistBioCtrl($log, $stateParams, Artists, $sce) {
         var cc = this;
-        cc.go = function(link) {
-            window.location = link;
+        cc.go = function (link) {
+            window.open(link);
         };
 
-        cc.$onInit = function() {
+        cc.$onInit = function () {
             cc.artist = Artists($stateParams.avatar);
             cc.artist.spotify = $sce.trustAsResourceUrl(cc.artist.spotify);
         }
