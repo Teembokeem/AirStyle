@@ -10831,7 +10831,7 @@ avatar-panels > .container {
     justify-content: center; }
     avatar-panels > .container > .row:nth-child(2) > .col {
       min-width: 300px;
-      margin: 0 3rem 5rem 3rem;
+      margin: 0 1rem 8rem 1rem;
       position: relative; }
       avatar-panels > .container > .row:nth-child(2) > .col > .container {
         width: 100%;
@@ -10899,7 +10899,7 @@ avatar-panels > .container {
         position: absolute;
         bottom: -3rem;
         right: auto;
-        padding-left: 0;
+        padding-left: 0.5rem;
         display: flex;
         background-color: transparent;
         align-items: center;
