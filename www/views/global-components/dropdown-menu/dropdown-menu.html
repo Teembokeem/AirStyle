@@ -4,7 +4,7 @@
             <span>{{cc.contextMenu.name | uppercase}}</span>
         </div>
     </div>
-    <div ng-repeat="menuItem in cc.contextMenu.items" ng-click="cc.stateChange(menuItem.route, menuItem.ref, cc.contextMenu.ref)"
+    <div ng-repeat="menuItem in cc.contextMenu.items" ng-click="cc.stateChange(menuItem.route, menuItem.ref, cc.contextMenu.ref, menuItem.outbound)"
         class="hover row {{menuItem.class ? menuItem.class : ''}}">
         <div class="col">
             <span>{{menuItem.name | uppercase}}</span>
