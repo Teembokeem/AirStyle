@@ -44,7 +44,7 @@
                     },
                     'zhu': {
                         name: 'ZHU',
-                        img_portrait: '../img/artists/portrait/ZHU_Portrait.jpg',
+                        img_portrait: '../img/artists/portrait/Zhu_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/ZHU_Landscape.jpg',
                         ref: 'zhu',
                         location: 'indoor stage',
@@ -462,6 +462,24 @@
                         spotify: 'https://open.spotify.com/artist/2b6gc4EVpO6OTlDvKrK852',
                         video: 'https://www.youtube.com/embed/9mOMmP_aKso'
                     },
+                    'millencolin': {
+                        name: 'Millencolin',
+                        ref: 'millencolin',
+                        img_portrait: '../img/artists/portrait/Millencolin_Portrait.jpg',
+                        img_landscape: '../img/artists/landscape/Millencolin_Landscape.jpg',
+                        location: 'main stage',
+                        time: 'fri 3 6pm',
+                        info: [
+                            "Punk tunes and skateboard passion: that’s what Millencolin is all about! Inspired by thSouthern California hardcore sounds of Operation Ivy, the Descendents, and NOFX, friends Nicola Sarcevic, Mathias Färm, Erik Ohlson and Frederik Larzon formed the Scandinavian skate punk unit roughly 23 years, seven albums, and 1,500 live shows ago. Not many people know it, but Millencolin are actually named after the skateboard trick, the “melancholy” grab (also known as “sad air”)."
+                        ],
+                        tweet: 'https://twitter.com/theluckychops',
+                        fb: 'https://www.facebook.com/TheLuckyChops',
+                        inst: 'https://www.instagram.com/theluckychops/',
+                        youtube: 'https://www.youtube.com/channel/UCYfFuHmTC6-i43qoYmXckbQ',
+                        website: 'http://www.luckychops.com/',
+                        spotify: 'https://open.spotify.com/artist/2b6gc4EVpO6OTlDvKrK852',
+                        video: 'https://www.youtube.com/embed/9mOMmP_aKso'
+                    },
                     'tommy-cash': {
                         name: 'Tomm\xA5 \u20aca$h',
                         ref: 'tommy-cash',
@@ -543,7 +561,7 @@
                         location: 'main stage',
                         time: 'fri 3 2pm',
                         info: [
-                            'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
+                            "Wax Wreckaz are a DJ/production outfit hailing directly from Innsbruck. The crew consists ofBusy Fingaz, Juwee, Fu and Sensay. The four music lovers grew up with very different social backgrounds and interests, but nevertheless found their own style. Their skillful, handcrafted DJ-sets on four turntables and two mixers are packed with gimmicks, live-remixes and unique versions of songs that you won’t hear anywhere else. They’ve already turned dancefloors upside down from Munich to Managua and now we’re happy to host them on their home turf."
                         ],
                         tweet: 'https://twitter.com/waxwreckaz',
                         fb: 'https://www.facebook.com/waxwreckaz',
@@ -579,7 +597,7 @@
                         location: 'main stage',
                         time: 'fri 3 2pm',
                         info: [
-                            'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
+                            "The U.K. punk band Counterfeit exploded onto the London scene in 2015 with their feral debut 'Come Get Some'. They pursue a darker, more aggressive, and cathartic sound than you have  ever heard before. You may know the frontman Jamie Campbell Bower from somewhere else  though. That’s right, he started his career acting in several known movies like Sweeny Todd, the  Twilight series, and Harry Potter. But we have to say he cuts a fine figure on the stage as well!"
                         ],
                         tweet: 'https://twitter.com/counterfeitrock',
                         fb: 'https://www.facebook.com/therealcounterfeit',
@@ -597,7 +615,7 @@
                         location: 'main stage',
                         time: 'fri 3 2pm',
                         info: [
-                            'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
+                            "Listen up... One for the famous, two for the deck! Not only for VIPs or skateboard-heads—everybody gets hollered at. Famous Deck Team (aka DJ Smart and DJ Crypt) fills the dance floor and makes everybody move with a combination of Funk, Soul, legendary 80s tracks with old school Hip Hop, and electric beats. “Make Em Say Aaa!” is their slogan and they’ll make the crowd go nuts every single time."
                         ],
                         tweet: 'https://twitter.com/TommyCrypt',
                         fb: 'https://www.facebook.com/famousdeckteam/',
@@ -608,14 +626,14 @@
                         video: 'https://youtube.com/embed/on1CLL1qoU8'
                     },
                     'pendulum': {
-                        name: 'Pendulum',
+                        name: 'Pendulum DJ Set & Verse',
                         ref: 'pendulum',
                         img_portrait: '../img/artists/portrait/Pendulum_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Pendulum_Landscape.jpg',
                         location: 'main stage',
                         time: 'fri 3 2pm',
                         info: [
-                            'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
+                            "Hailing from Perth, Australia, Pendulum holds formative roots ranging from drum and bass,break beat, even hardcore metal and punk. Their comparative talents proved unstoppable, and they single-handedly conquered the world of drum and bass. DJ El Hornet & MC Verse spread the word of Pendulum with their DJ Sets throughout the world, appearing at a myriad of international clubs and festivals worldwide."
                         ],
                         tweet: 'https://twitter.com/pendulum',
                         fb: 'https://www.facebook.com/pendulum',
@@ -626,14 +644,14 @@
                         video: 'https://youtube.com/embed/ogMNV33AhCY'
                     },
                     'red-bull': {
-                        name: 'Red Bull WHO ROCKS THE CROWD',
+                        name: 'Red Bull',
                         ref: 'red-bull',
                         img_portrait: '../img/artists/portrait/Red-Bull-WHO-ROCKZ-THE-CROWD_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Red-Bull-WHO-ROCKZ-THE-CROWD_Landscape.jpg',
                         location: 'main stage',
                         time: 'fri 3 2pm',
                         info: [
-                            'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
+                            "The athletes are not the only ones who will compete at the Air + Style Festival Innsbruck-Tirol2017! Red Bull brings two of the best German sound systems on one stage: TAIT EITA Soundsytem and AFROB Soundsytem. The challenge: WHO ROCKZ THE CROWD more? So bring it on and let the DJ games begin!"
                         ],
                         tweet: 'https://twitter.com/redbullrecords',
                         fb: 'https://www.facebook.com/RedBullRecords/',
@@ -651,7 +669,7 @@
                         location: 'main stage',
                         time: 'fri 3 2pm',
                         info: [
-                            'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
+                            "Rebecca Gruber aka Violett Shock is the youngest DJane in Austria. She had her first gig at theage of 14 and has been unstoppable ever since. Her mix of old and new tracks is always guaranteed to get the crowd shaking all night long—whether at her residence at the Studio 21 or any other club! Get ready to pull an all nighter because you won’t want to stop when Violett Shock is on the turntables."
                         ],
                         tweet: 'https://twitter.com/violettshock',
                         fb: 'https://www.facebook.com/djaneviolett.shock/',
