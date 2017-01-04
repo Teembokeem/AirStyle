@@ -13,8 +13,11 @@ rider-bio {
                     margin-bottom: 2rem;
                     .row {
                         .col {
+                            display: flex;
+                            justify-content: center;
                             span {
                                 font-size: 50px;
+                                padding-bottom: 1rem;
                                 border-bottom: 5px solid $as-blue;
                             }
                         }
@@ -313,6 +316,7 @@ rider-bio {
                                 iframe {
                                     height: 23vw;
                                     max-height: 430px;
+                                    width: 100%;
                                 }
                             }
                         }
