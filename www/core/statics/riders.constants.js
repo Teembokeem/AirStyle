@@ -97,13 +97,13 @@
                         first: 'Antoine',
                         last: 'Truchon'
                     },
-                    nation: 'Sweden',
+                    nation: 'Canada',
                     sponsors: ['YONEX', 'Absolut Park', 'Giro', 'Pop Headwear'],
-                    homeBase: 'Malung',
-                    dob: new Date('04/10/1994'),
+                    homeBase: 'Sainte Adele',
+                    dob: new Date('12/30/1990'),
                     stance: 'Regular',
                     bio: [
-                        'This young Swede is on the warpath, sporting a sick bag of tricks with bangers like cab 1440s and a bunch of Triple Corks. Sven has one of the smoothest styles out there and he stomps the biggest tricks like it ain’t no thang. Sven took home top honors at the Los Angeles Air+Style 2016 and snagged himself the Ring of Glory. Make some noise for the champ!'
+                        "Coming out of Quebec, Canada, Antoine has been killing it these past few seasons and has wonsome of the most prestigious events in the world such as the Toyota Big Air in Japan, the Freestyle.ch in Switzerland and the Style Wars in Australia. Antoine has what it takes to make the ground shake and keep the crowd going crazy. His style is smooth as silk and he’s got a massive bag of heavy tricks. Better watch out!"
                     ],
                     ref: 'Antoine-Truchon',
                     img_portrait: 'img/loRiders/Antoine-Truchon.jpg',
@@ -121,47 +121,18 @@
                         }
                     }
                 },
-                'Brandon-Davis': {
-                    name: {
-                        first: 'Brandon',
-                        last: 'Davis'
-                    },
-                    nation: 'Sweden',
-                    sponsors: [],
-                    homeBase: 'Malung',
-                    dob: new Date('04/10/1994'),
-                    stance: 'Regular',
-                    bio: [
-                        'This young Swede is on the warpath, sporting a sick bag of tricks with bangers like cab 1440s and a bunch of Triple Corks. Sven has one of the smoothest styles out there and he stomps the biggest tricks like it ain’t no thang. Sven took home top honors at the Los Angeles Air+Style 2016 and snagged himself the Ring of Glory. Make some noise for the champ!'
-                    ],
-                    ref: 'Brandon-Davis',
-                    img_portrait: 'img/loRiders/Brandon-Davis.jpg',
-                    tweet: '',
-                    fb: 'https://www.facebook.com/brandon.davis.5494?fref=ts',
-                    inst: 'https://www.instagram.com/brandonjdavis/?hl=en',
-                    youtube: '',
-                    video: 'https://www.youtube.com/embed/Sgu00dLNVS8',
-                    scores: {
-                        '2016': {
-                            beijing: {
-                                score: '22.76',
-                                eventName: 'beijing'
-                            }
-                        }
-                    }
-                },
                 'Billy-Morgan': {
                     name: {
                         first: 'Billy',
                         last: 'Morgan'
                     },
-                    nation: 'Sweden',
-                    sponsors: ['Red Bull', 'No Fear'],
-                    homeBase: 'Malung',
-                    dob: new Date('04/10/1994'),
-                    stance: 'Regular',
+                    nation: 'GB',
+                    sponsors: ['Red Bull', 'No Fear', 'Grenade', 'Ride Snowboard'],
+                    homeBase: 'South Hampton',
+                    dob: new Date('04/02/1989'),
+                    stance: 'Goofy',
                     bio: [
-                        'This young Swede is on the warpath, sporting a sick bag of tricks with bangers like cab 1440s and a bunch of Triple Corks. Sven has one of the smoothest styles out there and he stomps the biggest tricks like it ain’t no thang. Sven took home top honors at the Los Angeles Air+Style 2016 and snagged himself the Ring of Glory. Make some noise for the champ!'
+                        "There aren’t many pro snowboarders from Great Britain, but Billy Morgan has the type ofdedication to make the best out of any situation. After moving overseas, Billy fine-tuned his skills and developed into an extremely strong rider. He consistently delivers solid contest results and shocks the crowd with his impressive bag of tricks. Billy made history in the 2015 season by stomping the very first Quad Cork ever. Yup, the kid’s insane, and we’re super hyped to have him back on the tou"
                     ],
                     ref: 'Billy-Morgan',
                     img_portrait: 'img/loRiders/Billy-Morgan.jpg',
@@ -193,7 +164,7 @@
                         'He might still be a teenager, but Boris is impressive as all hell. The young French rider has been ripping at many big events over the past few years, quickly making a name for himself. At just 15 years old, Boris went all the way to the finals at the O’Neill Evolution Big Air Contest in Davos, Switzerland, and he’s been on the podium on many other events, often finishing higher than established pros. Boris loves to ride rails and is equally good in the half pipe. He’s got some heavy stunts in his arsenal!'
                     ],
                     ref: 'Boris-Mouton',
-                    img_portrait: 'img/loRiders/Boris-Mouton.jpg',
+                    img_portrait: 'img/loRiders/anon.jpg',
                     tweet: 'https://twitter.com/borismouton',
                     fb: 'https://www.facebook.com/BorisMouton/',
                     inst: 'https://www.instagram.com/borismouton/',
@@ -203,6 +174,35 @@
                         '2016': {
                             beijing: {
                                 score: 'N/A',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
+                },
+                'Brandon-Davis': {
+                    name: {
+                        first: 'Brandon',
+                        last: 'Davis'
+                    },
+                    nation: 'USA',
+                    sponsors: ['Ride', 'Neff', 'Rockstar'],
+                    homeBase: 'Mammoth Lakes',
+                    dob: new Date('08/30/1995'),
+                    stance: 'Regular',
+                    bio: [
+                        "Although he’s just now making a name for himself across the globe, Brandon Davis is already anestablished star in the US. Extremely smooth, very stylish, incredibly technical on jumps, and probably one of the finest jibbers out. Brandon is reigning WST World Champion in Slopestlye—please do yourself a favor and check out his winning run from Yabuli; jaw dropping stuff! We can guarantee that you are going to see and hear a lot more of Brandon in the future."
+                    ],
+                    ref: 'Brandon-Davis',
+                    img_portrait: 'img/loRiders/Brandon-Davis.jpg',
+                    tweet: '',
+                    fb: 'https://www.facebook.com/brandon.davis.5494?fref=ts',
+                    inst: 'https://www.instagram.com/brandonjdavis/?hl=en',
+                    youtube: '',
+                    video: 'https://www.youtube.com/embed/Sgu00dLNVS8',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '22.76',
                                 eventName: 'beijing'
                             }
                         }
@@ -222,7 +222,7 @@
                         'Chas Guldemond has cemented his place among the best of the best. Dude is a competition machine—you name it, he’s won it: Toyota Big Air, Dew Tour, Arctic Challenge, and he is a former World Champion in Slopestyle. Chas already has an impressive collection of trophies, the only thing missing is a podium finish at an Air+Style event and Chas is aiming to change that. Welcome back to Air+Style, Chas!'
                     ],
                     ref: 'Chas-Guldemond',
-                    img_portrait: 'img/loRiders/Chas-Guldemond.jpg',
+                    img_portrait: 'img/loRiders/anon.jpg',
                     tweet: 'https://twitter.com/chasguldemond',
                     fb: 'https://www.facebook.com/ChuckG.tv/',
                     inst: 'https://www.instagram.com/chasguldemond/',
@@ -330,12 +330,12 @@
                         last: 'Willett'
                     },
                     nation: 'USA',
-                    sponsors: ['GoPro', 'Giro', 'Vans'],
-                    homeBase: 'Lake Winola, PA',
-                    dob: new Date('01/14/1991'),
+                    sponsors: ['GoPro', 'Giro', 'Vans', 'Breckenridge'],
+                    homeBase: 'Frisco, CO',
+                    dob: new Date('02/01/1988'),
                     stance: 'Goofy',
                     bio: [
-                        'Eric what? Eric who? Eric Bauchemin. There’s no other way to say it—Eric is a genuine American ripper hailing from Michigan. A graduate of the Stratton Mountain School—the best and most prestigious snowboard school in America—Eric loves competitions, kills kickers and rocks rails. He’s one to keep your eye on at Air+Style.'
+                        "Born and raised near Breckenridge, Colorado, Eric Willett started snowboarding at the young age of 6 and really put himself on the map after winning a silver medal at his X Games debut in 2010. He’s an absolute beast on the competition scene and regularly finishes in the top 10 at Air + Style. Proving he has what it takes to go up against the best in the world, Willett is one of our few tour riders who has won gold in a World Cup event (slopestyle at the 2015 Grand Prix in Park City, Utah). He’s a top contender for the 2018 USA Olympics team and is sure to put on a show for Air + Style in 2017!"
                     ],
                     ref: 'Eric-Willett',
                     img_portrait: 'img/loRiders/Eric-Willett.jpg',
@@ -358,12 +358,13 @@
                         first: 'He',
                         last: 'Wei'
                     },
-                    nation: '',
+                    nation: 'China',
                     sponsors: ['Burton', 'Red Bull'],
-                    homeBase: '',
-                    dob: new Date('04/05/1995'),
-                    stance: '',
+                    homeBase: 'Ji Lin province',
+                    dob: new Date('04/13/1990'),
+                    stance: 'Regular',
                     bio: [
+                        "Also known as “Tiger,” He Wei is the new face of snowboarding in China. Progressing at anunbelievable rate, Wei has quickly racked up impressing rankings in his young career. No stranger to pressure, Wei landed his first ever Double Cork in competition at the 2014 Air + Style Beijing stop, showing he was a force to be reckoned with. With his 8th place finish at the Redbull Nanshan Open, Wei managed to score the best result of a Chinese rider ever at a world snowboard tour tournament— proving that snowboarding is rapidly evolving in the east. “Tiger” has the drive, talent, and tenacity to usher in a whole new era for snowboarding in China."
                     ],
                     ref: 'He-Wei',
                     img_portrait: 'img/loRiders/He-Wei.jpg',
@@ -415,12 +416,13 @@
                         first: 'Junze',
                         last: 'Yin'
                     },
-                    nation: '',
+                    nation: 'China',
                     sponsors: [],
                     homeBase: '',
-                    dob: new Date('04/05/1995'),
+                    dob: '',
                     stance: '',
                     bio: [
+                        'Junze Yin is a fresh face to Air + Style. You’ll be seeing and hearing more about this Chinese rider soon.'
                     ],
                     ref: 'Junze-Yin',
                     img_portrait: 'img/loRiders/Junze-Yin.jpg',
@@ -443,12 +445,13 @@
                         first: 'Jia Hao',
                         last: 'Zhang'
                     },
-                    nation: '',
+                    nation: 'China',
                     sponsors: [],
                     homeBase: '',
                     dob: new Date('04/05/1995'),
                     stance: '',
                     bio: [
+                        'Jiahao Zhang is a fresh face to Air + Style. You’ll be seeing and hearing more about this Chinese rider soon.'
                     ],
                     ref: 'Jia-Hao-Zhang',
                     img_portrait: 'img/loRiders/Jia-Hao-Zhang.jpg',
@@ -611,6 +614,64 @@
                         }
                     }
                 },
+                'Mans-Hedberg': {
+                    name: {
+                        first: 'Måns',
+                        last: 'Hedberg'
+                    },
+                    nation: 'Sweden',
+                    sponsors: ['Horsefeathers', 'Lobster', 'VANS'],
+                    homeBase: 'Bollnäs',
+                    dob: new Date('12/14/1993'),
+                    stance: 'Regular',
+                    bio: [
+                        "If you don’t know Måns, you’ve been missin’ out! Måns Hedberg is an upcoming young Swedishripper who hails from Bollnäs, a little town not far away from Sweden’s finest snowpark in Kläppen. While Måns absolutely destroys anything in his path, he feels most comfortable on big jumps (lucky for us!). On any given day, Måns is likely to toss out Triple Backflips, Triple Cork variations, and a bunch of different 1260s and 1440s served with a heaping side of style guaranteed to raise more than a few eyebrows."
+                    ],
+                    ref: 'Mans-Hedberg',
+                    img_portrait: 'img/loRiders/Måns-Hedberg.jpg',
+                    tweet: '',
+                    fb: 'https://www.facebook.com/mans.hedberg2/',
+                    inst: 'https://www.instagram.com/hedbergmans/',
+                    youtube: 'https://www.youtube.com/user/manshedbergg',
+                    video: 'https://www.youtube.com/embed/S1357vJiNK0',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '37.95',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
+                },
+                'Mark-McMorris': {
+                    name: {
+                        first: 'Mark',
+                        last: 'McMorris'
+                    },
+                    nation: 'Canada',
+                    sponsors: ['Oakley', "Burton", 'Red Bull', 'DVS', 'BMW'],
+                    homeBase: 'Regina',
+                    dob: new Date('12/09/1993'),
+                    stance: 'Regular',
+                    bio: [
+                        "He might still be young, but Mark McMorris is one of the biggest names in snowboarding.Quickly establishing himself as a leader on the international competition scene, McMorris has pushed the limits of what’s possible in the sport. He’s won more or less every big snowboard event, landed the first Backside Triple Cork 1440 ever, and has even been on the podium at the Winter Olympics. Not bad... All these impressive achievements are proof that Mark McMorris is part the absolute elite in snowboarding and is still hungry for more."
+                    ],
+                    ref: 'Mark-McMorris',
+                    img_portrait: 'img/loRiders/Mark-McMorris.jpg',
+                    tweet: 'https://twitter.com/markmcmorris',
+                    fb: 'https://www.facebook.com/markleemcmorris/',
+                    inst: 'https://www.instagram.com/maximumgames/',
+                    youtube: 'https://www.youtube.com/user/MaximumFamilyGames/about',
+                    video: 'https://www.youtube.com/embed/lhFxx_CJ9h4',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '74.27',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
+                },
                 'Markus-Kleveland': {
                     name: {
                         first: 'Markus',
@@ -640,76 +701,18 @@
                         }
                     }
                 },
-                'Mans-Hedberg': {
-                    name: {
-                        first: 'Måns',
-                        last: 'Hedberg'
-                    },
-                    nation: 'Norway',
-                    sponsors: [],
-                    homeBase: 'Dombas',
-                    dob: new Date('04/25/1999'),
-                    stance: 'Goofy',
-                    bio: [
-                        'Marcus Kleveland is one of the young guns to watch. Dude started pulling 1260s at 12 years old and has kept right on ruling it. A year later he landed a Backside Triple Cork 1440 Mute. Marcus is still far from a finished product, with the potential to push the limits of snowboarding. He rode away from a Quad Cork 1800. He won the whole enchilada at Air+Style Beijing with jaw dropping tricks such as a Cab Triple 1620. Pure insanity!'
-                    ],
-                    ref: 'Mans-Hedberg',
-                    img_portrait: 'img/loRiders/Måns-Hedberg.jpg',
-                    tweet: '',
-                    fb: 'https://www.facebook.com/mans.hedberg2/',
-                    inst: 'https://www.instagram.com/hedbergmans/',
-                    youtube: 'https://www.youtube.com/user/manshedbergg',
-                    video: 'https://www.youtube.com/embed/S1357vJiNK0',
-                    scores: {
-                        '2016': {
-                            beijing: {
-                                score: '37.95',
-                                eventName: 'beijing'
-                            }
-                        }
-                    }
-                },
-                'Mark-McMorris': {
-                    name: {
-                        first: 'Mark',
-                        last: 'McMorris'
-                    },
-                    nation: 'Norway',
-                    sponsors: ['Oakley', "Burton", 'Red Bull'],
-                    homeBase: 'Dombas',
-                    dob: new Date('04/25/1999'),
-                    stance: 'Goofy',
-                    bio: [
-                        'Marcus Kleveland is one of the young guns to watch. Dude started pulling 1260s at 12 years old and has kept right on ruling it. A year later he landed a Backside Triple Cork 1440 Mute. Marcus is still far from a finished product, with the potential to push the limits of snowboarding. He rode away from a Quad Cork 1800. He won the whole enchilada at Air+Style Beijing with jaw dropping tricks such as a Cab Triple 1620. Pure insanity!'
-                    ],
-                    ref: 'Mark-McMorris',
-                    img_portrait: 'img/loRiders/Mark-McMorris.jpg',
-                    tweet: 'https://twitter.com/markmcmorris',
-                    fb: 'https://www.facebook.com/markleemcmorris/',
-                    inst: 'https://www.instagram.com/maximumgames/',
-                    youtube: 'https://www.youtube.com/user/MaximumFamilyGames/about',
-                    video: 'https://www.youtube.com/embed/lhFxx_CJ9h4',
-                    scores: {
-                        '2016': {
-                            beijing: {
-                                score: '74.27',
-                                eventName: 'beijing'
-                            }
-                        }
-                    }
-                },
                 'Maximilian-Preissinger': {
                     name: {
                         first: 'Maximilian',
                         last: 'Preissinger'
                     },
-                    nation: 'Canada',
-                    sponsors: ['Vans', "Absolut Park", 'Electric', 'Planet Sports', 'Ride Snowboards'],
-                    homeBase: 'Ontario',
-                    dob: new Date('09/04/1996'),
-                    stance: 'Goofy',
+                    nation: 'Germany',
+                    sponsors: ['Ride', "Bonfire", 'Absolut Park', 'Planet Sports'],
+                    homeBase: 'Starnberg',
+                    dob: new Date('07/05/1998'),
+                    stance: 'Regular',
                     bio: [
-                        'Notorious for his extremely smooth style and technical bangers, Mikey Ciccarelli is a strong talent coming up from Ontario, Canada, doing the hard stuff and making it look too easy. Keep your eyes on him.'
+                        "Although he’s still just a teen, Maximilian Preissinger is one of the biggest players in the field(literally). The six-foot-two Bavarian Giant goes equally big on his board, and we’re more than happy to have him back at Air + Style."
                     ],
                     ref: 'Maximilian-Preissinger',
                     img_portrait: 'img/loRiders/Maximilian-Preissinger.jpg',
@@ -722,35 +725,6 @@
                         '2016': {
                             beijing: {
                                 score: '32.64',
-                                eventName: 'beijing'
-                            }
-                        }
-                    }
-                },
-                'Mons-Roeisland': {
-                    name: {
-                        first: 'Mons',
-                        last: 'Røisland'
-                    },
-                    nation: 'Canada',
-                    sponsors: ['DC', "Sweet Protection"],
-                    homeBase: 'Ontario',
-                    dob: new Date('09/04/1996'),
-                    stance: 'Goofy',
-                    bio: [
-                        'Notorious for his extremely smooth style and technical bangers, Mikey Ciccarelli is a strong talent coming up from Ontario, Canada, doing the hard stuff and making it look too easy. Keep your eyes on him.'
-                    ],
-                    ref: 'Mons-Roeisland',
-                    img_portrait: 'img/loRiders/Mons-Røisland.jpg',
-                    tweet: 'https://twitter.com/monsroisland',
-                    fb: 'https://www.facebook.com/mons.roisland',
-                    inst: 'https://www.instagram.com/monsroisland/?hl=en',
-                    youtube: 'https://www.youtube.com/channel/UCkpTd7h2Mn2P_QpjZHj8A6w',
-                    video: 'https://www.youtube.com/embed/hhJQ_uq2NFU',
-                    scores: {
-                        '2016': {
-                            beijing: {
-                                score: '69.34',
                                 eventName: 'beijing'
                             }
                         }
@@ -785,18 +759,47 @@
                         }
                     }
                 },
+                'Mons-Roeisland': {
+                    name: {
+                        first: 'Mons',
+                        last: 'Røisland'
+                    },
+                    nation: 'Norway',
+                    sponsors: ['DC', "Sweet Protection", 'Oakley', 'Union', 'Monster'],
+                    homeBase: 'Høvik',
+                    dob: new Date('01/28/1997'),
+                    stance: 'Regular',
+                    bio: [
+                        "After a breakout park in DC’s 2010 movie “IT” alongside riders like Torstein Horgmo and MatsHofgaard, Mons Røisland showed he had what it takes to stand out as the only am on DC’s pro team. His chops on the contest circuit aren’t too shabby either; in 2015 Møns bronze medaled at the X-Games Slopestyle event, landing a bad ass Switch Backside Triple 1620 in his run. Keep your eye out for this Norwegian beast—he’s sure to throw down some bangers at Air + Style."
+                    ],
+                    ref: 'Mons-Roeisland',
+                    img_portrait: 'img/loRiders/Mons-Røisland.jpg',
+                    tweet: 'https://twitter.com/monsroisland',
+                    fb: 'https://www.facebook.com/mons.roisland',
+                    inst: 'https://www.instagram.com/monsroisland/?hl=en',
+                    youtube: 'https://www.youtube.com/channel/UCkpTd7h2Mn2P_QpjZHj8A6w',
+                    video: 'https://www.youtube.com/embed/hhJQ_uq2NFU',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '69.34',
+                                eventName: 'beijing'
+                            }
+                        }
+                    }
+                },
                 'Moritz-Thoenen': {
                     name: {
                         first: 'Moritz',
                         last: 'Thoenen'
                     },
-                    nation: 'Switzerland',
-                    sponsors: [],
-                    homeBase: 'Spiez',
-                    dob: new Date('12/23/1996'),
+                    nation: 'Schweiz',
+                    sponsors: ['Vimana', 'Union', 'Dragon'],
+                    homeBase: 'Hilterfingen',
+                    dob: new Date('12/09/1996'),
                     stance: 'Regular',
                     bio: [
-                        'Forget chocolate and heirloom timepieces, Switzerland’s new big export is exceptional snowboard talent. Michael is a masterpiece of the Swiss Snowboard Federation. He’s got some major heavy artillery in his repertoire, like the Switch Backside 1620 and other bangers. Michael is going to celebrate his Air+Style debut this season. Good luck, buddy!  '
+                        "Making his Air + Style debut this year, Moritz Thoenen is another fine specimen in a whole armyof upcoming Swiss athletes. His rail game is insane, he does the biggest tricks with ease on big jumps, and his style makes the hardest tricks look so incredibly easy. His switch riding is so damn good, you would need a whole day to figure out if he is Regular or Goofy."
                     ],
                     ref: 'Moritz-Thoenen',
                     img_portrait: 'img/loRiders/Moritz-Thoenen.jpg',
@@ -819,13 +822,13 @@
                         first: 'Nikolas',
                         last: 'Baden'
                     },
-                    nation: 'Italia',
-                    sponsors: ['Adidas Eyewear', 'Steamboat Ski Resort'],
-                    homeBase: 'Caspoggio',
-                    dob: new Date('11/23/1993'),
+                    nation: 'USA',
+                    sponsors: ['Adidas Eyewear', 'Steamboat Ski Resort', 'Oakley'],
+                    homeBase: 'Steamboat Springs, Colorado',
+                    dob: new Date('01/13/1998'),
                     stance: 'Goofy',
                     bio: [
-                        'Nicola Diola is an Italian ripper coming out of the province of Lombardy, an area renowned more often for its simple and delicious dishes than for producing killer snowboard talents. Nonetheless, Nicola is an incredibly good rider and has forever changed the snowboard landscape in Italy. He’s the first Italian snowboarder to land a Triple Cork—a trick he seems to know well enough to pull one off in his sleep. Nicola, welcome to Air+Style!'
+                        "Coming out of Steamboat Springs, Colorado, Nik Baden is a true all around talent: double corksin the pipe, insane rail tricks, and even the biggest kickers are blasted with triples like it ain’t no thing. Anything left to say? We are delighted to have Nik back at Air + Style."
                     ],
                     ref: 'Nikolas-Baden',
                     img_portrait: 'img/loRiders/Nikolas-Baden.jpg',
@@ -944,7 +947,7 @@
                         'Ryan Stassel is a young Alaskan ripper with some big tricks and a handful of impressive results under his belt. When he’s not at his adopted home of Tahoe, California, he is traveling the world with his snowboard, laying waste to whatever terrain he comes across. In 2014, Ryan won the Slopestyle event at the USSA Grand Prix in Mammoth, beating top dawgs like Sage Kotsenburg and Shaun White. Ryan, all the best for your Air+Style debut!'
                     ],
                     ref: 'Ryan-Stassel',
-                    img_portrait: 'img/loRiders/Ryan-Stassel.jpg',
+                    img_portrait: 'img/loRiders/anon.jpg',
                     tweet: 'https://twitter.com/ryanstassel',
                     fb: 'https://www.facebook.com/RyanStassel',
                     inst: 'https://www.instagram.com/ryanstassel/',
@@ -1080,8 +1083,8 @@
                         first: 'Torgeir',
                         last: 'Bergrem'
                     },
-                    nation: 'Norway',
-                    sponsors: ['Volcom', 'Nitro', 'Electric'],
+                    nation: 'SWE',
+                    sponsors: ['Bataleon', 'Von Zipper', '686', 'Monster'],
                     homeBase: 'Kl\xE6bu, Trondheim',
                     dob: new Date('09/20/1991'),
                     stance: 'Goofy',
@@ -1109,13 +1112,13 @@
                         first: 'Tor',
                         last: 'Lundstrom'
                     },
-                    nation: 'Norway',
+                    nation: 'Sweden',
                     sponsors: ['Bataleon', 'Von Zipper', '686', 'Monster'],
-                    homeBase: 'Kl\xE6bu, Trondheim',
-                    dob: new Date('09/20/1991'),
+                    homeBase: 'Gothenheim',
+                    dob: new Date('01/02/1992'),
                     stance: 'Goofy',
                     bio: [
-                        'Mr. Bergrem is an absolute all-round talent. Whether it’s a kinked rail or a massive powder jump, he slays everything. You gotta love a dude that is down for anything and has the skills to kill it. This 25 year old Norwegian has already ridden several times at Air+Style. He not only shines with highly technical tricks but also with a rad style. Triple 1620s, how sick is that?!'
+                        "Tor rocks every party ‘til the bitter end and is guaranteed good times. He’ll tear up a bar tab likenothing, but that doesn’t mean he’s slippin’—far from it, actually. Tor learns tricks super fast, keeps pushes himself constantly, and permanently raises his riding to the next level every season. Last year he proved he could hang with the best of ‘em with his Air + Style debut, throwing down a Triple Backside 1440... no big deal! This year he wants to be on the podium, and we’re more than happy to have him back on the tour."
                     ],
                     ref: 'Tor-Lundstrom',
                     img_portrait: 'img/loRiders/Tor-Lundstrom.jpg',
