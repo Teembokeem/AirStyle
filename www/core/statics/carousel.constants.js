@@ -6,6 +6,7 @@
         .constant('Carousel', function (viewArg) {
             var slides = {
                 'la': {
+                    schedule: false,
                     slide: {
                         title: 'LOS ANGELES TICKETS',
                         content: 'ON SALE NOW',
@@ -42,7 +43,7 @@
                                 dest: 'https://airandstyle.frontgatetickets.com/'
                             },
                             {
-                                label: 'SCHEDULE COMING SOON',
+                                label: 'SCHEDULE',
                                 disabled: true,
                                 outbound: false,
                                 dest: 'app.schedule'
@@ -51,6 +52,7 @@
                     }
                 },
                 'innsbruck': {
+                    schedule: true,
                     slide: {
                         title: 'INNSBRUCK -TIROL TICKETS',
                         content: 'ON SALE NOW',
