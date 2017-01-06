@@ -18,6 +18,7 @@
         cc.currentFilter = 'overall';
         cc.currentYear = '2017';
         cc.filterAthletes = filterAthletes;
+        cc.chooseOption = chooseOption;
 
         function filterAthletes(param) {
             if (param == 'overall') {
@@ -26,15 +27,15 @@
                 });
             }
             else {
-
                 cc.rankingsListContent = cc.rankingsListContent.sort(function (a, b) {
-                    return b.scores[cc.currentYear][param].score - a.scores[cc.currentYear][param].score
+                    return parseInt(b.scores[cc.currentYear][param].score == 'N/A' ? 0 : b.scores[cc.currentYear][param].score) - parseInt(a.scores[cc.currentYear][param].score == 'N/A' ? 0 : a.scores[cc.currentYear][param].score)
                 })
             }
             cc.currentFilter = param;
         };
 
         function chooseOption() {
+            filterAthletes('overall');
         }
 
         cc.$onInit = function () {
@@ -272,7 +273,7 @@
 
             cc.rankingsListContent = Riders('all');
             calculateTotals(cc.rankingsListContent);
-            filterAthletes('overall')
+            filterAthletes('overall');
         }
 
         function calculateTotals(arr) {
@@ -280,11 +281,9 @@
                 Object.keys(rider.scores).forEach(function (year) {
                     var total = 0;
                     Object.keys(rider.scores[year]).forEach(function (city) {
-                        // console.log(rider.scores[year][city].score, city, year)
-                        // console.log(rider[scores][year][city])
-                        if (rider.scores[year][city].score != 'N/A') total += parseInt(rider.scores[year][city].score);
+                        if (rider.scores[year][city].score != 'N/A') total = total + parseFloat(rider.scores[year][city].score);
                     });
-                    rider.scores[year].overall = total;
+                    rider.scores[year].overall = +total.toFixed(2);
                 });
             });
         };
