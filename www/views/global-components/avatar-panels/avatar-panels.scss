@@ -1,16 +1,16 @@
 avatar-panels {
+    .col {
+        flex: 1 1 auto;
+    }
     >.container {
         padding-top: 5rem;
-
         .title-row {
             margin-bottom: 3rem;
             display: flex;
             justify-content: center;
-
             .col {
                 display: flex;
                 justify-content: center;
-
                 span {
                     font-size: 40px;
                     border-bottom: 8px solid $as-yellow;
@@ -26,28 +26,26 @@ avatar-panels {
                 min-width: 300px;
                 margin: 0 1rem 8rem 1rem;
                 position: relative;
-                
                 >.container {
                     width: 100%;
                     position: relative;
                     display: flex;
                     justify-content: center;
                     margin: 0 auto;
-
                     .row {
-                        > .hover-bar {
+                        >.hover-bar {
                             display: none;
                             position: absolute;
                             top: 0;
                             left: 0;
                             width: 100%;
                             height: 100%;
-                            background: rgba(255,255,255,0.5);
+                            background: rgba(255, 255, 255, 0.5);
                             content: '';
                             -webkit-transition: -webkit-transform 0.6s;
                             transition: transform 0.6s;
                             /* -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0); */
-                            transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+                            transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
                         }
                         max-width: 300px;
                         position: relative;
@@ -62,6 +60,7 @@ avatar-panels {
                             .panel-image {
                                 margin: 0 auto;
                                 height: 100%;
+                                width: 100%;
                                 background-repeat: no-repeat !important;
                                 background-position: center !important;
                                 transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -92,16 +91,14 @@ avatar-panels {
                     }
                 }
                 .rider-page {
-                    > .row {
+                    >.row {
                         padding-top: 0;
                         padding-bottom: 0;
                         overflow: hidden;
-
                         .hover-bar {
                             display: inherit;
                         }
                     }
-
                     .blue-container {
                         position: absolute;
                         bottom: -3rem;
@@ -115,36 +112,19 @@ avatar-panels {
                         transition: background-color 1s none;
                         width: inherit;
                         height: inherit;
-                        
                         span {
                             color: white;
                             font-family: 'Reglo-Bold';
                             font-size: 25px;
                             font-weight: bold;
                         }
-
                         span:first-child {
                             color: $as-blue;
                         }
                     }
                 }
             }
-
-            > .col.overlay.la {
-                .container { 
-                    .row {
-                        .col {
-                            .panel-image {
-                                background-color: $as-yellow !important;
-                                background-blend-mode: darken;
-                                transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
-                            }
-                        }
-                    }
-                }
-            }
-
-            > .col.overlay.innsbruck {
+            >.col.overlay.la {
                 .container {
                     .row {
                         .col {
@@ -157,12 +137,24 @@ avatar-panels {
                     }
                 }
             }
-
-            > .col.overlay.rider-hover {
+            >.col.overlay.innsbruck {
+                .container {
+                    .row {
+                        .col {
+                            .panel-image {
+                                background-color: $as-yellow !important;
+                                background-blend-mode: darken;
+                                transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+                            }
+                        }
+                    }
+                }
+            }
+            >.col.overlay.rider-hover {
                 .container {
                     .row {
                         .hover-bar {
-                            transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+                            transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
                         }
                         .col {
                             .panel-image {
@@ -172,7 +164,6 @@ avatar-panels {
                                 background-blend-mode: darken;
                             }
                         }
-
                     }
                 }
                 .blue-container {
@@ -186,7 +177,6 @@ avatar-panels {
                     justify-content: flex-start;
                     flex-flow: row wrap;
                     align-items: center;
-
                     span {
                         display: block;
                         width: 100%;
@@ -195,7 +185,6 @@ avatar-panels {
                         font-size: 30px;
                         font-weight: bold;
                     }
-
                     span:first-child {
                         margin-bottom: -1rem;
                         margin-top: 1rem;
@@ -203,7 +192,6 @@ avatar-panels {
                 }
             }
         }
-
         .more {
             margin: 2rem auto;
             width: 78%;
@@ -230,11 +218,9 @@ avatar-panels {
                     span {
                         font-size: 18px;
                         font-family: 'Apercu';
-
                     }
                 }
             }
-
             .col:nth-child(2) {
                 margin-left: 2rem;
             }
@@ -244,7 +230,7 @@ avatar-panels {
 
 @media(min-width: 420px) {
     avatar-panels {
-        > .container {
+        >.container {
             .title-row {
                 .col {
                     span {

@@ -9877,7 +9877,8 @@ body {
 
 .sweet-alert {
   background-color: #141414; }
-  .sweet-alert .sa-icon.sa-success::before, .sweet-alert .sa-icon.sa-success::after {
+  .sweet-alert .sa-icon.sa-success::before,
+  .sweet-alert .sa-icon.sa-success::after {
     background-color: transparent; }
   .sweet-alert .sa-icon.sa-success .sa-fix {
     background-color: transparent; }
@@ -10846,6 +10847,9 @@ video-comp .video-container {
       display: flex;
       justify-content: center; }
 
+avatar-panels .col {
+  flex: 1 1 auto; }
+
 avatar-panels > .container {
   padding-top: 5rem; }
   avatar-panels > .container .title-row {
@@ -10900,6 +10904,7 @@ avatar-panels > .container {
             avatar-panels > .container > .row:nth-child(2) > .col > .container .row .col .panel-image {
               margin: 0 auto;
               height: 100%;
+              width: 100%;
               background-repeat: no-repeat !important;
               background-position: center !important;
               transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
@@ -13197,10 +13202,11 @@ artist-hero {
       background-position: center top !important;
       background-repeat: no-repeat !important;
       position: absolute;
-      top: 0; }
+      left: 0; }
     artist-hero > .container > .row {
       position: absolute;
-      bottom: 2vw; }
+      bottom: 2vw;
+      right: 0; }
       artist-hero > .container > .row * {
         filter: grayscale(0) !important; }
       artist-hero > .container > .row > .col {
@@ -13251,48 +13257,50 @@ artist-hero {
 
 artist-bio > .container > .row {
   flex-flow: row wrap; }
-  artist-bio > .container > .row > .col .info-container {
-    justify-content: center; }
-    artist-bio > .container > .row > .col .info-container > .col {
-      margin-bottom: 2rem;
-      max-width: 550px;
-      min-width: 300px; }
-      artist-bio > .container > .row > .col .info-container > .col .info-box .paragraph > .col span {
-        line-height: 1.5;
-        font-size: 18px;
-        font-family: 'Apercu'; }
-      artist-bio > .container > .row > .col .info-container > .col .info-box .paragraph:first-child {
-        margin-bottom: 2rem; }
-  artist-bio > .container > .row > .col .button-container {
-    justify-content: center; }
-    artist-bio > .container > .row > .col .button-container .col {
-      padding-left: 1rem;
-      display: flex;
+  artist-bio > .container > .row > .col {
+    flex: unset; }
+    artist-bio > .container > .row > .col .info-container {
       justify-content: center; }
-      artist-bio > .container > .row > .col .button-container .col button {
-        border: none;
+      artist-bio > .container > .row > .col .info-container > .col {
+        margin-bottom: 2rem;
+        max-width: 550px;
+        min-width: 300px; }
+        artist-bio > .container > .row > .col .info-container > .col .info-box .paragraph > .col span {
+          line-height: 1.5;
+          font-size: 18px;
+          font-family: 'Apercu'; }
+        artist-bio > .container > .row > .col .info-container > .col .info-box .paragraph:first-child {
+          margin-bottom: 2rem; }
+    artist-bio > .container > .row > .col .button-container {
+      justify-content: center; }
+      artist-bio > .container > .row > .col .button-container .col {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: center; }
+        artist-bio > .container > .row > .col .button-container .col button {
+          border: none;
+          font-family: 'Apercu';
+          font-size: 18px;
+          border: 2px solid #40caff;
+          min-width: 150px;
+          height: 3rem;
+          background-color: transparent; }
+    artist-bio > .container > .row > .col .spotify-container .col {
+      justify-content: center; }
+      artist-bio > .container > .row > .col .spotify-container .col div {
+        margin: 0 auto;
+        min-height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-family: 'Apercu';
-        font-size: 18px;
-        border: 2px solid #40caff;
-        min-width: 150px;
-        height: 3rem;
-        background-color: transparent; }
-  artist-bio > .container > .row > .col .spotify-container .col {
-    justify-content: center; }
-    artist-bio > .container > .row > .col .spotify-container .col div {
-      margin: 0 auto;
-      min-height: 500px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Apercu';
-      font-size: 22px;
-      min-width: 260px;
-      max-width: 500px;
-      width: 5rem;
-      background-color: #151515; }
-      artist-bio > .container > .row > .col .spotify-container .col div iframe {
-        max-width: 100%; }
+        font-size: 22px;
+        min-width: 260px;
+        max-width: 500px;
+        width: 5rem;
+        background-color: #151515; }
+        artist-bio > .container > .row > .col .spotify-container .col div iframe {
+          max-width: 100%; }
 
 @media (min-width: 420px) {
   artist-bio > .container {
@@ -13786,18 +13794,20 @@ rankings-athlete > .container {
       padding: 0;
       overflow: hidden;
       position: relative;
-      max-width: 175px; }
+      max-width: 90px;
+      flex: unset; }
       rankings-athlete > .container > .row > .col:first-child img {
         width: 100%;
         height: 100%; }
     rankings-athlete > .container > .row > .col:nth-child(2) {
       background-color: #131313;
-      height: 121px; }
+      height: 121px;
+      max-width: 210px; }
       rankings-athlete > .container > .row > .col:nth-child(2) > .container {
         height: 100%;
         width: 200px; }
         rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:first-child {
-          padding-top: 1rem;
+          padding-top: 0.5rem;
           margin-bottom: 1rem; }
           rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:first-child > .col {
             padding: 0;
@@ -13829,7 +13839,8 @@ rankings-athlete > .container {
     rankings-athlete > .container > .row > .col:nth-child(3) {
       background-color: #131313;
       padding-right: 0;
-      padding-left: 0; }
+      padding-left: 0;
+      flex: unset; }
       rankings-athlete > .container > .row > .col:nth-child(3) > .container {
         height: 100%;
         display: flex;
@@ -13854,6 +13865,7 @@ rankings-athlete > .container {
           rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row > .col:nth-child(3) > .row:nth-child(2) .col span {
             color: #40caff; }
     rankings-athlete > .container > .row > .col:nth-child(4) {
+      flex: unset;
       padding-top: 0.7rem;
       background-color: #1f1f1f;
       min-width: 10rem;
@@ -13889,14 +13901,18 @@ rankings-athlete > .container {
       min-width: 10rem;
       height: 14rem; }
       rankings-athlete > .container > .row > .col {
-        height: 100% !important; }
+        height: 100% !important;
+        flex: 1; }
       rankings-athlete > .container > .row > .col:first-child {
-        min-width: 175px; }
+        min-width: 175px;
+        max-width: 175px;
+        flex: 1; }
       rankings-athlete > .container > .row > .col:nth-child(2) {
         max-width: 14rem; }
         rankings-athlete > .container > .row > .col:nth-child(2) > .container {
           padding: 0.8rem; }
           rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:first-child {
+            padding-top: 1rem;
             margin-bottom: 1rem; }
           rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) {
             margin-bottom: 1rem; }
@@ -13905,7 +13921,8 @@ rankings-athlete > .container {
           rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col span {
             font-size: 20px; }
       rankings-athlete > .container > .row > .col:nth-child(3) {
-        padding: 5px; }
+        padding: 5px;
+        flex: 1; }
         rankings-athlete > .container > .row > .col:nth-child(3) > .container {
           margin: 0 1rem; }
           rankings-athlete > .container > .row > .col:nth-child(3) > .container > .row {
@@ -13914,6 +13931,7 @@ rankings-athlete > .container {
               padding: 5px; }
       rankings-athlete > .container > .row > .col:nth-child(4) {
         padding-top: 0;
+        flex: 1;
         max-width: 10rem;
         flex-direction: row; }
         rankings-athlete > .container > .row > .col:nth-child(4) > .container {

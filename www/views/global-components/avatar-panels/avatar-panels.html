@@ -12,25 +12,24 @@
                 <div class="row">
                     <!--<div class="hover-bar"></div>-->
                     <div class="col" ng-click="cc.stateChange(cc.ref, avatar.ref)">
-                        <div class="panel-image" style="background: url({{avatar.img_portrait}}) 50% 0 / 110%" />
-</div>
-</div>
-</div>
-<div class="blue-container" ng-click="cc.stateChange(cc.ref, avatar.ref)">
-    <span ng-if="cc.tour != 'app.rider.all'">{{avatar.name}}</span>
-    <span ng-if="cc.tour == 'app.rider.all' && cc.overlay != null && cc.indexTracker == $index">{{avatar.name.first}}</span>&nbsp;
-    <span ng-if="cc.tour == 'app.rider.all' && cc.overlay != null && cc.indexTracker == $index">{{avatar.name.last}}</span>
-    <span ng-if="cc.tour == 'app.rider.all' && cc.indexTracker != $index">{{avatar.name.first | uppercase}}</span>&nbsp;
-    <span ng-if="cc.tour == 'app.rider.all' && cc.indexTracker != $index">{{avatar.name.last | uppercase}}</span>
-</div>
-</div>
-</div>
-<div class="row more">
-    <div class="col" ng-if="cc.schedule">
-        <button ng-click="cc.pageChange('app.schedule', cc.state)"><span>Schedule</span></button>
+                        <img class="panel-image" ng-src="{{avatar.img_portrait}}">
+                    </div>
+                </div>
+                <div class="blue-container" ng-click="cc.stateChange(cc.ref, avatar.ref)">
+                    <span ng-if="cc.tour != 'app.rider.all'">{{avatar.name}}</span>
+                    <span ng-if="cc.tour == 'app.rider.all' && cc.overlay != null && cc.indexTracker == $index">{{avatar.name.first}}</span>&nbsp;
+                    <span ng-if="cc.tour == 'app.rider.all' && cc.overlay != null && cc.indexTracker == $index">{{avatar.name.last}}</span>
+                    <span ng-if="cc.tour == 'app.rider.all' && cc.indexTracker != $index">{{avatar.name.first | uppercase}}</span>&nbsp;
+                    <span ng-if="cc.tour == 'app.rider.all' && cc.indexTracker != $index">{{avatar.name.last | uppercase}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="row more">
+            <div class="col" ng-if="cc.schedule">
+                <button ng-click="cc.pageChange('app.schedule', cc.state)"><span>Schedule</span></button>
+            </div>
+            <div class="col" ng-if="cc.view">
+                <button ng-click="cc.pageChange('app.lineup', cc.state)"><span>View All</span></button>
+            </div>
+        </div>
     </div>
-    <div class="col" ng-if="cc.view">
-        <button ng-click="cc.pageChange('app.lineup', cc.state)"><span>View All</span></button>
-    </div>
-</div>
-</div>

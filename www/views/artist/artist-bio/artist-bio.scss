@@ -1,32 +1,31 @@
 artist-bio {
-    > .container {
-        > .row {
+    >.container {
+        >.row {
             flex-flow: row wrap;
-            > .col {
+            >.col {
+                flex: unset;
                 .info-container {
                     justify-content: center;
-                    > .col {
-                    margin-bottom: 2rem;
-                    max-width: 550px;
-                    min-width: 300px;
+                    >.col {
+                        margin-bottom: 2rem;
+                        max-width: 550px;
+                        min-width: 300px;
                         .info-box {
                             .paragraph {
-                                > .col {
+                                >.col {
                                     span {
                                         line-height: 1.5;
-                                        font-size:18px;
+                                        font-size: 18px;
                                         font-family: 'Apercu';
                                     }
                                 }
                             }
-
                             .paragraph:first-child {
                                 margin-bottom: 2rem;
                             }
                         }
                     }
                 }
-
                 .button-container {
                     justify-content: center;
                     .col {
@@ -44,7 +43,6 @@ artist-bio {
                         }
                     }
                 }
-
                 .spotify-container {
                     .col {
                         justify-content: center;
@@ -60,7 +58,6 @@ artist-bio {
                             max-width: 500px;
                             width: 5rem;
                             background-color: #151515;
-
                             iframe {
                                 max-width: 100%;
                             }
@@ -74,35 +71,28 @@ artist-bio {
 
 @media(min-width: 420px) {
     artist-bio {
-        > .container {
+        >.container {
             padding: 0 3rem;
-            > .row {
-                > .col {
+            >.row {
+                >.col {
                     .info-container {
-                        > .col {
+                        >.col {
                             .info-box {
                                 .paragraph {
-                                    > .col {
-                                        span {
-
-                                        }
+                                    >.col {
+                                        span {}
                                     }
                                 }
-
-                                .paragraph:first-child {
-                                }
+                                .paragraph:first-child {}
                             }
                         }
                     }
-
                     .button-container {
                         .col {
                             padding-left: 3.75rem;
-                            button {
-                            }
+                            button {}
                         }
                     }
-
                     .spotify-container {
                         .col {
                             div {
@@ -114,9 +104,6 @@ artist-bio {
             }
         }
     }
-
 }
 
-@media(min-width: 1024px) {
-    
-}
+@media(min-width: 1024px) {}

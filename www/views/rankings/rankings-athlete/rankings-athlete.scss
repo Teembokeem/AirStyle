@@ -1,39 +1,40 @@
 rankings-athlete {
-    > .container {
+    >.container {
         margin-bottom: 1rem;
         // padding: 0 3rem;
         max-width: 300px;
         flex-flow: row wrap;
         display: flex;
-        
-        > .row {
+        >.row {
             flex-flow: row wrap;
-
-            > .col:first-child {
+            // >.col {
+            //     flex: 1 1 auto;
+            // }
+            >.col:first-child {
                 border: 5px solid;
                 height: 120px;
                 width: 90px;
                 padding: 0;
                 overflow: hidden;
                 position: relative;
-                max-width: 175px;
-
+                max-width: 90px;
+                flex: unset;
                 img {
                     width: 100%;
                     height: 100%;
                 }
             }
-            > .col:nth-child(2) {
+            >.col:nth-child(2) {
                 background-color: #131313;
                 height: 121px;
-                > .container {
+                max-width: 210px;
+                >.container {
                     height: 100%;
-                   width: 200px;
-
-                    > .row:first-child {
-                        padding-top: 1rem;
+                    width: 200px;
+                    >.row:first-child {
+                        padding-top: 0.5rem;
                         margin-bottom: 1rem;
-                        > .col {
+                        >.col {
                             padding: 0;
                             justify-content: flex-start;
                             margin-left: 0.5rem;
@@ -43,9 +44,9 @@ rankings-athlete {
                             }
                         }
                     }
-                    > .row:nth-child(2) {
+                    >.row:nth-child(2) {
                         margin-bottom: 1rem;
-                        > .col {
+                        >.col {
                             padding: 0;
                             justify-content: flex-start;
                             margin-left: 0.5rem;
@@ -59,9 +60,8 @@ rankings-athlete {
                             }
                         }
                     }
-
-                    > .row:nth-child(3) {
-                        > .col {
+                    >.row:nth-child(3) {
+                        >.col {
                             padding: 0;
                             justify-content: flex-start;
                             margin-left: 0.5rem;
@@ -73,35 +73,31 @@ rankings-athlete {
                     }
                 }
             }
-
-            > .col:nth-child(3) {
+            >.col:nth-child(3) {
                 background-color: #131313;
                 padding-right: 0;
                 padding-left: 0;
-
-               > .container {
+                flex: unset;
+                >.container {
                     height: 100%;
                     display: flex;
                     align-items: center;
-
-                    > .row {
+                    >.row {
                         justify-content: center;
                         padding-right: 1.5rem;
-                        > .col {
+                        >.col {
                             text-align: center;
                             padding-left: 0;
                             padding-right: 0;
-
-                            > .row:first-child {
+                            >.row:first-child {
                                 .col {
-                                     min-width: 99px;
+                                    min-width: 99px;
                                     span {
                                         font-size: 16px;
                                     }
                                 }
                             }
-                            
-                            > .row:nth-child(2) {
+                            >.row:nth-child(2) {
                                 .col {
                                     span {
                                         font-size: 22px;
@@ -109,37 +105,36 @@ rankings-athlete {
                                 }
                             }
                         }
-
-                        > .col:first-child {
-                            > .row:nth-child(2) .col span {
+                        >.col:first-child {
+                            >.row:nth-child(2) .col span {
                                 color: $as-green;
                             }
                         }
-                        > .col:nth-child(2) {
-                            > .row:nth-child(2) .col span {
+                        >.col:nth-child(2) {
+                            >.row:nth-child(2) .col span {
                                 color: $as-yellow;
                             }
                         }
-                        > .col:nth-child(3) {
-                            > .row:nth-child(2) .col span {
+                        >.col:nth-child(3) {
+                            >.row:nth-child(2) .col span {
                                 color: $as-blue;
                             }
                         }
                     }
-               } 
+                }
             }
-
-            > .col:nth-child(4) {
+            >.col:nth-child(4) {
+                flex: unset;
                 padding-top: 0.7rem;
                 background-color: #1f1f1f;
                 min-width: 10rem;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                > .container {
+                >.container {
                     display: flex;
                     flex-direction: row-reverse;
-                    > .row:first-child {
+                    >.row:first-child {
                         height: 30px;
                         align-items: center;
                         .col {
@@ -148,15 +143,13 @@ rankings-athlete {
                             }
                         }
                     }
-
-                    > .row:nth-child(2) {
+                    >.row:nth-child(2) {
                         height: 30px;
                         margin-top: 0;
                         align-items: center;
                         margin-right: 1.3rem;
                         .col {
                             text-align: center;
-
                             span {
                                 font-family: 'Apercu';
                                 font-size: 20px;
@@ -181,33 +174,29 @@ rankings-athlete {
                 height: 14rem;
                 >.col {
                     height: 100% !important;
+                    flex: 1;
                 }
-
                 >.col:first-child {
-                        min-width: 175px;
-                    img {
-                    }
+                    min-width: 175px;
+                    max-width: 175px;
+                    flex: 1;
                 }
-
                 >.col:nth-child(2) {
                     max-width: 14rem;
                     >.container {
                         padding: 0.8rem;
-
                         >.row:first-child {
+                            padding-top: 1rem;
                             margin-bottom: 1rem;
                         }
-
                         >.row:nth-child(2) {
                             margin-bottom: 1rem;
-
                             >.col {
                                 span {
                                     font-size: 40px;
                                 }
                             }
                         }
-
                         >.row:nth-child(3) {
                             >.col {
                                 span {
@@ -217,46 +206,38 @@ rankings-athlete {
                         }
                     }
                 }
-
                 >.col:nth-child(3) {
                     padding: 5px;
-
+                    flex: 1;
                     >.container {
                         margin: 0 1rem;
-
                         >.row {
                             padding-right: 0;
-
                             >.col {
                                 padding: 5px;
                             }
                         }
                     }
                 }
-
                 >.col:nth-child(4) {
                     padding-top: 0;
+                    flex: 1;
                     max-width: 10rem;
                     flex-direction: row;
                     >.container {
                         display: block;
-
                         >.row:first-child {
                             height: inherit;
                             margin-bottom: 1rem;
-
                             >.col {
                                 span {
                                     font-size: 35px;
                                 }
                             }
-
                         }
-
                         >.row:nth-child(2) {
                             height: inherit;
                             margin-right: 0;
-
                             >.col {
                                 span {
                                     font-size: 39px;
@@ -272,14 +253,13 @@ rankings-athlete {
 
 @media(min-width:1440px) {
     rankings-athlete {
-        > .container {
+        >.container {
             padding: 0 10rem;
-
-            > .row {
-                > .col:nth-child(2) {
+            >.row {
+                >.col:nth-child(2) {
                     max-width: 14rem;
                 }
-                > .col:nth-child(4) {
+                >.col:nth-child(4) {
                     min-width: 14rem;
                 }
             }

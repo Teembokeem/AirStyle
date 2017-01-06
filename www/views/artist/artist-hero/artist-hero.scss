@@ -1,13 +1,12 @@
 artist-hero {
     position: relative;
-
-    > .container {
-            height: 120vw;
-            position: relative;
-            max-height: 85%;
-            display: flex;
-            justify-content: center;
-            overflow-x: hidden;
+    >.container {
+        height: 120vw;
+        position: relative;
+        max-height: 85%;
+        display: flex;
+        justify-content: center;
+        overflow-x: hidden;
         .hero {
             margin: 0 auto;
             background-size: cover !important;
@@ -18,51 +17,44 @@ artist-hero {
             background-position: center top !important;
             background-repeat: no-repeat !important;
             position: absolute;
-            top: 0;
-
+            left: 0;
         }
-        > .row {
+        >.row {
             position: absolute;
             bottom: 2vw;
+            right: 0;
             * {
                 filter: grayscale(0) !important;
             }
-            > .col {
+            >.col {
                 display: flex;
                 justify-content: flex-end;
                 // padding-right: 8vw;
-                > .container {
+                >.container {
                     min-width: 300px;
                     text-align: right;
                     margin-right: 3vw;
-
                     .artist-name {
                         margin-bottom: 3rem;
-
                         .col {
                             font-size: 64px;
-
                             span {
                                 border-bottom: 8px solid $as-yellow;
                                 font-size: 9vw;
                             }
                         }
                     }
-
                     .artist-time {
                         display: block;
                         margin-bottom: 1rem;
-
                         .col {
                             font-size: 19px;
-                            color:#424242
+                            color: #424242
                         }
                     }
-
                     .cta {
                         .col {
                             button {
-
                                 border: none;
                                 width: 50%;
                                 max-width: 200px;
@@ -78,31 +70,26 @@ artist-hero {
             }
         }
     }
-
-    > .container {
-        transition: all 450ms cubic-bezier(.32,1,.375,1);
+    >.container {
+        transition: all 450ms cubic-bezier(.32, 1, .375, 1);
     }
 }
 
 @media(min-width:420px) {
     artist-hero {
-        > .container {
+        >.container {
             // height: 80vw;
-            .hero {
-            }
-            
+            .hero {}
         }
     }
 }
+
 @media(min-width:768px) {
     artist-hero {
-        > .container {
-            
-            > .row {
-
-                > .col {
-                    > .container {
-
+        >.container {
+            >.row {
+                >.col {
+                    >.container {
                         .artist-name {
                             .col {
                                 span {
@@ -113,20 +100,17 @@ artist-hero {
                         .artist-time {
                             display: block;
                             margin-bottom: 1rem;
-
                             .col {
                                 font-size: 30px;
-                                color:#424242
+                                color: #424242
                             }
                         }
-
                         .cta {
                             .col {
                                 button {
                                     width: 80%;
                                     height: 3rem;
                                     font-size: 1.3rem;
-
                                 }
                             }
                         }
@@ -139,7 +123,7 @@ artist-hero {
 
 @media(min-width:1024px) {
     artist-hero {
-        > .container {
+        >.container {
             // height: 
         }
     }
@@ -147,16 +131,13 @@ artist-hero {
 
 @media(min-width:1440px) {
     artist-hero {
-        > .container {
+        >.container {
             .hero {
                 // background-size: 100% !important;
                 // max-width: 100%;
                 // background-repeat: no-repeat !important;
             }
-
-            > .row {
-            }
+            >.row {}
         }
     }
 }
-
