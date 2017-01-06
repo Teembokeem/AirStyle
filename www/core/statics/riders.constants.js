@@ -290,7 +290,13 @@
                         },
                         '2017': {
                             beijing: {
-                                score: '100'
+                                score: '85.73'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -343,6 +349,12 @@
                         '2017': {
                             beijing: {
                                 score: '15.74'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -427,6 +439,17 @@
                             la: {
                                 score: '66.54'
                             }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
                         }
                     }
                 },
@@ -477,6 +500,12 @@
                         '2017': {
                             beijing: {
                                 score: '6.88'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -505,6 +534,12 @@
                         '2017': {
                             beijing: {
                                 score: '20.39',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -545,6 +580,12 @@
                         '2017': {
                             beijing: {
                                 score: '43.64',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -573,6 +614,12 @@
                         '2017': {
                             beijing: {
                                 score: '2.22',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -612,6 +659,12 @@
                         '2017': {
                             beijing: {
                                 score: '53.24'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -646,6 +699,17 @@
                             },
                             la: {
                                 score: '0.00'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -685,6 +749,12 @@
                         '2017': {
                             beijing: {
                                 score: '30.09'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -713,6 +783,17 @@
                         '2016': {
                             beijing: {
                                 score: 'N/A',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            },
+                        },
+                        '2017': {
+                            beijing: {
+                                score: 'N/A'
                             },
                             innsbruck: {
                                 score: 'N/A'
@@ -758,6 +839,12 @@
                         '2017': {
                             beijing: {
                                 score: '37.95'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -834,6 +921,12 @@
                         '2017': {
                             beijing: {
                                 score: '74.27'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -873,6 +966,12 @@
                         '2017': {
                             beijing: {
                                 score: '100'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -971,6 +1070,12 @@
                         '2017': {
                             beijing: {
                                 score: '32.64'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1010,6 +1115,12 @@
                         '2017': {
                             beijing: {
                                 score: '60.68'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1038,6 +1149,12 @@
                         '2017': {
                             beijing: {
                                 score: '4.44',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1077,6 +1194,12 @@
                         '2017': {
                             beijing: {
                                 score: '69.34'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1116,6 +1239,12 @@
                         '2017': {
                             beijing: {
                                 score: '46.68'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1156,6 +1285,12 @@
                         '2017': {
                             beijing: {
                                 score: '11.18',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1184,6 +1319,12 @@
                         '2017': {
                             beijing: {
                                 score: '18.06',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1212,6 +1353,12 @@
                         '2017': {
                             beijing: {
                                 score: '35.26',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         },
 
@@ -1278,6 +1425,12 @@
                         '2017': {
                             beijing: {
                                 score: '79.70'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1304,6 +1457,17 @@
                     video: 'https://www.youtube.com/embed/8d20BDGTP4o',
                     scores: {
                         '2016': {
+                            beijing: {
+                                score: 'N/A',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2017': {
                             beijing: {
                                 score: 'N/A',
                             },
@@ -1340,6 +1504,12 @@
                         '2017': {
                             beijing: {
                                 score: '8.92',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1418,6 +1588,12 @@
                         '2017': {
                             beijing: {
                                 score: '92.45'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1457,6 +1633,12 @@
                         '2017': {
                             beijing: {
                                 score: '49.87'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1524,6 +1706,12 @@
                         '2017': {
                             beijing: {
                                 score: '27.60',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1593,6 +1781,9 @@
                             },
                             innsbruck: {
                                 score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         },
                         '2016': {
@@ -1604,6 +1795,17 @@
                             },
                             la: {
                                 score: '44.26'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: 'N/A',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/a'
                             }
                         }
                     }
@@ -1649,6 +1851,9 @@
                             },
                             innsbruck: {
                                 score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         },
                         '2016': {
@@ -1660,6 +1865,17 @@
                             },
                             la: {
                                 score: '84.61'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1689,6 +1905,12 @@
                             beijing: {
                                 score: '96.00',
                                 trick: 'Backside Double 1440'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         },
                         '2016': {
@@ -1705,6 +1927,12 @@
                         '2017': {
                             beijing: {
                                 score: '40.74'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1737,6 +1965,9 @@
                             innsbruck: {
                                 score: '88.67',
                                 trick: 'Cab 1260'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         },
                         '2012': {
@@ -1747,18 +1978,33 @@
                             innsbruck: {
                                 score: '47.00',
                                 trick: 'Backside 1080 Mute Grab'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         },
                         '2013': {
                             beijing: {
                                 score: '77.67',
                                 trick: 'Backside Double Cork 1260 Mute'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         },
                         '2014': {
                             beijing: {
                                 score: '83.00',
                                 trick: 'Backside 1260 Mute Grab'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         },
                         '2016': {
@@ -1775,6 +2021,12 @@
                         '2017': {
                             beijing: {
                                 score: '25.16'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -1808,6 +2060,9 @@
                             innsbruck: {
                                 score: '16.00',
                                 trick: 'Backside 1260 Melon Grab'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         },
                         '2013': {
@@ -1818,12 +2073,21 @@
                             innsbruck: {
                                 score: '85.33',
                                 trick: 'Cab 1260 Melon'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         },
                         '2014': {
                             beijing: {
                                 score: '91.00',
                                 trick: 'Backside Double Cork 1260 Mute'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         },
                         '2016': {
