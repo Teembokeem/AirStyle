@@ -10,15 +10,17 @@
             controllerAs: 'cc'
         })
 
-    TourFaqCtrl.$inject = ['$log', '$state'];
+    TourFaqCtrl.$inject = ['$log', '$state', '$stateParams'];
 
-    function TourFaqCtrl($log, $state) {
+    function TourFaqCtrl($log, $state, $stateParams) {
         var cc = this;
+        cc.tour = $stateParams.tour;
         cc.showContent = -1;
         cc.stateChange = stateChange;
 
         function stateChange(state, val) {
-            val ? $state.go(state, {avatar: val}) : $state.go(state);
+            if (state == 'app.faqs') $state.go(state, { tour: val });
+            $state.go(state, { avatar: val });
         }
 
         cc.$onInit = function () {
