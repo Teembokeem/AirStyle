@@ -185,7 +185,8 @@
                         },
                         {
                             question: 'Will there be shuttles?',
-                            answer: 'Yes there will be shuttles running from Innsbruck Main Station (Bus Platform 4) before and after the event'
+                            answer: 'Yes there will be shuttles running from Innsbruck Main Station (Bus Platform 4) before and after the event',
+                            main: true
                         },
                         {
                             question: 'How many stages are there?',
@@ -193,11 +194,12 @@
                         },
                         {
                             question: 'What are the festival hours?',
-                            answer: 'FR: 16:30 – 22:00 \n SA: 12:30 – 22:00 \n SA Party: 21:330 – 05:00'
+                            answer: '[FR: 16:30 – 22:00 SA: 12:30 – 22:00 SA Party: 21:330 – 05:00]',
+                            main: true
                         },
                         {
                             question: 'What are the box office hours?',
-                            answer: 'Fr: 15:30-19:00 \n Sa: 11:30-19:00 \n The box office is located at Entry North (Main Entry)'
+                            answer: '[Fr: 15:30-19:00 Sa: 11:30-19:00] The box office is located at Entry North (Main Entry)'
                         },
                         {
                             question: 'Will there be lockers at the festival?',
@@ -221,7 +223,8 @@
                         },
                         {
                             question: 'Is this festival for all ages?',
-                            answer: 'No, children under 6 years old are not allowed to attend the event and if youare between 6 and 14 you can only get in with an accompagning adult. The law for protecting the youth is applicable for all areas of the event.'
+                            answer: 'No, children under 6 years old are not allowed to attend the event and if youare between 6 and 14 you can only get in with an accompagning adult. The law for protecting the youth is applicable for all areas of the event.',
+                            main: true
                         },
                         {
                             question: 'Is there an age limit for the party?',
@@ -348,10 +351,193 @@
                     city_block_image: '../img/la_city_block.jpg',
                     faq_general: [
                         {
-                            question: 'Where is the Air + Style Festival Innsbruck-Tirol located?',
-                            answer: 'In the Olympiaworld in Innsbruck (Olympiastrasse 10, 6020 Innsbruck)'
+                            question: 'Which bands/artists will be playing each day?',
+                            answer: 'TBA'
                         },
-                    ]
+                        {
+                            question: 'When will tickets be on sale?',
+                            answer: 'On sale now! General Admission 2-day Passes and 2-day VIP',
+                            main: true
+                        },
+                        {
+                            question: ' Is Air + Style 2017 Fest all ages?',
+                            answer: 'Yes, it’s an All Ages show. Children under 6 are free',
+                            main: true
+                        },
+                        {
+                            question: 'What time does the festival start?',
+                            answer: '2:00 PM are doors.',
+                            main: true
+                        },
+                        {
+                            question: 'Are there ins and outs?',
+                            answer: 'No.'
+                        },
+                        {
+                            question: 'Is there free water?',
+                            answer: 'Yes there are water refill stations.'
+                        },
+                        {
+                            question: 'Can I bring an empty water bottle?',
+                            answer: 'Yes.'
+                        },
+                        {
+                            question: 'Are there shade tents?',
+                            answer: 'There will be shade spots all around the venue. Not necessarily a tent.'
+                        },
+                        {
+                            question: "What's the camera policy?",
+                            answer: 'Professional photographers must obtain a photo pass using our press submission form. Do not email your request. Photo passes are not required for standard cameras with lenses under 15 cm long or handheld video devices under 6″. Professional video cameras are not permitted.'
+                        },
+                        {
+                            question: "Can I bring my child?",
+                            answer: 'Yes, it’s an All Ages show'
+                        },
+                        {
+                            question: "Are you hiring volunteers for the festival?",
+                            answer: 'We will not be hiring volunteers for this event'
+                        },
+                        {
+                            question: "Will there be first aid on site?",
+                            answer: 'Yes, First aid locations are offered throughout the venue. Please refer to your festival map, or contact the nearest staff member.'
+                        },
+                        {
+                            question: "What about bringing my medical prescriptions (asthma, insulin, etc.)?",
+                            answer: 'Please bring it to the main medical tent and they will store it for you.'
+                        },
+                        {
+                            question: "Will there be ATMs on site?",
+                            answer: 'Yes.'
+                        },
+                        {
+                            question: "Is there a map of the festival?",
+                            answer: 'You can find a map here: (Link coming soon!)'
+                        },
+                        {
+                            question: "Is there a mobile app for the festival?",
+                            answer: 'Yes, you can download for your mobile device here: ANDROID: https://play.google.com/store/apps/details?id=com.air.style&hl=en IOS: https://itunes.apple.com/us/app/air-+-style-2016/id1067868468?mt=8'
+                        },
+                        {
+                            question: "Where do I park?",
+                            answer: 'There is no festival provided parking- however there is limited local parking or we suggest taking the train in.'
+                        },
+                        {
+                            question: "I am mobility impaired. Are there places for me to view the concert?",
+                            answer: 'Yes there will be ADA platforms at each performance area.'
+                        },
+                        // {
+                        //     question: "Will I need a special wristband to use ADA viewing areas?",
+                        //     answer: 'Yes there will be ADA platforms at each performance area.'
+                        // },
+                        {
+                            question: "Where do I go for lost and found?",
+                            answer: 'You can go to the main info hub inside the venue and they will be able to assist you. For any lost items post-show please email.'
+                        },
+                        // {
+                        //     question: "Are single day tickets available?",
+                        //     answer: 'Not yet. A+S team we need to decide what we want to put here.'
+                        // },
+                        {
+                            question: "When is my wristband being shipped?",
+                            answer: 'We are using digital tickets.'
+                        },
+                        {
+                            question: "How will I know when my passes have shipped?",
+                            answer: 'People are receiving their digital tickets immediately.'
+                        },
+                        {
+                            question: "How do I update/change my email or billing address?",
+                            answer: 'http://support.frontgatetickets.com/'
+                        },
+                        {
+                            question: "How do I update/change my email or billing address?",
+                            answer: 'http://support.frontgatetickets.com/ Contact Front Gate: 888.512.SHOW (7469) Info@fontgatetickets.com'
+                        },
+                        {
+                            question: "Can I use my 2 day pass on Saturday and give it to someone else on Sunday?",
+                            answer: "Because we're using digital tickets, we don't really have a way to police someone sending their pass to someone else. I guess that's your call."
+                        },
+                        {
+                            question: "I didn't receive a confirmation of my purchase.",
+                            answer: "http://support.frontgatetickets.com/ Contact Front Gate: 888.512.SHOW (7469) Info@fontgatetickets.com"
+                        },
+                        {
+                            question: "What type of credit card can I use to purchase passes?",
+                            answer: "Any major credit card"
+                        },
+                        {
+                            question: "What is the price for a GA ticket? How much is it with all fees added in? What about VIP and single day?",
+                            answer: "2-Day GA Tickets $139.00 + $7.29 service fee. 2-Day VIP Tickets $229.00 + $10.17 service fee. Single Tickets aren't sold."
+                        },
+                        {
+                            question: "Will I be able to see every single band on the lineup?",
+                            answer: "Yes, but not the entirety of each artist set if you would like to see every artist, there is some crossover in the beginning of the day but not the full set length."
+                        },
+                    ],
+                    faq_banlist: {
+                        yesList: [
+                            'All Ages Welcome',
+                            'Baby Strollers',
+                            'Backpacks (medium)',
+                            'Camelbaks(empty)',
+                            'Cell Phones/Chargers',
+                            'Chapstick/Lip Balm',
+                            'Sealed Cigarettes',
+                            'Dancing Shoes',
+                            'Camera (non-pro, no detachable lenses)',
+                            'Ear Plugs',
+                            'Eye Drops (subject to testing)',
+                            'Fanny Packs/Hip Bags',
+                            'Gum',
+                            'Hats',
+                            'Makeup',
+                            'Parasols',
+                            'Purses/Handbags',
+                            'Smiles',
+                            'Sunglasses',
+                            'Sun Block (non-aerosol)',
+                            'Walkie talkies',
+                            'Water Bottles(empty plastic reusable)'
+                        ],
+                        noList: [
+                            'Aerosol Products/Aerosol Cans',
+                            'Air Horns',
+                            'Audio Recording Devices',
+                            'Bikes',
+                            'Blankets/Towels',
+                            'Bottles (glass or metal)',
+                            'Cameras or Video Cameras (detachable lens)',
+                            'Chains/Chain Wallets',
+                            'Chairs',
+                            'Coolers',
+                            'Drones, Remote Control Aircraft/Toys/Cars',
+                            'Drugs or Drug Paraphernalia',
+                            'e-Cigs/Vapes',
+                            'Fireworks/Explosives/Road Flares',
+                            'Flags',
+                            'Flyers/Sampling/Giveaways',
+                            'Glow Sticks/LED Gloves',
+                            'Guns/Ammunition/Tasers',
+                            'Hoverboards',
+                            'Hula Hoops',
+                            'Ins & Outs',
+                            'Instruments',
+                            'Kites/Sky Lanterns',
+                            'Knives/Weapons/Sharp Objects',
+                            'Laser Pointers',
+                            'Mace/Pepper Spray',
+                            'Massagers',
+                            'Outside Food or Beverage',
+                            'Pets/Animals (unless ADA approved)',
+                            'Selfie Sticks/Narcissists/Tripods',
+                            'Sharpies/Markers/Paint Pens',
+                            'Skateboards/Skates',
+                            'Squirt Guns/Toy Guns/Sling Shots',
+                            'Stuffed Animals',
+                            'Totems',
+                            'Umbrellas',
+                        ]
+                    }
                 }
             },
                 Keys = Object.keys(tours),
