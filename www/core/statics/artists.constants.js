@@ -644,7 +644,7 @@
                         video: 'https://youtube.com/embed/ogMNV33AhCY'
                     },
                     'red-bull': {
-                        name: 'Red Bull',
+                        name: 'Red Bull WRTC',
                         ref: 'red-bull',
                         img_portrait: '../img/artists/portrait/Red-Bull-WHO-ROCKZ-THE-CROWD_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Red-Bull-WHO-ROCKZ-THE-CROWD_Landscape.jpg',
