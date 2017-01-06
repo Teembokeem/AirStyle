@@ -6,17 +6,17 @@
 				<a class="contact" href="">Contact</a>
 			</div>
 			<div class="row">
-				<a class="facebook" href="https://www.facebook.com/airandstyle">
-					<img src="../img/facebook.png" alt="">
+				<a class="facebook" ng-class="{'hover': cc.hovered == 'fb'}" href="https://www.facebook.com/airandstyle">
+					<img ng-mouseover="cc.hovered = 'fb'" ng-mouseleave="cc.hovered = ''" src="../img/facebook.png" alt="">
 				</a>
-				<a class="twitter" href="https://twitter.com/airandstyle">
-					<img src="../img/twitter.png" alt="">
+				<a class="twitter" ng-class="{'hover': cc.hovered == 'tw'}" href="https://twitter.com/airandstyle">
+					<img ng-mouseover="cc.hovered = 'tw'" ng-mouseleave="cc.hovered = ''" src="../img/twitter.png" alt="">
 				</a>
-				<a class="instagram" href="https://www.instagram.com/airandstyle">
-					<img src="../img/instagram.png" alt="">
+				<a class="instagram" ng-class="{'hover': cc.hovered == 'in'}" href="https://www.instagram.com/airandstyle">
+					<img ng-mouseover="cc.hovered = 'in'" ng-mouseleave="cc.hovered = ''" src="../img/instagram.png" alt="">
 				</a>
-				<a class="youtube" href="https://www.youtube.com/airandstyle">
-					<img src="../img/youtube.png" alt="">
+				<a class="youtube" ng-class="{'hover': cc.hovered == 'yt'}" href="https://www.youtube.com/airandstyle">
+					<img ng-mouseover="cc.hovered = 'yt'" ng-mouseleave="cc.hovered = ''" src="../img/youtube.png" alt="">
 				</a>
 			</div>
 			<div class="row">
