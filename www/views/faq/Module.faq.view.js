@@ -5,7 +5,7 @@
         .config(function ($stateProvider, $urlRouterProvider) {
             $stateProvider
                 .state('app.faqs', {
-                    url: '/faqs',
+                    url: '/faqs/:tour',
                     views: {
                         'content': {
                             templateUrl: dir + 'faq.view.html',
@@ -13,6 +13,9 @@
                             controllerAs: 'cc'
                         }
                     },
+                    params: {
+                        tour: { value: 'innsbruck' }
+                    }
                 })
         })
 
