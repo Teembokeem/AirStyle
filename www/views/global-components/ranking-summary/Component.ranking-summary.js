@@ -27,9 +27,8 @@
 
 
         cc.$onInit = function () {
-            var riders = Riders('all');
 
-            cc.riders = [riders[0], riders[1], riders[2]];
+            cc.riders = [Riders('Markus-Kleveland'), Riders('Sebastien-Toutant'), Riders('Darcy-Sharpe')];
         }
     }
 })();
