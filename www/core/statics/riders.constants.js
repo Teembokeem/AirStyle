@@ -5,201 +5,6 @@
         .module('Statics')
         .constant('Riders', function (inputArg) {
             var riders = {
-                'Sven-Thorgren': {
-                    name: {
-                        first: 'Sven',
-                        last: 'Thorgren'
-                    },
-                    nation: 'Sweden',
-                    sponsors: ['Nitro', 'Oakley', 'Monster'],
-                    homeBase: 'Malung',
-                    dob: new Date('04/10/1994'),
-                    stance: 'Regular',
-                    bio: [
-                        'This young Swede is on the warpath, sporting a sick bag of tricks with bangers like cab 1440s and a bunch of Triple Corks. Sven has one of the smoothest styles out there and he stomps the biggest tricks like it ain’t no thang. Sven took home top honors at the Los Angeles Air+Style 2016 and snagged himself the Ring of Glory. Make some noise for the champ!'
-                    ],
-                    ref: 'Sven-Thorgren',
-                    img_portrait: 'img/loRiders/Sven-Thorgren.jpg',
-                    tweet: 'https://twitter.com/sventhorgren?lang=sv',
-                    fb: 'https://www.facebook.com/sven.thorgren',
-                    inst: 'https://www.instagram.com/sventhorgren/',
-                    youtube: 'https://www.youtube.com/channel/UCABshgGP243EXCx3oDP251w',
-                    video: 'https://www.youtube.com/embed/caxzNEeSzUQ',
-                    scores: {
-                        '2013': {
-                            beijing: {
-                                score: '80.67',
-                                trick: 'Backside Double Rodeo 1260 Melon'
-                            },
-                            innsbruck: {
-                                score: '15.33',
-                                trick: 'Backside Double Rodeo 1080 Nose'
-                            },
-                            la: {
-                                score: 'N/A'
-                            }
-                        },
-                        '2014': {
-                            beijing: {
-                                score: '96.00',
-                                trick: 'Backside 1440 Mute Grab'
-                            },
-                            innsbruck: {
-                                score: 'N/A'
-                            }
-                        },
-                        '2016': {
-                            beijing: {
-                                score: '84.61',
-                            },
-                            innsbruck: {
-                                score: '66.54'
-                            },
-                            la: {
-                                score: '84.61'
-                            }
-                        }
-                    }
-                },
-                'Max-Parrot': {
-                    name: {
-                        first: 'Max',
-                        last: 'Parrot'
-                    },
-                    nation: 'Canada',
-                    sponsors: ['Nobaday Snowboards'],
-                    homeBase: 'Bromont',
-                    dob: new Date('06/06/1994'),
-                    stance: 'Goofy',
-                    bio: [
-                        'Max started his career in the big leagues right here at Air+Style. Since then he’s won both the Big Air and Slopestyle at the X-Games in Aspen, and won the 2015 Air+Style in Beijing. Max has pushed the envelope by landing the history’s first Quad-Underflip. The young Canadian is insanely talented, hungry, and ready to rip!'
-                    ],
-                    ref: 'Max-Parrot',
-                    img_portrait: 'img/loRiders/Max-Parrot.jpg',
-                    tweet: 'https://twitter.com/maxparrot',
-                    fb: 'https://www.facebook.com/MaxenceParrot/',
-                    inst: 'https://www.instagram.com/maxparrot/',
-                    youtube: 'https://www.youtube.com/channel/UC4vR3xW7XtQp-nnKbmG8oLg/feed',
-                    video: 'https://www.youtube.com/embed/z096RCS2IgM',
-                    scores: {
-                        '2013': {
-                            beijing: {
-                                score: '81.67',
-                                trick: 'Cab Double Cork 1080 Indy'
-                            },
-                            innsbruck: {
-                                score: '65.67',
-                                trick: 'Backside Double Cork 1080 Mute'
-                            },
-                            la: {
-                                score: 'N/A'
-                            }
-                        },
-                        '2016': {
-                            beijing: {
-                                score: '100.00',
-
-                            },
-                            innsbruck: {
-                                score: '48.19'
-                            },
-                            la: {
-                                score: '52.35'
-                            }
-                        },
-                        '2017': {
-                            beijing: {
-                                score: '13.45'
-                            },
-                            innsbruck: {
-                                score: 'N/A'
-                            },
-                            la: {
-                                score: 'N/A'
-                            }
-                        }
-                    }
-                },
-                'Stale-Sandbech': {
-                    name: {
-                        first: 'St\xE5le',
-                        last: 'Sandbech'
-                    },
-                    nation: 'Norway',
-                    sponsors: ['Oakley', 'Rome', 'Monster'],
-                    homeBase: 'Oslo',
-                    dob: new Date('06/03/1993'),
-                    stance: 'Goofy',
-                    bio: [
-                        'It’s no secret that Ståle is a kicker machine, but he’s also a seriously good pipe-rider. A talented shredder all-around, Ståle is also known to get down in the streets. He is also one of the most consistent guys out there and he’s got a mean bag of tricks at his disposal. After a totally insane Olympic Slopestyle run, Ståle took home a Silver Medal. Ståle had a killer 2014/15 season, winning third at Air+Style in LA, second place in Beijing and a win in Innsbruck—what a year! Ståle had to sit out the Air+Style event in Beijing this season due to an injury, but he has since fully recovered and is riding better than ever. '
-                    ],
-                    ref: 'Stale-Sandbech',
-                    img_portrait: 'img/loRiders/Stale-Sandbech.jpg',
-                    tweet: 'https://twitter.com/stalesandbech',
-                    fb: 'https://www.facebook.com/stalesandbech/',
-                    inst: 'https://www.instagram.com/stalesandbech/',
-                    youtube: 'https://www.youtube.com/channel/UCO8tCaCIbmveFmeKL2DO0hw',
-                    video: 'https://www.youtube.com/embed/e4tEOuDXA7Y',
-                    scores: {
-                        '2011': {
-                            beijing: {
-                                score: '73.00',
-                                trick: ''
-                            },
-                            innsbruck: {
-                                score: 'N/A'
-                            },
-                            la: {
-                                score: 'N/A'
-                            }
-                        },
-                        '2012': {
-                            beijing: {
-                                score: '82.00',
-                                trick: 'Backside 1080 Mute Grab'
-                            },
-                            innsbruck: {
-                                score: '73.00',
-                                trick: 'Backside 1260 Mute Grab'
-                            },
-                            la: {
-                                score: 'N/A'
-                            }
-                        },
-                        '2013': {
-                            beijing: {
-                                score: '92.00',
-                                trick: 'Backside 1440 Mute'
-                            },
-                            innsbruck: {
-                                score: '89.00',
-                                trick: 'Backside Triple Cork 1440 Mute'
-                            },
-                            la: {
-                                score: 'N/A'
-                            }
-                        },
-                        '2014': {
-                            beijing: {
-                                score: 'N/A',
-                            },
-                            innsbruck: {
-                                score: 'N/A'
-                            }
-                        },
-                        '2016': {
-                            beijing: {
-                                score: '72.03',
-                            },
-                            innsbruck: {
-                                score: '78.02'
-                            },
-                            la: {
-                                score: '44.26'
-                            }
-                        }
-                    }
-                },
                 'Antoine-Truchon': {
                     name: {
                         first: 'Antoine',
@@ -676,6 +481,34 @@
                         }
                     }
                 },
+                'Jia-Hao-Zhang': {
+                    name: {
+                        first: 'Jia Hao',
+                        last: 'Zhang'
+                    },
+                    nation: 'China',
+                    sponsors: [],
+                    homeBase: '',
+                    dob: new Date('04/05/1995'),
+                    stance: '',
+                    bio: [
+                        'Jiahao Zhang is a fresh face to Air + Style. You’ll be seeing and hearing more about this Chinese rider soon.'
+                    ],
+                    ref: 'Jia-Hao-Zhang',
+                    img_portrait: 'img/loRiders/Jia-Hao-Zhang.jpg',
+                    tweet: '',
+                    fb: '',
+                    inst: '',
+                    youtube: '',
+                    video: '',
+                    scores: {
+                        '2017': {
+                            beijing: {
+                                score: '20.39',
+                            }
+                        }
+                    }
+                },
                 'Jonas-Boesiger': {
                     name: {
                         first: 'Jonas',
@@ -740,34 +573,6 @@
                         '2017': {
                             beijing: {
                                 score: '2.22',
-                            }
-                        }
-                    }
-                },
-                'Jia-Hao-Zhang': {
-                    name: {
-                        first: 'Jia Hao',
-                        last: 'Zhang'
-                    },
-                    nation: 'China',
-                    sponsors: [],
-                    homeBase: '',
-                    dob: new Date('04/05/1995'),
-                    stance: '',
-                    bio: [
-                        'Jiahao Zhang is a fresh face to Air + Style. You’ll be seeing and hearing more about this Chinese rider soon.'
-                    ],
-                    ref: 'Jia-Hao-Zhang',
-                    img_portrait: 'img/loRiders/Jia-Hao-Zhang.jpg',
-                    tweet: '',
-                    fb: '',
-                    inst: '',
-                    youtube: '',
-                    video: '',
-                    scores: {
-                        '2017': {
-                            beijing: {
-                                score: '20.39',
                             }
                         }
                     }
@@ -914,45 +719,6 @@
                             },
                             la: {
                                 score: 'N/A'
-                            }
-                        }
-                    }
-                },
-                'Michael-Ciccarelli': {
-                    name: {
-                        first: 'Michael',
-                        last: 'Ciccarelli'
-                    },
-                    nation: 'Canada',
-                    sponsors: ['Burton', "Anon", 'Monster'],
-                    homeBase: 'Ontario',
-                    dob: new Date('09/04/1996'),
-                    stance: 'Goofy',
-                    bio: [
-                        'Notorious for his extremely smooth style and technical bangers, Mikey Ciccarelli is a strong talent coming up from Ontario, Canada, doing the hard stuff and making it look too easy. Keep your eyes on him.'
-                    ],
-                    ref: 'Michael-Ciccarelli',
-                    img_portrait: 'img/loRiders/Michael-Ciccarelli.jpg',
-                    tweet: 'https://twitter.com/mikeyciccarelli',
-                    fb: 'https://www.facebook.com/MikeyJCiccarelli/',
-                    inst: 'https://www.instagram.com/mikeyciccarelli/',
-                    youtube: 'https://www.youtube.com/channel/UCOIY95WW3gJw3qGAhrNGtQA',
-                    video: 'https://www.youtube.com/embed/MNAjd23f24Y',
-                    scores: {
-                        '2016': {
-                            beijing: {
-                                score: '23.67',
-                            },
-                            innsbruck: {
-                                score: '61.47'
-                            },
-                            la: {
-                                score: '40.51'
-                            }
-                        },
-                        '2017': {
-                            beijing: {
-                                score: '60.68'
                             }
                         }
                     }
@@ -1111,6 +877,65 @@
                         }
                     }
                 },
+                'Max-Parrot': {
+                    name: {
+                        first: 'Max',
+                        last: 'Parrot'
+                    },
+                    nation: 'Canada',
+                    sponsors: ['Nobaday Snowboards'],
+                    homeBase: 'Bromont',
+                    dob: new Date('06/06/1994'),
+                    stance: 'Goofy',
+                    bio: [
+                        'Max started his career in the big leagues right here at Air+Style. Since then he’s won both the Big Air and Slopestyle at the X-Games in Aspen, and won the 2015 Air+Style in Beijing. Max has pushed the envelope by landing the history’s first Quad-Underflip. The young Canadian is insanely talented, hungry, and ready to rip!'
+                    ],
+                    ref: 'Max-Parrot',
+                    img_portrait: 'img/loRiders/Max-Parrot.jpg',
+                    tweet: 'https://twitter.com/maxparrot',
+                    fb: 'https://www.facebook.com/MaxenceParrot/',
+                    inst: 'https://www.instagram.com/maxparrot/',
+                    youtube: 'https://www.youtube.com/channel/UC4vR3xW7XtQp-nnKbmG8oLg/feed',
+                    video: 'https://www.youtube.com/embed/z096RCS2IgM',
+                    scores: {
+                        '2013': {
+                            beijing: {
+                                score: '81.67',
+                                trick: 'Cab Double Cork 1080 Indy'
+                            },
+                            innsbruck: {
+                                score: '65.67',
+                                trick: 'Backside Double Cork 1080 Mute'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: '100.00',
+
+                            },
+                            innsbruck: {
+                                score: '48.19'
+                            },
+                            la: {
+                                score: '52.35'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '13.45'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        }
+                    }
+                },
                 'Maximilian-Preissinger': {
                     name: {
                         first: 'Maximilian',
@@ -1146,6 +971,45 @@
                         '2017': {
                             beijing: {
                                 score: '32.64'
+                            }
+                        }
+                    }
+                },
+                'Michael-Ciccarelli': {
+                    name: {
+                        first: 'Michael',
+                        last: 'Ciccarelli'
+                    },
+                    nation: 'Canada',
+                    sponsors: ['Burton', "Anon", 'Monster'],
+                    homeBase: 'Ontario',
+                    dob: new Date('09/04/1996'),
+                    stance: 'Goofy',
+                    bio: [
+                        'Notorious for his extremely smooth style and technical bangers, Mikey Ciccarelli is a strong talent coming up from Ontario, Canada, doing the hard stuff and making it look too easy. Keep your eyes on him.'
+                    ],
+                    ref: 'Michael-Ciccarelli',
+                    img_portrait: 'img/loRiders/Michael-Ciccarelli.jpg',
+                    tweet: 'https://twitter.com/mikeyciccarelli',
+                    fb: 'https://www.facebook.com/MikeyJCiccarelli/',
+                    inst: 'https://www.instagram.com/mikeyciccarelli/',
+                    youtube: 'https://www.youtube.com/channel/UCOIY95WW3gJw3qGAhrNGtQA',
+                    video: 'https://www.youtube.com/embed/MNAjd23f24Y',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '23.67',
+                            },
+                            innsbruck: {
+                                score: '61.47'
+                            },
+                            la: {
+                                score: '40.51'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '60.68'
                             }
                         }
                     }
@@ -1480,45 +1344,6 @@
                         }
                     }
                 },
-                'Sebbe-DeBuck': {
-                    name: {
-                        first: 'Sebbe',
-                        last: 'De Buck'
-                    },
-                    nation: 'Belgium',
-                    sponsors: ['Dc', 'Anon', 'Monster', 'Union'],
-                    homeBase: 'Zoersel',
-                    dob: new Date('03/14/1995'),
-                    stance: 'Goofy',
-                    bio: [
-                        'Even though Sebbe grew up miles away from any mountain or ski resort, he didn’t let that stop him from becoming an amazing rider. At just 15 years old, he took home wins at the Belgium Junior Championships in Big Air, Halfpipe and Slopestyle. Triple threat! Since then, Sebbe has only gotten better. He has gnarly stuff like Switch Triple 14s in his locker. Keep your eyes peeled for his consistency, smoothness and premium amplitude! Welcome back, Sebbe! '
-                    ],
-                    ref: 'Sebbe-DeBuck',
-                    img_portrait: 'img/loRiders/Sebbe-DeBuck.jpg',
-                    tweet: 'https://twitter.com/sebbedebuck',
-                    fb: 'https://www.facebook.com/sebbedebuckfanpage/',
-                    inst: 'https://www.instagram.com/sebbedebuck/?hl=en',
-                    youtube: 'https://www.youtube.com/user/SBESmag',
-                    video: 'https://www.youtube.com/embed/1w3Yctj9cpQ',
-                    scores: {
-                        '2016': {
-                            beijing: {
-                                score: '5.72',
-                            },
-                            innsbruck: {
-                                score: '11.55'
-                            },
-                            la: {
-                                score: '20.56'
-                            }
-                        },
-                        '2017': {
-                            beijing: {
-                                score: '49.87'
-                            }
-                        }
-                    }
-                },
                 'Sebastien-Toutant': {
                     name: {
                         first: 'Sebastien',
@@ -1597,6 +1422,45 @@
                         }
                     }
                 },
+                'Sebbe-DeBuck': {
+                    name: {
+                        first: 'Sebbe',
+                        last: 'De Buck'
+                    },
+                    nation: 'Belgium',
+                    sponsors: ['Dc', 'Anon', 'Monster', 'Union'],
+                    homeBase: 'Zoersel',
+                    dob: new Date('03/14/1995'),
+                    stance: 'Goofy',
+                    bio: [
+                        'Even though Sebbe grew up miles away from any mountain or ski resort, he didn’t let that stop him from becoming an amazing rider. At just 15 years old, he took home wins at the Belgium Junior Championships in Big Air, Halfpipe and Slopestyle. Triple threat! Since then, Sebbe has only gotten better. He has gnarly stuff like Switch Triple 14s in his locker. Keep your eyes peeled for his consistency, smoothness and premium amplitude! Welcome back, Sebbe! '
+                    ],
+                    ref: 'Sebbe-DeBuck',
+                    img_portrait: 'img/loRiders/Sebbe-DeBuck.jpg',
+                    tweet: 'https://twitter.com/sebbedebuck',
+                    fb: 'https://www.facebook.com/sebbedebuckfanpage/',
+                    inst: 'https://www.instagram.com/sebbedebuck/?hl=en',
+                    youtube: 'https://www.youtube.com/user/SBESmag',
+                    video: 'https://www.youtube.com/embed/1w3Yctj9cpQ',
+                    scores: {
+                        '2016': {
+                            beijing: {
+                                score: '5.72',
+                            },
+                            innsbruck: {
+                                score: '11.55'
+                            },
+                            la: {
+                                score: '20.56'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '49.87'
+                            }
+                        }
+                    }
+                },
                 'Seppe-Smits': {
                     name: {
                         first: 'Seppe',
@@ -1660,6 +1524,187 @@
                         '2017': {
                             beijing: {
                                 score: '27.60',
+                            }
+                        }
+                    }
+                },
+                'Stale-Sandbech': {
+                    name: {
+                        first: 'St\xE5le',
+                        last: 'Sandbech'
+                    },
+                    nation: 'Norway',
+                    sponsors: ['Oakley', 'Rome', 'Monster'],
+                    homeBase: 'Oslo',
+                    dob: new Date('06/03/1993'),
+                    stance: 'Goofy',
+                    bio: [
+                        'It’s no secret that Ståle is a kicker machine, but he’s also a seriously good pipe-rider. A talented shredder all-around, Ståle is also known to get down in the streets. He is also one of the most consistent guys out there and he’s got a mean bag of tricks at his disposal. After a totally insane Olympic Slopestyle run, Ståle took home a Silver Medal. Ståle had a killer 2014/15 season, winning third at Air+Style in LA, second place in Beijing and a win in Innsbruck—what a year! Ståle had to sit out the Air+Style event in Beijing this season due to an injury, but he has since fully recovered and is riding better than ever. '
+                    ],
+                    ref: 'Stale-Sandbech',
+                    img_portrait: 'img/loRiders/Stale-Sandbech.jpg',
+                    tweet: 'https://twitter.com/stalesandbech',
+                    fb: 'https://www.facebook.com/stalesandbech/',
+                    inst: 'https://www.instagram.com/stalesandbech/',
+                    youtube: 'https://www.youtube.com/channel/UCO8tCaCIbmveFmeKL2DO0hw',
+                    video: 'https://www.youtube.com/embed/e4tEOuDXA7Y',
+                    scores: {
+                        '2011': {
+                            beijing: {
+                                score: '73.00',
+                                trick: ''
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: '82.00',
+                                trick: 'Backside 1080 Mute Grab'
+                            },
+                            innsbruck: {
+                                score: '73.00',
+                                trick: 'Backside 1260 Mute Grab'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: '92.00',
+                                trick: 'Backside 1440 Mute'
+                            },
+                            innsbruck: {
+                                score: '89.00',
+                                trick: 'Backside Triple Cork 1440 Mute'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: '72.03',
+                            },
+                            innsbruck: {
+                                score: '78.02'
+                            },
+                            la: {
+                                score: '44.26'
+                            }
+                        }
+                    }
+                },
+                'Sven-Thorgren': {
+                    name: {
+                        first: 'Sven',
+                        last: 'Thorgren'
+                    },
+                    nation: 'Sweden',
+                    sponsors: ['Nitro', 'Oakley', 'Monster'],
+                    homeBase: 'Malung',
+                    dob: new Date('04/10/1994'),
+                    stance: 'Regular',
+                    bio: [
+                        'This young Swede is on the warpath, sporting a sick bag of tricks with bangers like cab 1440s and a bunch of Triple Corks. Sven has one of the smoothest styles out there and he stomps the biggest tricks like it ain’t no thang. Sven took home top honors at the Los Angeles Air+Style 2016 and snagged himself the Ring of Glory. Make some noise for the champ!'
+                    ],
+                    ref: 'Sven-Thorgren',
+                    img_portrait: 'img/loRiders/Sven-Thorgren.jpg',
+                    tweet: 'https://twitter.com/sventhorgren?lang=sv',
+                    fb: 'https://www.facebook.com/sven.thorgren',
+                    inst: 'https://www.instagram.com/sventhorgren/',
+                    youtube: 'https://www.youtube.com/channel/UCABshgGP243EXCx3oDP251w',
+                    video: 'https://www.youtube.com/embed/caxzNEeSzUQ',
+                    scores: {
+                        '2013': {
+                            beijing: {
+                                score: '80.67',
+                                trick: 'Backside Double Rodeo 1260 Melon'
+                            },
+                            innsbruck: {
+                                score: '15.33',
+                                trick: 'Backside Double Rodeo 1080 Nose'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: '96.00',
+                                trick: 'Backside 1440 Mute Grab'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: '84.61',
+                            },
+                            innsbruck: {
+                                score: '66.54'
+                            },
+                            la: {
+                                score: '84.61'
+                            }
+                        }
+                    }
+                },
+                'Tor-Lundstrom': {
+                    name: {
+                        first: 'Tor',
+                        last: 'Lundström'
+                    },
+                    nation: 'Sweden',
+                    sponsors: ['Bataleon', 'Von Zipper', '686', 'Monster'],
+                    homeBase: 'Gothenheim',
+                    dob: new Date('01/02/1992'),
+                    stance: 'Goofy',
+                    bio: [
+                        "Tor rocks every party ‘til the bitter end and is guaranteed good times. He’ll tear up a bar tab likenothing, but that doesn’t mean he’s slippin’—far from it, actually. Tor learns tricks super fast, keeps pushes himself constantly, and permanently raises his riding to the next level every season. Last year he proved he could hang with the best of ‘em with his Air + Style debut, throwing down a Triple Backside 1440... no big deal! This year he wants to be on the podium, and we’re more than happy to have him back on the tour."
+                    ],
+                    ref: 'Tor-Lundstrom',
+                    img_portrait: 'img/loRiders/Tor-Lundstrom.jpg',
+                    tweet: '',
+                    fb: 'https://www.facebook.com/tor.lundstrom/?fref=ts',
+                    inst: 'https://www.instagram.com/torlundstrom/?hl=en',
+                    youtube: '',
+                    video: 'https://www.youtube.com/embed/5FMDigc3Uho',
+                    scores: {
+                        '2014': {
+                            beijing: {
+                                score: '96.00',
+                                trick: 'Backside Double 1440'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: '44.26',
+                            },
+                            innsbruck: {
+                                score: '30.10'
+                            },
+                            la: {
+                                score: '17.51'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '40.74'
                             }
                         }
                     }
@@ -1730,51 +1775,6 @@
                         '2017': {
                             beijing: {
                                 score: '25.16'
-                            }
-                        }
-                    }
-                },
-                'Tor-Lundstrom': {
-                    name: {
-                        first: 'Tor',
-                        last: 'Lundström'
-                    },
-                    nation: 'Sweden',
-                    sponsors: ['Bataleon', 'Von Zipper', '686', 'Monster'],
-                    homeBase: 'Gothenheim',
-                    dob: new Date('01/02/1992'),
-                    stance: 'Goofy',
-                    bio: [
-                        "Tor rocks every party ‘til the bitter end and is guaranteed good times. He’ll tear up a bar tab likenothing, but that doesn’t mean he’s slippin’—far from it, actually. Tor learns tricks super fast, keeps pushes himself constantly, and permanently raises his riding to the next level every season. Last year he proved he could hang with the best of ‘em with his Air + Style debut, throwing down a Triple Backside 1440... no big deal! This year he wants to be on the podium, and we’re more than happy to have him back on the tour."
-                    ],
-                    ref: 'Tor-Lundstrom',
-                    img_portrait: 'img/loRiders/Tor-Lundstrom.jpg',
-                    tweet: '',
-                    fb: 'https://www.facebook.com/tor.lundstrom/?fref=ts',
-                    inst: 'https://www.instagram.com/torlundstrom/?hl=en',
-                    youtube: '',
-                    video: 'https://www.youtube.com/embed/5FMDigc3Uho',
-                    scores: {
-                        '2014': {
-                            beijing: {
-                                score: '96.00',
-                                trick: 'Backside Double 1440'
-                            }
-                        },
-                        '2016': {
-                            beijing: {
-                                score: '44.26',
-                            },
-                            innsbruck: {
-                                score: '30.10'
-                            },
-                            la: {
-                                score: '17.51'
-                            }
-                        },
-                        '2017': {
-                            beijing: {
-                                score: '40.74'
                             }
                         }
                     }
