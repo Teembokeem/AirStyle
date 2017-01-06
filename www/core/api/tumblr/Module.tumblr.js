@@ -15,7 +15,6 @@
                 console.log('this')
                 TumblrManager.getPosts().then(function (d) {
                     console.log('BACK', d);
-                    return d
                 });
 
             }
