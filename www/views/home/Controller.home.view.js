@@ -5,9 +5,11 @@
         .module('Home.view.module')
         .controller('HomeCtrl', HomeCtrl);
 
-    HomeCtrl.$inject = ['$log', '$state', '$rootScope', '$window'];
+    HomeCtrl.$inject = ['$log', '$state', '$rootScope', '$window', 'Tours'];
 
-    function HomeCtrl($log, $state, $rootScope, $window) {
+    function HomeCtrl($log, $state, $rootScope, $window, Tours) {
         var cc = this;
+
+        cc.video = Tours('all')[0];
     }
 })();

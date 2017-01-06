@@ -42,6 +42,7 @@
         })
 
         cc.$onInit = function () {
+            console.log(cc.video)
             cc.video = $sce.trustAsResourceUrl(cc.video);
 
         }
