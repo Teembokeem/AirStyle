@@ -5,6 +5,7 @@
         .module('Statics')
         .constant('Tours', function (inputArg) {
             var tours = {
+                recap_video: 'https://www.youtube.com/embed/W31Z3CgTTO4',
                 'beijing': {
                     title: 'BEIJING',
                     ref: 'beijing',
@@ -176,15 +177,181 @@
                             ]
                         }
 
-                    ]
+                    ],
+                    faq_general: [
+                        {
+                            question: 'Where is the Air + Style Festival Innsbruck-Tirol located?',
+                            answer: 'In the Olympiaworld in Innsbruck (Olympiastrasse 10, 6020 Innsbruck)'
+                        },
+                        {
+                            question: 'Will there be shuttles?',
+                            answer: 'Yes there will be shuttles running from Innsbruck Main Station (Bus Platform 4) before and after the event'
+                        },
+                        {
+                            question: 'How many stages are there?',
+                            answer: '2 stages: The outdoor KroneHit Mainstage and an Indoor Stage.'
+                        },
+                        {
+                            question: 'What are the festival hours?',
+                            answer: 'FR: 16:30 – 22:00 \n SA: 12:30 – 22:00 \n SA Party: 21:330 – 05:00'
+                        },
+                        {
+                            question: 'What are the box office hours?',
+                            answer: 'Fr: 15:30-19:00 \n Sa: 11:30-19:00 \n The box office is located at Entry North (Main Entry)'
+                        },
+                        {
+                            question: 'Will there be lockers at the festival?',
+                            answer: 'No, only at the Aftershow Party'
+                        },
+                        {
+                            question: 'Is there a timetable for the bands?',
+                            answer: 'Yes.  In our festival program (wie wollt ihr das nennen? Hier stehtFestival program unten program guide? Ich würde das festobal booklet oder festival guide nennen) on the App or on site on the big screens and info boards.'
+                        },
+                        {
+                            question: 'Where can I find a festival map?',
+                            answer: 'In the app or in our progam guide, on site on big screens and info boards.'
+                        },
+                        {
+                            question: 'Where can I download the Air + Style App?',
+                            answer: 'You can search for Air + Style in your app store and will find it right away.'
+                        },
+                        {
+                            question: 'Is there a reentry if I need to grab something from home?',
+                            answer: 'Yes. Or ticket is only valid for one -time entry but if you show your wristband with your vaildated ticket you will be able to get back in. We will make sure you dont want to leave though :)'
+                        },
+                        {
+                            question: 'Is this festival for all ages?',
+                            answer: 'No, children under 6 years old are not allowed to attend the event and if youare between 6 and 14 you can only get in with an accompagning adult. The law for protecting the youth is applicable for all areas of the event.'
+                        },
+                        {
+                            question: 'Is there an age limit for the party?',
+                            answer: 'Yes, you need to be over 16 to be allowed to enter. There will be ID checks.'
+                        },
+                        {
+                            question: 'Can I bring my own drinks/food?',
+                            answer: 'No, but we have lots of beverages there ;)'
+                        },
+                        {
+                            question: 'Do Vendors accept Debit/Credit Cards?',
+                            answer: 'No, we are a cash only event. There will be an ATM on site.'
+                        },
+                        {
+                            question: 'I lost something onsite, what do I do?',
+                            answer: 'Go to the information tent at Entry North (Main Entry). After the event all lost items will be handed over to Olympiaworld.'
+                        },
+                        {
+                            question: 'Could I bring my dog?',
+                            answer: 'No. We just want the best for your pet and on that day, it’s best if he or she stays home.'
+                        },
+                        {
+                            question: 'Can I bring my professional camera?',
+                            answer: 'No. You are only allowed to bring a digital camera without detachable lenses.'
+                        },
+                        {
+                            question: 'Is this festival handcap friendly?',
+                            answer: 'Yes! Please use Entry South for Entry ONLY.  There are no special viewing areas but there are assigned areas you can go to for preferred viewing. Please  send an email to office@air-style.com for further information and map. We will also grant a ticket for yor accompagning person.'
+                        },
+                        {
+                            question: 'Will the festival stay open if there is rain?',
+                            answer: 'Yes, as long as the athlets can ride safely we will continue. There is also the Indoor stage you can visit if you dont want to get wet..'
+                        },
+                        {
+                            question: "What's the family ticket?",
+                            answer: 'We have created a ticket category especially for Families. You buy your regular ticket and for only 5 Euro more you an get access for your child (if  he/she is under 14). Please use Entry South as this will be less crowed and gets  you straight into Learn To Area.'
+                        },
+                        {
+                            question: "What's the Learn To Area?",
+                            answer: 'Together with our partners we have created a fun-filled activities such asmini snowboard ramp and skate mini ramp. Please note that the Lear nto Area is only open Saturday and closes at 7pm.'
+                        },
+                        {
+                            question: "What's special about the VIP ticket?",
+                            answer: 'You have your own entry (Entry West of Tivoli Stadium) will fast entry, you have your heated indoor area with awesome views onto venue plus you have the  exclusive outdoor areas close to the action on both ramp and stages Please note that VIP area is cashless this year- still you can fill up your card with cash or credit/debit card at the recharge point in the main indoor VIP area.'
+                        },
+                        {
+                            question: "What's the difference between VIP and VIP Gold ticket?",
+                            answer: 'VIP Gold gets you to all areas of VIP, plus you have your own area to hang out where you get free drinks and free food all day long. Please note that the VIP Gold exclusive area is only open Saturday, but you can  hang out at the VIP area on Friday and get food and drink vouchers.'
+                        },
+                        {
+                            question: "Where do I park?",
+                            answer: 'We recommend you take the shuttle as there is hardly any parking around the venue. There is a parking deck at Tivoli stadium but this will fill up fast and costs you 8 Euro.'
+                        },
+                        {
+                            question: "Where do I change my ticket/get my wristband?",
+                            answer: 'There will be ticket change points at Entry North and South.'
+                        },
+                        {
+                            question: "Is there good food?",
+                            answer: 'We will have a great selection for foodtrucks for all kinds of dietary needs!'
+                        },
+                    ],
+                    faq_banlist: {
+                        yesList: [
+                            'Backpacks (medium)',
+                            'Cell Phones/Chargers',
+                            'Chapstick/Lip Balm',
+                            'Sealed Cigarettes',
+                            'Dancing Shoes',
+                            'Camera (non-pro, no detachable lenses)',
+                            'Ear Plugs',
+                            'Eye Drops (subject to testing)',
+                            'Fanny Packs/Hip Bags',
+                            'Gum',
+                            'Hats',
+                            'Makeup',
+                            'Purses/Handbags',
+                            'Smiles',
+                            'Sunglasses',
+                        ],
+                        noList: [
+                            'Aerosol Products/Aerosol Cans',
+                            'Air Horns',
+                            'Audio Recording Devices',
+                            'Bikes',
+                            'Blankets/Towels',
+                            'Bottles (glass or metal)',
+                            'Cameras or Video Cameras (detachable lens)',
+                            'Chains/Chain Wallets',
+                            'Chairs',
+                            'Coolers',
+                            'Drones, Remote Control Aircraft/Toys/Cars',
+                            'Drugs or Drug Paraphernalia',
+                            'e-Cigs/Vapes',
+                            'Fireworks/Explosives/Road Flares',
+                            'Flags',
+                            'Flyers/Sampling/Giveaways',
+                            'Glow Sticks/LED Gloves',
+                            'Guns/Ammunition/Tasers',
+                            'Hoverboards',
+                            'Hula Hoops',
+                            'Instruments',
+                            'Knives/Weapons/Sharp Objects',
+                            'Laser Pointers',
+                            'Mace/Pepper Spray',
+                            'Outside Food or Beverage',
+                            'Pets/Animals (unless ADA approved)',
+                            'Selfie Sticks/Narcissists/Tripods',
+                            'Sharpies/Markers/Paint Pens',
+                            'Skateboards/Skates',
+                            'Squirt Guns/Toy Guns/Sling Shots',
+                            'Sharp Objects',
+                            'Batteries',
+                            'Umbrellas',
+                        ]
+                    }
                 },
                 'la': {
                     title: 'LOS ANGELES',
                     ref: 'la',
                     date_semantic: 'FEB 18 + 19',
                     dest: 'app.tour-stops',
-                    video: 'https://www.youtube.com/embed/PhBNiSlcbRk',
-                    city_block_image: '../img/la_city_block.jpg'
+                    video: 'https://www.youtube.com/embed/W8_I7Gg47W4',
+                    city_block_image: '../img/la_city_block.jpg',
+                    faq_general: [
+                        {
+                            question: 'Where is the Air + Style Festival Innsbruck-Tirol located?',
+                            answer: 'In the Olympiaworld in Innsbruck (Olympiastrasse 10, 6020 Innsbruck)'
+                        },
+                    ]
                 }
             },
                 Keys = Object.keys(tours),
