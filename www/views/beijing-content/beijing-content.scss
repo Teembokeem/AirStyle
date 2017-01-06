@@ -2,6 +2,51 @@
     ion-content {
         .scroll {
             padding-top: 100px;
+
+            > .container {
+                .section-title {
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 58px;
+                    padding: 0 37px;
+                    .title {
+                        margin: 0 auto;
+                        width: 90.9vw;
+                        font-size: 30px;
+                        text-align: center;
+
+                        span {
+                            border-bottom: 8px solid $as-green;
+                        }
+                    }
+                }
+            }
         }
     }   
+}
+
+@media(min-width: 1024px) {
+    .beijing-content-view {
+        ion-content {
+            .scroll {
+                padding-top: 175px;
+
+                > .container {
+                    .section-title {
+                        margin-bottom: 60px;
+
+                        .title {
+
+                            span {
+                                font-size: 55px;
+                                position: relative;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
