@@ -1,14 +1,16 @@
 <div class="container">
 	<div class="row">
-		<div class="col container schedule" ng-repeat="schedule in cc.scheduleContent" ng-click="cc.stateChange('app.tour-stops', schedule.ref)">
-			<div class="content">
-				<div class="title">
-					<span>{{schedule.title}}</span>
-				</div>
-				<div class="date">
-					<span>{{schedule.date_semantic}}</span>
-				</div>
-			</div>
-		</div>
+		<div ng-mouseover="cc.hovered = $index" ng-mouseleave="cc.hovered = -1" ng-class="{'hover': cc.hovered == $index}" class="col container schedule"
+			ng-repeat="schedule in cc.scheduleContent" ng-click="cc.stateChange('app.tour-stops', schedule.ref)">
+			<div style="background: url({{schedule.city_block_image}})" class="hero-image"></div>
+<div class="content">
+	<div class="title">
+		<span>{{schedule.title}}</span>
 	</div>
+	<div class="date">
+		<span>{{schedule.date_semantic}}</span>
+	</div>
+</div>
+</div>
+</div>
 </div>
