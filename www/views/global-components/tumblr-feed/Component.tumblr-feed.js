@@ -1,3 +1,4 @@
+var _scope;
 (function () {
     'use strict';
     angular.module('Template')
@@ -10,9 +11,9 @@
             controllerAs: 'cc'
         })
 
-    TumblrFeedCtrl.$inject = ['$log', 'TumblrManager', '$stateParams'];
+    TumblrFeedCtrl.$inject = ['$log', 'TumblrManager', '$stateParams', '$scope'];
 
-    function TumblrFeedCtrl($log, TumblrManager, $stateParams) {
+    function TumblrFeedCtrl($log, TumblrManager, $stateParams, $scope) {
         var cc = this;
 
         cc.go = go;
@@ -23,12 +24,14 @@
 
         cc.$onInit = function () {
 
-            $stateParams.tour ? TumblrManager.filterPosts($stateParams.tour).then(function (arr) {
-                cc.tumblrFeedContent = arr;
-            }) : TumblrManager.filterPosts().then(function (arr) {
-                cc.tumblrFeedContent = arr
-            });
-            console.log(cc.tumblrFeedContent)
+            // cc.tumblrFeedContent = $stateParams.tour ? TumblrManager.filterPosts($stateParams.tour) : TumblrManager.filterPosts();
+            // console.log(cc.tumblrFeedContent)
+            cc.tumblrFeedContent = TumblrManager.Posts.then(function (posts) {
+                cc.tumblrFeedContent = $stateParams.tour ? posts.filter(function (post) {
+                    return post.tags.indexOf($stateParams.tour) != -1
+                }) : posts;
+
+            })
         }
     }
 })();
