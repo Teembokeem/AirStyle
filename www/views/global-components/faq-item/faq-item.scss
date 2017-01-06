@@ -55,6 +55,19 @@
     margin: 0 auto;
     margin-bottom: 1.14em;
     background-color: #424242;
+
+    .answer-container {
+        .answer {
+            .col {
+                margin-left: 1rem;
+                span {
+                    font-size: 1rem;
+                    font-family: 'Apercu';
+
+                }
+            }
+        }
+    }
 }
 
 .item:hover,
