@@ -26,10 +26,37 @@
                     youtube: 'https://www.youtube.com/channel/UCABshgGP243EXCx3oDP251w',
                     video: 'https://www.youtube.com/embed/caxzNEeSzUQ',
                     scores: {
+                        '2013': {
+                            beijing: {
+                                score: '80.67',
+                                trick: 'Backside Double Rodeo 1260 Melon'
+                            },
+                            innsbruck: {
+                                score: '15.33',
+                                trick: 'Backside Double Rodeo 1080 Nose'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: '96.00',
+                                trick: 'Backside 1440 Mute Grab'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
-                                score: 'N/A',
-                                eventName: 'beijing'
+                                score: '84.61',
+                            },
+                            innsbruck: {
+                                score: '66.54'
+                            },
+                            la: {
+                                score: '84.61'
                             }
                         }
                     }
@@ -55,10 +82,40 @@
                     youtube: 'https://www.youtube.com/channel/UC4vR3xW7XtQp-nnKbmG8oLg/feed',
                     video: 'https://www.youtube.com/embed/z096RCS2IgM',
                     scores: {
+                        '2013': {
+                            beijing: {
+                                score: '81.67',
+                                trick: 'Cab Double Cork 1080 Indy'
+                            },
+                            innsbruck: {
+                                score: '65.67',
+                                trick: 'Backside Double Cork 1080 Mute'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
-                                score: '13.45',
-                                eventName: 'beijing'
+                                score: '100.00',
+
+                            },
+                            innsbruck: {
+                                score: '48.19'
+                            },
+                            la: {
+                                score: '52.35'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '13.45'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -84,10 +141,61 @@
                     youtube: 'https://www.youtube.com/channel/UCO8tCaCIbmveFmeKL2DO0hw',
                     video: 'https://www.youtube.com/embed/e4tEOuDXA7Y',
                     scores: {
-                        '2016': {
+                        '2011': {
+                            beijing: {
+                                score: '73.00',
+                                trick: ''
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: '82.00',
+                                trick: 'Backside 1080 Mute Grab'
+                            },
+                            innsbruck: {
+                                score: '73.00',
+                                trick: 'Backside 1260 Mute Grab'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: '92.00',
+                                trick: 'Backside 1440 Mute'
+                            },
+                            innsbruck: {
+                                score: '89.00',
+                                trick: 'Backside Triple Cork 1440 Mute'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
                             beijing: {
                                 score: 'N/A',
-                                eventName: 'beijing'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: '72.03',
+                            },
+                            innsbruck: {
+                                score: '78.02'
+                            },
+                            la: {
+                                score: '44.26'
                             }
                         }
                     }
@@ -113,10 +221,39 @@
                     youtube: 'https://www.youtube.com/embed/qLs0sfklQcs',
                     video: 'https://www.youtube.com/embed/A6uokUtjZHM',
                     scores: {
+                        '2013': {
+                            beijing: {
+                                score: '90.00',
+                                trick: 'Switch Backside Double Cork 1260 Mute'
+                            },
+                            innsbruck: {
+                                score: '78.33',
+                                trick: 'Switch Backside Double Cork 1260 Mute'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
-                                score: '64.83',
-                                eventName: 'beijing'
+                                score: '40.51',
+                            },
+                            innsbruck: {
+                                score: '40.51'
+                            },
+                            la: {
+                                score: '61.47'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '64.83'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -144,8 +281,13 @@
                     scores: {
                         '2016': {
                             beijing: {
-                                score: 'N/A',
-                                eventName: 'beijing'
+                                score: '0.00',
+                            },
+                            innsbruck: {
+                                score: '72.03'
+                            },
+                            la: {
+                                score: '0.00'
                             }
                         }
                     }
@@ -173,8 +315,13 @@
                     scores: {
                         '2016': {
                             beijing: {
-                                score: 'N/A',
-                                eventName: 'beijing'
+                                score: '0.00',
+                            },
+                            innsbruck: {
+                                score: '0.00'
+                            },
+                            la: {
+                                score: '11.55'
                             }
                         }
                     }
@@ -200,10 +347,15 @@
                     youtube: '',
                     video: 'https://www.youtube.com/embed/Sgu00dLNVS8',
                     scores: {
-                        '2016': {
+                        '2017': {
                             beijing: {
                                 score: '22.76',
-                                eventName: 'beijing'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -229,10 +381,27 @@
                     youtube: 'https://www.youtube.com/user/USSANetwork/about',
                     video: 'https://www.youtube.com/embed/K9NdQxzEQ4M',
                     scores: {
+                        '2013': {
+                            beijing: {
+                                score: '26.00',
+                                trick: 'Cab 1260 Double Cork Melon'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: 'N/A',
-                                eventName: 'beijing'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -260,8 +429,24 @@
                     scores: {
                         '2016': {
                             beijing: {
-                                score: '56.83',
-                                eventName: 'beijing'
+                                score: '0.00',
+                            },
+                            innsbruck: {
+                                score: '56.75'
+                            },
+                            la: {
+                                score: '2.85'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '56.83'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -290,7 +475,17 @@
                         '2016': {
                             beijing: {
                                 score: '85.73',
-                                eventName: 'beijing'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '100'
                             }
                         }
                     }
@@ -316,10 +511,33 @@
                     youtube: 'https://www.youtube.com/embed/pSjILoz9mJA',
                     video: 'https://www.youtube.com/embed/HO3I2k-hD2U',
                     scores: {
+                        '2013': {
+                            beijing: {
+                                score: '75.67',
+                                trick: 'Frontside Flat 1080 Melon'
+                            },
+                            innsbruck: {
+                                score: '62.00',
+                                trick: 'Cab 1080 Melon'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
-                                score: '15.74',
-                                eventName: 'beijing'
+                                score: '36.92',
+                            },
+                            innsbruck: {
+                                score: '20.56'
+                            },
+                            la: {
+                                score: '72.03'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '15.74'
                             }
                         }
                     }
@@ -345,10 +563,64 @@
                     youtube: 'https://www.youtube.com/embed/tZ1cL6eSOhs',
                     video: 'https://www.youtube.com/embed/a-mX7esr1i4',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: '71.00',
+                                trick: ''
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: '86.00',
+                                trick: 'Switch Backside 1260 Double Cork'
+                            },
+                            innsbruck: {
+                                score: '89.00',
+                                trick: 'Switch Backside 1080 Double Cork Indy'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: '88.33',
+                                trick: 'Switch Backside 1260 Mute'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: '85.67',
+                                trick: 'Frontside Double Cork 1080'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
-                                score: 'N/A',
-                                eventName: 'beijing'
+                                score: '66.54',
+                            },
+                            innsbruck: {
+                                score: '52.35'
+                            },
+                            la: {
+                                score: '66.54'
                             }
                         }
                     }
@@ -374,10 +646,32 @@
                     youtube: 'https://www.youtube.com/user/xiaohu800426',
                     video: 'https://www.youtube.com/embed/4PWqxDoNYy8',
                     scores: {
+                        '2014': {
+                            beijing: {
+                                score: '71.33',
+                                trick: 'Frontside Double Cork 900'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
-                                score: '6.88',
-                                eventName: 'beijing'
+                                score: '2.85',
+                            },
+                            innsbruck: {
+                                score: '0.00'
+                            },
+                            la: {
+                                score: '0.00'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '6.88'
                             }
                         }
                     }
@@ -403,10 +697,21 @@
                     youtube: 'https://www.youtube.com/channel/UCnCphtM477DFoabIUeCJLuQ',
                     video: 'https://www.youtube.com/embed/YdiqXB-r1mc',
                     scores: {
-                        '2016': {
+                        '2014': {
+                            beijing: {
+                                score: '58.33',
+                                trick: 'Backside Double Cork 1080 Double Grab'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2017': {
                             beijing: {
                                 score: '43.64',
-                                eventName: 'beijing'
                             }
                         }
                     }
@@ -432,10 +737,9 @@
                     youtube: '',
                     video: '',
                     scores: {
-                        '2016': {
+                        '2017': {
                             beijing: {
                                 score: '2.22',
-                                eventName: 'beijing'
                             }
                         }
                     }
@@ -461,10 +765,9 @@
                     youtube: '',
                     video: '',
                     scores: {
-                        '2016': {
+                        '2017': {
                             beijing: {
                                 score: '20.39',
-                                eventName: 'beijing'
                             }
                         }
                     }
@@ -493,7 +796,17 @@
                         '2016': {
                             beijing: {
                                 score: '53.24',
-                                eventName: 'beijing'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '53.24'
                             }
                         }
                     }
@@ -521,8 +834,13 @@
                     scores: {
                         '2016': {
                             beijing: {
-                                score: 'N/A',
-                                eventName: 'beijing'
+                                score: '30.10',
+                            },
+                            innsbruck: {
+                                score: '0.00'
+                            },
+                            la: {
+                                score: '0.00'
                             }
                         }
                     }
@@ -550,8 +868,18 @@
                     scores: {
                         '2016': {
                             beijing: {
-                                score: '30.09',
-                                eventName: 'beijing'
+                                score: '61.47',
+                            },
+                            innsbruck: {
+                                score: '14.51'
+                            },
+                            la: {
+                                score: '91.89'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '30.09'
                             }
                         }
                     }
@@ -580,7 +908,12 @@
                         '2016': {
                             beijing: {
                                 score: 'N/A',
-                                eventName: 'beijing'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -608,8 +941,18 @@
                     scores: {
                         '2016': {
                             beijing: {
-                                score: '60.68',
-                                eventName: 'beijing'
+                                score: '23.67',
+                            },
+                            innsbruck: {
+                                score: '61.47'
+                            },
+                            la: {
+                                score: '40.51'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '60.68'
                             }
                         }
                     }
@@ -637,8 +980,18 @@
                     scores: {
                         '2016': {
                             beijing: {
-                                score: '37.95',
-                                eventName: 'beijing'
+                                score: 'N/A',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '37.95'
                             }
                         }
                     }
@@ -664,10 +1017,57 @@
                     youtube: 'https://www.youtube.com/user/MaximumFamilyGames/about',
                     video: 'https://www.youtube.com/embed/lhFxx_CJ9h4',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: '94.00',
+                                trick: 'Cab 1260 Double Cork'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: '32',
+                                trick: 'Cab 1440'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: '85.67',
+                                trick: 'Backside Triple Cork 1440 Mute'
+                            },
+                            innsbruck: {
+                                score: '73.00',
+                                trick: 'Cab 1260 Indy'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
-                                score: '74.27',
-                                eventName: 'beijing'
+                                score: '91.89',
+                            },
+                            innsbruck: {
+                                score: '44.26'
+                            },
+                            la: {
+                                score: '33.45'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '74.27'
                             }
                         }
                     }
@@ -695,8 +1095,18 @@
                     scores: {
                         '2016': {
                             beijing: {
-                                score: '100',
-                                eventName: 'beijing'
+                                score: '8.62',
+                            },
+                            innsbruck: {
+                                score: '91.89'
+                            },
+                            la: {
+                                score: '48.19'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '100'
                             }
                         }
                     }
@@ -724,8 +1134,18 @@
                     scores: {
                         '2016': {
                             beijing: {
-                                score: '32.64',
-                                eventName: 'beijing'
+                                score: '20.56',
+                            },
+                            innsbruck: {
+                                score: '0.00'
+                            },
+                            la: {
+                                score: '14.51'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '32.64'
                             }
                         }
                     }
@@ -751,10 +1171,9 @@
                     youtube: 'https://www.youtube.com/embed/V7uQyml9oic',
                     video: '',
                     scores: {
-                        '2016': {
+                        '2017': {
                             beijing: {
                                 score: '4.44',
-                                eventName: 'beijing'
                             }
                         }
                     }
@@ -770,7 +1189,7 @@
                     dob: new Date('01/28/1997'),
                     stance: 'Regular',
                     bio: [
-                        "After a breakout park in DC’s 2010 movie “IT” alongside riders like Torstein Horgmo and MatsHofgaard, Mons Røisland showed he had what it takes to stand out as the only am on DC’s pro team. His chops on the contest circuit aren’t too shabby either; in 2015 Møns bronze medaled at the X-Games Slopestyle event, landing a bad ass Switch Backside Triple 1620 in his run. Keep your eye out for this Norwegian beast—he’s sure to throw down some bangers at Air + Style."
+                        "After a breakout park in DC’s 2011 movie “IT” alongside riders like Torstein Horgmo and MatsHofgaard, Mons Røisland showed he had what it takes to stand out as the only am on DC’s pro team. His chops on the contest circuit aren’t too shabby either; in 2015 Møns bronze medaled at the X-Games Slopestyle event, landing a bad ass Switch Backside Triple 1620 in his run. Keep your eye out for this Norwegian beast—he’s sure to throw down some bangers at Air + Style."
                     ],
                     ref: 'Mons-Roeisland',
                     img_portrait: 'img/loRiders/Mons-Røisland.jpg',
@@ -782,8 +1201,18 @@
                     scores: {
                         '2016': {
                             beijing: {
-                                score: '69.34',
-                                eventName: 'beijing'
+                                score: '33.45',
+                            },
+                            innsbruck: {
+                                score: '33.45'
+                            },
+                            la: {
+                                score: '5.72'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '69.34'
                             }
                         }
                     }
@@ -811,8 +1240,18 @@
                     scores: {
                         '2016': {
                             beijing: {
-                                score: '46.68',
-                                eventName: 'beijing'
+                                score: 'N/A',
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '46.68'
                             }
                         }
                     }
@@ -838,10 +1277,21 @@
                     youtube: 'https://www.youtube.com/user/nickbaden1',
                     video: 'https://youtube.com/embed/Y2jgFlbIST8',
                     scores: {
-                        '2016': {
+                        '2014': {
+                            beijing: {
+                                score: '59.67',
+                                trick: 'Cab 900 Mute Grab'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2017': {
                             beijing: {
                                 score: '11.18',
-                                eventName: 'beijing'
                             }
                         }
                     }
@@ -867,10 +1317,9 @@
                     youtube: 'https://www.youtube.com/channel/UCj7a7DokEyQgiJ8gOEXDoOg',
                     video: 'https://www.youtube.com/embed/Bqqj9jvttxk',
                     scores: {
-                        '2016': {
+                        '2017': {
                             beijing: {
                                 score: '18.06',
-                                eventName: 'beijing'
                             }
                         }
                     }
@@ -896,12 +1345,12 @@
                     youtube: 'https://www.youtube.com/user/phkundi/featured',
                     video: 'https://www.youtube.com/embed/eaubnFoblUE',
                     scores: {
-                        '2016': {
+                        '2017': {
                             beijing: {
                                 score: '35.26',
-                                eventName: 'beijing'
                             }
-                        }
+                        },
+
                     }
                 },
                 'Roope-Tonteri': {
@@ -915,7 +1364,7 @@
                     dob: new Date('03/18/1992'),
                     stance: 'Goofy',
                     bio: [
-                        'Roope has been a fixture on the contest circuit ever since he won the World Rookie Finals in 2010, and it’s impossible to imagine the scene (and podium) without him. Roope loves showdowns, and taking it to the next level. His trademarks are technical tricks and a crispy, clean style. We are happy to have him back at Air+Style and are eagerly waiting for a next episode of the “Tonteri Show”!'
+                        'Roope has been a fixture on the contest circuit ever since he won the World Rookie Finals in 2011, and it’s impossible to imagine the scene (and podium) without him. Roope loves showdowns, and taking it to the next level. His trademarks are technical tricks and a crispy, clean style. We are happy to have him back at Air+Style and are eagerly waiting for a next episode of the “Tonteri Show”!'
                     ],
                     ref: 'Roope-Tonteri',
                     img_portrait: 'img/loRiders/Roope-Tonteri.jpg',
@@ -925,10 +1374,46 @@
                     youtube: 'https://www.youtube.com/user/MRoope1/featured',
                     video: 'https://www.youtube.com/embed/ADtHfgj0qqM',
                     scores: {
+                        '2012': {
+                            beijing: {
+                                score: '83.00',
+                                trick: 'Cab 1440'
+                            },
+                            innsbruck: {
+                                score: '92.00',
+                                trick: 'Backside 1260 Mute Grab'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: '85.33',
+                                trick: 'Cab 1260 Late Cork Indy'
+                            },
+                            innsbruck: {
+                                score: '41.33',
+                                trick: 'Cab 1260 Indy'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
-                                score: '79.70',
-                                eventName: 'beijing'
+                                score: '0.00',
+                            },
+                            innsbruck: {
+                                score: '0.00'
+                            },
+                            la: {
+                                score: '78.02'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '79.70'
                             }
                         }
                     }
@@ -957,7 +1442,12 @@
                         '2016': {
                             beijing: {
                                 score: 'N/A',
-                                eventName: 'beijing'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
                             }
                         }
                     }
@@ -983,10 +1473,9 @@
                     youtube: 'https://www.youtube.com/channel/UCZRJLAArf5Ox7d7FlY8NG0g',
                     video: 'https://www.youtube.com/embed/C6rQC9m3NgE',
                     scores: {
-                        '2016': {
+                        '2017': {
                             beijing: {
                                 score: '8.92',
-                                eventName: 'beijing'
                             }
                         }
                     }
@@ -1014,8 +1503,18 @@
                     scores: {
                         '2016': {
                             beijing: {
-                                score: '49.87',
-                                eventName: 'beijing'
+                                score: '5.72',
+                            },
+                            innsbruck: {
+                                score: '11.55'
+                            },
+                            la: {
+                                score: '20.56'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '49.87'
                             }
                         }
                     }
@@ -1041,10 +1540,59 @@
                     youtube: 'https://www.youtube.com/user/sebtoutant/about',
                     video: 'https://www.youtube.com/embed/iC50vqQVB4Q',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: '93.00',
+                                trick: 'Cab 1260 Double Cork Melon Grab'
+                            },
+                            innsbruck: {
+                                score: '93.00',
+                                trick: 'Cab 1260 Double Cork'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: '82.00',
+                                trick: 'Backside 1080 Double Rodeo'
+                            },
+                            innsbruck: {
+                                score: '89.07',
+                                trick: 'Frontside 1080 Double Cork Mute Grab'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: '79.33',
+                                trick: 'Cab Double Cork 1080 Indy'
+                            },
+                            innsbruck: {
+                                score: '83.33',
+                                trick: 'Cab Double Cork 1260 Melon'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
-                                score: '92.45',
-                                eventName: 'beijing'
+                                score: '0.00',
+                            },
+                            innsbruck: {
+                                score: '100.00'
+                            },
+                            la: {
+                                score: '56.75'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '92.45'
                             }
                         }
                     }
@@ -1070,10 +1618,48 @@
                     youtube: 'https://www.youtube.com/channel/UCsB-UA97KRwpF-tdC2Vr6LA',
                     video: 'https://www.youtube.com/embed/tES39s-LJsQ',
                     scores: {
-                        '2016': {
+                        '2011': {
+                            beijing: {
+                                score: '91.67',
+                                trick: 'Backside 1080 Double Cork'
+                            },
+                            innsbruck: {
+                                score: '88.67',
+                                trick: 'Cab 1440'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: '27.00',
+                                trick: 'Backside 1080 Double Cork'
+                            },
+                            innsbruck: {
+                                score: '91.13',
+                                trick: 'Cab 1260 Mute Grab'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: '64.67',
+                                trick: 'Backside Double Cork 1080 Nose'
+                            },
+                            innsbruck: {
+                                score: '80.00',
+                                trick: 'Cab 1260 Mute'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2017': {
                             beijing: {
                                 score: '27.60',
-                                eventName: 'beijing'
                             }
                         }
                     }
@@ -1099,10 +1685,51 @@
                     youtube: 'https://www.youtube.com/results?sp=EgIQAQ%253D%253D&q=Torgeir+Bergrem',
                     video: 'https://www.youtube.com/embed/Xufl_l142dU',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: '88.67',
+                                trick: 'Cab 1260'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: '89.00',
+                                trick: 'Cab 1260'
+                            },
+                            innsbruck: {
+                                score: '47.00',
+                                trick: 'Backside 1080 Mute Grab'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: '77.67',
+                                trick: 'Backside Double Cork 1260 Mute'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: '83.00',
+                                trick: 'Backside 1260 Mute Grab'
+                            }
+                        },
                         '2016': {
                             beijing: {
-                                score: '25.16',
-                                eventName: 'beijing'
+                                score: '52.35',
+                            },
+                            innsbruck: {
+                                score: '84.61'
+                            },
+                            la: {
+                                score: '26.85'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '25.16'
                             }
                         }
                     }
@@ -1110,7 +1737,7 @@
                 'Tor-Lundstrom': {
                     name: {
                         first: 'Tor',
-                        last: 'Lundstrom'
+                        last: 'Lundström'
                     },
                     nation: 'Sweden',
                     sponsors: ['Bataleon', 'Von Zipper', '686', 'Monster'],
@@ -1128,10 +1755,26 @@
                     youtube: '',
                     video: 'https://www.youtube.com/embed/5FMDigc3Uho',
                     scores: {
+                        '2014': {
+                            beijing: {
+                                score: '96.00',
+                                trick: 'Backside Double 1440'
+                            }
+                        },
                         '2016': {
                             beijing: {
-                                score: '40.74',
-                                eventName: 'beijing'
+                                score: '44.26',
+                            },
+                            innsbruck: {
+                                score: '30.10'
+                            },
+                            la: {
+                                score: '17.51'
+                            }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: '40.74'
                             }
                         }
                     }
@@ -1157,10 +1800,41 @@
                     youtube: 'https://www.youtube.com/channel/UCiHTsIAZiZwcB1kZxHqhgDA/feed',
                     video: 'https://www.youtube.com/embed/aGFh3s-pHlE',
                     scores: {
+                        '2012': {
+                            beijing: {
+                                score: '77.00',
+                                trick: 'Backside 1080 Double Cork'
+                            },
+                            innsbruck: {
+                                score: '16.00',
+                                trick: 'Backside 1260 Melon Grab'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: '97.67',
+                                trick: 'Backside Triple Cork 1440 Mute'
+                            },
+                            innsbruck: {
+                                score: '85.33',
+                                trick: 'Cab 1260 Melon'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: '91.00',
+                                trick: 'Backside Double Cork 1260 Mute'
+                            }
+                        },
                         '2016': {
                             beijing: {
-                                score: 'N/A',
-                                eventName: 'beijing'
+                                score: '78.02',
+                            },
+                            innsbruck: {
+                                score: '5.72'
+                            },
+                            la: {
+                                score: '100.00'
                             }
                         }
                     }
