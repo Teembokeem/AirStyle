@@ -6,6 +6,31 @@
                     margin-top: 100px;
                 }
             }
+
+            > .container {
+                .section-title {
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 58px;
+                    padding: 0 37px;
+                    .col {
+                        display: flex;
+                        justify-content: center;
+
+                        margin: 0 auto;
+                        width: 90.9vw;
+
+
+                        span {
+                            padding-bottom: 1rem;
+                            border-bottom: 8px solid $as-yellow;
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -24,7 +24,7 @@
         };
 
         function stateChange(dest) {
-            console.log(dest, $stateParams)
+            if (!Carousel($stateParams.tour).schedule) return swal({ title: '', text: 'Hang tight! Schedule coming soon.', type: 'info', timer: 2500 });
             $state.go(dest, { tour: $stateParams.tour })
         }
 

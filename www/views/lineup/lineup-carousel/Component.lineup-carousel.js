@@ -24,6 +24,7 @@
         };
 
         function stateChange(state, val) {
+            if (state == 'app.schedule' && !Carousel($stateParams.tour).schedule) return swal({ title: '', text: 'Hang tight! Schedule coming soon.', type: 'info', timer: 2500 });
             val ? $state.go(state, { tour: val }) : $state.go(state);
         };
 
