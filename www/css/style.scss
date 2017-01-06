@@ -86,13 +86,11 @@ body {
 
 .sweet-alert {
     background-color: rgba(20, 20, 20, 1);
-
-    .sa-icon.sa-success::before, .sa-icon.sa-success::after {
+    .sa-icon.sa-success::before,
+    .sa-icon.sa-success::after {
         background-color: transparent;
     }
-
     .sa-icon.sa-success {
-
         .sa-fix {
             background-color: transparent;
         }
@@ -101,41 +99,35 @@ body {
         font-size: 1.3rem;
         font-family: 'Apercu';
         color: #afafaf;
-
     }
-
-
     .sa-button-container {
         display: none;
     }
-
     fieldset {
         display: none;
     }
 }
 
-
 .scroll {
-  -webkit-user-select: text !important;
-  -moz-user-select: text !important;
-  -ms-user-select: text !important;
-  user-select: text !important;
+    -webkit-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+    user-select: text !important;
 }
 
 body {
     * {
-        ::-webkit-scrollbar {
+         ::-webkit-scrollbar {
             width: 0;
             color: black;
             background-color: black;
         }
-        ::-webkit-scrollbar-thumb {
+         ::-webkit-scrollbar-thumb {
             color: grey;
             background-color: rgba(40, 40, 40, 0.3);
             border-radius: 1rem;
         }
     }
-
     // *.row {
     //     display: block !important;
     // }
