@@ -5,7 +5,7 @@
         .module('Statics')
         .constant('Tours', function (inputArg) {
             var tours = {
-                recap_video: 'https://www.youtube.com/embed/W31Z3CgTTO4',
+                recap_video: 'https://www.youtube.com/embed/IFHcflZbBq0?&theme=dark&autohide=2&showinfo=0',
                 'beijing': {
                     title: 'BEIJING',
                     ref: 'beijing',
