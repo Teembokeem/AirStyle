@@ -284,8 +284,9 @@
                         // console.log(rider.scores[year][city].score, city, year)
                         // console.log(rider[scores][year][city])
                         if (rider.scores[year][city].score != 'N/A') total += parseInt(rider.scores[year][city].score);
+                        console.log("updated total?", total);
                     });
-                    console.log(rider.scores.year);
+                    rider.scores[year].overall = total;
                 });
             });
         };
