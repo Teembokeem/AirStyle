@@ -16,18 +16,18 @@
         var cc = this;
 
         cc.currentFilter = 'overall';
-        cc.currentYear = '2016';
+        cc.currentYear = '2017';
         cc.filterAthletes = filterAthletes;
 
         function filterAthletes(param) {
             if (param == 'overall') {
-                cc.filterList = cc.filterList.sort(function (a, b) {
+                cc.rankingsListContent = cc.rankingsListContent.sort(function (a, b) {
                     return b.scores[cc.currentYear].overall - a.scores[cc.currentYear].overall
                 });
             }
             else {
 
-                cc.filterList = cc.filterList.sort(function (a, b) {
+                cc.rankingsListContent = cc.rankingsListContent.sort(function (a, b) {
                     return b.scores[cc.currentYear][param].score - a.scores[cc.currentYear][param].score
                 })
             }
@@ -272,19 +272,17 @@
 
             cc.rankingsListContent = Riders('all');
             calculateTotals(cc.rankingsListContent);
-            console.log('sah dude', cc.rankingsListCtrl);
+            filterAthletes('overall')
         }
 
         function calculateTotals(arr) {
             arr.forEach(function (rider) {
-                console.log(rider)
                 Object.keys(rider.scores).forEach(function (year) {
                     var total = 0;
                     Object.keys(rider.scores[year]).forEach(function (city) {
                         // console.log(rider.scores[year][city].score, city, year)
                         // console.log(rider[scores][year][city])
                         if (rider.scores[year][city].score != 'N/A') total += parseInt(rider.scores[year][city].score);
-                        console.log("updated total?", total);
                     });
                     rider.scores[year].overall = total;
                 });

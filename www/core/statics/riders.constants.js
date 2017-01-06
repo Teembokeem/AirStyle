@@ -26,6 +26,28 @@
                     youtube: 'https://www.youtube.com/embed/qLs0sfklQcs',
                     video: 'https://www.youtube.com/embed/A6uokUtjZHM',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2013': {
                             beijing: {
                                 score: '90.00',
@@ -34,6 +56,28 @@
                             innsbruck: {
                                 score: '78.33',
                                 trick: 'Switch Backside Double Cork 1260 Mute'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
                             },
                             la: {
                                 score: 'N/A'
@@ -84,6 +128,61 @@
                     youtube: 'https://www.youtube.com/user/billymorganvideos/featured',
                     video: 'https://www.youtube.com/embed/_MFNYVPESzA',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '0.00',
@@ -94,7 +193,18 @@
                             la: {
                                 score: '0.00'
                             }
-                        }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                     }
                 },
                 'Boris-Mouton': {
@@ -118,6 +228,61 @@
                     youtube: 'https://www.youtube.com/channel/UCJLzCFVIOzYVjWhfWuNn_eQ',
                     video: 'https://www.youtube.com/embed/ypcpdIT994g',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '0.00',
@@ -128,7 +293,18 @@
                             la: {
                                 score: '11.55'
                             }
-                        }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                     }
                 },
                 'Brandon-Davis': {
@@ -152,6 +328,72 @@
                     youtube: '',
                     video: 'https://www.youtube.com/embed/Sgu00dLNVS8',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2017': {
                             beijing: {
                                 score: '22.76',
@@ -186,10 +428,54 @@
                     youtube: 'https://www.youtube.com/user/USSANetwork/about',
                     video: 'https://www.youtube.com/embed/K9NdQxzEQ4M',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2013': {
                             beijing: {
                                 score: '26.00',
                                 trick: 'Cab 1260 Double Cork Melon'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
                             },
                             innsbruck: {
                                 score: 'N/A'
@@ -208,7 +494,18 @@
                             la: {
                                 score: 'N/A'
                             }
-                        }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                     }
                 },
                 'Clemens-Millauer': {
@@ -232,6 +529,61 @@
                     youtube: 'https://www.youtube.com/user/Clemensgopro',
                     video: 'https://www.youtube.com/embed/JDVl_QOXcfc',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '0.00',
@@ -277,6 +629,61 @@
                     youtube: 'https://www.youtube.com/user/ShredbotsOFFICIAL/featured',
                     video: 'https://www.youtube.com/watch?v=fbaMT0906ls',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '85.73',
@@ -322,6 +729,28 @@
                     youtube: 'https://www.youtube.com/embed/pSjILoz9mJA',
                     video: 'https://www.youtube.com/embed/HO3I2k-hD2U',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2013': {
                             beijing: {
                                 score: '75.67',
@@ -330,6 +759,28 @@
                             innsbruck: {
                                 score: '62.00',
                                 trick: 'Cab 1080 Melon'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
                             },
                             la: {
                                 score: 'N/A'
@@ -429,6 +880,17 @@
                                 score: 'N/A'
                             }
                         },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '66.54',
@@ -474,10 +936,54 @@
                     youtube: 'https://www.youtube.com/user/xiaohu800426',
                     video: 'https://www.youtube.com/embed/4PWqxDoNYy8',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2014': {
                             beijing: {
                                 score: '71.33',
                                 trick: 'Frontside Double Cork 900'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
                             },
                             innsbruck: {
                                 score: 'N/A'
@@ -531,6 +1037,72 @@
                     youtube: '',
                     video: '',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2017': {
                             beijing: {
                                 score: '20.39',
@@ -565,10 +1137,65 @@
                     youtube: 'https://www.youtube.com/channel/UCnCphtM477DFoabIUeCJLuQ',
                     video: 'https://www.youtube.com/embed/YdiqXB-r1mc',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2014': {
                             beijing: {
                                 score: '58.33',
                                 trick: 'Backside Double Cork 1080 Double Grab'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: 'N/A'
                             },
                             innsbruck: {
                                 score: 'N/A'
@@ -611,6 +1238,72 @@
                     youtube: '',
                     video: '',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2017': {
                             beijing: {
                                 score: '2.22',
@@ -645,6 +1338,61 @@
                     youtube: 'https://www.youtube.com/user/Skubbeli/videos',
                     video: 'https://www.youtube.com/embed/TWE_xTXg12Y',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '53.24',
@@ -690,6 +1438,61 @@
                     youtube: 'https://www.youtube.com/embed/ri4UDdEElMY',
                     video: 'https://www.youtube.com/embed/LB4S1RE6Hjg',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '30.10',
@@ -735,6 +1538,61 @@
                     youtube: 'https://www.youtube.com/channel/UCHITW5rdn2Xu0CZf0tVUzEg/about',
                     video: 'https://www.youtube.com/embed/iAVziG6GNTg',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '61.47',
@@ -780,6 +1638,61 @@
                     youtube: 'https://www.youtube.com/user/stickydude96/feed',
                     video: 'https://www.youtube.com/results?search_query=Lucien+Koch',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: 'N/A',
@@ -825,6 +1738,61 @@
                     youtube: 'https://www.youtube.com/user/manshedbergg',
                     video: 'https://www.youtube.com/embed/S1357vJiNK0',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: 'N/A',
@@ -907,6 +1875,28 @@
                                 score: 'N/A'
                             }
                         },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '91.89',
@@ -952,6 +1942,61 @@
                     youtube: 'https://www.youtube.com/user/goodwintertimes',
                     video: 'https://www.youtube.com/embed/uBzKCKMHaEw',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '8.62',
@@ -997,6 +2042,28 @@
                     youtube: 'https://www.youtube.com/channel/UC4vR3xW7XtQp-nnKbmG8oLg/feed',
                     video: 'https://www.youtube.com/embed/z096RCS2IgM',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2013': {
                             beijing: {
                                 score: '81.67',
@@ -1005,6 +2072,28 @@
                             innsbruck: {
                                 score: '65.67',
                                 trick: 'Backside Double Cork 1080 Mute'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
                             },
                             la: {
                                 score: 'N/A'
@@ -1056,6 +2145,61 @@
                     youtube: 'https://www.youtube.com/user/Itsmaxilp',
                     video: 'https://youtube.com/embed/UBtAdDhwaC0',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '20.56',
@@ -1101,6 +2245,61 @@
                     youtube: 'https://www.youtube.com/channel/UCOIY95WW3gJw3qGAhrNGtQA',
                     video: 'https://www.youtube.com/embed/MNAjd23f24Y',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '23.67',
@@ -1146,6 +2345,72 @@
                     youtube: 'https://www.youtube.com/embed/V7uQyml9oic',
                     video: '',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2017': {
                             beijing: {
                                 score: '4.44',
@@ -1180,6 +2445,61 @@
                     youtube: 'https://www.youtube.com/channel/UCkpTd7h2Mn2P_QpjZHj8A6w',
                     video: 'https://www.youtube.com/embed/hhJQ_uq2NFU',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '33.45',
@@ -1225,6 +2545,61 @@
                     youtube: 'https://www.youtube.com/user/Preiselbersauce',
                     video: 'https://www.youtube.com/embed/cKaMYH17fqA',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: 'N/A',
@@ -1270,10 +2645,65 @@
                     youtube: 'https://www.youtube.com/user/nickbaden1',
                     video: 'https://youtube.com/embed/Y2jgFlbIST8',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2014': {
                             beijing: {
                                 score: '59.67',
                                 trick: 'Cab 900 Mute Grab'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: 'N/A'
                             },
                             innsbruck: {
                                 score: 'N/A'
@@ -1316,6 +2746,72 @@
                     youtube: 'https://www.youtube.com/channel/UCj7a7DokEyQgiJ8gOEXDoOg',
                     video: 'https://www.youtube.com/embed/Bqqj9jvttxk',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2017': {
                             beijing: {
                                 score: '18.06',
@@ -1350,6 +2846,72 @@
                     youtube: 'https://www.youtube.com/user/phkundi/featured',
                     video: 'https://www.youtube.com/embed/eaubnFoblUE',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2017': {
                             beijing: {
                                 score: '35.26',
@@ -1385,6 +2947,17 @@
                     youtube: 'https://www.youtube.com/user/MRoope1/featured',
                     video: 'https://www.youtube.com/embed/ADtHfgj0qqM',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2012': {
                             beijing: {
                                 score: '83.00',
@@ -1406,6 +2979,28 @@
                             innsbruck: {
                                 score: '41.33',
                                 trick: 'Cab 1260 Indy'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
                             },
                             la: {
                                 score: 'N/A'
@@ -1456,6 +3051,61 @@
                     youtube: 'https://www.youtube.com/channel/UCVwfOQ-VEPBIs3lFbT_SVYA',
                     video: 'https://www.youtube.com/embed/8d20BDGTP4o',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: 'N/A',
@@ -1501,6 +3151,72 @@
                     youtube: 'https://www.youtube.com/channel/UCZRJLAArf5Ox7d7FlY8NG0g',
                     video: 'https://www.youtube.com/embed/C6rQC9m3NgE',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2017': {
                             beijing: {
                                 score: '8.92',
@@ -1574,6 +3290,28 @@
                                 score: 'N/A'
                             }
                         },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '0.00',
@@ -1619,6 +3357,61 @@
                     youtube: 'https://www.youtube.com/user/SBESmag',
                     video: 'https://www.youtube.com/embed/1w3Yctj9cpQ',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '5.72',
@@ -1698,6 +3491,39 @@
                             innsbruck: {
                                 score: '80.00',
                                 trick: 'Cab 1260 Mute'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2014': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2016': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
                             },
                             la: {
                                 score: 'N/A'
@@ -1786,6 +3612,17 @@
                                 score: 'N/A'
                             }
                         },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '72.03',
@@ -1831,6 +3668,28 @@
                     youtube: 'https://www.youtube.com/channel/UCABshgGP243EXCx3oDP251w',
                     video: 'https://www.youtube.com/embed/caxzNEeSzUQ',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2013': {
                             beijing: {
                                 score: '80.67',
@@ -1848,6 +3707,17 @@
                             beijing: {
                                 score: '96.00',
                                 trick: 'Backside 1440 Mute Grab'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
                             },
                             innsbruck: {
                                 score: 'N/A'
@@ -1901,10 +3771,54 @@
                     youtube: '',
                     video: 'https://www.youtube.com/embed/5FMDigc3Uho',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2012': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2013': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2014': {
                             beijing: {
                                 score: '96.00',
                                 trick: 'Backside Double 1440'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
                             },
                             innsbruck: {
                                 score: 'N/A'
@@ -2007,6 +3921,17 @@
                                 score: 'N/A'
                             }
                         },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '52.35',
@@ -2052,6 +3977,17 @@
                     youtube: 'https://www.youtube.com/channel/UCiHTsIAZiZwcB1kZxHqhgDA/feed',
                     video: 'https://www.youtube.com/embed/aGFh3s-pHlE',
                     scores: {
+                        '2011': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2012': {
                             beijing: {
                                 score: '77.00',
@@ -2090,6 +4026,17 @@
                                 score: 'N/A'
                             }
                         },
+                        '2015': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                         '2016': {
                             beijing: {
                                 score: '78.02',
@@ -2100,7 +4047,18 @@
                             la: {
                                 score: '100.00'
                             }
-                        }
+                        },
+                        '2017': {
+                            beijing: {
+                                score: 'N/A'
+                            },
+                            innsbruck: {
+                                score: 'N/A'
+                            },
+                            la: {
+                                score: 'N/A'
+                            }
+                        },
                     }
                 },
             },
