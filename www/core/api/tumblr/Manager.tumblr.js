@@ -1,3 +1,4 @@
+var _posts;
 (function () {
     'use strict';
 
@@ -6,9 +7,9 @@
         .module('Tumblr.module')
         .factory('TumblrManager', TumblrManager);
 
-    TumblrManager.$inject = ['TumblrDispatcher', 'storage'];
+    TumblrManager.$inject = ['TumblrDispatcher', 'storage', '$q'];
 
-    function TumblrManager(TumblrDispatcher, storage) {
+    function TumblrManager(TumblrDispatcher, storage, $q) {
         var service = {
             Posts: Posts,
             getPosts: getPosts,
@@ -24,52 +25,55 @@
             writePosts(Posts);
             service.Posts = Posts;
             return service.Posts;
-        }
+        };
 
         function writePosts(Posts) {
             service.store.setItem('', Posts);
-        }
+        };
 
         function transformResponse(response) {
-            var _posts = {
-                'innsbruck': [],
-                'la': [],
-                'beijing': []
-            },
-                Posts = response.posts;
-            for (var tour in _posts) {
-                for (var i = 0; i < Posts.length; i++) {
-                    if (Posts[i].tags.indexOf(tour) != -1) {
-                        Posts[i].date = Date.parse(Posts[i].date)
-                        _posts[tour].push(Posts[i]);
-                    }
-                }
-            }
+            Posts = response.posts;
 
-            return _posts;
-        }
+            Posts.forEach(function (post) {
+                cleanDate(post);
+                if (post.body) scrapeImage(post);
+            });
+
+            return Posts;
+        };
+
+        function cleanDate(post) {
+            post.date = Date.parse(new Date(post.date));
+            return post;
+        };
+
+        function scrapeImage(post) {
+            var cursor = post.body.indexOf('src="'); // find src tag from the image. 
+            var preshift = cursor + 5; // value to shift start and end values since we're searching in a substring. 
+            var substring = post.body.substring(preshift);
+            var relativeImageSource = substring.indexOf('"');
+            var absoluteImageSource = post.body.substring(preshift, preshift + relativeImageSource);
+            post.image = absoluteImageSource;
+            return post;
+        };
 
         function filterPosts(param) {
             if (param) {
-                return service.Posts[param];
+                return service.Posts.filter(function (post) {
+                    return post.tags.indexOf(param) != -1
+                });
             } else {
-                var arr = [];
-                for (var tour in service.Posts) {
-                    arr.push(service.Posts[tour]);
-                };
                 // return arr;
-                var transformArr = arr.reduce(function (a, b) {
-                    return a.concat(b);
-                })
-                return transformArr;
-            }
-        }
+                return service.Posts;
+            };
+        };
 
 
         function getPosts() {
             service.Posts = TumblrDispatcher.get().then(transformResponse).then(setPosts);
+            _posts = service.Posts;
             return service.Posts;
-        }
+        };
 
     }
 })();
