@@ -43,7 +43,7 @@
                 },
                 {
                     name: 'los angeles',
-                    date: 'FEB 10 + 14',
+                    date: 'FEB 18 + 19',
                     ref: 'la'
                 }
             ];
