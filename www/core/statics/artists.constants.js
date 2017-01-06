@@ -11,8 +11,8 @@
                         img_portrait: '../img/artists/portrait/MajorLazer_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/MajorLazer_Landscape.jpg',
                         ref: 'major-lazer',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -29,8 +29,8 @@
                         img_portrait: '../img/artists/portrait/Flume_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Flume_Landscape.jpg',
                         ref: 'flume',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -47,8 +47,8 @@
                         img_portrait: '../img/artists/portrait/Zhu_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/ZHU_Landscape.jpg',
                         ref: 'zhu',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -65,8 +65,8 @@
                         img_portrait: '../img/artists/portrait/Chromeo_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Chromeo_Landscape.jpg',
                         ref: 'chromeo',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -83,8 +83,8 @@
                         img_portrait: '../img/artists/portrait/Atmosphere_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Atmosphere_Landscape.jpg',
                         ref: 'atmosphere',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -101,8 +101,8 @@
                         img_portrait: '../img/artists/portrait/YG_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/YG_Landscape.jpg',
                         ref: 'yg',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -119,8 +119,8 @@
                         img_portrait: '../img/artists/portrait/TVOnTheRadio_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/TVOnTheRadio_Landscape.jpg',
                         ref: 'tv-on-the-radio',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -137,8 +137,8 @@
                         img_portrait: '../img/artists/portrait/VinceStaples_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/VinceStaples_Landscape.jpg',
                         ref: 'vince-staples',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -155,8 +155,8 @@
                         img_portrait: '../img/artists/portrait/Russ_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Russ_Landscape.jpg',
                         ref: 'russ',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -173,8 +173,8 @@
                         img_portrait: '../img/artists/portrait/LouisTheChild_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/LouisTheChild_Landscape.jpg',
                         ref: 'louis-the-child',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -191,8 +191,8 @@
                         img_portrait: '../img/artists/portrait/VicMensa_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/VicMensa_Landscape.jpg',
                         ref: 'vic-mensa',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -209,8 +209,8 @@
                         img_portrait: '../img/artists/portrait/StLucia_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/StLucia_Landscape.jpg',
                         ref: 'st-lucia',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -227,8 +227,8 @@
                         img_portrait: '../img/artists/portrait/MarianHill_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/MarianHill_Landscape.jpg',
                         ref: 'marian-hill',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -245,8 +245,8 @@
                         img_portrait: '../img/artists/portrait/Shelters_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Shelters_Landscape.jpg',
                         ref: 'the-shelters',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -263,8 +263,8 @@
                         img_portrait: '../img/artists/portrait/XYLO_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/XYLO_Landscape.jpg',
                         ref: 'xylo',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -281,8 +281,8 @@
                         img_portrait: '../img/artists/portrait/Phantoms_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Phantoms_Landscape.jpg',
                         ref: 'phantoms',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -299,8 +299,8 @@
                         img_portrait: '../img/artists/portrait/POWERS_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/POWERS_Landscape.jpg',
                         ref: 'powers',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -317,8 +317,8 @@
                         img_portrait: '../img/artists/portrait/RKCB_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/RKCB_Landscape.jpg',
                         ref: 'rkcb',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -335,8 +335,8 @@
                         img_portrait: '../img/artists/portrait/070Shake_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/070Shake_Landscape.jpg',
                         ref: '070-shake',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'EXPO PARK',
+                        time: 'FEB 18 + 19',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
