@@ -12407,14 +12407,19 @@ tour-faq > .container .cta .col {
     justify-content: center;
     align-items: center;
     margin-bottom: 58px;
-    padding: 0 37px; }
+    padding: 0 25px; }
     .beijing-content-view ion-content .scroll > .container .section-title .title {
       margin: 0 auto;
       width: 90.9vw;
       font-size: 30px;
       text-align: center; }
       .beijing-content-view ion-content .scroll > .container .section-title .title span {
-        border-bottom: 8px solid #62ff00; }
+        border-bottom: 8px solid #62ff00;
+        font-size: 26px; }
+
+@media (min-width: 420px) {
+  .beijing-content-view ion-content .scroll > .container .section-title {
+    padding: 0 37px; } }
 
 @media (min-width: 1024px) {
   .beijing-content-view ion-content .scroll {
