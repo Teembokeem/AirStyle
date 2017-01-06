@@ -19,6 +19,9 @@
 
         function scrollToBottom() {
             $ionicScrollDelegate.scrollTo(0, 1500, true);
+            setTimeout(function () {
+                swal({ title: '', text: 'Download the app to manage your schedule!', type: 'info', timer: 2500 });
+            }, 1000);
         }
 
         cc.$onInit = function () {
