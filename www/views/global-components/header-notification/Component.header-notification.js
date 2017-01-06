@@ -18,13 +18,13 @@
         cc.hovered = false;
 
         cc.toastOpen = function () {
-            if (cc.hovered == false) {
-                cc.hovered = true;
-                swal({ title: '', text: 'More Content.', type: 'warning', timer: 2500 });
-                setTimeout(function () {
-                    cc.hovered = false;
-                }, 3000)
-            }
+            // if (cc.hovered == false) {
+            //     cc.hovered = true;
+            //     // swal({ title: '', text: 'More Content.', type: 'warning', timer: 2500 });
+            //     setTimeout(function () {
+            //         cc.hovered = false;
+            //     }, 3000)
+            // }
         };
 
         cc.$onInit = function () {
