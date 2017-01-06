@@ -7,7 +7,7 @@
     <faq-item ng-repeat="question in cc.faqContent" class="content" question="question" index="$index"></faq-item>
     <div class="row cta">
         <div class="col">
-            <span>Do you have more questions? </span> <span ng-click="cc.stateChange('app.faqs')"> Go to FAQs</span><span>.</span>
+            <span>Do you have more questions? </span> <span ng-click="cc.stateChange('app.faqs', cc.tour)"> Go to FAQs</span><span>.</span>
         </div>
     </div>
 </div>
