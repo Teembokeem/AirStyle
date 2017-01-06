@@ -9,7 +9,7 @@
             <div class="container ">
                 <div class="row ">
                     <div class="col ">
-                        <img src="../img/test.png " alt=" ">
+                        <img ng-src="{{tweet.image ? tweet.image : tweet.thumbnail_url}}" alt=" ">
                     </div>
                 </div>
                 <div class="row ">
@@ -26,7 +26,7 @@
         </div>
     </div>
     <div class="row more ">
-        <div class="col " ng-click="cc.go('https://teembotesting.tumblr.com/')">
+        <div class="col " ng-click="cc.go('https://theairandstylefestival.tumblr.com/')">
             <button ng-mouseover="cc.borderButtonHover = !cc.borderButtonHover" ng-mouseleave="cc.borderButtonHover  = !cc.borderButtonHover"
                 ng-class="{'border-button': cc.borderButtonHover}">View All</button>
         </div>

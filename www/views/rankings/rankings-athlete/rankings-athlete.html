@@ -28,7 +28,7 @@
                     <div ng-repeat="(key, val) in cc.athlete.scores[cc.year]" ng-if="key != 'overall'" class="col">
                         <div class="row nopad">
                             <div class="col">
-                                <span>{{val.eventName | uppercase}}</span>
+                                <span>{{key | uppercase}}</span>
                             </div>
                         </div>
                         <div class="row nopad">

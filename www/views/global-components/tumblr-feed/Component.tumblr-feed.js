@@ -23,7 +23,8 @@
 
         cc.$onInit = function () {
 
-            cc.tumblrFeedContent = TumblrManager.filterPosts($stateParams.tour);
+            cc.tumblrFeedContent = $stateParams.tour ? TumblrManager.filterPosts($stateParams.tour) : TumblrManager.filterPosts();
+            console.log(cc.tumblrFeedContent)
         }
     }
 })();
