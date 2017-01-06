@@ -15,9 +15,9 @@
             controllerAs: 'cc'
         })
 
-    avatarPanelsCtrl.$inject = ['$log', '$state', '$stateParams'];
+    avatarPanelsCtrl.$inject = ['$log', '$state', '$stateParams', 'Tours'];
 
-    function avatarPanelsCtrl($log, $state, $stateParams) {
+    function avatarPanelsCtrl($log, $state, $stateParams, Tours) {
         var cc = this;
 
         cc.stateChange = stateChange;
@@ -30,6 +30,7 @@
 
 
         function pageChange(state, val) {
+            if (state == 'app.schedule' && !Tours($stateParams.tour).schedule) return swal({ title: '', text: 'Hang tight! Schedule coming soon.', type: 'info', timer: 2500 });
             val ? $state.go(state, { tour: val }) : $state.go(state);
         }
         function stateChange(state, val) {
