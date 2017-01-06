@@ -470,15 +470,15 @@
                         location: 'main stage',
                         time: 'fri 3 6pm',
                         info: [
-                            "Punk tunes and skateboard passion: that’s what Millencolin is all about! Inspired by thSouthern California hardcore sounds of Operation Ivy, the Descendents, and NOFX, friends Nicola Sarcevic, Mathias Färm, Erik Ohlson and Frederik Larzon formed the Scandinavian skate punk unit roughly 23 years, seven albums, and 1,500 live shows ago. Not many people know it, but Millencolin are actually named after the skateboard trick, the “melancholy” grab (also known as “sad air”)."
+                            "Punk tunes and skateboard passion: that’s what Millencolin is all about! Inspired by the Southern California hardcore sounds of Operation Ivy, the Descendents, and NOFX, friends Nicola Sarcevic, Mathias Färm, Erik Ohlson and Frederik Larzon formed the Scandinavian skate punk unit roughly 23 years, seven albums, and 1,500 live shows ago. Not many people know it, but Millencolin are actually named after the skateboard trick, the “melancholy” grab (also known as “sad air”)."
                         ],
-                        tweet: 'https://twitter.com/theluckychops',
-                        fb: 'https://www.facebook.com/TheLuckyChops',
-                        inst: 'https://www.instagram.com/theluckychops/',
-                        youtube: 'https://www.youtube.com/channel/UCYfFuHmTC6-i43qoYmXckbQ',
-                        website: 'http://www.luckychops.com/',
-                        spotify: 'https://open.spotify.com/artist/2b6gc4EVpO6OTlDvKrK852',
-                        video: 'https://www.youtube.com/embed/9mOMmP_aKso'
+                        tweet: 'https://twitter.com/Millencolin',
+                        fb: 'https://www.facebook.com/Millencolin',
+                        inst: 'http://instagram.com/millencolin',
+                        youtube: 'https://www.youtube.com/channel/UCBXUETztGNLUholYeIDZZPQ',
+                        website: 'http://millencolin.com',
+                        spotify: 'https://open.spotify.com/artist/74xFFXkvOq9dPDigOWTHiX',
+                        video: 'https://www.youtube.com/embed/jmBo6qLrflo'
                     },
                     'tommy-cash': {
                         name: 'Tomm\xA5 \u20aca$h',
@@ -587,7 +587,7 @@
                         youtube: 'https://www.youtube.com/user/MilkysMusic',
                         website: 'https://www.milkychance.net/',
                         spotify: 'https://open.spotify.com/artist/1hzfo8twXdOegF3xireCYs',
-                        video: 'https://youtub.com/embed/ernVvrYH9vg'
+                        video: 'https://youtube.com/embed/ernVvrYH9vg'
                     },
                     'counterfeit': {
                         name: 'Counterfeit',
