@@ -10,7 +10,7 @@
                     justify-content: center;
                     align-items: center;
                     margin-bottom: 58px;
-                    padding: 0 37px;
+                    padding: 0 25px;
                     .title {
                         margin: 0 auto;
                         width: 90.9vw;
@@ -19,12 +19,28 @@
 
                         span {
                             border-bottom: 8px solid $as-green;
+                            font-size: 26px;
                         }
                     }
                 }
             }
         }
     }   
+}
+
+@media(min-width: 420px) {
+    .beijing-content-view {
+        ion-content {
+            .scroll {
+                > .container {
+                    .section-title {
+                        padding: 0 37px;
+
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media(min-width: 1024px) {
