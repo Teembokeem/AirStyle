@@ -10,7 +10,8 @@
                     ref: 'beijing',
                     date_semantic: 'NOV 18 + 19',
                     dest: 'app.tour-stops',
-                    video: 'https://www.youtube.com/embed/PhBNiSlcbRk'
+                    video: 'https://www.youtube.com/embed/PhBNiSlcbRk',
+                    city_block_image: '../img/beijing_city_block.jpg'
                 },
                 'innsbruck': {
                     title: 'INNSBRUCK',
@@ -18,6 +19,7 @@
                     date_semantic: 'FEB 3 + 4',
                     dest: 'app.tour-stops',
                     video: 'https://www.youtube.com/embed/PhBNiSlcbRk',
+                    city_block_image: '../img/innsbruck_city_block.jpg',
                     schedule: [
                         {
                             date: 'Fri Feb 3',
@@ -181,7 +183,8 @@
                     ref: 'la',
                     date_semantic: 'FEB 18 + 19',
                     dest: 'app.tour-stops',
-                    video: 'https://www.youtube.com/embed/PhBNiSlcbRk'
+                    video: 'https://www.youtube.com/embed/PhBNiSlcbRk',
+                    city_block_image: '../img/la_city_block.jpg'
                 }
             },
                 Keys = Object.keys(tours),
