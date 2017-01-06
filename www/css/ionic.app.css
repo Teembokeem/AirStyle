@@ -13894,7 +13894,7 @@ rankings-athlete > .container {
               letter-spacing: 0.1rem;
               color: #5f5f5f; }
 
-@media (min-width: 950px) {
+@media (min-width: 970px) {
   rankings-athlete > .container {
     max-width: none; }
     rankings-athlete > .container > .row {
@@ -13917,7 +13917,7 @@ rankings-athlete > .container {
           rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) {
             margin-bottom: 1rem; }
             rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) > .col span {
-              font-size: 40px; }
+              font-size: 25px; }
           rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col span {
             font-size: 20px; }
       rankings-athlete > .container > .row > .col:nth-child(3) {
