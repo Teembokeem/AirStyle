@@ -10207,13 +10207,15 @@ footer > .container {
       color: black;
       font-size: 16px;
       font-family: 'Apercu';
-      text-decoration: none; }
+      text-decoration: underline; }
     footer > .container .footer .container {
       width: 100%; }
       footer > .container .footer .container .row {
         justify-content: center; }
         footer > .container .footer .container .row .about {
           margin-right: 3rem; }
+        footer > .container .footer .container .row a {
+          transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
         footer > .container .footer .container .row .facebook {
           margin: 0 auto;
           display: flex;
@@ -10238,6 +10240,9 @@ footer > .container {
           align-items: center; }
           footer > .container .footer .container .row .youtube img {
             height: 23px; }
+        footer > .container .footer .container .row a.hover {
+          opacity: 0.5;
+          transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
       footer > .container .footer .container .row:first-child {
         margin-bottom: 40px; }
       footer > .container .footer .container .row:nth-child(2) {
@@ -10342,8 +10347,8 @@ ranking-summary > .container {
         ranking-summary > .container .player-container .container .name span:last-child {
           margin-bottom: 1.5rem; }
   ranking-summary > .container .player-container.darken {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-    background-blend-mode: color-dodge; }
+    background-color: #f9fe17 !important;
+    background-blend-mode: darken; }
   ranking-summary > .container .more {
     margin: 2rem auto;
     align-content: center;
