@@ -284,6 +284,9 @@ beijing-rankings {
                         padding: 0 10rem;
 
                         > .row {
+                            > .col:first-child {
+                                max-width: 250px;
+                            }
                             > .col:nth-child(2) {
                                 max-width: 14rem;
                             }

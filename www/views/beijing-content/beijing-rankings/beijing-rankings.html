@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <div ng-repeat="athlete in cc.beijingRankingsList" class="container">
+            <div ng-click="cc.stateChange('app.rider.details', athlete.ref)" ng-repeat="athlete in cc.beijingRankingsList" class="container">
                 <div class="row nopad">
                     <div class="col">
                         <img ng-src="{{athlete.img_portrait}}" alt="">
@@ -30,7 +30,7 @@
                         <div class="container">
                             <div class="row nopad">
                                 <div class="col">
-                                    <span>{{athlete.scores['2016'].beijing.score}}</span>
+                                    <span>{{athlete.scores['2017'].beijing.score}}</span>
                                 </div>
                             </div>
                             <div class="row nopad">

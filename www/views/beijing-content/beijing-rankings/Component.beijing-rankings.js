@@ -26,15 +26,17 @@ var _riders;
         cc.$onInit = function () {
             var riders = Riders('all');
             var sortedRiders = riders.filter(function (rider) {
-                return rider.scores['2016'].beijing.score != 'N/A'
+                return rider.scores['2017'] ? rider.scores['2017'].beijing.score != 'N/A' : false;
             });
+
+            console.log(sortedRiders)
             sortedRiders = sortedRiders.sort(function (a, b) {
-                return b.scores['2016'].beijing.score - a.scores['2016'].beijing.score
+                return b.scores['2017'].beijing.score - a.scores['2017'].beijing.score
             });
 
 
             _riders = cc.riders;
-            cc.beijingRankingsList = [sortedRiders[0], sortedRiders[1], sortedRiders[2]];
+            cc.beijingRankingsList = sortedRiders;
         }
     }
 })();
