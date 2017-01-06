@@ -16,6 +16,7 @@ rankings-athlete {
                 padding: 0;
                 overflow: hidden;
                 position: relative;
+                max-width: 175px;
 
                 img {
                     width: 100%;
@@ -183,7 +184,7 @@ rankings-athlete {
                 }
 
                 >.col:first-child {
-                        max-width: 200px;
+                        min-width: 175px;
                     img {
                     }
                 }
