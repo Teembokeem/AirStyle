@@ -345,47 +345,47 @@
                         {
                             img: 'img/bt_2d_com_1c_white.png',
                             // dim: 120,
-                            link: 'http://www.go90.com'
+                            link: 'https://www.blue-tomato.com/de-DE/'
                         },
                         {
                             img: 'img/Kombilogo _Innsbruck-Tirol_web.png',
                             // dim: 100,
-                            link: 'http://www.coors.com'
+                            link: 'http://www.tyrol.com/places/a-innsbruck'
                         },
                         {
                             img: 'img/Kronehit-Logo.svg.png',
                             // dim: 120,
-                            link: 'http://stoli.com/'
+                            link: 'http://www.kronehit.at/'
                         },
                         {
                             img: 'img/Logo 1c neg mit Outline ohne abfall.png',
                             // dim: 100,
-                            link: 'http://www.clifbar.com'
+                            link: 'http://www.da-ist-was-los.at/'
                         },
                         {
                             img: 'img/Logo_Adlers_Raute_CMYK_RZ.png',
                             // dim: 120,
-                            link: 'http://www.theforo.com'
+                            link: 'http://www.adlers-innsbruck.com/en/home.html'
                         },
                         {
                             img: 'img/Logo_Hofer.svg.png',
                             // dim: 120,
-                            link: 'http://floodmagazine.com'
+                            link: 'https://www.hofer.at/'
                         },
                         {
                             img: 'img/OEBB_RGB.png',
                             // dim: 120,
-                            link: 'http://floodmagazine.com'
+                            link: 'https://www.oebb.at/en'
                         },
                         {
                             img: 'img/TT_Logo_4c.png',
                             // dim: 120,
-                            link: 'http://floodmagazine.com'
+                            link: 'http://www.tt.com/'
                         },
                         {
                             img: 'img/Olympiaworld.png',
                             // dim: 120,
-                            link: 'http://floodmagazine.com'
+                            link: 'http://www.olympiaworld.at/en/'
                         }
                     ]
                 },
