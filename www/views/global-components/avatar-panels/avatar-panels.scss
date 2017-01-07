@@ -104,7 +104,8 @@ avatar-panels {
                         position: absolute;
                         bottom: -3rem;
                         // left: -4rem;
-                        right: auto;
+                        right: 0;
+                        left: 0;
                         padding-left: 0.5rem;
                         display: flex;
                         background-color: transparent;

@@ -10951,7 +10951,8 @@ avatar-panels > .container {
       avatar-panels > .container > .row:nth-child(2) > .col .rider-page .blue-container {
         position: absolute;
         bottom: -3rem;
-        right: auto;
+        right: 0;
+        left: 0;
         padding-left: 0.5rem;
         display: flex;
         background-color: transparent;
@@ -11220,11 +11221,13 @@ home-carousel {
               margin-right: 4vw; }
             home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .plus .col .right {
               margin-left: 4vw; }
-        home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content .col p {
-          color: white;
-          font-size: 15px;
-          padding: 0 2rem;
-          letter-spacing: 0.03rem; }
+        home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content {
+          padding-top: 10px; }
+          home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .content .col p {
+            color: white;
+            font-size: 15px;
+            padding: 0 2rem;
+            letter-spacing: 0.03rem; }
         home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .date {
           margin-top: 0.3rem; }
           home-carousel > .container .row .col .slider .slider-slides .la-lineup > .container .date .col span {
@@ -11233,7 +11236,7 @@ home-carousel {
             font-family: 'Reglo-Bold';
             color: white; }
       home-carousel > .container .row .col .slider .slider-pager {
-        bottom: 4rem !important;
+        bottom: 4rem;
         position: relative !important; }
         home-carousel > .container .row .col .slider .slider-pager .slider-pager-page {
           width: 20px;
@@ -11470,7 +11473,7 @@ home-carousel {
         right: 2%;
         top: 88%; }
       home-carousel > .container .row .col .slider .slider-pager {
-        bottom: 20px; }
+        bottom: 3rem; }
         home-carousel > .container .row .col .slider .slider-pager .slider-pager-page {
           width: 20px;
           height: 20px;
