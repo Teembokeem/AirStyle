@@ -571,24 +571,6 @@
                         spotify: 'https://open.spotify.com/artist/71yUdzd6D5RGp3R2V7VlHY',
                         video: 'https://youtube.com/embed/mp3I-srdJ5s?list=PL98F3582B087B668E'
                     },
-                    'milky-chance': {
-                        name: 'Milky Chance',
-                        ref: 'milky-chance',
-                        img_portrait: '../img/artists/portrait/MilkyChance_Portrait.jpg',
-                        img_landscape: '../img/artists/landscape/MilkyChance_Landscape.jpg',
-                        location: 'main stage',
-                        time: 'fri 3 2pm',
-                        info: [
-                            'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
-                        ],
-                        tweet: 'https://twitter.com/milkychance',
-                        fb: 'https://www.facebook.com/milkychancemusic',
-                        inst: 'https://www.instagram.com/milkychance_official/',
-                        youtube: 'https://www.youtube.com/user/MilkysMusic',
-                        website: 'https://www.milkychance.net/',
-                        spotify: 'https://open.spotify.com/artist/1hzfo8twXdOegF3xireCYs',
-                        video: 'https://youtube.com/embed/ernVvrYH9vg'
-                    },
                     'counterfeit': {
                         name: 'Counterfeit',
                         ref: 'counterfeit',
