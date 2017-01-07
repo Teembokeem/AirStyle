@@ -26,11 +26,11 @@ var _scope;
 
             // cc.tumblrFeedContent = $stateParams.tour ? TumblrManager.filterPosts($stateParams.tour) : TumblrManager.filterPosts();
             // console.log(cc.tumblrFeedContent)
-            if (localStorage.getItem('Tumblr')) {
-                return cc.tumblrFeedContent = $stateParams.tour ? JSON.parse(localStorage.getItem('Tumblr')).filter(function (post) {
-                    return $stateParams.tour == 'la' ? post.tags.indexOf('losangeles') != -1 : post.tags.indexOf($stateParams.tour) != -1
-                }) : JSON.parse(localStorage.getItem('Tumblr'));;
-            }
+            // if (localStorage.getItem('Tumblr')) {
+            //     return cc.tumblrFeedContent = $stateParams.tour ? JSON.parse(localStorage.getItem('Tumblr')).filter(function (post) {
+            //         return $stateParams.tour == 'la' ? post.tags.indexOf('losangeles') != -1 : post.tags.indexOf($stateParams.tour) != -1
+            //     }) : JSON.parse(localStorage.getItem('Tumblr'));;
+            // }
             cc.tumblrFeedContent = TumblrManager.Posts.then(function (posts) {
                 cc.tumblrFeedContent = $stateParams.tour ? posts.filter(function (post) {
                     return $stateParams.tour == 'la' ? post.tags.indexOf('losangeles') != -1 : post.tags.indexOf($stateParams.tour) != -1
