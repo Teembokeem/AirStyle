@@ -63,11 +63,11 @@ var _posts;
 
         function setGrabBagImage(post) {
             var tagCounter = 0;
-            var codex = ['beijing', 'la', 'innsbruck'];
+            var codex = ['beijing', 'losangeles', 'innsbruck'];
             var cityImages = [9, 12, 9];
 
             post.tags.forEach(function (tag) {
-                if (tag.match('beijing') || tag.match('la') || tag.match('innsbruck')) {
+                if (tag.match('beijing') || tag.match('losangeles') || tag.match('innsbruck')) {
                     tagCounter++;
                 };
             });
