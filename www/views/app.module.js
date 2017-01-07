@@ -21,11 +21,12 @@
             'Rider.view.module',
             'Rankings.view.module',
             'BeijingContent.view.module',
+            'About.view.module',
             'Schedule.view.module',
         ])
 
 
-        .config(function ($stateProvider, $urlRouterProvider) {
+        .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             $stateProvider
                 .state('app', {
                     abstract: true,
@@ -35,7 +36,8 @@
                     controllerAs: 'ac'
                 })
 
-            $urlRouterProvider.otherwise('/home')
+            $urlRouterProvider.otherwise('/home');
+            $locationProvider.html5Mode(true);
         })
 
         .run(function ($rootScope) {
