@@ -74,7 +74,7 @@ var _posts;
             if (tagCounter > 1) {
                 var cityLotteryNumber = Math.floor(Math.random(0, 1)) * 3;
                 var randomCity = codex[cityLotteryNumber];
-                var randomImage = Math.floor(Math.random() * cityImages[cityLotteryNumber]);
+                var randomImage = Math.floor(Math.random() * cityImages[cityLotteryNumber]) + 1;
                 post.image = '../img/tumblr/' + randomCity + '/' + randomImage + '.jpg';
                 return post;
             } else {
