@@ -54,7 +54,7 @@
                 }
             }
 
-            console.log(cc.artists)
+            // console.log(cc.artists)
         }
     }
 })();

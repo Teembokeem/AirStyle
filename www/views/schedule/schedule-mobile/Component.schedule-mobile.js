@@ -41,7 +41,7 @@
         })
 
         cc.$onInit = function () {
-            console.log('schedule mobile')
+            // console.log('schedule mobile')
 
             cc.ScheduleContent = [{
                 date: 'Fri Feb 3',

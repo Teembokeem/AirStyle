@@ -78,11 +78,11 @@ var _posts;
                 post.image = '../img/tumblr/' + randomCity + '/' + randomImage + '.jpg';
                 return post;
             } else {
-                console.log("hi", post.tags)
+                // console.log("hi", post.tags)
                 var randomImage = Math.floor(Math.random() * cityImages[codex.indexOf(post.tags[0])]) + 1;
-                console.log(randomImage)
+                // console.log(randomImage)
                 post.image = '../img/tumblr/' + post.tags[0] + '/' + randomImage + '.jpg';
-                console.log(post.image)
+                // console.log(post.image)
                 return post;
             }
 

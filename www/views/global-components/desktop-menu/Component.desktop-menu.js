@@ -29,7 +29,7 @@
 
 
         $rootScope.$on('tourStopMenuClose', function (e, d) {
-            console.log(e, d)
+            // console.log(e, d)
             cc.venue = d.tour ? Tours(d.tour) : null
             cc.currentState = $state.current.name
             cc.menus[d.menu] = !cc.menus[d.menu];

@@ -151,7 +151,7 @@
 
         cc.$onInit = function () {
             cc.contextMenu = cc.codex[Object.keys(cc.codex)[Object.keys(cc.codex).indexOf(cc.menu)]]
-            console.log(cc.menu, cc.codex)
+            // console.log(cc.menu, cc.codex)
         }
     }
 })();

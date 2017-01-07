@@ -29,7 +29,7 @@
         };
 
         cc.$onInit = function () {
-            console.log("were in here")
+            // console.log("were in here")
         }
     }
 })();

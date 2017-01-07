@@ -11,7 +11,7 @@
         var cc = this;
 
 
-        console.log('avatar', $stateParams)
+        // console.log('avatar', $stateParams)
         cc.video = Artists($stateParams.avatar).video;
 
     }

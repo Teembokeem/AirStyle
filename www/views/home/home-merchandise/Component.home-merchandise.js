@@ -27,7 +27,7 @@
         cc.$onInit = function () {
 
             cc.merchandiseContent = Merchandise();
-            console.log(cc.merchandiseContent)
+            // console.log(cc.merchandiseContent)
         }
     }
 })();

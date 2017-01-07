@@ -16,7 +16,7 @@ var _scroll;
         var cc = this,
             scroller;
 
-        console.log("working on shapes doe");
+        // console.log("working on shapes doe");
 
 
 
@@ -35,7 +35,7 @@ var _scroll;
                     // console.log("reference: a = before, b = after, c = scope");
                     cc.currScroll = (b * viewHeight) / maxScroll;
                     cc.prevScroll = a;
-                    console.log(cc.currScroll, viewHeight, maxScroll);
+                    // console.log(cc.currScroll, viewHeight, maxScroll);
 
                 });
             });

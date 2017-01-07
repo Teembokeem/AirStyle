@@ -20,7 +20,7 @@ var _video;
         cc.hovered = -1;
 
         function stateChange(state, val) {
-            console.log("your val", val);
+            // console.log("your val", val);
             if (val == 'beijing') {
                 $rootScope.$broadcast('tourStopMenuClose', {
                     menu: null,

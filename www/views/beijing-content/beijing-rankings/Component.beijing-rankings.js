@@ -29,7 +29,7 @@ var _riders;
                 return rider.scores['2017'] ? rider.scores['2017'].beijing.score != 'N/A' : false;
             });
 
-            console.log(sortedRiders)
+            // console.log(sortedRiders)
             sortedRiders = sortedRiders.sort(function (a, b) {
                 return b.scores['2017'].beijing.score - a.scores['2017'].beijing.score
             });
