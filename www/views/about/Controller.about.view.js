@@ -9,6 +9,6 @@
 
     function AboutCtrl($log, $state, $rootScope, $stateParams) {
         var cc = this;
-
+        cc.video = 'https://www.youtube.com/embed/biVIhNECilw?&theme=dark&autohide=2&showinfo=0'
     }
 })();
