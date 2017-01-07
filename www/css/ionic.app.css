@@ -10709,7 +10709,7 @@ partners > .container {
           display: flex;
           justify-content: center;
           align-items: center;
-          margin: 0 auto;
+          margin: 0 2rem;
           min-width: 300px; }
           partners > .container .partner-container .container .row .partner a img {
             max-height: 120px !important;
