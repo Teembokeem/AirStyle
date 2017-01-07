@@ -14,6 +14,22 @@
         $rootScope.$on('$stateChangeStart', function (evt, toState, toParams, fromState, fromParams, $state) {
             // $rootScope.contentTitle = ;
             ac.contentTitle = toState.contentTitle;
+            if (toState.name == 'app.tour-stops') {
+                if (toState.params.tour.value == 'la') {
+                    fbq('track', 'ViewContent', {
+                        Content_name: 'losangeles',
+                        value: 1.00,
+                        currency: 'USD'
+                    });
+                } else {
+                    fbq('track', 'ViewContent', {
+                        Content_name: 'innsbruck',
+                        value: 1.00,
+                        currency: 'USD'
+                    });
+                }
+
+            }
 
             $rootScope.$on('$stateChangeError', function (event, toState, toParams, fromState, fromParams, error) {
                 event.preventDefault();
