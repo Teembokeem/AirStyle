@@ -1,4 +1,7 @@
-
+@keyframes slide-left {
+    from {margin-left: 0;}
+    to {margin-left: 25px;}
+}
 
 
 nav {
@@ -121,7 +124,7 @@ nav {
                                 font-size: 30px;
                                 font-weight: bold;
                                 font-family: 'Apercu';
-                                a {
+                                span {
                                     font-family: 'Apercu';
                                     text-decoration: none;
                                 }
@@ -130,6 +133,39 @@ nav {
 
                         .row:first-child {
                             margin-top: 1rem;
+                        }
+
+                        > .row:nth-child(2), > .row:nth-child(3) {
+                            .col {
+                                span {
+                                    // animation-name: slide-left;
+                                    // animation-duration: 0.8s ;
+                                    // animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+                                    // animation-fill-mode: forwards;
+                                    margin-left: 1rem;
+                                    font-size: 1rem;
+
+                                }
+
+                            }
+                        }
+
+                        > .row:nth-child(2) {
+                            .col {
+                                span {
+                                    border-bottom: 3px solid $as-blue;
+
+                                }
+                            }
+                        }
+
+                        > .row:nth-child(3) {
+                            .col {
+                                span {
+                                    border-bottom: 3px solid $as-yellow;
+                                    
+                                }
+                            }
                         }
                     }
                     >.container:last-child {

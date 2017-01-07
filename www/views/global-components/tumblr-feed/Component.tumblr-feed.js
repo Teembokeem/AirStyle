@@ -28,12 +28,12 @@ var _scope;
             // console.log(cc.tumblrFeedContent)
             if (localStorage.getItem('Tumblr')) {
                 return cc.tumblrFeedContent = $stateParams.tour ? JSON.parse(localStorage.getItem('Tumblr')).filter(function (post) {
-                    return post.tags.indexOf($stateParams.tour) != -1
+                    return $stateParams.tour == 'la' ? post.tags.indexOf('losangeles') != -1 : post.tags.indexOf($stateParams.tour) != -1
                 }) : JSON.parse(localStorage.getItem('Tumblr'));;
             }
             cc.tumblrFeedContent = TumblrManager.Posts.then(function (posts) {
                 cc.tumblrFeedContent = $stateParams.tour ? posts.filter(function (post) {
-                    return post.tags.indexOf($stateParams.tour) != -1
+                    return $stateParams.tour == 'la' ? post.tags.indexOf('losangeles') != -1 : post.tags.indexOf($stateParams.tour) != -1
                 }) : posts;
 
             })
