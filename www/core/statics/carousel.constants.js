@@ -14,7 +14,7 @@
                             {
                                 label: 'Learn More',
                                 outbound: true,
-                                dest: 'http://www.air-style.at'
+                                dest: 'http://airandstyle.com'
                             },
                             {
                                 label: 'Buy Now',
@@ -60,7 +60,7 @@
                             {
                                 label: 'Learn More',
                                 outbound: true,
-                                dest: 'http://www.air-style.at'
+                                dest: 'http://airandstyle.com'
                             },
                             {
                                 label: 'Buy Now',
