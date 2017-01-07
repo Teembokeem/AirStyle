@@ -41,8 +41,8 @@
             // $locationProvider.html5Mode(true);
         })
 
-        .run(function ($rootScope) {
-            localStorage.clear()
+        .run(function ($rootScope, $window) {
+            $window.localStorage.clear()
 
             // $rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState, fromParams, error) {
             //     console.log('$stateChangeStart:');
