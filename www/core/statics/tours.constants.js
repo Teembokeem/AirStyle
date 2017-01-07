@@ -5,7 +5,7 @@
         .module('Statics')
         .constant('Tours', function (inputArg) {
             var tours = {
-                recap_video: 'https://www.youtube.com/embed/IFHcflZbBq0?&theme=dark&autohide=2&showinfo=0',
+                recap_video: 'https://www.youtube.com/embed/W31Z3CgTTO4?&theme=dark&autohide=2&showinfo=0"',
                 'beijing': {
                     title: 'BEIJING',
                     ref: 'beijing',
@@ -19,7 +19,7 @@
                     ref: 'innsbruck',
                     date_semantic: 'FEB 3 + 4',
                     dest: 'app.tour-stops',
-                    video: 'https://www.youtube.com/embed/PhBNiSlcbRk',
+                    video: 'https://www.youtube.com/embed/GxzXcur0gbg?&theme=dark&autohide=2&showinfo=0',
                     city_block_image: '../img/innsbruck_city_block.jpg',
                     schedule: [
                         {
@@ -340,14 +340,61 @@
                             'Batteries',
                             'Umbrellas',
                         ]
-                    }
+                    },
+                    partners: [
+                        {
+                            img: 'img/bt_2d_com_1c_white.png',
+                            // dim: 120,
+                            link: 'http://www.go90.com'
+                        },
+                        {
+                            img: 'img/Kombilogo _Innsbruck-Tirol_web.png',
+                            // dim: 100,
+                            link: 'http://www.coors.com'
+                        },
+                        {
+                            img: 'img/Kronehit-Logo.svg.png',
+                            // dim: 120,
+                            link: 'http://stoli.com/'
+                        },
+                        {
+                            img: 'img/Logo 1c neg mit Outline ohne abfall.png',
+                            // dim: 100,
+                            link: 'http://www.clifbar.com'
+                        },
+                        {
+                            img: 'img/Logo_Adlers_Raute_CMYK_RZ.png',
+                            // dim: 120,
+                            link: 'http://www.theforo.com'
+                        },
+                        {
+                            img: 'img/Logo_Hofer.svg.png',
+                            // dim: 120,
+                            link: 'http://floodmagazine.com'
+                        },
+                        {
+                            img: 'img/OEBB_RGB.png',
+                            // dim: 120,
+                            link: 'http://floodmagazine.com'
+                        },
+                        {
+                            img: 'img/TT_Logo_4c.png',
+                            // dim: 120,
+                            link: 'http://floodmagazine.com'
+                        },
+                        {
+                            img: 'img/Olympiaworld.png',
+                            // dim: 120,
+                            link: 'http://floodmagazine.com'
+                        }
+                    ]
                 },
                 'la': {
                     title: 'LOS ANGELES',
                     ref: 'la',
                     date_semantic: 'FEB 18 + 19',
                     dest: 'app.tour-stops',
-                    video: 'https://www.youtube.com/embed/W8_I7Gg47W4',
+                    video: 'https://www.youtube.com/embed/gi_iUovqnjI?&theme=dark&autohide=2&showinfo=0',
                     city_block_image: '../img/la_city_block.jpg',
                     faq_general: [
                         {
@@ -537,7 +584,55 @@
                             'Totems',
                             'Umbrellas',
                         ]
-                    }
+                    },
+                    partners: [
+                        {
+                            img: 'img/go90_LOGO.png',
+                            // dim: 120,
+                            link: 'http://www.go90.com'
+                        },
+                        // 'img/partner-2.png',
+                        {
+                            img: 'img/coors-light-mountain-logo.png',
+                            // dim: 100,
+                            link: 'http://www.coors.com'
+                        },
+                        {
+                            img: 'img/Stoli.png',
+                            // dim: 120,
+                            link: 'http://stoli.com/'
+                        },
+                        {
+                            img: 'img/CLIF.png',
+                            // dim: 100,
+                            link: 'http://www.clifbar.com'
+                        },
+                        {
+                            img: 'img/foro_logo-2.png',
+                            // dim: 120,
+                            link: 'http://www.theforo.com'
+                        },
+                        {
+                            img: 'img/FLOOD_MAGAZINE_PRESENTS.png',
+                            // dim: 120,
+                            link: 'http://floodmagazine.com'
+                        },
+                        {
+                            img: 'img/pinkNYLON_logo.png',
+                            // dim: 120,
+                            link: 'http://www.nylon.com/'
+                        },
+                        {
+                            img: 'img/Stereogum-Logo-White.png',
+                            // dim: 120,
+                            link: 'http://www.stereogum.com/'
+                        },
+                        {
+                            img: 'img/VIBE-Logo-White.png',
+                            // dim: 120,
+                            link: 'http://www.vibe.com/'
+                        }
+                    ]
                 }
             },
                 Keys = Object.keys(tours),
