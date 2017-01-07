@@ -3,28 +3,33 @@
 <ion-content>
 	<div class="container nav-menu">
 		<div class="container">
-			<div href="https://airandstyle.frontgatetickets.com/" class="row">
+			<div ng-click="cc.toggleCities()" class="row">
 				<div class="col">
-					<a href="https://airandstyle.frontgatetickets.com/">Tickets</a>
+					<span>Tickets</span>
 				</div>
 			</div>
-			<!--<div class="row">
-				<div class="col">
-					Live Stream
+			<div ng-if="cc.toggledCities" class="row">
+				<div ng-click="cc.buyTickets('innsbruck')" class="col">
+					<span>INNSBRUCK</span>
 				</div>
-			</div>-->
+			</div>
+			<div ng-if="cc.toggledCities" class="row">
+				<div ng-click="cc.buyTickets('la')" class="col">
+					<span>LOS ANGELES</span>
+				</div>
+			</div>
 			<div class="row">
-				<div class="col">
+				<div ng-click="cc.stateChange('app.rider.all')" class="col">
 					Riders
 				</div>
 			</div>
 			<div class="row">
-				<div class="col">
+				<div ng-click="cc.stateChange('app.rankings')" class="col">
 					Rankings
 				</div>
 			</div>
 			<div class="row">
-				<div class="col">
+				<div ng-click="cc.stateChange('app.merchandise')" class="col">
 					Shop
 				</div>
 			</div>
