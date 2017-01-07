@@ -109,7 +109,6 @@ nav {
             width: 100vw;
             left: 0;
             height: 90vh;
-            background-color: black;
             padding-top: 1rem;
             padding-left: 23px;
             overflow-y: scroll;
@@ -233,6 +232,10 @@ nav {
                     }
                 }
             }
+        }
+
+        mobile-menu.black {
+            background-color: black;
         }
         desktop-menu {
             display: flex;
@@ -494,3 +497,5 @@ nav {
         }
     }
 }
+
+

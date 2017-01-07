@@ -9995,7 +9995,6 @@ nav {
       width: 100vw;
       left: 0;
       height: 90vh;
-      background-color: black;
       padding-top: 1rem;
       padding-left: 23px;
       overflow-y: scroll; }
@@ -10040,6 +10039,8 @@ nav {
       nav .as-menu mobile-menu ion-content .nav-menu > .container:last-child > .row:nth-child(3) .container .row:last-child .col span {
         padding-bottom: 2px;
         border-bottom: 7px solid #40caff; }
+    nav .as-menu mobile-menu.black {
+      background-color: black; }
     nav .as-menu desktop-menu {
       display: flex;
       justify-content: flex-end;

@@ -16,7 +16,7 @@
     <!-- Menu -->
     <div ng-if="!cc.noNav" class="col as-menu">
         <desktop-menu ng-if="!cc.mobile" class="container"></desktop-menu>
-        <mobile-menu ng-if="cc.mobile" class="container"></mobile-menu>
+        <mobile-menu ng-if="cc.mobile" ng-class="{black: !cc.noNav}" class="container"></mobile-menu>
     </div>
     <!-- Search Icon -->
     <div class="col search">

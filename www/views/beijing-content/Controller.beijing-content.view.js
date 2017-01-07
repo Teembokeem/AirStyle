@@ -5,11 +5,11 @@
         .module('BeijingContent.view.module')
         .controller('BeijingContentCtrl', BeijingContentCtrl);
 
-    BeijingContentCtrl.$inject = ['$log', '$state', '$rootScope', '$sce'];
+    BeijingContentCtrl.$inject = ['$log', '$state', '$rootScope', 'Tours'];
 
-    function BeijingContentCtrl($log, $state, $rootScope, $sce) {
+    function BeijingContentCtrl($log, $state, $rootScope, Tours) {
         var cc = this;
 
-        cc.video = 'https://www.youtube.com/embed/W5uN0ZnL5zI';
+        cc.video = Tours('beijing').video;
     }
 })();

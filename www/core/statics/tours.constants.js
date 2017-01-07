@@ -11,7 +11,7 @@
                     ref: 'beijing',
                     date_semantic: 'NOV 18 + 19',
                     dest: 'app.tour-stops',
-                    video: 'https://www.youtube.com/embed/PhBNiSlcbRk',
+                    video: 'https://www.youtube.com/embed/IFHcflZbBq0?&theme=dark&autohide=2&showinfo=0',
                     city_block_image: '../img/beijing_city_block.jpg'
                 },
                 'innsbruck': {

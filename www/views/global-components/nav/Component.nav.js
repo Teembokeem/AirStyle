@@ -59,6 +59,7 @@
         cc.toggleNav = function () {
             cc.noNav = !cc.noNav;
             if (cc.mobile) {
+                console.log("this")
                 $element[0].style.backgroundColor == 'black' ? $element[0].style.backgroundColor = '' : $element[0].style.backgroundColor = 'black';
 
             }
