@@ -135,7 +135,7 @@
                     'vince-staples': {
                         name: 'Vince Staples',
                         img_portrait: '../img/artists/portrait/VinceStaples_Portrait.jpg',
-                        img_landscape: '../img/artists/landscape/VinceStaples_Landscape.jpg',
+                        img_landscape: '../img/artists/landscape/VinceStaples_Landscape.JPG',
                         ref: 'vince-staples',
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
