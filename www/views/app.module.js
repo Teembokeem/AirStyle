@@ -22,6 +22,7 @@
             'Rankings.view.module',
             'BeijingContent.view.module',
             'About.view.module',
+            'Contact.view.module',
             'Schedule.view.module',
         ])
 
@@ -37,7 +38,7 @@
                 })
 
             $urlRouterProvider.otherwise('/home');
-            $locationProvider.html5Mode(true);
+            // $locationProvider.html5Mode(true);
         })
 
         .run(function ($rootScope) {
