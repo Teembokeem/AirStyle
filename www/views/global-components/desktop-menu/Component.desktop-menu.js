@@ -42,7 +42,7 @@
 
         function go(id) {
             if (id == 'merch') {
-                window.open('https://www.air-style.clothing/collections/2017-merch/products/')
+                window.open('https://www.air-style.clothing/')
             }
         }
 
