@@ -42,6 +42,7 @@
         })
 
         .run(function ($rootScope) {
+            localStorage.clear()
 
             // $rootScope.$on('$stateChangeStart', function (event, toState, toParams, fromState, fromParams, error) {
             //     console.log('$stateChangeStart:');
