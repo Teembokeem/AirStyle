@@ -623,12 +623,12 @@
                             link: 'http://www.nylon.com/'
                         },
                         {
-                            img: 'img/Stereogum-Logo-White.png',
+                            img: 'img/Stereogum_white.png',
                             // dim: 120,
                             link: 'http://www.stereogum.com/'
                         },
                         {
-                            img: 'img/VIBE-Logo-White.png',
+                            img: 'img/vibe.png',
                             // dim: 120,
                             link: 'http://www.vibe.com/'
                         },

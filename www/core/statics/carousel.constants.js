@@ -64,8 +64,8 @@
                             },
                             {
                                 label: 'Buy Now',
-                                outbound: true,
-                                dest: 'http://air-style.at/innsbruck2017/ticket-info-2017/'
+                                outbound: false,
+                                dest: 'app.ticket'
                             }
                         ],
                         image: 'img/slide1.jpg'

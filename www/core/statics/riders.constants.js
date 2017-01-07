@@ -2010,7 +2010,7 @@
                         },
                         '2017': {
                             beijing: {
-                                score: '100'
+                                score: '100.00'
                             },
                             innsbruck: {
                                 score: 'N/A'

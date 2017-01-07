@@ -10,9 +10,9 @@
             controllerAs: 'cc'
         })
 
-    HomeCarouselCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', '$ionicSlideBoxDelegate', 'Carousel'];
+    HomeCarouselCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', '$ionicSlideBoxDelegate', 'Carousel', '$state'];
 
-    function HomeCarouselCtrl($log, $rootScope, $window, $scope, $ionicSlideBoxDelegate, Carousel) {
+    function HomeCarouselCtrl($log, $rootScope, $window, $scope, $ionicSlideBoxDelegate, Carousel, $state) {
         var cc = this;
 
         $scope.$watch(function () {
@@ -38,8 +38,13 @@
         cc.borderButtonHover = 'null';
 
 
-        function go(link) {
-            window.open(link);
+        function go(button) {
+            if (button.outbound) {
+                window.open(button.dest);
+            } else {
+                $state.go(button.dest)
+            }
+
         };
 
         function moveSlide(index) {

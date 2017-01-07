@@ -13954,6 +13954,7 @@ rankings-athlete > .container {
           rankings-athlete > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col span {
             font-size: 20px; }
       rankings-athlete > .container > .row > .col:nth-child(3) {
+        min-width: 440px;
         padding: 5px;
         flex: 1; }
         rankings-athlete > .container > .row > .col:nth-child(3) > .container {

@@ -21,7 +21,7 @@
         function stateChange(state) {
             $state.go(state);
             cc.venue = null;
-            $rootScope.$broadcast('noNav');
+            if (cc.mobile && cc.noNav == false) cc.noNav = true;
         }
 
 
