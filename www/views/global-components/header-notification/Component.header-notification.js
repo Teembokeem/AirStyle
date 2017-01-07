@@ -16,6 +16,7 @@
         var cc = this;
 
         cc.hovered = false;
+        cc.close = false;
 
         cc.toastOpen = function () {
             // if (cc.hovered == false) {
