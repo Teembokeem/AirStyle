@@ -1,7 +1,8 @@
-<div ng-mouseenter="cc.toastOpen()" class="container">
+<div ng-class="{'fade': cc.close}" ng-mouseenter="cc.toastOpen()" class="container">
     <div class="row">
         <div class="col">
-            <span>Super Short Notification though. HOVER ME</span>
+            <span>Super Short Notification.</span>
+            <i ng-click="cc.close = !cc.close" class="icon ion-close-round"></i>
         </div>
     </div>
 </div>
