@@ -9907,6 +9907,12 @@ body * ::-webkit-scrollbar-thumb {
   background-color: rgba(40, 40, 40, 0.3);
   border-radius: 1rem; }
 
+@keyframes slide-left {
+  from {
+    margin-left: 0; }
+  to {
+    margin-left: 25px; } }
+
 nav {
   position: absolute;
   width: 100vw;
@@ -9999,11 +10005,18 @@ nav {
           font-size: 30px;
           font-weight: bold;
           font-family: 'Apercu'; }
-          nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child .row .col a {
+          nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child .row .col span {
             font-family: 'Apercu';
             text-decoration: none; }
       nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child .row:first-child {
         margin-top: 1rem; }
+      nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(2) .col span, nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(3) .col span {
+        margin-left: 1rem;
+        font-size: 1rem; }
+      nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(2) .col span {
+        border-bottom: 3px solid #40caff; }
+      nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(3) .col span {
+        border-bottom: 3px solid #f9fe17; }
       nav .as-menu mobile-menu ion-content .nav-menu > .container:last-child > .row {
         margin-bottom: 3rem; }
         nav .as-menu mobile-menu ion-content .nav-menu > .container:last-child > .row .container .row:first-child {
@@ -10905,6 +10918,7 @@ avatar-panels > .container {
               margin: 0 auto;
               height: 100%;
               width: 100%;
+              height: 400px !important;
               background-repeat: no-repeat !important;
               background-position: center !important;
               transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
@@ -10953,14 +10967,20 @@ avatar-panels > .container {
           font-weight: bold; }
         avatar-panels > .container > .row:nth-child(2) > .col .rider-page .blue-container span:first-child {
           color: #40caff; }
-    avatar-panels > .container > .row:nth-child(2) > .col.overlay.la .container .row .col .panel-image {
+    avatar-panels > .container > .row:nth-child(2) > .col.overlay.la .container .row .col {
       background-color: #f9fe17 !important;
       background-blend-mode: darken;
       transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
-    avatar-panels > .container > .row:nth-child(2) > .col.overlay.innsbruck .container .row .col .panel-image {
+      avatar-panels > .container > .row:nth-child(2) > .col.overlay.la .container .row .col .panel-image {
+        opacity: 0.4;
+        transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
+    avatar-panels > .container > .row:nth-child(2) > .col.overlay.innsbruck .container .row .col {
       background-color: #f9fe17 !important;
       background-blend-mode: darken;
       transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
+      avatar-panels > .container > .row:nth-child(2) > .col.overlay.innsbruck .container .row .col .panel-image {
+        opacity: 0.4;
+        transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
     avatar-panels > .container > .row:nth-child(2) > .col.overlay.rider-hover .container .row .hover-bar {
       transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0); }
     avatar-panels > .container > .row:nth-child(2) > .col.overlay.rider-hover .container .row .col .panel-image {
@@ -11034,7 +11054,9 @@ header-notification {
   z-index: 2; }
   header-notification > .container {
     background-color: rgba(40, 40, 40, 0.8);
-    width: 100%; }
+    width: 100%;
+    opacity: 1;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
     header-notification > .container > .row {
       width: 100%; }
       header-notification > .container > .row > .col {
@@ -11043,6 +11065,14 @@ header-notification {
         header-notification > .container > .row > .col span {
           font-size: 20px;
           font-family: 'Apercu'; }
+        header-notification > .container > .row > .col i {
+          font-size: 20px;
+          position: absolute;
+          right: 1rem; }
+  header-notification > .container.fade {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
 
 home-carousel {
   position: relative; }
