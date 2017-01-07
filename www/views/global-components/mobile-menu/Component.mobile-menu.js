@@ -18,15 +18,47 @@
         // };
 
         cc.stateChange = stateChange;
+        cc.toggledCities = false;
+        cc.toggleCities = toggleCities;
+        cc.buyTickets = buyTickets;
+
+        function toggleCities() {
+            cc.toggledCities = !cc.toggledCities;
+        };
+
+        function buyTickets(val) {
+            if (val == 'innsbruck') {
+                $state.go('app.ticket');
+                $rootScope.$broadcast('noNav', false);
+            } else {
+                window.open('https://airandstyle.frontgatetickets.com/');
+                $rootScope.$broadcast('noNav', false);
+            };
+        };
 
         function stateChange(state, param, val) {
             if (val == 'beijing') {
                 $rootScope.$broadcast('noNav', false);
+                $rootScope.$broadcast('tourStopMenuClose',
+                    {
+                        menu: null,
+                        tour: val
+                    }
+                );
                 return $state.go('app.beijing-content');
-            }
-            $state.go(state, { tour: val });
+            } else if (state == 'app.merchandise') {
+                return window.open('https://www.air-style.clothing/')
+            };
+            val ? $state.go(state, { tour: val }) : $state.go(state);
             $rootScope.$broadcast('noNav', false);
-        }
+            $rootScope.$broadcast('tourStopMenuClose',
+                {
+                    menu: null,
+                    tour: val
+                }
+            );
+
+        };
 
 
         cc.$onInit = function () {
