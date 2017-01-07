@@ -77,10 +77,12 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '44.73',
+                                trick: 'Switch Backside Double Cork 1080 Mute / Frontside 1260 Stalefish'
                             },
                             la: {
-                                score: 'N/A'
+                                score: '71.92',
+                                trick: 'Switch Backside 1260 Mute / Frontside 1260 Stalefish'
                             }
                         },
                         '2016': {
@@ -177,7 +179,8 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '80.32',
+                                trick: 'Cab Triple Underflip 1260 Mute / Backside Triple Cork 1440 Mute'
                             },
                             la: {
                                 score: 'N/A'
@@ -885,10 +888,12 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '75.82',
+                                trick: 'Frontside 1260 Mute / Switch Backside 1260 Mute'
                             },
                             la: {
-                                score: 'N/A'
+                                score: '16.93',
+                                trick: 'Frontside 1260 Mute / Frontside 1260 Mute'
                             }
                         },
                         '2016': {
@@ -1487,7 +1492,8 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '41.55',
+                                trick: 'Backside 1440 Mute / Frontside 1260 Melon'
                             },
                             la: {
                                 score: 'N/A'
@@ -1587,7 +1593,8 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '64.95',
+                                trick: 'Frontside 1260 Tail / Frontside 1260 Tail'
                             },
                             la: {
                                 score: 'N/A'
@@ -1787,7 +1794,8 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '69.15',
+                                trick: 'Backside Double Cork 1080 Tail / Switch Backside 1260 Tail'
                             },
                             la: {
                                 score: 'N/A'
@@ -1894,7 +1902,8 @@
                                 score: 'N/A'
                             },
                             la: {
-                                score: 'N/A'
+                                score: '58.65',
+                                trick: 'Backside Triple Cork 1440 / Frontside Triple Cork 1440 Mute'
                             }
                         },
                         '2016': {
@@ -2093,10 +2102,12 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '66.82',
+                                trick: 'Cab Double Cork 1260 Melon / Cab 1260 Melon'
                             },
                             la: {
-                                score: 'N/A'
+                                score: '49.32',
+                                trick: 'Cab 1260 Melon / Cab 1260 Melon'
                             }
                         },
                         '2016': {
@@ -3000,7 +3011,8 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '59.05',
+                                trick: 'Cab 1440 Mute / Method'
                             },
                             la: {
                                 score: 'N/A'
@@ -3306,10 +3318,12 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '43.76',
+                                trick: 'Frontside Double Cork 1080 Mute / Backside Double Rodeo 1260 Double Grab'
                             },
                             la: {
-                                score: 'N/A'
+                                score: '70.13',
+                                trick: 'Backside Triple Cork 1440 Mute / Frontside Double Cork 1080 Mute'
                             }
                         },
                         '2016': {
@@ -3512,7 +3526,8 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '39.98',
+                                trick: 'Cab 1260 Indy / Backside Double Cork 1080 Nose'
                             },
                             la: {
                                 score: 'N/A'
@@ -3617,10 +3632,12 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '81.89',
+                                trick: 'Backside Triple Cork 1440 Indy/Frontside 1080 Indy'
                             },
                             la: {
-                                score: 'N/A'
+                                score: '65.65',
+                                trick: 'Backside Triple Cork 1440 Indy / Backside 1440 Indy'
                             }
                         },
                         '2016': {
@@ -3720,10 +3737,12 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '49.78',
+                                trick: 'Cab 1260 Roastbeef / Cab 1260 Roastbeef'
                             },
                             la: {
-                                score: 'N/A'
+                                score: '44.72',
+                                trick: 'Cab 1260 Nose Roastbeef Double Grab / Backside 1440 Mute'
                             }
                         },
                         '2016': {
@@ -3821,7 +3840,8 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '66.79',
+                                trick: 'Frontside 1080 Mute / Backside Double Cork 1080 Mute'
                             },
                             la: {
                                 score: 'N/A'
@@ -3926,7 +3946,8 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '76.65',
+                                trick: 'Cab 1260 Mute / Backside Triple Cork 1440 Mute'
                             },
                             la: {
                                 score: 'N/A'
@@ -4031,10 +4052,12 @@
                                 score: 'N/A'
                             },
                             innsbruck: {
-                                score: 'N/A'
+                                score: '72.22',
+                                trick: 'Backside 1620 Mute / Backside 1260 Mute'
                             },
                             la: {
-                                score: 'N/A'
+                                score: '95.26',
+                                trick: 'Backside Triple Cork 1620 Mute / Switch Backside Triple Cork 1620 Melon'
                             }
                         },
                         '2016': {
