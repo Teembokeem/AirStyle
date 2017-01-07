@@ -598,6 +598,11 @@
                             link: 'http://www.coors.com'
                         },
                         {
+                            img: 'img/foro_logo-2.png',
+                            // dim: 120,
+                            link: 'http://www.theforo.com'
+                        },
+                        {
                             img: 'img/Stoli.png',
                             // dim: 120,
                             link: 'http://stoli.com/'
@@ -606,11 +611,6 @@
                             img: 'img/CLIF.png',
                             // dim: 100,
                             link: 'http://www.clifbar.com'
-                        },
-                        {
-                            img: 'img/foro_logo-2.png',
-                            // dim: 120,
-                            link: 'http://www.theforo.com'
                         },
                         {
                             img: 'img/FLOOD_MAGAZINE_PRESENTS.png',
@@ -631,6 +631,11 @@
                             img: 'img/VIBE-Logo-White.png',
                             // dim: 120,
                             link: 'http://www.vibe.com/'
+                        },
+                        {
+                            img: 'img/Hansens-Logo-new-2016.png',
+                            // dim: 120,
+                            link: 'https://www.hansens.com/'
                         }
                     ]
                 }
