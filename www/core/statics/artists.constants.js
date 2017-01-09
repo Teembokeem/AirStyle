@@ -50,7 +50,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'ZHU released his track “Faded”, which catapulted him into the international spotlight... quietly. So quietly, in fact, that he was the first anonymous artist to be nominated for a Grammy. He continued to build the hype with two releases before his first full length album. ZHU's initial E.P., THE NIGHTDAY, showcased the raw talent and unique sounds of the budding artist.',
+                            "ZHU released his track “Faded”, which catapulted him into the international spotlight... quietly. So quietly, in fact, that he was the first anonymous artist to be nominated for a Grammy. He continued to build the hype with two releases before his first full length album. ZHU's initial E.P., THE NIGHTDAY, showcased the raw talent and unique sounds of the budding artist.",
                             'For his 2015 Genesis Series EP project, ZHU recruited an eclectic group made up of members of Bone Thugs N’ Harmony, Skrillex, Trombone Shorty, and more. Bound by no genre, the collection of songs paid homage to the great musicians that inspired ZHU with new age production and sonic design. All of this is why ZHU was dubbed “one of the most musically sophisticated of the current generation of dance music producers” by The New York Times. 2016 saw the release of “In The Morning” his highly anticipated debut full-length “GENERATIONWHY”.'
                         ],
                         tweet: 'https://twitter.com/ZHUmusic',
