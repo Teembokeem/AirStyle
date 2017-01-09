@@ -14,7 +14,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            'Major Lazer is a project from the award-winning DJ and producer Diplo (aka Wesley Pentz), who has had an unprecedented career that’s taken him from the outer fringes of club culture to the top of pop’s A-list. Over the course of two albums and three EPs, they’ve collaborated with the likes of Bruno Mars, Pharrell Williams, and Ezra Koenig of Vampire Weekend. He’s split his time between working with pop stars like Beyonce, Usher, Snoop Dogg, No Doubt, Lil Wayne, Justin Bieber, Iggy Azalea, Britney Spears, Chris Brown, and Madonna and carving out a niche as one of the leading figures in EDM culture—all while racking up millions of plays as both a producer and an artist. Currently made up of Diplo and fellow DJ/producers Jillionaire and Walshy Fire, Major Lazer’s latest album, Peace is the Mission, was released in June 2015 to widespread critical acclaim.'
                         ],
                         tweet: 'https://twitter.com/MAJORLAZER/',
                         fb: 'https://www.facebook.com/majorlazer/',
@@ -32,7 +32,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            'Flume is a multi-platinum selling, internationally recognized artist, creating his own space in electronic music. Having played sold out shows at home in Australia and abroad from NYC to LA to London to Paris and Berlin, Flume creates complex, intelligent, original productions that sound great wherever in the world you’re listening—all from the bedroom of his parents’ house. Check out Flume’s­ dark, epic 10-minute version of Arcade Fire’s “Afterlife” or his huge remix of Lorde’s “Tennis Court”, which sent entire swaths of the Internet into a frenzy.'
                         ],
                         tweet: 'https://twitter.com/flumemusic',
                         fb: 'https://www.facebook.com/flumemusic',
@@ -50,7 +50,8 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            'ZHU released his track “Faded”, which catapulted him into the international spotlight... quietly. So quietly, in fact, that he was the first anonymous artist to be nominated for a Grammy. He continued to build the hype with two releases before his first full length album. ZHU's initial E.P., THE NIGHTDAY, showcased the raw talent and unique sounds of the budding artist.',
+                            'For his 2015 Genesis Series EP project, ZHU recruited an eclectic group made up of members of Bone Thugs N’ Harmony, Skrillex, Trombone Shorty, and more. Bound by no genre, the collection of songs paid homage to the great musicians that inspired ZHU with new age production and sonic design. All of this is why ZHU was dubbed “one of the most musically sophisticated of the current generation of dance music producers” by The New York Times. 2016 saw the release of “In The Morning” his highly anticipated debut full-length “GENERATIONWHY”.'
                         ],
                         tweet: 'https://twitter.com/ZHUmusic',
                         fb: 'https://www.facebook.com/zhu/',
@@ -68,7 +69,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            'Funk’s a game plan—these guys had a ten-year battle strategy. When they released their first album in 2004, Rick James was still the Antichrist to all but the enlightened. Fast forward a decade, and ‘80s funk—which makes up a major part of Chromeo’s DNA—is all over the charts. 2014’s album “White Women” perpetuates and elevates Chromeo’s existing blueprint: sexy funk, ass-targeting beats, melodic honey, and smart lyrics about the foibles of contemporary love. Genres and styles coexist within a singularity of moves and gestures. The album features dope cameos from all corners, with the likes of Solange Knowles, Ezra Koenig and Toro y Moi. What’s the trick to combining far-flung piano lines, synths and other funked-out electro stuff into a coherent package? As Chromeo says: Know thyself, know thy vibe, and stay thy course'
                         ],
                         tweet: 'https://twitter.com/chromeo',
                         fb: 'https://www.facebook.com/chromeo',
@@ -86,7 +87,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            'As Atmosphere steps into their 21st year of making music, emcee Slug & producer/DJ Ant show no signs of slowing, compromising or losing sight of their vision. After releasing string of dope singles in 2015, Atmosphere released their latest LP “Fishing Blues” in August 2016. A curious title for a hip-hop duo, perhaps. Is this the point in their career where Atmosphere chooses to step back, put up the “Gone Fishin’” sign, and reminisce about their successes? The answer—a resounding no—is found in the music, a collection of songs that both seemingly redefine the Atmosphere sound. Their passion and creative spark are as energetic as ever. Slug and Ant still have plenty of stories to tell, so stay tuned'
                         ],
                         tweet: 'https://twitter.com/atmosphere',
                         fb: 'https://www.facebook.com/Atmosphere/',
@@ -104,7 +105,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            "Following the release of his sophomore album “Still Brazy” early in 2016, Los Angeles-based rapper YG has emerged as the preeminent voice in gangster rap. His 2014 smash “My Krazy Life” affirmed that the artist who broke out on the scene with 2009's "Toot It And Boot It" could translate his hit-making and storytelling skills to a cohesive album. 2016 saw YG emerge as an important critical voice of the current social climate. “Still Brazy” boasts the classic West Coast flavor that fans have come to expect from YG, but songs like "FDT (Fuck Donald Trump)", "Police Get Away Wit Murder" and "Blacks & Browns" demonstrate an intuitive understanding of sociopolitical dynamics that few chart-topping artists can claim. The future’s lookin’ bright for Compton’s YG."
                         ],
                         tweet: 'https://twitter.com/YG',
                         fb: 'https://www.facebook.com/YG400',
@@ -122,7 +123,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            'TV on the Radio has been called "one of the most compelling American rock-and-roll stories of the modern age" (BBC), “the most innovative band on the planet” (AV Club), and simply "superb" (Rolling Stone), proving themselves to be one of the most influential bands of the decade. Their albums frequently grace national ‘best of’ and ‘year-end’ lists. TVOTR’s live show is to be witnessed. The Boston Globe described it as, "sexy nerdiness letting go in a controlled blast of unleashed energy”. All of this and pair of seminal mid-aughts albums “Return to Cookie Mountain” (2006) and “Dear Science” (2008) have helped to cement TVOTR as defining musicians of this generation.'
                         ],
                         tweet: 'https://twitter.com/tvontheradio',
                         fb: 'https://www.facebook.com/TvOnTheRadio',
@@ -140,7 +141,8 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            'Born and raised in Long Beach, California, Vince Staples has emerged as one of rap’s preeminent rising artists. On 2014’s “Hell Can Wait” and his revered mixtapes, Vince Staples rapped with a masterful blend of observation and first-person passion. On follow-up “Summertime ’06”, he takes listeners to the very streets in which he was raised, showcasing what he’s learned about life and making music. As the album progresses, we enter the mind of a young teenager whose life consisted of robbing people and getting into fights.',
+                            'This mindset is revealed in the mesmerizing “Get Paid,” a dissertation on how money is a means of control. “If everybody had money, nobody would be dying.” For Vince Staples, it’s about much more than just being a well-paid, high-profile artist. “I don’t care about money because I’ve always been broke,” he says. “I don’t care about attention because I’ve got a gap between my teeth and a speech problem. I don’t care about fame because it’s corny. I don’t care about being a rapper because those dudes embarrass themselves. What I care about is that when you die, were you full of crap? That’s what matters where I come from.”'
                         ],
                         tweet: 'https://twitter.com/vincestaples',
                         fb: 'https://www.facebook.com/vincestaples/',
@@ -158,7 +160,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            "“I’ve been at this shit nine years and now they start to call,” Russ sings on his breakout single, “What They Want.” Don’t confuse this as idle boasting from the eclectic Atlanta phenom; it’s a reminder that his rapid ascent was anything but accidental. In an industry filled with manufactured hype, Russ did it all himself. His music boasts the diverse tastes of someone who grew up everywhere: New York, New Jersey, North Carolina, Kentucky and Ohio, and eventually Georgia. Towards the end of high school, he picked up a mic, and taught himself piano, guitar, and drums. Russ doesn’t slip back and forth from hyper-melodic inspirational guitar anthems to raw East Coast hip-hop—they’re all effortlessly combined in the same song. Russ makes all his beats, writes all the raps and the hooks. He plays the guitar, programs the drums, does his own mixing and delves deep into his soul to figure out who he is and what he wants out of life. It’s hard but melodic, sophisticated with a direct emotional appeal."
                         ],
                         tweet: 'https://twitter.com/russdiemon',
                         fb: 'https://www.facebook.com/russtheone',
@@ -176,7 +178,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            'Hailing from Chicago, Louis The Child is an electronic music duo with the stated goal of creating music that makes people happy. Their single, “It’s Strange” has been played all over the radio and racked up over 5 million plays on both Spotify and SoundCloud. In 2016, Snapchat listed Louis The Child as one of 3 EDM Artists to Watch, and Mix Mag ranked LTC as the #1 Artist Taking Dance Music to the Next Level. 2015 saw Louis The Child embark upon tours supporting Madeon, Kaskade and The Chainsmokers. Keep your eyes peeled for LTC in the future.'
                         ],
                         tweet: 'https://twitter.com/LouisTheChild',
                         fb: 'https://www.facebook.com/LouisTheChild/',
@@ -194,7 +196,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            'At the tender age of 23, Grammy nominated artist Vic Mensa has already established himself as an integral part of Chicago culture, first co-founding the SAVEMONEY collective and releasing two mixtapes in two years and now as a solo artist signed with the Roc Nation family. In 2016, Vic Mensa released his critically acclaimed EP “There’s Alot Going On”, which included the powerful song “16 Shots” about the tragic shooting of Chicago teen Laquan McDonald and “Shades of Blue” which is a reflection on the Flint, Michigan water crisis.'
                         ],
                         tweet: 'https://twitter.com/VicMensa',
                         fb: 'https://www.facebook.com/VicMensa1/',
@@ -212,7 +214,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            'St. Lucia, from Brooklyn via South Africa, is back with an infectious new single “Dancing On Glass” and a brand new album called “Matter”. The band celebrated the January 2016 release with a string of live dates. St. Lucia’s 2013 debut L.P. “When The Night” earned rave reviews everywhere from Entertainment Weekly (“an absolute smash”) to Elle (“we have an obsession for this group”) to Billboard (“essential listening”). The past two years have also seen the band touring with the likes of Ellie Goulding, Empire Of The Sun, Charli XCX, and Foster The People, in addition to festival stops at Coachella and Lollapalooza. And if you missed the live show, maybe you caught St. Lucia on Jimmy Kimmel Live! or Late Night With Seth Meyers.'
                         ],
                         tweet: 'https://twitter.com/stlucia',
                         fb: 'https://www.facebook.com/stlucia/',
@@ -230,7 +232,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            "“Act One”, the debut full-length from Marian Hill, was written and produced by songwriting duo Jeremy Lloyd (music/lyrics/production) and Samantha Gongol (music/lyrics/vocals). The multi-talented pair have been collaborating in one form or another since high school. Tempting paradox with a blend of blues and bass, acoustic and digital, classic and modern, Marian Hill have arrived. After early success online, Marian Hill graduated to sold out shows across the country and turns in some high-profile commercials. The first minute of album opener "Down" might suggest supper-club-in-the-1920s, but when the bass drops you couldn't be anywhere but now. “Act One” then takes you on a journey exploring the complexities of modern relationships. Marian Hill's one of a kind sound is present throughout—blues harmonies blend with sparse hip hop drums, horns blast under classic vocal melodies, and soloistic vocal chops sit side by side with clear, intimate lyrics. You've never heard this before, yet it's surprisingly familiar. And it's only the beginning."
                         ],
                         tweet: 'https://twitter.com/MarianHillMusic',
                         fb: 'https://www.facebook.com/MarianHillMusic',
@@ -248,7 +250,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            "The Shelters were a young band when Tom Petty heard them and got a gut feeling about what they could be. He gave The Shelters the keys to his home studio and showed them a few things. One listen to their single “Rebel Heart,” or any one of the other eleven songs on their debut, and you’ll know they pulled it off. Led by the twin-guitar sound of Chase Simpson and Josh Jove, The Shelters are locked-in by bassist Jacob Pillot and drummer Sebastian Harris. Their self-titled debut LP came out in June 2016 on Warner Bros. The band has put together a collection of recordings that have an immediacy, an emotion, and a musical intelligence that suggests these boys are gonna be bigtime. These guys are fresh off a run of shows with Band Of Horses and have toured recently with The Kooks, Atlas Genius, The Struts and more."
                         ],
                         tweet: 'https://twitter.com/theshelters',
                         fb: 'https://www.facebook.com/sheltersmusic',
@@ -266,7 +268,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            "XYLØ is a Southern California brother-sister indie pop duo featuring producer/drummer/songwriter Chase Duddy and vocalist/songwriter Paige Duddy. At the beginning of 2014, the siblings started working on their first song together, a hazy pop ballad about love and freedom titled “America”. That song was later licensed for a PacSun commercial starring Kendall and Kylie Jenner. Needless to say, they just about broke the internet. Mixing melodic, dark, lustful vocals with an atmospheric blend of indie rock, electronica, and dirty hip-hop beats, XYLØ has drawn early comparisons to the likes of Lorde and Lana Del Rey. XYLØ released their debut E.P., also titled “America”, in 2016. Paige says, “Each song is a mini chapter of our lives. They range from love and euphoria to heartache and anxiety (and everything in between)."
                         ],
                         tweet: 'https://twitter.com/wearexylo',
                         fb: 'https://www.facebook.com/wearexylo',
@@ -284,7 +286,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            "Phantoms is the work of Los Angeles natives Kyle Kaplan and Vinnie Pergola. Often tough to box in, their style recalls many elements of electronic and pop music while still wrangling the kinds of distinct synths and drum samples that have become synonymous with their brand of alternative electronic. With deep roots in music and entertainment backgrounds, Kyle & Vinnie put their entire beings into the project. Their music keeps everybody dancing with an impressive array of drum pads, synths and midi controllers. After releasing their first E.P. in 2015 the duo have been remixing some of their favorite songs of the year and touring with the likes of Com Truise, Beat Connection, Kiesza and more. After this burst of touring and studio work, Phantoms is prepping their first full-length record slated for release in early 2017 via Casablanca/Republic Records."
                         ],
                         tweet: 'https://twitter.com/phantoms',
                         fb: 'https://www.facebook.com/PHVNTOMS',
@@ -302,7 +304,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            "POWERS is an L.A.-based pop duo inspired by found sounds, ‘90s TV shows and other discarded mass culture ephemera. Crista Ru and Mike Del Rio take a collage-like approach to constructing crystalline pop. After building up their songwriting resumé—which includes Selena Gomez, Icona Pop and Kylie Minogue, among others—the duo decided to refocus on their own music and began creating under the name POWERS. As POWERS, they piece together chopped-up live instrumentation, synths, samples, and beats into a sound that’s intricately composed but graced with timeless pop simplicity. In creating songs for their forthcoming album, POWERS continue to embrace their oddball inclinations and exercises"
                         ],
                         tweet: 'https://twitter.com/givemepowers',
                         fb: 'https://www.facebook.com/givemepowers',
@@ -320,7 +322,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            "When Riley Knapp and Casey Barth fuse together their diverse layers of electronic, R&B music, the result is a veritable dreamscape of unpredictable sounds. Avant-garde by design, RKCB’s songs are also personal and aspirational. RKCB have premiered new tracks with Vice’s Noisey and enjoyed more than 30 million online streams across SoundCloud, Spotify and more. Not relegated to the internet alone, RKCB have toured with Gallant and sold out shows in their hometown of Los Angeles. The follow-up to debut E.P. “Short Films”, entitled “In Contrast” is up on SoundCloud now."
                         ],
                         tweet: 'https://twitter.com/rkcbmusic',
                         fb: 'https://www.facebook.com/rkcbmusic',
@@ -338,7 +340,7 @@
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
                         info: [
-                            'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
+                            "Hailing from North Bergen, New Jersey, this breakout female artist is a force to be reckoned with. Shake, a moniker inspired by her quickness on the basketball court, is an artist in the truest sense. The power of her music comes from her unapologetic honesty. Drawing from her life experiences, her raw emotional perspective is exemplified in her writing, her unique sound, and her creations with the 070 Crew. Shake had no formal voice training or writing background, and taught herself how to play the piano. From the first time she stepped foot in the recording booth, she hit the ground running and hasn’t looked back. In a culture where many millennials are more focused with building a brand over the substance of their message, 070 Shake strays from the pack. Her jams as sweet like honey, but don’t get stung by the bee."
                         ],
                         tweet: 'https://twitter.com/070shake',
                         fb: 'https://www.facebook.com/070shake',
