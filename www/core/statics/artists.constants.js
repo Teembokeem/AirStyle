@@ -298,8 +298,8 @@
                     },
                     'powers': {
                         name: 'POWERS',
-                        img_portrait: '../img/artists/portrait/POWERS_Portrait.jpg',
-                        img_landscape: '../img/artists/landscape/POWERS_Landscape.jpg',
+                        img_portrait: '../img/artists/portrait/Powers_Portrait.jpg',
+                        img_landscape: '../img/artists/landscape/Powers_Landscape.jpg',
                         ref: 'powers',
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
