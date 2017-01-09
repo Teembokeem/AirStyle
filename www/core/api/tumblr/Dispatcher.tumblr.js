@@ -8,7 +8,7 @@
     TumblrDispatcher.$inject = ['urlService', '$http', '$q'];
 
     function TumblrDispatcher(urlService, $http, $q) {
-        var api = urlService.api + '/tumblr',
+        var api = '/api/tumblr',
             // Default to allow admin as user without token
             options = {
             },
