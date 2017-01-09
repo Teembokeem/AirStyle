@@ -117,8 +117,8 @@
                     },
                     'tv-on-the-radio': {
                         name: 'TV On The Radio',
-                        img_portrait: '../img/artists/portrait/TVOnTheRadio_Portrait.jpg',
-                        img_landscape: '../img/artists/landscape/TVOnTheRadio_Landscape.jpg',
+                        img_portrait: '../img/artists/portrait/Tvontheradio_Portrait.jpg',
+                        img_landscape: '../img/artists/landscape/Tvontheradio_Landscape.jpg',
                         ref: 'tv-on-the-radio',
                         location: 'EXPO PARK',
                         time: 'FEB 18 + 19',
