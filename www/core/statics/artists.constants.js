@@ -682,7 +682,7 @@
                         return successHandler(artists[arg], false);
                         break;
                     default:
-                        console.log("dfs")
+                        // console.log("dfs")
                         return dfs(arg, artists);
                         break;
                     case null || undefined:
