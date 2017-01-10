@@ -48,10 +48,10 @@
             //     console.log('$stateChangeStart:');
             //     console.log(arguments);
             // });
-            // $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams, error) {
-            //     console.log('$stateChangeSuccess:');
-            //     console.log(arguments);
-            // });
+            $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams, error) {
+                ga('set', 'page', toParams ? console.log(toState.url.substring(0, toState.url.indexOf(':')) + toParams[Object.keys(toParams)[0]]) : '');
+                ga('send', 'pageview');
+            });
             // $rootScope.$on('$stateChangeError', function (event, toState, toParams, fromState, fromParams, error) {
             //     console.log('$stateChangeError:');
             //     console.log(arguments);
