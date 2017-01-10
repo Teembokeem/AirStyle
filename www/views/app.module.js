@@ -49,7 +49,13 @@
             //     console.log(arguments);
             // });
             $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams, error) {
-                ga('set', 'page', toParams ? toState.url.substring(0, toState.url.indexOf(':')) + toParams[Object.keys(toParams)[0]] : toState.url)
+                var page;
+                if (Object.keys(toParams).length > 0) {
+                    page = toState.url.substring(0, toState.url.indexOf(':')) + toParams[Object.keys(toParams)[0]]
+                } else {
+                    page = toState.url
+                }
+                ga('set', 'page', page)
                 ga('send', 'pageview');
             });
             // $rootScope.$on('$stateChangeError', function (event, toState, toParams, fromState, fromParams, error) {
