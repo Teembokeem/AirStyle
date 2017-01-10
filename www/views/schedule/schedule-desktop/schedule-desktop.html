@@ -8,7 +8,7 @@
                     </div>
                 </div>
             </div>
-            <div ng-repeat="day in cc.ScheduleContent" class="container">
+            <div ng-repeat="day in cc.ScheduleContent.schedule" class="container">
                 <div class="row">
                     <div class="col">
                         <span>{{day.date | uppercase}}</span>
@@ -36,6 +36,21 @@
     </div>
 </div>
 </div>
+<!--<div class="container">
+    <div class="row">
+        <div class="col">
+            <span>AFTERPARTY</span>
+        </div>
+    </div>
+    <div ng-repeat="artist in cc.ScheduleContent.afterparty.lineup" class="row">
+        <div class="col">
+            <span>{{artist.time_semantic}}</span>
+        </div>
+        <div class="col">
+            <span>{{artist.name}}</span>
+        </div>
+    </div>
+</div>-->
 </div>
 </div>
 </div>

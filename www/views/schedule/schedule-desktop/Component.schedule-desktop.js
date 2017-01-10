@@ -49,7 +49,7 @@
 
             cc.tour = Tours($stateParams.tour);
 
-            cc.ScheduleContent = cc.tour.schedule;
+            cc.ScheduleContent = cc.tour;
         };
     };
 })();

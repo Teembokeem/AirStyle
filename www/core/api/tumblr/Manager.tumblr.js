@@ -32,6 +32,7 @@ var _posts;
         };
 
         function transformResponse(response) {
+            console.log(response)
             Posts = response.posts;
 
             Posts.forEach(function (post) {

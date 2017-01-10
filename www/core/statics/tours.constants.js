@@ -178,6 +178,47 @@
                         }
 
                     ],
+                    afterparty: {
+                        date: 'Sat Feb 4',
+                        stage: 'Indoor Stage',
+                        lineup: [
+                            {
+                                name: 'Waz Wreckaz',
+                                ref: 'wax-wreckaz',
+                                time_mult: 34,
+                                time_dur: 4,
+                                time_semantic: '21:30'
+                            },  
+                            {
+                                name: 'Red Bull WRTC',
+                                ref: 'red-bull',
+                                time_mult: 38,
+                                time_dur: 6,
+                                time_semantic: '22:30'
+                            },  
+                            {
+                                name: 'Tomm\xA5 \u20aca$h',
+                                ref: 'tommy-cash',
+                                time_mult: 45,
+                                time_dur: 4,
+                                time_semantic: '00:15'
+                            },  
+                            {
+                                name: 'Pendulum DJ Set & Verse',
+                                ref: 'pendulum',
+                                time_mult: 50,
+                                time_dur: 4,
+                                time_semantic: '01:30'
+                            },  
+                            {
+                                name: 'Violett Shock',
+                                ref: 'violett-shock',
+                                time_mult: 55,
+                                time_dur: 9,
+                                time_semantic: '02:45'
+                            },  
+                        ]
+                    },
                     faq_general: [
                         {
                             question: 'Where is the Air + Style Festival Innsbruck-Tirol located?',
