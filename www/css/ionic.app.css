@@ -10594,6 +10594,7 @@ tumblr-feed > .container {
     justify-content: center;
     flex-flow: row wrap; }
     tumblr-feed > .container > .row:nth-child(2) > .col {
+      flex: 0;
       background-color: #141414;
       box-shadow: 0 2px 4px 0 #000000;
       position: relative;

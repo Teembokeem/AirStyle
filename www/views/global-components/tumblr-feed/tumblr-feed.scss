@@ -24,6 +24,7 @@ tumblr-feed {
             justify-content: center;
             flex-flow: row wrap;
             > .col {
+                flex: 0;
                 background-color: #141414;
                 box-shadow: 0 2px 4px 0 #000000;
                 position: relative;
