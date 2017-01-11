@@ -19,7 +19,7 @@ schedule-desktop {
                     }
                 }
 
-                > .container:nth-child(n + 2) {
+                > .container:nth-child(2), > .container:nth-child(3) {
 
                     > .row:first-child {
                         > .col:first-child {
@@ -131,46 +131,56 @@ schedule-desktop {
                         }
                     }
                 }
+
+                > .container:nth-child(n + 4) {
+                    > .row:first-child {
+                        display: flex;
+                        justify-content: center;
+                        > .col {
+                            display: flex;
+                            justify-content: center;
+
+                            span {
+                                font-size: 55px;
+                                border-bottom: 4px solid $as-yellow;
+                                padding-bottom: 1rem;
+                            }
+                        }
+                    }
+
+                    > .row:nth-child(n + 2) {
+                        display: flex;
+                        justify-content: center;
+                        max-width: 70%;
+                        margin: 0 auto;
+
+                        > .col {
+                            display: flex;
+                            margin-top: 1.5rem;
+                            justify-content: flex-end;
+                            margin-right: 1.5rem;
+                            
+                            span {
+                                font-size: 22px;
+                                font-family: 'Apercu';
+                            }
+                        }
+
+                        > .col:last-child {
+                            margin-right: 0;
+                            margin-left: 1.5rem;
+                            justify-content: flex-start;
+
+                            span {
+                                font-family: 'Reglo-Bold';
+                            }
+                        }
+                    }
+                }
             }
         }
     }
 }
-// @media (min-width: 800px) {
-//     schedule-desktop {
-//         > .container {
-//             > .row {
-//                 > .col {
-//                     > .container:nth-child(n + 2) {
-//                         > .row:first-child {
-//                             .col:first-child {
-//                                 padding-right: 0;
-//                             }
-//                             .col:nth-child(n + 2) {
-//                                 padding: 0 0;
-//                             }
-//                         }
-
-//                         > .row:nth-child(n + 2) {
-//                             > .col:nth-child(2) {
-//                                 .line-div {
-//                                     width: 64%;
-//                                 }
-//                             }
-
-//                             > .col:first-child {
-//                                 .time {
-//                                     padding-left: 95px;
-//                                     width: 170px;
-//                                     text-align: right;
-//                                 }
-//                             }
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
 
 
 @media (min-width: 1024px) {
