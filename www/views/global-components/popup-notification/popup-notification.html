@@ -1,0 +1,23 @@
+<div ng-if="!cc.action" ng-class="{'done': cc.action}" class="overlay">
+    <div class="container">
+        <div class="row title-container">
+            <div class="col">
+                <span>SAT/SUN LINEUP</span>
+            </div>
+        </div>
+        <img src="../img/popup011117.jpg" alt="">
+        <div class="row text-container">
+            <div class="col">
+                <span>Single Day Tickets On Sale Now</span>
+            </div>
+        </div>
+        <div class="row button-container">
+            <div class="col">
+                <button ng-click="cc.buyTicket()">Buy Now</button>
+            </div>
+            <div class="col">
+                <button ng-click="cc.closePopup()">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
