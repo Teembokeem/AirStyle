@@ -358,8 +358,8 @@
                         img_landscape: '../img/artists/landscape/Beginner_Landscape.jpg',
                         img_yellow: '../img/beginner-yellow.png',
                         ref: 'beginner',
-                        location: 'main stage',
-                        time: 'fri 3 9pm',
+                        location: 'kronehit main stage',
+                        time: 'sat 4 21:00',
                         info: [
                             'Beginner are back! No one in the industry shaped the German Hip-Hop scene more than DJMAD, Denyo und Eizi Eiz aka Guido, Denis und Jan Delay aka “Die Beginner!” After 13 long years(!) of silence they released their new album Advanced Chemistry, and what a crazy comeback!',
                             'The album went straight to the top of the German album charts and almost all of the tour stops were sold out after a few hours. That proves they still have the old school chemistry, but this time it’s advanced!'
@@ -377,8 +377,8 @@
                         img_portrait: '../img/artists/portrait/BiffyClyro_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/BiffyClyro_Landscape.jpg',
                         img_yellow: '../img/clyro-yellow.png',
-                        location: 'indoor',
-                        time: 'fri 3 8pm',
+                        location: 'Kronehit main stage',
+                        time: 'sat 4 18:30',
                         ref: 'clyro',
                         info: [
                             'United by a love of underground, experimental rock, and post-hardcore bands such as Braid and Karate, along with the starrier likes of Guns N’ Roses and Metallica, the Scottish band Biffy Clyro quickly honed their own unique sound, a mind boggling mix of off-kilter tempos, itchy, unpredictable guitars, soulful choruses and feral screams, sewn together into a strange tapestry of sound.'
@@ -396,8 +396,8 @@
                         ref: 'bilderbuch',
                         img_portrait: '../img/artists/portrait/Bilderbuch_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Bilderbuch_Landscape.jpg',
-                        location: 'indoor stage',
-                        time: 'fri 3 1:30pm',
+                        location: 'kronehit main stage',
+                        time: 'fri 3 20:45',
                         info: [
                             'On the surface the history of Bilderbuch reads like a classic success story with everything included, from the underrated school band to their ascent in 2013. Digging deeper, it soon becomes quite apparent that Bilderbuch is anything but a classic rock band. The sound is a combination of many genres and would definitely deserve his own name. But check them out yourself.'
                         ],
@@ -414,8 +414,8 @@
                         ref: 'the-naked-and-famous',
                         img_portrait: '../img/artists/portrait/TheNakedAndFamous_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/TheNakedAndFamous_Landscape.jpg',
-                        location: 'indoor stage',
-                        time: 'fri 3 6pm',
+                        location: 'Kronehit main stage',
+                        time: 'sat 4 17:15',
                         info: [
                             'In 2010, Auckland, New Zealand’s Thom Powers, Alisa Xayalith, Aaron Short, David Beadle, and Jesse Wood arrived at the forefront of the international indie pop scene with the sweltering The Naked and Famous debut, “Passive Me, Aggressive You”.',
                             'Riding on the feverish heights reached by singles like “Young Blood”, “Punching In A Dream” and “Girls Like You” the album thrust the band into the limelight and onto the airwaves. Let’s see if they can take us “Higher” at the Air + Style Festival in Innsbruck-Tirol this coming year!'
@@ -434,7 +434,7 @@
                         img_portrait: '../img/artists/portrait/FunfSterneDeluxe_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/FunfSterneDeluxe_Landscape.jpg',
                         location: 'indoor stage',
-                        time: 'fri 3 4:15pm',
+                        time: 'sat 4 17:45',
                         info: [
                             'The Band that wrote German Hip-Hop history with tracks like “Willst du mit mir geh’n,” “Dein Herz schägt schneller,” “Die Leude,” or “Ja,ja ... Deine Mudder!” is back on festival stages. In 2004 they decided to take a break to concentrate on solo projects like Tobi Tobsen and his electronic music team Moonbootica. Now they are back and after their first appearance in 2013 at the “Beats auf der Bahn” and the huge success, they want more!'
                         ],
@@ -451,8 +451,8 @@
                         ref: 'lucky-chops',
                         img_portrait: '../img/artists/portrait/LuckyChops_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/LuckyChops_Landscape.jpg',
-                        location: 'main stage',
-                        time: 'fri 3 6pm',
+                        location: 'indoor stage',
+                        time: 'sat 4 14:30',
                         info: [
                             'Redefining what it means to be a brass band, Lucky Chops stormed onto the scene in 2015 with the help of millions of viewers around the globe. Together this group of six talented individuals has created a unique sound and energy which has resonated worldwide with viral success, launching a career that is now headed toward untold heights. From the streets and subway stations of NYC to the Air + Style Festival stage!'
                         ],
@@ -469,8 +469,8 @@
                         ref: 'millencolin',
                         img_portrait: '../img/artists/portrait/Millencolin_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Millencolin_Landscape.jpg',
-                        location: 'main stage',
-                        time: 'fri 3 6pm',
+                        location: 'kronehit main stage',
+                        time: 'fri 3 18:45',
                         info: [
                             "Punk tunes and skateboard passion: that’s what Millencolin is all about! Inspired by the Southern California hardcore sounds of Operation Ivy, the Descendents, and NOFX, friends Nicola Sarcevic, Mathias Färm, Erik Ohlson and Frederik Larzon formed the Scandinavian skate punk unit roughly 23 years, seven albums, and 1,500 live shows ago. Not many people know it, but Millencolin are actually named after the skateboard trick, the “melancholy” grab (also known as “sad air”)."
                         ],
@@ -488,7 +488,7 @@
                         img_portrait: '../img/artists/portrait/TommyCash_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/TommyCash_Landscape.jpg',
                         location: 'indoor stage',
-                        time: 'fri 3 6pm',
+                        time: 'sat 4 00:15',
                         info: [
                             'The Baltic states are not the first countries that pop up in our minds when we think about good Hip-Hop… but that’s history! Let us introduce TOMM¥ €A$H! The rapper from the capital of Estonia grew up listing to Kanye West and other US Rappers, dreaming about becoming a first class rapper. Now he is, but he found his own, very controversial style.'
                         ],
@@ -505,8 +505,8 @@
                         ref: '257ers',
                         img_portrait: '../img/artists/portrait/257ers_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/257ers_Landscape.jpg',
-                        location: 'main stage',
-                        time: 'fri 3 2pm',
+                        location: 'indoor stage',
+                        time: 'sat 4 16:15',
                         info: [
                             '257ers are two rappers, Shneezin and Mike, and are named after the zip code of their hometown, Essen Kupferdreh (Germany). The duo came together in 1997 as a graffiti crew, and later on Mike and Shneezin started making music and releasing mixtapes and songs.',
                             'And this was only the beginning. Up until now the guys have played over 600 headline shows and festivals across Germany, Austria and Switzerland. Their last album Boomshakkalakka was number 1 in the German charts, and they have recently released a new album called Mikrokosmos.'
@@ -524,8 +524,8 @@
                         ref: 'ssio',
                         img_portrait: '../img/artists/portrait/SSIO_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/SSIO_Landscape.jpg',
-                        location: 'main stage',
-                        time: 'fri 3 2pm',
+                        location: 'Kronehit main stage',
+                        time: 'sat 4 15:00',
                         info: [
                             'Tall, big and hairy: that’s SSIO. These four letters stand for a combination of unique flow and intelligent street humor. He’s nothing like you have ever heard in German rap. No one else can let the worst obscenities sound charming. No one can rhyme in such a unique way as the Rocco Siffredi of german rap and no one looks as good in an old Mercedes as he does! Btw, he was also the man who brought back the fanny pack! Let’s see what he will do next!'
                         ],
@@ -542,8 +542,8 @@
                         ref: 'the-hunna',
                         img_portrait: '../img/artists/portrait/TheHunna_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/TheHunna_Landscape.jpg',
-                        location: 'main stage',
-                        time: 'fri 3 2pm',
+                        location: 'kronehit main stage',
+                        time: 'fri 3 17:00',
                         info: [
                             'Fresh out of the blocks, Hertfordshire four-piece The Hunna are set to become indie rock’s brightest lights. Their debut single “Bonfire” is a frantically-paced, guitar-driven anthem and a dramatic statement of intent from a band with wide-eyed, bottomless potential and the ambition to go all the way.'
                         ],
@@ -560,8 +560,8 @@
                         ref: 'wax-wreckaz',
                         img_portrait: '../img/artists/portrait/WaxWreckaz_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/WaxWreckaz_Landscape.jpg',
-                        location: 'main stage',
-                        time: 'fri 3 2pm',
+                        location: 'indoor stage',
+                        time: 'sat 4 21:30',
                         info: [
                             "Wax Wreckaz are a DJ/production outfit hailing directly from Innsbruck. The crew consists ofBusy Fingaz, Juwee, Fu and Sensay. The four music lovers grew up with very different social backgrounds and interests, but nevertheless found their own style. Their skillful, handcrafted DJ-sets on four turntables and two mixers are packed with gimmicks, live-remixes and unique versions of songs that you won’t hear anywhere else. They’ve already turned dancefloors upside down from Munich to Managua and now we’re happy to host them on their home turf."
                         ],
@@ -578,8 +578,8 @@
                         ref: 'counterfeit',
                         img_portrait: '../img/artists/portrait/Counterfeit_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Counterfeit_Landscape.jpg',
-                        location: 'main stage',
-                        time: 'fri 3 2pm',
+                        location: 'indoor stage',
+                        time: 'sat 3 13:15',
                         info: [
                             "The U.K. punk band Counterfeit exploded onto the London scene in 2015 with their feral debut 'Come Get Some'. They pursue a darker, more aggressive, and cathartic sound than you have  ever heard before. You may know the frontman Jamie Campbell Bower from somewhere else  though. That’s right, he started his career acting in several known movies like Sweeny Todd, the  Twilight series, and Harry Potter. But we have to say he cuts a fine figure on the stage as well!"
                         ],
@@ -591,13 +591,13 @@
                         spotify: 'https://open.spotify.com/artist/6HxNJuxe4WHa1XQMLryIjG',
                         video: 'https://www.youtube.com/embed/VA1kx-cIDBE'
                     },
-                    'famous-deck-team': {
-                        name: 'Famous Deck Team',
-                        ref: 'famous-deck-team',
+                    'famouse-deck-team': {
+                        name: 'Famouse Deck Team',
+                        ref: 'famouse-deck-team',
                         img_portrait: '../img/artists/portrait/FamousDeckTeam_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/FamousDeckTeam_Landscape.jpg',
-                        location: 'main stage',
-                        time: 'fri 3 2pm',
+                        location: 'tba',
+                        time: 'tba',
                         info: [
                             "Listen up... One for the famous, two for the deck! Not only for VIPs or skateboard-heads—everybody gets hollered at. Famous Deck Team (aka DJ Smart and DJ Crypt) fills the dance floor and makes everybody move with a combination of Funk, Soul, legendary 80s tracks with old school Hip Hop, and electric beats. “Make Em Say Aaa!” is their slogan and they’ll make the crowd go nuts every single time."
                         ],
@@ -614,8 +614,8 @@
                         ref: 'pendulum',
                         img_portrait: '../img/artists/portrait/Pendulum_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Pendulum_Landscape.jpg',
-                        location: 'main stage',
-                        time: 'fri 3 2pm',
+                        location: 'indoor stage',
+                        time: 'sat 4 01:30',
                         info: [
                             "Hailing from Perth, Australia, Pendulum holds formative roots ranging from drum and bass,break beat, even hardcore metal and punk. Their comparative talents proved unstoppable, and they single-handedly conquered the world of drum and bass. DJ El Hornet & MC Verse spread the word of Pendulum with their DJ Sets throughout the world, appearing at a myriad of international clubs and festivals worldwide."
                         ],
@@ -632,8 +632,8 @@
                         ref: 'red-bull',
                         img_portrait: '../img/artists/portrait/Red-Bull-WHO-ROCKZ-THE-CROWD_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Red-Bull-WHO-ROCKZ-THE-CROWD_Landscape.jpg',
-                        location: 'main stage',
-                        time: 'fri 3 2pm',
+                        location: 'indoor stage',
+                        time: 'sat 4 22:30',
                         info: [
                             "The athletes are not the only ones who will compete at the Air + Style Festival Innsbruck-Tirol2017! Red Bull brings two of the best German sound systems on one stage: TAIT EITA Soundsytem and AFROB Soundsytem. The challenge: WHO ROCKZ THE CROWD more? So bring it on and let the DJ games begin!"
                         ],
@@ -650,8 +650,8 @@
                         ref: 'violett-shock',
                         img_portrait: '../img/artists/portrait/ViolettShock_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/ViolettShock_Landscape.jpg',
-                        location: 'main stage',
-                        time: 'fri 3 2pm',
+                        location: 'indoor stage',
+                        time: 'sat 4 02:45',
                         info: [
                             "Rebecca Gruber aka Violett Shock is the youngest DJane in Austria. She had her first gig at theage of 14 and has been unstoppable ever since. Her mix of old and new tracks is always guaranteed to get the crowd shaking all night long—whether at her residence at the Studio 21 or any other club! Get ready to pull an all nighter because you won’t want to stop when Violett Shock is on the turntables."
                         ],
