@@ -11066,7 +11066,7 @@ header-notification {
       header-notification > .container > .row > .col {
         display: flex;
         justify-content: center; }
-        header-notification > .container > .row > .col span {
+        header-notification > .container > .row > .col a {
           font-size: 20px;
           font-family: 'Apercu'; }
         header-notification > .container > .row > .col i {
@@ -11077,6 +11077,29 @@ header-notification {
     opacity: 0;
     transform: translateY(-50px);
     transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
+
+preloader {
+  z-index: 99; }
+  preloader .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    z-index: 99;
+    position: fixed;
+    opacity: 1;
+    transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1); }
+    preloader .container .row {
+      display: flex;
+      justify-content: center; }
+      preloader .container .row .col {
+        display: flex;
+        justify-content: center; }
+  preloader .container.time {
+    opacity: 0; }
+    preloader .container.time .row .col {
+      position: relative; }
 
 home-carousel {
   position: relative; }
