@@ -9,7 +9,8 @@
         var ac = this;
 
         ac.contentTitle = $state.current.contentTitle;
-        ac.poop = 'poop bindings'
+        ac.poop = 'poop bindings';
+        ac.show = false;
 
         $rootScope.$on('$stateChangeStart', function (evt, toState, toParams, fromState, fromParams, $state) {
             // $rootScope.contentTitle = ;
@@ -34,6 +35,10 @@
             $rootScope.$on('$stateChangeError', function (event, toState, toParams, fromState, fromParams, error) {
                 event.preventDefault();
             });
+
+            $rootScope.$on('hideYas', function () {
+                console.log('pls')
+            })
         });
 
         var t = $ionicScrollDelegate.$getByHandle('mainScroll');
