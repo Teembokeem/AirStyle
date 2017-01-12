@@ -10,13 +10,19 @@
             controllerAs: 'cc'
         })
 
-    HeaderNotificationCtrl.$inject = [];
+    HeaderNotificationCtrl.$inject = ['$state'];
 
-    function HeaderNotificationCtrl() {
+    function HeaderNotificationCtrl($state) {
         var cc = this;
 
         cc.hovered = false;
         cc.close = false;
+        cc.linkTo = linkTo;
+
+
+        function linkTo() {
+            $state.go(app.schedule, { tour: 'la' });
+        }
 
         cc.toastOpen = function () {
             // if (cc.hovered == false) {
