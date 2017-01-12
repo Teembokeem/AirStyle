@@ -315,7 +315,7 @@
             },]
 
             cc.rider = Riders($stateParams.avatar);
-            cc.rider.video = $sce.trustAsResourceUrl(cc.rider.video);
+            cc.rider.video ? cc.rider.video = $sce.trustAsResourceUrl(cc.rider.video) : '';
         };
 
     }

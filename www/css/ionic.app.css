@@ -11104,7 +11104,7 @@ preloader {
 popup-notification {
   transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   display: initial;
-  opacity: 1;
+  opacity: 0;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.95);
@@ -11120,6 +11120,8 @@ popup-notification {
     justify-content: center;
     align-items: center; }
     popup-notification > .overlay > .container {
+      opacity: 0;
+      transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       min-width: 300px;
       max-width: 30%;
       border-radius: 0.5rem;
@@ -11166,6 +11168,13 @@ popup-notification.remove {
   opacity: 0;
   display: none;
   transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+
+popup-notification.ready {
+  opacity: 1;
+  transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  popup-notification.ready > .overlay > .container {
+    opacity: 1;
+    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
 
 home-carousel {
   position: relative; }
@@ -13955,6 +13964,16 @@ rankings-athlete > .container {
       rankings-athlete > .container > .row > .col:first-child img {
         width: 100%;
         height: 100%; }
+    rankings-athlete > .container > .row > .col:first-child.overlay {
+      background-color: #f9fe17 !important;
+      background-blend-mode: darken;
+      transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+      overflow: hidden; }
+      rankings-athlete > .container > .row > .col:first-child.overlay img {
+        transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+        opacity: 0.6;
+        width: 102%;
+        height: 102%; }
     rankings-athlete > .container > .row > .col:nth-child(2) {
       background-color: #131313;
       height: 121px;

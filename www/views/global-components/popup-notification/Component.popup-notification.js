@@ -15,8 +15,11 @@
     function popupNotificationCtrl($scope, $window, Tours, $stateParams, $animate, $element) {
         var cc = this;
         cc.action = false;
+        cc.ready = true;
         cc.closePopup = closePopup;
         cc.buyTicket = buyTicket;
+        cc.imageReady = imageReady;
+
 
         function buyTicket() {
             $window.open('https://airandstyle.frontgatetickets.com/');
@@ -26,8 +29,12 @@
             cc.action = !cc.action;
             $element.addClass('remove');
         }
-        cc.$onInit = function () {
 
+        function imageReady() {
+            $element.addClass('ready');
+        }
+
+        cc.$onInit = function () {
         }
     }
 })();

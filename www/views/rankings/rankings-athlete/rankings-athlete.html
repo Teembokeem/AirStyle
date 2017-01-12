@@ -1,6 +1,7 @@
 <div class="container">
     <div class="row nopad">
-        <div class="col">
+        <div class="col" ng-class="{'overlay': cc.overlay}" ng-click="cc.stateChange(cc.athlete.ref)" ng-mouseenter="cc.overlay = true"
+            ng-mouseleave="cc.overlay = false">
             <img ng-src="{{cc.athlete.img_portrait}}" alt="">
         </div>
         <div class="col">

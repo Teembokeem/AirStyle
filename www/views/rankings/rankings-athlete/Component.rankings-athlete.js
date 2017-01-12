@@ -1,4 +1,4 @@
-(function() {
+(function () {
     'use strict';
     angular.module('Rankings.view.module')
         .component('rankingsAthlete', {
@@ -12,12 +12,19 @@
             controllerAs: 'cc'
         })
 
-    rankingsAthleteCtrl.$inject = ['$log'];
+    rankingsAthleteCtrl.$inject = ['$state'];
 
-    function rankingsAthleteCtrl($log) {
+    function rankingsAthleteCtrl($state) {
         var cc = this;
+        cc.stateChange = stateChange;
+        cc.overlay = false;
 
-        cc.$onInit = function() {
+        function stateChange(ref) {
+            console.log(ref)
+            $state.go('app.rider.details', { avatar: ref })
+        }
+
+        cc.$onInit = function () {
 
         }
     }
