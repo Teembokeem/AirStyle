@@ -1,7 +1,8 @@
 <div ng-if="!cc.hide" ng-class="{'time': cc.setTime }" class="container">
     <div class="row">
         <div class="col">
-            <video width="{{cc.width}}" autoplay src="../img/graphics_footer.mp4"></video>
+            <img ng-if="!cc.setTime" src="../img/preloader.gif" alt="">
+            <img ng-if="cc.setTIme" src="../img/footer_logo.png" alt="">
         </div>
     </div>
 </div>
