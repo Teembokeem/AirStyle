@@ -2,8 +2,8 @@
 	<div class="row footer">
 		<div class="container">
 			<div class="row">
-				<a class="about" ui-sref="app.about">About</a>
-				<a class="contact" ui-sref="app.contact">Contact</a>
+				<a class="about" ng-click="cc.go('app.about')">About</a>
+				<a class="contact" ng-click="cc.go('app.contact')">Contact</a>
 			</div>
 			<div class="row">
 				<a class="facebook" ng-class="{'hover': cc.hovered == 'fb'}" href="https://www.facebook.com/airandstyle">
