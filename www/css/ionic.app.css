@@ -11098,6 +11098,7 @@ preloader {
         justify-content: center; }
         preloader .container .row .col img {
           width: 100%;
+          max-width: 1000px;
           height: 100%; }
   preloader .container.time {
     opacity: 0; }
