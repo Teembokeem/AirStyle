@@ -59,7 +59,7 @@
                             }
                         }
                     }
-                    >.container:nth-child(n + 2) {
+                    >.container:nth-child(2) {
                         >.row:first-child {
                             >.col:first-child {
                                 display: flex;
@@ -140,6 +140,52 @@
                                     letter-spacing: 0.1rem;
                                     font-family: 'Apercu';
                                     font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+
+                    > .container:nth-child(3) {
+                        > .row:first-child {
+                            display: flex;
+                            justify-content: center;
+                            > .col {
+                                display: flex;
+                                justify-content: center;
+
+                                span {
+                                    font-size: 55px;
+                                    border-bottom: 4px solid $as-yellow;
+                                    padding-bottom: 1rem;
+                                }
+                            }
+                        }
+
+                        > .row:nth-child(n + 2) {
+                            display: flex;
+                            justify-content: center;
+                            max-width: 100%;
+                            margin: 0 auto;
+
+                            > .col {
+                                display: flex;
+                                margin-top: 1.5rem;
+                                justify-content: flex-end;
+                                margin-right: 1.5rem;
+                                
+                                span {
+                                    font-size: 22px;
+                                    font-family: 'Apercu';
+                                }
+                            }
+
+                            > .col:last-child {
+                                margin-right: 0;
+                                margin-left: 1.5rem;
+                                justify-content: flex-start;
+
+                                span {
+                                    font-family: 'Reglo-Bold';
                                 }
                             }
                         }

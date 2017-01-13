@@ -8,13 +8,13 @@
                     </div>
                 </div>
                 <div class="row date-row">
-                    <div class="col" ng-repeat="day in cc.ScheduleContent" ng-click="cc.activeDay = day">
+                    <div class="col" ng-repeat="day in cc.ScheduleContent" ng-click="cc.activeDay = day; cc.currentStage = cc.activeDay.stages[0]">
                         <span ng-class="{highlight: day == cc.activeDay}">{{day.date | uppercase}}</span>
                     </div>
                 </div>
                 <div class="row select-row">
                     <div class="col">
-                        <select ng-model="cc.currentStage" ng-selected="cc.currentStage = cc.activeDay.stages[0]" ng-options="stage as stage.name for stage in cc.activeDay.stages">
+                        <select ng-model="cc.currentStage" ng-options="stage as stage.name for stage in cc.activeDay.stages">
                             </select>
                         <i class="icon ion-chevron-down"></i>
                     </div>
@@ -44,6 +44,21 @@
                                 <span>{{artist.name | uppercase}}</span>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div ng-if="cc.activeDay.date == 'Sat Feb 4'" class="container">
+                <div class="row">
+                    <div class="col">
+                        <span>AFTERPARTY</span>
+                    </div>
+                </div>
+                <div ng-repeat="artist in cc.tour.afterparty.lineup" class="row">
+                    <div class="col">
+                        <span>{{artist.time_semantic}}</span>
+                    </div>
+                    <div class="col">
+                        <span>{{artist.name | uppercase}}</span>
                     </div>
                 </div>
             </div>

@@ -13301,56 +13301,56 @@ schedule-mobile > .container {
         position: absolute;
         margin-top: -2.3em;
         right: 2.8rem; }
-  schedule-mobile > .container > .row > .col > .container:nth-child(n + 2) > .row:first-child > .col:first-child {
+  schedule-mobile > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:first-child {
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 24%;
     font-size: 30px; }
-    schedule-mobile > .container > .row > .col > .container:nth-child(n + 2) > .row:first-child > .col:first-child span {
+    schedule-mobile > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:first-child span {
       font-size: 18px;
       color: #ffffff;
       font-family: 'Apercu';
       font-weight: bold;
       text-align: center; }
-  schedule-mobile > .container > .row > .col > .container:nth-child(n + 2) > .row:first-child .col:nth-child(2) span {
+  schedule-mobile > .container > .row > .col > .container:nth-child(2) > .row:first-child .col:nth-child(2) span {
     font-size: 18px;
     color: #828282;
     font-family: 'Apercu';
     font-weight: bold;
     letter-spacing: 0.2rem;
     text-align: center; }
-  schedule-mobile > .container > .row > .col > .container:nth-child(n + 2) > .row:first-child .col:nth-child(3) {
+  schedule-mobile > .container > .row > .col > .container:nth-child(2) > .row:first-child .col:nth-child(3) {
     min-width: 24%; }
-    schedule-mobile > .container > .row > .col > .container:nth-child(n + 2) > .row:first-child .col:nth-child(3) .line-div {
+    schedule-mobile > .container > .row > .col > .container:nth-child(2) > .row:first-child .col:nth-child(3) .line-div {
       height: 50%;
       width: 88%;
       background-image: linear-gradient(to right, #5a5a5a 25%, rgba(255, 255, 255, 0) 0%);
       background-position: bottom;
       background-size: 12px 2px;
       background-repeat: repeat-x; }
-  schedule-mobile > .container > .row > .col > .container:nth-child(n + 2) > .row:first-child > .col:nth-child(n + 2) {
+  schedule-mobile > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) {
     justify-content: center;
     position: relative;
     display: flex; }
-    schedule-mobile > .container > .row > .col > .container:nth-child(n + 2) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col {
+    schedule-mobile > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col {
       text-align: center; }
-      schedule-mobile > .container > .row > .col > .container:nth-child(n + 2) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col span {
+      schedule-mobile > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col span {
         font-size: 30px; }
-  schedule-mobile > .container > .row > .col > .container:nth-child(n + 2) > .row:nth-child(n + 2) {
+  schedule-mobile > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) {
     margin-bottom: 1.9rem;
     text-align: center;
     align-items: center; }
-    schedule-mobile > .container > .row > .col > .container:nth-child(n + 2) > .row:nth-child(n + 2) > .col:first-child {
+    schedule-mobile > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) > .col:first-child {
       justify-content: flex-end;
       align-items: center; }
-      schedule-mobile > .container > .row > .col > .container:nth-child(n + 2) > .row:nth-child(n + 2) > .col:first-child span {
+      schedule-mobile > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) > .col:first-child span {
         font-size: 18px;
         color: #828282;
         font-family: 'Apercu';
         font-weight: bold;
         letter-spacing: 0.2rem; }
-    schedule-mobile > .container > .row > .col > .container:nth-child(n + 2) > .row:nth-child(n + 2) .yellow-box {
+    schedule-mobile > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) .yellow-box {
       height: 100%;
       text-align: center;
       background-color: #f9fe17;
@@ -13358,13 +13358,42 @@ schedule-mobile > .container {
       align-items: center;
       justify-content: center;
       padding: 20px 0; }
-      schedule-mobile > .container > .row > .col > .container:nth-child(n + 2) > .row:nth-child(n + 2) .yellow-box span:first-child {
+      schedule-mobile > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) .yellow-box span:first-child {
         padding: 0.5rem;
         color: black;
         font-size: 22px;
         letter-spacing: 0.1rem;
         font-family: 'Apercu';
         font-weight: bold; }
+  schedule-mobile > .container > .row > .col > .container:nth-child(3) > .row:first-child {
+    display: flex;
+    justify-content: center; }
+    schedule-mobile > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col {
+      display: flex;
+      justify-content: center; }
+      schedule-mobile > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col span {
+        font-size: 55px;
+        border-bottom: 4px solid #f9fe17;
+        padding-bottom: 1rem; }
+  schedule-mobile > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto; }
+    schedule-mobile > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col {
+      display: flex;
+      margin-top: 1.5rem;
+      justify-content: flex-end;
+      margin-right: 1.5rem; }
+      schedule-mobile > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col span {
+        font-size: 22px;
+        font-family: 'Apercu'; }
+    schedule-mobile > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col:last-child {
+      margin-right: 0;
+      margin-left: 1.5rem;
+      justify-content: flex-start; }
+      schedule-mobile > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col:last-child span {
+        font-family: 'Reglo-Bold'; }
 
 @media (min-width: 1024px) {
   schedule-mobile > .container > .row > .col > .container:first-child .title-row .col span {
