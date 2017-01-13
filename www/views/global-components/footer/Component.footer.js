@@ -10,12 +10,19 @@
             controllerAs: 'cc'
         })
 
-    FooterCtrl.$inject = ['$log'];
+    FooterCtrl.$inject = ['$log', '$state', '$rootScope'];
 
-    function FooterCtrl($log) {
+    function FooterCtrl($log, $state, $rootScope) {
         var cc = this;
+        cc.go = go;
+
+        function go(val) {
+            $state.go(val);
+            $rootScope.$broadcast('noNav', false);
+        };
 
         cc.$onInit = function () {
+
         }
     }
 })();
