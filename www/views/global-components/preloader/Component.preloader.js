@@ -24,7 +24,7 @@
                 setTimeout(function () {
                     cc.hide = true;
                 }, 100);
-            }, 3000);
+            }, 2600);
         }
     }
 })();
