@@ -188,35 +188,35 @@
                                 time_mult: 34,
                                 time_dur: 4,
                                 time_semantic: '21:30'
-                            },  
+                            },
                             {
                                 name: 'Red Bull WRTC',
                                 ref: 'red-bull',
                                 time_mult: 38,
                                 time_dur: 6,
                                 time_semantic: '22:30'
-                            },  
+                            },
                             {
                                 name: 'Tomm\xA5 \u20aca$h',
                                 ref: 'tommy-cash',
                                 time_mult: 45,
                                 time_dur: 4,
                                 time_semantic: '00:15'
-                            },  
+                            },
                             {
                                 name: 'Pendulum DJ Set & Verse',
                                 ref: 'pendulum',
                                 time_mult: 50,
                                 time_dur: 4,
                                 time_semantic: '01:30'
-                            },  
+                            },
                             {
                                 name: 'Violett Shock',
                                 ref: 'violett-shock',
                                 time_mult: 55,
                                 time_dur: 9,
                                 time_semantic: '02:45'
-                            },  
+                            },
                         ]
                     },
                     faq_general: [
@@ -639,9 +639,14 @@
                             link: 'http://www.coors.com'
                         },
                         {
-                            img: 'img/foro_logo-2.png',
+                            img: 'img/Hansens-Logo-new-2016.png',
                             // dim: 120,
-                            link: 'http://www.theforo.com'
+                            link: 'https://www.hansens.com/'
+                        },
+                        {
+                            img: 'img/CLIF.png',
+                            // dim: 100,
+                            link: 'http://www.clifbar.com'
                         },
                         {
                             img: 'img/Stoli.png',
@@ -649,9 +654,14 @@
                             link: 'http://stoli.com/'
                         },
                         {
-                            img: 'img/CLIF.png',
-                            // dim: 100,
-                            link: 'http://www.clifbar.com'
+                            img: 'img/foro_logo-2.png',
+                            // dim: 120,
+                            link: 'http://www.theforo.com'
+                        },
+                        {
+                            img: 'img/healthade.png',
+                            // dim: 120,
+                            link: 'http://health-ade.com/'
                         },
                         {
                             img: 'img/FLOOD_MAGAZINE_PRESENTS.png',
@@ -673,11 +683,6 @@
                             // dim: 120,
                             link: 'http://www.vibe.com/'
                         },
-                        {
-                            img: 'img/Hansens-Logo-new-2016.png',
-                            // dim: 120,
-                            link: 'https://www.hansens.com/'
-                        }
                     ]
                 }
             },
