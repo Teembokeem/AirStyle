@@ -44,7 +44,7 @@ var _posts;
         };
 
         function cleanDate(post) {
-            post.date = Date.parse(new Date(post.date));
+            post.date = new Date(post.date);
             return post;
         };
 

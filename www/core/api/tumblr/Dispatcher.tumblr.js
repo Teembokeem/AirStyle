@@ -9,6 +9,7 @@
 
     function TumblrDispatcher(urlService, $http, $q) {
         var api = '/api/tumblr',
+            // var api = 'http://localhost:3000/api/tumblr',
             // Default to allow admin as user without token
             options = {
             },
