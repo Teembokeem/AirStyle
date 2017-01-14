@@ -19,7 +19,7 @@
                 </div>
                 <div class="row ">
                     <div class="col ">
-                        <span>{{tweet.date | date:'longDate' | uppercase}}</span>
+                        <span>{{tweet.date |  amUtc | amDateFormat:'MMM DD YYYY' | uppercase}}</span>
                     </div>
                 </div>
             </div>

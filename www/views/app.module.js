@@ -8,6 +8,7 @@
             'ionic',
             'Services',
             'Statics',
+            'angularMoment',
             'Mailchimp.module',
             'Tumblr.module',
             'Api.base.module',

@@ -44,8 +44,8 @@ var _posts;
         };
 
         function cleanDate(post) {
-            post.date = Date.parse(post.date);
-            // console.log(post.date)
+            post.date = post.date.substring(0, post.date.indexOf(' '));
+            console.log(post.date)
             return post;
         };
 
