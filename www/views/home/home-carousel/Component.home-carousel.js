@@ -42,6 +42,7 @@
             if (button.outbound) {
                 window.open(button.dest);
             } else {
+                if (button.dest == 'app.tour-stops') return $state.go(button.dest, { tour: button.tour })
                 $state.go(button.dest)
             }
 

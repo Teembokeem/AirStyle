@@ -13,8 +13,9 @@
                         buttons: [
                             {
                                 label: 'Learn More',
-                                outbound: true,
-                                dest: 'http://airandstyle.com'
+                                outbound: false,
+                                tour: 'la',
+                                dest: 'app.tour-stops'
                             },
                             {
                                 label: 'Buy Now',
@@ -59,8 +60,9 @@
                         buttons: [
                             {
                                 label: 'Learn More',
-                                outbound: true,
-                                dest: 'http://airandstyle.com'
+                                outbound: false,
+                                tour: 'innsbruck',
+                                dest: 'app.tour-stops'
                             },
                             {
                                 label: 'Buy Now',
