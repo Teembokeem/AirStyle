@@ -26,7 +26,7 @@
         <dropdown-menu ng-if="cc.menus.tickets" class="slideInDown" ng-mouseleave="cc.menus.tickets = false" menu="tickets"></dropdown-menu>
     </div>
     <div class="col anchor-pad">
-        <a ng-click="cc.go('merch')">MERCH
+        <a ng-mouseenter="cc.mouse = true" ng-mouseleave="cc.mouse = false" ng-class="{'hover': cc.mouse}" ng-click="cc.go('merch')">MERCH
         </a>
     </div>
 </div>
