@@ -9,9 +9,10 @@ ranking-summary {
         margin: 0 auto;
         z-index: -1;
         position: absolute;
+        background-repeat: no-repeat;
     }
     > .container {
-        margin-bottom: 4.75rem;
+        // margin-bottom: 4.75rem;
         .section-title {
             width: 330px;
             height: 60px;
@@ -21,8 +22,9 @@ ranking-summary {
             span {
                 position: relative;
                 top: 10px;
-                font-size: 30px;
+                font-size: 40px;
                 border-bottom: 8px solid $as-blue;
+                padding-bottom: 1rem;
             }
         }
 
@@ -138,7 +140,7 @@ ranking-summary {
 @media (min-width: 1024px) {
     ranking-summary {
         > .container {
-            height: 88rem;
+            height: 65rem;
             margin-top: 5rem;
             .section-title {
                 position: absolute;
@@ -224,7 +226,7 @@ ranking-summary {
 @media(min-width: 1440px) {
     ranking-summary {
         > .container {
-            height: 73rem;
+            // height: 73rem;
            .more {
                 left: 475.2px;
                  bottom: 446.4px;
