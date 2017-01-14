@@ -5,7 +5,7 @@
         </div>
     </div>
     <div class="row">
-        <div ng-repeat="tweet in cc.tumblrFeedContent" ng-click="cc.go(tweet[ 'short_url'])" class="col ">
+        <div ng-repeat="tweet in cc.tumblrFeedContent|limitTo:4" ng-click="cc.go(tweet[ 'short_url'])" class="col ">
             <div class="container ">
                 <div class="row ">
                     <div class="col ">
