@@ -244,6 +244,7 @@ nav {
             >.row {
                 justify-content: flex-end;
                 .anchor-pad {
+                    position: relative;
                     dropdown-menu {
                         position: absolute;
                         top: 1.9em;
@@ -426,7 +427,8 @@ nav {
                     justify-content: flex-end;
                     .anchor-pad {
                         dropdown-menu {
-                            top: 2.1rem;
+                            top: -0.2rem;
+                            left: 1.1rem;
                         }
                     }
                 }
@@ -489,7 +491,7 @@ nav {
                 >.row {
                     .anchor-pad {
                         dropdown-menu {
-                            top: 45px;
+                            // top: 45px;
                         }
                     }
                 }
