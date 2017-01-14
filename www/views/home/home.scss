@@ -1,1 +1,23 @@
+.home-view {
+    ion-content {
+        .scroll {
+            > .container {
+                margin-bottom: 2rem;
+               > .row {
+                   display: flex;
+                   justify-content: center;
 
+                   > .col {
+                       display: flex;
+                       justify-content: center;
+                       span {
+                           font-size: 40px;
+                           border-bottom: 5px solid $as-blue;
+                           padding-bottom: 1rem;
+                       }
+                   }
+                }
+            }
+        }
+    }
+}
