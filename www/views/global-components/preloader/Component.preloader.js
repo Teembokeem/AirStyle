@@ -17,6 +17,7 @@
 
         cc.$onInit = function () {
             cc.width = 0.80 * $window.innerWidth;
+            $scope.$emit('hide', false);
             setTimeout(function () {
                 cc.setTime = true;
                 console.log("yes", cc.setTime);
