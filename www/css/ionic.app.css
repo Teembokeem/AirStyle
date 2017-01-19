@@ -12567,7 +12567,8 @@ tour-music > .container .row:nth-child(2) {
         height: 100%; } }
 
 tour-faq > .container .title-row {
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  margin-top: 4rem; }
   tour-faq > .container .title-row .title {
     display: flex;
     justify-content: center;
