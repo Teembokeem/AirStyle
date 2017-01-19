@@ -488,7 +488,7 @@
                         img_portrait: '../img/artists/portrait/TommyCash_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/TommyCash_Landscape.jpg',
                         location: 'indoor stage',
-                        time: 'sat 4 00:15',
+                        time: 'SUN 00:15',
                         info: [
                             'The Baltic states are not the first countries that pop up in our minds when we think about good Hip-Hop… but that’s history! Let us introduce TOMM¥ €A$H! The rapper from the capital of Estonia grew up listing to Kanye West and other US Rappers, dreaming about becoming a first class rapper. Now he is, but he found his own, very controversial style.'
                         ],
@@ -561,7 +561,7 @@
                         img_portrait: '../img/artists/portrait/WaxWreckaz_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/WaxWreckaz_Landscape.jpg',
                         location: 'indoor stage',
-                        time: 'sat 4 21:30',
+                        time: 'SUN 21:30',
                         info: [
                             "Wax Wreckaz are a DJ/production outfit hailing directly from Innsbruck. The crew consists ofBusy Fingaz, Juwee, Fu and Sensay. The four music lovers grew up with very different social backgrounds and interests, but nevertheless found their own style. Their skillful, handcrafted DJ-sets on four turntables and two mixers are packed with gimmicks, live-remixes and unique versions of songs that you won’t hear anywhere else. They’ve already turned dancefloors upside down from Munich to Managua and now we’re happy to host them on their home turf."
                         ],
@@ -615,7 +615,7 @@
                         img_portrait: '../img/artists/portrait/Pendulum_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Pendulum_Landscape.jpg',
                         location: 'indoor stage',
-                        time: 'sat 4 01:30',
+                        time: 'SUN 01:30',
                         info: [
                             "Hailing from Perth, Australia, Pendulum holds formative roots ranging from drum and bass,break beat, even hardcore metal and punk. Their comparative talents proved unstoppable, and they single-handedly conquered the world of drum and bass. DJ El Hornet & MC Verse spread the word of Pendulum with their DJ Sets throughout the world, appearing at a myriad of international clubs and festivals worldwide."
                         ],
@@ -633,7 +633,7 @@
                         img_portrait: '../img/artists/portrait/Red-Bull-WHO-ROCKZ-THE-CROWD_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/Red-Bull-WHO-ROCKZ-THE-CROWD_Landscape.jpg',
                         location: 'indoor stage',
-                        time: 'sat 4 22:30',
+                        time: 'SUN 22:30',
                         info: [
                             "The athletes are not the only ones who will compete at the Air + Style Festival Innsbruck-Tirol2017! Red Bull brings two of the best German sound systems on one stage: TAIT EITA Soundsytem and AFROB Soundsytem. The challenge: WHO ROCKZ THE CROWD more? So bring it on and let the DJ games begin!"
                         ],
@@ -651,7 +651,7 @@
                         img_portrait: '../img/artists/portrait/ViolettShock_Portrait.jpg',
                         img_landscape: '../img/artists/landscape/ViolettShock_Landscape.jpg',
                         location: 'indoor stage',
-                        time: 'sat 4 02:45',
+                        time: 'SUN 02:45',
                         info: [
                             "Rebecca Gruber aka Violett Shock is the youngest DJane in Austria. She had her first gig at theage of 14 and has been unstoppable ever since. Her mix of old and new tracks is always guaranteed to get the crowd shaking all night long—whether at her residence at the Studio 21 or any other club! Get ready to pull an all nighter because you won’t want to stop when Violett Shock is on the turntables."
                         ],
