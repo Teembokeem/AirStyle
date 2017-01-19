@@ -689,6 +689,11 @@
                             // dim: 120,
                             link: 'http://www.vibe.com/'
                         },
+                        {
+                            img: 'img/line-logo-white.svg',
+                            // dim: 120,
+                            link: 'http://www.thelinehotel.com/'
+                        }
                     ]
                 }
             },
