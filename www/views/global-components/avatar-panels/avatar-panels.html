@@ -5,9 +5,7 @@
         </div>
     </div>
     <div class="row">
-        <div ng-class="{'overlay': cc.overlay != null && cc.indexTracker == $index, 'la': cc.overlay === 'la' && cc.indexTracker == $index, 'innsbruck': cc.overlay === 'innsbruck' && cc.indexTracker == $index, 'rider-hover': cc.overlay === 'app.rider.all' && cc.indexTracker == $index}"
-            ng-mouseenter="cc.overlay = cc.tour; cc.indexTracker = $index" ng-mouseleave="cc.overlay = null; cc.indexTracker = null"
-            ng-repeat="(key, avatar) in cc.avatars track by $index" ng-if="cc.max ? $index < cc.max : true" class="col">
+        <div ng-class="{'overlay': cc.overlay != null && cc.indexTracker == $index, 'la': cc.overlay === 'la' && cc.indexTracker == $index, 'innsbruck': cc.overlay === 'innsbruck' && cc.indexTracker == $index, 'rider-hover': cc.overlay === 'app.rider.all' && cc.indexTracker == $index}" ng-mouseenter="cc.overlay = cc.tour; cc.indexTracker = $index" ng-mouseleave="cc.overlay = null; cc.indexTracker = null" ng-repeat="(key, avatar) in cc.avatars track by $index" ng-if="cc.max ? $index < cc.max : true" class="col">
             <div ng-class="{'rider-page' : cc.tour === 'app.rider.all'}" class="container">
                 <div class="row">
                     <!--<div class="hover-bar"></div>-->
@@ -24,14 +22,12 @@
                 </div>
             </div>
         </div>
-        <div class="row more">
-            <div class="col" ng-if="cc.schedule" 
-                ng-click="cc.pageChange('app.schedule', cc.state)">
-                <button><span>Schedule</span></button>
-            </div>
-            <div class="col" ng-if="cc.view"
-                ng-click="cc.pageChange('app.lineup', cc.state)">
-                <button><span>View All</span></button>
-            </div>
+    </div>
+    <div class="row more">
+        <div class="col" ng-if="cc.schedule" ng-click="cc.pageChange('app.schedule', cc.state)">
+            <button><span>Schedule</span></button>
+        </div>
+        <div class="col" ng-if="cc.view" ng-click="cc.pageChange('app.lineup', cc.state)">
+            <button><span>View All</span></button>
         </div>
     </div>

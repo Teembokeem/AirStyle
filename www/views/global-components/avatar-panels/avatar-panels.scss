@@ -22,9 +22,12 @@ avatar-panels {
             flex-flow: row wrap;
             display: -webkit-flex;
             justify-content: center;
+            max-width: 1250px;
+            margin: auto;
             >.col {
-                min-width: 300px;
-                margin: 0 1rem 8rem 1rem;
+                //min-width: 300px;
+                //margin: 0 1rem 8rem 1rem;
+                margin: 0 1rem 5rem 1rem;
                 position: relative;
                 >.container {
                     width: 100%;
@@ -47,21 +50,21 @@ avatar-panels {
                             /* -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0); */
                             transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
                         }
-                        max-width: 300px;
+                        //max-width: 300px;
                         position: relative;
                         justify-content: center;
                         .col {
-                            min-height: 400px;
-                            min-width: 300px;
-                            max-width: 300px;
+                            //min-height: 400px;
+                            //min-width: 300px;
+                            //max-width: 300px;
                             border: 8px solid white;
                             overflow: hidden;
                             padding: 0;
                             .panel-image {
                                 margin: 0 auto;
-                                height: 100%;
+                                //height: 100%;
                                 width: 100%;
-                                height: 400px !important;
+                                //height: 400px !important;
                                 background-repeat: no-repeat !important;
                                 background-position: center !important;
                                 transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -70,10 +73,14 @@ avatar-panels {
                     }
                     .blue-container {
                         position: absolute;
-                        bottom: 2.5rem;
-                        right: 1rem;
-                        width: 14rem;
-                        height: 6rem;
+                        // bottom: 2.5rem;
+                        // right: 1rem;
+                        // width: 14rem;
+                        // height: 6rem;
+                        bottom: 2rem;
+                        right: -1.2rem;
+                        width: 9.6rem;
+                        height: 4rem;
                         background-color: $as-blue;
                         display: flex;
                         align-items: center;
@@ -84,7 +91,8 @@ avatar-panels {
                         span {
                             color: black;
                             font-family: 'Apercu';
-                            font-size: 30px;
+                            //font-size: 30px;
+                            font-size: 1.2rem;
                             font-weight: bold;
                             line-height: 1.1;
                             letter-spacing: 0.15rem;
@@ -199,7 +207,7 @@ avatar-panels {
             }
         }
         .more {
-            margin: 2rem auto;
+            margin: -1rem auto 5rem auto;
             width: 78%;
             height: 47px;
             align-content: center;
@@ -265,12 +273,58 @@ avatar-panels {
         >.container {
             >.row {
                 >.col {
-                    min-width: 380px;
-                    max-width: 430px;
+                    //min-width: 380px;
+                    //max-width: 430px;
+                    max-width: 225px;
+                    width: 20%;
                     >.container {
                         .blue-container {
                             // right: -2rem;
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1023px) {
+    avatar-panels {
+        >.container {
+            .title-row {
+                margin-bottom: 3rem !important;
+            }
+            >.row {
+                max-width: 825px !important;
+                margin: auto;
+                >.col {
+                    max-width: 225px;
+                    min-width: 240px;
+                    width: 20%;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    avatar-panels {
+        >.container {
+            .title-row {
+                margin-bottom: 3rem !important;
+            }
+            >.row {
+                max-width: 400px !important;
+                margin: auto;
+                >.col {
+                    max-width: 240px;
+                    min-width: 300px;
+                    width: 20%;
+                    .blue-container {
+                        bottom: 2.2rem !important;
+                        right: -1.2rem !important;
+                        width: 12rem !important;
+                        height: 4.8rem !important;
                     }
                 }
             }
