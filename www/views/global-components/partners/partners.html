@@ -1,23 +1,35 @@
 <div class="container">
-	<div class="row section-title">
-		<div class="title">
-			<span>PARTNERS</span>
-		</div>
-	</div>
-	<div class="row title-row">
-		<div class="title">
-			<span>HOTEL PARTNER</span>
-		</div>
-	</div>
-	<div class="row partner-container">
-		<div class="container">
-			<div class="row">
-				<div ng-class="{'override-grayscale': cc.touchScreen}" class="partner" ng-repeat="partner in cc.partnerContent track by $index">
-					<a href="{{partner.link}}">
-						<img ng-click="cc.open(partner.link)" style="height:{{partner.dim}}px;" ng-src="{{partner.img}}" alt="">
-</a>
-</div>
-</div>
-</div>
-</div>
+    <div class="row section-title">
+        <div class="title">
+            <span>PARTNERS</span>
+        </div>
+    </div>
+    <div class="row title-row">
+        <div class="title">
+            <span>HOTEL PARTNER</span>
+        </div>
+    </div>
+    <div class="row partner-container">
+        <div class="container">
+            <div class="row">
+                <div ng-class="{'override-grayscale': cc.touchScreen}" class="partner" ng-repeat="partner in cc.partnerContent track by $index">
+                    <a href="{{partner.link}}">
+                        <img ng-click="cc.open(partner.link)" style="height:{{partner.dim}}px;" ng-src="{{partner.img}}" alt="">
+                    </a>
+                    <div ng-if="partner.id==='line'" class="partner-info">
+                    	<div>{{cc.main}}</div>
+                    	<div class="title">THE LINE HOTEL</div>
+                    	<div class="subtitle">OFFICIAL HOTEL OF AIR + STYLE LA</div>
+                    	<div class="description">
+                    		<a href="https://gc.synxis.com/rez.aspx?Hotel=68711&Chain=17841&arrive=2/15/2017&depart=2/20/2017&adult=1&child=0&group=170215AIRS_001">Click here</a> for special courtesy rate</div>
+                    	<div class="contact-info">
+                    		<span><a href="http://www.thelinehotel.com">http://www.thelinehotel.com</a></span><br>
+                    		<span>3515 Wilshire Blvd</span><br>
+                    		<span>Los Angeles, CA 90010, 213.381.7411</span>
+                    	</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

@@ -112,6 +112,27 @@ partners {
                         .partner:nth-child(-n + 5) {
                             // margin-right: 30px;
                         }
+
+                        .partner-info {
+                            padding-left: 20px;                            
+                            .title, .subtitle {
+                                font-family: 'Reglo-Bold';
+                            }
+                            .subtitle, .descrition, .contact-info {                                
+                                font-size: 12px;
+                            } 
+                            .description, .contact-info {
+                                font-family: 'Apercu';
+                                span {
+                                    font-family: 'Apercu';
+                                }                                
+                            }
+                            a {
+                                font-family: 'Apercu';
+                                color: $as-blue;
+                                //text-decoration: underline;
+                            }
+                        }
                     }
                 }
             }

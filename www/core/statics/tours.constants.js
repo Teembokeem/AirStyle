@@ -634,62 +634,74 @@
                     },
                     partners: [
                         {
+                            id: 'go90',
                             img: 'img/go90_LOGO.png',
                             // dim: 120,
                             link: 'http://www.go90.com'
                         },
                         // 'img/partner-2.png',
                         {
+                            id: 'coors-light',
                             img: 'img/coors-light-mountain-logo.png',
                             // dim: 100,
                             link: 'http://www.coors.com'
                         },
                         {
+                            id: 'hansens',
                             img: 'img/Hansens-Logo-new-2016.png',
                             // dim: 120,
                             link: 'https://www.hansens.com/'
                         },
                         {
+                            id: 'clif',
                             img: 'img/CLIF.png',
                             // dim: 100,
                             link: 'http://www.clifbar.com'
                         },
                         {
+                            id: 'stoli',
                             img: 'img/Stoli.png',
                             // dim: 120,
                             link: 'http://stoli.com/'
                         },
                         {
+                            id: 'foro',
                             img: 'img/foro_logo-2.png',
                             // dim: 120,
                             link: 'http://www.theforo.com'
                         },
                         {
+                            id: 'healthade',
                             img: 'img/healthade.png',
                             // dim: 120,
                             link: 'http://health-ade.com/'
                         },
                         {
+                            id: 'flood',
                             img: 'img/FLOOD_MAGAZINE_PRESENTS.png',
                             // dim: 120,
                             link: 'http://floodmagazine.com'
                         },
                         {
+                            id: 'nylon',
                             img: 'img/pinkNYLON_logo.png',
                             // dim: 120,
                             link: 'http://www.nylon.com/'
                         },
                         {
+                            id: 'stereogum',
                             img: 'img/Stereogum_white.png',
                             // dim: 120,
                             link: 'http://www.stereogum.com/'
                         },
                         {
+                            id: 'vibe',
                             img: 'img/vibe.png',
                             // dim: 120,
                             link: 'http://www.vibe.com/'
                         },
                         {
+                            id: 'line',
                             img: 'img/line-logo-white.svg',
                             // dim: 120,
                             link: 'http://www.thelinehotel.com/'

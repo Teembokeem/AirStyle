@@ -10772,7 +10772,20 @@ partners > .container {
       margin: 0 auto;
       width: 90%; }
       partners > .container .partner-container .container .row .partner {
-        min-width: 125px; } }
+        min-width: 125px; }
+      partners > .container .partner-container .container .row .partner-info {
+        padding-left: 20px; }
+        partners > .container .partner-container .container .row .partner-info .title, partners > .container .partner-container .container .row .partner-info .subtitle {
+          font-family: 'Reglo-Bold'; }
+        partners > .container .partner-container .container .row .partner-info .subtitle, partners > .container .partner-container .container .row .partner-info .descrition, partners > .container .partner-container .container .row .partner-info .contact-info {
+          font-size: 12px; }
+        partners > .container .partner-container .container .row .partner-info .description, partners > .container .partner-container .container .row .partner-info .contact-info {
+          font-family: 'Apercu'; }
+          partners > .container .partner-container .container .row .partner-info .description span, partners > .container .partner-container .container .row .partner-info .contact-info span {
+            font-family: 'Apercu'; }
+        partners > .container .partner-container .container .row .partner-info a {
+          font-family: 'Apercu';
+          color: #40caff; } }
 
 subscribe .subscribe-container .subscribe-1 .subscribe-1-1 {
   display: flex;
@@ -11242,6 +11255,9 @@ popup-notification.ready {
         font-size: 40px;
         border-bottom: 5px solid #40caff;
         padding-bottom: 1rem; }
+
+.home-view ion-content .partner-info {
+  display: none; }
 
 home-carousel {
   position: relative; }

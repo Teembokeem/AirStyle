@@ -9,7 +9,7 @@
 
     function HomeCtrl($log, $state, $rootScope, $window, Tours) {
         var cc = this;
-
+        cc.main = true;
         cc.video = Tours('all')[0];
     }
 })();
