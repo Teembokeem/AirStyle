@@ -21,7 +21,8 @@
         </div>-->
         <div class="row answer">
             <div class="col">
-                <span>{{cc.question.answer}}</span>
+                <!-- <span>{{cc.question.answer}}</span> -->
+                <span ng-bind-html="cc.question.answer"></span>
             </div>
         </div>
     </div>

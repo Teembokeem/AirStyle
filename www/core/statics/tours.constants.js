@@ -458,6 +458,12 @@
                             main: true
                         },
                         {
+                            question: 'Are there hotels nearby?',
+                            answer: 'Yes, our official hotel partner is with The Line Hotel located at 3515 Wilshire Blvd Los Angeles, CA 90010. They are offering courtesy rates of $199 King, $219 Double, $219 Hollywood Hills View King , $239 Hollywood Hills View Double'+
+                                    '<br><br><a href="https://gc.synxis.com/rez.aspx?Hotel=68711&Chain=17841&arrive=2/15/2017&depart=2/20/2017&adult=1&child=0&group=170215AIRS_001" target="_blank">Click here</a> to book the special courtesy rates.',
+                            main: true
+                        },
+                        {
                             question: 'Are there ins and outs?',
                             answer: 'No.'
                         },

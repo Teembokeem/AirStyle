@@ -10523,6 +10523,8 @@ ranking-summary > .container .more {
     .item-info .answer-container .answer .col span {
       font-size: 1rem;
       font-family: 'Apercu'; }
+  .item-info .answer-container .answer a {
+    color: #f9fe17; }
 
 .item:hover,
 .item-info:hover {
