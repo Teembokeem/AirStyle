@@ -14332,6 +14332,8 @@ rankings-athlete > .container {
         text-align: left;
         margin-left: 0.2rem;
         font-weight: bold; }
+  .contact-view ion-content .scroll .about-container a {
+    color: #40caff; }
 
 @media (min-width: 600px) {
   .contact-view ion-content .scroll .about-container {
