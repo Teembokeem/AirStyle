@@ -13556,6 +13556,16 @@ artist-bio > .container > .row {
         artist-bio > .container > .row > .col .spotify-container .col div iframe {
           max-width: 100%; }
 
+@media all and (min-width: 992px) {
+  artist-bio > .container > .row {
+    padding-top: 3rem; }
+    artist-bio > .container > .row > .col {
+      width: 50% !important; }
+      artist-bio > .container > .row > .col .spotify-container {
+        padding-top: 20px; }
+        artist-bio > .container > .row > .col .spotify-container > .col div {
+          width: 100% !important; } }
+
 @media (min-width: 420px) {
   artist-bio > .container {
     padding: 0 3rem; }

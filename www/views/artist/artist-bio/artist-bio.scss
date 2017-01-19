@@ -69,6 +69,28 @@ artist-bio {
     }
 }
 
+@media all and (min-width:992px) {
+    artist-bio {
+        >.container {
+            >.row {
+                padding-top: 3rem;
+                >.col {
+                    width: 50% !important;
+
+                    .spotify-container {
+                        padding-top: 20px;
+                        >.col {
+                            div {
+                                width: 100% !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media(min-width: 420px) {
     artist-bio {
         >.container {
