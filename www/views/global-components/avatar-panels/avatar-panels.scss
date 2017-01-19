@@ -217,6 +217,7 @@ avatar-panels {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                margin: 1rem;
                 button {
                     height: 100%;
                     border: none;
@@ -238,9 +239,9 @@ avatar-panels {
                     }
                 }
             }
-            .col:nth-child(2) {
-                margin-left: 2rem;
-            }
+            // .col:nth-child(2) {
+            //     margin-left: 2rem;
+            // }
         }
     }
 }

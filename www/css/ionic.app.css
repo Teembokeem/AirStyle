@@ -11037,7 +11037,8 @@ avatar-panels > .container {
       border: 3px solid white;
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      margin: 1rem; }
       avatar-panels > .container .more .col button {
         height: 100%;
         border: none;
@@ -11054,8 +11055,6 @@ avatar-panels > .container {
         transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
         avatar-panels > .container .more .col:hover span {
           color: black; }
-    avatar-panels > .container .more .col:nth-child(2) {
-      margin-left: 2rem; }
 
 @media (min-width: 420px) {
   avatar-panels > .container .title-row .col span {
@@ -12839,7 +12838,8 @@ beijing-rankings > .container .more {
     border: 3px solid white;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    margin: 0 1rem; }
     .line-up-view ion-content .scroll .container .more .col button {
       height: 100%;
       border: none;
@@ -12856,8 +12856,6 @@ beijing-rankings > .container .more {
       transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
       .line-up-view ion-content .scroll .container .more .col:hover span {
         color: black; }
-  .line-up-view ion-content .scroll .container .more .col:first-child {
-    margin-right: 2rem; }
 
 lineup-carousel {
   position: relative; }

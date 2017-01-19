@@ -49,6 +49,7 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                        margin: 0 1rem;
                         button {
                             height: 100%;
                             border: none;
@@ -70,9 +71,9 @@
                             }
                         }
                     }
-                    .col:first-child {
-                        margin-right: 2rem;
-                    }
+                    // .col:first-child {
+                    //     margin-right: 2rem;
+                    // }
                 }
             }
         }
