@@ -10221,53 +10221,61 @@ footer > .container {
   background-color: white; }
   footer > .container .footer {
     height: 100%;
-    justify-content: center;
     align-items: center; }
-    footer > .container .footer .container a, footer > .container .footer .container span {
+    footer > .container .footer .container a,
+    footer > .container .footer .container span {
       color: black;
-      font-size: 16px;
+      font-size: 14px;
       font-family: 'Apercu';
       text-decoration: underline; }
     footer > .container .footer .container {
       width: 100%; }
-      footer > .container .footer .container .row {
-        justify-content: center; }
-        footer > .container .footer .container .row .about {
-          margin-right: 3rem; }
-        footer > .container .footer .container .row a {
-          transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
-        footer > .container .footer .container .row .facebook {
-          margin: 0 auto;
-          display: flex;
-          align-items: center; }
-          footer > .container .footer .container .row .facebook img {
-            height: 33px; }
-        footer > .container .footer .container .row .twitter {
-          margin: 0 auto;
-          display: flex;
-          align-items: center; }
-          footer > .container .footer .container .row .twitter img {
-            height: 24px; }
-        footer > .container .footer .container .row .instagram {
-          margin: 0 auto;
-          display: flex;
-          align-items: center; }
-          footer > .container .footer .container .row .instagram img {
-            height: 32px; }
-        footer > .container .footer .container .row .youtube {
-          margin: 0 auto;
-          display: flex;
-          align-items: center; }
-          footer > .container .footer .container .row .youtube img {
-            height: 23px; }
-        footer > .container .footer .container .row a.hover {
-          opacity: 0.5;
-          transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
+      footer > .container .footer .container .row .about,
+      footer > .container .footer .container .row .contact {
+        margin-right: 1rem; }
+      footer > .container .footer .container .row a {
+        transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
+        footer > .container .footer .container .row a.term_condition {
+          text-decoration: none;
+          border-bottom: 2px solid #62ff00; }
+      footer > .container .footer .container .row .facebook {
+        margin: 0 auto;
+        display: flex;
+        align-items: center; }
+        footer > .container .footer .container .row .facebook img {
+          height: 28px; }
+      footer > .container .footer .container .row .twitter {
+        margin: 0 auto;
+        display: flex;
+        align-items: center; }
+        footer > .container .footer .container .row .twitter img {
+          height: 22px; }
+      footer > .container .footer .container .row .instagram {
+        margin: 0 auto;
+        display: flex;
+        align-items: center; }
+        footer > .container .footer .container .row .instagram img {
+          height: 28px; }
+      footer > .container .footer .container .row .youtube {
+        margin: 0 auto;
+        display: flex;
+        align-items: center; }
+        footer > .container .footer .container .row .youtube img {
+          height: 22px; }
+      footer > .container .footer .container .row a.hover {
+        opacity: 0.5;
+        transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
       footer > .container .footer .container .row:first-child {
         margin-bottom: 40px; }
       footer > .container .footer .container .row:nth-child(2) {
         max-width: 500px;
         margin: 0 auto 40px auto; }
+
+@media (max-width: 1023px) {
+  .footer {
+    justify-content: center; }
+    .footer .container .row {
+      justify-content: center; } }
 
 @media (min-width: 1024px) {
   footer > .container {
@@ -10279,10 +10287,7 @@ footer > .container {
       footer > .container .footer .container .row a {
         margin: 0 2rem; }
       footer > .container .footer .container .row .about {
-        margin-left: 40px;
-        margin-right: 50px; }
-      footer > .container .footer .container .row .contact {
-        margin-right: 341px; }
+        margin-left: 40px; }
       footer > .container .footer .container .row:first-child {
         margin-bottom: 0; }
       footer > .container .footer .container .row:nth-child(2) {
@@ -10294,7 +10299,8 @@ footer > .container {
         top: 0;
         left: 0;
         right: 0;
-        bottom: 0; }
+        bottom: 0;
+        max-width: 260px; }
       footer > .container .footer .container .row:nth-child(3) {
         justify-content: flex-end;
         padding-right: 3rem;

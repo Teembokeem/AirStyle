@@ -14,6 +14,7 @@
 
     function FooterCtrl($log, $state, $rootScope) {
         var cc = this;
+
         cc.go = go;
 
         function go(val) {
