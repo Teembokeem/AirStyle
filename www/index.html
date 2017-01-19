@@ -2,13 +2,11 @@
 <html ng-app="Template">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-	<title>AIR + STYLE LOS ANGELES 2017</title>
-
-	<link rel="manifest" href="manifest.json">
-
-	<!-- un-comment this code to enable service worker
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>AIR + STYLE LOS ANGELES 2017</title>
+    <link rel="manifest" href="manifest.json">
+    <!-- un-comment this code to enable service worker
     <script>
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('service-worker.js')
@@ -16,199 +14,186 @@
           .catch(err => console.log('Error', err));
       }
     </script>-->
+    <!-- compiled css output -->
+    <link rel="stylesheet" type="text/css" href="lib/swa/dist/sweetalert.css">
+    <link rel="stylesheet" href="lib/freezeframe_styles.css">
+    <link href="css/ionic.app.css" rel="stylesheet">
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/swa/dist/sweetalert.min.js"></script>
+    <script src="lib/moment/moment.js"></script>
+    <script src="lib/angular-moment/angular-moment.js"></script>
+    <!-- THIRD PARTY -->
+    <script src="lib/a0-angular-storage/dist/angular-storage.min.js"></script>
+    <!--CONFIGS-->
+    <script src="core/configs/configs.module.js"></script>
+    <script src="core/configs/log.config.js"></script>
+    <script src="core/configs/httpInterceptors.config.js"></script>
+    <script src="core/configs/jsonHeaders.config.js"></script>
+    <!--DIRECTIVES-->
+    <script src="core/directives/directives.module.js"></script>
+    <script src="core/directives/image-load.directive.js"></script>
+    <!--SERVICES-->
+    <script src="core/services/services.module.js"></script>
+    <script src="core/services/itemsContent.service.js"></script>
+    <script src="core/services/url.service.js"></script>
+    <script src="core/services/cart.service.js"></script>
+    <script src="core/services/storage.service.js"></script>
+    <script src="core/services/Service.base.js"></script>
+    <!-- STATICS -->
+    <script src="core/statics/statics.module.js"></script>
+    <script src="core/statics/carousel.constants.js"></script>
+    <script src="core/statics/tours.constants.js"></script>
+    <script src="core/statics/riders.constants.js"></script>
+    <script src="core/statics/merchandise.constants.js"></script>
+    <script src="core/statics/artists.constants.js"></script>
+    <!--API MODULES-->
+    <script src="core/api/api.base.module.js"></script>
+    <script src="core/api/tumblr/Module.tumblr.js"></script>
+    <script src="core/api/tumblr/Dispatcher.tumblr.js"></script>
+    <script src="core/api/tumblr/Manager.tumblr.js"></script>
+    <script src="core/api/mailchimp/Module.mailchimp.js"></script>
+    <script src="core/api/mailchimp/Dispatcher.mailchimp.js"></script>
+    <script src="core/api/mailchimp/Manager.mailchimp.js"></script>
+    <!--BASELINE DEPS-->
+    <script src="core/services/url.service.js"></script>
+    <!--VIEWS-->
+    <!--APP -->
+    <script src="views/app.module.js"></script>
+    <script src="views/app.controller.js"></script>
+    <!-- GLOBAL COMPONENTS -->
+    <script src="views/global-components/nav/Component.nav.js"></script>
+    <script src="views/global-components/shapes/Component.shapes.js"></script>
+    <script src="views/global-components/footer/Component.footer.js"></script>
+    <script src="views/global-components/desktop-menu/Component.desktop-menu.js"></script>
+    <script src="views/global-components/mobile-menu/Component.mobile-menu.js"></script>
+    <script src="views/global-components/dropdown-menu/Component.dropdown-menu.js"></script>
+    <script src="views/global-components/ranking-summary/Component.ranking-summary.js"></script>
+    <script src="views/global-components/faq-item/Component.faq-item.js"></script>
+    <script src="views/global-components/download-app/Component.download-app.js"></script>
+    <script src="views/global-components/tumblr-feed/Component.tumblr-feed.js"></script>
+    <script src="views/global-components/partners/Component.partners.js"></script>
+    <script src="views/global-components/subscribe/Component.subscribe.js"></script>
+    <script src="views/global-components/branding/Component.branding.js"></script>
+    <script src="views/global-components/video-comp/Component.video-comp.js"></script>
+    <script src="views/global-components/avatar-panels/Component.avatar-panels.js"></script>
+    <script src="views/global-components/header-notification/Component.header-notification.js"></script>
+    <script src="views/global-components/preloader/Component.preloader.js"></script>
+    <script src="views/global-components/popup-notification/Component.popup-notification.js"></script>
+    <!-- HOME -->
+    <script src="views/home/Module.home.view.js"></script>
+    <script src="views/home/Controller.home.view.js"></script>
+    <script src="views/home/home-carousel/Component.home-carousel.js"></script>
+    <script src="views/home/home-schedule/Component.home-schedule.js"></script>
+    <script src="views/home/home-merchandise/Component.home-merchandise.js"></script>
+    <!--TICKET-->
+    <script src="views/ticket/Module.ticket.view.js"></script>
+    <script src="views/ticket/Controller.ticket.view.js"></script>
+    <script src="views/ticket/ticket-title/Component.ticket-title.js"></script>
+    <script src="views/ticket/ticket-items/Component.ticket-items.js"></script>
+    <script src="views/ticket/ticket-footer/Component.ticket-footer.js"></script>
+    <!-- TOUR STOPS -->
+    <script src="views/tour-stops/Module.tour-stops.view.js"></script>
+    <script src="views/tour-stops/Controller.tour-stops.view.js"></script>
+    <script src="views/tour-stops/tour-carousel/Component.tour-carousel.js"></script>
+    <script src="views/tour-stops/tour-schedule/Component.tour-schedule.js"></script>
+    <script src="views/tour-stops/tour-music/Component.tour-music.js"></script>
+    <script src="views/tour-stops/tour-faq/Component.tour-faq.js"></script>
+    <!-- BEIJING CONTENT -->
+    <script src="views/beijing-content/Module.beijing-content.view.js"></script>
+    <script src="views/beijing-content/Controller.beijing-content.view.js"></script>
+    <script src="views/beijing-content/beijing-text/Component.beijing-text.js"></script>
+    <script src="views/beijing-content/beijing-rankings/Component.beijing-rankings.js"></script>
+    <!-- ABOUT -->
+    <script src="views/about/Module.about.view.js"></script>
+    <script src="views/about/Controller.about.view.js"></script>
+    <!-- CONTACT -->
+    <script src="views/contact/Module.contact.view.js"></script>
+    <script src="views/contact/Controller.contact.view.js"></script>
+    <!-- LINEUP -->
+    <script src="views/lineup/Module.lineup.view.js"></script>
+    <script src="views/lineup/Controller.lineup.view.js"></script>
+    <script src="views/lineup/lineup-carousel/Component.lineup-carousel.js"></script>
+    <!-- SCHEDULE -->
+    <script src="views/schedule/Module.schedule.view.js"></script>
+    <script src="views/schedule/Controller.schedule.view.js"></script>
+    <script src="views/schedule/schedule-desktop/Component.schedule-desktop.js"></script>
+    <script src="views/schedule/schedule-mobile/Component.schedule-mobile.js"></script>
+    <!-- ARTIST -->
+    <script src="views/artist/Module.artist.view.js"></script>
+    <script src="views/artist/Controller.artist.view.js"></script>
+    <script src="views/artist/artist-hero/Component.artist-hero.js"></script>
+    <script src="views/artist/artist-bio/Component.artist-bio.js"></script>
+    <!-- FAQ -->
+    <script src="views/faq/Module.faq.view.js"></script>
+    <script src="views/faq/Controller.faq.view.js"></script>
+    <script src="views/faq/faq-general/Component.faq-general.js"></script>
+    <script src="views/faq/faq-banlist/Component.faq-banlist.js"></script>
+    <script src="views/faq/faq-footer/Component.faq-footer.js"></script>
+    <!-- RIDER -->
+    <script src="views/rider/Module.rider.view.js"></script>
+    <script src="views/rider/Controller.rider.view.js"></script>
+    <script src="views/rider/index/Controller.rider-index.view.js"></script>
+    <script src="views/rider/details/Controller.rider-details.view.js"></script>
+    <script src="views/rider/details/rider-bio/Component.rider-bio.js"></script>
+    <!-- RANKINGS -->
+    <script src="views/rankings/Module.rankings.view.js"></script>
+    <script src="views/rankings/Controller.rankings.view.js"></script>
+    <script src="views/rankings/rankings-list/Component.rankings-list.js"></script>
+    <script src="views/rankings/rankings-athlete/Component.rankings-athlete.js"></script>
+    <!--  STATE CONTROLLERS -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })
+        (window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
+        ga('create', 'UA-87116793-1', 'auto');
+        ga('create', 'UA-69578166-1', 'auto', 'newTracker');
 
-	<!-- compiled css output -->
-	<link rel="stylesheet" type="text/css" href="lib/swa/dist/sweetalert.css">
-	<link rel="stylesheet" href="lib/freezeframe_styles.css">
-	<link href="css/ionic.app.css" rel="stylesheet">
+        ga('send', 'pageview');
+        ga('newTracker.send', 'pageview');
 
-	<script src="lib/ionic/js/ionic.bundle.js"></script>
-	<script src="lib/swa/dist/sweetalert.min.js"></script>
-	<script src="lib/moment/moment.js"></script>
-	<script src="lib/angular-moment/angular-moment.js"></script>
+    </script>
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '516517678502187'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
 
-	<!-- THIRD PARTY -->
-	<script src="lib/a0-angular-storage/dist/angular-storage.min.js"></script>
-
-	<!--CONFIGS-->
-	<script src="core/configs/configs.module.js"></script>
-	<script src="core/configs/log.config.js"></script>
-	<script src="core/configs/httpInterceptors.config.js"></script>
-	<script src="core/configs/jsonHeaders.config.js"></script>
-
-
-	<!--DIRECTIVES-->
-	<script src="core/directives/directives.module.js"></script>
-	<script src="core/directives/image-load.directive.js"></script>
-
-	<!--SERVICES-->
-	<script src="core/services/services.module.js"></script>
-	<script src="core/services/itemsContent.service.js"></script>
-	<script src="core/services/url.service.js"></script>
-	<script src="core/services/cart.service.js"></script>
-	<script src="core/services/storage.service.js"></script>
-	<script src="core/services/Service.base.js"></script>
-
-	<!-- STATICS -->
-	<script src="core/statics/statics.module.js"></script>
-	<script src="core/statics/carousel.constants.js"></script>
-	<script src="core/statics/tours.constants.js"></script>
-	<script src="core/statics/riders.constants.js"></script>
-	<script src="core/statics/merchandise.constants.js"></script>
-	<script src="core/statics/artists.constants.js"></script>
-
-	<!--API MODULES-->
-	<script src="core/api/api.base.module.js"></script>
-	<script src="core/api/tumblr/Module.tumblr.js"></script>
-	<script src="core/api/tumblr/Dispatcher.tumblr.js"></script>
-	<script src="core/api/tumblr/Manager.tumblr.js"></script>
-	<script src="core/api/mailchimp/Module.mailchimp.js"></script>
-	<script src="core/api/mailchimp/Dispatcher.mailchimp.js"></script>
-	<script src="core/api/mailchimp/Manager.mailchimp.js"></script>
-
-	<!--BASELINE DEPS-->
-	<script src="core/services/url.service.js"></script>
-
-	<!--VIEWS-->
-
-	<!--APP -->
-	<script src="views/app.module.js"></script>
-	<script src="views/app.controller.js"></script>
-
-	<!-- GLOBAL COMPONENTS -->
-	<script src="views/global-components/nav/Component.nav.js"></script>
-	<script src="views/global-components/shapes/Component.shapes.js"></script>
-	<script src="views/global-components/footer/Component.footer.js"></script>
-	<script src="views/global-components/desktop-menu/Component.desktop-menu.js"></script>
-	<script src="views/global-components/mobile-menu/Component.mobile-menu.js"></script>
-	<script src="views/global-components/dropdown-menu/Component.dropdown-menu.js"></script>
-	<script src="views/global-components/ranking-summary/Component.ranking-summary.js"></script>
-	<script src="views/global-components/faq-item/Component.faq-item.js"></script>
-	<script src="views/global-components/download-app/Component.download-app.js"></script>
-	<script src="views/global-components/tumblr-feed/Component.tumblr-feed.js"></script>
-	<script src="views/global-components/partners/Component.partners.js"></script>
-	<script src="views/global-components/subscribe/Component.subscribe.js"></script>
-	<script src="views/global-components/branding/Component.branding.js"></script>
-	<script src="views/global-components/video-comp/Component.video-comp.js"></script>
-	<script src="views/global-components/avatar-panels/Component.avatar-panels.js"></script>
-	<script src="views/global-components/header-notification/Component.header-notification.js"></script>
-	<script src="views/global-components/preloader/Component.preloader.js"></script>
-	<script src="views/global-components/popup-notification/Component.popup-notification.js"></script>
-
-	<!-- HOME -->
-	<script src="views/home/Module.home.view.js"></script>
-	<script src="views/home/Controller.home.view.js"></script>
-	<script src="views/home/home-carousel/Component.home-carousel.js"></script>
-	<script src="views/home/home-schedule/Component.home-schedule.js"></script>
-	<script src="views/home/home-merchandise/Component.home-merchandise.js"></script>
-
-	<!--TICKET-->
-	<script src="views/ticket/Module.ticket.view.js"></script>
-	<script src="views/ticket/Controller.ticket.view.js"></script>
-	<script src="views/ticket/ticket-title/Component.ticket-title.js"></script>
-	<script src="views/ticket/ticket-items/Component.ticket-items.js"></script>
-	<script src="views/ticket/ticket-footer/Component.ticket-footer.js"></script>
-
-
-	<!-- TOUR STOPS -->
-	<script src="views/tour-stops/Module.tour-stops.view.js"></script>
-	<script src="views/tour-stops/Controller.tour-stops.view.js"></script>
-	<script src="views/tour-stops/tour-carousel/Component.tour-carousel.js"></script>
-	<script src="views/tour-stops/tour-schedule/Component.tour-schedule.js"></script>
-	<script src="views/tour-stops/tour-music/Component.tour-music.js"></script>
-	<script src="views/tour-stops/tour-faq/Component.tour-faq.js"></script>
-
-	<!-- BEIJING CONTENT -->
-	<script src="views/beijing-content/Module.beijing-content.view.js"></script>
-	<script src="views/beijing-content/Controller.beijing-content.view.js"></script>
-	<script src="views/beijing-content/beijing-text/Component.beijing-text.js"></script>
-	<script src="views/beijing-content/beijing-rankings/Component.beijing-rankings.js"></script>
-
-	<!-- ABOUT -->
-	<script src="views/about/Module.about.view.js"></script>
-	<script src="views/about/Controller.about.view.js"></script>
-
-	<!-- CONTACT -->
-	<script src="views/contact/Module.contact.view.js"></script>
-	<script src="views/contact/Controller.contact.view.js"></script>
-
-	<!-- LINEUP -->
-	<script src="views/lineup/Module.lineup.view.js"></script>
-	<script src="views/lineup/Controller.lineup.view.js"></script>
-	<script src="views/lineup/lineup-carousel/Component.lineup-carousel.js"></script>
-
-	<!-- SCHEDULE -->
-	<script src="views/schedule/Module.schedule.view.js"></script>
-	<script src="views/schedule/Controller.schedule.view.js"></script>
-	<script src="views/schedule/schedule-desktop/Component.schedule-desktop.js"></script>
-	<script src="views/schedule/schedule-mobile/Component.schedule-mobile.js"></script>
-
-	<!-- ARTIST -->
-	<script src="views/artist/Module.artist.view.js"></script>
-	<script src="views/artist/Controller.artist.view.js"></script>
-	<script src="views/artist/artist-hero/Component.artist-hero.js"></script>
-	<script src="views/artist/artist-bio/Component.artist-bio.js"></script>
-
-	<!-- FAQ -->
-	<script src="views/faq/Module.faq.view.js"></script>
-	<script src="views/faq/Controller.faq.view.js"></script>
-	<script src="views/faq/faq-general/Component.faq-general.js"></script>
-	<script src="views/faq/faq-banlist/Component.faq-banlist.js"></script>
-	<script src="views/faq/faq-footer/Component.faq-footer.js"></script>
-
-	<!-- RIDER -->
-	<script src="views/rider/Module.rider.view.js"></script>
-	<script src="views/rider/Controller.rider.view.js"></script>
-	<script src="views/rider/index/Controller.rider-index.view.js"></script>
-	<script src="views/rider/details/Controller.rider-details.view.js"></script>
-	<script src="views/rider/details/rider-bio/Component.rider-bio.js"></script>
-
-	<!-- RANKINGS -->
-	<script src="views/rankings/Module.rankings.view.js"></script>
-	<script src="views/rankings/Controller.rankings.view.js"></script>
-	<script src="views/rankings/rankings-list/Component.rankings-list.js"></script>
-	<script src="views/rankings/rankings-athlete/Component.rankings-athlete.js"></script>
-
-
-
-	<!--  STATE CONTROLLERS -->
-
-	<script>
-		(function (i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date(); a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-		ga('create', 'UA-87116793-1', 'auto');
-		ga('send', 'pageview');
-	</script>
-
-<script>
-		!function (f, b, e, v, n, t, s) {
-			if (f.fbq) return; n = f.fbq = function () {
-				n.callMethod ?
-					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-			}; if (!f._fbq) f._fbq = n;
-			n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
-			t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
-		} (window,
-			document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-		fbq('init', '516517678502187'); // Insert your pixel ID here.
-		fbq('track', 'PageView');
-</script>
-<noscript>
-	<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=516517678502187&ev=PageView&noscript=1" />
-</noscript>
-
-
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=516517678502187&ev=PageView&noscript=1"
+        />
+    </noscript>
 </head>
 
 <body>
-	<!--<ion-nav-view class="main-content"></ion-nav-view>-->
-	<ui-view class="main-content"></ui-view>
+    <!--<ion-nav-view class="main-content"></ion-nav-view>-->
+    <ui-view class="main-content"></ui-view>
 </body>
 
 </html>
