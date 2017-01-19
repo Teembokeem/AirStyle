@@ -13326,6 +13326,8 @@ schedule-desktop > .container > .row > .col > .container:nth-child(n + 4) > .row
     justify-content: flex-start; }
     schedule-desktop > .container > .row > .col > .container:nth-child(n + 4) > .row:nth-child(n + 2) > .col:last-child span {
       font-family: 'Reglo-Bold'; }
+      schedule-desktop > .container > .row > .col > .container:nth-child(n + 4) > .row:nth-child(n + 2) > .col:last-child span.link {
+        cursor: pointer; }
 
 @media (min-width: 1024px) {
   schedule-desktop > .container > .row > .col > .container:first-child .title-row .col span {

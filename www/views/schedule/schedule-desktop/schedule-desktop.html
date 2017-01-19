@@ -20,37 +20,37 @@
                             </div>
                         </div>
                         <div ng-click="cc.stateChange(artist.ref)" ng-repeat="artist in stage.lineup" class="row" style="top: {{cc.topMult(artist.time_mult)}}px; height: {{artist.time_dur * 20}}px">
-<div class="col">
-    <span>{{artist.name}}</span>
-</div>
-</div>
-</div>
-</div>
-<div ng-repeat="time in cc.timeSlots" class="row">
-    <div class="col">
-        <span class="header-footer" ng-if="$index == 0 || $last">{{$index == 0 ? 'Doors Open' : $last ? 'Doors Close' : ''}}</span>
-        <span ng-class="{'time': $index != 0 && !$last }">{{time | uppercase}}</span>
-    </div>
-    <div class="col">
-        <div ng-class="{'bounds': $index == 0 || $last}" class="line-div"></div>
-    </div>
-</div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <span>AFTERPARTY</span>
+                            <div class="col">
+                                <span>{{artist.name}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div ng-repeat="time in cc.timeSlots" class="row">
+                    <div class="col">
+                        <span class="header-footer" ng-if="$index == 0 || $last">{{$index == 0 ? 'Doors Open' : $last ? 'Doors Close' : ''}}</span>
+                        <span ng-class="{'time': $index != 0 && !$last }">{{time | uppercase}}</span>
+                    </div>
+                    <div class="col">
+                        <div ng-class="{'bounds': $index == 0 || $last}" class="line-div"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <span>AFTERPARTY</span>
+                    </div>
+                </div>
+                <div ng-repeat="artist in cc.ScheduleContent.afterparty.lineup" class="row">
+                    <div class="col">
+                        <span>{{artist.time_semantic}}</span>
+                    </div>
+                    <div class="col">
+                        <span class="link" ng-click="cc.stateChange(artist.ref)">{{artist.name | uppercase}}</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div ng-repeat="artist in cc.ScheduleContent.afterparty.lineup" class="row">
-        <div class="col">
-            <span>{{artist.time_semantic}}</span>
-        </div>
-        <div class="col">
-            <span>{{artist.name | uppercase}}</span>
-        </div>
-    </div>
-</div>
-</div>
-</div>
 </div>
