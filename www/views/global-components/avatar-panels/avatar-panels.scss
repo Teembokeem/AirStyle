@@ -208,6 +208,7 @@ avatar-panels {
             display: flex;
             position: relative;
             flex-flow: row wrap;
+            cursor: pointer;
             .col {
                 max-width: 250px;
                 max-height: 47px;

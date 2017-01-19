@@ -11028,7 +11028,8 @@ avatar-panels > .container {
     padding-top: 0.3rem;
     display: flex;
     position: relative;
-    flex-flow: row wrap; }
+    flex-flow: row wrap;
+    cursor: pointer; }
     avatar-panels > .container .more .col {
       max-width: 250px;
       max-height: 47px;
@@ -12820,7 +12821,8 @@ beijing-rankings > .container .more {
   padding-top: 0.3rem;
   display: flex;
   position: relative;
-  flex-flow: row wrap; }
+  flex-flow: row wrap;
+  cursor: pointer; }
   .line-up-view ion-content .scroll .container .more .col {
     max-width: 250px;
     max-height: 47px;
