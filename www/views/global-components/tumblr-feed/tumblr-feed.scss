@@ -1,16 +1,15 @@
 tumblr-feed {
-    > .container {
+    >.container {
         margin: 2rem 0;
         * {
             font-family: 'Reglo-Bold';
         }
         .title-row {
             margin-bottom: 3rem;
-
+            margin-top: 3rem;
             .col {
                 display: flex;
                 justify-content: center;
-
                 span {
                     font-size: 22px;
                     border-bottom: 8px solid $as-yellow;
@@ -18,12 +17,11 @@ tumblr-feed {
                 }
             }
         }
-
-        > .row:nth-child(2) {
+        >.row:nth-child(2) {
             display: flex;
             justify-content: center;
             flex-flow: row wrap;
-            > .col {
+            >.col {
                 flex: none;
                 background-color: #141414;
                 box-shadow: 0 2px 4px 0 #000000;
@@ -54,7 +52,6 @@ tumblr-feed {
                         .col {
                             text-align: left;
                             padding-top: 0;
-
                             span {
                                 font-size: 22px;
                                 font-weight: bold;
@@ -63,7 +60,6 @@ tumblr-feed {
                             }
                         }
                     }
-
                     .row:nth-child(3) {
                         position: absolute;
                         left: 0.7rem;
@@ -80,11 +76,10 @@ tumblr-feed {
                     }
                 }
             }
-            > .col:nth-child(n + 1) {
+            >.col:nth-child(n + 1) {
                 margin-bottom: 1.5rem;
             }
         }
-        
         .more {
             margin: 2rem auto;
             width: 78%;
@@ -108,10 +103,9 @@ tumblr-feed {
                     height: 50px;
                     width: 150%;
                 }
-
                 button.border-button {
                     background-color: white;
-                    border: none; 
+                    border: none;
                     color: black;
                     transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
                 }
@@ -122,9 +116,8 @@ tumblr-feed {
 
 @media(min-width:420px) {
     tumblr-feed {
-        > .container {
+        >.container {
             padding: 2rem;
-
             .title-row {
                 .col {
                     span {
@@ -132,27 +125,22 @@ tumblr-feed {
                     }
                 }
             }
-
-            > .row:nth-child(2) {
+            >.row:nth-child(2) {
                 .col {
                     .container {
                         .row:first-child {
                             /*margin-bottom: 2rem;*/
                             .col {
                                 text-align: left;
-
                                 span {
                                     font-size: 21px;
                                 }
                             }
                         }
-
-                        .row:nth-child(2) {
-
-                        }
+                        .row:nth-child(2) {}
                     }
                 }
-                > .col:nth-child(n + 1) {
+                >.col:nth-child(n + 1) {
                     margin: 1rem;
                 }
             }
