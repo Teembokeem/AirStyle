@@ -13840,6 +13840,10 @@ rider-bio > .container {
             display: flex;
             align-items: center;
             justify-content: center; }
+            rider-bio > .container > .row > .col:first-child .social-container .row .col img {
+              cursor: pointer; }
+              rider-bio > .container > .row > .col:first-child .social-container .row .col img:hover {
+                opacity: .5; }
       rider-bio > .container > .row > .col:first-child .years-container {
         margin-bottom: 1.5rem; }
         rider-bio > .container > .row > .col:first-child .years-container .row .col {
