@@ -10597,7 +10597,7 @@ tumblr-feed > .container {
     font-family: 'Reglo-Bold'; }
   tumblr-feed > .container .title-row {
     margin-bottom: 3rem;
-    margin-top: 3rem; }
+    padding-top: 3rem; }
     tumblr-feed > .container .title-row .col {
       display: flex;
       justify-content: center; }
