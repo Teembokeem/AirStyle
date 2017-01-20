@@ -1,15 +1,14 @@
 partners {
     > .container {
         margin-bottom: 94px;
-        .section-title,
-        .title-row {
+        .section-title {
             display: flex;
             flex-flow: row wrap;
             justify-content: center;
             align-items: center;
             margin-bottom: 60px;
             .title {
-                width: 172px;
+                width: auto !important;
                 height: 48px;
                 padding-bottom: 10px;
                 text-align: center;
@@ -21,22 +20,9 @@ partners {
                 }
             }
         }
-        .title-row {
-            .title {
-                width: auto !important;
-            }
-        }
-        .section-title {
-            .title {                
-                border-bottom: none !important;
-                span {
-                    font-size: 40px !important;
-                    border-bottom: 8px solid $as-yellow;
-                }
-            }
-        }
         .partner-container {
             width: 100%;
+            margin-bottom: 5rem;
             .container {
                 width: 100%;
                 .row {

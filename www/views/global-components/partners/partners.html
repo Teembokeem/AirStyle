@@ -3,12 +3,7 @@
         <div class="title">
             <span>PARTNERS</span>
         </div>
-    </div>
-    <div class="row title-row">
-        <div class="title">
-            <span>HOTEL PARTNER</span>
-        </div>
-    </div>
+    </div>    
     <div class="row partner-container">
         <div class="container">
             <div class="row">
@@ -16,8 +11,23 @@
                     <a href="{{partner.link}}">
                         <img ng-click="cc.open(partner.link)" style="height:{{partner.dim}}px;" ng-src="{{partner.img}}" alt="">
                     </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row section-title" ng-if="cc.hotelPartnerContent">
+        <div class="title">
+            <span>HOTEL PARTNER</span>
+        </div>
+    </div>
+    <div class="row partner-container" ng-if="cc.hotelPartnerContent">
+        <div class="container">
+            <div class="row">
+                <div ng-class="{'override-grayscale': cc.touchScreen}" class="partner" ng-repeat="partner in cc.hotelPartnerContent track by $index">
+                    <a href="{{partner.link}}">
+                        <img ng-click="cc.open(partner.link)" style="height:{{partner.dim}}px;" ng-src="{{partner.img}}" alt="">
+                    </a>
                     <div ng-if="partner.id==='line'" class="partner-info">
-                    	<div>{{cc.main}}</div>
                     	<div class="title">THE LINE HOTEL</div>
                     	<div class="subtitle">OFFICIAL HOTEL OF AIR + STYLE LA</div>
                     	<div class="description">

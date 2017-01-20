@@ -427,6 +427,11 @@
                             img: 'img/Olympiaworld.png',
                             // dim: 120,
                             link: 'http://www.olympiaworld.at/en/'
+                        },
+                        {
+                            id: 'line',
+                            img: 'img/line-logo-white.svg',
+                            link: 'http://www.thelinehotel.com/'
                         }
                     ]
                 },
@@ -699,18 +704,20 @@
                             img: 'img/vibe.png',
                             // dim: 120,
                             link: 'http://www.vibe.com/'
-                        },
+                        }
+                    ],
+                    hotel_partners: [
                         {
                             id: 'line',
                             img: 'img/line-logo-white.svg',
-                            // dim: 120,
                             link: 'http://www.thelinehotel.com/'
                         }
                     ]
                 }
             },
-                Keys = Object.keys(tours),
-                constantIdentifier = 'tours';
+                
+            Keys = Object.keys(tours),
+            constantIdentifier = 'tours';
 
 
             return locate(inputArg);
