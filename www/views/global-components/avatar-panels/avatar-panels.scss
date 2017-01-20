@@ -25,8 +25,6 @@ avatar-panels {
             max-width: 1250px;
             margin: auto;
             >.col {
-                //min-width: 300px;
-                //margin: 0 1rem 8rem 1rem;
                 margin: 0 1rem 5rem 1rem;
                 position: relative;
                 >.container {
@@ -50,16 +48,12 @@ avatar-panels {
                             /* -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0); */
                             transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
                         }
-                        //max-width: 300px;
                         position: relative;
                         justify-content: center;
                         .col {
-                            //min-height: 400px;
-                            //min-width: 300px;
-                            //max-width: 300px;
                             border: 8px solid white;
                             overflow: hidden;
-                            padding: 0 0 123% 0;
+                            padding: 0 0 135% 0;
                             .image-wrapper {
                                 position: absolute;
                                 top: 13px;
@@ -69,7 +63,7 @@ avatar-panels {
                                 overflow: hidden;
                                 .panel-image {
                                     margin: 0 auto;
-                                    //height: 100%;
+                                    min-height: 100%;
                                     width: 100%;
                                     //height: 400px !important;
                                     background-repeat: no-repeat !important;
@@ -81,28 +75,22 @@ avatar-panels {
                     }
                     .blue-container {
                         position: absolute;
-                        // bottom: 2.5rem;
-                        // right: 1rem;
-                        // width: 14rem;
-                        // height: 6rem;
                         bottom: 2rem;
                         right: -1.2rem;
-                        width: 9.6rem;
                         height: 4rem;
                         background-color: $as-blue;
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        padding-left: 1rem;
+                        padding-left: .8rem;
                         transition: all 2s cubic-bezier(0.075, 0.82, 0.365, 1);
                         transition: background-color 1s none;
                         span {
                             color: black;
                             font-family: 'Apercu';
-                            //font-size: 30px;
                             font-size: 1.2rem;
                             font-weight: bold;
-                            line-height: 1.1;
+                            line-height: 1.2;
                             letter-spacing: 0.15rem;
                         }
                     }
@@ -118,23 +106,23 @@ avatar-panels {
                     }
                     .blue-container {
                         position: absolute;
-                        bottom: -3rem;
-                        // left: -4rem;
+                        bottom: -2.6rem;
                         right: 0;
                         left: 0;
-                        padding-left: 0.5rem;
+                        //padding-left: 0.5rem;
                         display: flex;
                         background-color: transparent;
                         align-items: center;
-                        transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+                        transition: all .4s cubic-bezier(0.075, 0.82, 0.165, 1);
                         transition: background-color 1s none;
                         width: inherit;
                         height: inherit;
                         span {
                             color: white;
                             font-family: 'Reglo-Bold';
-                            font-size: 25px;
+                            font-size: 1.2rem;
                             font-weight: bold;
+                            padding-right: 0.5rem;
                         }
                         span:first-child {
                             color: $as-blue;
@@ -190,10 +178,13 @@ avatar-panels {
                 }
                 .blue-container {
                     position: absolute;
-                    bottom: 3rem;
-                    left: 17.5%;
-                    width: 65%;
-                    height: 7rem;
+                    bottom: 1.5rem;
+                    left: 0;
+                    width: 85%;
+                    max-width: 220px;
+                    right: 0;
+                    margin: auto;
+                    height: 4.6rem;
                     background-color: $as-blue;
                     display: flex;
                     justify-content: flex-start;
@@ -204,12 +195,13 @@ avatar-panels {
                         width: 100%;
                         color: black;
                         font-family: 'Apercu';
-                        font-size: 30px;
+                        font-size: 1.2rem;
                         font-weight: bold;
+                        padding-left: 0.5rem;
                     }
                     span:first-child {
-                        margin-bottom: -1rem;
-                        margin-top: 1rem;
+                        margin-bottom: -0.8rem;
+                        margin-top: 0.4rem;
                     }
                 }
             }
@@ -281,13 +273,11 @@ avatar-panels {
         >.container {
             >.row {
                 >.col {
-                    //min-width: 380px;
-                    //max-width: 430px;
                     max-width: 225px;
                     width: 20%;
                     >.container {
                         .blue-container {
-                            // right: -2rem;
+                            width: 9.6rem;
                         }
                     }
                 }
@@ -311,6 +301,9 @@ avatar-panels {
                     width: 20%;
                 }
             }
+            .blue-container {
+                width: 9.6rem;
+            }
         }
     }
 }
@@ -328,13 +321,10 @@ avatar-panels {
                     max-width: 240px;
                     min-width: 300px;
                     width: 20%;
-                    .blue-container {
-                        bottom: 2.2rem !important;
-                        right: -1.2rem !important;
-                        width: 12rem !important;
-                        height: 4.8rem !important;
-                    }
                 }
+            }
+            .blue-container {
+                width: 12rem;
             }
         }
     }

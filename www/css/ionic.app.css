@@ -10941,7 +10941,7 @@ avatar-panels > .container {
           avatar-panels > .container > .row:nth-child(2) > .col > .container .row .col {
             border: 8px solid white;
             overflow: hidden;
-            padding: 0 0 123% 0; }
+            padding: 0 0 135% 0; }
             avatar-panels > .container > .row:nth-child(2) > .col > .container .row .col .image-wrapper {
               position: absolute;
               top: 13px;
@@ -10951,6 +10951,7 @@ avatar-panels > .container {
               overflow: hidden; }
               avatar-panels > .container > .row:nth-child(2) > .col > .container .row .col .image-wrapper .panel-image {
                 margin: 0 auto;
+                min-height: 100%;
                 width: 100%;
                 background-repeat: no-repeat !important;
                 background-position: center !important;
@@ -10959,13 +10960,12 @@ avatar-panels > .container {
           position: absolute;
           bottom: 2rem;
           right: -1.2rem;
-          width: 9.6rem;
           height: 4rem;
           background-color: #40caff;
           display: flex;
           align-items: center;
           justify-content: center;
-          padding-left: 1rem;
+          padding-left: .8rem;
           transition: all 2s cubic-bezier(0.075, 0.82, 0.365, 1);
           transition: background-color 1s none; }
           avatar-panels > .container > .row:nth-child(2) > .col > .container .blue-container span {
@@ -10973,7 +10973,7 @@ avatar-panels > .container {
             font-family: 'Apercu';
             font-size: 1.2rem;
             font-weight: bold;
-            line-height: 1.1;
+            line-height: 1.2;
             letter-spacing: 0.15rem; }
       avatar-panels > .container > .row:nth-child(2) > .col .rider-page > .row {
         padding-top: 0;
@@ -10983,10 +10983,9 @@ avatar-panels > .container {
           display: inherit; }
       avatar-panels > .container > .row:nth-child(2) > .col .rider-page .blue-container {
         position: absolute;
-        bottom: -3rem;
+        bottom: -2.6rem;
         right: 0;
         left: 0;
-        padding-left: 0.5rem;
         display: flex;
         background-color: transparent;
         align-items: center;
@@ -10997,8 +10996,9 @@ avatar-panels > .container {
         avatar-panels > .container > .row:nth-child(2) > .col .rider-page .blue-container span {
           color: white;
           font-family: 'Reglo-Bold';
-          font-size: 25px;
-          font-weight: bold; }
+          font-size: 1.2rem;
+          font-weight: bold;
+          padding-right: 0.5rem; }
         avatar-panels > .container > .row:nth-child(2) > .col .rider-page .blue-container span:first-child {
           color: #40caff; }
     avatar-panels > .container > .row:nth-child(2) > .col.overlay.la .container .row .col {
@@ -11024,10 +11024,13 @@ avatar-panels > .container {
       background-blend-mode: darken; }
     avatar-panels > .container > .row:nth-child(2) > .col.overlay.rider-hover .blue-container {
       position: absolute;
-      bottom: 3rem;
-      left: 17.5%;
-      width: 65%;
-      height: 7rem;
+      bottom: 1.5rem;
+      left: 0;
+      width: 85%;
+      max-width: 220px;
+      right: 0;
+      margin: auto;
+      height: 4.6rem;
       background-color: #40caff;
       display: flex;
       justify-content: flex-start;
@@ -11038,11 +11041,12 @@ avatar-panels > .container {
         width: 100%;
         color: black;
         font-family: 'Apercu';
-        font-size: 30px;
-        font-weight: bold; }
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding-left: 0.5rem; }
       avatar-panels > .container > .row:nth-child(2) > .col.overlay.rider-hover .blue-container span:first-child {
-        margin-bottom: -1rem;
-        margin-top: 1rem; }
+        margin-bottom: -0.8rem;
+        margin-top: 0.4rem; }
   avatar-panels > .container .more {
     margin: -1rem auto 5rem auto;
     width: 78%;
@@ -11087,7 +11091,9 @@ avatar-panels > .container {
 @media (min-width: 1024px) {
   avatar-panels > .container > .row > .col {
     max-width: 225px;
-    width: 20%; } }
+    width: 20%; }
+    avatar-panels > .container > .row > .col > .container .blue-container {
+      width: 9.6rem; } }
 
 @media (max-width: 1023px) {
   avatar-panels > .container .title-row {
@@ -11098,7 +11104,9 @@ avatar-panels > .container {
     avatar-panels > .container > .row > .col {
       max-width: 225px;
       min-width: 240px;
-      width: 20%; } }
+      width: 20%; }
+  avatar-panels > .container .blue-container {
+    width: 9.6rem; } }
 
 @media (max-width: 767px) {
   avatar-panels > .container .title-row {
@@ -11110,11 +11118,8 @@ avatar-panels > .container {
       max-width: 240px;
       min-width: 300px;
       width: 20%; }
-      avatar-panels > .container > .row > .col .blue-container {
-        bottom: 2.2rem !important;
-        right: -1.2rem !important;
-        width: 12rem !important;
-        height: 4.8rem !important; } }
+  avatar-panels > .container .blue-container {
+    width: 12rem; } }
 
 header-notification {
   position: absolute;

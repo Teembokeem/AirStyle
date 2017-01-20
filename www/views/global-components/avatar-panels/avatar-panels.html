@@ -17,9 +17,9 @@
                 </div>
                 <div class="blue-container" ng-click="cc.stateChange(cc.ref, avatar.ref)">
                     <span ng-if="cc.tour != 'app.rider.all'">{{avatar.name}}</span>
-                    <span ng-if="cc.tour == 'app.rider.all' && cc.overlay != null && cc.indexTracker == $index">{{avatar.name.first}}</span>&nbsp;
+                    <span ng-if="cc.tour == 'app.rider.all' && cc.overlay != null && cc.indexTracker == $index">{{avatar.name.first}}</span>
                     <span ng-if="cc.tour == 'app.rider.all' && cc.overlay != null && cc.indexTracker == $index">{{avatar.name.last}}</span>
-                    <span ng-if="cc.tour == 'app.rider.all' && cc.indexTracker != $index">{{avatar.name.first | uppercase}}</span>&nbsp;
+                    <span ng-if="cc.tour == 'app.rider.all' && cc.indexTracker != $index">{{avatar.name.first | uppercase}}</span>
                     <span ng-if="cc.tour == 'app.rider.all' && cc.indexTracker != $index">{{avatar.name.last | uppercase}}</span>
                 </div>
             </div>
