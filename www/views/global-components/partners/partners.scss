@@ -30,13 +30,13 @@ partners {
                     display: flex;
                     flex-flow: row wrap;
                     justify-content: center;
-                    align-items: center;
+                    //align-items: center;
                     .partner {
                         transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
                         filter: grayscale(0);
                         display: flex;
                         justify-content: center;
-                        align-items: center;
+                        //align-items: center;
                         margin: 0 2rem;
                         min-width: 300px;
                         a {
@@ -55,6 +55,37 @@ partners {
                     }
                     .partner.override-grayscale {
                         filter: grayscale(0) !important;
+                    }
+                }
+            }
+            &.hotel-partners {
+                .partner-info {
+                    padding-left: 20px;
+                    .title {
+                        font-size: 1.4rem;
+                        padding-bottom: 5px;
+                    }
+                    .title,
+                    .subtitle {
+                        font-family: 'Reglo-Bold';
+                    }
+                    .description,
+                    .contact-info {
+                        font-family: 'Apercu';
+                        span {
+                            font-family: 'Apercu';
+                        }
+                    }
+                    .description {
+                        padding-top: 5px;
+                    }
+                    .contact-info {
+                        padding-top: 8px;
+                    }
+                    a {
+                        font-family: 'Apercu';
+                        color: $as-blue;
+                        //text-decoration: underline;
                     }
                 }
             }
@@ -97,27 +128,6 @@ partners {
                         }
                         .partner:nth-child(-n + 5) {
                             // margin-right: 30px;
-                        }
-
-                        .partner-info {
-                            padding-left: 20px;                            
-                            .title, .subtitle {
-                                font-family: 'Reglo-Bold';
-                            }
-                            .subtitle, .descrition, .contact-info {                                
-                                font-size: 12px;
-                            } 
-                            .description, .contact-info {
-                                font-family: 'Apercu';
-                                span {
-                                    font-family: 'Apercu';
-                                }                                
-                            }
-                            a {
-                                font-family: 'Apercu';
-                                color: $as-blue;
-                                //text-decoration: underline;
-                            }
                         }
                     }
                 }

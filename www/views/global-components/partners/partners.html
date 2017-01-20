@@ -3,7 +3,7 @@
         <div class="title">
             <span>PARTNERS</span>
         </div>
-    </div>    
+    </div>
     <div class="row partner-container">
         <div class="container">
             <div class="row">
@@ -20,7 +20,7 @@
             <span>HOTEL PARTNER</span>
         </div>
     </div>
-    <div class="row partner-container" ng-if="cc.hotelPartnerContent">
+    <div class="row partner-container hotel-partners" ng-if="cc.hotelPartnerContent">
         <div class="container">
             <div class="row">
                 <div ng-class="{'override-grayscale': cc.touchScreen}" class="partner" ng-repeat="partner in cc.hotelPartnerContent track by $index">
@@ -28,15 +28,25 @@
                         <img ng-click="cc.open(partner.link)" style="height:{{partner.dim}}px;" ng-src="{{partner.img}}" alt="">
                     </a>
                     <div ng-if="partner.id==='line'" class="partner-info">
-                    	<div class="title">THE LINE HOTEL</div>
-                    	<div class="subtitle">OFFICIAL HOTEL OF AIR + STYLE LA</div>
-                    	<div class="description">
-                    		<a href="https://gc.synxis.com/rez.aspx?Hotel=68711&Chain=17841&arrive=2/15/2017&depart=2/20/2017&adult=1&child=0&group=170215AIRS_001">Click here</a> for special courtesy rate</div>
-                    	<div class="contact-info">
-                    		<span><a href="http://www.thelinehotel.com">http://www.thelinehotel.com</a></span><br>
-                    		<span>3515 Wilshire Blvd</span><br>
-                    		<span>Los Angeles, CA 90010, 213.381.7411</span>
-                    	</div>
+                        <div class="title">THE LINE HOTEL</div>
+                        <div class="subtitle">OFFICIAL HOTEL OF AIR + STYLE LA</div>
+                        <div class="description">
+                            <a href="https://gc.synxis.com/rez.aspx?Hotel=68711&Chain=17841&arrive=2/15/2017&depart=2/20/2017&adult=1&child=0&group=170215AIRS_001">Click here</a> for special courtesy rate
+                            <br>
+                            <span>$199 King</span>
+                            <br>
+                            <span>$219 Double</span>
+                            <br>
+                            <span>$219 Hollywood Hills View King</span>
+                            <br>
+                            <span>$239 Hollywood Hills View Double</span></div>
+                        <div class="contact-info">
+                            <span><a href="http://www.thelinehotel.com">http://www.thelinehotel.com</a></span>
+                            <br>
+                            <span>3515 Wilshire Blvd</span>
+                            <br>
+                            <span>Los Angeles, CA 90010, 213.381.7411</span>
+                        </div>
                     </div>
                 </div>
             </div>

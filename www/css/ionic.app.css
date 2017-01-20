@@ -10719,14 +10719,12 @@ partners > .container {
         width: 100%;
         display: flex;
         flex-flow: row wrap;
-        justify-content: center;
-        align-items: center; }
+        justify-content: center; }
         partners > .container .partner-container .container .row .partner {
           transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
           filter: grayscale(0);
           display: flex;
           justify-content: center;
-          align-items: center;
           margin: 0 2rem;
           min-width: 300px; }
           partners > .container .partner-container .container .row .partner a img {
@@ -10738,6 +10736,27 @@ partners > .container {
           filter: grayscale(100%); }
         partners > .container .partner-container .container .row .partner.override-grayscale {
           filter: grayscale(0) !important; }
+    partners > .container .partner-container.hotel-partners .partner-info {
+      padding-left: 20px; }
+      partners > .container .partner-container.hotel-partners .partner-info .title {
+        font-size: 1.4rem;
+        padding-bottom: 5px; }
+      partners > .container .partner-container.hotel-partners .partner-info .title,
+      partners > .container .partner-container.hotel-partners .partner-info .subtitle {
+        font-family: 'Reglo-Bold'; }
+      partners > .container .partner-container.hotel-partners .partner-info .description,
+      partners > .container .partner-container.hotel-partners .partner-info .contact-info {
+        font-family: 'Apercu'; }
+        partners > .container .partner-container.hotel-partners .partner-info .description span,
+        partners > .container .partner-container.hotel-partners .partner-info .contact-info span {
+          font-family: 'Apercu'; }
+      partners > .container .partner-container.hotel-partners .partner-info .description {
+        padding-top: 5px; }
+      partners > .container .partner-container.hotel-partners .partner-info .contact-info {
+        padding-top: 8px; }
+      partners > .container .partner-container.hotel-partners .partner-info a {
+        font-family: 'Apercu';
+        color: #40caff; }
 
 @media (min-width: 1024px) {
   partners > .container .section-title {
@@ -10763,20 +10782,7 @@ partners > .container {
       margin: 0 auto;
       width: 90%; }
       partners > .container .partner-container .container .row .partner {
-        min-width: 125px; }
-      partners > .container .partner-container .container .row .partner-info {
-        padding-left: 20px; }
-        partners > .container .partner-container .container .row .partner-info .title, partners > .container .partner-container .container .row .partner-info .subtitle {
-          font-family: 'Reglo-Bold'; }
-        partners > .container .partner-container .container .row .partner-info .subtitle, partners > .container .partner-container .container .row .partner-info .descrition, partners > .container .partner-container .container .row .partner-info .contact-info {
-          font-size: 12px; }
-        partners > .container .partner-container .container .row .partner-info .description, partners > .container .partner-container .container .row .partner-info .contact-info {
-          font-family: 'Apercu'; }
-          partners > .container .partner-container .container .row .partner-info .description span, partners > .container .partner-container .container .row .partner-info .contact-info span {
-            font-family: 'Apercu'; }
-        partners > .container .partner-container .container .row .partner-info a {
-          font-family: 'Apercu';
-          color: #40caff; } }
+        min-width: 125px; } }
 
 subscribe .subscribe-container .subscribe-1 .subscribe-1-1 {
   display: flex;
