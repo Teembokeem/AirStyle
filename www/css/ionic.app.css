@@ -10941,13 +10941,20 @@ avatar-panels > .container {
           avatar-panels > .container > .row:nth-child(2) > .col > .container .row .col {
             border: 8px solid white;
             overflow: hidden;
-            padding: 0; }
-            avatar-panels > .container > .row:nth-child(2) > .col > .container .row .col .panel-image {
-              margin: 0 auto;
-              width: 100%;
-              background-repeat: no-repeat !important;
-              background-position: center !important;
-              transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
+            padding: 0 0 123% 0; }
+            avatar-panels > .container > .row:nth-child(2) > .col > .container .row .col .image-wrapper {
+              position: absolute;
+              top: 13px;
+              bottom: 13px;
+              left: 13px;
+              right: 13px;
+              overflow: hidden; }
+              avatar-panels > .container > .row:nth-child(2) > .col > .container .row .col .image-wrapper .panel-image {
+                margin: 0 auto;
+                width: 100%;
+                background-repeat: no-repeat !important;
+                background-position: center !important;
+                transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
         avatar-panels > .container > .row:nth-child(2) > .col > .container .blue-container {
           position: absolute;
           bottom: 2rem;
