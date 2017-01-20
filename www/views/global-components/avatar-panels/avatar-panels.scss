@@ -29,7 +29,7 @@ avatar-panels {
                 position: relative;
                 >.container {
                     width: 100%;
-                    position: relative;
+                    //position: relative;
                     display: flex;
                     justify-content: center;
                     margin: 0 auto;
@@ -75,9 +75,7 @@ avatar-panels {
                     }
                     .blue-container {
                         position: absolute;
-                        bottom: 2rem;
                         right: -1.2rem;
-                        height: 4rem;
                         background-color: $as-blue;
                         display: flex;
                         align-items: center;
@@ -104,19 +102,24 @@ avatar-panels {
                             display: inherit;
                         }
                     }
+                    .image-wrapper {
+                        top: 8px !important;
+                        bottom: 8px !important;
+                    }
                     .blue-container {
                         position: absolute;
                         bottom: -2.6rem;
                         right: 0;
                         left: 0;
-                        //padding-left: 0.5rem;
                         display: flex;
                         background-color: transparent;
                         align-items: center;
+                        justify-content: center;
                         transition: all .4s cubic-bezier(0.075, 0.82, 0.165, 1);
                         transition: background-color 1s none;
                         width: inherit;
                         height: inherit;
+                        margin: auto;
                         span {
                             color: white;
                             font-family: 'Reglo-Bold';
@@ -178,9 +181,9 @@ avatar-panels {
                 }
                 .blue-container {
                     position: absolute;
-                    bottom: 1.5rem;
+                    bottom: 2rem;
                     left: 0;
-                    width: 85%;
+                    width: 80%;
                     max-width: 220px;
                     right: 0;
                     margin: auto;
@@ -278,6 +281,8 @@ avatar-panels {
                     >.container {
                         .blue-container {
                             width: 9.6rem;
+                            bottom: 2.4rem;
+                            height: 4rem;
                         }
                     }
                 }
@@ -303,6 +308,8 @@ avatar-panels {
             }
             .blue-container {
                 width: 9.6rem;
+                bottom: 2.4rem;
+                height: 4rem;
             }
         }
     }
@@ -325,6 +332,8 @@ avatar-panels {
             }
             .blue-container {
                 width: 12rem;
+                bottom: 3rem;
+                height: 4.6rem;
             }
         }
     }
