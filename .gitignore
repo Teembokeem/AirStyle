@@ -5,6 +5,9 @@
 node_modules/
 platforms/
 plugins/
-ww/lib/**
+www/lib/**
+www/css/*.min.*
+
+
 
 

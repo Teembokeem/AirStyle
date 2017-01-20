@@ -427,6 +427,11 @@
                             img: 'img/Olympiaworld.png',
                             // dim: 120,
                             link: 'http://www.olympiaworld.at/en/'
+                        },
+                        {
+                            id: 'line',
+                            img: 'img/line-logo-white.svg',
+                            link: 'http://www.thelinehotel.com/'
                         }
                     ]
                 },
@@ -455,6 +460,12 @@
                         {
                             question: 'What time does the festival start?',
                             answer: '2:00 PM are doors.',
+                            main: true
+                        },
+                        {
+                            question: 'Are there hotels nearby?',
+                            answer: 'Yes, our official hotel partner is with The Line Hotel located at 3515 Wilshire Blvd Los Angeles, CA 90010. They are offering courtesy rates of $199 King, $219 Double, $219 Hollywood Hills View King , $239 Hollywood Hills View Double'+
+                                    '<br><br><a href="https://gc.synxis.com/rez.aspx?Hotel=68711&Chain=17841&arrive=2/15/2017&depart=2/20/2017&adult=1&child=0&group=170215AIRS_001" target="_blank">Click here</a> to book the special courtesy rates.',
                             main: true
                         },
                         {
@@ -628,66 +639,85 @@
                     },
                     partners: [
                         {
+                            id: 'go90',
                             img: 'img/go90_LOGO.png',
                             // dim: 120,
                             link: 'http://www.go90.com'
                         },
                         // 'img/partner-2.png',
                         {
+                            id: 'coors-light',
                             img: 'img/coors-light-mountain-logo.png',
                             // dim: 100,
                             link: 'http://www.coors.com'
                         },
                         {
+                            id: 'hansens',
                             img: 'img/Hansens-Logo-new-2016.png',
                             // dim: 120,
                             link: 'https://www.hansens.com/'
                         },
                         {
+                            id: 'clif',
                             img: 'img/CLIF.png',
                             // dim: 100,
                             link: 'http://www.clifbar.com'
                         },
                         {
+                            id: 'stoli',
                             img: 'img/Stoli.png',
                             // dim: 120,
                             link: 'http://stoli.com/'
                         },
                         {
+                            id: 'foro',
                             img: 'img/foro_logo-2.png',
                             // dim: 120,
                             link: 'http://www.theforo.com'
                         },
                         {
+                            id: 'healthade',
                             img: 'img/healthade.png',
                             // dim: 120,
                             link: 'http://health-ade.com/'
                         },
                         {
+                            id: 'flood',
                             img: 'img/FLOOD_MAGAZINE_PRESENTS.png',
                             // dim: 120,
                             link: 'http://floodmagazine.com'
                         },
                         {
+                            id: 'nylon',
                             img: 'img/pinkNYLON_logo.png',
                             // dim: 120,
                             link: 'http://www.nylon.com/'
                         },
                         {
+                            id: 'stereogum',
                             img: 'img/Stereogum_white.png',
                             // dim: 120,
                             link: 'http://www.stereogum.com/'
                         },
                         {
+                            id: 'vibe',
                             img: 'img/vibe.png',
                             // dim: 120,
                             link: 'http://www.vibe.com/'
-                        },
+                        }
+                    ],
+                    hotel_partners: [
+                        {
+                            id: 'line',
+                            img: 'img/line-logo-white.svg',
+                            link: 'http://www.thelinehotel.com/'
+                        }
                     ]
                 }
             },
-                Keys = Object.keys(tours),
-                constantIdentifier = 'tours';
+                
+            Keys = Object.keys(tours),
+            constantIdentifier = 'tours';
 
 
             return locate(inputArg);

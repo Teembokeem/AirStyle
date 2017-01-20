@@ -4,8 +4,8 @@
         <avatar-panels avatars="cc.avatars" ref="app.artist" schedule="true" view="false" tag="Music From"></avatar-panels>
         <div class="container">
             <div class="row more">
-                <div class="col">
-                    <button ng-click="cc.stateChange('app.tour-stops', cc.backState)"><span>Back to {{cc.backRef}}</span></button>
+                <div class="col" ng-click="cc.stateChange('app.tour-stops', cc.backState)">
+                    <button><span>Back to {{cc.backRef}}</span></button>
                 </div>
             </div>
         </div>

@@ -173,6 +173,9 @@ schedule-desktop {
 
                             span {
                                 font-family: 'Reglo-Bold';
+                                &.link {
+                                    cursor: pointer;
+                                }
                             }
                         }
                     }
