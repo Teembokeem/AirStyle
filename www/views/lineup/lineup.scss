@@ -1,34 +1,6 @@
 .line-up-view {
     ion-content {
-        .scroll {
-            avatar-panels {
-                > .container {
-                    > .row {
-                        > .col {
-                            > .container {
-                                > .row {
-                                    > .col {
-                                        max-height: 400px;
-                                        // border: 8px solid;
-                                        overflow: hidden;
-                                        padding: 0;
-                                        img {
-                                            border: none;
-                                            filter: grayscale(100%);
-                                            min-height: 400px;
-                                        }
-                                    }
-                                }
-                                .blue-container {
-                                    width: 14rem;
-                                    bottom: 3.5rem;
-                                    span {}
-                                }
-                            }
-                        }
-                    }
-                }
-            }
+        .scroll {            
             .container {
                 .more {
                     margin: 2rem auto;

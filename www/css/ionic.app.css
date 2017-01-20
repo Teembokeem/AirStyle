@@ -12854,19 +12854,6 @@ beijing-rankings > .container .more {
     beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) {
       min-width: 14rem; } }
 
-.line-up-view ion-content .scroll avatar-panels > .container > .row > .col > .container > .row > .col {
-  max-height: 400px;
-  overflow: hidden;
-  padding: 0; }
-  .line-up-view ion-content .scroll avatar-panels > .container > .row > .col > .container > .row > .col img {
-    border: none;
-    filter: grayscale(100%);
-    min-height: 400px; }
-
-.line-up-view ion-content .scroll avatar-panels > .container > .row > .col > .container .blue-container {
-  width: 14rem;
-  bottom: 3.5rem; }
-
 .line-up-view ion-content .scroll .container .more {
   margin: 2rem auto;
   width: 78%;
