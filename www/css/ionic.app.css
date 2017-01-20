@@ -14316,7 +14316,8 @@ rankings-athlete > .container {
 
 .about-view ion-content .scroll > .container:nth-child(3) > .row > .col {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-bottom: 2rem; }
   .about-view ion-content .scroll > .container:nth-child(3) > .row > .col span {
     font-size: 35px; }
 
