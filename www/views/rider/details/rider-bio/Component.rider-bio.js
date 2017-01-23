@@ -1,4 +1,4 @@
-(function () {
+(function() {
     'use strict';
     angular.module('Rider.view.module')
         .component('riderBio', {
@@ -30,7 +30,7 @@
             window.open(link);
         };
 
-        cc.$onInit = function () {
+        cc.$onInit = function() {
 
             cc.riderBioContent = [{
                 name: 'Torgeir Bergrem',
@@ -312,11 +312,11 @@
                     }
                 },
 
-            },]
+            }, ]
 
             cc.rider = Riders($stateParams.avatar);
             cc.rider.video ? cc.rider.video = $sce.trustAsResourceUrl(cc.rider.video) : '';
+            cc.latestScoreYears = [2017, 2016, 2015];
         };
-
     }
 })();
