@@ -12190,6 +12190,7 @@ ticket-footer .container {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 200px;
   margin-bottom: 58px;
   padding: 0 37px; }
   .tour-stops-view ion-content .scroll > .container .section-title .col {
