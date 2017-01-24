@@ -8,11 +8,10 @@
     TumblrDispatcher.$inject = ['urlService', '$http', '$q'];
 
     function TumblrDispatcher(urlService, $http, $q) {
-        // var api = '/api/tumblr',
-        var api = 'http://localhost:3000/api/tumblr',
+        var api = '/api/tumblr',
+            // var api = 'http://localhost:3000/api/tumblr',
             // Default to allow admin as user without token
-            options = {
-            },
+            options = {},
             service = {
                 get: get,
                 getDummy: getDummy
@@ -24,23 +23,19 @@
                 },
                 response: {
                     blog: 'teembokeem',
-                    posts: [
-                        {
-                            message: 'Story Time with Eddie Wall: Best Snowboarding Locations in the U.S.',
-                            date: new Date('June 3, 2016'),
-                            tags: ['innsbruck']
-                        },
-                        {
-                            message: 'LA TAGGED POST',
-                            date: new Date('June 3, 2016'),
-                            tags: ['la']
-                        },
-                        {
-                            message: 'BEIJING TAGGED POST',
-                            date: new Date('June 3, 2016'),
-                            tags: ['beijing']
-                        }
-                    ]
+                    posts: [{
+                        message: 'Story Time with Eddie Wall: Best Snowboarding Locations in the U.S.',
+                        date: new Date('June 3, 2016'),
+                        tags: ['innsbruck']
+                    }, {
+                        message: 'LA TAGGED POST',
+                        date: new Date('June 3, 2016'),
+                        tags: ['la']
+                    }, {
+                        message: 'BEIJING TAGGED POST',
+                        date: new Date('June 3, 2016'),
+                        tags: ['beijing']
+                    }]
                 }
             }
 

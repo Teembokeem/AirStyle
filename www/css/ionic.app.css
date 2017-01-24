@@ -10601,7 +10601,7 @@ tumblr-feed > .container {
     font-family: 'Reglo-Bold'; }
   tumblr-feed > .container .title-row {
     margin-bottom: 3rem;
-    margin-top: 3rem; }
+    padding-top: 3rem; }
     tumblr-feed > .container .title-row .col {
       display: flex;
       justify-content: center; }
@@ -12207,6 +12207,7 @@ ticket-footer .container {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 200px;
   margin-bottom: 58px;
   padding: 0 37px; }
   .tour-stops-view ion-content .scroll > .container .section-title .col {
