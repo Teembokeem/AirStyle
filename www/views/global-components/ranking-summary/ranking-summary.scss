@@ -10,9 +10,11 @@ ranking-summary {
         z-index: -1;
         position: absolute;
         background-repeat: no-repeat;
-    }
+    }    
     > .container {
-        // margin-bottom: 4.75rem;
+        // margin-bottom: 4.75rem; 
+        display: table;
+        width: 100%;
         .section-title {
             width: 330px;
             height: 60px;
@@ -140,7 +142,8 @@ ranking-summary {
 @media (min-width: 1024px) {
     ranking-summary {
         > .container {
-            height: 65rem;
+            //height: 65rem;
+            height: auto;
             margin-top: 5rem;
             .section-title {
                 position: absolute;
@@ -207,17 +210,20 @@ ranking-summary {
 
             div:nth-child(3) {  
                 left: 43.7vw;
-                 top: -7.2vw;
+                //top: -7.2vw;
+                top: -4.2vw;
             }
 
             div:nth-child(4) {  
                 left: 20.8vw;
-                top: -4.4vw;;
+                //top: -4.4vw;
+                top:0;
             }
 
             .more {
                 left: 33vw;
-                bottom: 19vw;
+                //bottom: 19vw;
+                bottom: 10vw;
             }
         }
     }
@@ -229,7 +235,8 @@ ranking-summary {
             // height: 73rem;
            .more {
                 left: 475.2px;
-                 bottom: 446.4px;
+                //bottom: 446.4px;
+                bottom: 146.4px;
             }
 
             div:nth-child(2) {
@@ -244,6 +251,7 @@ ranking-summary {
             div:nth-child(4) {  
                 left: 387.3px;
                 top: -300.76px;
+                margin-bottom: -330px;
             }
         }
     }   

@@ -21,17 +21,19 @@
         cc.chooseOption = chooseOption;
 
         function filterAthletes(param) {
+            cc.currentFilter = param;
             if (param == 'overall') {
                 cc.rankingsListContent = cc.rankingsListContent.sort(function (a, b) {
                     return b.scores[cc.currentYear].overall - a.scores[cc.currentYear].overall
                 });
             }
             else {
+                if(cc.currentYear==='2017' && (param==='innsbruck'||param==='la')) return;
                 cc.rankingsListContent = cc.rankingsListContent.sort(function (a, b) {
                     return parseInt(b.scores[cc.currentYear][param].score == 'N/A' ? 0 : b.scores[cc.currentYear][param].score) - parseInt(a.scores[cc.currentYear][param].score == 'N/A' ? 0 : a.scores[cc.currentYear][param].score)
                 })
             }
-            cc.currentFilter = param;
+            
         };
 
         function chooseOption() {

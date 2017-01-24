@@ -410,7 +410,7 @@
                             video: 'https://youtube.com/embed/JMqylEQvmKc'
                         },
                         'the-naked-and-famous': {
-                            name: 'The Naked & Famous',
+                            name: 'The Naked and Famous',
                             ref: 'the-naked-and-famous',
                             img_portrait: '../img/artists/portrait/TheNakedAndFamous_Portrait.jpg',
                             img_landscape: '../img/artists/landscape/TheNakedAndFamous_Landscape.jpg',

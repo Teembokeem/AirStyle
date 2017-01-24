@@ -1,7 +1,6 @@
 <div class="container">
     <div class="row nopad">
-        <div class="col" ng-class="{'overlay': cc.overlay}" ng-click="cc.stateChange(cc.athlete.ref)" ng-mouseenter="cc.overlay = true"
-            ng-mouseleave="cc.overlay = false">
+        <div class="col" ng-class="{'overlay': cc.overlay}" ng-click="cc.stateChange(cc.athlete.ref)" ng-mouseenter="cc.overlay = true" ng-mouseleave="cc.overlay = false">
             <img ng-src="{{cc.athlete.img_portrait}}" alt="">
         </div>
         <div class="col">
@@ -43,14 +42,19 @@
         </div>
         <div class="col">
             <div class="container">
-                <div class="row nopad">
+                <div class="row nopad" ng-if="cc.athlete.scores[cc.year].overall != 0">
                     <div class="col">
                         <span>{{cc.athlete.scores[cc.year].overall}}</span>
                     </div>
                 </div>
-                <div class="row nopad">
+                <div class="row nopad" ng-if="cc.athlete.scores[cc.year].overall != 0">
                     <div class="col">
                         <span>TOTAL</span>
+                    </div>
+                </div>
+                <div class="row nopad no-margin" ng-if="cc.athlete.scores[cc.year].overall == 0">
+                    <div class="col">
+                        <span>DNC</span>
                     </div>
                 </div>
             </div>
