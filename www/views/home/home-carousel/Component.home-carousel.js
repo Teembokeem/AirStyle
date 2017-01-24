@@ -66,5 +66,9 @@
             cc.slideContent = [Carousel('innsbruck').slide, Carousel('la').slide];
             cc.customSlide = carousel.hero;
         }
+
+        cc.exploreLearnMore = function() {
+            $state.go('app.tour-stops', {tour: 'la'});
+        }
     }
 })();
