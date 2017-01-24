@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col">
                         <span>YEAR</span>
-                        <select ng-model="cc.currentYear" ng-change="cc.chooseOption()" ng-options="year as year for (year, content) in cc.rankingsListContent[0].scores">
+                        <select ng-model="cc.currentYear" ng-change="cc.chooseOption()" ng-options="year as year for (year, content) in cc.rankingsListContent[0].scores" data-tap-disabled="true">
                             </select>
                         <i class="icon ion-chevron-down"></i>
                     </div>
