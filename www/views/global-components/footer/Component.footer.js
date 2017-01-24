@@ -19,7 +19,7 @@
 
         function go(val) {
             $state.go(val);
-            $rootScope.$broadcast('noNav', false);
+            //$rootScope.$broadcast('noNav', true);
         };
 
         cc.$onInit = function () {
