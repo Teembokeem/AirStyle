@@ -4,8 +4,8 @@
     var dir = 'views/';
     angular.module('Template',
         [
-            'Configs',
             'ionic',
+            'Configs',
             'Services',
             'Statics',
             'angularMoment',
