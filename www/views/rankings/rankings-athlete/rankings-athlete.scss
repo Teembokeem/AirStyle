@@ -24,14 +24,13 @@ rankings-athlete {
                     height: 100%;
                 }
             }
-
             >.col:first-child.overlay {
                 background-color: $as-yellow !important;
                 background-blend-mode: darken;
                 transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
                 overflow: hidden;
                 img {
-                transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+                    transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
                     opacity: 0.6;
                     width: 102%;
                     height: 102%;
@@ -154,6 +153,9 @@ rankings-athlete {
                             span {
                                 font-size: 20px;
                             }
+                        }
+                        &.no-margin {
+                            margin-bottom: 0;
                         }
                     }
                     >.row:nth-child(2) {

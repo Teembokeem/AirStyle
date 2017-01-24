@@ -14234,6 +14234,8 @@ rankings-athlete > .container {
           align-items: center; }
           rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:first-child .col span {
             font-size: 20px; }
+          rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:first-child.no-margin {
+            margin-bottom: 0; }
         rankings-athlete > .container > .row > .col:nth-child(4) > .container > .row:nth-child(2) {
           height: 30px;
           margin-top: 0;
