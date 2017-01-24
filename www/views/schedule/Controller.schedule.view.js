@@ -1,4 +1,4 @@
-(function () {
+(function() {
     'use strict';
     var dir = "views/global-components/content/home/"
     angular
@@ -20,11 +20,24 @@
         cc.backRef = cc.codex[cc.backState];
         cc.stateChange = stateChange;
 
-        $window.innerWidth < 800 ? cc.mobile = true : cc.mobile = false;
+        _setScheduleLayout();
+        _handleWindowResize();
 
         function stateChange(state, val) {
             val ? $state.go(state, { tour: val }) : $state.go(state);
         };
+
+        function _handleWindowResize() {
+            angular.element(window).on('resize', function() {
+                $scope.$apply(function() {
+                    _setScheduleLayout();
+                });
+            });
+        }
+
+        function _setScheduleLayout() {
+            $window.innerWidth < 800 ? cc.mobile = true : cc.mobile = false; 
+        }
 
         cc.avatars;
     }
