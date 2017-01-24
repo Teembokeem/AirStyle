@@ -4,7 +4,6 @@ rankings-list {
             margin-bottom: 1rem;
             > .col {
                 .selectors-container {
-
                     > .row {
                         flex-flow: row wrap;
                         .col:first-child {
@@ -29,16 +28,16 @@ rankings-list {
                                 font-size: 18px;
                                 padding-top: 0.2em;
                                 max-width: 290px;
+                                option {
+                                    color: #000;
+                                }
                             }
                             i {
                                 color: black;
                                 position: relative;
                                 right: 1.8rem;
                             }
-
-
                         }
-
                         .col:nth-child(2) {
                             min-width: 21rem;
                             width: 100%;
@@ -46,11 +45,9 @@ rankings-list {
                             display: flex;
                             justify-content: center;
                             align-items: center;
-
                             span:nth-child(-n + 3) {
                                 margin-right: 1rem;
                             }
-
                             span:nth-child(2) {
                                 color: $as-green;
                             }
@@ -60,37 +57,35 @@ rankings-list {
                             span:nth-child(4) {
                                 color: $as-blue;
                             }
+                            span {
+                                transition: all .4s;
+                                padding-bottom: 0.3rem;
+                                &.overall-selected,
+                                &:hover {
+                                    border-bottom: 4px solid;                                    
+                                    cursor: pointer;
+                                }
+                                &.beijing-selected {
+                                    border-bottom: 4px solid $as-green;
+                                }
+                                &.los-angeles-selected {
+                                    border-bottom: 4px solid $as-blue;
+                                }
+                                &.innsbruck-selected {
+                                    border-bottom: 4px solid $as-yellow;
+                                }
 
-                            span.overall-selected {
-                                border-bottom: 4px solid;
-                                padding-bottom: 0.3rem;
                             }
-                            span.beijing-selected {
-                                border-bottom: 4px solid $as-green;
-                                padding-bottom: 0.3rem;
-                            }
-                            span.innsbruck-selected {
-                                border-bottom: 4px solid $as-yellow;
-                                padding-bottom: 0.3rem;
-                            }
-                            span.los-angeles-selected {
-                                border-bottom: 4px solid $as-blue;
-                                padding-bottom: 0.3rem;
-                            }
-
-
                         }
                     }
                 }
             }
         }
-
         >.row:nth-child(2) {
             .col {
                 display: flex;
                 flex-flow: row wrap;
                 justify-content: center;
-
                 rankings-athlete {
                     padding: 1rem;
                 }
@@ -109,16 +104,13 @@ rankings-list {
                 > .col {
                     .selectors-container {
                         // padding: 0 9.7rem;
-
                         >.row {
                             >.col {
-                                min-width: initial !important; 
+                                min-width: initial !important;
                             }
-
                             >.col:first-child {
                                 justify-content: flex-start;
                                 margin-bottom: 0;
-
                                 select {
                                     width: 5em;
                                 }

@@ -14063,6 +14063,8 @@ rankings-list > .container .selectors-row {
         font-size: 18px;
         padding-top: 0.2em;
         max-width: 290px; }
+        rankings-list > .container .selectors-row > .col .selectors-container > .row .col:first-child select option {
+          color: #000; }
       rankings-list > .container .selectors-row > .col .selectors-container > .row .col:first-child i {
         color: black;
         position: relative;
@@ -14082,18 +14084,18 @@ rankings-list > .container .selectors-row {
         color: #f9fe17; }
       rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span:nth-child(4) {
         color: #40caff; }
-      rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span.overall-selected {
-        border-bottom: 4px solid;
+      rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span {
+        transition: all .4s;
         padding-bottom: 0.3rem; }
-      rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span.beijing-selected {
-        border-bottom: 4px solid #62ff00;
-        padding-bottom: 0.3rem; }
-      rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span.innsbruck-selected {
-        border-bottom: 4px solid #f9fe17;
-        padding-bottom: 0.3rem; }
-      rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span.los-angeles-selected {
-        border-bottom: 4px solid #40caff;
-        padding-bottom: 0.3rem; }
+        rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span.overall-selected, rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span:hover {
+          border-bottom: 4px solid;
+          cursor: pointer; }
+        rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span.beijing-selected {
+          border-bottom: 4px solid #62ff00; }
+        rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span.los-angeles-selected {
+          border-bottom: 4px solid #40caff; }
+        rankings-list > .container .selectors-row > .col .selectors-container > .row .col:nth-child(2) span.innsbruck-selected {
+          border-bottom: 4px solid #f9fe17; }
 
 rankings-list > .container > .row:nth-child(2) .col {
   display: flex;
