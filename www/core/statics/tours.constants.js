@@ -432,6 +432,11 @@
                             id: 'line',
                             img: 'img/line-logo-white.svg',
                             link: 'http://www.thelinehotel.com/'
+                        },
+                        {
+                            id: 'kuehtai',
+                            img: 'img/kuehtai_Logo.png',
+                            link: 'http://www.kuehtai.info/'
                         }
                     ]
                 },
