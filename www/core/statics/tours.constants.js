@@ -709,6 +709,11 @@
                             img: 'img/vibe.png',
                             // dim: 120,
                             link: 'http://www.vibe.com/'
+                        },
+                        {
+                            id: 'justwater',
+                            img: 'img/JUSTWATERlogo.png',
+                            link: 'http://www.justwater.com/'
                         }
                     ],
                     hotel_partners: [
