@@ -9988,7 +9988,7 @@ nav {
     padding: 0;
     display: flex;
     justify-content: flex-end;
-    padding-right: 7rem; }
+    padding-right: 3rem; }
     nav .as-menu mobile-menu {
       position: fixed;
       top: 93px;
@@ -10009,7 +10009,8 @@ nav {
             text-decoration: none; }
       nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child .row:first-child {
         margin-top: 1rem; }
-      nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(2) .col span, nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(3) .col span {
+      nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(2) .col span,
+      nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(3) .col span {
         margin-left: 1rem;
         font-size: 1rem; }
       nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(2) .col span {
@@ -10051,7 +10052,7 @@ nav {
           position: relative; }
           nav .as-menu desktop-menu > .row .anchor-pad dropdown-menu {
             position: absolute;
-            top: 1.9em;
+            top: -0.3rem;
             box-shadow: 0 0 38px 4px black;
             background-color: rgba(0, 0, 0, 0.9);
             /*background-color: blue;*/ }
@@ -10083,13 +10084,15 @@ nav {
             /*top: 0;*/ }
         nav .as-menu desktop-menu > .row .anchor-pad {
           display: flex;
-          align-items: center;
           justify-content: center;
           min-width: 60px;
           max-width: 170px;
           text-align: center;
-          z-index: 999; }
+          z-index: 999;
+          min-width: 100px !important; }
           nav .as-menu desktop-menu > .row .anchor-pad a {
+            display: block;
+            width: 100%;
             text-align: center;
             text-decoration: none; }
             nav .as-menu desktop-menu > .row .anchor-pad a > span .la {
@@ -10121,6 +10124,15 @@ nav {
 @media (min-width: 800px) {
   nav .as-nav .logo a .line {
     bottom: 1.96rem; } }
+
+@media (max-width: 1023px) {
+  nav .as-nav desktop-menu > .row .anchor-pad dropdown-menu {
+    left: -20px;
+    right: -20px;
+    justify-content: center;
+    min-width: 140px !important;
+    text-align: center;
+    justify-content: center; } }
 
 @media (min-width: 1024px) {
   nav {
@@ -10156,8 +10168,11 @@ nav {
       nav .as-nav desktop-menu > .row {
         justify-content: flex-end; }
         nav .as-nav desktop-menu > .row .anchor-pad dropdown-menu {
-          top: -0.2rem;
-          left: 1.1rem; }
+          top: -0.3rem;
+          left: 0;
+          right: 0;
+          text-align: center;
+          justify-content: center; }
     nav .as-nav .search,
     nav .as-nav .hamburger {
       top: 2.4rem; }
@@ -10175,7 +10190,12 @@ nav {
       top: 5.3rem; }
   nav .as-nav .search,
   nav .as-nav .hamburger {
-    top: 2.8rem; } }
+    top: 2.8rem; }
+  nav .as-nav desktop-menu > .row .anchor-pad dropdown-menu {
+    left: 0 !important;
+    right: 0 !important;
+    text-align: center;
+    justify-content: center; } }
 
 .hover {
   cursor: pointer;

@@ -1,8 +1,11 @@
 @keyframes slide-left {
-    from {margin-left: 0;}
-    to {margin-left: 25px;}
+    from {
+        margin-left: 0;
+    }
+    to {
+        margin-left: 25px;
+    }
 }
-
 
 nav {
     position: absolute;
@@ -22,7 +25,6 @@ nav {
                     width: 15vw;
                     max-width: 60px;
                 }
-
                 .line {
                     height: 0.15rem;
                     position: absolute;
@@ -33,16 +35,13 @@ nav {
                 .line.beijing {
                     background-color: $as-green;
                 }
-
                 .line.innsbruck {
                     background-color: $as-yellow;
                 }
-
                 .line.la {
                     background-color: $as-blue;
                 }
             }
-
             > img {
                 width: 6vw;
                 min-width: 120px;
@@ -52,11 +51,9 @@ nav {
                 left: 5%;
                 opacity: 0;
             }
-
             > img.hover {
                 transform: translateX(25%);
                 opacity: 1;
-
             }
         }
         .logo-text {
@@ -102,7 +99,8 @@ nav {
         padding: 0;
         display: flex;
         justify-content: flex-end;
-        padding-right: 7rem;
+        //padding-right: 7rem;
+        padding-right: 3rem;
         mobile-menu {
             position: fixed;
             top: 93px;
@@ -114,7 +112,6 @@ nav {
             overflow-y: scroll;
             // z-index: 2;
             ion-content {
-
                 .nav-menu {
                     >.container:first-child {
                         .row {
@@ -129,12 +126,11 @@ nav {
                                 }
                             }
                         }
-
                         .row:first-child {
                             margin-top: 1rem;
                         }
-
-                        > .row:nth-child(2), > .row:nth-child(3) {
+                        > .row:nth-child(2),
+                        > .row:nth-child(3) {
                             .col {
                                 span {
                                     // animation-name: slide-left;
@@ -143,26 +139,20 @@ nav {
                                     // animation-fill-mode: forwards;
                                     margin-left: 1rem;
                                     font-size: 1rem;
-
                                 }
-
                             }
                         }
-
                         > .row:nth-child(2) {
                             .col {
                                 span {
                                     border-bottom: 3px solid $as-blue;
-
                                 }
                             }
                         }
-
                         > .row:nth-child(3) {
                             .col {
                                 span {
                                     border-bottom: 3px solid $as-yellow;
-                                    
                                 }
                             }
                         }
@@ -233,7 +223,6 @@ nav {
                 }
             }
         }
-
         mobile-menu.black {
             background-color: black;
         }
@@ -247,7 +236,8 @@ nav {
                     position: relative;
                     dropdown-menu {
                         position: absolute;
-                        top: 1.9em;
+                        //top: 1.9em;
+                        top: -0.3rem;
                         box-shadow: 0 0 38px 4px black;
                         background-color: rgba(0, 0, 0, 0.9);
                         /*background-color: blue;*/
@@ -311,13 +301,16 @@ nav {
                 }
                 .anchor-pad {
                     display: flex;
-                    align-items: center;
+                    //align-items: center;
                     justify-content: center;
                     min-width: 60px;
                     max-width: 170px;
                     text-align: center;
                     z-index: 999;
+                    min-width: 100px !important;
                     a {
+                        display: block;
+                        width: 100%;
                         text-align: center;
                         text-decoration: none;
                         >span {
@@ -375,6 +368,28 @@ nav {
     }
 }
 
+@media(max-width:1023px) {
+    nav {
+        .as-nav {
+            desktop-menu {
+                >.row {
+                    .anchor-pad {
+                        dropdown-menu {
+                            // top: 45px;
+                            left: -20px;
+                            right: -20px;
+                            justify-content: center;
+                            min-width: 140px !important;    
+                            text-align: center;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (min-width: 1024px) {
     nav {
         // margin-top: 2.57%;
@@ -400,22 +415,18 @@ nav {
                     img {
                         width: 100%;
                     }
-
                     .line {
                         bottom: 1.9rem;
                         left: 1.5rem;
                     }
                 }
-
                 > img {
                     top: 4.8rem;
                 }
             }
-
             .search {
                 right: 2.25rem;
             }
-
             .hamburger {
                 right: 1.5rem;
             }
@@ -427,8 +438,12 @@ nav {
                     justify-content: flex-end;
                     .anchor-pad {
                         dropdown-menu {
-                            top: -0.2rem;
-                            left: 1.1rem;
+                            top: -0.3rem;
+                            //left: 1.1rem;
+                            left: 0;
+                            right: 0;
+                            text-align: center;
+                            justify-content: center;
                         }
                     }
                 }
@@ -471,7 +486,6 @@ nav {
             .logo {
                 margin-left: 2rem;
                 margin-top: 2rem;
-
                 a {
                     .line {
                         left: 2.54rem;
@@ -482,7 +496,6 @@ nav {
                     top: 5.3rem;
                 }
             }
-
             .search,
             .hamburger {
                 top: 2.8rem;
@@ -492,6 +505,10 @@ nav {
                     .anchor-pad {
                         dropdown-menu {
                             // top: 45px;
+                            left: 0 !important;
+                            right: 0 !important;
+                            text-align: center;
+                            justify-content: center;
                         }
                     }
                 }
@@ -500,8 +517,7 @@ nav {
     }
 }
 
-
 .hover {
-    cursor:pointer;
-    cursor:hand;
+    cursor: pointer;
+    cursor: hand;
 }
