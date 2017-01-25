@@ -13292,7 +13292,6 @@ schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:fir
 schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:nth-child(n + 2) {
   justify-content: center;
   align-items: center;
-  max-width: 300px;
   position: relative;
   padding: 0 0; }
   schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col,
@@ -13307,7 +13306,6 @@ schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:fir
     position: absolute;
     display: flex;
     justify-content: center;
-    max-width: 250px;
     border-top: 2px solid black; }
     schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) > .row:nth-child(n + 2) .col,
     schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:nth-child(n + 2) > .row:nth-child(n + 2) .col {
