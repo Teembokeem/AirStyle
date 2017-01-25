@@ -24,6 +24,9 @@
     <script src="lib/angular-moment/angular-moment.js"></script>
     <!-- THIRD PARTY -->
     <script src="lib/a0-angular-storage/dist/angular-storage.min.js"></script>
+    <!--APP -->
+    <script src="views/app.module.js"></script>
+    <script src="views/app.controller.js"></script>
     <!--CONFIGS-->
     <script src="core/configs/configs.module.js"></script>
     <script src="core/configs/log.config.js"></script>
@@ -57,9 +60,6 @@
     <!--BASELINE DEPS-->
     <script src="core/services/url.service.js"></script>
     <!--VIEWS-->
-    <!--APP -->
-    <script src="views/app.module.js"></script>
-    <script src="views/app.controller.js"></script>
     <!-- GLOBAL COMPONENTS -->
     <script src="views/global-components/nav/Component.nav.js"></script>
     <script src="views/global-components/shapes/Component.shapes.js"></script>
@@ -152,7 +152,8 @@
             a.async = 1;
             a.src = g;
             m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        })
+        (window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-87116793-1', 'auto');
         ga('create', 'UA-69578166-1', 'auto', 'newTracker');

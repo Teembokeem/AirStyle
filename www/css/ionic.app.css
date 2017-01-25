@@ -10601,7 +10601,7 @@ tumblr-feed > .container {
     font-family: 'Reglo-Bold'; }
   tumblr-feed > .container .title-row {
     margin-bottom: 3rem;
-    margin-top: 3rem; }
+    padding-top: 3rem; }
     tumblr-feed > .container .title-row .col {
       display: flex;
       justify-content: center; }
@@ -12207,6 +12207,7 @@ ticket-footer .container {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 200px;
   margin-bottom: 58px;
   padding: 0 37px; }
   .tour-stops-view ion-content .scroll > .container .section-title .col {
@@ -13254,35 +13255,41 @@ schedule-desktop > .container > .row > .col > .container:first-child {
       font-size: 64px;
       border-bottom: 8px solid #f9fe17; }
 
-schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:first-child, schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:first-child {
+schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:first-child,
+schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:first-child {
   padding-right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 400px;
   font-size: 30px; }
-  schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:first-child span, schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:first-child span {
+  schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:first-child span,
+  schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:first-child span {
     text-align: center; }
 
-schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2), schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:nth-child(n + 2) {
-  display: flex;
+schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2),
+schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:nth-child(n + 2) {
   justify-content: center;
   align-items: center;
   max-width: 300px;
   position: relative;
   padding: 0 0; }
-  schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col, schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col {
+  schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col,
+  schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col {
     text-align: center; }
-    schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col span, schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col span {
+    schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col span,
+    schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:nth-child(n + 2) > .row:first-child > .col span {
       font-size: 30px; }
-  schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) > .row:nth-child(n + 2), schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:nth-child(n + 2) > .row:nth-child(n + 2) {
+  schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) > .row:nth-child(n + 2),
+  schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:nth-child(n + 2) > .row:nth-child(n + 2) {
     margin-top: 2.8rem;
     position: absolute;
     display: flex;
     justify-content: center;
     max-width: 250px;
     border-top: 2px solid black; }
-    schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) > .row:nth-child(n + 2) .col, schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:nth-child(n + 2) > .row:nth-child(n + 2) .col {
+    schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) > .row:nth-child(n + 2) .col,
+    schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:nth-child(n + 2) > .row:nth-child(n + 2) .col {
       height: 100%;
       text-align: center;
       background-color: #f9fe17;
@@ -13290,7 +13297,8 @@ schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:fir
       align-items: center;
       justify-content: center;
       max-width: 250px; }
-      schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) > .row:nth-child(n + 2) .col span, schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:nth-child(n + 2) > .row:nth-child(n + 2) .col span {
+      schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:first-child > .col:nth-child(n + 2) > .row:nth-child(n + 2) .col span,
+      schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:first-child > .col:nth-child(n + 2) > .row:nth-child(n + 2) .col span {
         padding: 0.5rem;
         color: black;
         font-size: 22px;
@@ -13298,9 +13306,11 @@ schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:fir
         font-family: 'Apercu';
         font-weight: bold; }
 
-schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2), schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) {
+schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2),
+schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) {
   margin-bottom: 1.9rem; }
-  schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) > .col:first-child, schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col:first-child {
+  schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) > .col:first-child,
+  schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col:first-child {
     padding-right: 2rem;
     padding-left: 95px;
     width: 170px;
@@ -13308,7 +13318,8 @@ schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth
     display: flex;
     justify-content: flex-end;
     align-items: center; }
-    schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) > .col:first-child span, schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col:first-child span {
+    schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) > .col:first-child span,
+    schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col:first-child span {
       font-size: 25px;
       color: #828282;
       font-family: 'Apercu';
@@ -13316,21 +13327,25 @@ schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth
       letter-spacing: 0.2rem;
       width: 85px;
       text-align: right; }
-    schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) > .col:first-child span.header-footer, schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col:first-child span.header-footer {
+    schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) > .col:first-child span.header-footer,
+    schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col:first-child span.header-footer {
       font-size: 18px;
       color: white;
-      padding-right: 2rem;
+      padding-right: 1rem;
       letter-spacing: 0; }
-  schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) > .col:nth-child(2), schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col:nth-child(2) {
+  schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) > .col:nth-child(2),
+  schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col:nth-child(2) {
     min-width: 80%; }
-    schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) > .col:nth-child(2) .line-div, schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col:nth-child(2) .line-div {
-      height: 50%;
+    schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) > .col:nth-child(2) .line-div,
+    schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col:nth-child(2) .line-div {
+      height: 5px;
       width: 100%;
       background-image: linear-gradient(to right, #5a5a5a 25%, rgba(255, 255, 255, 0) 0%);
       background-position: bottom;
       background-size: 12px 2px;
       background-repeat: repeat-x; }
-    schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) > .col:nth-child(2) .bounds, schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col:nth-child(2) .bounds {
+    schedule-desktop > .container > .row > .col > .container:nth-child(2) > .row:nth-child(n + 2) > .col:nth-child(2) .bounds,
+    schedule-desktop > .container > .row > .col > .container:nth-child(3) > .row:nth-child(n + 2) > .col:nth-child(2) .bounds {
       background-image: linear-gradient(to right, #969696 25%, rgba(255, 255, 255, 0) 0%);
       background-size: 12px 3px; }
 

@@ -32,11 +32,10 @@ var _scope;
             //     }) : JSON.parse(localStorage.getItem('Tumblr'));;
             // }
             TumblrManager.getPosts().then(function (d) {
-                cc.tumblrFeedContent = d;
-                });
-            cc.tumblrFeedContent = $stateParams.tour ? cc.tumblrFeedContent.filter(function (post) {
-                return $stateParams.tour == 'la' ? post.tags.indexOf('losangeles') != -1 : post.tags.indexOf($stateParams.tour) != -1
-            }) : cc.tumblrFeedContent;
+                $stateParams.tour ? cc.tumblrFeedContent = d.filter(function (post) {
+                    return $stateParams.tour == 'la' ? post.tags.indexOf('losangeles') != -1 : post.tags.indexOf($stateParams.tour) != -1
+                }) : cc.tumblrFeedContent = d;
+            });
         }
     }
 })();
