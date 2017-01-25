@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row">
                 <div ng-class="{'override-grayscale': cc.touchScreen}" class="partner" ng-repeat="partner in cc.partnerContent track by $index">
-                    <a href="{{partner.link}}">
+                    <a href="{{partner.link}}" ng-hide="cc.state==='app.tour-stops' && partner.id==='line'">
                         <img ng-click="cc.open(partner.link)" style="height:{{partner.dim}}px;" ng-src="{{partner.img}}" alt="">
                     </a>
                 </div>
