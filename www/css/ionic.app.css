@@ -10724,7 +10724,8 @@ partners > .container {
         width: 100%;
         display: flex;
         flex-flow: row wrap;
-        justify-content: center; }
+        justify-content: center;
+        align-items: center; }
         partners > .container .partner-container .container .row .partner {
           transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
           filter: grayscale(0);

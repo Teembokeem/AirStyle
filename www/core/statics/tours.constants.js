@@ -681,6 +681,12 @@
                             link: 'http://www.theforo.com'
                         },
                         {
+                            id: 'halfpops',
+                            img: 'img/HP_Logo_RGB.png',
+                            // dim: 120,
+                            link: 'https://www.halfpops.com/'
+                        },
+                        {
                             id: 'healthade',
                             img: 'img/healthade.png',
                             // dim: 120,
