@@ -13407,7 +13407,10 @@ schedule-mobile > .container {
         background-color: white;
         padding-left: 0.8em;
         font-size: 18px;
-        padding-top: 0.2em; }
+        padding-top: 0.2em;
+        padding-left: calc(48% - 20px); }
+        schedule-mobile > .container > .row > .col > .container:first-child .select-row .col select option {
+          color: #000; }
       schedule-mobile > .container > .row > .col > .container:first-child .select-row .col i {
         color: black;
         position: absolute;
