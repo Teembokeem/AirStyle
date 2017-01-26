@@ -49,6 +49,12 @@
                                     padding-left: 0.8em;
                                     font-size: 18px;
                                     padding-top: 0.2em;
+                                    //text-align-last: center;
+                                    padding-left: calc(48% - 20px);
+                                    
+                                    option {
+                                        color: #000;
+                                    }
                                 }
                                 i {
                                     color: black;
