@@ -104,6 +104,7 @@ var _posts;
 
         function getPosts() {
             service.Posts = TumblrDispatcher.get().then(transformResponse).then(setPosts);
+            //service.Posts = TumblrDispatcher.getDummy().then(transformResponse).then(setPosts);
             _posts = service.Posts;
             return service.Posts;
         };

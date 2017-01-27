@@ -41,6 +41,8 @@
 
         return service;
 
+
+
         ////////////////
         function format(response) {
             return response.data.response;
@@ -50,9 +52,10 @@
             return $http.get(api, options).then(format);
         }
 
-        function getDummy() {
+        function getDummy() {            
             var deferred = $q.defer();
             deferred.resolve(format(dummy));
+            //deferred.resolve(dummy.response);
             return deferred.promise;
         }
 
