@@ -204,7 +204,7 @@
                             answer: 'No, only at the Aftershow Party'
                         }, {
                             question: 'Is there a timetable for the bands?',
-                            answer: 'Yes.  In our festival program (wie wollt ihr das nennen? Hier stehtFestival program unten program guide? Ich würde das festobal booklet oder festival guide nennen) on the App or on site on the big screens and info boards.'
+                            answer: 'Yes.  In our festival program on the App or on site on the big screens and info boards.'
                         }, {
                             question: 'Where can I find a festival map?',
                             answer: 'In the app or in our progam guide, on site on big screens and info boards.'
