@@ -574,15 +574,34 @@
                                 // dim: 120,
                                 link: 'http://www.theforo.com'
                             }, {
+                                id: 'healthade',
+                                img: 'img/Health_Ade_Master_Logo-03.png',
+                                // dim: 120,
+                                link: 'http://health-ade.com/'
+                            }, {
+                                id: 'justwater',
+                                img: 'img/JUSTWATERlogo.png',
+                                link: 'http://www.justwater.com/'
+                            }, {
                                 id: 'halfpops',
                                 img: 'img/HP_Logo_RGB.png',
                                 // dim: 120,
                                 link: 'https://www.halfpops.com/'
-                            }, {
-                                id: 'healthade',
-                                img: 'img/healthade.png',
+                            },  {
+                                id: 'bear_mountain',
+                                img: 'img/BBMR_Primary_White.png',
                                 // dim: 120,
-                                link: 'http://health-ade.com/'
+                                link: 'https://www.bigbearmountainresort.com'
+                            }, {
+                                id: 'mammoth',
+                                img: 'img/MAMMOTH_PRIMARY_LOGO_white.png',
+                                // dim: 120,
+                                link: 'http://www.mammothmountain.com/'
+                            }, {
+                                id: 'pep_boys',
+                                img: 'img/Pep-Boys-Logo_Blk_Wht_with-Stroke.png',
+                                // dim: 120,
+                                link: 'https://www.pepboys.com/'
                             }, {
                                 id: 'flood',
                                 img: 'img/FLOOD_MAGAZINE_PRESENTS.png',
@@ -603,10 +622,6 @@
                                 img: 'img/vibe.png',
                                 // dim: 120,
                                 link: 'http://www.vibe.com/'
-                            }, {
-                                id: 'justwater',
-                                img: 'img/JUSTWATERlogo.png',
-                                link: 'http://www.justwater.com/'
                             }
                         ],
                         hotel_partners: [{
