@@ -1,17 +1,18 @@
 .live-stream-view {
     ion-content {
         .scroll {
-            > .container {
-                text-align: center; 
+            >.container {
+                text-align: center;
                 &:first-child {
                     padding: 10rem 0.7rem 0 0.7rem;
-                }               
+                }
                 .title-row {
                     margin-bottom: 2rem;
                     .col {
                         span {
                             font-size: 64px;
                             border-bottom: 8px solid $as-yellow;
+                            line-height: 1.5em;
                         }
                     }
                 }
@@ -26,8 +27,8 @@
                     line-height: 30px;
                     text-align: center
                 }
-                &.buttons { 
-                    padding:0;                   
+                &.buttons {
+                    padding: 0;
                     max-width: 900px;
                     margin: 3.5rem auto 0 auto;
                     button {

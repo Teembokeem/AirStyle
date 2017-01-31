@@ -14472,7 +14472,8 @@ rankings-athlete > .container {
     margin-bottom: 2rem; }
     .live-stream-view ion-content .scroll > .container .title-row .col span {
       font-size: 64px;
-      border-bottom: 8px solid #f9fe17; }
+      border-bottom: 8px solid #f9fe17;
+      line-height: 1.5em; }
   .live-stream-view ion-content .scroll > .container .description {
     font-family: 'Apercu';
     font-size: 26px;
