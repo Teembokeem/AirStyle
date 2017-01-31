@@ -42,7 +42,7 @@ nav {
                     background-color: $as-blue;
                 }
             }
-            > img {
+            >img {
                 width: 6vw;
                 min-width: 120px;
                 position: absolute;
@@ -51,7 +51,7 @@ nav {
                 left: 5%;
                 opacity: 0;
             }
-            > img.hover {
+            >img.hover {
                 transform: translateX(25%);
                 opacity: 1;
             }
@@ -129,8 +129,8 @@ nav {
                         .row:first-child {
                             margin-top: 1rem;
                         }
-                        > .row:nth-child(2),
-                        > .row:nth-child(3) {
+                        >.row:nth-child(3),
+                        >.row:nth-child(4) {
                             .col {
                                 span {
                                     // animation-name: slide-left;
@@ -142,14 +142,14 @@ nav {
                                 }
                             }
                         }
-                        > .row:nth-child(2) {
+                        >.row:nth-child(3) {
                             .col {
                                 span {
                                     border-bottom: 3px solid $as-blue;
                                 }
                             }
                         }
-                        > .row:nth-child(3) {
+                        >.row:nth-child(4) {
                             .col {
                                 span {
                                     border-bottom: 3px solid $as-yellow;
@@ -379,7 +379,7 @@ nav {
                             left: -20px;
                             right: -20px;
                             justify-content: center;
-                            min-width: 140px !important;    
+                            min-width: 140px !important;
                             text-align: center;
                             justify-content: center;
                         }
@@ -420,7 +420,7 @@ nav {
                         left: 1.5rem;
                     }
                 }
-                > img {
+                >img {
                     top: 4.8rem;
                 }
             }
@@ -492,7 +492,7 @@ nav {
                         bottom: 1.95rem;
                     }
                 }
-                > img {
+                >img {
                     top: 5.3rem;
                 }
             }
