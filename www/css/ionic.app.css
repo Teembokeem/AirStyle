@@ -10009,13 +10009,13 @@ nav {
             text-decoration: none; }
       nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child .row:first-child {
         margin-top: 1rem; }
-      nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(2) .col span,
-      nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(3) .col span {
+      nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(3) .col span,
+      nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(4) .col span {
         margin-left: 1rem;
         font-size: 1rem; }
-      nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(2) .col span {
-        border-bottom: 3px solid #40caff; }
       nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(3) .col span {
+        border-bottom: 3px solid #40caff; }
+      nav .as-menu mobile-menu ion-content .nav-menu > .container:first-child > .row:nth-child(4) .col span {
         border-bottom: 3px solid #f9fe17; }
       nav .as-menu mobile-menu ion-content .nav-menu > .container:last-child > .row {
         margin-bottom: 3rem; }
@@ -14472,7 +14472,8 @@ rankings-athlete > .container {
     margin-bottom: 2rem; }
     .live-stream-view ion-content .scroll > .container .title-row .col span {
       font-size: 64px;
-      border-bottom: 8px solid #f9fe17; }
+      border-bottom: 8px solid #f9fe17;
+      line-height: 1.5em; }
   .live-stream-view ion-content .scroll > .container .description {
     font-family: 'Apercu';
     font-size: 26px;

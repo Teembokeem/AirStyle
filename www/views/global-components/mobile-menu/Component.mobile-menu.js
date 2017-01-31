@@ -39,46 +39,42 @@
         function stateChange(state, param, val) {
             if (val == 'beijing') {
                 $rootScope.$broadcast('noNav', false);
-                $rootScope.$broadcast('tourStopMenuClose',
-                    {
-                        menu: null,
-                        tour: val
-                    }
-                );
+                $rootScope.$broadcast('tourStopMenuClose', {
+                    menu: null,
+                    tour: val
+                });
                 return $state.go('app.beijing-content');
             } else if (state == 'app.merchandise') {
                 return window.open('https://www.air-style.clothing/')
-            };
-            val ? $state.go(state, { tour: val }) : $state.go(state);
+            } else if (state == 'app.livestream') {
+                $state.go('app.livestream')
+            }
+            val ? $state.go(state, {
+                tour: val
+            }) : $state.go(state);
             $rootScope.$broadcast('noNav', false);
-            $rootScope.$broadcast('tourStopMenuClose',
-                {
-                    menu: null,
-                    tour: val
-                }
-            );
+            $rootScope.$broadcast('tourStopMenuClose', {
+                menu: null,
+                tour: val
+            });
 
         };
 
 
         cc.$onInit = function () {
-            cc.events = [
-                {
-                    name: 'beijing',
-                    date: 'NOV 18 + 19',
-                    ref: 'beijing'
-                },
-                {
-                    name: 'innsbruck',
-                    date: 'FEB 3 + 4',
-                    ref: 'innsbruck'
-                },
-                {
-                    name: 'los angeles',
-                    date: 'FEB 18 + 19',
-                    ref: 'la'
-                }
-            ];
+            cc.events = [{
+                name: 'beijing',
+                date: 'NOV 18 + 19',
+                ref: 'beijing'
+            }, {
+                name: 'innsbruck',
+                date: 'FEB 3 + 4',
+                ref: 'innsbruck'
+            }, {
+                name: 'los angeles',
+                date: 'FEB 18 + 19',
+                ref: 'la'
+            }];
         }
     }
 })();

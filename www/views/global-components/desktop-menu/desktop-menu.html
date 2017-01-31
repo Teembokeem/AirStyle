@@ -1,5 +1,9 @@
 <div class="row">
     <div class="col anchor-pad">
+        <a ng-mouseenter="cc.mouse = true" ng-mouseleave="cc.mouse = false" ng-class="{'hover': cc.mouse}" ng-click="cc.go('live')">LIVE STREAM
+        </a>
+    </div>
+    <div class="col anchor-pad">
         <a ng-mouseover="cc.menus.tours = true">TOUR STOPS
             <span ng-if="cc.venue.title && cc.currentState == 'app.tour-stops'">:<span ng-class="cc.venue.ref"> {{cc.venue.title}}</span></span>
         </a>

@@ -1,61 +1,65 @@
 <!--<div ng-class="{'nav-menu' : !cc.noNav}" class="container">-->
 <!--<ion-content>-->
 <ion-content>
-	<div class="container nav-menu">
-		<div class="container">
-			<div ng-click="cc.toggleCities()" class="row">
-				<div class="col">
-					<span>Tickets</span>
-				</div>
-			</div>
-			<div ng-if="cc.toggledCities" class="row">
-				<div ng-click="cc.buyTickets('innsbruck')" class="col">
-					<span>INNSBRUCK</span>
-				</div>
-			</div>
-			<div ng-if="cc.toggledCities" class="row">
-				<div ng-click="cc.buyTickets('la')" class="col">
-					<span>LOS ANGELES</span>
-				</div>
-			</div>
-			<div class="row">
-				<div ng-click="cc.stateChange('app.rider.all')" class="col">
-					Riders
-				</div>
-			</div>
-			<div class="row">
-				<div ng-click="cc.stateChange('app.rankings')" class="col">
-					Rankings
-				</div>
-			</div>
-			<div class="row">
-				<div ng-click="cc.stateChange('app.merchandise')" class="col">
-					Shop
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<!-- ng-repeat-->
-			<!--<div class="row" ng-repeat="event in cc.events">-->
-			<div class="row" ng-repeat="event in cc.events" ng-click="cc.stateChange('app.tour-stops', 'tour', event.ref)">
-				<div class="col">
-					<div class="container">
-						<div class="row nopad">
-							<div class="col nopad">
-								<span>{{event.name | uppercase}}</span>
-
-							</div>
-						</div>
-						<div class="row nopad">
-							<div class="col nopad">
-								<span>{{event.date}}</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<footer></footer>
+    <div class="container nav-menu">
+        <div class="container">
+            <div class="row">
+                <div ng-click="cc.stateChange('app.livestream')" class="col">
+                    Live Stream
+                </div>
+            </div>
+            <div ng-click="cc.toggleCities()" class="row">
+                <div class="col">
+                    <span>Tickets</span>
+                </div>
+            </div>
+            <div ng-if="cc.toggledCities" class="row">
+                <div ng-click="cc.buyTickets('innsbruck')" class="col">
+                    <span>INNSBRUCK</span>
+                </div>
+            </div>
+            <div ng-if="cc.toggledCities" class="row">
+                <div ng-click="cc.buyTickets('la')" class="col">
+                    <span>LOS ANGELES</span>
+                </div>
+            </div>
+            <div class="row">
+                <div ng-click="cc.stateChange('app.rider.all')" class="col">
+                    Riders
+                </div>
+            </div>
+            <div class="row">
+                <div ng-click="cc.stateChange('app.rankings')" class="col">
+                    Rankings
+                </div>
+            </div>
+            <div class="row">
+                <div ng-click="cc.stateChange('app.merchandise')" class="col">
+                    Shop
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- ng-repeat-->
+            <!--<div class="row" ng-repeat="event in cc.events">-->
+            <div class="row" ng-repeat="event in cc.events" ng-click="cc.stateChange('app.tour-stops', 'tour', event.ref)">
+                <div class="col">
+                    <div class="container">
+                        <div class="row nopad">
+                            <div class="col nopad">
+                                <span>{{event.name | uppercase}}</span>
+                            </div>
+                        </div>
+                        <div class="row nopad">
+                            <div class="col nopad">
+                                <span>{{event.date}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
 </ion-content>
 <!--</ion-content>-->

@@ -44,6 +44,9 @@
             if (id == 'merch') {
                 window.open('https://www.air-style.clothing/')
             }
+            if (id == 'live') {
+                $state.go('app.livestream')
+            }
         }
 
         cc.$onInit = function () {
