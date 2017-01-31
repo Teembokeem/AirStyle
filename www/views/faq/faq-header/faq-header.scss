@@ -1,0 +1,35 @@
+faq-header {
+    > .container {
+        padding-top: 1.5rem;
+        margin-bottom: 3rem;
+        // display: flex;
+        // justify-content: center;
+        text-align: center;
+
+        > .row:first-child {
+
+            width: 100%;
+            > .col {
+                span {
+                    font-size: 38px;
+                    border-bottom: 7px solid $as-green;
+                    padding-bottom: 0.2rem;
+                }
+            }
+        }
+
+        > .row:nth-child(2) {
+            padding-top: 1.5rem;
+            > .col {
+                display: flex;
+                justify-content: center;
+
+                > .container {
+                    > .row:first-child, > .row:nth-child(4) {
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+    }
+}
