@@ -26,13 +26,13 @@
                         stages: [{
                             name: 'Ramp',
                             lineup: [{
-                                name: 'Qualification Men Run 1',
-                                ref: '',
+                                name: 'The Hunna',
+                                ref: 'the-hunna',
                                 time_mult: 20,
-                                time_dur: 4,
+                                time_dur: 2,
                                 time_semantic: '18:00'
                             }, {
-                                name: 'Qualification Men Run 2',
+                                name: 'Qualification Men Run 1',
                                 ref: '',
                                 time_mult: 28,
                                 time_dur: 4,
@@ -41,10 +41,10 @@
                         }, {
                             name: 'Main Stage',
                             lineup: [{
-                                name: 'The Hunna',
-                                ref: 'the-hunna',
+                                name: 'Qualification Men Run 2',
+                                ref: '',
                                 time_mult: 16,
-                                time_dur: 2,
+                                time_dur: 4,
                                 time_semantic: '17:00'
                             }, {
                                 name: 'Millencolin',
@@ -396,6 +396,9 @@
                     }, {
                         question: 'Are there ins and outs?',
                         answer: 'No.'
+                    }, {
+                        question: 'Are there lockers on site?',
+                        answer: 'Yes, you can rent lockers here(http://bit.ly/2jRWyqy) for 1 or 2 days and even get unlimited charging for your mobile device. Pre order now.'
                     }, {
                         question: 'Is there free water?',
                         answer: 'Yes there are water refill stations.'
