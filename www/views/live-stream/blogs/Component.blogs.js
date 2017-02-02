@@ -14,6 +14,9 @@ var _video;
     blogsCtrl.$inject = ['$log', '$state', '$rootScope'];
 
     function blogsCtrl($log, $state, $rootScope) {
-        var cc = this;        
+        var myElement = angular.element(document.querySelector('#living-blog'))[0];
+        var cc = this;
+        console.log("MY ELE", myElement)
+        nmoLiveBlog.renderElement(myElement)
     }
 })();
