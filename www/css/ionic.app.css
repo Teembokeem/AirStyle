@@ -14527,11 +14527,35 @@ rankings-athlete > .container {
   .live-stream-view ion-content .scroll > .container.buttons button {
     font-size: 16px; } }
 
+eversport .title-row {
+  margin-bottom: 3rem;
+  padding-top: 3rem; }
+  eversport .title-row .col {
+    display: flex;
+    justify-content: center; }
+    eversport .title-row .col span {
+      font-size: 48px;
+      border-bottom: 8px solid #f9fe17;
+      padding-bottom: 1rem; }
+
 eversport .video-container {
   margin: 4rem auto 0 auto;
   width: 85%;
-  min-height: 600px;
   background: #555; }
+  eversport .video-container .stream-frame {
+    display: block;
+    margin: 0 auto; }
+
+blogs .title-row {
+  margin-bottom: 3rem;
+  padding-top: 3rem; }
+  blogs .title-row .col {
+    display: flex;
+    justify-content: center; }
+    blogs .title-row .col span {
+      font-size: 48px;
+      border-bottom: 8px solid #f9fe17;
+      padding-bottom: 1rem; }
 
 blogs .blogs-container {
   margin: 3.5rem auto 0 auto;
