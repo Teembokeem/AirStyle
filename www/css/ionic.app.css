@@ -14543,6 +14543,7 @@ eversport .video-container {
   width: 85%;
   background: #555; }
   eversport .video-container .stream-frame {
+    width: 100%;
     display: block;
     margin: 0 auto; }
 
