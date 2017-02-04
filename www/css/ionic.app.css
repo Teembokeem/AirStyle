@@ -14517,10 +14517,15 @@ rankings-athlete > .container {
       color: white;
       transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
       transition-delay: all 1s;
-      margin: 1%; }
+      margin: 1%;
+      vertical-align: top; }
       .live-stream-view ion-content .scroll > .container.buttons button:hover {
         background: #40caff;
         color: #000; }
+
+@media (max-width: 700px) {
+  .live-stream-view ion-content .scroll > .container.buttons button {
+    font-size: 16px; } }
 
 eversport .video-container {
   margin: 4rem auto 0 auto;
