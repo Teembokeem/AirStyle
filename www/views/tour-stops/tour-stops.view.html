@@ -1,7 +1,7 @@
 <ion-view class="tour-stops-view">
     <ion-content delegate-handle="mainScroll" on-scroll="ac.getScroll()" overflow-scroll="true">
         <tour-carousel></tour-carousel>
-        <div class="innsbruck-rankings">
+        <div class="innsbruck-rankings" ng-if="cc.tour.ref == 'innsbruck'">
             <div class="container">
                 <div class="row section-title">
                     <div class="title">
