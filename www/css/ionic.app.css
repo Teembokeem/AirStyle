@@ -13127,6 +13127,11 @@ innsbruck-rankings > .container .more,
       color: black;
       transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
 
+@media (max-width: 600px) {
+  innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3),
+  .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) {
+    flex: unset; } }
+
 @media (min-width: 600px) {
   innsbruck-rankings > .container > .row > .col > .container {
     margin: 1rem; } }
