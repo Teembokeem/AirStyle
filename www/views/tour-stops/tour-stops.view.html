@@ -1,22 +1,32 @@
 <ion-view class="tour-stops-view">
-	<ion-content delegate-handle="mainScroll" on-scroll="ac.getScroll()" overflow-scroll="true">
-		<tour-carousel></tour-carousel>
-		<avatar-panels avatars="cc.avatars" max="6" ref="app.artist" schedule="cc.showSchedule" view="cc.showViewAll" tag="Music From"></avatar-panels>
-		<tumblr-feed></tumblr-feed>
-		<ranking-summary></ranking-summary>
-		<div class="container">
-			<div class="row section-title">
-				<div class="col">
-					<span>2016 HIGHLIGHTS</span>
-				</div>
-			</div>
-		</div>
-		<video-comp video="cc.tour.video"></video-comp>
-		<tour-faq></tour-faq>
-		<download-app></download-app>
-		<partners></partners>
-		<branding></branding>
-		<subscribe></subscribe>
-		<footer></footer>
-	</ion-content>
+    <ion-content delegate-handle="mainScroll" on-scroll="ac.getScroll()" overflow-scroll="true">
+        <tour-carousel></tour-carousel>
+        <div class="innsbruck-rankings">
+            <div class="container">
+                <div class="row section-title">
+                    <div class="title">
+                        <span>FULL RESULTS</span>
+                    </div>
+                </div>
+            </div>
+            <innsbruck-rankings></innsbruck-rankings>
+        </div>
+        <avatar-panels avatars="cc.avatars" max="6" ref="app.artist" schedule="cc.showSchedule" view="cc.showViewAll" tag="Music From"></avatar-panels>
+        <tumblr-feed></tumblr-feed>
+        <ranking-summary></ranking-summary>
+        <div class="container">
+            <div class="row section-title">
+                <div class="col">
+                    <span>2016 HIGHLIGHTS</span>
+                </div>
+            </div>
+        </div>
+        <video-comp video="cc.tour.video"></video-comp>
+        <tour-faq></tour-faq>
+        <download-app></download-app>
+        <partners></partners>
+        <branding></branding>
+        <subscribe></subscribe>
+        <footer></footer>
+    </ion-content>
 </ion-view>
