@@ -640,6 +640,11 @@
                         img: 'img/vibe.png',
                         // dim: 120,
                         link: 'http://www.vibe.com/'
+                    }, {
+                        id: 'skedaddle',
+                        img: 'img/skedaddle.png',
+                        // dim: 120,
+                        link: 'https://www.letskedaddle.com/'
                     }
                     ],
                     hotel_partners: [{
