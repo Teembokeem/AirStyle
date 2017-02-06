@@ -12914,6 +12914,286 @@ beijing-rankings > .container .more {
     beijing-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) {
       min-width: 14rem; } }
 
+.innsbruck-content-view ion-content .scroll {
+  padding-top: 100px; }
+  .innsbruck-content-view ion-content .scroll > .container .section-title {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 58px;
+    padding: 0 25px; }
+    .innsbruck-content-view ion-content .scroll > .container .section-title .title {
+      margin: 0 auto;
+      width: 90.9vw;
+      font-size: 30px;
+      text-align: center; }
+      .innsbruck-content-view ion-content .scroll > .container .section-title .title span {
+        border-bottom: 8px solid #62ff00;
+        font-size: 26px; }
+
+@media (min-width: 420px) {
+  .innsbruck-content-view ion-content .scroll > .container .section-title {
+    padding: 0 37px; } }
+
+@media (min-width: 1024px) {
+  .innsbruck-content-view ion-content .scroll {
+    padding-top: 175px; }
+    .innsbruck-content-view ion-content .scroll > .container .section-title {
+      margin-bottom: 60px; }
+      .innsbruck-content-view ion-content .scroll > .container .section-title .title span {
+        font-size: 55px;
+        position: relative; } }
+
+innsbruck-text .container {
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 3rem; }
+  innsbruck-text .container .row {
+    display: flex;
+    justify-content: center; }
+    innsbruck-text .container .row .col {
+      display: flex;
+      justify-content: center; }
+      innsbruck-text .container .row .col span {
+        font-family: 'Apercu';
+        font-size: 20px; }
+
+innsbruck-rankings .section-title,
+.innsbruck-rankings .section-title {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 58px;
+  margin-bottom: 58px;
+  padding: 0 25px; }
+  innsbruck-rankings .section-title .title,
+  .innsbruck-rankings .section-title .title {
+    margin: 0 auto;
+    width: 90.9vw;
+    font-size: 30px;
+    text-align: center; }
+    innsbruck-rankings .section-title .title span,
+    .innsbruck-rankings .section-title .title span {
+      border-bottom: 8px solid #62ff00;
+      font-size: 26px; }
+
+innsbruck-rankings > .container > .row,
+.innsbruck-rankings > .container > .row {
+  justify-content: center; }
+  innsbruck-rankings > .container > .row > .col,
+  .innsbruck-rankings > .container > .row > .col {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
+    innsbruck-rankings > .container > .row > .col > .container,
+    .innsbruck-rankings > .container > .row > .col > .container {
+      margin-bottom: 1rem;
+      max-width: 300px;
+      flex-flow: row wrap;
+      display: flex; }
+      innsbruck-rankings > .container > .row > .col > .container > .row,
+      .innsbruck-rankings > .container > .row > .col > .container > .row {
+        flex-flow: row wrap;
+        justify-content: center; }
+        innsbruck-rankings > .container > .row > .col > .container > .row > .col:first-child,
+        .innsbruck-rankings > .container > .row > .col > .container > .row > .col:first-child {
+          border: 5px solid;
+          height: 121px;
+          min-width: 90px;
+          padding: 0;
+          overflow: hidden;
+          position: relative; }
+          innsbruck-rankings > .container > .row > .col > .container > .row > .col:first-child img,
+          .innsbruck-rankings > .container > .row > .col > .container > .row > .col:first-child img {
+            width: 100%;
+            height: 100%; }
+        innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2),
+        .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) {
+          background-color: #131313;
+          height: 121px; }
+          innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container,
+          .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container {
+            height: 100%;
+            width: 200px; }
+            innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:first-child,
+            .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:first-child {
+              padding-top: 1rem;
+              margin-bottom: 1rem; }
+              innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:first-child > .col,
+              .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:first-child > .col {
+                padding: 0;
+                justify-content: flex-start;
+                margin-left: 0.5rem; }
+                innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:first-child > .col span,
+                .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:first-child > .col span {
+                  font-size: 22px;
+                  border-bottom: 3px solid #62ff00; }
+            innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2),
+            .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) {
+              margin-bottom: 1rem; }
+              innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) > .col,
+              .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) > .col {
+                padding: 0;
+                justify-content: flex-start;
+                margin-left: 0.5rem; }
+                innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) > .col span,
+                .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) > .col span {
+                  font-size: 22px;
+                  font-weight: bold;
+                  line-height: 1.01;
+                  letter-spacing: 0.1rem;
+                  color: #5f5f5f;
+                  font-family: 'Apercu'; }
+            innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col,
+            .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col {
+              padding: 0;
+              justify-content: flex-start;
+              margin-left: 0.5rem; }
+              innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col span,
+              .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col span {
+                font-family: 'Apercu';
+                font-size: 18px; }
+        innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3),
+        .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) {
+          padding-top: 0.7rem;
+          background-color: #1f1f1f;
+          min-width: 10rem;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container,
+          .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container {
+            display: flex;
+            flex-direction: row-reverse; }
+            innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:first-child,
+            .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:first-child {
+              height: 30px;
+              align-items: center; }
+              innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:first-child .col,
+              .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:first-child .col {
+                display: flex;
+                justify-content: center; }
+                innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:first-child .col span,
+                .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:first-child .col span {
+                  font-size: 20px; }
+            innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:nth-child(2),
+            .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:nth-child(2) {
+              height: 30px;
+              margin-top: 0;
+              align-items: center;
+              margin-right: 1.3rem; }
+              innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:nth-child(2) .col,
+              .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:nth-child(2) .col {
+                text-align: center; }
+                innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:nth-child(2) .col span,
+                .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:nth-child(2) .col span {
+                  font-family: 'Apercu';
+                  font-size: 20px;
+                  font-weight: bold;
+                  letter-spacing: 0.1rem;
+                  color: #5f5f5f; }
+
+innsbruck-rankings > .container .more,
+.innsbruck-rankings > .container .more {
+  margin: 2rem auto;
+  align-content: center;
+  justify-content: center;
+  padding-top: 0.3rem;
+  display: flex;
+  max-width: 260px;
+  position: relative; }
+  innsbruck-rankings > .container .more .col,
+  .innsbruck-rankings > .container .more .col {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    innsbruck-rankings > .container .more .col button,
+    .innsbruck-rankings > .container .more .col button {
+      border: 3px solid;
+      height: 50px;
+      width: 150%;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-family: 'Apercu';
+      transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
+    innsbruck-rankings > .container .more .col button.border-button,
+    .innsbruck-rankings > .container .more .col button.border-button {
+      background-color: white;
+      border: none;
+      color: black;
+      transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1); }
+
+@media (max-width: 600px) {
+  innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3),
+  .innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) {
+    flex: unset; } }
+
+@media (min-width: 600px) {
+  innsbruck-rankings > .container > .row > .col > .container {
+    margin: 1rem; } }
+
+@media (min-width: 950px) {
+  innsbruck-rankings > .container > .row > .col > .container {
+    max-width: none; }
+    innsbruck-rankings > .container > .row > .col > .container > .row {
+      min-width: 10rem;
+      height: 14rem; }
+      innsbruck-rankings > .container > .row > .col > .container > .row > .col {
+        height: 100% !important; }
+      innsbruck-rankings > .container > .row > .col > .container > .row > .col:first-child {
+        max-width: 171px;
+        width: initial; }
+      innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) {
+        max-width: 14rem; }
+        innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:first-child {
+          margin-bottom: 1rem; }
+        innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) {
+          margin-bottom: 1rem; }
+          innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(2) > .col span {
+            font-size: 28px; }
+        innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) > .container > .row:nth-child(3) > .col span {
+          font-size: 20px; }
+      innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) {
+        padding-top: 0;
+        max-width: 10rem;
+        flex-direction: row; }
+        innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container {
+          display: block; }
+          innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:first-child {
+            height: inherit;
+            margin-bottom: 1rem; }
+            innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:first-child > .col span {
+              font-size: 35px; }
+          innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:nth-child(2) {
+            height: inherit;
+            margin-right: 0; }
+            innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) > .container > .row:nth-child(2) > .col span {
+              font-size: 39px; } }
+
+@media (min-width: 1024px) {
+  innsbruck-rankings > .container .section-title,
+  .innsbruck-rankings > .container .section-title {
+    margin-top: 60px;
+    margin-bottom: 60px; }
+    innsbruck-rankings > .container .section-title .title span,
+    .innsbruck-rankings > .container .section-title .title span {
+      font-size: 55px;
+      position: relative; } }
+
+@media (min-width: 1440px) {
+  innsbruck-rankings > .container > .row > .col > .container {
+    padding: 0 10rem; }
+    innsbruck-rankings > .container > .row > .col > .container > .row > .col:first-child {
+      max-width: 250px; }
+    innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(2) {
+      max-width: 14rem; }
+    innsbruck-rankings > .container > .row > .col > .container > .row > .col:nth-child(3) {
+      min-width: 14rem; } }
+
 .line-up-view ion-content .scroll .container .more {
   margin: 2rem auto;
   width: 78%;
@@ -14517,16 +14797,46 @@ rankings-athlete > .container {
       color: white;
       transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
       transition-delay: all 1s;
-      margin: 1%; }
+      margin: 1%;
+      vertical-align: top; }
       .live-stream-view ion-content .scroll > .container.buttons button:hover {
         background: #40caff;
         color: #000; }
 
+@media (max-width: 700px) {
+  .live-stream-view ion-content .scroll > .container.buttons button {
+    font-size: 16px; } }
+
+eversport .title-row {
+  margin-bottom: 3rem;
+  padding-top: 3rem; }
+  eversport .title-row .col {
+    display: flex;
+    justify-content: center; }
+    eversport .title-row .col span {
+      font-size: 48px;
+      border-bottom: 8px solid #f9fe17;
+      padding-bottom: 1rem; }
+
 eversport .video-container {
   margin: 4rem auto 0 auto;
   width: 85%;
-  min-height: 600px;
   background: #555; }
+  eversport .video-container .stream-frame {
+    width: 100%;
+    display: block;
+    margin: 0 auto; }
+
+blogs .title-row {
+  margin-bottom: 3rem;
+  padding-top: 3rem; }
+  blogs .title-row .col {
+    display: flex;
+    justify-content: center; }
+    blogs .title-row .col span {
+      font-size: 48px;
+      border-bottom: 8px solid #f9fe17;
+      padding-bottom: 1rem; }
 
 blogs .blogs-container {
   margin: 3.5rem auto 0 auto;

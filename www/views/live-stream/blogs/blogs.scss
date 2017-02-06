@@ -1,4 +1,17 @@
 blogs {
+    .title-row {
+        margin-bottom: 3rem;
+        padding-top: 3rem;
+        .col {
+            display: flex;
+            justify-content: center;
+            span {
+                font-size: 48px;
+                border-bottom: 8px solid $as-yellow;
+                padding-bottom: 1rem;
+            }
+        }
+    }
     .blogs-container {
         margin: 3.5rem auto 0 auto;
         width: 85%;

@@ -43,9 +43,26 @@
                         transition: all 1s cubic-bezier(0.23, 1.25, 0.375, 1.15);
                         transition-delay: all 1s;
                         margin: 1%;
+                        vertical-align: top;
                         &:hover {
                             background: $as-blue;
                             color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:700px) {
+    .live-stream-view {
+        ion-content {
+            .scroll {
+                >.container {
+                    &.buttons {
+                        button {
+                            font-size: 16px;
                         }
                     }
                 }

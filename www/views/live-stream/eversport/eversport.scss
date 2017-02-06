@@ -1,8 +1,25 @@
 eversport {
+    .title-row {
+        margin-bottom: 3rem;
+        padding-top: 3rem;
+        .col {
+            display: flex;
+            justify-content: center;
+            span {
+                font-size: 48px;
+                border-bottom: 8px solid $as-yellow;
+                padding-bottom: 1rem;
+            }
+        }
+    }
     .video-container {
         margin: 4rem auto 0 auto;
         width: 85%;
-        min-height: 600px;
         background: #555;
+        .stream-frame {
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
     }
 }

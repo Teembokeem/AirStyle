@@ -17,7 +17,6 @@ $dark:                            #444 !default;
 
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
-
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 @import "www/css/style";
@@ -52,6 +51,9 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 @import "www/views/beijing-content/beijing-content";
 @import "www/views/beijing-content/beijing-text/beijing-text";
 @import "www/views/beijing-content/beijing-rankings/beijing-rankings";
+@import "www/views/innsbruck-content/innsbruck-content";
+@import "www/views/innsbruck-content/innsbruck-text/innsbruck-text";
+@import "www/views/innsbruck-content/innsbruck-rankings/innsbruck-rankings";
 @import "www/views/lineup/lineup";
 @import "www/views/lineup/lineup-carousel/lineup-carousel";
 @import "www/views/schedule/schedule-desktop/schedule-desktop";
