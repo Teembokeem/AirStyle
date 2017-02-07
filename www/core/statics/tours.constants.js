@@ -144,9 +144,7 @@
                                 time_semantic: '17:45'
                             }]
                         },]
-                    }
-
-                    ],
+                    }],
                     afterparty: {
                         date: 'Sat Feb 4',
                         stage: 'Indoor Stage',
@@ -373,6 +371,193 @@
                     dest: 'app.tour-stops',
                     video: 'https://www.youtube.com/embed/gi_iUovqnjI?&theme=dark&autohide=2&showinfo=0',
                     city_block_image: '../img/la_city_block.jpg',
+                    schedule: [{
+                        date: 'Sat Feb 18',
+                        stages: [{
+                            name: 'Ramp',
+                            lineup: [{
+                                name: 'Qualification Run 1',
+                                ref: '',
+                                time_mult: 25,
+                                time_dur: 3,
+                                time_semantic: '7:15'
+                            }, {
+                                name: 'Qualification Run 2',
+                                ref: '',
+                                time_mult: 34,
+                                time_dur: 3,
+                                time_semantic: '9:15'
+                            },]
+                        }, {
+                            name: 'Winter Stage',
+                            lineup: [{
+                                name: 'RKCB',
+                                ref: 'rkcb',
+                                time_mult: 8,
+                                time_dur: 3,
+                                time_semantic: '3:00'
+                            }, {
+                                name: 'The Shelters',
+                                ref: 'the-shelters',
+                                time_mult: 14,
+                                time_dur: 3,
+                                time_semantic: '4:30'
+                            }, {
+                                name: 'Atmosphere',
+                                ref: 'atmosphere',
+                                time_mult: 20,
+                                time_dur: 4,
+                                time_semantic: '6:00'
+                            }, {
+                                name: 'Chromeo',
+                                ref: 'chromeo',
+                                time_mult: 28,
+                                time_dur: 4,
+                                time_semantic: '8:00'
+                            }, {
+                                name: 'Flume',
+                                ref: 'flume',
+                                time_mult: 36,
+                                time_dur: 5,
+                                time_semantic: '10:00'
+                            }]
+                        }, {
+                            name: 'Summer Stage',
+                            lineup: [{
+                                name: 'Maybird',
+                                ref: 'maybird',
+                                time_mult: 6,
+                                time_dur: 2,
+                                time_semantic: '2:30'
+                            }, {
+                                name: 'PHANTOMS',
+                                ref: 'phantoms',
+                                time_mult: 11,
+                                time_dur: 3,
+                                time_semantic: '3:45'
+                            }, {
+                                name: 'St Lucia',
+                                ref: 'st-lucia',
+                                time_mult: 17,
+                                time_dur: 3,
+                                time_semantic: '5:15'
+                            }, {
+                                name: 'Vic Mensa',
+                                ref: 'vic-mensa',
+                                time_mult: 24,
+                                time_dur: 4,
+                                time_semantic: '7:00'
+                            }, {
+                                name: 'Vince Staples',
+                                ref: 'vince-staples',
+                                time_mult: 32,
+                                time_dur: 4,
+                                time_semantic: '9:00'
+                            }]
+                        }]
+                    }, {
+                        date: 'Sun Feb 19',
+                        stages: [{
+                            name: 'Ramp',
+                            lineup: [{
+                                name: 'Semifinals Run 1',
+                                ref: '',
+                                time_mult: 18,
+                                time_dur: 2,
+                                time_semantic: '5:30'
+                            }, {
+                                name: 'Semifinals Run 2 & 3',
+                                ref: '',
+                                time_mult: 24,
+                                time_dur: 4,
+                                time_semantic: '7:00'
+                            }, {
+                                name: 'Superfinal Run 1-3',
+                                ref: '',
+                                time_mult: 33,
+                                time_dur: 3,
+                                time_semantic: '9:15'
+                            }, {
+                                name: 'Award Ceremony',
+                                ref: '',
+                                time_mult: 36,
+                                time_dur: 2,
+                                time_semantic: '10:00'
+                            },]
+                        }, {
+                            name: 'Winter Stage',
+                            lineup: [{
+                                name: 'Seb Isaac',
+                                ref: '',
+                                time_mult: 4,
+                                time_dur: 2,
+                                time_semantic: '2:10'
+                            }, {
+                                name: 'POWERS',
+                                ref: 'powers',
+                                time_mult: 8,
+                                time_dur: 3,
+                                time_semantic: '3:00'
+                            }, {
+                                name: 'Marian Hill',
+                                ref: 'marian-hill',
+                                time_mult: 14,
+                                time_dur: 3,
+                                time_semantic: '4:30'
+                            }, {
+                                name: 'TV on the Radio',
+                                ref: 'tv-on-the-radio',
+                                time_mult: 20,
+                                time_dur: 4,
+                                time_semantic: '6:00'
+                            }, {
+                                name: 'YG',
+                                ref: 'yg',
+                                time_mult: 28,
+                                time_dur: 4,
+                                time_semantic: '8:00'
+                            }, {
+                                name: 'Major Lazer',
+                                ref: 'major-lazer',
+                                time_mult: 37,
+                                time_dur: 5,
+                                time_semantic: '10:15'
+                            }]
+                        }, {
+                            name: 'Summer Stage',
+                            lineup: [{
+                                name: '070 Shake',
+                                ref: '070-shake',
+                                time_mult: 6,
+                                time_dur: 2,
+                                time_semantic: '2:30'
+                            }, {
+                                name: 'XYLO',
+                                ref: 'xylo',
+                                time_mult: 11,
+                                time_dur: 3,
+                                time_semantic: '3:45'
+                            }, {
+                                name: 'RUSS',
+                                ref: 'russ',
+                                time_mult: 17,
+                                time_dur: 3,
+                                time_semantic: '5:15'
+                            }, {
+                                name: 'Louis the Child',
+                                ref: 'louis-the-child',
+                                time_mult: 24,
+                                time_dur: 4,
+                                time_semantic: '7:00'
+                            }, {
+                                name: 'Zhu',
+                                ref: 'Zhu',
+                                time_mult: 32,
+                                time_dur: 5,
+                                time_semantic: '9:00'
+                            }]
+                        },]
+                    }],
                     faq_general: [{
                         question: 'Which bands/artists will be playing each day?',
                         answer: 'TBA'
