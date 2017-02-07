@@ -6,7 +6,7 @@
         .constant('Carousel', function (viewArg) {
             var slides = {
                 'la': {
-                    schedule: false,
+                    schedule: true,
                     slide: {
                         title: 'LOS ANGELES TICKETS',
                         content: 'ON SALE NOW',
@@ -45,7 +45,7 @@
                             },
                             {
                                 label: 'SCHEDULE',
-                                disabled: true,
+                                disabled: false,
                                 outbound: false,
                                 dest: 'app.schedule'
                             }
