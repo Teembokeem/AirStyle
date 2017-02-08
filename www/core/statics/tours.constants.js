@@ -796,6 +796,11 @@
                         // dim: 120,
                         link: 'https://www.pepboys.com/'
                     }, {
+                        id: 'techron',
+                        img: 'img/Techron_Logo_White.png',
+                        // dim: 120,
+                        link: 'http://www.techron.com/'
+                    }, {
                         id: 'extra_mile',
                         img: 'img/EM full color flat.png',
                         // dim: 120,
