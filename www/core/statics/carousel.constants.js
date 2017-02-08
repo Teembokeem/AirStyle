@@ -55,8 +55,8 @@
                 'innsbruck': {
                     schedule: true,
                     slide: {
-                        title: 'INNSBRUCK -TIROL TICKETS',
-                        content: 'ON SALE NOW',
+                        title: 'INNSBRUCK -TIROL',
+                        content: 'FULL RESULTS',
                         buttons: [
                             {
                                 label: 'Learn More',
@@ -64,10 +64,16 @@
                                 tour: 'innsbruck',
                                 dest: 'app.tour-stops'
                             },
+                            // {
+                            //     label: 'Buy Now',
+                            //     outbound: false,
+                            //     dest: 'app.ticket'
+                            // },
                             {
-                                label: 'Buy Now',
+                                label: 'RESULTS',
                                 outbound: false,
-                                dest: 'app.ticket'
+                                tour: 'innsbruck',
+                                dest: 'app.tour-stops'
                             }
                         ],
                         image: 'img/slide1.jpg'
@@ -81,10 +87,16 @@
                         ],
                         date: 'FRI 3 + SAT 4 FEBRUARY 2017 - OLYMPIAWORLD INNSBRUCK',
                         buttons: [
+                            // {
+                            //     label: 'BUY NOW',
+                            //     outbound: false,
+                            //     dest: 'app.ticket'
+                            // },
                             {
-                                label: 'BUY NOW',
+                                label: 'RESULTS',
                                 outbound: false,
-                                dest: 'app.ticket'
+                                tour: 'innsbruck',
+                                dest: 'app.tour-stops'
                             },
                             {
                                 label: 'SCHEDULE',
