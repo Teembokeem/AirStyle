@@ -28,7 +28,7 @@
 
         cc.$onInit = function () {
 
-            cc.riders = [Riders('Markus-Kleveland'), Riders('Sebastien-Toutant'), Riders('Darcy-Sharpe')];
+            cc.riders = [Riders('Markus-Kleveland'), Riders('Sebastien-Toutant'), Riders('Michael-Ciccarelli')];
         }
     }
 })();
