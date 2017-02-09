@@ -1,3 +1,4 @@
+var _pdf;
 (function () {
     'use strict';
     angular.module('Template')
@@ -11,13 +12,14 @@
             controllerAs: 'cc'
         })
 
-    FaqItemCtrl.$inject = ['$log'];
+    FaqItemCtrl.$inject = ['$log', '$scope', '$rootScope'];
 
-    function FaqItemCtrl($log) {
+    function FaqItemCtrl($log, $scope, $rootScope) {
         var cc = this;
         cc.showContent = -1;
 
         cc.$onInit = function () {
+
         }
     }
 })();

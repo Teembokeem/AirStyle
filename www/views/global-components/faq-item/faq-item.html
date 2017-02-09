@@ -23,6 +23,7 @@
             <div class="col">
                 <!-- <span>{{cc.question.answer}}</span> -->
                 <span ng-bind-html="cc.question.answer"></span>
+                <a ng-if="cc.question.hasPdf" ng-bind-html="cc.question.link" href="../docs/{{cc.question.pdf}}" target="_blank"></a>
             </div>
         </div>
     </div>

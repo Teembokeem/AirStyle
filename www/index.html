@@ -82,6 +82,7 @@
     <script src="views/global-components/header-notification/Component.header-notification.js"></script>
     <script src="views/global-components/preloader/Component.preloader.js"></script>
     <script src="views/global-components/popup-notification/Component.popup-notification.js"></script>
+    <script src="views/global-components/pdf/Component.pdf.js"></script>
     <!-- HOME -->
     <script src="views/home/Module.home.view.js"></script>
     <script src="views/home/Controller.home.view.js"></script>
@@ -167,14 +168,13 @@
             a.src = g;
             m.parentNode.insertBefore(a, m)
         })
-        (window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            (window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
         ga('create', 'UA-87116793-1', 'auto');
         ga('create', 'UA-69578166-1', 'auto', 'newTracker');
 
         ga('send', 'pageview');
         ga('newTracker.send', 'pageview');
-
     </script>
     <script>
         ! function (f, b, e, v, n, t, s) {
@@ -193,11 +193,10 @@
             t.src = v;
             s = b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t, s)
-        }(window,
+        } (window,
             document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '516517678502187'); // Insert your pixel ID here.
         fbq('track', 'PageView');
-
     </script>
     <noscript>
         <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=516517678502187&ev=PageView&noscript=1"

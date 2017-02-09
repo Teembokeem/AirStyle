@@ -567,7 +567,7 @@
                         main: true
                     }, {
                         question: ' Is Air + Style 2017 Fest all ages?',
-                        answer: 'Yes, it’s an All Ages show. Children under 6 are free',
+                        answer: 'Yes, it’s an All Ages show. Ages 10 and under are free',
                         main: true
                     }, {
                         question: 'What time does the festival start?',
@@ -578,6 +578,12 @@
                         answer: 'Yes, our official hotel partner is with The Line Hotel located at 3515 Wilshire Blvd Los Angeles, CA 90010. They are offering courtesy rates of $199 King, $219 Double, $219 Hollywood Hills View King , $239 Hollywood Hills View Double' +
                         '<br><br><a href="https://gc.synxis.com/rez.aspx?Hotel=68711&Chain=17841&arrive=2/15/2017&depart=2/20/2017&adult=1&child=0&group=170215AIRS_001" target="_blank">Click here</a> to book the special courtesy rates.',
                         main: true
+                    }, {
+                        question: 'Is this festival ADA approved?',
+                        answer: 'Yes, for all info regarding wheelchair accessibility, service animals, and anything else you may need to know, ',
+                        hasPdf: true,
+                        link: '[click here]',
+                        pdf: 'AirandStyleADAInformation.pdf'
                     }, {
                         question: 'Are there ins and outs?',
                         answer: 'No.'
@@ -648,9 +654,6 @@
                     }, {
                         question: "How do I update/change my email or billing address?",
                         answer: 'http://support.frontgatetickets.com/ Contact Front Gate: 888.512.SHOW (7469) Info@fontgatetickets.com'
-                    }, {
-                        question: "Can I use my 2 day pass on Saturday and give it to someone else on Sunday?",
-                        answer: "Because we're using digital tickets, we don't really have a way to police someone sending their pass to someone else. I guess that's your call."
                     }, {
                         question: "I didn't receive a confirmation of my purchase.",
                         answer: "http://support.frontgatetickets.com/ Contact Front Gate: 888.512.SHOW (7469) Info@fontgatetickets.com"
