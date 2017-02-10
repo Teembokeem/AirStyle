@@ -47,6 +47,7 @@
                                 label: 'SCHEDULE',
                                 disabled: false,
                                 outbound: false,
+                                tour: 'la',
                                 dest: 'app.schedule'
                             }
                         ]
@@ -101,6 +102,7 @@
                             {
                                 label: 'SCHEDULE',
                                 outbound: false,
+                                tour: 'innsbruck',
                                 dest: 'app.schedule'
                             }
                         ]

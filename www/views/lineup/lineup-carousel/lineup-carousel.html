@@ -23,7 +23,7 @@
                             <div class="row">
                                 <div class="col">
                                     <!--<button ng-repeat="button in cc.slideContent.buttons" ui-sref="{{button.dest}}">{{button.label}}</button>-->
-                                    <button ng-repeat="button in cc.slideContent.buttons" ng-click="button.outbound ? cc.go(button.dest) : cc.stateChange(button.dest)">{{button.label}}</button>
+                                    <button ng-repeat="button in cc.slideContent.buttons" ng-click="button.outbound ? cc.go(button.dest) : cc.stateChange(button.dest, button.tour)">{{button.label}}</button>
                                 </div>
                             </div>
                         </div>
