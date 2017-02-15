@@ -21,7 +21,9 @@
 
         function stateChange(ref) {
             if (ref) {
-                return $state.go('app.artist', { avatar: ref });
+                return $state.go('app.artist', {
+                    avatar: ref
+                });
             };
             $state.go('app.rider.all');
         }
@@ -40,8 +42,7 @@
         }, function (a, b, c) {
             if (800 < a < 850) {
                 // shifter = 70;
-            } else if (850 < a < 900) {
-            }
+            } else if (850 < a < 900) {}
 
         })
 

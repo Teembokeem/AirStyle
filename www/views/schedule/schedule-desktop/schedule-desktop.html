@@ -28,7 +28,7 @@
                 </div>
                 <div ng-repeat="time in cc.timeSlots" class="row">
                     <div class="col">
-                        <span class="header-footer" ng-if="$index == 0 || $last">{{$index == 0 ? 'Doors Open' : $last ? 'Doors Close' : ''}}</span>
+                        <span class="header-footer" ng-if="$index == 1 || $last">{{$index == 1 ? 'Doors Open' : $last ? 'Doors Close' : ''}}</span>
                         <span ng-class="{'time': $index != 0 && !$last }">{{time | uppercase}}</span>
                     </div>
                     <div class="col">
