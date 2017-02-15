@@ -10,9 +10,9 @@
             controllerAs: 'cc'
         })
 
-    scheduleMobileCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', 'Tours', '$stateParams'];
+    scheduleMobileCtrl.$inject = ['$log', '$rootScope', '$window', '$scope', 'Tours', '$stateParams', '$state'];
 
-    function scheduleMobileCtrl($log, $rootScope, $window, $scope, Tours, $stateParams) {
+    function scheduleMobileCtrl($log, $rootScope, $window, $scope, Tours, $stateParams, $state) {
         var cc = this;
 
         cc.timeSlots = ['1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm', '9pm', '10pm', '11pm'];
@@ -22,6 +22,17 @@
         cc.go = function (link) {
             window.open(link);
         };
+
+        cc.stateChange = stateChange;
+
+        function stateChange(ref) {
+            if (ref) {
+                return $state.go('app.artist', {
+                    avatar: ref
+                });
+            };
+            $state.go('app.rider.all');
+        }
 
         cc.changeStage = function () {};
 
