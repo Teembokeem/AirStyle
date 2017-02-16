@@ -224,7 +224,7 @@
                             'He might still be a teenager, but Boris is impressive as all hell. The young French rider has been ripping at many big events over the past few years, quickly making a name for himself. At just 15 years old, Boris went all the way to the finals at the O’Neill Evolution Big Air Contest in Davos, Switzerland, and he’s been on the podium on many other events, often finishing higher than established pros. Boris loves to ride rails and is equally good in the half pipe. He’s got some heavy stunts in his arsenal!'
                         ],
                         ref: 'Boris-Mouton',
-                        img_portrait: 'img/loRiders/anon.jpg',
+                        img_portrait: 'img/loRiders/Boris-Mouton.jpg',
                         tweet: 'https://twitter.com/borismouton',
                         fb: 'https://www.facebook.com/BorisMouton/',
                         inst: 'https://www.instagram.com/borismouton/',
