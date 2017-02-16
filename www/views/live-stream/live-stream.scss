@@ -16,9 +16,20 @@
                         }
                     }
                 }
-                .description {
+                .header {
                     font-family: 'Apercu';
                     font-size: 26px;
+                    text-transform: uppercase;
+                    color: white;
+                    font-weight: bold;
+                    max-width: 701px;
+                    margin: .4rem auto 0 auto;
+                    line-height: 30px;
+                    text-align: center
+                }
+                .description {
+                    font-family: 'Apercu';
+                    font-size: 22px;
                     text-transform: uppercase;
                     color: #888;
                     font-weight: bold;
