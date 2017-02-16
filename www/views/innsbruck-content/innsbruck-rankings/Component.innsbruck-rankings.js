@@ -28,12 +28,13 @@ var _riders;
         cc.$onInit = function () {
             var riders = Riders('all');
             var sortedRiders = riders.filter(function (rider) {
-                return rider.scores['2017'] ? rider.scores['2017'].innsbruck.score != 'N/A' : false;
+                console.log(rider.scores['2017'].innsbruck.score_trick)
+                return rider.scores['2017'] ? rider.scores['2017'].innsbruck.score_trick != null || undefined : false;
             });
 
-            // console.log(sortedRiders)
+            console.log(sortedRiders)
             sortedRiders = sortedRiders.sort(function (a, b) {
-                return b.scores['2017'].innsbruck.score - a.scores['2017'].innsbruck.score
+                return b.scores['2017'].innsbruck.score_trick - a.scores['2017'].innsbruck.score_trick
             });
 
 
