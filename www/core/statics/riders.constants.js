@@ -202,7 +202,8 @@
                                     score: 'N/A'
                                 },
                                 innsbruck: {
-                                    score: '69.34'
+                                    score: '69.34',
+                                    score_trick: '147.66'
                                 },
                                 la: {
                                     score: 'N/A'
@@ -2022,7 +2023,8 @@
                                     score: '100.00'
                                 },
                                 innsbruck: {
-                                    score: '92.45'
+                                    score: '92.45',
+                                    score_trick: '179.99'
                                 },
                                 la: {
                                     score: 'N/A'
@@ -2127,7 +2129,8 @@
                                     score: '13.45'
                                 },
                                 innsbruck: {
-                                    score: '100.00'
+                                    score: '100.00',
+                                    score_trick: '184.32'
                                 },
                                 la: {
                                     score: 'N/A'
@@ -2327,7 +2330,8 @@
                                     score: '60.68'
                                 },
                                 innsbruck: {
-                                    score: '79.70'
+                                    score: '79.70',
+                                    score_trick: '161.99'
                                 },
                                 la: {
                                     score: 'N/A'
@@ -3042,6 +3046,105 @@
                             }
                         }
                     },
+                    'Rowan-Coultas': {
+                        name: {
+                            first: 'Rowan',
+                            last: 'Coultas'
+                        },
+                        nation: 'N/A',
+                        sponsors: [],
+                        homeBase: 'N/A',
+                        dob: '',
+                        stance: '',
+                        bio: [],
+                        ref: 'Rowan-Coultas',
+                        img_portrait: 'img/loRiders/anon.jpg',
+                        tweet: '',
+                        fb: '',
+                        inst: '',
+                        youtube: '',
+                        video: '',
+                        scores: {
+                            '2011': {
+                                beijing: {
+                                    score: 'N/A'
+                                },
+                                innsbruck: {
+                                    score: 'N/A'
+                                },
+                                la: {
+                                    score: 'N/A'
+                                }
+                            },
+                            '2012': {
+                                beijing: {
+                                    score: 'N/A'
+                                },
+                                innsbruck: {
+                                    score: 'N/A'
+                                },
+                                la: {
+                                    score: 'N/A'
+                                }
+                            },
+                            '2013': {
+                                beijing: {
+                                    score: 'N/A'
+                                },
+                                innsbruck: {
+                                    score: 'N/A'
+                                },
+                                la: {
+                                    score: 'N/A'
+                                }
+                            },
+                            '2014': {
+                                beijing: {
+                                    score: 'N/A'
+                                },
+                                innsbruck: {
+                                    score: 'N/A'
+                                },
+                                la: {
+                                    score: 'N/A'
+                                }
+                            },
+                            '2015': {
+                                beijing: {
+                                    score: 'N/A'
+                                },
+                                innsbruck: {
+                                    score: 'N/A'
+                                },
+                                la: {
+                                    score: 'N/A'
+                                }
+                            },
+                            '2016': {
+                                beijing: {
+                                    score: 'N/A'
+                                },
+                                innsbruck: {
+                                    score: 'N/A'
+                                },
+                                la: {
+                                    score: 'N/A'
+                                }
+                            },
+                            '2017': {
+                                beijing: {
+                                    score: 'N/A'
+                                },
+                                innsbruck: {
+                                    score: 'N/A',
+                                    score_trick: '160.66'
+                                },
+                                la: {
+                                    score: 'N/A'
+                                }
+                            }
+                        }
+                    },
                     'Ryan-Stassel': {
                         name: {
                             first: 'Ryan',
@@ -3342,7 +3445,8 @@
                                     score: '92.45'
                                 },
                                 innsbruck: {
-                                    score: '64.83'
+                                    score: '64.83',
+                                    score_trick: '122.33'
                                 },
                                 la: {
                                     score: 'N/A'
@@ -3761,7 +3865,8 @@
                                     score: 'N/A'
                                 },
                                 innsbruck: {
-                                    score: '85.73'
+                                    score: '85.73',
+                                    score_trick: '176.33'
                                 },
                                 la: {
                                     score: 'N/A'
@@ -3969,7 +4074,8 @@
                                     score: '25.16'
                                 },
                                 innsbruck: {
-                                    score: '60.68'
+                                    score: '60.68',
+                                    score_trick: '64.99'
                                 },
                                 la: {
                                     score: 'N/A'
