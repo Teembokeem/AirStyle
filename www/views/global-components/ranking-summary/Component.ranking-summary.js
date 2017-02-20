@@ -21,14 +21,16 @@
         cc.borderButtonHover = false;
 
         function stateChange(state, val) {
-            val ? $state.go(state, { avatar: val }) : $state.go(state);
+            val ? $state.go(state, {
+                avatar: val
+            }) : $state.go(state);
         }
 
 
 
         cc.$onInit = function () {
 
-            cc.riders = [Riders('Markus-Kleveland'), Riders('Sebastien-Toutant'), Riders('Michael-Ciccarelli')];
+            cc.riders = [Riders('Markus-Kleveland'), Riders('Sebastien-Toutant'), Riders('Max-Parrot')];
         }
     }
 })();

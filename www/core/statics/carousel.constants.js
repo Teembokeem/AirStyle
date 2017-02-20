@@ -9,18 +9,17 @@
                     schedule: true,
                     slide: {
                         title: 'LOS ANGELES TICKETS',
-                        content: 'ON SALE NOW',
-                        buttons: [
-                            {
+                        content: 'FULL RESULTS',
+                        buttons: [{
                                 label: 'Learn More',
                                 outbound: false,
                                 tour: 'la',
                                 dest: 'app.tour-stops'
                             },
                             {
-                                label: 'Buy Now',
-                                outbound: true,
-                                dest: 'https://airandstyle.frontgatetickets.com/'
+                                label: 'Results',
+                                outbound: false,
+                                dest: 'app.tour-stops'
                             }
                         ],
                         image: 'img/slide2.jpg'
@@ -37,11 +36,10 @@
                         plus: '../img/plus.png',
                         content: "THE WORLD’S BEST SNOWBOARDERS COMPETING ON A 16-STORY JUMP",
                         date: 'FEBRUARY 18 + 19 2017 - EXPOSITION PARK DTLA',
-                        buttons: [
-                            {
-                                label: 'BUY NOW',
-                                outbound: true,
-                                dest: 'https://airandstyle.frontgatetickets.com/'
+                        buttons: [{
+                                label: 'RESULTS',
+                                outbound: false,
+                                dest: 'app.tour-stops'
                             },
                             {
                                 label: 'SCHEDULE',
@@ -58,8 +56,7 @@
                     slide: {
                         title: 'INNSBRUCK -TIROL',
                         content: 'FULL RESULTS',
-                        buttons: [
-                            {
+                        buttons: [{
                                 label: 'Learn More',
                                 outbound: false,
                                 tour: 'innsbruck',

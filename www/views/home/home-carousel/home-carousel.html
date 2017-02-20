@@ -1,71 +1,71 @@
 <div class="container nopad">
-	<div class="row nopad">
-		<div class="col nopad">
-			<ion-slide-box delegate-handle="carousel" pager-click="cc.moveSlide(index)" auto-play="true" slide-interval="6000" does-continue="true">
-				<!--<ion-slide-box delegate-handle="carousel" pager-click="cc.moveSlide(index)">-->
-				<ion-slide class="la-lineup">
-					<div class="container">
-						<div class="title-container container">
-							<div ng-repeat="lineupSegment in cc.customSlide.lineup" class="row title">
-								<div class="col">
-									<span ng-repeat="artist in lineupSegment">{{artist}} <span class="blue-dot">{{$index == lineupSegment.length - 1 ? '' : '.'}} </span></span>
-								</div>
-							</div>
-						</div>
-						<div class="row plus">
-							<div class="col">
-								<button ng-mouseover="cc.borderButtonHover = 'left'" ng-mouseleave="cc.borderButtonHover = 'null'" ng-class="{'border-button': cc.borderButtonHover === 'left'}"
-									class="left"><a href="javascript:void(0)" ng-click="cc.exploreLearnMore()">LEARN MORE</a></button>
-								<img ng-src="{{cc.customSlide.plus}}" alt="">
-								<button ng-mouseover="cc.borderButtonHover = 'right'" ng-mouseleave="cc.borderButtonHover = 'null'" ng-class="{'border-button': cc.borderButtonHover === 'right'}"
-									class="right"><a href="https://airandstyle.frontgatetickets.com/">BUY NOW</a></button>
-							</div>
-						</div>
-						<div class="row content">
-							<div class="col">
-								<p>{{cc.customSlide.content}}</p>
-							</div>
-						</div>
-						<div class="row date">
-							<div class="col">
-								<span>{{cc.customSlide.date | uppercase}}</span>
-							</div>
-						</div>
-					</div>
-					<img ng-if="!cc.mobile" class="shape" src="../img/line.png" alt="">
-					<img ng-if="!cc.mobile" class="shape" src="../img/rectangle.png" alt="">
-					<img ng-if="!cc.mobile" class="shape" src="../img/half-plus.png" alt="">
-					<img ng-if="!cc.mobile" class="shape" src="../img/s.png" alt="">
-					<img ng-if="!cc.mobile" class="shape" src="../img/l.png" alt="">
-					<img ng-if="!cc.mobile" class="shape" src="../img/lines.png" alt="">
-					<img ng-if="!cc.mobile" class="shape" src="../img/triangle.png" alt="">
-					<img ng-if="!cc.mobile" class="shape" src="../img/green-line.png" alt="">
-					<img ng-if="!cc.mobile" class="shape" src="../img/other-line.png" alt="">
-					<img ng-if="!cc.mobile" class="shape" src="../img/hollow-rectangle.png" alt="">
-				</ion-slide>
-				<ion-slide ng-repeat="slide in cc.slideContent">
-					<div class="hero-image" style="background: url({{slide.image}})"></div>
-<div class="darken"></div>
-<div class="container">
-	<div class="row nopad title">
-		<div class="col nopad">
-			<span>{{slide.title}}</span>
-		</div>
-	</div>
-	<div class="row content">
-		<div class="col">
-			<span class="sale">{{slide.content}}</span>
-		</div>
-	</div>
-	<div class="row buttons nopad">
-		<div class="col nopad">
-			<!--<button ng-repeat="button in slide.buttons" ui-sref="{{button.dest}}">{{button.label}}</button>-->
-			<button ng-repeat="button in slide.buttons" ng-click="cc.go(button)">{{button.label}}</button>
-		</div>
-	</div>
-</div>
-</ion-slide>
-</ion-slide-box>
-</div>
-</div>
+    <div class="row nopad">
+        <div class="col nopad">
+            <ion-slide-box delegate-handle="carousel" pager-click="cc.moveSlide(index)" auto-play="true" slide-interval="6000" does-continue="true">
+                <!--<ion-slide-box delegate-handle="carousel" pager-click="cc.moveSlide(index)">-->
+                <ion-slide class="la-lineup">
+                    <div class="container">
+                        <div class="title-container container">
+                            <div ng-repeat="lineupSegment in cc.customSlide.lineup" class="row title">
+                                <div class="col">
+                                    <span ng-repeat="artist in lineupSegment">{{artist}} <span class="blue-dot">{{$index == lineupSegment.length - 1 ? '' : '.'}} </span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row plus">
+                            <div class="col">
+                                <button ng-mouseover="cc.borderButtonHover = 'left'" ng-mouseleave="cc.borderButtonHover = 'null'" ng-class="{'border-button': cc.borderButtonHover === 'left'}"
+                                    class="left"><a href="javascript:void(0)" ng-click="cc.exploreLearnMore()">LEARN MORE</a></button>
+                                <img ng-src="{{cc.customSlide.plus}}" alt="">
+                                <button ng-mouseover="cc.borderButtonHover = 'right'" ng-mouseleave="cc.borderButtonHover = 'null'" ng-class="{'border-button': cc.borderButtonHover === 'right'}"
+                                    class="right"><a href="javascript:void(0)" ng-click="cc.exploreLearnMore()">RESULTS</a></button>
+                            </div>
+                        </div>
+                        <div class="row content">
+                            <div class="col">
+                                <p>{{cc.customSlide.content}}</p>
+                            </div>
+                        </div>
+                        <div class="row date">
+                            <div class="col">
+                                <span>{{cc.customSlide.date | uppercase}}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <img ng-if="!cc.mobile" class="shape" src="../img/line.png" alt="">
+                    <img ng-if="!cc.mobile" class="shape" src="../img/rectangle.png" alt="">
+                    <img ng-if="!cc.mobile" class="shape" src="../img/half-plus.png" alt="">
+                    <img ng-if="!cc.mobile" class="shape" src="../img/s.png" alt="">
+                    <img ng-if="!cc.mobile" class="shape" src="../img/l.png" alt="">
+                    <img ng-if="!cc.mobile" class="shape" src="../img/lines.png" alt="">
+                    <img ng-if="!cc.mobile" class="shape" src="../img/triangle.png" alt="">
+                    <img ng-if="!cc.mobile" class="shape" src="../img/green-line.png" alt="">
+                    <img ng-if="!cc.mobile" class="shape" src="../img/other-line.png" alt="">
+                    <img ng-if="!cc.mobile" class="shape" src="../img/hollow-rectangle.png" alt="">
+                </ion-slide>
+                <ion-slide ng-repeat="slide in cc.slideContent">
+                    <div class="hero-image" style="background: url({{slide.image}})"></div>
+                    <div class="darken"></div>
+                    <div class="container">
+                        <div class="row nopad title">
+                            <div class="col nopad">
+                                <span>{{slide.title}}</span>
+                            </div>
+                        </div>
+                        <div class="row content">
+                            <div class="col">
+                                <span class="sale">{{slide.content}}</span>
+                            </div>
+                        </div>
+                        <div class="row buttons nopad">
+                            <div class="col nopad">
+                                <!--<button ng-repeat="button in slide.buttons" ui-sref="{{button.dest}}">{{button.label}}</button>-->
+                                <button ng-repeat="button in slide.buttons" ng-click="cc.go(button)">{{button.label}}</button>
+                            </div>
+                        </div>
+                    </div>
+                </ion-slide>
+            </ion-slide-box>
+        </div>
+    </div>
 </div>
