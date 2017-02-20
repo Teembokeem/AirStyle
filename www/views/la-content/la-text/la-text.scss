@@ -1,0 +1,20 @@
+la-text {
+    .container {
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 3rem;
+        .row {
+            display: flex;
+            justify-content: center;
+            .col {
+                display: flex;
+                justify-content: center;
+                span {
+                    font-family: 'Apercu';
+                    // font-weight: bold;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

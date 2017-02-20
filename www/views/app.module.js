@@ -3,30 +3,31 @@
 
     var dir = 'views/';
     angular.module('Template', [
-        'ionic',
-        'Configs',
-        'Services',
-        'Statics',
-        'angularMoment',
-        'Mailchimp.module',
-        'Tumblr.module',
-        'Api.base.module',
-        'Directives',
-        'Home.view.module',
-        'Ticket.view.module',
-        'TourStops.view.module',
-        'Lineup.view.module',
-        'Artist.view.module',
-        'Faq.view.module',
-        'Rider.view.module',
-        'Rankings.view.module',
-        'BeijingContent.view.module',
-        'InnsbruckContent.view.module',
-        'About.view.module',
-        'Contact.view.module',
-        'Schedule.view.module',
-        'LiveStream.view.module'
-    ])
+            'ionic',
+            'Configs',
+            'Services',
+            'Statics',
+            'angularMoment',
+            'Mailchimp.module',
+            'Tumblr.module',
+            'Api.base.module',
+            'Directives',
+            'Home.view.module',
+            'Ticket.view.module',
+            'TourStops.view.module',
+            'Lineup.view.module',
+            'Artist.view.module',
+            'Faq.view.module',
+            'Rider.view.module',
+            'Rankings.view.module',
+            'BeijingContent.view.module',
+            'InnsbruckContent.view.module',
+            'LaContent.view.module',
+            'About.view.module',
+            'Contact.view.module',
+            'Schedule.view.module',
+            'LiveStream.view.module'
+        ])
 
 
         .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {

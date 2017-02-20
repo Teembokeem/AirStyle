@@ -512,6 +512,108 @@
                             },
                         }
                     },
+                    'Chris-Corning': {
+                        name: {
+                            first: 'Chris',
+                            last: 'Corning'
+                        },
+                        nation: 'USA',
+                        sponsors: ['Never Summer'],
+                        homeBase: 'Silverthorne',
+                        dob: new Date('1/1/1999'),
+                        stance: 'Unknown',
+                        bio: [
+                            'N/A'
+                        ],
+                        ref: 'Chris-Corning',
+                        img_portrait: 'img/loRiders/anon.jpg',
+                        // tweet: 'https://twitter.com/chasguldemond',
+                        // fb: 'https://www.facebook.com/ChuckG.tv/',
+                        // inst: 'https://www.instagram.com/chasguldemond/',
+                        // youtube: 'https://www.youtube.com/user/USSANetwork/about',
+                        // video: 'https://www.youtube.com/embed/K9NdQxzEQ4M',
+                        scores: {
+                            '2011': {
+                                beijing: {
+                                    score: 'N/A'
+                                },
+                                innsbruck: {
+                                    score: 'N/A'
+                                },
+                                la: {
+                                    score: 'N/A'
+                                }
+                            },
+                            '2012': {
+                                beijing: {
+                                    score: 'N/A'
+                                },
+                                innsbruck: {
+                                    score: 'N/A'
+                                },
+                                la: {
+                                    score: 'N/A'
+                                }
+                            },
+                            '2013': {
+                                beijing: {
+                                    score: 'N/A',
+                                    trick: 'N/A'
+                                },
+                                innsbruck: {
+                                    score: 'N/A'
+                                },
+                                la: {
+                                    score: 'N/A'
+                                }
+                            },
+                            '2014': {
+                                beijing: {
+                                    score: 'N/A'
+                                },
+                                innsbruck: {
+                                    score: 'N/A'
+                                },
+                                la: {
+                                    score: 'N/A'
+                                }
+                            },
+                            '2015': {
+                                beijing: {
+                                    score: 'N/A'
+                                },
+                                innsbruck: {
+                                    score: 'N/A'
+                                },
+                                la: {
+                                    score: 'N/A'
+                                }
+                            },
+                            '2016': {
+                                beijing: {
+                                    score: 'N/A',
+                                },
+                                innsbruck: {
+                                    score: 'N/A'
+                                },
+                                la: {
+                                    score: 'N/A'
+                                }
+                            },
+                            '2017': {
+                                beijing: {
+                                    score: 'N/A'
+                                },
+                                innsbruck: {
+                                    score: 'N/A'
+                                },
+                                la: {
+                                    score: 'N/A',
+                                    score_trick: '148.66'
+                                }
+                            },
+                        }
+                    },
                     'Clemens-Millauer': {
                         name: {
                             first: 'Clemens',
@@ -1926,7 +2028,8 @@
                                     score: 'N/A'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: 'N/A',
+                                    score_trick: '104.00'
                                 }
                             }
                         }
@@ -2027,7 +2130,8 @@
                                     score_trick: '179.99'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: 'N/A',
+                                    score_trick: '161.99'
                                 }
                             }
                         }
@@ -2133,7 +2237,8 @@
                                     score_trick: '184.32'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: 'N/A',
+                                    score_trick: '178.66'
                                 }
                             }
                         }
@@ -3449,7 +3554,8 @@
                                     score_trick: '122.33'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: 'N/A',
+                                    score_trick: '105.66'
                                 }
                             }
                         }
@@ -3656,7 +3762,8 @@
                                     score: '56.83'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: 'N/A',
+                                    score_trick: '162.66'
                                 }
                             }
                         }
@@ -3869,7 +3976,8 @@
                                     score_trick: '176.33'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: 'N/A',
+                                    score_trick: '157.33'
                                 }
                             }
                         }
@@ -4078,7 +4186,8 @@
                                     score_trick: '64.99'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: 'N/A',
+                                    score_trick: '93.66'
                                 }
                             }
                         }

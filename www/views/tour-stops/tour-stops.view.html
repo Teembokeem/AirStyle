@@ -11,6 +11,16 @@
             </div>
             <innsbruck-rankings></innsbruck-rankings>
         </div>
+        <div class="la-rankings" ng-if="cc.tour.ref == 'la'">
+            <div class="container">
+                <div class="row section-title">
+                    <div class="title">
+                        <span>FULL RESULTS</span>
+                    </div>
+                </div>
+            </div>
+            <la-rankings></la-rankings>
+        </div>
         <avatar-panels avatars="cc.avatars" max="6" ref="app.artist" schedule="cc.showSchedule" view="cc.showViewAll" tag="Music From"></avatar-panels>
         <tumblr-feed></tumblr-feed>
         <ranking-summary></ranking-summary>
