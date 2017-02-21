@@ -104,7 +104,7 @@
                                     score: '43.64'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '53.24'
                                 }
                             }
                         }
@@ -206,7 +206,7 @@
                                     score_trick: '147.66'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '6.68'
                                 }
                             },
                         }
@@ -306,7 +306,7 @@
                                     score: '8.92'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '11.18'
                                 }
                             },
                         }
@@ -406,7 +406,7 @@
                                     score: 'N/A'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '18.06'
                                 }
                             }
                         }
@@ -608,7 +608,7 @@
                                     score: 'N/A'
                                 },
                                 la: {
-                                    score: 'N/A',
+                                    score: '74.27',
                                     score_trick: '148.66'
                                 }
                             },
@@ -911,7 +911,7 @@
                                     score: 'N/A'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '32.64'
                                 }
                             }
                         }
@@ -1018,7 +1018,7 @@
                                     score: 'N/A'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '15.74'
                                 }
                             }
                         }
@@ -1320,7 +1320,7 @@
                                     score: '49.87'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '40.74'
                                 }
                             }
                         }
@@ -1520,7 +1520,7 @@
                                     score: '37.95'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '46.68'
                                 }
                             }
                         }
@@ -1621,7 +1621,7 @@
                                     score: 'N/A'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '56.83'
                                 }
                             }
                         }
@@ -2028,7 +2028,7 @@
                                     score: 'N/A'
                                 },
                                 la: {
-                                    score: 'N/A',
+                                    score: '64.83',
                                     score_trick: '104.00'
                                 }
                             }
@@ -2130,7 +2130,7 @@
                                     score_trick: '179.99'
                                 },
                                 la: {
-                                    score: 'N/A',
+                                    score: '85.73',
                                     score_trick: '161.99'
                                 }
                             }
@@ -2237,7 +2237,7 @@
                                     score_trick: '184.32'
                                 },
                                 la: {
-                                    score: 'N/A',
+                                    score: '100.0',
                                     score_trick: '178.66'
                                 }
                             }
@@ -2439,7 +2439,7 @@
                                     score_trick: '161.99'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '43.64'
                                 }
                             }
                         }
@@ -2539,7 +2539,7 @@
                                     score: 'N/A'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '22.76'
                                 }
                             }
                         }
@@ -2639,7 +2639,7 @@
                                     score: '30.09'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '8.92'
                                 }
                             }
                         }
@@ -2840,7 +2840,7 @@
                                     score: 'N/A'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '37.95'
                                 }
                             }
                         }
@@ -2940,7 +2940,7 @@
                                     score: '27.60'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '4.44'
                                 }
                             }
                         }
@@ -3040,7 +3040,7 @@
                                     score: '13.45'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '30.09'
                                 }
                             },
 
@@ -3146,7 +3146,7 @@
                                     score: '46.68'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '20.39'
                                 }
                             }
                         }
@@ -3445,7 +3445,7 @@
                                     score: '4.44'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '25.16'
                                 }
                             }
                         }
@@ -3655,7 +3655,7 @@
                                     score: '20.39'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '35.26'
                                 }
                             }
                         }
@@ -3762,7 +3762,7 @@
                                     score: '56.83'
                                 },
                                 la: {
-                                    score: 'N/A',
+                                    score: '92.45',
                                     score_trick: '162.66'
                                 }
                             }
@@ -3870,7 +3870,7 @@
                                     score: 'N/A'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '13.45'
                                 }
                             }
                         }
@@ -3976,7 +3976,7 @@
                                     score_trick: '176.33'
                                 },
                                 la: {
-                                    score: 'N/A',
+                                    score: '79.70',
                                     score_trick: '157.33'
                                 }
                             }
@@ -4186,7 +4186,7 @@
                                     score_trick: '64.99'
                                 },
                                 la: {
-                                    score: 'N/A',
+                                    score: '60.68',
                                     score_trick: '93.66'
                                 }
                             }
@@ -4294,7 +4294,7 @@
                                     score: '40.74'
                                 },
                                 la: {
-                                    score: 'N/A'
+                                    score: '49.87'
                                 }
                             },
                         }
