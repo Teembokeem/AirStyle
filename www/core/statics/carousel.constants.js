@@ -8,7 +8,7 @@
                 'la': {
                     schedule: true,
                     slide: {
-                        title: 'LOS ANGELES TICKETS',
+                        title: 'LOS ANGELES',
                         content: 'FULL RESULTS',
                         buttons: [{
                                 label: 'Learn More',
