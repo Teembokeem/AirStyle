@@ -821,7 +821,7 @@
                                 link: 'http://www.chevronwithtechron.com/extramile.aspx'
                             }, {
                                 id: 'intelligentsia',
-                                img: 'img/intelligentsia.png',
+                                img: 'img/Intelligentsia.png',
                                 // dim: 120,
                                 link: 'https://www.intelligentsiacoffee.com/'
                             }, {
