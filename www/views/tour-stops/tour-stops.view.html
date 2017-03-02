@@ -1,6 +1,23 @@
 <ion-view class="tour-stops-view">
     <ion-content delegate-handle="mainScroll" on-scroll="ac.getScroll()" overflow-scroll="true">
         <tour-carousel></tour-carousel>
+        <div class="innsbruck-rankings">
+            <div class="container">
+                <div class="row section-title">
+                    <div class="title">
+                        <span>{{cc.tour.recap.title | uppercase}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <video-comp video="cc.tour.recap.video"></video-comp>
+        <div class="recap-text">
+            <div class="row">
+                <div class="col">
+                    <span>The 2017 Air + Style tour wrapped in DTLA as the best Big Air riders in the world took on “Mt. Los Angeles”, our 16-story scaffolding beast of a mega ramp. Major Lazer, Flume, YG, TV on the Radio, and more kept the vibes high for 30,000 fans all weekend long, making this the best Air + Style event ever. Congrats to Max Parrot for the win, and mega congrats to Marcus Kleveland for racking up enough overall tour points this season to take home the coveted Ring of Glory. Special thanks to go90, Coors Light, Hansen’s Natural Sodas, and Stoli.</span>
+                </div>
+            </div>
+        </div>
         <div class="innsbruck-rankings" ng-if="cc.tour.ref == 'innsbruck'">
             <div class="container">
                 <div class="row section-title">
@@ -21,17 +38,17 @@
             </div>
             <la-rankings></la-rankings>
         </div>
-        <avatar-panels avatars="cc.avatars" max="6" ref="app.artist" schedule="cc.showSchedule" view="cc.showViewAll" tag="Music From"></avatar-panels>
+        <avatar-panels avatars="cc.avatars" max="8" ref="app.artist" schedule="cc.showSchedule" view="cc.showViewAll" tag="Music From"></avatar-panels>
         <tumblr-feed></tumblr-feed>
         <ranking-summary></ranking-summary>
-        <div class="container">
+        <!--<div class="container">
             <div class="row section-title">
                 <div class="col">
                     <span>2016 HIGHLIGHTS</span>
                 </div>
             </div>
         </div>
-        <video-comp video="cc.tour.video"></video-comp>
+        <video-comp video="cc.tour.video"></video-comp>-->
         <tour-faq></tour-faq>
         <download-app></download-app>
         <partners></partners>

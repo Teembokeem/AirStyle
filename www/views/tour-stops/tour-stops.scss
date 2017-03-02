@@ -2,13 +2,12 @@
     ion-content {
         .scroll {
             ranking-summary {
-                > .container {
+                >.container {
                     margin-top: 100px;
                     margin-bottom: 50px;
                 }
             }
-
-            > .container {
+            >.container {
                 .section-title {
                     display: flex;
                     flex-flow: row wrap;
@@ -20,15 +19,30 @@
                     .col {
                         display: flex;
                         justify-content: center;
-
                         margin: 0 auto;
                         width: 90.9vw;
-
-
                         span {
                             padding-bottom: 1rem;
                             border-bottom: 8px solid $as-yellow;
                             font-size: 40px;
+                        }
+                    }
+                }
+            }
+            .recap-text {
+                margin: 0 auto;
+                width: 80%;
+                margin-bottom: 3rem;
+                .row {
+                    display: flex;
+                    justify-content: center;
+                    .col {
+                        display: flex;
+                        justify-content: center;
+                        span {
+                            font-family: 'Apercu';
+                            // font-weight: bold;
+                            font-size: 20px;
                         }
                     }
                 }
