@@ -25,8 +25,7 @@
             tours: {
                 name: 'Tour Stops',
                 ref: 'tours',
-                items: [
-                    {
+                items: [{
                         name: 'Los Angeles',
                         ref: 'la',
                         route: 'app.tour-stops',
@@ -69,7 +68,7 @@
                     outbound: false,
                     href: '',
                     class: 'ib'
-                },]
+                }, ]
             },
             riders: {
                 name: 'Riders + Rankings',
@@ -104,7 +103,7 @@
                     outbound: false,
                     href: '',
                     class: 'ib'
-                },]
+                }, ]
             },
             merch: {
                 name: 'Merch',
@@ -124,7 +123,7 @@
                     outbound: false,
                     href: '',
                     class: 'ib'
-                },]
+                }, ]
             }
 
         }
