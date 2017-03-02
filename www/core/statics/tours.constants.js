@@ -19,6 +19,10 @@
                         ref: 'innsbruck',
                         date_semantic: 'FEB 3 + 4',
                         dest: 'app.tour-stops',
+                        recap: {
+                            title: '2017 Highlights',
+                            video: 'https://www.youtube.com/embed/_E0PGhcdo2g?&theme=dark&autohide=2&showinfo=0'
+                        },
                         video: 'https://www.youtube.com/embed/GxzXcur0gbg?&theme=dark&autohide=2&showinfo=0',
                         city_block_image: '../img/innsbruck_city_block.jpg',
                         schedule: [{
@@ -369,6 +373,10 @@
                         ref: 'la',
                         date_semantic: 'FEB 18 + 19',
                         dest: 'app.tour-stops',
+                        recap: {
+                            video: 'https://www.youtube.com/embed/Ay3jvf_hN6g?&theme=dark&autohide=2&showinfo=0',
+                            title: 'Los Angeles 2017'
+                        },
                         video: 'https://www.youtube.com/embed/gi_iUovqnjI?&theme=dark&autohide=2&showinfo=0',
                         city_block_image: '../img/la_city_block.jpg',
                         schedule: [{
