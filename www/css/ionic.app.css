@@ -12241,6 +12241,20 @@ ticket-footer .container {
       border-bottom: 8px solid #f9fe17;
       font-size: 40px; }
 
+.tour-stops-view ion-content .scroll .recap-text {
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 3rem; }
+  .tour-stops-view ion-content .scroll .recap-text .row {
+    display: flex;
+    justify-content: center; }
+    .tour-stops-view ion-content .scroll .recap-text .row .col {
+      display: flex;
+      justify-content: center; }
+      .tour-stops-view ion-content .scroll .recap-text .row .col span {
+        font-family: 'Apercu';
+        font-size: 20px; }
+
 tour-carousel {
   position: relative; }
   tour-carousel > .container {
