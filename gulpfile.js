@@ -19,16 +19,11 @@ var useref = require('gulp-useref');
 var obfuscate = require('gulp-obfuscate');
 var cleanCSS = require('gulp-clean-css');
 var gulpif = require('gulp-if');
+var templateCache = require('gulp-angular-templatecache');
+var cache = require('gulp-cached');
 
 var paths = {
-    sass: [
-        './www/views/**/*.scss',
-        './www/css/*.scss',
-        './www/views/**/*',
-        './www/views/**/**/*.scss',
-        './www/**/**/*.js',
-        './www/**/**/*.scss'
-    ]
+    sass: ['./www/views/**/*.scss', './www/css/*.scss', './www/views/**/**/*.scss', './www/**/**/*.scss']
 };
 
 gulp.task('default', ['watch']);
@@ -37,14 +32,15 @@ gulp.task('sass', function(done) {
     gulp.src('./scss/ionic.app.scss').pipe(sass()).on('error', function(d) {
         console.log('ERROR======>', d);
         return sass.logError(d);
-    }).pipe(gulp.dest('./www/css/')).pipe(browserSync.stream()).pipe(minifyCss({
-        keepSpecialComments: 0
-    })).pipe(rename({
-        extname: '.min.css'
-    })).pipe(gulp.dest('./www/css/')).on('end', done);
+    }).pipe(gulp.dest('./www/css/')).pipe(browserSync.stream()).pipe(minifyCss({keepSpecialComments: 0})).pipe(rename({extname: '.min.css'})).pipe(gulp.dest('./www/css/')).on('end', done);
 });
 
-gulp.task('watch', ['sass'], function() {
+//templateCache
+gulp.task('templates', function(cb) {
+    return gulp.src(['./www/**/**/*.html', '!./www/index.html', '!./www/lib/**/**/*.html']).pipe(templateCache({standalone: true})).pipe(gulp.dest('./www/templates/'));
+});
+
+gulp.task('watch', ['sass','templates'], function() {
 
     browserSync.init({
         server: {
@@ -57,6 +53,14 @@ gulp.task('watch', ['sass'], function() {
         browserSync.reload();
         console.log('File LOG' + event.path + ' was ' + event.type + ', running tasks...');
     });
+
+    gulp.watch([
+        './www/**/**/*.html', '!./www/index.html', '!./www/lib/**/**/*.html'
+    ], ['templates']);
+
+    gulp.watch('./www/templates/templates.js').on('change',function(e) {
+        browserSync.reload();
+    })
 });
 
 gulp.task('install', ['git-check'], function() {
@@ -78,23 +82,16 @@ gulp.task('clean', function() {
     return del.sync('build');
 });
 
-//Copy Docs to Build
-gulp.task('copy-docs', function(cb) {
-    return gulp.src('./www/docs/*').pipe(gulp.dest('./build/docs/'));
-})
-
-//Copy Fonts to Build
-gulp.task('copy-fonts', function(cb) {
-    return gulp.src(['./www/fonts/*','./www/lib/ionic/fonts/*'],{base:'./www/'}).pipe(gulp.dest('./build/'));
+//Copy src to Build
+gulp.task('copysrc', function(cb) {
+    return gulp.src([
+        './www/fonts/*', './www/docs/*', './www/templates/templates.js', './www/lib/ionic/fonts/*'
+    ], {base: './www/'}).pipe(gulp.dest('./build/'));
 })
 
 //Image minification
 gulp.task('minify-image', function(cb) {
-    return gulp.src(['./www/img/**/**/*.+(png|jpg|JPG|jpeg|gif|svg)']).pipe(imagemin({
-        optimizationLevel: 5,
-        progressive: true,
-        interlaced: true
-    })).pipe(gulp.dest('./build/img/'));
+    return gulp.src(['./www/img/**/**/*.+(png|jpg|JPG|jpeg|gif|svg)']).pipe(imagemin({optimizationLevel: 5, progressive: true, interlaced: true})).pipe(gulp.dest('./build/img/'));
 });
 
 //combines all angular js files and moving in to one....
@@ -108,32 +105,24 @@ gulp.task('use-ref', function(cb) {
     };
 
     pump([
-        gulp.src('./www/index.html')
-        .pipe(useref())
-        .pipe(gulpif('*.js', minifier(options, uglifyjs)))
-        .pipe(gulpif('*.css', cleanCSS())),
+        gulp.src('./www/index.html').pipe(useref()).pipe(gulpif('*.js', minifier(options, uglifyjs))).pipe(gulpif('*.css', cleanCSS())),
         gulp.dest('./build/')
     ], cb);
 
 });
 //minify  main index.html
-gulp.task('minify-index',function(cb) {
+gulp.task('minify-index', function(cb) {
     pump([
         gulp.src('./build/index.html'),
-        htmlmin({
-            collapseWhitespace: true,
-            removeComments:true
-        }),
+        htmlmin({collapseWhitespace: true, removeComments: true}),
         gulp.dest('./build/')
-    ],cb);
+    ], cb);
 })
 
 //minify html
 gulp.task('minify-html', function(cb) {
     // , './careers/**/*.html'
-    return gulp.src(['./www/**/**/*.html','!./www/index.html','!./www/lib/**/**/*.html']).pipe(htmlmin({
-        collapseWhitespace: true
-    })).pipe(gulp.dest('./build/'));
+    return gulp.src(['./www/**/**/*.html', '!./www/index.html', '!./www/lib/**/**/*.html']).pipe(htmlmin({collapseWhitespace: true})).pipe(gulp.dest('./build/'));
 });
 
 //minify all js files
@@ -148,18 +137,16 @@ gulp.task('minify-js', function(cb) {
     };
     pump([
         gulp.src([
-            './www/core/**/**/*.js', './www/views/**/**/*.js'
-        ], {
-            base: './www/'
-        }),
+            './www/core/**/**/*.js', './www/views/**/**/*.js', '!./www/templates/*.js'
+        ], {base: './www/'}),
         minifier(options, uglifyjs).on('error', gutil.log),
         gulp.dest('./build/')
     ], cb);
 });
 
 //gulp final task
-gulp.task('production', function(callback) {
+gulp.task('production', ['templates'], function(cb) {
     runSequence('clean', [
-        'copy-docs', 'copy-fonts', 'minify-js', 'minify-image', 'use-ref'
-    ], 'minify-html','minify-index', callback);
+        'copysrc', 'minify-js', 'minify-image', 'use-ref'
+    ], 'minify-html', 'minify-index', cb);
 });

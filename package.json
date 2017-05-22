@@ -17,6 +17,7 @@
     "browser-sync": "^2.15.0",
     "del": "^2.2.2",
     "gulp-angular-templatecache": "^2.0.0",
+    "gulp-cached": "^1.1.1",
     "gulp-clean-css": "^3.3.1",
     "gulp-htmlmin": "^3.0.0",
     "gulp-if": "^2.0.2",

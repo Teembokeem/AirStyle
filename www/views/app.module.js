@@ -26,7 +26,8 @@
             'About.view.module',
             'Contact.view.module',
             'Schedule.view.module',
-            'LiveStream.view.module'
+            'LiveStream.view.module',
+            'templates'
         ])
 
 
