@@ -7,7 +7,4 @@ platforms/
 plugins/
 www/lib/**
 www/css/*.min.*
-
-
-
-
+/build/
