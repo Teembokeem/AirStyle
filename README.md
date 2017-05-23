@@ -28,7 +28,7 @@ Issues have been disabled on this repo, if you do find an issue or have a questi
 ```
 gulp watch
 ```
-(It will create templateCaches into a js file in /templates folder)
+(It will also create templateCaches into a js file in /templates folder alongwith scss transpile into css)
 Run it before build the production
 
 
