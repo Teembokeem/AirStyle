@@ -46,13 +46,16 @@ gulp.task('watch', ['sass','templates'], function() {
         server: {
             baseDir: './www/'
         },
-        port: 3001
+        port: 8000
     })
     gulp.watch(paths.sass, ['sass']).on('change', function(event) {
         // browserSync.stream();
         browserSync.reload();
         console.log('File LOG' + event.path + ' was ' + event.type + ', running tasks...');
     });
+    gulp.watch('./www/**/**/*.js').on('change', function(e){
+        browserSync.reload();
+    })
 
     gulp.watch([
         './www/**/**/*.html', '!./www/index.html', '!./www/lib/**/**/*.html'
