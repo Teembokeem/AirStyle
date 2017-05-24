@@ -1,8 +1,8 @@
-(function () {
+(function() {
     'use strict';
     var dir = "views/tour-stops/"
     angular.module('TourStops.view.module', ['Services'])
-        .config(function ($stateProvider, $urlRouterProvider) {
+        .config(function($stateProvider, $urlRouterProvider) {
             $stateProvider
                 .state('app.tour-stops', {
                     url: '/tour-stops/:tour',
@@ -14,13 +14,21 @@
                         }
                     },
                     params: {
-                        tour: { value: 'innsbruck' }
+                        tour: {
+                            value: 'innsbruck'
+                        }
+                    },
+                    resolve: {
+                        TOUR: function(tourService, $stateParams) {
+                            return tourService.getTourStop($stateParams.tour).then(function(res) {
+                                return res.data.data;
+                            })
+                        }
                     }
                 })
 
         })
 
 
-        .run(function ($log) {
-        });
+        .run(function($log) {});
 })();
