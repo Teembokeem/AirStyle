@@ -12912,6 +12912,99 @@ tour-faq > .container .cta .col {
     rankings > .container > .row > .col > .container > .row > .col:nth-child(3), .rankings > .container > .row > .col > .container > .row > .col:nth-child(3) {
       min-width: 14rem; } }
 
+sponsors-panel > .container {
+  margin-bottom: 94px; }
+  sponsors-panel > .container .section-title {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px; }
+    sponsors-panel > .container .section-title .title {
+      width: auto !important;
+      height: 48px;
+      padding-bottom: 10px;
+      text-align: center; }
+      sponsors-panel > .container .section-title .title span {
+        font-size: 30px;
+        position: relative;
+        border-bottom: 8px solid #62ff00;
+        padding-bottom: 0.75rem; }
+  sponsors-panel > .container .sponsor-container {
+    width: 100%;
+    margin-bottom: 5rem; }
+    sponsors-panel > .container .sponsor-container .container {
+      width: 100%; }
+      sponsors-panel > .container .sponsor-container .container .row {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center; }
+        sponsors-panel > .container .sponsor-container .container .row .sponsor {
+          transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+          filter: grayscale(0);
+          display: flex;
+          justify-content: center;
+          margin: 0 2rem;
+          min-width: 300px; }
+          sponsors-panel > .container .sponsor-container .container .row .sponsor a img {
+            max-height: 120px !important;
+            max-width: 150px; }
+          sponsors-panel > .container .sponsor-container .container .row .sponsor a img:nth-child(-n + 5) {
+            margin-bottom: 2rem; }
+        sponsors-panel > .container .sponsor-container .container .row .partner:hover {
+          filter: grayscale(100%); }
+        sponsors-panel > .container .sponsor-container .container .row .partner.override-grayscale {
+          filter: grayscale(0) !important; }
+    sponsors-panel > .container .sponsor-container.hotel-partners .partner-info {
+      padding-left: 20px; }
+      sponsors-panel > .container .sponsor-container.hotel-partners .partner-info .title {
+        font-size: 1.4rem;
+        padding-bottom: 5px; }
+      sponsors-panel > .container .sponsor-container.hotel-partners .partner-info .title,
+      sponsors-panel > .container .sponsor-container.hotel-partners .partner-info .subtitle {
+        font-family: 'Reglo-Bold'; }
+      sponsors-panel > .container .sponsor-container.hotel-partners .partner-info .description,
+      sponsors-panel > .container .sponsor-container.hotel-partners .partner-info .contact-info {
+        font-family: 'Apercu'; }
+        sponsors-panel > .container .sponsor-container.hotel-partners .partner-info .description span,
+        sponsors-panel > .container .sponsor-container.hotel-partners .partner-info .contact-info span {
+          font-family: 'Apercu'; }
+      sponsors-panel > .container .sponsor-container.hotel-partners .partner-info .description {
+        padding-top: 5px; }
+      sponsors-panel > .container .sponsor-container.hotel-partners .partner-info .contact-info {
+        padding-top: 8px; }
+      sponsors-panel > .container .sponsor-container.hotel-partners .partner-info a {
+        font-family: 'Apercu';
+        color: #40caff; }
+
+@media (min-width: 1024px) {
+  sponsors-panel > .container .section-title {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px; }
+    sponsors-panel > .container .section-title .title {
+      width: 172px;
+      height: 48px;
+      border-bottom: 8px solid #62ff00;
+      padding-bottom: 10px; }
+      sponsors-panel > .container .section-title .title span {
+        font-size: 40px;
+        position: relative; }
+  sponsors-panel > .container .sponsor-container {
+    justify-content: center; }
+    sponsors-panel > .container .sponsor-container .container .row {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      margin: 0 auto;
+      width: 90%; }
+      sponsors-panel > .container .sponsor-container .container .row .sponsor {
+        min-width: 125px; } }
+
 .beijing-content-view ion-content .scroll {
   padding-top: 100px; }
   .beijing-content-view ion-content .scroll > .container .section-title {
