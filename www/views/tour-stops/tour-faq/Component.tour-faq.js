@@ -3,7 +3,7 @@
     angular.module('TourStops.view.module')
         .component('tourFaq', {
             bindings: {
-
+                faqs:'='
             },
             templateUrl: 'views/tour-stops/tour-faq/tour-faq.html',
             controller: TourFaqCtrl,
@@ -23,10 +23,12 @@
         }
 
         cc.$onInit = function () {
-            var tourFaq = Tours(cc.tour).faq_general;
-            cc.faqContent = tourFaq.filter(function (faq) {
-                return faq.main ? true : false
-            })
+            console.log(cc.faqs);
+            // var tourFaq = Tours(cc.tour).faq_general;
+            // cc.faqContent = tourFaq.filter(function (faq) {
+            //     return faq.main ? true : false
+            // })
+            cc.faqContent = cc.faqs
         }
     }
 })();
