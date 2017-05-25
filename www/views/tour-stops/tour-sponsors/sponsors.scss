@@ -1,0 +1,137 @@
+sponsors-panel {
+    > .container {
+        margin-bottom: 94px;
+        .section-title {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 60px;
+            .title {
+                width: auto !important;
+                height: 48px;
+                padding-bottom: 10px;
+                text-align: center;
+                span {
+                    font-size: 30px;
+                    position: relative;
+                    border-bottom: 8px solid #62ff00;
+                    padding-bottom: 0.75rem;
+                }
+            }
+        }
+        .sponsor-container {
+            width: 100%;
+            margin-bottom: 5rem;
+            .container {
+                width: 100%;
+                .row {
+                    width: 100%;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
+                    .sponsor {
+                        transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+                        filter: grayscale(0);
+                        display: flex;
+                        justify-content: center;
+                        //align-items: center;
+                        margin: 0 2rem;
+                        min-width: 300px;
+                        a {
+                            img {
+                                // filter: grayscale(100%);
+                                max-height: 120px !important;
+                                max-width: 150px;
+                            }
+                            img:nth-child(-n + 5) {
+                                margin-bottom: 2rem;
+                            }
+                        }
+                    }
+                    .partner:hover {
+                        filter: grayscale(100%);
+                    }
+                    .partner.override-grayscale {
+                        filter: grayscale(0) !important;
+                    }
+                }
+            }
+            &.hotel-partners {
+                .partner-info {
+                    padding-left: 20px;
+                    .title {
+                        font-size: 1.4rem;
+                        padding-bottom: 5px;
+                    }
+                    .title,
+                    .subtitle {
+                        font-family: 'Reglo-Bold';
+                    }
+                    .description,
+                    .contact-info {
+                        font-family: 'Apercu';
+                        span {
+                            font-family: 'Apercu';
+                        }
+                    }
+                    .description {
+                        padding-top: 5px;
+                    }
+                    .contact-info {
+                        padding-top: 8px;
+                    }
+                    a {
+                        font-family: 'Apercu';
+                        color: $as-blue;
+                        //text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    sponsors-panel {
+        > .container {
+            // margin-top: 108px;
+            .section-title {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 60px;
+                .title {
+                    width: 172px;
+                    height: 48px;
+                    border-bottom: 8px solid $as-green;
+                    padding-bottom: 10px;
+                    span {
+                        font-size: 40px;
+                        position: relative;
+                    }
+                }
+            }
+            .sponsor-container {
+                justify-content: center;
+                .container {
+                    .row {
+                        display: flex;
+                        flex-flow: row wrap;
+                        justify-content: center;
+                        margin: 0 auto;
+                        width: 90%;
+                        .sponsor {
+                            min-width: 125px;
+                        }
+                        .sponsor:nth-child(-n + 5) {
+                            // margin-right: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
