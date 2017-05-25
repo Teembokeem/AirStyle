@@ -1,0 +1,58 @@
+<div class="rankings">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div ng-click="cc.stateChange('app.rider.details', athlete.ref)" ng-repeat="athlete in cc.laRankingsList" class="container">
+                    <div class="row nopad">
+                        <div class="col">
+                            <img ng-src="{{athlete.img_portrait}}" alt="">
+                        </div>
+                        <div class="col">
+                            <div class="container">
+                                <div class="row nopad">
+                                    <div class="col">
+                                        <span>0{{$index + 1}}</span>
+                                    </div>
+                                </div>
+                                <div class="row nopad">
+                                    <div class="col">
+                                        <span>{{athlete.name.first}}</span>
+                                        <span>{{athlete.name.last}}</span>
+                                    </div>
+                                </div>
+                                <div class="row nopad">
+                                    <div class="col">
+                                        <span>{{athlete.origin}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="container">
+                                <div class="row nopad">
+                                    <div class="col">
+                                        <span>{{athlete.scores[0][cc.location]}}</span>
+                                    </div>
+                                </div>
+                                <div class="row nopad">
+                                    <div class="col">
+                                        <span>TOTAL</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div ng-if="cc.laRankingsList.length==0">
+                    <h3>No Result Found</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row more">
+            <div class="col">
+                <button ng-mouseover="cc.borderButtonHover = !cc.borderButtonHover" ng-mouseleave="cc.borderButtonHover  = !cc.borderButtonHover"
+                    ng-class="{'border-button': cc.borderButtonHover}" ng-click="cc.stateChange('app.rider.all')">More Riders + Rankings</button>
+            </div>
+        </div>
+    </div>
+</div>
