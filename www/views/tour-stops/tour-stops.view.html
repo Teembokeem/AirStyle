@@ -18,7 +18,7 @@
                 </div>
             </div>
         </div>
-        <div class="innsbruck-rankings" ng-if="cc.tour.ref == 'innsbruck'">
+        <div class="rankings">
             <div class="container">
                 <div class="row section-title">
                     <div class="title">
@@ -26,19 +26,9 @@
                     </div>
                 </div>
             </div>
-            <innsbruck-rankings></innsbruck-rankings>
+            <rankings riders="cc.riders" years="cc.eventYear" location="cc.eventLocation"></rankings>
         </div>
-        <div class="la-rankings" ng-if="cc.tour.ref == 'la'">
-            <div class="container">
-                <div class="row section-title">
-                    <div class="title">
-                        <span>FULL RESULTS</span>
-                    </div>
-                </div>
-            </div>
-            <la-rankings></la-rankings>
-        </div>
-        <avatar-panels avatars="cc.avatars" max="8" ref="app.artist" schedule="cc.showSchedule" view="cc.showViewAll" tag="Music From"></avatar-panels>
+        <avatar-panels avatars="cc.artists" max="8" ref="app.artist" schedule="cc.showSchedule" view="cc.showViewAll" tag="Music From"></avatar-panels>
         <tumblr-feed></tumblr-feed>
         <ranking-summary></ranking-summary>
         <!--<div class="container">
