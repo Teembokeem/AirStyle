@@ -44,7 +44,7 @@
                     {
                         name: 'Beijing',
                         ref: 'beijing',
-                        route: 'app.beijing-content',
+                        route: 'app.tour-stops',
                         outbound: false,
                         href: '',
                         class: 'bj'
